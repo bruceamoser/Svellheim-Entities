@@ -1,0 +1,51 @@
+{
+  "name": "Forged Merchants' Papers",
+  "img": "icons/sundries/documents/document-letter-blue.webp",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "type": "treasure",
+  "system": {
+    "description": {
+      "value": "<p><em>A set of travel documents presenting the party as a merchants' retinue. The seal is official-looking — almost. It uses a non-standard merchant cipher, the kind only a king's personal secretary would know how to forge.</em></p><p>Good enough to pass a half-asleep Chainwarden. Less convincing under close scrutiny.</p><p><strong>Effect:</strong> When presented to a Chainwarden checkpoint guard, the bearer makes a Presence test. Tier 2+: the papers are accepted without question. Tier 1: the reviewing officer notices the seal is irregular and becomes suspicious (+1 Interest toward questioning), but does not immediately refuse passage.</p>",
+      "director": "<p><strong>Received:</strong> Beat 3 (The Quiet Summons) — King Harald provides these papers to help the party slip out of Hrafnborg and avoid Chainwarden scrutiny. At the Hrafnborg departure checkpoint, the guard is half-asleep and waves them through. Save the tension for the Greypass Toll, where Eirik Greyhand examines them more carefully (Beat 4a).</p><p><strong>Using the papers:</strong> When presented at a checkpoint, the bearer makes a Presence test (moderate difficulty). Tier 2+: accepted without question. Tier 1: the officer notes the irregular seal ('This isn't the standard merchant cipher. Where did you get these?') and gains +1 suspicion, but does not refuse passage yet. Once a Chainwarden has noted the irregular seal, word may spread to subsequent checkpoints.</p>"
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "Beat 03",
+      "license": ""
+    },
+    "_dsid": "forged-merchants-papers",
+    "kind": "",
+    "category": "trinket",
+    "echelon": 1,
+    "keywords": [],
+    "quantity": 1,
+    "project": {
+      "prerequisites": "",
+      "source": "",
+      "rollCharacteristic": [],
+      "goal": null,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    }
+  },
+  "_id": "Zd2TDvfhA8wk173S"
+}

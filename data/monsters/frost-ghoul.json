@@ -1,0 +1,493 @@
+{
+  "folder": null,
+  "name": "Frost-Ghoul",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/monster-images/frost-ghoul.png",
+  "system": {
+    "stamina": {
+      "value": 24,
+      "max": 24,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 2
+      },
+      "agility": {
+        "value": 4
+      },
+      "reason": {
+        "value": -2
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": -1
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Frost-Ghouls are the flash-frozen dead of the Svellheim wastes — corpses animated by the unnatural cold of the Wight-Lord's domain. They move with terrible, lurching speed, their rime-coated claws raking through armour to freeze the flesh beneath. They are drawn instinctively to warmth, hunting by the faintest heat signature.</p>",
+      "director": "<p>Frost-Ghouls are fast harriers — Speed 7 lets them close quickly. Use Heat-Seeker to gain edge against targets near fire or who used fire abilities. Lead with Frost-Rake to slow a target, then use Pounce (3 Malice) to shift into position and upgrade that slow to restrained. Fragile Dead means a 10+ damage single hit dazes them — avoid clustering them where AoE can catch multiple ghouls.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 7,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 2,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 5,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 3,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": [
+        "frightened"
+      ]
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 4,
+      "keywords": [
+        "undead"
+      ],
+      "level": 2,
+      "ev": 8,
+      "role": "harrier",
+      "organization": "platoon"
+    }
+  },
+  "prototypeToken": {
+    "name": "Frost-Ghoul",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/monster-images/frost-ghoul.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Frost-Rake",
+      "type": "ability",
+      "img": "icons/magic/water/snowflake-ice-purple.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "frost-ghoul-frost-rake",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target is slowed (save ends).</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "agility"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "FRGH000000000001": {
+              "type": "damage",
+              "_id": "FRGH000000000001",
+              "damage": {
+                "tier1": {
+                  "value": "3",
+                  "types": [
+                    "cold"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "5",
+                  "types": [
+                    "cold"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "agility"
+                  }
+                },
+                "tier3": {
+                  "value": "8",
+                  "types": [
+                    "cold"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "agility"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "FRGH000000000002",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Pounce",
+      "type": "ability",
+      "img": "icons/creatures/abilities/cougar-pounce-stalk-black.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "frost-ghoul-pounce",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": {
+          "type": "malice",
+          "value": 3
+        },
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p>The Frost-Ghoul shifts up to its speed, then makes a Frost-Rake attack. If the target is already slowed, they are instead restrained (save ends).</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "agility"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "FRGH000000000003": {
+              "type": "damage",
+              "_id": "FRGH000000000003",
+              "damage": {
+                "tier1": {
+                  "value": "3",
+                  "types": [
+                    "cold"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "5",
+                  "types": [
+                    "cold"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "agility"
+                  }
+                },
+                "tier3": {
+                  "value": "8",
+                  "types": [
+                    "cold"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "agility"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "FRGH000000000004",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Heat-Seeker",
+      "type": "feature",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Frost-Ghoul has an edge on attacks against targets that are the warmest creature within 3 squares (holding a torch, near Kaelen's ember-mark, or used a fire-based ability this encounter).</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "frost-ghoul-heat-seeker",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "FRGH000000000005",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fragile Dead",
+      "type": "feature",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>When the Frost-Ghoul takes 10 or more damage from a single attack, it is dazed until the end of its next turn.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "frost-ghoul-fragile-dead",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "FRGH000000000006",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unfeeling",
+      "type": "feature",
+      "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Frost-Ghoul is immune to fear, charm, and pain-based effects.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "frost-ghoul-unfeeling",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "FRGH000000000007",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "zmC2ILRlI0VWw64S"
+}

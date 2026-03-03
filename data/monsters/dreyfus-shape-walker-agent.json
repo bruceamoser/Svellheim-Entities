@@ -1,0 +1,748 @@
+{
+  "_id": "tSCPc85KJKrlcSUv",
+  "name": "Dreyfus, Shape-Walker Agent",
+  "img": "icons/creatures/abilities/wolf-rune-glowing-teal.webp",
+  "items": [
+    {
+      "_id": "DREY000000000002",
+      "name": "Wyrd-Claw",
+      "img": "icons/skills/melee/hand-grip-staff-black.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-wyrd-claw",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {
+            "DREY000000000001": {
+              "type": "damage",
+              "_id": "DREY000000000001",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [
+                    "corruption"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "8",
+                  "types": [
+                    "corruption"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "agility"
+                  }
+                },
+                "tier3": {
+                  "value": "11",
+                  "types": [
+                    "corruption"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "agility"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Tier 2+:</strong> The target has a bane on their next power roll (the wound carries the shape-walker's Wyrd-taint). <strong>Tier 3:</strong> The target is also weakened until the end of their next turn.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "DREY000000000004",
+      "name": "Hollowing Gaze",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-small.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-hollowing-gaze",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "ranged",
+          "strike",
+          "magic"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 5,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "ranged",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "intuition"
+            ]
+          },
+          "effects": {
+            "DREY000000000003": {
+              "type": "damage",
+              "_id": "DREY000000000003",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "6",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "6",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "intuition"
+                  }
+                },
+                "tier3": {
+                  "value": "6",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "intuition"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Tier 2+:</strong> The target is dazed (save ends). <strong>Tier 3:</strong> The target is also stunned until the end of their next turn and loses their next action, flooded with a disorienting false mundane memory.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "DREY000000000005",
+      "name": "Shape-Shift",
+      "img": "icons/magic/nature/wolf-paw-glow-large-teal.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-shape-shift",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "magic"
+        ],
+        "type": "triggered",
+        "category": "",
+        "resource": null,
+        "trigger": "When Dreyfus takes 10 or more damage from a single attack.",
+        "distance": {
+          "type": "self",
+          "primary": 0,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": true,
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p><em>1/round.</em> Dreyfus immediately shifts his form, becoming a Medium beast (dog, raven, or large rat). He moves up to 3 squares without provoking free strikes. He reverts to humanoid form at the start of his next turn or when he chooses. In beast form he cannot attack but cannot be targeted by effects that require a humanoid target.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "DREY000000000006",
+      "name": "Grafvitnir's Shadow",
+      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-grafvitirs-shadow",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "magic",
+          "area"
+        ],
+        "type": "main",
+        "category": "villain",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "aura",
+          "primary": 3,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemy",
+          "value": 0,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>All creatures within 3 squares must make a medium Intuition test (TN 12) or lose track of Dreyfus for 1 round — he seems to be somewhere he isn't. Dreyfus gains concealment against all affected creatures for 1 round.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "DREY000000000007",
+      "name": "Root-Whisper",
+      "img": "icons/magic/nature/root-vine-entwined-glowing-purple.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-root-whisper",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "magic"
+        ],
+        "type": "triggered",
+        "category": "villain",
+        "resource": 1,
+        "trigger": "When Dreyfus hits with Wyrd-Claw.",
+        "distance": {
+          "type": "self",
+          "primary": 0,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": true,
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Dreyfus relays knowledge of the wounded target through Yggdrasil's dying root network. No immediate mechanical effect — note which PC was wounded and their current condition. Grafvitnir now knows their identity.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "DREY000000000008",
+      "name": "Wyrd-Guest",
+      "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Dreyfus cannot make the first attack on anyone he is bound to by guest-right within a space he has been invited into. Harald invited him inside as his hound; after Harald made a hostile move (hunting knife), guest-right is void. If the PCs ever invite Dreyfus into a space, note it — the guest-right binding applies there too.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-wyrd-guest",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "DREY000000000009",
+      "name": "Intelligence Asset",
+      "img": "icons/magic/perception/orb-eye-scrying.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>At the start of combat, Dreyfus identifies the hero with the highest Presence (targets first — most dangerous in conversation) and the hero with the highest Might (avoids melee with them unless cornered). He has listened to the party for the entirety of their mission and knows their fighting styles.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-intelligence-asset",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "DREY000000000010",
+      "name": "Escape Protocol",
+      "img": "icons/magic/movement/trail-streak-zigzag-gray.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>When Dreyfus reaches half Stamina (30 or below), he immediately uses Shape-Shift to take raven form and attempts to flee through the nearest window, chimney, or gap. He uses his full movement to exit the building. He cannot be stopped by free strikes in raven form. He escapes — this is intentional, he reappears in Beat 24. Note exactly what the party did to him; those specific injuries will manifest in his degraded form fifteen beats later.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-escape-protocol",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "Dreyfus, Shape-Walker Agent",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": 60,
+      "max": 60,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 1
+      },
+      "agility": {
+        "value": 4
+      },
+      "reason": {
+        "value": 3
+      },
+      "intuition": {
+        "value": 4
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 2
+    },
+    "biography": {
+      "value": "<p>Dreyfus is a shape-walker — Níðhöggr's eyes and ears given mortal form, serving through Grafvitnir's network. His revealed form: tall, grey-pale, features that are almost-right, gold unblinking eyes, Harald's hound-keeper livery that fits too well. His voice is pleasant, educated — a court advisor who has listened from the floor for months.</p><p>He spent the party's entire mission at Harald's side in hound form, relaying everything through Wyrd-channels. He did not hear what passed inside the Ember Chamber's Wyrd-ward.</p>",
+      "director": "<p>Dreyfus fights to survive and escape, not to win. Open with <strong>Hollowing Gaze</strong> (3 Malice) against the most dangerous PC to buy space. Use <strong>Wyrd-Claw</strong> as his signature follow-up — the bane on the next power roll stacks well with the daze. Save <strong>Grafvitnir's Shadow</strong> (3 Malice) for when he's cornered and needs confusion to flee. <strong>Shape-Shift</strong> triggers reactively at 10+ damage from one attack — immediately move 3 squares. When he drops to half Stamina (≤30), trigger <strong>Escape Protocol</strong>: raven form, full speed toward nearest window or chimney, cannot be stopped by free strikes. He escapes by design. Note every injury dealt to him for Beat 24.</p>",
+      "languages": [
+        "caelian",
+        "vaslorian"
+      ]
+    },
+    "movement": {
+      "value": 7,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 5,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": [
+        "frightened",
+        "charmed"
+      ]
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 3,
+      "patience": 4,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 6,
+      "keywords": [
+        "humanoid",
+        "wyrd-bound"
+      ],
+      "level": 4,
+      "role": "ambusher",
+      "organization": "elite"
+    }
+  }
+}

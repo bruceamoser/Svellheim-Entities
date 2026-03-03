@@ -1,0 +1,330 @@
+{
+  "folder": null,
+  "name": "Rootgnaw Grub",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/monster-images/rootgnaw-grub.png",
+  "system": {
+    "stamina": {
+      "value": 5,
+      "max": 5,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 1
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": -4
+      },
+      "intuition": {
+        "value": 0
+      },
+      "presence": {
+        "value": -3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "S"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Rootgnaw Grubs are dog-sized insectoid larvae warped by the blight of the Ashen Woods. They burrow through loose soil and ash, erupting in swarms to latch onto prey and gnaw through armour with their corrosive mandibles. Where grubs swarm, their Queen is never far behind.</p>",
+      "director": "<p>Rootgnaw Grubs are minions — use them in groups of 4 with a shared Stamina pool. They burrow toward isolated PCs and use Gnaw to latch on, dealing ongoing damage that forces the target to waste actions removing them. Spawn more via the Rootgnaw Queen's Brood-Mother feature. Burrow speed 3 is noted in their description — they can move through loose soil but are slow at it.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 2,
+      "keywords": [
+        "beast"
+      ],
+      "level": 1,
+      "ev": 3,
+      "role": "controller",
+      "organization": "minion"
+    }
+  },
+  "prototypeToken": {
+    "name": "Rootgnaw Grub",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/monster-images/rootgnaw-grub.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Gnaw",
+      "type": "ability",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rootgnaw-grub-gnaw",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>On any hit, the grub can latch onto the target. The target must use an action to remove the grub. While latched, the target takes 2 ongoing damage at the start of each of their turns.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "might"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "RGGR000000000001": {
+              "type": "damage",
+              "_id": "RGGR000000000001",
+              "damage": {
+                "tier1": {
+                  "value": "2",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "4",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  }
+                },
+                "tier3": {
+                  "value": "6",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "RGGR000000000002",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Burrow",
+      "type": "feature",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Rootgnaw Grub can burrow through loose soil and ash at speed 3.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rootgnaw-grub-burrow",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "RGGR000000000003",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "Me2AzQFfLZxI8D6A"
+}

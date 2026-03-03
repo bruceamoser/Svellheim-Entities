@@ -1,0 +1,153 @@
+{
+  "_id": "P7wXLjK1EFhH3oRi",
+  "name": "Grafvitnir, the Grave-Wolf — Stage 1 (L7 Solo)",
+  "img": "systems/draw-steel/assets/roles/boss.svg",
+  "items": [],
+  "effects": [],
+  "flags": {
+    "era-of-embers": {
+      "beat": "26",
+      "note": "Stage 1 of 3 — the wolf form. Primary shape from original imprisonment. Objective: reach the Ever-Ember shrine."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "Grafvitnir",
+    "displayName": 40,
+    "actorLink": true,
+    "width": 3,
+    "height": 3,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "systems/draw-steel/assets/roles/boss.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": 200,
+      "max": 200,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 6
+      },
+      "agility": {
+        "value": 4
+      },
+      "reason": {
+        "value": 4
+      },
+      "intuition": {
+        "value": 4
+      },
+      "presence": {
+        "value": 6
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 3,
+        "letter": "H"
+      },
+      "stability": 5,
+      "turns": 2
+    },
+    "biography": {
+      "value": "<p><strong>Grafvitnir, the Grave-Wolf — Level 7 Solo</strong></p><p><em>Supernatural, Huge</em></p><p>Stamina 200 | Speed 8 | Size Huge | Stability 5</p><p>Turns: 2 per round | Free Strike: 8 | EV: 108</p><p><em>Grafvitnir in his primary form — the shape he wore when first imprisoned. A wolf the size of a longhouse, fur black and matted with centuries of Rot, eyes the colour of the last thing that burns before it goes dark. He moves toward the Ever-Ember shrine with the specific purpose of something that has been waiting for a thousand years.</em></p><hr><h3>Main Attacks</h3><p><strong>Bite</strong> (Melee): +6 vs Might; 15 damage, target knocked Prone.</p><p><strong>Paw Sweep</strong> (Close Burst 2): +5 vs Agility; 10 damage, targets Pushed 3 squares.</p><p><strong>Root Surge</strong> (Ranged 8): +4 vs Agility; 8 damage, target Restrained (save ends).</p><hr><h3>Free Strike</h3><p><strong>Snap</strong> (Melee): +6 vs Might; 8 damage.</p><hr><h3>Villain Actions</h3><p><em>Each usable once per encounter, max 1 per round; triggers at end of any hero's turn:</em></p><p><strong>(VA1) Howl of Binding:</strong> All undead within 10 squares act immediately (free round of attacks against nearest targets). Coordinates external undead threats — if draugr are in the outer ward, they surge forward.</p><p><strong>(VA2) Lunge:</strong> Grafvitnir moves up to his Speed and makes a Bite attack as part of this action. Does not provoke free strikes.</p><p><strong>(VA3) Rot Breath:</strong> Close Burst 3, +5 vs Might; 12 damage, target Slowed (save ends).</p><hr><h3>Features</h3><p><strong>End Effect:</strong> When Grafvitnir starts his turn, he can take 10 damage to end one effect on him that a save ends.</p><p><strong>Primordial Resilience:</strong> All damage from a single source is capped at 20. A hit that would deal 30 damage deals 20; a hit dealing 15 deals 15. No combination of effects can bypass this cap while Grafvitnir remains in wolf form.</p><p><strong>Stage Transition at 0 Stamina:</strong> When reduced to 0 Stamina, Grafvitnir does not die. He collapses — falls INTO the stone floor, dissolving into the cracks, becoming roots. Stage 2 begins on his next turn.</p>",
+      "director": "<p><strong>TACTICAL GUIDANCE — STAGE 1:</strong></p><p>Stage 1 is about positioning and protection. Grafvitnir's objective is the shrine, not the party. If he reaches the shrine uncontested, he immediately moves to Stage 2 and begins the flame-extinguishing process.</p><ul><li><strong>Round 1:</strong> Grafvitnir charges the shrine with both turns — one to advance, one to strike. VA1 (Howl of Binding) fires, coordinating external undead threats. The party intercepts.</li><li><strong>Round 2:</strong> Still massive and powerful, but the party is learning his two-turn rhythm. Attacks land. VA2 (Lunge) breaks through the party's formation.</li><li><strong>Rounds 3–4:</strong> Low Stamina. VA3 (Rot Breath) punishes anyone still clustered. Main attacks still deadly but all Villain Actions are spent. The party pushes through.</li><li>At 0 Stamina — <strong>Stage Transition:</strong> Grafvitnir collapses into the floor, dissolves into roots. Stage 2 begins.</li></ul><p><strong>PSYCHOLOGICAL SHIFT:</strong> The party must be <em>defenders</em> here, not aggressors. Grafvitnir is not trying to kill them — he is trying to get past them. If the party doesn't intercept, he simply walks to the shrine.</p><p><strong>Expected Duration:</strong> 3–4 rounds.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 8,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 0
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "ev": 108,
+    "monster": {
+      "freeStrike": 8,
+      "keywords": [
+        "supernatural"
+      ],
+      "level": 7,
+      "role": "brute",
+      "organization": "solo"
+    }
+  }
+}

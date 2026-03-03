@@ -1,0 +1,48 @@
+{
+  "name": "Saltward Lining",
+  "type": "treasure",
+  "img": "icons/equipment/chest/breastplate-collared-steel-green.webp",
+  "system": {
+    "kind": "armor",
+    "category": "leveled",
+    "echelon": 1,
+    "description": {
+      "value": "<p><em>Coastal warding notes from sailmakers — the Gråtstrand coast breeds a peculiar craft tradition: lining armor with salt-pressed seagrass threaded through with brine-proofing scripts, guarding the wearer against corrosion and water.</em></p><p><strong>Effect:</strong> You have acid immunity 5. Additionally, you can hold your breath for twice as long as normal.</p><p><small><strong>Rules:</strong> Damage Immunity.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "A suit of armor of at least basic quality; dried seagrass and a vial of brine from the Gråtstrand coast",
+      "source": "Coastal warding notes from sailmakers (Gråtstrandsmål)",
+      "rollCharacteristic": [
+        "might",
+        "reason"
+      ],
+      "goal": 120,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-saltward-lining",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBA0000000004",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

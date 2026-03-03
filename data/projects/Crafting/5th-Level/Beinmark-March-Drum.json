@@ -1,0 +1,43 @@
+{
+  "name": "Beinmark March-Drum",
+  "type": "project",
+  "img": "icons/skills/trades/music-notes-sound-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Every Beinmark column moves to the drum. The march-master sets the pace — three beats: push, hold, breathe — and a trained unit can cover twice the ground a rabble manages, arriving in better condition. The drum itself is half the art. The hides must be true, the shell resonant, the tone carrying over wind without going shrill. A bad drum loses the column. A good drum keeps it.</em></p><p>This project produces a full-size march-drum in the Beinmark military tradition, constructed of smoked oak and rune-cured hide stretched over turned wooden hoops. When played by a hero who knows the march-rhythms (learned during the project), the drum's cadence provides a measurable cognitive anchor for overland movement. Units of up to 12 people travelling with the drum active can sustain a forced march pace for an additional hour per day without accumulating fatigue penalties. Heroes within earshot of the drum gain an edge on Stamina tests made to resist exhaustion during overland travel.</p><p><strong>Rules Note:</strong> When beaten during overland travel, up to 12 listeners gain an edge on Stamina tests against march exhaustion and may extend forced march by 1 hour/day. The bearer must have both hands to play and cannot use the drum and a weapon simultaneously.</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "A smoked oak log (split and hollowed), rune-cured hide from a large animal, iron tension rings, and carpentry tools. Optionally: a Beinmark march-master willing to teach the rhythms.",
+    "projectSource": "Beinmark Drum-Charter — maintained by the march-master corps of the Beinmark military; unofficial copies circulate among mercenary companies that have served alongside Beinmark columns.",
+    "rollCharacteristic": [
+      "might",
+      "presence"
+    ],
+    "goal": 240,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Beinmark march-drum: up to 12 listeners gain edge on march Stamina tests and extend forced march by 1 hour/day."
+    },
+    "_dsid": "svellheim-beinmark-march-drum",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000005",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

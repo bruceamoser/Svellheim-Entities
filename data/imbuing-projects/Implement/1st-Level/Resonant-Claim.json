@@ -1,0 +1,48 @@
+{
+  "name": "Resonant Claim",
+  "type": "treasure",
+  "img": "icons/weapons/wands/wand-gem-teal.webp",
+  "system": {
+    "kind": "implement",
+    "category": "leveled",
+    "echelon": 1,
+    "description": {
+      "value": "<p><em>Market-oath receipts sealed in wax — Sangøymål market-keepers once pressed their most binding contracts with a waxed seal bearing a single resonant phrase; the implement carries that phrase, letting the wielder claim a second chance at the negotiating table.</em></p><p><strong>Effect:</strong> Once per respite, reroll a failed test made to negotiate a stated bargain. You must keep the new result.</p><p><small><strong>Rules:</strong> Tests; Reroll; Respite.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "An implement of at least basic quality; a market-oath receipt from Sangøy, sealed in original wax",
+      "source": "Market-oath receipts sealed in wax (Sangøymål)",
+      "rollCharacteristic": [
+        "reason",
+        "intuition"
+      ],
+      "goal": 120,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-resonant-claim",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBI0000000001",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

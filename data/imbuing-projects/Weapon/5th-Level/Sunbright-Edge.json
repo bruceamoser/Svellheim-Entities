@@ -1,0 +1,48 @@
+{
+  "name": "Sunbright Edge",
+  "type": "treasure",
+  "img": "icons/weapons/swords/sword-gold-holy.webp",
+  "system": {
+    "kind": "weapon",
+    "category": "leveled",
+    "echelon": 2,
+    "description": {
+      "value": "<p><em>Daylit blessing-lines from open-air shrines — Ljósamál shrine-keepers inscribe blessing-lines into open air at noon, tracing the sun's path with their fingertips; when those lines are etched into a blade, the steel never forgets the warmth and releases it on impact.</em></p><p><strong>Effect:</strong> This weapon sheds faint light in a 1-square radius. Once per encounter, when you hit a creature with a strike using this weapon, you deal additional fire damage equal to your Reason score.</p><p><small><strong>Rules:</strong> Encounter; Strike; Damage.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "A weapon of at least quality craft; a blessing-strip inscribed at a Ljósamål open-air shrine at midday",
+      "source": "Daylit blessing-lines from open-air shrines (Ljósamál)",
+      "rollCharacteristic": [
+        "might",
+        "reason"
+      ],
+      "goal": 240,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-sunbright-edge",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBW0000000007",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "_id": "E6lNAaZ0XiYq2uPw",
+  "name": "Grénvörðr (Elder of the Green Heart)",
+  "img": "icons/environment/wilderness/tree-oak.webp",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 40,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 1
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 4
+      },
+      "intuition": {
+        "value": 5
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 3,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Grénvörðr (meaning \"green guardian\") is the keeper of the Green Heart's threshold — an ancient elf-adjacent being whose skin has the color of deep bark and whose eyes are gold like the light in the central tree. She has tended the grove since before human kingdoms had names. She is not hostile but is not warm either — observant, waiting, assessing. She speaks with a voice like wind through leaves.</p><p>She is accompanied by Síl and Þrúðr, holders of the root-song — two silent elves who step forward only when the Old Compact is invoked. Together they represent the Green Heart's consent.</p>",
+      "director": "<p><strong>BEAT 22 — THE GREEN HEART AUDIENCE</strong></p><p>She/her. Ancient elf-adjacent. Keeper of the grove's threshold. She is not an obstacle to overcome — she is the Green Heart's consent. She and her companions must hear from the party why Kaelen's sacrifice is worthy of the grove's participation.</p><p><strong>ROLE:</strong> Negotiation target. She assesses whether Kaelen's transformation receives the grove's full blessing (making the binding permanent), partial acceptance (binding holds but requires tending), or withdrawal (binding is weak — cracks remain).</p><p><strong>DEMEANOR:</strong></p><ul><li><em>Interest rises:</em> Her ancient face becomes almost peaceful. Gold eyes brighten. \"You speak truth. The roots confirm it.\"</li><li><em>Interest flat:</em> Unmoved. \"You have not convinced me. Try again, or accept the grove's minimal blessing.\"</li><li><em>Interest drops:</em> Expression hardens. Light in the tree dims. \"That argument is beneath this moment.\"</li><li><em>Patience at 1:</em> \"We are running out of time. Speak if you have something else to say.\"</li></ul><p><strong>KEY LINES:</strong></p><ul><li>\"You bring the Seventh. We have been watching. We have been waiting to see who would come, and what she would do when she arrived.\"</li><li>\"Welcome to the Green Heart. I am Grénvörðr, keeper of the grove's threshold. We have tended this place since before your kingdoms had names. We will know, before you speak, whether you come to save or to steal.\"</li></ul>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 3,
+      "patience": 3,
+      "motivations": [
+        "The Willing Sacrifice — Kaelen chose freely, not in despair",
+        "The World's Future — this is the end of endings if it fails",
+        "The Old Compact — the First Keepers' covenant with the Green Heart"
+      ],
+      "pitfalls": [
+        "Urgency or impatience — disrespects beings who measure time in centuries",
+        "Instrumentalizing the grove — suggesting it is damaged or a tool to be used",
+        "False Authority — claiming authority the party does not possess"
+      ],
+      "impression": 1
+    },
+    "ev": 0,
+    "monster": {
+      "freeStrike": 0,
+      "keywords": [
+        "fey",
+        "plant"
+      ],
+      "level": 8,
+      "role": "support",
+      "organization": "platoon"
+    }
+  }
+}

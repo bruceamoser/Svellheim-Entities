@@ -1,0 +1,47 @@
+{
+  "_id": "D5kMZfY9WhXp1tOv",
+  "name": "Root-Shard of the Grove",
+  "type": "treasure",
+  "img": "icons/commodities/gems/gem-rough-oval-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>A fragment of the Green Heart's root-network, crystallized with Kaelen's warmth-light during her transformation. The shard is warm to the touch, humming very slightly — a subsonic resonance. The surface is polished by age and attention. Inside, faint golden light moves like slow flame.</p><p><em>\"The root remembers everything it has touched. She has touched us before. Now you carry a piece of that memory.\"</em></p>",
+      "gm": "<p><strong>PROPERTIES WHILE CARRIED:</strong></p><ul><li><strong>Heart-Tracking:</strong> The carrier knows the direction of the Green Heart at all times, within 100 miles.</li><li><strong>Kaelen-Sense:</strong> The carrier can sense whether Kaelen's flame is strong or weakening (grants rough status: \"burning bright,\" \"dimming,\" \"near extinguished\").</li></ul><p><strong>SPECIAL USE: GRAFVITNIR STAGE 3 (Beat 26)</strong></p><p>During Stage 3 of the Grafvitnir encounter, a hero can hold the Root-Shard aloft and activate its power (Action):</p><ul><li>The 4-round counter for the Grafvitnir encounter is <strong>advanced by 1 round</strong>.</li><li>This represents Kaelen's awareness of their need and the Green Heart's answering resonance.</li><li><strong>One use total.</strong> After use, the shard cracks audibly and goes cold. It is no longer magical.</li></ul><p><strong>DIRECTOR NOTES:</strong> This item is both mechanical and emotional. The final use in Stage 3 should feel like calling out to something loved and distant. The crack when it breaks should be heard at the table. The shard will grow warm during the siege — reminding the carrier: <em>She is here. She is holding. You are not alone.</em></p>"
+    },
+    "category": "wondrous",
+    "echelon": 2,
+    "quantity": 1,
+    "keywords": [
+      "holy",
+      "plant"
+    ],
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "era-of-embers": {
+      "acquisition": "beat-22-negotiation-success-green-heart-transformation",
+      "beat": "22"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  }
+}

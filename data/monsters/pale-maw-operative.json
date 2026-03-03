@@ -1,0 +1,156 @@
+{
+  "_id": "oB43PXxhrMlGnq7G",
+  "name": "Pale Maw Operative",
+  "img": "systems/draw-steel/assets/roles/ambusher.svg",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 32,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 2
+      },
+      "agility": {
+        "value": 3
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Elite Pale Maw agents who serve as infiltrators and assassins. They wear nondescript clothing over light armour, with only a small entropy symbol hidden on their inner wrist. More disciplined and capable than standard soldiers. Deployed at Surt’s Forge to stop Kaelen during the ritual.</p>",
+      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Zealot Blade</strong> (Main, Melee, Agility): T1 3 dmg; T2 6 dmg; T3 9 dmg.</li><li><strong>Heretic’s Mark</strong> (Main, Ranged 40ft, Presence): T1 2 dmg + marked; T2 4 dmg + marked; T3 6 dmg + marked.</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Coordinated Assault:</strong> +1 to attack rolls against enemies marked by another Pale Maw creature.</li><li><strong>Shadow Strike:</strong> If attacking from concealment, +1 to attack and +2 damage on a tier 2+ result.</li><li><strong>Infiltrator:</strong> Can blend into non-combat crowds; Intuition test opposed by Reason to spot as Pale Maw before they reveal themselves.</li></ul><p><strong>BEAT 18 TACTICS:</strong> Target Kaelen with Heretic’s Mark. Work with the Strike Leader to keep party busy while she finishes the ritual.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 6,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 6,
+      "keywords": [
+        "humanoid",
+        "zealot"
+      ],
+      "level": 4,
+      "role": "ambusher",
+      "organization": "horde"
+    }
+  }
+}

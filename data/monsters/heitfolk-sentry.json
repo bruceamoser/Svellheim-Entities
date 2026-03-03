@@ -1,0 +1,156 @@
+{
+  "_id": "R7kWdXvP3mYn9qLs",
+  "name": "Heitfolk Sentry",
+  "img": "systems/draw-steel/assets/roles/defender.svg",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 24,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 1
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 2,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>A dwarf clad in thermal wraps and chain, carrying an axe and a heavy shield. Heitfolk sentries guard the geothermal tunnel entrances that sustain their people. They are disciplined and wary but not hostile — their purpose is defense, not aggression. They will challenge strangers firmly but can be reasoned with.</p>",
+      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Axe Strike</strong> (Main, Melee, Might): 7 damage.</li><li><strong>Shield Shove</strong> (Main, Melee, Might): 3 damage + target Pushed 2 squares.</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Tunnel-Kin:</strong> Cannot be flanked. +2 to all tests in enclosed spaces.</li></ul><p><strong>ENCOUNTER CONTEXT</strong></p><p>Beat 20. Social fallback only — extremely unlikely to be used in combat. If the party helped Hildvarð Bruneson in Beat 17, the Heitfolk recognize and welcome them immediately. If not, the Sentry challenges them: a Hard TN 14 Presence test or clear explanation of purpose avoids combat. Hildvarð can be found with the patrol if the party reaches out peacefully.</p><p>If combat does occur (party aggressive or failed social), deploy 2–4 sentries. They fight defensively, attempting to push intruders away from the tunnel entrance rather than kill.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 4,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 4,
+      "keywords": [
+        "humanoid",
+        "dwarf"
+      ],
+      "level": 3,
+      "role": "defender",
+      "organization": "platoon"
+    }
+  }
+}

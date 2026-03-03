@@ -1,0 +1,320 @@
+{
+  "folder": null,
+  "name": "Dreyfus (The King's Hound)",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/npc-images/dreyfus.png",
+  "system": {
+    "stamina": {
+      "value": 1,
+      "max": 1,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 0
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 3
+      },
+      "intuition": {
+        "value": 5
+      },
+      "presence": {
+        "value": 4
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p><strong>Dreyfus</strong> is a large grey hound with pale, almost silver eyes. He never leaves High King Harald's side. He does not blink. He watches mouths more than hands. He does not eat&mdash;his bowl by the hearth has been full for days. He does not sleep.</p><p>Dreyfus is not a dog. He is a <em>shape-walker</em>&mdash;a fragment of Grafvitnir's will given form. Bound by guest-right within Hrafnborg, he cannot directly harm those under the King's protection, but he listens to every word, every plan, every name spoken in the King's chambers, and relays it through Wyrd-channels to Grafvitnir's agents in the field.</p><p>In Act 1, Dreyfus is an observer&mdash;patient, silent, and terrifyingly clever. His true combat form is not revealed until Act 2.</p>",
+      "director": "<p>In Beat 3, let Dreyfus be an unnerving presence. Do not reveal anything yet. PCs should feel the dog is strange but attribute it to an old animal's quirks.</p><p><strong>Tells for observant players (Hard Intuition test):</strong> never blinks; watches mouths more than hands; doesn't eat; ears flatten at the word 'Kaelen.' At one point, he appears to <em>smile</em>.</p><p>Guest-right prevents direct harm&mdash;this makes him more dangerous as a spy than a combatant. The party knowing about Dreyfus (revealed by Gragnir in Beat 8) while Dreyfus doesn't know they know is the key dramatic tension for Act 2.</p><p><strong>Do not use this stat block in Act 1.</strong> Dreyfus does not fight in dog form. His combat stats represent his true shape-walker form and are reserved for Act 2. In Act 1, he is a story element, not an encounter.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 7,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 5,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 5,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 3,
+        "holy": 3,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": [
+        "frightened"
+      ]
+    },
+    "source": {
+      "book": "Svellheim (Original)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 0,
+      "patience": 0,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 0
+    },
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "humanoid",
+        "shapechanger",
+        "undead"
+      ],
+      "level": 5,
+      "ev": 20,
+      "role": "hexer",
+      "organization": "leader"
+    }
+  },
+  "prototypeToken": {
+    "name": "Dreyfus",
+    "displayName": 50,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/npc-images/dreyfus.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Shape-Walker",
+      "type": "feature",
+      "_id": "DRFY000000000001",
+      "img": "modules/svellheim-character-options/assets/icons/npc-images/dreyfus.png",
+      "system": {
+        "description": {
+          "value": "<p>Dreyfus is a <em>shape-walker</em>&mdash;a fragment of Grafvitnir's will given form. In dog form, he appears as a large grey hound with pale silver eyes. He is bound by guest-right and cannot directly harm those under the King's protection while within Hrafnborg.</p>",
+          "director": "<p>Dreyfus does not fight in Act 1. He is a spy, not a combatant. His true form is reserved for Act 2.</p>"
+        },
+        "source": {
+          "book": "Svellheim (Original)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "shape-walker",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Wyrd-Channel",
+      "type": "feature",
+      "_id": "DRFY000000000002",
+      "img": "icons/magic/perception/eye-ringed-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>Dreyfus relays intelligence through Yggdrasil's dying root-network to Grafvitnir's agents in the field. Any name, destination, or plan spoken in his presence is transmitted within hours. This is the engine driving the <em>Grafvitnir Pressure Check</em> throughout Act 1.</p>",
+          "director": "<p>This is not a combat ability. It is a narrative tool. Every time the PCs discuss plans in the King's chambers, Dreyfus hears&mdash;and Grafvitnir's agents act on it. The Grafvitnir Pressure score should increase when sensitive information is discussed near the hound.</p>"
+        },
+        "source": {
+          "book": "Svellheim (Original)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "wyrd-channel",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bound by Guest-Right",
+      "type": "feature",
+      "_id": "DRFY000000000003",
+      "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>While under guest-right within Hrafnborg, Dreyfus cannot directly harm anyone under the King's protection. He can observe, listen, and relay information, but cannot attack, sabotage, or physically interfere. This binding is absolute&mdash;violation would destroy his current form.</p>",
+          "director": "<p>Guest-right is the strongest social contract in Svellheim. Even a fragment of an ancient evil respects it&mdash;not from honour, but from necessity. Breaking it would shatter the shape-walker's anchor in the mortal world.</p>"
+        },
+        "source": {
+          "book": "Svellheim (Original)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "bound-by-guest-right",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "The Dog That Never Blinks",
+      "type": "feature",
+      "_id": "DRFY000000000004",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>Observant PCs may notice Dreyfus's tells: he never blinks, he watches mouths more than hands, he does not eat (his bowl has been full for days), he does not sleep, and his ears flatten in <em>attention</em>&mdash;not fear&mdash;when he hears the word 'Kaelen.' A Hard Intuition test reveals that something is deeply wrong with this animal.</p>",
+          "director": "<p>Drop these tells gradually across Beats 3&ndash;7. Don't dump them all at once. Let one player notice the bowl, another the eyes, another the ears. Build unease. If a player asks to roll Intuition, let them&mdash;but only reveal 'something is wrong,' not the full truth. Gragnir reveals the truth in Beat 8.</p>"
+        },
+        "source": {
+          "book": "Svellheim (Original)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "the-dog-that-never-blinks",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "gMMEK2HfXsjigMhG"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Frost-Etched Barrow-Blade",
+  "img": "icons/weapons/swords/sword-broad-glowing.webp",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "type": "treasure",
+  "system": {
+    "description": {
+      "value": "<p><em>A longsword sheathed in perpetual frost, its blade etched with burial runes that glow faint blue in darkness. The hilt is wrapped in frozen leather that never thaws. Taken from a Barrow-Warden â€” it remembered the old laws, even in death.</em></p><p><strong>Effect:</strong> Any weapon ability that deals rolled damage using this weapon deals an extra 1 cold damage. Once per turn, when you hit a creature with a strike using this weapon, you can choose to impose slowed (save ends) on the target as frost crawls up from the wound. While you wield this blade in dim light or darkness, it sheds pale blue light in a 1-square radius.</p>",
+      "director": "<p><strong>Found:</strong> Beat 2 â€” The Graveyard. Taken from the Barrow-Warden after the ambush outside Hrafnborg. The runes are Old NorrÅ“nt and reference 'the law of the grave.' Gragnir may comment on this weapon in Beat 6 or 8.</p>"
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "_dsid": "frost-etched-barrow-blade",
+    "kind": "weapon",
+    "category": "leveled",
+    "echelon": 1,
+    "keywords": [
+      "magic"
+    ],
+    "quantity": 1,
+    "project": {
+      "prerequisites": "A broken burial sword from a barrow of honour, frost-iron ingot quenched in glacier meltwater",
+      "source": "Barrow-rune inscriptions in Old NorrÅ“nt",
+      "rollCharacteristic": [
+        "might",
+        "reason",
+        "intuition"
+      ],
+      "goal": 450,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    }
+  },
+  "_id": "r8RKpDGrUop0Etzd"
+}

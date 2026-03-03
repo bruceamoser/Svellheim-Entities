@@ -1,0 +1,43 @@
+{
+  "name": "Headsman's Blade",
+  "type": "project",
+  "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The old executioner's swords were never made to hack — they were made to read. A true headsman studies the condemned before the stroke falls: the set of the shoulders, the tension in the neck, the way weight shifts when hope leaves the body. The best blades remember those lessons. When you strike with a headsman's blade, the edge finds the seam in your enemy's guard and holds it open for all to see. Those who fight beside you know exactly where to aim. And those who hear the blade's whisper — a low, rasping voice that murmurs \"bend the knee\" — know that mercy was offered, and refused.</em></p><h2>Headsman's Mark</h2><p><strong>1/turn.</strong> When you hit a creature with this weapon, the target is <strong>marked for death</strong> until the end of the target's next turn. While marked, all attacks against the creature have an <strong>edge</strong>.</p><p>The blade emits a barely audible whisper — a small, cold voice that says <em>\"Bend the knee.\"</em> Only the wielder and the struck creature can hear it.</p><p><strong>Rules Note:</strong> Edge on all attacks against the marked creature. Lasts until the end of the target's next turn. Triggers automatically on hit, 1/turn, no action cost. Does not stack with itself.</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "A heavy blade of at least journeyman quality (greatsword, bastard sword, or longsword); a headsman's hood or blindfold taken from a sanctioned executioner; a whetstone soaked in condemned's brine (salt water used to wash an execution block); and smithing tools.",
+    "projectSource": "The Headsman's Liturgy — a short, grim manual found among the effects of a retired executioner in Járnborg. Written in formal Dvergsmål with margin notes in common Nordslige, the book circulates in underworld markets and occasionally surfaces in estate sales. A sage or archivist with connections to judicial history may know of a copy.",
+    "rollCharacteristic": [
+      "might",
+      "intuition"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Headsman's Blade: 1/turn on hit, target is marked for death — all attacks against the marked creature have an edge until end of target's next turn. The blade whispers \"bend the knee\" when the mark is applied."
+    },
+    "_dsid": "svellheim-headsmans-blade",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000040",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

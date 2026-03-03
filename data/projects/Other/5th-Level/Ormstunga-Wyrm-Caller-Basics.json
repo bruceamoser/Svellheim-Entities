@@ -1,0 +1,43 @@
+{
+  "name": "Ormstunga Wyrm-Caller Basics",
+  "type": "project",
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The Ormstunga lineages claim that every drake has a particular register of sound it listens to — not words, but resonance, the way an instrument responds to the right note struck on another instrument across a room. The wyrm-caller learns to find that register in their own voice, in their posture, in the way they hold still. It does not make drakes friendly. It makes them curious, and curious drake is one that has stopped being categorically hostile, which is a very useful start.</em></p><p>This project is an apprenticeship in the foundational practices of Ormstunga wyrm-calling: the specific vocalization exercises that develop the relevant resonance range, the body-language postures that signal non-threat to drakes of most species, the approach protocol (slow, lateral, eyes-down, no sudden hand movements), and the emergency disengagement signs that have varying utility depending on how hungry the drake is. Training requires proximity to actual, living, non-hostile drakes on multiple occasions.</p><p><strong>Rules Note:</strong> On completion, the hero gains ease on their first Presence test when making initial contact with a non-hostile drake of any species. If the test succeeds, the drake treats the hero as a low-threat entity for the remainder of the encounter unless circumstances change dramatically. The hero also gains edge on Intuition tests to read a drake's emotional state before committing to an action. These benefits do not apply to drakes that are actively hunting or have already been provoked.</p>",
+      "director": ""
+    },
+    "type": "other",
+    "prerequisites": "Access to non-hostile drakes on multiple occasions (captive specimens, known territories with tolerated presence, or Ormstunga lineage-managed contact). An Ormstunga wyrm-caller to supervise initial sessions.",
+    "projectSource": "Ormstunga wyrm-caller tradition — transmitted only through direct instruction with live subjects. The primary lineage practitioners are the only acknowledged authorities. Some learning occurs faster or slower depending on the hero's natural resonance.",
+    "rollCharacteristic": [
+      "intuition",
+      "presence"
+    ],
+    "goal": 240,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Ease on first Presence test with non-hostile drakes; success makes drake treat hero as low-threat; edge on Intuition to read drake emotional state."
+    },
+    "_dsid": "svellheim-ormstunga-wyrm-caller-basics",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJO0000000007",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

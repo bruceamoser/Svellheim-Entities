@@ -1,0 +1,43 @@
+{
+  "name": "Dverg Camp-Iron",
+  "type": "project",
+  "img": "icons/skills/trades/smithing-anvil-silver-red.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A proper Dverg has opinions about tools. Strong opinions. The kind of opinions that get recorded in a workbook and referenced in arguments forty years later. The camp-iron is one piece of that argument — borne as proof that a traveler need not carry ten tools when one properly made one will serve. The tongs are the spike, the spike is the knife, the knife folds back into the hook. The fire striker is always the fire striker, because some things should not be clever.</em></p><p>This project produces a compact folding multi-tool forged in the Dverg journeyman tradition: a field knife, a hooked trowel, a driving spike, and an integrated fire-striker. The camp-iron fits in a belt pouch and functions as a proper tool for any of its components' uses. Heroes using this tool gain an edge on Crafting tests when improvising repairs, building camp structures, or starting fires in difficult conditions.</p><p><strong>Rules Note:</strong> Functions as a knife (light weapon, improvised), a trowel, a spike, and a reliable fire-striker. Grants an edge on Reason tests involving improvised fieldcraft, camp construction, or equipment repair when no other tools are available.</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "3 lumps of iron (varying grade), access to a forge with bellows, a quench tank, and blacksmithing tools.",
+    "projectSource": "Dverg Journeyman's Forge-Manual — a thin battered volume carried by traveling Dverg craftspeople. Each copy differs slightly, as every wielder annotates their own.",
+    "rollCharacteristic": [
+      "might",
+      "reason"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "A Dverg camp-iron multi-tool: knife, spike, trowel, and fire-striker. Edge on fieldcraft Reason tests when other tools are unavailable."
+    },
+    "_dsid": "svellheim-dverg-camp-iron",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000003",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "_id": "PjIcqf3pfBREHqV4",
+  "name": "Elder Thyra (Steam-Oasis Leader)",
+  "img": "icons/skills/social/leadership-inspiring.webp",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 15,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 1
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 0
+    },
+    "biography": {
+      "value": "<p>Elder Thyra is the leader of the Steam-Oasis community — a group of 43 survivors (including 20 children) who have kept their location secret throughout the Fimbulwinter. She is grey-haired, callused, and controlled. She keeps the Oasis alive through strict protocols and the Oath of Silence. She is not unkind. She has simply made a choice and held it.</p>",
+      "director": "<p><strong>BEAT 17 — The Steam-Oasis</strong></p><p>She/her. Human. Grey-haired, deeply callused hands. Calm authority. She has kept 43 people (including 20 children) alive by maintaining strict protocols, including the Oath of Silence.</p><p><strong>THE OATH OF SILENCE:</strong> Any guest who receives the Oasis’s hospitality must swear: Never reveal the location of the Oasis. Never describe the route to reach it. Violation means any harm to the Oasis community is on that hero’s soul. Full hospitality (warmth, food, rest) if accepted; one night in the outer cavern only if refused.</p><p><strong>THE OATH COLLISION (core dilemma):</strong> Vigmund’s Advocacy Oath from Beat 13 creates a direct conflict. The Rindgate refugees need exactly the kind of shelter the Oasis provides. But revealing its location violates Thyra’s oath. Neither path is clean. Both cost 1 Word if the conflict is not resolved correctly. There is no perfect solution.</p><p><strong>THYRA’S POSITION:</strong> She knows about Rindgate. She made her choice: the Oasis survives because it is secret. 43 lives vs. 300 lives is not math she is willing to do. She is not villainous — she is someone who chose a smaller responsibility and kept it completely. “I cannot save Rindgate. I can save these people.”</p><p><strong>IF ASKED:</strong> Will confirm the Oath Collision is real and she is aware of it. Will not release the party from the Oath. Will not reveal the route herself to Vigmund. This is her line.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 0,
+      "keywords": [
+        "humanoid"
+      ],
+      "level": 2,
+      "role": "support",
+      "organization": "platoon"
+    }
+  }
+}

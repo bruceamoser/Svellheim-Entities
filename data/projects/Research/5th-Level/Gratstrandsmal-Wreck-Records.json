@@ -1,0 +1,43 @@
+{
+  "name": "Gråtstrandsmål Wreck-Records",
+  "type": "project",
+  "img": "icons/skills/trades/profession-sailing-pirate.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>There is a saying along the Gråtstrand coast: the harbor knows what the sea has eaten. Every harbor-master keeps a ledger, some of it official, most of it oral, none of it complete. The wreck-record project is the art of combining all those incomplete accounts into something useful — cross-referencing the harbor registry, the insurance claims, the stories from the salvagers who came back with less than expected, and the stories from the salvagers who came back saying nothing happened.</em></p><p>This project involves compiling and cross-referencing the wreck records for a specific stretch of coastline: documented locations, estimated cargo status, last known salvage attempts, known hazards at each site (currents, depth, hostile occupants), and the names of the ships and their last registered owners (potentially useful for legal claims). The research mines harbor registries, insurance records, and the memories of fishermen and salvagers who work those waters.</p><p><strong>Rules Note:</strong> On completion, the hero possesses a wreck index for one specific coastal stretch: locations of known wrecks, estimated remaining cargo value, current hazards at each site, and a directory of unclaimed legal salvage rights. The Director confirms which wrecks can be worked and roughly what they contain. The hero gains edge on planning tests for salvage operations in that region and knows which sites are currently worked by other salvagers (potential competition or allies).</p>",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "Access to the target harbor's registry records, interviews with 3+ local fishermen or salvagers, and a contact within the harbor-master's office or insurance guild.",
+    "projectSource": "Gråtstrand Harbor Registry — an official document supplemented by informal oral accounts. The official registry is accessible (with patience); the oral accounts require social investment.",
+    "rollCharacteristic": [
+      "reason",
+      "intuition"
+    ],
+    "goal": 240,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Wreck index for one coastal stretch: locations, cargo estimates, hazards, and salvage-right status. Edge on salvage planning tests."
+    },
+    "_dsid": "svellheim-gratstrandsmal-wreck-records",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000008",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

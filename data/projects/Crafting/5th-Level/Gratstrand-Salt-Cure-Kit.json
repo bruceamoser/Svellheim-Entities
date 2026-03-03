@@ -1,0 +1,43 @@
+{
+  "name": "Gråtstrand Salt-Cure Kit",
+  "type": "project",
+  "img": "icons/tools/cooking/bowl-steaming-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Gråtstrand fishwives know precisely how long any given catch will last. Three days unsalted, ten days half-brined, three months properly packed in a sealed cask with coarse sea salt and a cord of dried kelp. The kit is not magic. It is the result of several hundred years of people learning what happens when you eat badly-preserved fish.</em></p><p>This project produces a full salt-cure kit following the Gråtstrand preservation tradition: a set of 8 wax-sealed ceramic crocks, 2 kilograms of coarse sea salt, a bundle of dried kelp (used to regulate moisture), and a laminated instruction card in both Fjordmål and common tongue. When used properly, the kit can preserve up to 10 full portions of food (meat, fish, or produce) for up to six months without requiring refrigeration or magical intervention. The kit is reusable for multiple cycles as long as salt is replenished.</p><p><strong>Rules Note:</strong> Preserves 10 food portions for up to 6 months without spoilage. The ceramic crocks are airtight when sealed. Refilling requires 0.5 kg of coarse salt per cycle. The kit itself lasts indefinitely unless the crocks are broken.</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "8 ceramic crocks (hand-thrown or purchased), 2 kg of coarse sea salt, dried kelp (one bundle), wax for seal-finishing, alchemy or cooking tools.",
+    "projectSource": "Gråtstrand Fisher's Handbook — a practical manual updated by the fishwives' council roughly every generation. Regarded as authoritative by anyone who cares about eating well at sea.",
+    "rollCharacteristic": [
+      "reason",
+      "intuition"
+    ],
+    "goal": 240,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Gråtstrand salt-cure kit: preserves 10 food portions for 6 months. Reusable with salt replenishment."
+    },
+    "_dsid": "svellheim-gratstrand-salt-cure-kit",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000006",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

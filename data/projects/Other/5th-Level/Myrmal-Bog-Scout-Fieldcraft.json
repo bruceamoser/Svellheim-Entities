@@ -1,0 +1,43 @@
+{
+  "name": "Myrmål Bog-Scout Fieldcraft",
+  "type": "project",
+  "img": "icons/environment/wilderness/terrain-rocky-ground.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The bog-wardens of Myrmål operate in terrain that most people would describe as \"impassable while actively trying to drown you.\" Their fieldcraft is not romantic — it is the accumulated result of generations of warden-families cataloguing every way the bog kills people and then working out how not to do that. The training covers all of it. By the end, the hero is not comfortable in the bog precisely. But they are no longer afraid of it, which is most of the way there.</em></p><p>This project is an immersive training regimen in the Myrmål bog-warden fieldcraft tradition: identifying safe footing by surface texture and air smell, reading the bubbles and surface movement that indicate unstable ground, the specific movement pattern (weight spread, slow pace, test-before-commit) that allows crossing terrain a heavy boot would sink through, wet-weather fire-starting, and the tracking methods specific to waterlogged terrain where prints fill immediately and you are reading displacement and disturbed vegetation instead.</p><p><strong>Rules Note:</strong> On completion, the hero gains edge on Survival and Nature tests in boggy, marshy, or wetland terrain. They automatically pass Agility tests to cross soft/unstable ground that would ordinarily require a test (the hero simply moves at half speed instead). They do not get lost in marsh terrain and can read tracks in boggy ground that would be invisible to a non-specialist. These benefits apply in any wetland environment, not only the Myrmål region specifically.</p>",
+      "director": ""
+    },
+    "type": "other",
+    "prerequisites": "Training within an actual bog or marsh — simulated terrain does not replicate the specific feedback the body learns from. A Myrmål bog-warden as guide through the early stages. Expect to be wet. Constantly.",
+    "projectSource": "Myrmål bog-warden tradition — one of the more intensely practical training programs in Svellheim, with no ceremony whatsoever and a very high attrition rate in the first week due to discomfort.",
+    "rollCharacteristic": [
+      "agility",
+      "intuition"
+    ],
+    "goal": 240,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Edge on Survival/Nature tests in wetland terrain; auto-pass soft ground Agility tests at half speed; wetland tracking; never lost in marsh."
+    },
+    "_dsid": "svellheim-myrmal-bog-scout-fieldcraft",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJO0000000006",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

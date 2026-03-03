@@ -1,0 +1,682 @@
+{
+  "folder": null,
+  "name": "Goblin Monarch",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/monster-images/goblin-monarch.png",
+  "system": {
+    "stamina": {
+      "value": 80,
+      "max": 80,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 0
+      },
+      "agility": {
+        "value": 3
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 0
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "S"
+      },
+      "stability": 1,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>The Goblin Monarch is a self-styled ruler wearing a crown of bent nails and copper wire. It leads its tribe not by strength but by sheer force of personality and pragmatism -- it would rather negotiate than lose soldiers, but it fights with real cunning when pushed.</p><p>These goblins have been driven from deep mountain caves by something pressing southwest. The Monarch doesn't know what it is. It's as frightened as it is dangerous.</p>",
+      "director": "<p>The Monarch fights from range on the boulder, throwing axes at two targets per turn while letting Runners and Warriors absorb damage. Get in Here! replenishes minion bodies. Meat Shield keeps the Monarch alive when targeted by name. When the Runners pile up, Kill! punishes clusters.</p><p>Negotiation is possible (hard Presence test or shared food). The Monarch is pragmatic -- it wants its people alive more than it wants a fight. If PCs attempt to parley before initiative, consider offering a skill test rather than combat.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 6,
+      "types": [
+        "walk",
+        "climb"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "Beat 04b",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 2,
+      "patience": 3,
+      "motivations": [
+        "keeping the tribe alive",
+        "establishing safe territory",
+        "pragmatic survival"
+      ],
+      "pitfalls": [
+        "threats to the tribe",
+        "demands to surrender their caves",
+        "being mocked"
+      ],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 4,
+      "keywords": [
+        "goblin",
+        "humanoid"
+      ],
+      "level": 1,
+      "ev": 12,
+      "role": "brute",
+      "organization": "leader"
+    }
+  },
+  "prototypeToken": {
+    "name": "Goblin Monarch",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/monster-images/goblin-monarch.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "items": [
+    {
+      "name": "Handaxe",
+      "type": "ability",
+      "img": "icons/weapons/axes/axe-throwing-small.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-monarch-handaxe",
+        "keywords": [
+          "melee",
+          "ranged",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": 5,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 2,
+          "custom": "two creatures or objects"
+        },
+        "effect": {
+          "before": "<p>Melee 1 or Ranged 5.</p>",
+          "after": "<p>One ally within 10 squares of the monarch can make a free strike.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "agility",
+              "presence"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "GBMON000000001": {
+              "type": "damage",
+              "_id": "GBMON000000001",
+              "damage": {
+                "tier1": {
+                  "value": "7",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "10",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "13",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "GBMON00000000200",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Get in Here!",
+      "type": "ability",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-white.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-monarch-get-in-here",
+        "keywords": [],
+        "type": "maneuver",
+        "category": "heroic",
+        "resource": 1,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 20,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "value": null,
+          "custom": "special"
+        },
+        "effect": {
+          "before": "<p>Two goblin runners appear in unoccupied spaces within distance.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "GBMON00000000300",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Meat Shield",
+      "type": "ability",
+      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-orange.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-monarch-meat-shield",
+        "keywords": [],
+        "type": "triggered",
+        "category": "",
+        "resource": null,
+        "trigger": "A creature targets the monarch with a strike.",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "ally",
+          "value": 1,
+          "custom": "one ally"
+        },
+        "effect": {
+          "before": "<p>The ally is the target of the triggering strike instead.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "GBMON00000000400",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Crafty",
+      "type": "feature",
+      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>The monarch doesn't provoke opportunity attacks by moving.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-monarch-crafty",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "GBMON00000000500",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "End Effect",
+      "type": "feature",
+      "img": "icons/magic/control/buff-flight-wings-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the end of each of their turns, the monarch can take 5 irreducible damage to end one effect on them that can be ended by a saving throw.</p>",
+          "director": "<p>Use this when the Monarch is restrained, slowed, or otherwise debuffed. The 5 damage is irreducible -- it can't be prevented or reduced.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-monarch-end-effect",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "GBMON00000000600",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Villain Action 1: What Are You Waiting For?",
+      "type": "feature",
+      "img": "icons/magic/control/buff-flight-wings-raven.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>What Are You Waiting For?</strong> Each ally within 10 squares can move up to their speed or make a free strike.</p>",
+          "director": "<p><strong>Villain Action 1</strong></p><p>Area: 10 burst | Each ally in the area can move up to their speed or make a free strike.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-monarch-va1",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "effects": [],
+      "_id": "GBMON00000000700",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Villain Action 2: Focus Fire",
+      "type": "feature",
+      "img": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Focus Fire!</strong> The monarch marks one enemy within 10 squares. Each ally within 10 squares moves up to their speed toward the marked target.</p>",
+          "director": "<p><strong>Villain Action 2</strong></p><p>Ranged 10: select one enemy target. Each ally within 10 squares moves up to their speed toward the target. Use to pile goblins onto a priority target before Kill! hits.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-monarch-va2",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "effects": [],
+      "_id": "GBMON00000000800",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Villain Action 3: Kill!",
+      "type": "feature",
+      "img": "icons/magic/death/skull-energy-circle-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Kill!</strong> Each enemy in the encounter takes 2 damage for each goblin currently adjacent to them.</p>",
+          "director": "<p><strong>Villain Action 3</strong></p><p>Each enemy takes 2 damage per adjacent goblin. Devastating against clustered heroes who let Runners pile up. Use after Focus Fire for maximum effect.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-monarch-va3",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "effects": [],
+      "_id": "GBMON00000000900",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Goblin Mode",
+      "type": "ability",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-mode",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "An goblin starts its turn",
+        "distance": {
+          "type": "special",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "value": null,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p>Each goblin shifts up to 3 squares. Until end of round, goblins have double edge on power rolls against creatures larger than them.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "GBMON00000001000",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Tiny Stabs",
+      "type": "ability",
+      "img": "icons/weapons/daggers/dagger-ivory-red.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "tiny-stabs",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "A goblin starts its turn",
+        "distance": {
+          "type": "burst",
+          "primary": 10,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "value": null,
+          "custom": "each enemy in the area"
+        },
+        "effect": {
+          "before": "<p>Each enemy in the area takes 3 damage for each goblin adjacent to them.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "GBMON00000001100",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Swamp Stink",
+      "type": "ability",
+      "img": "icons/magic/nature/slime-splash-puddle-green.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "swamp-stink",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 7,
+        "trigger": "A goblin starts its turn",
+        "distance": {
+          "type": "burst",
+          "primary": 10,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "value": null,
+          "custom": "each enemy in the area"
+        },
+        "effect": {
+          "before": "<p>Each enemy must succeed on an easy Intuition test or become dazed (save ends). Each goblin then shifts up to 3 squares.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "GBMON00000001200",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "uAHeC7Q43OFihsD0"
+}

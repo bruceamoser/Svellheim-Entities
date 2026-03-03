@@ -1,0 +1,99 @@
+{
+  "name": "Hollow Waystation Lantern",
+  "type": "treasure",
+  "img": "icons/magic/light/light-lantern-lit-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A battered iron lantern recovered from the Hollow Waystation on the road to Stairwatch. Its glass is cracked but intact, and the wick burns with a steady amber flame that resists wind, rain, and the unnatural cold of Fimbulwinter. The metalwork bears the stamp of a Hrafnborg lampwright — quality work from better days.</em></p><p><strong>Effect:</strong> While lit, this lantern sheds bright light in a 3-square radius and dim light for an additional 3 squares. Unlike mundane lanterns, the Hollow Waystation Lantern cannot be extinguished by wind, rain, or natural cold. It burns for 8 hours on a single flask of oil.</p><p>Additionally, undead creatures that enter or start their turn in the lantern's bright light take a bane on power rolls against creatures also in the bright light. The amber flame is a faint echo of the Ever-Embers' ward — not strong enough to repel the dead, but enough to make them hesitate.</p><p>Once per encounter, the bearer can raise the lantern overhead as a maneuver and speak the Lampwright's Blessing: <em>&ldquo;Light against the long dark.&rdquo;</em> Each ally within the bright light gains temporary Stamina equal to 3 + the bearer's level, lasting until the end of the encounter.</p>",
+      "director": "<p><strong>Found:</strong> Beat 4 — The Hollow Waystation (optional POI between montage tests). Bryn Ketilsdottir, the waystation keeper, offers it as payment for helping secure her supplies against a band of desperate refugees. Alternatively, found hanging in the Dead Waystation (Beat 8) beside the family who perished.</p><p><strong>Gameplay Note:</strong> This lantern is critical during the Siege of Hrafnborg (Beat 9). During the marsh crossing through the siege line, the PCs cannot use normal torches without drawing the host's attention — but the Hollow Waystation Lantern's amber light blends with the Ever-Ember's fading glow, potentially granting the party light without triggering the Heat-Seeker feature on the Frost-Ghouls. The Director should reward creative use of this item during the siege breach.</p>"
+    },
+    "source": {
+      "book": "Era of Embers",
+      "page": "",
+      "license": ""
+    },
+    "_dsid": "hollow-waystation-lantern",
+    "kind": "",
+    "category": "trinket",
+    "echelon": 1,
+    "keywords": [
+      "magic",
+      "holy"
+    ],
+    "quantity": 1,
+    "project": {
+      "prerequisites": "A lantern of Hrafnborg make, one flask of Ever-Ember ash-oil, a lampwright's prayer inscribed on the fuel reservoir",
+      "source": "Lampwright guild traditions of Hrafnborg",
+      "rollCharacteristic": [
+        "reason",
+        "intuition"
+      ],
+      "yield": {
+        "amount": "1",
+        "display": ""
+      },
+      "goal": 150
+    }
+  },
+  "effects": [
+    {
+      "name": "Hollow Waystation Lantern (Amber Ward)",
+      "img": "icons/magic/light/light-lantern-lit-white.webp",
+      "type": "base",
+      "origin": null,
+      "_id": "SVH05Lantern0001",
+      "system": {
+        "end": {
+          "type": "",
+          "roll": ""
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Sheds bright light (3 sq) and dim light (3 sq). Cannot be extinguished by wind, rain, or natural cold. Undead in bright light take a bane on power rolls. Once per encounter, the Lampwright's Blessing grants temporary Stamina equal to 3 + bearer's level to all allies in bright light.</p>",
+      "tint": "#ffaa44",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "folder": null,
+  "_id": "SVH00WayLantrn01",
+  "flags": {},
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

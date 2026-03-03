@@ -1,0 +1,156 @@
+{
+  "_id": "aow6GGeUHfWB2tJE",
+  "name": "Lakewalker Draugr",
+  "img": "systems/draw-steel/assets/roles/defender.svg",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 30,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": -2
+      },
+      "intuition": {
+        "value": 1
+      },
+      "presence": {
+        "value": 0
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 2,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Humanoid figures sheathed in blue-white ice, armor fused to bodies. No breath, no sound except the crack of ice with each step. Eyes are pale blue pinpoints. They march in lockstep, perfectly spaced, executing an ancient patrol loop across Hornvatn’s ice. They predate Grafvitnir’s work — tied to the thin boundary between Helheim and Midgard at these lakes.</p>",
+      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Frozen March</strong> (Main, Melee, Might): T1 4 cold dmg; T2 7 cold dmg; T3 9 cold dmg + slowed (save ends). On crit: slowed (save ends).</li></ul><p><strong>MALICE</strong></p><ul><li><strong>Inexorable Advance (1M):</strong> The Lakewalker moves its speed in a straight line. Any creature in its path makes a Might test (moderate) or takes 4 dmg + pushed 2 squares sideways.</li><li><strong>Cold Snap (2M):</strong> All within 20 ft take 3 cold dmg and area becomes difficult terrain until EoNT.</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Relentless Patrol:</strong> If not in melee at start of turn, moves toward its patrol path (nearest point on Hornvatn’s ice). Attacks anything in the way but doesn’t pursue creatures that step aside.</li><li><strong>Ice-Bound:</strong> Resist cold. Vulnerable fire (doubled).</li><li><strong>Unresponsive:</strong> Immune to fear, charm, communication-based effects. Cannot be negotiated with.</li><li><strong>Frozen Shell:</strong> At 0 SP: freezes in place mid-stride as an ice statue. Does not collapse.</li></ul><p>Patrol group of 3. Beat 13, Hornvatn lake approach. ES ~8 each.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 2,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "undead",
+        "humanoid"
+      ],
+      "level": 3,
+      "role": "defender",
+      "organization": "horde"
+    }
+  }
+}

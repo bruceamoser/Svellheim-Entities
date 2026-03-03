@@ -1,0 +1,43 @@
+{
+  "name": "Strupemål War-Chant Mastery",
+  "type": "project",
+  "img": "icons/skills/social/wave-halt-stop.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The full war-chant tradition of Strupemål is not one chant. It is forty-seven, each with its function: the approach-chant that regulates breath for the final march to contact, the hold-chant used when a line is being pressed and must not give, the grief-chant that begins after the fighting stops and continues until it is finished being true. A master of the tradition is not a singer. They are a living library of controlled collective experience, and in battle, that library matters.</em></p><p>This project requires completing the Strupemål War-Chant Etymology research (or equivalent knowledge of the tradition) before proceeding. It is the practical phase: learning to lead each of the 47 chants with proper breath control, tonal authority, and awareness of how to read the group's state to select the right chant for the moment. The training is part vocal, part martial, and part the kind of quiet sustained attention that becomes second nature only after long practice.</p><p><strong>Rules Note:</strong> On completion, the hero can lead any Strupemål war-chant. Once per combat encounter, the hero may use a maneuver to begin the appropriate chant — all allies who can hear gain edge on their next Stamina test. Additionally, the hero can use the approach-chant to grant allies edge on initiative tests when the group begins a combat with a coordinated advance. The grief-chant, when led after a victory, allows a short 10-minute ceremony that counts as an extended rest for the purpose of recovering one use of a respite ability (Director's discretion on applicability). Prerequisite: Strupemål War-Chant Etymology or equivalent.</p>",
+      "director": ""
+    },
+    "type": "other",
+    "prerequisites": "Completion of Strupemål War-Chant Etymology research (or equivalent master-level knowledge of the tradition), confirmed endorsement from a Strupemål bardic master, and intensive practical training — a full campaign season minimum.",
+    "projectSource": "Strupemål war-chant brotherhood — the formal organization of tradition-keepers. Mastery is formally recognized by the brotherhood and allows the hero to teach the tradition to others in turn.",
+    "rollCharacteristic": [
+      "might",
+      "presence"
+    ],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Lead all 47 war-chants; once/encounter: maneuver for allies' edge on Stamina; approach-chant edge on initiative; grief-chant post-combat recovery. Prerequisite: War-Chant Etymology."
+    },
+    "_dsid": "svellheim-strupemal-war-chant-mastery",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJO0000000009",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

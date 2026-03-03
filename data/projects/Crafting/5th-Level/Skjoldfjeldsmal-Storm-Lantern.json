@@ -1,0 +1,43 @@
+{
+  "name": "Skjoldfjellsmål Storm-Lantern",
+  "type": "project",
+  "img": "icons/sundries/lights/lantern-bullseye-signal-copper.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The passes above Skjoldfjell have weather that behaves as though it is personally irritated. A torch lasts four seconds. An ordinary lantern is next. Skjoldfjell lamplighters long ago solved this problem through the application of copper, thick glass, a very specific valve arrangement, and a sealed oil reservoir that feeds by gravity and doesn't care what the wind is doing.</em></p><p>This project produces a Skjoldfjellsmål storm-lantern: a copper-body lantern with thick borosilicate-equivalent glass panels, a gravity-fed oil reservoir, and a wind-locking valve system. The lantern's flame cannot be extinguished by any natural wind, including severe mountain gales. It burns standard lamp oil at a normal rate (6 hours per flask). The copper body retains heat, and in cold environments the lantern also serves as a rudimentary hand-warmer. Heroes using the lantern in harsh weather do not have their light source disrupted by environmental conditions.</p><p><strong>Rules Note:</strong> Cannot be extinguished by wind of any natural strength. Burns oil at normal rate (6 hours/flask). In temperatures below freezing, grants +1 to Stamina tests against cold exposure when held. Immune to rain extinguishing due to sealed valve design.</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "Copper sheet stock, borosilicate or thick clear glass panels, fine metalworking tools (mechanics or jewelry), gravity-feed oil reservoir fitting, fine valve mechanism.",
+    "projectSource": "Skjoldfjellsmål Lamplighter's Record — maintained by the highland lamplighter's guild, a small and earnest organization that considers itself the most important guild in the mountains (correctly).",
+    "rollCharacteristic": [
+      "reason",
+      "might"
+    ],
+    "goal": 240,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Skjoldfjellsmål storm-lantern: wind-proof, rain-proof, standard oil burn rate. Handwarmer in sub-freezing conditions."
+    },
+    "_dsid": "svellheim-skjoldfjeldsmal-storm-lantern",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000008",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

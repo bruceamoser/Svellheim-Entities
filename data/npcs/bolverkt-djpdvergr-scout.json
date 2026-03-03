@@ -1,0 +1,156 @@
+{
+  "_id": "EqbUegeprUzE1G7R",
+  "name": "Bolverkt (Djúpdvergr Scout)",
+  "img": "icons/environment/people/silhouette.webp",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 20,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 2
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": 1
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Bolverkt is a Djúpdvergr (deep-dwelling dwarf-kin) scout stationed near the Steam-Oasis. She is compact, umber-dark of skin, and economical with words. She serves as first contact for any heroes who investigate the ledge-watcher above the oasis path. If the party chooses to follow, she leads them to Djúphól and the optional Heitfolk side quest. She also serves as guide through the Heitfolk tunnels if the party completes Hildvarð’s task.</p>",
+      "director": "<p><strong>BEAT 17 — The Steam-Oasis (Optional — Heitfolk Side Quest)</strong></p><p>She/her. Djúpdvergr (Dwarf-kin of the deep). Approximately 45 years old. Compact, umber-dark skin, calm dark eyes. First contact is from a ledge above the party’s path.</p><p><strong>FIRST CONTACT:</strong> “You are not Pale Maw. You are not from Rindgate. You are going north. The Deep-Hall might have an interest in that.” Leads them to Djúphól if the party follows.</p><p><strong>PERSONALITY:</strong> Direct and practical. No wasted words. Not unfriendly but professional. Proud of the Heitfolk and protective of Hildvarð’s time.</p><p><strong>ROLE:</strong> Guide from the Steam-Oasis ledge down to Djúphól. Guide again through the Heitfolk tunnels if the party agrees to help repair the vent network (emerges 12 miles north of Throat exit).</p><p><strong>PARTING:</strong> In the tunnels, quietly, before the surface: “Does the sun really shine like the old stories say? If you succeed, will you come back and tell us about the sun?” Does not expect an answer.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk",
+        "climb"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 4,
+      "keywords": [
+        "humanoid"
+      ],
+      "level": 2,
+      "role": "ambusher",
+      "organization": "platoon"
+    }
+  }
+}

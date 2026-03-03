@@ -1,0 +1,43 @@
+{
+  "name": "Fjordmål Rope-Work",
+  "type": "project",
+  "img": "icons/tools/nautical/anchor-blue-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A Fjordmål sailor who cannot tie will not sail for long. The training begins with the seven essential knots and ends, theoretically, when you can tie any of them in the dark, with one hand, while someone is leaning on your back. The climbing component is separate, but it follows the same principle: you practice until failure requires active effort, not circumstance.</em></p><p>This project is a complete training course in the Fjordmål mariner's rope art: the full vocabulary of load-bearing knots and their appropriate applications, the specific stroke and grip pattern for ascending and descending rope under load, the rigging techniques for attaching loads to uncertain surfaces, and the emergency protocols when a line fails mid-ascent. Training occurs on ships when available; masts, trees, and constructed frames serve when ships are not.</p><p><strong>Rules Note:</strong> On completion, the hero gains edge on Agility tests involving rope climbing, rigging, load-securing, or knotwork. They automatically succeed on tasks involving standard knot-tying (no test required for simple applications). They can assess a rope's load-bearing capacity and condition with a Reason test (trained eye), and recognize immediately if a rope has been sabotaged or is about to fail. The edge applies in any environment where ropes or rigging are in use.</p>",
+      "director": ""
+    },
+    "type": "other",
+    "prerequisites": "At least 50 meters of training rope across various weights and types, access to a vertical surface at least 6 meters high for climbing practice, and a Fjordmål sailor or rigger willing to supervise and correct technique.",
+    "projectSource": "Fjordmål sailor tradition — the curriculum varies ship to ship, but the essential knots and their applications are standardized across the Fjordmål fleet by long practical consensus.",
+    "rollCharacteristic": [
+      "might",
+      "agility"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Edge on rope/rigging Agility tests; auto-succeed on standard knotwork; identify rope condition and sabotage by sight."
+    },
+    "_dsid": "svellheim-fjordmal-rope-work",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJO0000000004",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "_id": "QFFZ5iHxHjgtr7Yn",
+  "name": "Blind Draugr Wolf",
+  "img": "systems/draw-steel/assets/roles/ambusher.svg",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 16,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 2
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": -3
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": -1
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Drowned sea-wolves risen as undead. Fur matted with slime and ice, eyes white and sightless. Hunt by sound and smell in the flooded cave system beneath Svellheim.</p>",
+      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Bite</strong> (Main, Melee, Might): T1 2 dmg; T2 5 dmg; T3 7 dmg.</li><li><strong>Frenzy Snap</strong> (Main, Close burst 2, Might): T1 3 dmg; T2 6 dmg + target vulnerable EoNT; T3 8 dmg + vulnerable (save ends).</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Blind Sense:</strong> Immune to visibility effects. Senses by sound/scent. Stealth vs these wolves requires complete silence.</li><li><strong>Aquatic Advantage:</strong> Speed 8 in water. Melee attacks against it in water: −1 penalty.</li></ul><p>Pack of 6. Beat 11 Bioluminescent Grotto. Combined with 1 Dire Draugr Wolf.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 6,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 3,
+      "keywords": [
+        "undead",
+        "beast"
+      ],
+      "level": 2,
+      "role": "ambusher",
+      "organization": "horde"
+    }
+  }
+}

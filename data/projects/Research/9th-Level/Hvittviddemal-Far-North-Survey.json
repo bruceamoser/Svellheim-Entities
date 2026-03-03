@@ -1,0 +1,43 @@
+{
+  "name": "Hvittviddemål Far-North Survey",
+  "type": "project",
+  "img": "icons/tools/navigation/map-chart-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Past the ice-line, existing maps are at best approximate and at worst optimistic. The Hvitvidde who live there do not use maps in the way southerners mean — they navigate by star-patterns, ice-texture, wind-direction, and routes that exist entirely in trained memory passed generation to generation. Extracting that knowledge into a form a southern hero can carry requires the cooperation of those who hold it, and the humility to accept that some of what you write down will be wrong in ways you cannot know yet.</em></p><p>This project involves compiling a comprehensive survey of routes, landmarks, rest-sites, hazards, and seasonal variations through the deep north beyond the ice-line, drawing on Hvitvidde scout knowledge and prior expedition records. The result is the most complete southern-format map and notes that can be made of this territory without simply living there for a generation.</p><p><strong>Rules Note:</strong> On completion, the hero possesses detailed navigational records for the far north — marked rest-sites, seasonal hazard windows, route options, and emergency protocols. The difficulty of all Survival tests in the surveyed region is reduced by one step. The hero cannot become permanently lost in the surveyed region (they can still be delayed, not lost). The survey also identifies sites of potential interest (ruins, creature territories, resources) that the Director can use as adventure hooks.</p>",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "Contact with Hvitvidde ice-scouts or a Hvitvidde elder willing to share route knowledge; access to any prior expedition records; personal experience with at least one excursion past the ice-line.",
+    "projectSource": "Hvitvidde oral route-knowledge — held by families that treat this knowledge as inheritance. Sharing it with an outsider is a significant act of trust that typically requires demonstrated worth.",
+    "rollCharacteristic": [
+      "reason",
+      "might"
+    ],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Far-north navigational survey: Survival difficulty reduced by one step in region; cannot become permanently lost; sites of interest identified for Director use."
+    },
+    "_dsid": "svellheim-hvittviddemal-far-north-survey",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000011",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

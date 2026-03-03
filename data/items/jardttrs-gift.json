@@ -1,0 +1,56 @@
+{
+  "_id": "3oc5b0bAOIjgSk2A",
+  "name": "Jardúttr's Gift",
+  "img": "icons/magic/nature/root-vine-hand-green.webp",
+  "effects": [],
+  "flags": {
+    "draw-steel": {
+      "beat": "10",
+      "acquisition": "mercy-path-only"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "type": "treasure",
+  "system": {
+    "description": {
+      "value": "<p>A spiritual imprint left by the Jardúttr — the ancient geothermal spirit guardian of the Echoing Caves. It is not an object but a mark of recognition, carried in the bearer’s awareness. Those who showed mercy to the Jardúttr find that old, deep places seem less hostile; passages reveal themselves; ancient wards hesitate before closing.</p>",
+      "director": "<p><strong>ACQUISITION:</strong> Granted only on the mercy path in Beat 10. If the party defeats but spares the Jardúttr instead of killing it, the Jardúttr acknowledges their restraint and leaves a spiritual imprint on the party.</p><p><strong>EFFECT (Passive, permanent for Act 2):</strong> The bearer gains an edge on Intuition and Reason tests related to: navigation in cave and underground environments, ancient sacred places and ruins, geothermal or volcanic terrain, and passages used by non-human beings (Vanir, creatures, spirits). This imprint fades when Act 2 concludes.</p><p><strong>FICTION:</strong> This is not a physical object. The Jardúttr leaves a mark of recognition — a deep-earth attunement that helps those who showed mercy to find their way through old places. Kaelen describes it as “walking with something large just ahead, clearing the path.”</p>"
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "_dsid": "",
+    "kind": "",
+    "category": "",
+    "echelon": 1,
+    "keywords": [],
+    "quantity": 1,
+    "project": {
+      "prerequisites": "",
+      "source": "",
+      "rollCharacteristic": [],
+      "goal": null,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    }
+  }
+}

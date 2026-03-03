@@ -1,0 +1,48 @@
+{
+  "name": "Marsh-Swallow Temper",
+  "type": "treasure",
+  "img": "icons/weapons/axes/axe-double-white-red.webp",
+  "system": {
+    "kind": "weapon",
+    "category": "leveled",
+    "echelon": 1,
+    "description": {
+      "value": "<p><em>Bog-iron notes from wetland smithies — Myrmål bog-iron is smelted differently from mountain iron; it swallows impurities the way a marsh swallows a boot, and when the technique is applied to a weapon's temper, it swallows the resistance of mud and water in the same way.</em></p><p><strong>Effect:</strong> You ignore difficult terrain caused by knee-deep water, mud, or bog while wielding this weapon.</p><p><small><strong>Rules:</strong> Difficult Terrain.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "A weapon of at least basic quality; a brick of Myrmål bog-iron and the notes for the swallow-temper process",
+      "source": "Bog-iron notes from wetland smithies (Myrmål)",
+      "rollCharacteristic": [
+        "might",
+        "reason"
+      ],
+      "goal": 120,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-marsh-swallow-temper",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBW0000000004",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

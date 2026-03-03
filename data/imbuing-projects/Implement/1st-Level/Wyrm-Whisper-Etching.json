@@ -1,0 +1,48 @@
+{
+  "name": "Wyrm-Whisper Etching",
+  "type": "treasure",
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "system": {
+    "kind": "implement",
+    "category": "leveled",
+    "echelon": 1,
+    "description": {
+      "value": "<p><em>Scaled phonemes copied from drake-watchers — Ormstunga drake-watchers study the calls of drakes and wyrms for a lifetime; they transcribe the most authoritative phonemes into implements so that others may borrow the weight of that authority.</em></p><p><strong>Effect:</strong> Once per encounter, you gain an edge on a Presence test made to intimidate, coerce, or bully a creature whose story is tied to wyrms or drakes.</p><p><small><strong>Rules:</strong> Edge; Tests; Encounter.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "An implement of at least basic quality; a shed scale from a living drake or wyrm",
+      "source": "Scaled phonemes copied from drake-watchers (Ormstunga)",
+      "rollCharacteristic": [
+        "reason",
+        "intuition"
+      ],
+      "goal": 120,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-wyrm-whisper-etching",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBI0000000003",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

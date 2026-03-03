@@ -1,0 +1,985 @@
+{
+  "folder": null,
+  "name": "Llewyellen \"Lew\" Tosferd",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/npc-images/lew-tosferd.png",
+  "system": {
+    "stamina": {
+      "value": 60,
+      "max": 60,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 0
+      },
+      "agility": {
+        "value": 3
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 4
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p><strong>Llewyellen \"Lew\" Tosferd</strong>, called <em>The Finder</em>, is a man who trades in lost things. Old contracts, informant networks, and a knack for being where information flows—Lew finds what others cannot. He is friendly, transactional, and never offers anything for free.</p><p>In a fight, Lew is slippery and infuriating—misdirecting attacks, vanishing into smoke, and ensuring his enemies hurt each other more than they hurt him. He'd rather talk his way out, but he's survived this long in Fimbulwinter for a reason.</p>",
+      "director": "Run Lew as a merchant of secrets with a genuine smile that never quite reaches his eyes. He always names his price, and he always collects. He is not hostile—he is expensive. His Negotiation stats matter more than his combat stats; the PCs need to bargain with him, not fight him. If cornered, Lew uses I'm No Threat, Smoke Bomb, and Clever Trick to escape—he does not stand and fight.",
+      "languages": []
+    },
+    "movement": {
+      "value": 6,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 6,
+      "patience": 5,
+      "motivations": [
+        "profit",
+        "curiosity",
+        "self-preservation"
+      ],
+      "pitfalls": [
+        "threats",
+        "moralizing",
+        "demanding charity"
+      ],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 4,
+      "keywords": [
+        "humanoid",
+        "shadow"
+      ],
+      "level": 4,
+      "ev": 16,
+      "role": "support",
+      "organization": "platoon"
+    }
+  },
+  "prototypeToken": {
+    "name": "Llewyellen \"Lew\" Tosferd",
+    "displayName": 50,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/npc-images/lew-tosferd.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Crafty",
+      "type": "feature",
+      "_id": "LEWCRAFTYF000001",
+      "img": "icons/creatures/magical/spirit-undead-winged-ghost.webp",
+      "system": {
+        "description": {
+          "value": "<p>Lew doesn't provoke opportunity attacks by moving.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "100",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "crafty",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Keep It Down",
+      "type": "feature",
+      "_id": "LEWKEEPITDOWN001",
+      "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>While conversing with someone who shares his language, Lew decides whether anyone else can perceive what he's conveying—even while yelling or in a crowded room.</p>",
+          "director": "This is how Lew conducts business in public. He can brief the PCs at a tavern table with fifty people around them and no one hears a word."
+        },
+        "source": {
+          "book": "Heroes",
+          "page": "166",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "keep-it-down",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Smoke Bomb",
+      "type": "feature",
+      "_id": "LEWSMOKEBOMB0001",
+      "img": "icons/magic/air/fog-gas-smoke-dense-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>Lew can use the Hide maneuver even while observed and without cover or concealment. When he does, he shifts a number of squares equal to his Agility (3), and if he ends the shift with cover or concealment, he is automatically hidden.</p>",
+          "director": "This is Lew's exit strategy. If a fight breaks out or the PCs threaten him, he vanishes. Pair with Crafty—he shifts 3 without provoking, then he's gone."
+        },
+        "source": {
+          "book": "Heroes",
+          "page": "163",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "smoke-bomb",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Careful Observation",
+      "type": "ability",
+      "_id": "LEWCAREFULOBS001",
+      "img": "icons/skills/targeting/target-crosshair-green.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "165",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "careful-observation",
+        "story": "Study a target, find their weakness, and strike when it matters.",
+        "keywords": [
+          "ranged"
+        ],
+        "type": "maneuver",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 20,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creature",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>You assess a target creature. As long as you maintain line of effect to them and don't use a strike on another creature first, you gain an edge on your next strike against the assessed creature, and your next strike against them gains 1 surge.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "I'm No Threat",
+      "type": "ability",
+      "_id": "LEWIMNOTHREAT001",
+      "img": "icons/magic/perception/mask-dual-shadow.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "162",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "im-no-threat",
+        "story": "You envelop yourself in an illusion that makes you appear nonthreatening and harmless.",
+        "keywords": [
+          "magic"
+        ],
+        "type": "maneuver",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": null,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>You envelop yourself in an illusion, appearing as a nonthreatening creature or person (a servant, a merchant, a sheep). Your strikes gain an edge, and you gain +1 bonus distance when you Disengage. This effect ends when you harm a creature.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "<p>Spend 1 insight: You appear as a specific creature within 10 squares—their voice, clothing, mannerisms. You gain an edge on tests to pass as that creature.</p>",
+          "value": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Melee Free Strike",
+      "type": "ability",
+      "_id": "LEWMELEEFSTRK001",
+      "img": "icons/skills/melee/hand-grip-sword-strike-orange.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "275",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "melee-free-strike",
+        "keywords": [
+          "charge",
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "freeStrike",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "might",
+              "agility"
+            ],
+            "formula": "@chr"
+          },
+          "effects": {
+            "LEWFSTKDMG000001": {
+              "type": "damage",
+              "_id": "LEWFSTKDMG000001",
+              "damage": {
+                "tier1": {
+                  "value": "2 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "4 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "6 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              },
+              "name": "",
+              "img": null,
+              "sort": 0
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Clever Trick",
+      "type": "ability",
+      "_id": "LEWCLEVERTRIK001",
+      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "162",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "clever-trick",
+        "story": "You misirect an incoming attack so its intended target becomes someone else entirely.",
+        "keywords": [
+          "magic"
+        ],
+        "type": "triggered",
+        "category": "heroic",
+        "resource": 1,
+        "trigger": "An enemy targets Lew with a strike.",
+        "distance": {
+          "type": "self",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": null,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Choose an enemy within the strike's distance (including the attacker). The strike targets <em>that</em> enemy instead of Lew.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "So Gullible",
+      "type": "ability",
+      "_id": "LEWSOGULLIBLE001",
+      "img": "icons/magic/perception/third-eye-blue-red.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "168",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "so-gullible",
+        "story": "You make your attacker look like a fool—redirecting their strike, vanishing, and counterattacking in one fluid motion.",
+        "keywords": [
+          "magic"
+        ],
+        "type": "freeTriggered",
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "Another creature targets Lew with a strike.",
+        "distance": {
+          "type": "self",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": null,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Lew uses Clever Trick for free (redirecting the strike to another enemy), teleports to an unoccupied space within 3 squares, makes a free strike against the triggering creature, and then spends a Recovery.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "You Talk Too Much",
+      "type": "ability",
+      "_id": "LEWTALKTOMUUCH01",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "168",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "you-talk-too-much",
+        "story": "A precise strike that silences the target—hard to betray secrets when you can't speak.",
+        "keywords": [
+          "melee",
+          "ranged",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": 9,
+        "trigger": "",
+        "distance": {
+          "type": "meleeRanged",
+          "primary": 1,
+          "secondary": 5,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {
+            "LEWTTMLDMG000001": {
+              "name": "Damage",
+              "img": null,
+              "type": "damage",
+              "_id": "LEWTTMLDMG000001",
+              "damage": {
+                "tier1": {
+                  "value": "10 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "15 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "21 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              },
+              "sort": 0
+            },
+            "LEWTTMAPPLD00001": {
+              "name": "Dazed",
+              "img": null,
+              "type": "applied",
+              "_id": "LEWTTMAPPLD00001",
+              "applied": {
+                "tier1": {
+                  "display": "{{potency}}, dazed (save ends)",
+                  "potency": {
+                    "characteristic": "presence",
+                    "value": "@potency.weak"
+                  },
+                  "effects": {
+                    "dazed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier2": {
+                  "display": "{{potency}}, dazed (save ends)",
+                  "effects": {
+                    "dazed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "presence"
+                  }
+                },
+                "tier3": {
+                  "display": "{{potency}}, dazed (save ends)",
+                  "effects": {
+                    "dazed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "presence"
+                  }
+                }
+              },
+              "sort": 0
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target can't communicate with anyone until the end of the encounter.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Charge",
+      "type": "ability",
+      "_id": "LEWCHARGEMAIN001",
+      "img": "icons/skills/movement/feet-bladed-boots-fire.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "274",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "charge",
+        "keywords": [
+          "charge",
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "might",
+              "agility"
+            ],
+            "formula": "@chr"
+          },
+          "effects": {
+            "LEWCHARGEDMG0001": {
+              "type": "damage",
+              "_id": "LEWCHARGEDMG0001",
+              "damage": {
+                "tier1": {
+                  "value": "2 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "4 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "6 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              },
+              "name": "",
+              "img": null,
+              "sort": 0
+            }
+          }
+        },
+        "effect": {
+          "before": "<p>Move up to your speed in a straight line, then make a melee free strike against an adjacent creature at the end of your move.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "story": ""
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Catch Breath",
+      "type": "ability",
+      "_id": "LEWCATCHBREATH01",
+      "img": "icons/magic/life/heart-hand-gold-green-light.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "273",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "catch-breath",
+        "keywords": [],
+        "type": "maneuver",
+        "category": "",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": null,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p>A creature who uses the Catch Breath maneuver spends a Recovery and regains Stamina equal to their recovery value.</p><p>A creature who is dying can't use the Catch Breath maneuver, but other creatures can help them spend Recoveries in other ways.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "story": "",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Defend",
+      "type": "ability",
+      "_id": "LEWDEFENDMAIN001",
+      "img": "icons/skills/melee/shield-block-fire-orange.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "274",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "defend",
+        "keywords": [],
+        "type": "main",
+        "category": "",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": null,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p>When a creature takes the Defend main action, ability rolls made against them have a double bane until the start of their next turn. Additionally, you have a double edge on tests when called for to resist environmental effects or a creature's traits or abilities. A creature gains no benefit from this action while another creature is taunted by them.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "story": "",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.2",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "cgnS3Oier920OFlW"
+}

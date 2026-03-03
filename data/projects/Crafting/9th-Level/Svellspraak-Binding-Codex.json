@@ -1,0 +1,43 @@
+{
+  "name": "Svellspraak Binding-Codex",
+  "type": "project",
+  "img": "icons/sundries/books/book-embossed-clasp-gold-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>In the court tongue of Svellheim, a promise is a document. A document is a promise. Somewhere in that loop of formalism lies the Binding-Codex — a book purpose-built to hold oaths that cannot be quietly forgotten. The paper remembers. When two parties sign together in the codex, the ink dries red, and both signatories feel a faint awareness thereafter if the other begins to act against the agreement. Not control. Awareness. The rest is politics.</em></p><p>This project produces a leather-bound volume of 40 vellum pages treated with an enchanted iron-gall compound, fitted with iron clasps. When two or more parties sign an oath within the codex — in blood or witnessed ink — the oath becomes supernaturally binding in the following way: neither party can violate the oath without becoming immediately aware that they are doing so, and the other signatory receives a faint but clear impression that something is wrong with the agreement. This does not prevent betrayal, but it removes the possibility of unconscious drift from the terms.</p><p><strong>Rules Note:</strong> Oaths recorded and signed within the Binding-Codex cannot be broken unknowingly. Both parties feel a distinct mental impression when a violation begins. Deliberate betrayal is still possible, but both parties are fully aware of it in the moment. The codex holds up to 20 separate oaths. Oaths cannot be erased — only formally released by all signatories.</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "40 sheets of bleached vellum, enchanted iron-gall ink (requires alchemy preparation), iron clasps and binding tools, a Svellspraak court-clerk willing to supply the forming formula.",
+    "projectSource": "Svellspraak Court-Scribe's Compendium — a classified text circulated only among senior court scribes and oath-notaries. Obtaining a copy requires significant favor or considerable forgery skill.",
+    "rollCharacteristic": [
+      "reason",
+      "intuition"
+    ],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Svellspraak binding-codex: 40 vellum pages; oaths signed within cannot be broken unknowingly; all signatories feel violations the moment they begin."
+    },
+    "_dsid": "svellheim-svellspraak-binding-codex",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000010",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

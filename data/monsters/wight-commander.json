@@ -1,0 +1,157 @@
+{
+  "_id": "M4tVIiH8ABeE0lRg",
+  "name": "Wight-Commander (L4 Standard)",
+  "img": "systems/draw-steel/assets/roles/support.svg",
+  "items": [],
+  "effects": [],
+  "flags": {
+    "era-of-embers": {
+      "beat": "25",
+      "note": "Intelligent undead commanding the bone-and-timber battering ram at Hrafnborg's main gate. Disrupting or killing the Commander breaks ram coordination for 2 rounds."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "Wight-Commander",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "systems/draw-steel/assets/roles/support.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": 32,
+      "max": 32,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 3
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p><strong>Wight-Commander — Level 4 Standard</strong></p><p><em>Undead, Medium</em></p><p>Stamina 32 | Speed 5 | Size M | Stability 1</p><p>A draugr with intelligence — rare and dangerous. This wight retains the tactical mind it had in life, coordinating the undead siege with precision that ordinary draugr cannot achieve. It commands a twelve-draugr battering ram crew at the main gate, directing synchronized impacts with chilling efficiency.</p><hr><h3>Attacks</h3><p><strong>Command Strike</strong> (Melee, Might): +3 vs Might; 8 damage. <em>Effect:</em> All undead within Close Burst 3 make a free strike against the nearest target as a triggered action.</p><p><strong>Coordinating Howl</strong> (Close Burst 5, Presence): All undead in range gain +2 to attack rolls until end of the Wight-Commander's next turn.</p><hr><h3>Features</h3><p><strong>Tactical Intelligence:</strong> The Wight-Commander cannot be fooled by simple feints. Misdirection requires a Hard Intuition test (TN 15) to execute against it.</p><p><strong>Ram Coordination:</strong> As long as the Wight-Commander is active, the battering ram operates at full efficiency. If the Commander is disrupted (dazed, killed, or driven back), the ram loses coordination and takes 2 rounds to reorganize.</p>",
+      "director": "<p><strong>TACTICAL GUIDANCE:</strong></p><ul><li>The Wight-Commander does not fight the party directly unless forced. It commands from behind the ram crew, issuing Coordinating Howl to boost their effectiveness.</li><li>If the party targets the Commander specifically, it fights with Command Strike — forcing nearby undead to also attack, making it costly to engage in melee.</li><li>The Commander is the <em>nerve center</em> of the main gate assault. Killing or driving it off is the most efficient way to break the battering ram's momentum.</li><li>If dazed or stunned, the ram immediately loses its synchronized pattern. The 2-round reorganization window is the party's best opportunity to shore up the main gate.</li></ul><p><strong>MONTAGE INTEGRATION:</strong> The Wight-Commander appears in Crisis C (Main Gate) of the Three-Crisis Montage. It is not a separate combat encounter unless the montage generates a contingent fight at the main gate.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 5,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 3,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": [
+        "poisoned",
+        "frightened"
+      ]
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "ev": 24,
+    "monster": {
+      "freeStrike": 4,
+      "keywords": [
+        "undead",
+        "wight"
+      ],
+      "level": 4,
+      "role": "support",
+      "organization": "platoon"
+    }
+  }
+}

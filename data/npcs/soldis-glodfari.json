@@ -1,0 +1,165 @@
+{
+  "name": "Söldís Glóðfari",
+  "img": "modules/svellheim-character-options/assets/icons/npc-images/soldis-glodfari.png",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": 35,
+      "max": 35,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 0
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p><strong>Söldís Glóðfari</strong> is the master of the Glóðfari caravan — a well-worn group of six wagons that have been making circuits through the failing settlements of Svellheim for many seasons. Her coat is patchwork repairs, each patch from a different place. Around her neck, on a cord close to her chest, hangs a sealed clay pot. Something glows inside — not quite flame, but the suggestion of something that has been burning for a very, very long time.</p><p>She reads people the way other people read maps. She notices things before she remarks on them. She is generous with what she can give, and precise about what she cannot.</p><p>She will be present during the Siege of Hrafnborg. Her caravan and its people will be there. The party is already deciding, without knowing it, whether those people survive.</p>",
+      "director": "<p><strong>First encounter:</strong> Beat 4b — in a sheltered hollow just past the Greypass toll. Her caravan has been through the same checkpoint but via a longer, quieter standoff. She sees the party coming before they see her and has already formed opinions.</p><p><strong>The sealed clay pot:</strong> Do not reveal this yet. If someone asks, Söldís says 'That's for later' and changes the subject without hesitation. She has done this thousands of times. The pot contains a preserved ember from a settlement that no longer exists — one of the first to go dark. She has been carrying it for years, waiting for someone who can use it.</p><p><strong>Kaelen's ember-mark:</strong> She notices it. She does not comment immediately. A small change in expression — not fear, recognition. If Kaelen catches this and presses, she says: 'You carry something. I just noticed the shadow it casts.' She will not elaborate in this scene.</p><p><strong>Caravan members and their benefits:</strong></p><ul><li>Ragna (70s, herb-woman): dried herbs grant +1 edge on one Recovery test during next rest</li><li>Vélaug (35, repair-master): silently restores one piece of damaged gear to full function</li><li>Söldís's information: +1 edge on one knowledge or navigation test in next beat</li><li>The warm meal: counts as a Recovery for one party member</li></ul><p><strong>Recurring arc:</strong> Söldís appears in Acts 1-3. Each time the party encounters her, she knows a little more. By Act 3, she will be at Hrafnborg's gates with her caravan and its people during the siege. The warmth she shows the party here is the warmth they will want to protect there.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "Beat 04b",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 3,
+      "patience": 5,
+      "motivations": [
+        "people who carry heavy things without complaint",
+        "those who tend fire seriously",
+        "honesty about hard situations",
+        "people protecting others"
+      ],
+      "pitfalls": [
+        "demanding answers about the sealed clay pot",
+        "treating her caravan as servants or tools",
+        "dismissing refugee hardship as weakness"
+      ],
+      "impression": 2
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 3,
+      "keywords": [
+        "human",
+        "humanoid"
+      ],
+      "level": 2,
+      "role": "support",
+      "organization": "solo"
+    }
+  },
+  "_id": "XtinrWtrhk9iJJYH"
+}

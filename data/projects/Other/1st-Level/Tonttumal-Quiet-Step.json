@@ -1,0 +1,38 @@
+{
+  "name": "Tonttumál Quiet-Step",
+  "type": "project",
+  "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Tonttu move quietly because their households move quietly, because the households below are listening, and because the thing on the third step creaks if you stand in the middle and doesn't if you stand at the edge. This is knowledge. Specific, practiced, transferable knowledge. It just takes someone small and patient enough to watch you blunder through the same hallway forty times and then gently explain which forty things you are doing wrong.</em></p><p>This project involves training in the small-folk method of silent movement through inhabited structures: weight management (heel-toe pressure sequencing), breath timing, awareness of floor resonance, the specific way to open a door without producing sound, how to move in the periphery of someone's vision without triggering the reflexive glance, and the rhythm of movement that matches ambient sound well enough to be ignored. The Tonttu call this the \"quiet grammar.\"</p><p><strong>Rules Note:</strong> On completion, the hero gains edge on Agility tests to move silently or remain undetected within constructed environments (buildings, ships, caves with flat floors, underground halls). In natural wilderness, the edge does not apply. The hero automatically knows the quietest path through a known floor plan if they have spent at least a minute studying it. This does not stack with sources of loud equipment unless that equipment is secured against noise.</p>",
+      "director": ""
+    },
+    "type": "other",
+    "prerequisites": "A Tonttu willing to spend considerable patience on instruction, or a Tonttu-inhabited building with cooperative residents who will let the hero practice without interfering. A willingness to be corrected repeatedly.",
+    "projectSource": "Tonttu household tradition — entirely practical, passed as apprenticeship. The Tonttu do not have a formal text for this because the whole point is that writing it down misses half of it.",
+    "rollCharacteristic": ["agility", "intuition"],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Edge on Agility tests to move silently in constructed environments; automatically identifies quietest path through a studied floor plan."
+    },
+    "_dsid": "svellheim-tonttumal-quiet-step",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJO0000000003",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

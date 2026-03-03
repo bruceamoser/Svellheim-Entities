@@ -1,0 +1,156 @@
+{
+  "_id": "ixwX07YuXtk6AzIE",
+  "name": "Draugr-Thrall (Act 2)",
+  "img": "systems/draw-steel/assets/roles/brute.svg",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 8,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 1
+      },
+      "agility": {
+        "value": -1
+      },
+      "reason": {
+        "value": -2
+      },
+      "intuition": {
+        "value": 0
+      },
+      "presence": {
+        "value": -2
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "S"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Organized undead thralls under the command of the Wyrd-Draugr. They move in formation and carry tools and equipment eastward through the cave system. When directed, they fight with much greater coordination than normal wandering draugr.</p>",
+      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Clawed Swipe</strong> (Main, Melee, Might): T1 1 dmg; T2 2 dmg; T3 4 dmg.</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Fragile:</strong> Bane on Might saves vs. being moved.</li><li><strong>Mindless:</strong> Immune to fear and charm effects.</li></ul><p>Group of 6. Beat 12 (with Wyrd-Draugr). EV 6 total platoon.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 4,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 1,
+      "keywords": [
+        "undead",
+        "humanoid"
+      ],
+      "level": 2,
+      "role": "brute",
+      "organization": "minion"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Tonttu Snare-Set",
+  "type": "project",
+  "img": "icons/tools/hand/lockpicks-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Tonttu do not fight large things directly if they can arrange for large things to trip, dangle, and embarrass themselves. The snare-art is taught quietly, passed through households under the name \"pest-work,\" and only the very inattentive fail to notice that the same knot that catches a rat would take a man's ankle just as cleanly.</em></p><p>This project produces a set of six snares following traditional Tonttu trap-making methods. The snares are constructed from lightweight cord, bent wood, and a trigger pin of compressed bark — small, low-profile, and very patient. When set by a hero with knowledge of the technique, each snare triggers on a creature of Small size or larger that crosses the trigger-line. A caught creature is immediately restrained until they free themselves. The snares can be reset and reused unless damaged.</p><p><strong>Rules Note:</strong> A set of 6 Tonttu snares. Any creature of Small size or larger that crosses a deployed snare's trigger must succeed on an Agility test (difficulty set at time of crafting, default Medium) or become Restrained until they free themselves with a Might test.</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "Fine wire or braided cord (6 lengths), bent green-wood stakes, compressed bark trigger-pins, basic knot-working tools.",
+    "projectSource": "Tonttu Trap-Setter's Guide — a household tradition, passed verbally with occasional gesture-demonstrations. No written version is considered authoritative.",
+    "rollCharacteristic": [
+      "agility",
+      "reason"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "A set of 6 Tonttu snares: triggered by creatures Small or larger; Restrained until freed with a Might test. Reusable."
+    },
+    "_dsid": "svellheim-tonttu-snare-set",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000002",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

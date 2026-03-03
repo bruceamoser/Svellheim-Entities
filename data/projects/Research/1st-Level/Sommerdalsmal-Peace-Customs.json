@@ -1,0 +1,43 @@
+{
+  "name": "Sommerdalsmål Peace-Customs",
+  "type": "project",
+  "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The valley settlements of Sommerdal have been resolving disputes between themselves for longer than they've had a common word for \"outside.\" Their peace customs are elaborate, specific, and absolutely sincere — they have been tested, and they have worked, and the settlements know this. Arriving without knowing the forms is not an insult, exactly. But it is a data point they will remember when deciding how much to trust you.</em></p><p>This project involves the systematic study of formal peace customs, treaty-rites, and diplomatic etiquette used among the valley settlements of Sommerdal: the correct order of gift-presentation, which phrases indicate which levels of trust, how to formally request arbitration, when silence communicates respect versus when it communicates contempt, and how to read the table settings at a formal negotiation dinner. The hero must spend time with Sommerdal citizens or a reliable account of their practices.</p><p><strong>Rules Note:</strong> On completion, the hero gains edge on Presence tests when negotiating, mediating, or making formal requests of Sommerdal settlements and their representatives. They also know when protocol has been violated (Director informs them quietly) and can correct a social error before it escalates. First impressions with Sommerdal figures are improved — treat initial Presence difficulty as one step lower.</p>",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "At least one Sommerdal citizen willing to explain the customs, or access to a detailed account written by someone with direct experience. Observation of at least one formal settlement gathering preferred.",
+    "projectSource": "Sommerdal oral and ceremonial tradition — maintained among settlement elders. The customs are not secret, but they are not typically explained to outsiders without reason.",
+    "rollCharacteristic": [
+      "reason",
+      "presence"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Knowledge of Sommerdal peace-customs: edge on Presence in negotiations with settlements; protocol errors caught before they escalate."
+    },
+    "_dsid": "svellheim-sommerdalsmal-peace-customs",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000004",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

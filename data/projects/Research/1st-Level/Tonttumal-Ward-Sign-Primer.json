@@ -1,0 +1,43 @@
+{
+  "name": "Tonttumál Ward-Sign Primer",
+  "type": "project",
+  "img": "icons/sundries/books/book-worn-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Tonttu households mark their doors, their lintels, their window frames, and occasionally the underside of furniture with small carved or chalked signs that mean, in aggregate, \"you are not welcome here.\" This assumes you can read them. Most people cannot. The signs are not magic, precisely — they are a language of intention, readable by those who know the grammar, and readable also by things that are more sensitive to intention than humans tend to be.</em></p><p>This project involves learning the basic vocabulary of Tonttu ward-sign language under the guidance of a Tonttu practitioner or from careful study of inscribed examples. The research covers the 24 core signs used in household warding — signs for keeping misfortune out, inviting luck in, marking a threshold as claimed, and warning the small unseen things that live in walls that this house knows their names.</p><p><strong>Rules Note:</strong> On completion, the hero can read and inscribe all 24 basic Tonttu ward-signs. Inscribed ward-signs (on doorframes, windows, etc.) impose an Intuition test (Medium difficulty) on creatures of supernatural origin attempting to pass through without the resident's permission — on a failure, they are aware they are crossing a claimed threshold and must make a deliberate choice to do so. The signs themselves have no compulsive force, only awareness.</p>",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "A Tonttu willing to instruct, or access to a Tonttu-inhabited building with at least 20 distinct ward-signs to study. A notebook and charcoal for transcription.",
+    "projectSource": "Tonttu household ward-sign tradition — entirely oral and visual, passed between households. No complete written primer exists; what the hero produces at the end becomes their own personal reference.",
+    "rollCharacteristic": [
+      "reason",
+      "intuition"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Knowledge of 24 core Tonttu ward-signs: can inscribe them; supernatural creatures aware of crossing inscribed thresholds (Intuition test)."
+    },
+    "_dsid": "svellheim-tonttumal-ward-sign-primer",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000002",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

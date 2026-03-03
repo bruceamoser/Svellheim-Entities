@@ -1,0 +1,43 @@
+{
+  "name": "Hvitvidde Far-North Sled",
+  "type": "project",
+  "img": "icons/containers/bags/sack-leather-blue-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Beyond the ice-line, horses die and wheels are useless. The Hvitvidde have been traveling north since before anyone was writing down where they went, and the sled is their answer to a world that would like to kill you for moving. The runners are carved whalebone — not because whalebone sounds impressive, but because at sixty below, iron shatters and whalebone bends. The cords are twisted gut. The harness fittings are copper. Everything wrong with iron is solved before you leave.</em></p><p>This project produces a full Hvitvidde traveling sled with whalebone runners, a copper-fitted harness assembly, and tensioned gut bindings. The sled can carry up to 300 kilograms of cargo or 3 passengers lying flat. Its whalebone runners remain functional in temperatures where iron runners would crack. When harnessed to pack animals (or pulled by heroes), the sled imposes no speed penalty on snow, ice, or compacted tundra terrain, and halves the penalty on other difficult terrain. The gut bindings flex under impact — the sled is extremely difficult to break in normal travel conditions.</p><p><strong>Rules Note:</strong> Capacity: 300 kg / 3 passengers. Whalebone runners: no speed penalty on snow and ice; half penalty on other difficult terrain. Immune to cold-fracture damage in natural temperatures. If a pull-team of 4+ strong creatures is harnessed, moves at full pull-speed over arctic terrain. Exceptionally difficult to break (Hard difficulty Might test required to damage structurally).</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "Whalebone runner-stock (requires access to Hvitvidde hunters or a trader who deals with them), copper fitting-stock, gut bindingcord (prepared), carpentry and blacksmithing tools.",
+    "projectSource": "Hvitvidde Ice-Warden's Guide — a living document of arctic travel, updated irregularly by the warden-families of the deep north. Southern copies are rare and often incomplete.",
+    "rollCharacteristic": [
+      "might",
+      "reason"
+    ],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Hvitvidde far-north sled: whalebone runners, 300 kg capacity, no penalty on snow/ice, half penalty on other difficult terrain."
+    },
+    "_dsid": "svellheim-hvitvidde-far-north-sled",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000012",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

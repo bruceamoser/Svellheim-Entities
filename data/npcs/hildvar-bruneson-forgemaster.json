@@ -1,0 +1,155 @@
+{
+  "_id": "VDWwMniqZfw6wdMm",
+  "name": "Hildvarð Bruneson (Forgemaster)",
+  "img": "icons/skills/trades/smithing-anvil-silver-red.webp",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 30,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 3
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 2,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Hildvarð Bruneson is the Djúpdvergr Forgemaster of Djúphól — a 140-year-old craftsman who has maintained his forge and his people through the Fimbulwinter through sheer stubbornness and skill. He is deeply weathered, blunt, and fair. His forge still burns. He will make a deal with anyone who can help him keep it that way.</p>",
+      "director": "<p><strong>BEAT 17 — Djúphól (Deep-Hall), Optional Heitfolk Side Quest</strong></p><p>He/him. Djúpdvergr Forgemaster. Approximately 140 years old. Deeply weathered, deeply practical. The forge chamber is 200ft across, warm, and lit by three geothermal vents. This is his domain.</p><p><strong>THE OFFER:</strong> “If you use your ability to help us repair the vent-network, I give you safe passage through Heitfolk tunnels. Emerges 12 miles north of Throat exit, on the sheltered side.” The tunnels bypass the worst of the Throat of World blizzard approach.</p><p><strong>THE TASK (Lower Passages Montage, Moderate):</strong> Repair Rot-infected vent channels. 2 rounds. Kaelen spends 2 Recoveries participating (the ember-mark helps purify Rot-corruption). Possible Montage results: Total Success = 2 of 3 warmth channels restored (a year of heat); Success = 1 channel (several months); Failure = channels collapse further.</p><p><strong>BACKGROUND (share if asked):</strong> His son died 3 years ago in a cave-in. He believes it was his fault. He does not speak of it directly but it informs everything — why he does not show guests the deepest forge alcove, why he gave a canteen to Kaelen specifically.</p><p><strong>HILDVARÐ’S GIFT:</strong> Before the party leaves, gives Kaelen the Sealed Iron Canteen. “You’ll need warmth at some point that matters. Save it.”</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 4,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "humanoid"
+      ],
+      "level": 4,
+      "role": "support",
+      "organization": "platoon"
+    }
+  }
+}

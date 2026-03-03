@@ -1,0 +1,156 @@
+{
+  "_id": "IFjZSudqoQMHsXB8",
+  "name": "Barrow-Draugr (Act 2)",
+  "img": "systems/draw-steel/assets/roles/brute.svg",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 16,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": -2
+      },
+      "intuition": {
+        "value": 1
+      },
+      "presence": {
+        "value": -3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Skeletal frame wrapped in tattered leather and rusted metal. Eye sockets glow with sickly pale light. Moves with jerking, unnatural gait. Emanates bitter cold. These ancient dead rise directly from the calcified earth of the Bone-Fields, pulled upward by forces predating even Grafvitnir’s current work.</p>",
+      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Bone-Shatter Strike</strong> (Main, Melee, Might): T1 3 dmg; T2 6 dmg; T3 9 dmg.</li><li><strong>Calcified Grasp</strong> (Triggered, after hit): Target makes moderate Might test or is restrained + ongoing cold damage (save ends).</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Shambling Charge:</strong> 1/combat. Move up to 30 ft then Bone-Shatter Strike.</li><li><strong>Ancient and Resilient:</strong> Resist cold 2. Vulnerable fire 2.</li></ul><p>Group of 6. Beat 14, Bone-Fields. Combined with Bone-Singer (ES 20). Total encounter ES ~68.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 4,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 2,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 4,
+      "keywords": [
+        "undead",
+        "humanoid"
+      ],
+      "level": 3,
+      "role": "brute",
+      "organization": "horde"
+    }
+  }
+}

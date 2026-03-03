@@ -1,0 +1,43 @@
+{
+  "name": "Svellspraak Court-Chronicles",
+  "type": "project",
+  "img": "icons/sundries/books/book-embossed-gold-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The senior clerks of the Svellspraak court do not keep one set of records. They keep three: the official record, the working record, and the record that exists in their own memory that will never be written down at all. This project is the art of getting access to the second and eventually the third kind — which requires either trust that takes years to build, leverage that takes years to acquire, or the particular combination of patience and directness that makes people decide you already know enough that there is no point in hiding the rest.</em></p><p>This project involves intensive research into the sealed and semi-sealed political records of the Svellspraak court: hidden alliances, undisclosed financial relationships, past treaty violations, family grievances with binding legal implications, and the locations of records that have been \"lost\" by parties who found them inconvenient. The work is slow, dangerous if discovered, and produces material that is genuinely dangerous to possess.</p><p><strong>Rules Note:</strong> On completion, the hero possesses a dossier of political intelligence regarding the Svellspraak court — specific secrets, leverage points, undisclosed relationships, and buried records, as determined by the Director. This information can be used in negotiation (edge on Presence tests with court figures when leverage is applicable), in blackmail (Director determines specific outcomes when deployed carefully), or as evidence in formal proceedings. Possessing this dossier raises the hero's threat level with court intelligence services — they may notice.</p>",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "A trusted contact within court administration, access to at least one restricted archive, and either significant noble standing or a cover identity that survives scrutiny. Time is measured in seasons, not weeks.",
+    "projectSource": "Svellspraak court archives — officially organized, unofficially chaotic, and accessible in full only to senior court officers. The interesting parts require either rank or ingenuity.",
+    "rollCharacteristic": [
+      "reason",
+      "intuition"
+    ],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Political dossier on Svellspraak court: specific secrets and leverage; edge on Presence when leverage applies; raises hero's threat level with court intelligence."
+    },
+    "_dsid": "svellheim-svellspraak-court-chronicles",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000009",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

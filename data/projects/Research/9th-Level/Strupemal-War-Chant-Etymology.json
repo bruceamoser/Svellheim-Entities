@@ -1,0 +1,43 @@
+{
+  "name": "Strupemål War-Chant Etymology",
+  "type": "project",
+  "img": "icons/skills/trades/music-singing-voice-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The war-chants of Strupemål are the oldest continuous text in use anywhere in the known world that has not been significantly modified. Parts of them predate the settlements that now sing them. Tracing their origins requires not just linguistic knowledge but historical archaeology — mapping how specific phrases evolved, which lines were added after which battles, and what the original words, before erosion changed them, were actually saying. The answer, when you get there, is complicated and unexpectedly interesting.</em></p><p>This project involves full etymological and historical tracing of the Strupemål war-chant tradition — its linguistic roots, evolution over historical periods, the specific events each section commemorates, and the ritual and emotional function of each component. The work requires access to Strupemål bardic masters, old texts where they exist, and a willingness to sit with the chants for long periods simply listening.</p><p><strong>Rules Note:</strong> On completion, the hero has scholar-level knowledge of the Strupemål war-chant tradition. They gain edge on any Lore test involving Strupemål history, culture, or language. Additionally, when leading or participating in a war-chant in combat or immediately before it, the hero's presence adds credibility that grants an additional +1 die to the normal chant roll (Director's discretion on applicability). This knowledge can also be used to identify referenced historical events or figures in other cultural texts that contain Strupemål borrowings.</p>",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "Access to at least two Strupemål bardic masters willing to be recorded and questioned; a complete recorded version of the full chant cycle; and reference access to comparative linguistic materials.",
+    "projectSource": "Strupemål bardic oral tradition — accessible through the bardic brotherhood, a formal organization that takes academic inquiry seriously as long as the scholar demonstrates respect for the tradition.",
+    "rollCharacteristic": [
+      "intuition",
+      "reason"
+    ],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Scholar-level knowledge of Strupemål war-chant tradition: edge on Strupemål Lore; bonus die when leading war-chants; cross-references other cultures' Strupemål borrowings."
+    },
+    "_dsid": "svellheim-strupemal-war-chant-etymology",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000012",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

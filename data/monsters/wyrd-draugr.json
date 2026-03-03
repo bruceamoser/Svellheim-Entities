@@ -1,0 +1,156 @@
+{
+  "_id": "sCrszDJhuSeWPmsz",
+  "name": "Wyrd-Draugr",
+  "img": "systems/draw-steel/assets/roles/controller.svg",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 40,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 1
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 3
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": -1
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 2,
+      "turns": 2
+    },
+    "biography": {
+      "value": "<p>A former Keeper’s scholar who died during the Long Night and rose with their scholarly compulsions corrupted and inverted. Tall, thin, wearing tattered scholar’s robes. Its face is deeply lined with the habit of careful thinking. Its eyes are luminous and aware — not the mindless glow of a draugr, but something more conscious, more terrible. It carries the Bundingsteinn (Binding Record) tablet stolen from Rickety Frets’s library.</p>",
+      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Corroded Blade</strong> (Main, Melee, Might): T1 4 dmg; T2 8 dmg + TN12 Might or 3 ongoing necrotic (save ends); T3 12 dmg + 3 ongoing necrotic (save ends).</li><li><strong>Wyrd-Bolt</strong> (Main, Ranged 6sq, Agility): T1 3 necrotic; T2 6 necrotic + slowed (save ends); T3 8 necrotic + slowed (save ends).</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Deathless Archive:</strong> First time reduced to 0 Stamina: drops to 1 SP instead, then immediately uses maneuver to flee toward the deepest passage. If it escapes, the Bundingsteinn tablet is lost permanently.</li><li><strong>Corrupt Knowledge:</strong> Edge on Reason tests.</li><li><strong>Organized Undead:</strong> While this Wyrd-Draugr is present, Draugr-Thralls in encounter gain edge on initiative and on their first attack.</li></ul><p><strong>MALICE</strong></p><ul><li><strong>Coordinate the Dead (3M):</strong> Commands 2 Draugr-Thralls to shift up to their speed and make an attack. The Wyrd-Draugr does not move or attack.</li></ul><p><strong>COMBAT NOTE:</strong> Carries the Bundingsteinn tablet in a sealed leather case. Primary goal is to protect and flee with the tablet, not fight to the death. Dialog: “The tablet was taken because it contains knowledge. Knowledge is valuable. Therefore it cannot be surrendered.” Beat 12.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "undead",
+        "humanoid"
+      ],
+      "level": 3,
+      "role": "controller",
+      "organization": "elite"
+    }
+  }
+}

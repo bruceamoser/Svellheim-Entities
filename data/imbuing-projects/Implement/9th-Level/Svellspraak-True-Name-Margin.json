@@ -1,0 +1,48 @@
+{
+  "name": "Svellspraak True-Name Margin",
+  "type": "treasure",
+  "img": "icons/sundries/documents/document-symbol-rune-tan.webp",
+  "system": {
+    "kind": "implement",
+    "category": "leveled",
+    "echelon": 3,
+    "description": {
+      "value": "<p><em>Old court annotations kept under seal — the oldest Svellspraak court records contain marginal annotations in a cipher that names every signatory's true circumstances; an implement carrying these annotations can extend that knowing outward, letting the wielder find what wishes to remain hidden.</em></p><p><strong>Effect:</strong> Once per respite, name a creature you can see. Until your next respite, you gain an edge on all tests made to track, locate, or find information about that creature.</p><p><small><strong>Rules:</strong> Edge; Tests; Respite.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "An implement of exceptional quality; a page from an old Svellspraak court record with intact marginal cipher-annotations",
+      "source": "Old court annotations kept under seal (Svellspraak)",
+      "rollCharacteristic": [
+        "reason",
+        "intuition"
+      ],
+      "goal": 480,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-svellspraak-true-name-margin",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBI0000000012",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

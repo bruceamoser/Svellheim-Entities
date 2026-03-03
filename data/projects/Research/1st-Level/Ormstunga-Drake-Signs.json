@@ -1,0 +1,43 @@
+{
+  "name": "Ormstunga Drake-Signs",
+  "type": "project",
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Drake-callers of the Ormstunga lineages claim that every species announces itself before it attacks — you just have to know what it is saying. The particular sweep of a tail before a lunge. The way the neck-frill flattens when it is choosing a target versus when it is simply afraid. Spend enough time watching the right creature, alive and not trying to eat you, and you begin to understand something richer than taxonomy.</em></p><p>This project involves intensive study of a specific drake species — its behavior patterns, territorial markings, feeding habits, threat displays, and known weaknesses. The study requires proximity to living specimens, consultation with those who know the species (Ormstunga lineage members, hunters, naturalists), and careful field notes. Upon completion, the hero has detailed working knowledge of this one species that goes well beyond general lore.</p><p><strong>Rules Note:</strong> On completion, choose one drake species. The hero gains edge on all Reason-based Lore tests related to that species. If the hero encounters that species in the field, they automatically recognize threat displays (the Director tells them the creature's current disposition) and are not surprised by the first attack unless other conditions apply. This knowledge can be shared with others through a full day's instruction.</p>",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "Access to living specimens of the target drake species (cage, territory, or reliable field observation), plus at least one account from an Ormstunga who knows the species.",
+    "projectSource": "Ormstunga oral tradition of drake-classification — maintained by lineage specialists, not written down in any complete form. Field observation supplements fragmented accounts.",
+    "rollCharacteristic": [
+      "reason",
+      "intuition"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Detailed knowledge of one drake species: edge on Lore tests about it; automatic disposition read on encounter; not surprised by first attack."
+    },
+    "_dsid": "svellheim-ormstunga-drake-signs",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000001",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

@@ -1,0 +1,720 @@
+{
+  "folder": null,
+  "name": "Wight-Lord",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/monster-images/wight-lord.png",
+  "system": {
+    "stamina": {
+      "value": 80,
+      "max": 80,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 4
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": 4
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 2,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>A Wight-Lord is a towering undead commander — a figure of corroded mail and black iron, crowned with a circlet of dark metal. It carries a banner of frozen bone (a human spine wrapped in frozen sinew) and commands the lesser dead with terrible authority. Its eye sockets burn with pale green fire, and when it speaks, its voice is the grinding of stone on stone. Where a Wight-Lord walks, the temperature drops, breath fogs, and weapons frost over. The dead around it straighten, their shuffling replaced by purposeful, coordinated movement.</p>",
+      "director": "<p>The Wight-Lord is the climactic boss of the siege encounter. It arrives at round 3-4 to give the PCs time to engage the Oath-Broken Draugr and Thralls first. Use <strong>Lord of the Barrow</strong> (+1 damage to nearby undead) to make the minions more dangerous. Open with <strong>Fellblade</strong> against the most exposed PC — the ongoing cold + frightened on tier 3 is devastating. Save <strong>Death-Gaze</strong> for ranged PCs or the healer. Use <strong>Command the Fallen</strong> (3 Malice) to summon reinforcing Thralls when the breach gets cleared. <strong>Crown of Black Iron</strong> (2 cold to adjacent creatures) punishes melee-heavy parties. When reduced to 0 HP, <strong>Undying Will</strong> triggers — the Wight-Lord survives at 1 HP with resist 5, and immediately Fellblades the nearest target. This creates a dramatic 'it won't stay down' moment. Use <strong>Grave-Command</strong> (2 Malice) to have all Thralls shift and free strike simultaneously, and <strong>Frost Roar</strong> (3 Malice) to push PCs off the wall and widen the breach.</p>",
+      "languages": [
+        "caelian"
+      ]
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 10,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 10,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": [
+        "frightened"
+      ]
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 6,
+      "keywords": [
+        "undead"
+      ],
+      "level": 4,
+      "ev": 24,
+      "role": "hexer",
+      "organization": "leader"
+    }
+  },
+  "prototypeToken": {
+    "name": "Wight-Lord",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/monster-images/wight-lord.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Fellblade",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "wight-lord-fellblade",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Tier 3:</strong> The target takes ongoing 3 cold damage (save ends) and is frightened of the Wight-Lord (save ends).</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "might"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "WTLD000000000001": {
+              "type": "damage",
+              "_id": "WTLD000000000001",
+              "damage": {
+                "tier1": {
+                  "value": "4",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "7",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  }
+                },
+                "tier3": {
+                  "value": "10",
+                  "types": [
+                    "cold"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "WTLD000000000002",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Command the Fallen",
+      "type": "ability",
+      "img": "icons/magic/death/undead-ghosts-trio-blue.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "wight-lord-command-the-fallen",
+        "keywords": [],
+        "type": "main",
+        "category": "heroic",
+        "resource": {
+          "type": "malice",
+          "value": 3
+        },
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 10,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "ranged",
+        "target": {
+          "type": "special",
+          "value": null,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p>The Wight-Lord raises 2 Draugr Thralls in unoccupied squares within range. These thralls act immediately with a single move action.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "WTLD000000000003",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Death-Gaze",
+      "type": "ability",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "wight-lord-death-gaze",
+        "keywords": [
+          "ranged",
+          "strike"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 5,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "ranged",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Tier 2+:</strong> The target is dazed (save ends).</p><p><strong>Tier 3:</strong> The target is instead stunned (save ends).</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "presence"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "WTLD000000000004": {
+              "type": "damage",
+              "_id": "WTLD000000000004",
+              "damage": {
+                "tier1": {
+                  "value": "6",
+                  "types": [
+                    "psychic"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "6",
+                  "types": [
+                    "psychic"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "presence"
+                  }
+                },
+                "tier3": {
+                  "value": "6",
+                  "types": [
+                    "psychic"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "presence"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "WTLD000000000005",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Undying Will",
+      "type": "ability",
+      "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "wight-lord-undying-will",
+        "keywords": [],
+        "type": "triggered",
+        "category": "heroic",
+        "resource": null,
+        "trigger": "The Wight-Lord is reduced to 0 Stamina (1/encounter).",
+        "distance": {
+          "type": "special",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": null,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p>The Wight-Lord does not fall. Instead, it is reduced to 1 Stamina, gains resist 5 to all damage until the end of its next turn, and makes a free Fellblade attack against the nearest creature. It can be killed normally after this ability triggers.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "WTLD000000000006",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Grave-Command",
+      "type": "ability",
+      "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "wight-lord-grave-command",
+        "keywords": [],
+        "type": "main",
+        "category": "heroic",
+        "resource": {
+          "type": "malice",
+          "value": 2
+        },
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 10,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "ranged",
+        "target": {
+          "type": "special",
+          "value": null,
+          "custom": "All Draugr Thralls within 10 squares"
+        },
+        "effect": {
+          "before": "<p>All Draugr Thralls within 10 squares immediately shift 2 squares and make a free strike.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "WTLD000000000007",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Frost Roar",
+      "type": "ability",
+      "img": "icons/magic/water/projectile-icecicles-salvo.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "wight-lord-frost-roar",
+        "keywords": [
+          "area"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": {
+          "type": "malice",
+          "value": 3
+        },
+        "trigger": "",
+        "distance": {
+          "type": "aura",
+          "primary": 3,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": null,
+          "custom": "Each creature within 3 squares"
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>Each creature within 3 squares must make a medium Might test or be pushed 2 squares and take 4 cold damage. The breach point widens — treat the breach as 1 square wider for the rest of the encounter.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "WTLD000000000008",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Lord of the Barrow",
+      "type": "feature",
+      "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>All allied undead within 5 squares gain +1 to damage rolls and cannot be turned or banished while the Wight-Lord lives.</p>",
+          "director": "<p>This aura makes even Draugr Thralls more threatening. Position the Wight-Lord centrally on the wall to maximize coverage. The anti-banishment clause prevents Kaelen's ember-mark from being used to simply dismiss the undead.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "wight-lord-lord-of-the-barrow",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "WTLD000000000009",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Crown of Black Iron",
+      "type": "feature",
+      "img": "icons/equipment/head/crown-gold-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Wight-Lord continually emanates supernatural cold. Any creature that ends its turn adjacent to the Wight-Lord takes 2 cold damage.</p>",
+          "director": "<p>This passive damage aura punishes melee-heavy parties. Combined with Fellblade's frightened effect, it creates a 'damned if you do, damned if you don't' situation for front-line fighters.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "wight-lord-crown-of-black-iron",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "WTLD000000000010",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Barrow-Sense",
+      "type": "feature",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Wight-Lord can sense living creatures within 10 squares regardless of concealment or invisibility.</p>",
+          "director": "<p>This prevents stealth-based approaches from trivializing the encounter. The Wight-Lord always knows where the living are.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "wight-lord-barrow-sense",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "WTLD000000000011",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "9CxvYe9OgtjhlAjP"
+}

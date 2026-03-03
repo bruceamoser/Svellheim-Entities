@@ -1,0 +1,155 @@
+{
+  "_id": "URx0OrJfQUPGuCrA",
+  "name": "Vigmund Haldorsson (Jarl of Rindgate)",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 30,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 2
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Vigmund Haldorsson is the Jarl of Rindgate — a man who has spent the last eight months refusing to give up on three hundred people who have nowhere else to go. He is weathered, practical, and deeply tired. He does not smile readily, but he is not cruel. He maintains Rindgate because someone has to.</p>",
+      "director": "<p><strong>BEAT 13 — Rindgate</strong></p><p>Vigmund Haldorsson is the Jarl of Rindgate: a pragmatic, hardened frontier administrator. He/him. Worn down by months of managing 300 refugees. Suspicious of strangers but not hostile — he is a practical man who cannot afford idealism. He only negotiates once he’s satisfied the party isn’t a security risk.</p><p><strong>OPENING STANCE:</strong> Waits to hear what the party wants before committing to anything. Asks where they came from, where they’re going, and why they’re heading north. Not confrontational — just careful.</p><p><strong>NEGOTIATION OUTCOME:</strong></p><ul><li><strong>Success (Advocacy Oath accepted):</strong> Provides the route maps north, 5 days’ rations, supply cache locations, and a letter of passage for one Rindgate checkpoint. The party swears the Advocacy Oath: to argue for Rindgate’s refugee population at Hrafnborg. −1 Word if broken.</li><li><strong>Partial Success:</strong> Maps and limited information. No official supplies.</li><li><strong>Failure:</strong> Information only from memory, no official assistance.</li></ul><p><strong>THE ADVOCACY OATH:</strong> “Swear to me. When you reach somewhere that has ears — Hrafnborg, anyone with authority — you tell them Rindgate still holds. You tell them we need runners, food, or fighters. You don’t forget us.”</p><p><strong>SÖLDÍS’S CARAVAN (present at Rindgate):</strong> Vigmund knows the caravan and trusts them. Can introduce the party.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "humanoid"
+      ],
+      "level": 3,
+      "role": "defender",
+      "organization": "platoon"
+    }
+  }
+}

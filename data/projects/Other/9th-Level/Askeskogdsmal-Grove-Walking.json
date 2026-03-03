@@ -1,0 +1,43 @@
+{
+  "name": "Askeskogsmål Grove-Walking",
+  "type": "project",
+  "img": "icons/environment/wilderness/terrain-rocky-ground.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The grove-wardens of the Askeskogsmål do not navigate by compass. The light tells them direction. The sound of the canopy above indicates wind and weather patterns hours before they arrive. The specific species of lichen on a tree's north face and the angle of its lowest branch tell them soil moisture and slope more precisely than any instrument. The training is not the acquisition of facts — it is the slow development of a different kind of attention, one that requires years to cultivate and does not translate well into instructions that can be written down.</em></p><p>This project is a deep apprenticeship in the Askeskogsmål warden fellowship's art of forest movement: reading canopy light for direction and time, acoustic mapping of terrain through sound-bounce, identifying safe paths through dense undergrowth by observing animal sign, tracking by compressed vegetation and disturbed bark rather than footprints, and the specific quality of awareness — kept wide, not focused — that prevents walking into things that would prefer not to be walked into. The training takes place entirely in forest, over multiple seasons.</p><p><strong>Rules Note:</strong> On completion, the hero can never become lost in any forested terrain worldwide. They gain edge on all tracking tests in woodland environments. They automatically detect the presence of large creatures within 30 meters in forest if those creatures are not actively hiding (the Director informs them of presence and general direction). They can read forest terrain well enough to predict ambush positions — when entering a forested area, they identify the best ambush positions with a Reason test (trained eye) before any encounter begins.</p>",
+      "director": ""
+    },
+    "type": "other",
+    "prerequisites": "Sponsorship by an active Askeskogsmål grove-warden and acceptance by the warden fellowship, which requires prior relationship and demonstrated respect for the forest's customs. Training spans multiple seasons in the grove-wardens' own territory and at least one other old forest.",
+    "projectSource": "Askeskogsmål warden fellowship — a formal guild of grove custodians who select their own apprentices and have the right to expel anyone who violates grove-law. Outsider acceptance is rare and meaningful.",
+    "rollCharacteristic": [
+      "agility",
+      "intuition"
+    ],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Can never become lost in forest; edge on woodland tracking; sense large creatures within 30m; predict ambush positions before encounters in forested terrain."
+    },
+    "_dsid": "svellheim-askeskogdsmal-grove-walking",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJO0000000012",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

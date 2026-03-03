@@ -1,0 +1,48 @@
+{
+  "name": "Amber-Bark Lamellae",
+  "type": "treasure",
+  "img": "icons/equipment/chest/breastplate-banded-leather-purple.webp",
+  "system": {
+    "kind": "armor",
+    "category": "leveled",
+    "echelon": 2,
+    "description": {
+      "value": "<p><em>Forest-temper instructions on resin-hardening — the wood-crafters of Askeskog developed a technique for laminating bark strips in hardened resin; a clever armorer found the same method seals out poison just as well as moisture.</em></p><p><strong>Effect:</strong> You have poison immunity 5, and you gain an edge on saving throws against inhaled hazards.</p><p><small><strong>Rules:</strong> Damage Immunity; Edge; Saving Throw.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "A suit of armor of at least quality craft; pine resin from the Askeskog forest and strips of treated bark",
+      "source": "Forest-temper instructions on resin-hardening (Askeskogsmål)",
+      "rollCharacteristic": [
+        "might",
+        "reason"
+      ],
+      "goal": 240,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-amber-bark-lamellae",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBA0000000006",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

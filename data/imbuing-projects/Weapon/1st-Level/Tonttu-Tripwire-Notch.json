@@ -1,0 +1,48 @@
+{
+  "name": "Tonttu Tripwire Notch",
+  "type": "treasure",
+  "img": "icons/weapons/daggers/dagger-ritual-crooked-crystal.webp",
+  "system": {
+    "kind": "weapon",
+    "category": "leveled",
+    "echelon": 1,
+    "description": {
+      "value": "<p><em>Small-folk trapcraft marks — the Tonttu notch their tools with a finder's mark that makes the tool want to find trouble before trouble finds the holder; on a blade, this becomes an uncanny aptitude for locating pressure-plates and trip-lines.</em></p><p><strong>Effect:</strong> You gain an edge on tests made to detect or disable mundane traps when you use this weapon as part of your toolkit for the task (Director adjudicates).</p><p><small><strong>Rules:</strong> Edge; Tests.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "A weapon of at least basic quality; a Tonttu finder's mark — given, never purchased",
+      "source": "Small-folk trapcraft marks (Tonttumál)",
+      "rollCharacteristic": [
+        "might",
+        "reason"
+      ],
+      "goal": 120,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-tonttu-tripwire-notch",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBW0000000003",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

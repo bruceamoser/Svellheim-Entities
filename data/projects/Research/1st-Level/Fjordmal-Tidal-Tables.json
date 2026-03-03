@@ -1,0 +1,43 @@
+{
+  "name": "Fjordmål Tidal Tables",
+  "type": "project",
+  "img": "icons/tools/navigation/map-chart-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The Fjordmål coast is not predictable in the way inland people mean \"predictable.\" It is predictable in the way a large, opinionated person is predictable — if you know their patterns, you can work with them, but you have to know their patterns first. The tidal tables are the result of patience, a good watch, and the willingness to talk to every fisherman you can find and then subtract the exaggerations.</em></p><p>This project involves systematic observation and collation of tidal data for a specific stretch of coastline — interviewing local fishermen, cross-referencing harbor records, spending time at the water's edge at dawn and dusk, and producing a reference document of predicted tides, current shifts, and safe passage windows. The finished tables cover one defined coastal region for a twelve-month cycle.</p><p><strong>Rules Note:</strong> On completion, the hero possesses accurate tidal tables for one specific coastal region. Within that region, they gain edge on navigation tests at sea, automatic awareness of dangerous tidal windows (the Director alerts them to hazardous conditions before they become critical), and edge on tests to find anchorages, fishing grounds, or hidden inlets. Tables remain accurate for 1 year before conditions drift enough to require updating.</p>",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "Access to the target coastal region for repeated observation; an interview with at least 3 local fishermen or sailors with knowledge of that specific coast; basic cartographic tools.",
+    "projectSource": "Fjordmål fishing community knowledge — informal, distributed among households, and jealously hoarded by competing fishing families. The hero must navigate this politics as well as the tides.",
+    "rollCharacteristic": [
+      "reason",
+      "agility"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Tidal tables for one coastal region: edge on navigation tests there; Director alerts to tidal hazards; tables accurate for 1 year."
+    },
+    "_dsid": "svellheim-fjordmal-tidal-tables",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000003",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

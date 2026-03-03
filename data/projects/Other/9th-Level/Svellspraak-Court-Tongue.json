@@ -1,0 +1,38 @@
+{
+  "name": "Svellspraak Court-Tongue",
+  "type": "project",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>High Svellspraak is not a language in the way common Svellspraak is a language. It is a curated performance of a language — structured, rule-bound, laden with honorific gradations that communicate status, relationship, and political disposition in every word choice. A sentence in high Svellspraak can simultaneously make a statement, imply a question, register a critique, and indicate which family you were educated by, all without the listener being able to prove any of it. Getting that right takes years. Getting it wrong takes no time at all, and is immediately obvious to everyone present.</em></p><p>This project is a total immersion program in the high register of Svellspraak: the complete honorific system, the formal grammar variants that signal court versus administrative versus ecclesiastical context, the vocabulary specific to court proceedings, the written forms used in warrants, contracts, and official correspondence, and the social-register reading that allows a skilled speaker to decode what a court document is actually saying versus what it officially states. The training requires immersion — classroom study is insufficient.</p><p><strong>Rules Note:</strong> On completion, the hero speaks and reads high-court Svellspraak fluently. They gain edge on Presence tests in any formal court or noble setting where high register is expected. Words spoken in high Svellspraak carry official weight in formal settings — the hero cannot be mistaken for an uneducated person and is automatically treated as someone deserving a genuine response. The hero can also produce legally valid court documents in proper high-register format (with a Reason test for complex legal formulations). Additionally, they can detect when high-register speech is being used to say something other than what it appears to say — the Director will note when this is occurring.</p>",
+      "director": ""
+    },
+    "type": "other",
+    "prerequisites": "Fluency in common Svellspraak, extended immersion in court or upper-administrative circles over multiple respites, a formal tutor from the court chancellery or an equivalent scholarly source, and access to original high-register documents for study.",
+    "projectSource": "Svellspraak chancellery tradition — the court's internal educational standard, taught at the chancellery school and by private tutelage to families who can afford it. Outsiders entering this world attract notice.",
+    "rollCharacteristic": ["reason", "presence"],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Fluent high-court Svellspraak: edge on court Presence tests; produce valid court documents; detect subtext in high-register speech."
+    },
+    "_dsid": "svellheim-svellspraak-court-tongue",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJO0000000011",
+  "flags": {},
+  "ownership": { "default": 0 },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

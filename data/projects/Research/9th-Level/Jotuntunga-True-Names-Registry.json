@@ -1,0 +1,43 @@
+{
+  "name": "Jötuntunga True-Names Registry",
+  "type": "project",
+  "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A Jötun True-Name is not the name a giant tells you when you ask. It is the name they were called the first time they stood on consecrated ground with a war-oath in their mouth. It is the name that will not burn, cannot be forgotten, and binds every oath they have ever made in the same web. Finding these names requires moving through sources that do not like being moved through — old binding-stones, oath-monuments, the memories of elders who know the names exist but are not certain they should tell you.</em></p><p>This project involves researching and authenticating the True-Names of three specific Jötun war-leaders: their names, the oaths those names bind, the specific conditions under which those oaths apply or can be invoked, and any known weaknesses or vulnerabilities created by those oath-bindings. The research requires approaching Jötun oral tradition from the inside — via an elder, an oath-monument, or a deep-archive text that recorded such things.",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "A Jötun elder willing to speak of the matter (requires significant trust or leverage), access to a known oath-monument inscribed with True-Names, or a deep-archive rune-text predating the last cycle of war.",
+    "projectSource": "Jötuntunga oral naming-tradition — held by elders who take the matter of True-Names with considerable gravity. Access requires either long-established relationship or demonstration of why they should trust you with this.",
+    "rollCharacteristic": [
+      "intuition",
+      "reason"
+    ],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Registry of 3 Jötun True-Names: names, bound oaths, invocation conditions, and known vulnerabilities. Possession of this knowledge is itself politically significant."
+    },
+    "_dsid": "svellheim-jotuntunga-true-names-registry",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000010",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

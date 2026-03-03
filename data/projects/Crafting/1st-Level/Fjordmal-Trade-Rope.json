@@ -1,0 +1,43 @@
+{
+  "name": "Fjordmål Trade-Rope",
+  "type": "project",
+  "img": "icons/tools/nautical/anchor-blue-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The rope-walkers of Fjordmål know that the sea does not forgive sloppy work. Every coil is tarred twice, measured against the walker's own arm, and then whispered over — a short asking in the old tongue, that the rope remember it was once a living thing and should try to keep the bearer living too.</em></p><p>This project produces a coil of 20 meters of Fjordmål trade rope, treated with pine tar and threaded with a single loop of buoyancy-rune cord. The finished rope has markedly greater grip in wet conditions and provides genuine resistance to saltwater rot. A hero bearing this rope gains an edge on tests to climb, rig, or secure loads in wet or maritime environments. Additionally, if the hero falls into water while the rope is fastened to them, they do not immediately sink — the buoyancy cord keeps their head above water for up to one minute without effort.</p><p><strong>Rules Note:</strong> Grants an edge on Might and Agility tests involving climbing, rigging, or rope-securing in wet environments. If attached when falling into water, the bearer floats automatically for 1 minute.</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "20 meters of raw hemp or flax cord, 1 vial of pine tar, access to an open flame and basic rope-working tools.",
+    "projectSource": "Fjordmål Rope-Walker's Primer — a slim oral tradition codified in a dog-eared fisher's notebook, copied hand to hand among coastal traders.",
+    "rollCharacteristic": [
+      "might",
+      "reason"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "A 20-meter coil of Fjordmål trade-rope: edge on rope-related tests in wet environments; floats bearer in water for 1 minute."
+    },
+    "_dsid": "svellheim-fjordmal-trade-rope",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000001",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

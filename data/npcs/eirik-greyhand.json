@@ -1,0 +1,298 @@
+{
+  "folder": null,
+  "name": "Warden-Sergeant Eirik Greyhand",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/npc-images/eirik-greyhand.png",
+  "system": {
+    "stamina": {
+      "value": 35,
+      "max": 35,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 2
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 1
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p><strong>Warden-Sergeant Eirik Greyhand</strong> commands the Chainwarden Toll at Greypass&mdash;a fortified checkpoint in the Midgard's Shield foothills. He is not corrupt, just exhausted. The toll is underfunded, understaffed, and overwhelmed by refugees.</p><p>Eirik wants order. He wants the fiction that the system works. He desperately needs supplies&mdash;fuel and rations are worth more than coin. He has a family in Hrafnborg and hasn't heard from them in a month; any news is worth something to him.</p>",
+      "director": "<p>Eirik is the Beat 4 negotiation encounter at the Greypass Toll. He is not an antagonist&mdash;he's a cog in a machine that's breaking down.</p><p><strong>Negotiation approaches:</strong></p><ul><li><strong>Present forged papers (Presence):</strong> Tier 2+: satisfied. Tier 1: notices seal is wrong&mdash;+1 Interest (suspicious but curious).</li><li><strong>Offer rations or fuel:</strong> Tier 2+: earns 2 Interest immediately, waves them through, offers road intelligence.</li><li><strong>Share news of Hrafnborg (Presence):</strong> Tier 2+: visible relief, +1 Interest.</li><li><strong>Bluff military connection (Presence):</strong> Tier 3 only: buys it. Tier 1&ndash;2: he knows every Warden&mdash;&minus;1 Patience.</li><li><strong>Threaten or intimidate:</strong> Catastrophic. 8 wardens and fortified position. &minus;2 Patience.</li><li><strong>Present Bryn's toll-token:</strong> One party member passes free. Asks after Bryn.</li></ul><p>In Beat 8, the toll-post is dark on the return journey. Eirik has evacuated south. A note on the door reads: 'Recalled to Hrafnborg. Orders of the King.'&mdash;illustrating the system collapsing inward.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 2,
+      "patience": 3,
+      "motivations": [
+        "supplies (fuel, rations)",
+        "news from Hrafnborg",
+        "proper paperwork"
+      ],
+      "pitfalls": [
+        "threats",
+        "bluffing military rank",
+        "demanding free passage"
+      ],
+      "impression": 0
+    },
+    "monster": {
+      "freeStrike": 3,
+      "keywords": [
+        "humanoid"
+      ],
+      "level": 2,
+      "ev": 8,
+      "role": "support",
+      "organization": "platoon"
+    }
+  },
+  "prototypeToken": {
+    "name": "Eirik Greyhand",
+    "displayName": 50,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/npc-images/eirik-greyhand.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Exhausted, Not Corrupt",
+      "type": "feature",
+      "_id": "ERGR000000000001",
+      "img": "modules/svellheim-character-options/assets/icons/npc-images/eirik-greyhand.png",
+      "system": {
+        "description": {
+          "value": "<p>Eirik is not corrupt&mdash;he's exhausted. The Greypass Toll is underfunded, understaffed, and overwhelmed. He wants the fiction that the system works, but he'll bend the rules for supplies, news, or proper paperwork.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "exhausted-not-corrupt",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Fortified Position",
+      "type": "feature",
+      "_id": "ERGR000000000002",
+      "img": "icons/skills/melee/shield-block-fire-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>Eirik commands 8 Chainwardens at a fortified toll checkpoint with good sightlines and defensive positions. Threatening or intimidating him is catastrophic&mdash;&minus;2 Patience. If Patience reaches 0, the party is detained.</p>",
+          "director": "<p>Do not let the PCs fight their way through Greypass. Eight wardens behind fortifications is not a winnable encounter at this level. The negotiation is the encounter.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "fortified-position",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Road Intelligence",
+      "type": "feature",
+      "_id": "ERGR000000000003",
+      "img": "icons/sundries/scrolls/scroll-runed-tan-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>If Interest is achieved, Eirik provides free passage and road intelligence: 'Mountain road passable but ugly; two rockfalls; gorge bridge unstable; large tracks in high country&mdash;something that walks on two legs but drags something behind it.' Good negotiation with Eirik also provides an edge on later Chainwarden patrol encounters.</p>",
+          "director": "<p>The 'large tracks' hint at the Bone Fields and the larger draugr threat. Don't explain this&mdash;just let it unsettle.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "road-intelligence",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "9EhIP6ua63T8pFoj"
+}

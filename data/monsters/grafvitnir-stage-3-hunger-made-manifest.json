@@ -1,0 +1,156 @@
+{
+  "_id": "R9yZNlM3GHjJ5qTk",
+  "name": "Grafvitnir, the Hunger Made Manifest — Stage 3 (L8 Solo)",
+  "img": "systems/draw-steel/assets/roles/boss.svg",
+  "items": [],
+  "effects": [],
+  "flags": {
+    "era-of-embers": {
+      "beat": "26",
+      "note": "Stage 3 of 3 — pure hunger and will and rage. 4-round survival counter. The seal closes at Round 4 regardless of Stamina."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "Grafvitnir",
+    "displayName": 40,
+    "actorLink": true,
+    "width": 5,
+    "height": 5,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "systems/draw-steel/assets/roles/boss.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": 150,
+      "max": 150,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 7
+      },
+      "agility": {
+        "value": 4
+      },
+      "reason": {
+        "value": 4
+      },
+      "intuition": {
+        "value": 5
+      },
+      "presence": {
+        "value": 7
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 5,
+        "letter": "T"
+      },
+      "stability": 8,
+      "turns": 2
+    },
+    "biography": {
+      "value": "<p><strong>Grafvitnir, the Hunger Made Manifest — Level 8 Solo</strong></p><p><em>Supernatural, Titanic</em></p><p>Stamina 150 (fresh pool) | Speed: fills space | Stability 8</p><p>Turns: 2 per round | Free Strike: 9 | EV: 120</p><p><em>All form abandoned. Pure hunger and will and rage. Grafvitnir fills the great hall and the sky above it. He is no longer any shape — he is the space where a shape should be. His attention has the specific quality of a thing that has been waiting for a thousand years and is finally certain it has run out of time.</em></p><hr><h3>THE ROUND COUNTER (CRITICAL)</h3><p>Grafvitnir must be <strong>held</strong> for 4 rounds. Each round, the Green Heart light grows brighter. The seal is <em>closing</em>. The party's job is not to kill him — it's to keep him contained until the seal completes.</p><p><strong>Round 1:</strong> Green Heart blazing gold. The barrier begins to thicken. Unnatural cold retreats from the flagstones.</p><p><strong>Round 2:</strong> Light brighter. Warm on the party's faces. Grafvitnir is <em>screaming</em>. The barrier densifying around him.</p><p><strong>Round 3:</strong> Light <em>intense</em>. Gold, blazing, rewriting the sky. The cold Grafvitnir carries is being burned away. The barrier nearly restored.</p><p><strong>Round 4:</strong> Light goes white. Clean, absolute, unstoppable. The barrier slams shut. <strong>READ THE FINAL READ-ALOUD. Grafvitnir is dragged back into the earth regardless of Stamina.</strong></p><hr><h3>Main Attacks</h3><p><strong>Void Grasp</strong> (Melee, Reach 6): +6 vs Might; 14 damage, target Grabbed.</p><p><strong>Hunger Pulse</strong> (Close Burst 4): +5 vs Presence; 10 damage, target loses 1 Recovery.</p><hr><h3>Free Strike</h3><p><strong>Crushing Tendril</strong> (Melee, Reach 6): +6 vs Might; 9 damage.</p><hr><h3>Villain Actions</h3><p><em>Each usable once per encounter, max 1 per round; triggers at end of any hero's turn:</em></p><p><strong>(VA1) World-Ending Swipe:</strong> All creatures in Close Burst 5, +6 vs Agility; 15 damage, Prone.</p><p><strong>(VA2) Despair Made Flesh:</strong> One target, +5 vs Presence; target loses all Hero Tokens and is Frightened (save ends).</p><p><strong>(VA3) Root Storm:</strong> Three separate targets anywhere in the hall, +5 vs Might; 12 damage each, targets Slowed (save ends).</p><hr><h3>Features</h3><p><strong>End Effect:</strong> When Grafvitnir starts his turn, he can take 10 damage to end one effect on him that a save ends.</p><p><strong>Prison Madness:</strong> A thousand years of confinement. Grafvitnir cannot be Taunted, Frightened, or reasoned with. Attempts to negotiate, intimidate, or psychologically pressure him simply fail. He is beyond psychology.</p><p><strong>The Seal Closing (Round 4):</strong> At the start of Round 4, the Green Heart blazes white. Grafvitnir's Stamina becomes irrelevant — he is dragged back into the earth regardless.</p>",
+      "director": "<p><strong>TACTICAL GUIDANCE — STAGE 3:</strong></p><p>Stage 3 is about the clock, not about winning through combat. The great hall is devastated — ceiling open to the sky. Grafvitnir fills the space. The party fights in wreckage against the oldest enemy in Svellheim.</p><ul><li><strong>This is not a winnable fight by normal combat rules.</strong> The party cannot kill Grafvitnir. They must <em>survive him</em> for 4 rounds until the seal closes.</li><li>Damage matters strategically (reducing his offensive capability via End Effect trade-offs) but not for the victory condition.</li><li>VA1 (World-Ending Swipe) is the opener — overwhelming force statement. VA2 (Despair Made Flesh) is psychological escalation — strips Hero Tokens. VA3 (Root Storm) is targeted destruction before the seal closes.</li><li>Each round, describe the Green Heart light growing: gold → blazing → intense → white. The warmth increasing. Grafvitnir's screaming growing more desperate.</li></ul><p><strong>THE SEAL CLOSES:</strong> At Round 4, the light goes white. The roots RECOIL. Grafvitnir is pulled downward. The cracks seal. The undead outside stop — like puppets when the hand opens. The unnatural cold retreats. The Ever-Ember burns in the shrine. Kaelen's work burns in the east. Hrafnborg is warm.</p><p><strong>Expected Duration:</strong> Exactly 4 rounds. The encounter should feel overwhelming, desperate, and ultimately triumphant.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 0,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 0
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": [
+        "frightened",
+        "taunted"
+      ]
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "ev": 120,
+    "monster": {
+      "freeStrike": 9,
+      "keywords": [
+        "supernatural"
+      ],
+      "level": 8,
+      "role": "brute",
+      "organization": "solo"
+    }
+  }
+}

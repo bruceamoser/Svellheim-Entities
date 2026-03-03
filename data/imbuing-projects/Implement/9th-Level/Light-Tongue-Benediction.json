@@ -1,0 +1,48 @@
+{
+  "name": "Light-Tongue Benediction",
+  "type": "treasure",
+  "img": "icons/magic/light/light-lantern-lit-white.webp",
+  "system": {
+    "kind": "implement",
+    "category": "leveled",
+    "echelon": 3,
+    "description": {
+      "value": "<p><em>Goldleaf benedictions from open-sky chapels — Ljósamál open-sky chapels are built without roofs deliberately, letting language and light mingle freely; their benedictions, pressed into goldleaf and bound to an implement, pass that openness on through touch.</em></p><p><strong>Effect:</strong> Once per respite, a creature you touch can either stand up if prone, or end one ongoing effect that would normally end with a saving throw or at the end of their turn (your choice of which).</p><p><small><strong>Rules:</strong> Prone; Saving Throw; Respite.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "An implement of exceptional quality; a goldleaf benediction sheet blessed under open sky at a Ljósamál chapel",
+      "source": "Goldleaf benedictions from open-sky chapels (Ljósamál)",
+      "rollCharacteristic": [
+        "reason",
+        "intuition"
+      ],
+      "goal": 480,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-light-tongue-benediction",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBI0000000009",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

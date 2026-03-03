@@ -1,0 +1,298 @@
+{
+  "folder": null,
+  "name": "Thyra Blackhand",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/npc-images/thyra-blackhand.png",
+  "system": {
+    "stamina": {
+      "value": 40,
+      "max": 40,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p><strong>Thyra Blackhand</strong> is a former Chainwarden Sergeant who deserted her post when the dead began moving. She leads approximately 30 civilians behind fortified barricades at the Greyfen Holdfast&mdash;a ruined village turned refugee camp on the road between the Interior Belt and the Titan's Stair pass.</p><p>Thyra is practical, suspicious, and hard-bitten. She doesn't trust institutions anymore&mdash;she deserted the Chainwardens because the system abandoned the people it was supposed to protect. She has nothing to lose and is ready to die defending what little she has.</p>",
+      "director": "<p>Thyra is the Beat 8 negotiation encounter at Greyfen Holdfast. She controls passage through the most direct road to Titan's Stair.</p><p>She responds to <strong>pragmatism</strong> and <strong>hope</strong>, not authority or threats. Invoking the King's name costs Patience&mdash;she deserted; she doesn't trust the crown. Threatening her triggers immediate hostility (8+ armed refugees, sharpened stakes, barricades). If Kaelen reveals her ember-mark, several refugees weep, one elderly man kneels, and Thyra opens the gate.</p><p>If the PCs help her materially (tactics against draugr, fire as weapon, reinforcing barricades), she survives the approaching draugr column and leads her people to Hrafnborg, becoming a valuable military contact in Act 2&mdash;'a sergeant who knows how to fight the dead.'</p><p>If the PCs fail or ignore her, the holdfast falls. They may find the aftermath later.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 2,
+      "patience": 2,
+      "motivations": [
+        "hope",
+        "pragmatism",
+        "protecting her people"
+      ],
+      "pitfalls": [
+        "authority",
+        "threats",
+        "institutional power"
+      ],
+      "impression": 0
+    },
+    "monster": {
+      "freeStrike": 4,
+      "keywords": [
+        "humanoid"
+      ],
+      "level": 3,
+      "ev": 10,
+      "role": "support",
+      "organization": "platoon"
+    }
+  },
+  "prototypeToken": {
+    "name": "Thyra Blackhand",
+    "displayName": 50,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/npc-images/thyra-blackhand.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Deserter's Resolve",
+      "type": "feature",
+      "_id": "THBK000000000001",
+      "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Thyra deserted the Chainwardens to protect civilians. She distrusts all institutional authority. Invoking rank, titles, or the King's name gains no leverage&mdash;only practical help and genuine hope move her.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "deserters-resolve",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Holdfast Commander",
+      "type": "feature",
+      "_id": "THBK000000000002",
+      "img": "icons/sundries/flags/banner-symbol-axe-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Thyra commands ~30 armed civilians at the Greyfen Holdfast. She has fortified the ruined village with barricades and sharpened stakes. If negotiations fail or the PCs threaten her people, she has enough fighters to make a fight costly.</p>",
+          "director": "<p>Do not let the PCs simply push past Thyra. She has numbers, fortifications, and nothing to lose. Fighting her earns no Victories and costs 1 Victory if any civilians are harmed.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "holdfast-commander",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "The Dead Are Converging",
+      "type": "feature",
+      "_id": "THBK000000000003",
+      "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>If negotiations succeed, Thyra shares critical intelligence: 'The dead aren't random. They're converging.' She provides 3 days' trail rations, information about ice on Titan's Stair switchbacks and a rockslide narrowing the pass&mdash;and a warning that something is organizing the undead.</p>",
+          "director": "<p>This intelligence foreshadows the Wight-Lord and the siege of Hrafnborg. It should make the PCs feel the weight of what's coming.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "the-dead-are-converging",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "FQD1NPA6NLRVXPqB"
+}

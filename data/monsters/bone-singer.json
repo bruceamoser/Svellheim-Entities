@@ -1,0 +1,155 @@
+{
+  "_id": "XDA6ps2iU79kqc1J",
+  "name": "Bone-Singer",
+  "img": "systems/draw-steel/assets/roles/support.svg",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 56,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 2
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": -1
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": 4
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 2,
+        "letter": "L"
+      },
+      "stability": 2,
+      "turns": 2
+    },
+    "biography": {
+      "value": "<p>A towering skeletal form, humanoid but distorted. Tattered robes of ancient cloth. Wrapped in chains of bone. Eyes are hollow voids glowing pale blue. Voice sounds like wind through a tomb — beautiful and terrifying. The Bone-Singer has absorbed so many corpses and so much undeath that it has become something more than a draugr, capable of raising the ancient dead at will.</p>",
+      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Wail of the Dead</strong> (Main, Area 30ft, Presence): T1 3 psychic; T2 6 psychic + frightened EoNT; T3 9 psychic + frightened (save ends).</li><li><strong>Drain Life</strong> (Main, Ranged 20ft, Presence): T1 4 necrotic (Bone-Singer heals 4); T2 8 necrotic + heals 8; T3 12 necrotic + heals 12.</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Arise, Arise:</strong> Triggered 1/round (Rounds 1-3): raise 1-2 Barrow-Draugr anywhere within 60 ft.</li><li><strong>Choir of Death:</strong> 1/combat when below 15 SP: all within 60 ft take 12 psychic + Presence test or stunned EoNT.</li><li><strong>Dread Aura:</strong> Living creatures within 10 ft: bane on Presence tests.</li><li><strong>Undead Nature:</strong> Immune to cold, poison, fear. Resist fire +3 (takes +3 from fire/radiant).</li></ul><p><strong>MALICE</strong></p><ul><li><strong>Requiem of the Dead (3M, below 28 SP):</strong> 12 psychic, 40 ft radius. Presence test or stunned EoNT.</li></ul><p>Beat 14, Bone-Fields. Raises Barrow-Draugr each round. Defeating it ends the encounter. ES 20.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 9999,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 9999,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 3,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 6,
+      "keywords": [
+        "undead"
+      ],
+      "level": 4,
+      "role": "support",
+      "organization": "elite"
+    }
+  }
+}

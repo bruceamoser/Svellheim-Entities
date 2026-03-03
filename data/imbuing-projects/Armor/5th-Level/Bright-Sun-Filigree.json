@@ -1,0 +1,48 @@
+{
+  "name": "Bright-Sun Filigree",
+  "type": "treasure",
+  "img": "icons/equipment/chest/breastplate-banded-steel-gold.webp",
+  "system": {
+    "kind": "armor",
+    "category": "leveled",
+    "echelon": 2,
+    "description": {
+      "value": "<p><em>Sunlit prayer-knotwork copied by shrine-smiths — Ljósamál shrine-smiths work only at midday, etching solar knotwork into armor using focused light rather than fire; the resulting filigree stores warmth that pushes back corruption.</em></p><p><strong>Effect:</strong> Once per respite, when you would take corruption damage, you gain corruption immunity 5 until the end of the encounter and shed faint light for the same duration.</p><p><small><strong>Rules:</strong> Damage Immunity; Encounter; Respite.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "A suit of armor of at least quality craft; a sheet of goldleaf blessed at a Ljósamál shrine",
+      "source": "Sunlit prayer-knotwork copied by shrine-smiths (Ljósamál)",
+      "rollCharacteristic": [
+        "might",
+        "reason"
+      ],
+      "goal": 240,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-bright-sun-filigree",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBA0000000007",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

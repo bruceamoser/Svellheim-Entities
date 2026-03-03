@@ -1,0 +1,240 @@
+{
+  "name": "Solvi (Ember-Keeper of Stairwatch)",
+  "img": "modules/svellheim-character-options/assets/icons/npc-images/solvi.png",
+  "items": [
+    {
+      "_id": "SLVI000000000001",
+      "name": "Ember-Keeper's Duty",
+      "img": "icons/magic/light/torch-fire-orange.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Solvi tends Stairwatch's Ever-Ember â€” the smallest the PCs have seen, barely a campfire at the central crossroads. She was chosen six months ago and carries the weight of a role she's not ready for.</p>",
+          "director": "<p>If the PCs ask about the Ember, Solvi's eyes go wide and she changes the subject. She knows it's dying. She doesn't know what to do.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "solvi-ember-keepers-duty",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "SLVI000000000002",
+      "name": "Don't Let the Fire Die",
+      "img": "icons/magic/fire/flame-burning-orange-yellow.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Before the PCs depart Stairwatch, Solvi presses a coal-ember in a small iron box into their hands. \"Take this. It's not much. But... don't let the fire die. Please.\" The coal-ember can be used once to ignite a campfire that burns warm for 8 hours regardless of weather conditions (automatic success on one fire-related montage test). After use, the coal goes dark and the box grows cold.</p>",
+          "director": "<p>Play this moment for emotional weight. The mechanical benefit is real â€” automatic success on one fire-related montage test â€” but the players will remember a scared girl handing heroes her last scrap of hope. Don't remind the party it exists. Let them remember Solvi's gift on their own. When they do, it hits harder.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "solvi-dont-let-the-fire-die",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "Solvi",
+    "displayName": 50,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": 1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/npc-images/solvi.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": 10,
+      "max": 10,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": -1
+      },
+      "agility": {
+        "value": 0
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 1
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p><strong>Solvi</strong> is the Ember-Keeper of Stairwatch â€” a frightened teenager chosen for the role only six months ago. She tends the town's Ever-Ember: barely a campfire at the central crossroads.</p><p>Despite her fear, Solvi is dutiful. She approaches the PCs before their departure and presses a coal-ember in a small iron box into their hands. \"Take this. It's not much. But... don't let the fire die. Please.\"</p>",
+      "director": "<p>Solvi appears in <strong>Beat 5, Part 7</strong> (Departure from Stairwatch). She represents the next generation forced into impossible roles.</p><p>Play her gift moment for emotional weight: a frightened teenager handing heroes the last scrap of warmth she has. The Ever-Ember she tends should be described as worryingly small. If the PCs ask about it, her eyes go wide and she changes the subject. She knows it's dying. She doesn't know what to do.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 0,
+      "patience": 0,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 0
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 1,
+      "keywords": [
+        "humanoid"
+      ],
+      "level": 1,
+      "role": "support",
+      "organization": "solo"
+    }
+  },
+  "_id": "dfr7cHhVkf5ntFmb"
+}

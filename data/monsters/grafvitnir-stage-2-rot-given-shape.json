@@ -1,0 +1,153 @@
+{
+  "_id": "Q8xYMkL2FGiI4pSj",
+  "name": "Grafvitnir, Rot-Given-Shape — Stage 2 (L7 Solo)",
+  "img": "systems/draw-steel/assets/roles/boss.svg",
+  "items": [],
+  "effects": [],
+  "flags": {
+    "era-of-embers": {
+      "beat": "26",
+      "note": "Stage 2 of 3 — every shape worn in a thousand years, all at once. Söldís's ember moment triggers Stage 3."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "Grafvitnir",
+    "displayName": 40,
+    "actorLink": true,
+    "width": 4,
+    "height": 4,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "systems/draw-steel/assets/roles/boss.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": 200,
+      "max": 200,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 6
+      },
+      "agility": {
+        "value": 4
+      },
+      "reason": {
+        "value": 4
+      },
+      "intuition": {
+        "value": 4
+      },
+      "presence": {
+        "value": 6
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 4,
+        "letter": "G"
+      },
+      "stability": 6,
+      "turns": 2
+    },
+    "biography": {
+      "value": "<p><strong>Grafvitnir, Rot-Given-Shape — Level 7 Solo</strong></p><p><em>Supernatural, Gargantuan</em></p><p>Stamina 200 (fresh pool) | Speed 6 | Size Gargantuan | Stability 6</p><p>Turns: 2 per round | Free Strike: 8 | EV: 108</p><p><em>What rises from the roots is not a wolf anymore and has not decided what it wants to be. Too many joints. Proportions that keep shifting. A face appears in one location and then another. Limbs emerge and dissolve. Grafvitnir wearing every shape he has worn in a thousand years of imprisonment, all at once, unable to choose.</em></p><hr><h3>Main Attacks</h3><p><strong>Tendril Strike</strong> (Melee, Reach 4): +5 vs Might; 11 damage.</p><p><strong>Rot Pulse</strong> (Close Burst 3): +4 vs Presence; 8 damage, target Frightened until end of next turn.</p><hr><h3>Free Strike</h3><p><strong>Tendril Lash</strong> (Melee, Reach 4): +5 vs Might; 8 damage.</p><hr><h3>Villain Actions</h3><p><em>Each usable once per encounter, max 1 per round; triggers at end of any hero's turn:</em></p><p><strong>(VA1) Root Eruption:</strong> Three separate squares (each in range 10), +5 vs Agility; 10 damage, target Restrained (save ends).</p><p><strong>(VA2) Rot Spread:</strong> Close Burst 4 becomes difficult terrain (Rot-saturated ground, 2 movement per square) until end of encounter.</p><p><strong>(VA3) Reach and Grasp:</strong> Ranged 10, +5 vs Might; 12 damage, target Grabbed and takes 5 ongoing damage (escape TN 13).</p><hr><h3>Features</h3><p><strong>End Effect:</strong> When Grafvitnir starts his turn, he can take 10 damage to end one effect on him that a save ends.</p><p><strong>Spectral Instability:</strong> Grafvitnir's shifting mass disperses every attack. He reduces all incoming damage by 3 (minimum 1 damage dealt). Each blow lands on a form that is already moving, already changing, absorbing the force across dozens of half-real shapes.</p><p><strong>Undying Hunger:</strong> At the start of each of Grafvitnir's turns, he regains 5 Stamina unless the Ever-Ember is burning within the same zone.</p><p><strong>Stage Transition (to Stage 3):</strong> When the flame is extinguished AND restored by Söldís, Grafvitnir's howl triggers Stage 3. He grows, roots pull more mass from the ground, the ceiling breaks apart.</p>",
+      "director": "<p><strong>TACTICAL GUIDANCE — STAGE 2:</strong></p><p>Stage 2 is about managing the clock. The Ever-Ember must stay burning to suppress Undying Hunger. The party is fighting against time and entropy.</p><ul><li>Grafvitnir fills the great hall. Roots spread across zones. Tendrils reach far.</li><li><strong>Undying Hunger</strong> means the party is playing a losing game if they only deal damage — the flame IS the weapon.</li><li>VA1 (Root Eruption) locks heroes down. VA2 (Rot Spread) reshapes the battlefield. VA3 (Reach and Grasp) isolates a single target.</li><li>The <strong>Spectral Instability</strong> soak (-3 damage) is predictable — the party always knows. Feels fair while representing something that won't hold a shape.</li></ul><p><strong>KEY MOMENT — GRAFVITNIR EXTINGUISHES THE FLAME:</strong> During Stage 2, one precise tendril crosses the hall and wraps around the Ever-Ember shrine. The flame goes out. The hall goes dark. The cold comes in immediately. For one moment, the party is terrified.</p><p><strong>KEY MOMENT — SÖLDÍS'S ACT:</strong> She opens the clay pot. Twenty-two years she has carried it. She tilts it over the shrine. The flame IGNITES — fills the shrine, rises up the walls, reaches for the ceiling. Warm, huge, unmistakably <em>alive</em> in the way only something kept alive by absolute refusal can be.</p><p><strong>KEY MOMENT — LEW ARRIVES:</strong> The north gate opens. Lew runs through it. Behind him: Heitfolk, Green Heart elves, survivors from the settlements. His amber eye blazing. He shouts about the Green Heart growing. He asks: \"What do you need me to do?\" Then he is <em>moving</em>, joining the fight.</p><p><strong>Expected Duration:</strong> 3–4 rounds before Söldís's act triggers the transition.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 6,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 0
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "ev": 108,
+    "monster": {
+      "freeStrike": 8,
+      "keywords": [
+        "supernatural"
+      ],
+      "level": 7,
+      "role": "brute",
+      "organization": "solo"
+    }
+  }
+}

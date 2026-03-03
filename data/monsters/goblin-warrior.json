@@ -1,0 +1,374 @@
+{
+  "folder": null,
+  "name": "Goblin Warrior",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/monster-images/goblin-warrior.png",
+  "system": {
+    "stamina": {
+      "value": 15,
+      "max": 15,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": -2
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 0
+      },
+      "intuition": {
+        "value": 0
+      },
+      "presence": {
+        "value": -1
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "S"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>A Goblin Warrior is a hit-and-run fighter driven from deep mountain caves by some unknown force pressing southwest. Crude spear, quick legs, zero hesitation -- it drops in, stabs, and runs back up the cliff before you can answer.</p>",
+      "director": "<p>Warriors open with Spear Charge for mobile hit-and-run from the cliff walls, retreating back to elevation after each strike. Bury the Point is their pressure tool against durable targets -- bleeding (save ends) drains action economy. Keep them shifting and never static. They work best when Runners tie up attention and Warriors flank freely.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 6,
+      "types": [
+        "walk",
+        "climb"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "Beat 04b",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 1,
+      "keywords": [
+        "goblin",
+        "humanoid"
+      ],
+      "level": 1,
+      "ev": 3,
+      "role": "harrier",
+      "organization": "horde"
+    }
+  },
+  "prototypeToken": {
+    "name": "Goblin Warrior",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/monster-images/goblin-warrior.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "items": [
+    {
+      "name": "Spear Charge",
+      "type": "ability",
+      "img": "icons/weapons/polearms/spear-flared.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-warrior-spear-charge",
+        "keywords": [
+          "charge",
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "agility"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "GBWAR000000001": {
+              "type": "damage",
+              "_id": "GBWAR000000001",
+              "damage": {
+                "tier1": {
+                  "value": "3",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "4",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "5",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "GBWAR00000000200",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Bury the Point",
+      "type": "ability",
+      "img": "icons/weapons/polearms/spear-pointed.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-warrior-bury-the-point",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": 2,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creature",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Tier 1:</strong> M&lt;0 bleeding (save ends).<br><strong>Tier 2:</strong> M&lt;1 bleeding (save ends).<br><strong>Tier 3:</strong> M&lt;2 bleeding (save ends).</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "agility"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "GBWAR000000003": {
+              "type": "damage",
+              "_id": "GBWAR000000003",
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "might"
+                  }
+                },
+                "tier2": {
+                  "value": "6",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  }
+                },
+                "tier3": {
+                  "value": "7",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "GBWAR00000000400",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Crafty",
+      "type": "feature",
+      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+      "system": {
+        "description": {
+          "value": "<p>The warrior doesn't provoke opportunity attacks by moving.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04b",
+          "license": ""
+        },
+        "_dsid": "goblin-warrior-crafty",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "GBWAR00000000500",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "hYVTPMK1vD24Zk6w"
+}

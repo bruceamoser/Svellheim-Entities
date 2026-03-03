@@ -1,0 +1,43 @@
+{
+  "name": "Skjoldfjellsmål Dueling Form",
+  "type": "project",
+  "img": "icons/skills/melee/weapons-crossed-swords-black-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The Skjoldfjellsmål formal duel is a three-act encounter: the challenge (verbal, precise, witnessed), the acceptance (formal, binding, timed), and the duel itself — which follows rules so specific that a trained observer can read the whole tactical conversation in the footwork alone. Outsiders who try to engage with the form without knowing it look, to highland eyes, the way someone sounds reading a foreign language phonetically. Competent sound. Wrong meaning entirely.</em></p><p>This project is a study and conditioning program in the Skjoldfjellsmål highland dueling tradition: the full vocabulary of formal stance positions, the transition patterns between them, the specific weight-forward guard used in the highland close style, the rules and etiquette of the challenge-acceptance sequence, and the tactical patience that characterizes the form — which rewards the person who can wait longest for a specific moment rather than the person who hits hardest.</p><p><strong>Rules Note:</strong> On completion, the hero gains edge on Power Roll results when fighting a single opponent in formal or semi-formal single combat conditions (a witnessed duel, a challenge accepted on both sides, or a clearly one-on-one fight where neither side has support). The form's emphasis on patience and precision does not benefit the hero in brawls, group combat, or ambush scenarios. Additionally, the hero is recognized as a trained duelist by the highland clans, which has social implications in Skjoldfjellsmål territory.</p>",
+      "director": ""
+    },
+    "type": "other",
+    "prerequisites": "A willing sparring partner who knows the Skjoldfjellsmål form and practice blades appropriate to the training style. Access to a highland fighting hall or equivalent space. Regular practice sessions over multiple respites.",
+    "projectSource": "Skjoldfjellsmål dueling hall tradition — maintained by master duelists in the highland settlements who take formal record of who has been trained and vouched for by whom.",
+    "rollCharacteristic": [
+      "might",
+      "agility"
+    ],
+    "goal": 240,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Edge on Power Rolls in formal single combat; recognized as highland duelist in Skjoldfjellsmål territory (social benefit)."
+    },
+    "_dsid": "svellheim-skjoldfjellsmal-dueling-form",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJO0000000005",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

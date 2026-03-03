@@ -1,0 +1,422 @@
+{
+  "folder": null,
+  "name": "Grave-Singer",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/monster-images/grave-singer.png",
+  "system": {
+    "stamina": {
+      "value": 25,
+      "max": 25,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": -1
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 0
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>A Grave-Singer is the spectral remnant of a Svellheim mourner, twisted by the blight into an undead spirit. It drifts above the barrows, its mournful dirge draining the will of the living and calling the dead back to service. Where a Grave-Singer sings, Barrow-Draugr rise.</p>",
+      "director": "<p>The Grave-Singer is a controller — keep it at range and use Dirge to daze PCs. Grave-Song aura slows any living creature that starts near it, making it hard for melee fighters to close. If a Barrow-Draugr is destroyed, use Raise the Fallen (1/encounter) to bring it back with 15 HP. Incorporeal halves non-magical physical damage — fire and force bypass this. Keep it flying above melee reach when possible.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 6,
+      "types": [
+        "fly"
+      ],
+      "hover": true,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 3,
+      "keywords": [
+        "undead",
+        "spirit"
+      ],
+      "level": 2,
+      "ev": 10,
+      "role": "controller",
+      "organization": "platoon"
+    }
+  },
+  "prototypeToken": {
+    "name": "Grave-Singer",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/monster-images/grave-singer.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Dirge",
+      "type": "ability",
+      "img": "icons/magic/death/undead-ghost-scream-teal.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "grave-singer-dirge",
+        "keywords": [
+          "ranged",
+          "strike",
+          "magic"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 8,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "ranged",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Tier 2+:</strong> The target is also dazed (can take only one action on their next turn).</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "presence"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "GRSN000000000001": {
+              "type": "damage",
+              "_id": "GRSN000000000001",
+              "damage": {
+                "tier1": {
+                  "value": "3",
+                  "types": [
+                    "psychic"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "6",
+                  "types": [
+                    "psychic"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "presence"
+                  }
+                },
+                "tier3": {
+                  "value": "9",
+                  "types": [
+                    "psychic"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "presence"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "GRSN000000000002",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Raise the Fallen",
+      "type": "ability",
+      "img": "icons/magic/death/undead-ghosts-trio-blue.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "grave-singer-raise-the-fallen",
+        "keywords": [
+          "ranged",
+          "magic"
+        ],
+        "type": "main",
+        "category": "",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 5,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "ranged",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one destroyed Barrow-Draugr"
+        },
+        "effect": {
+          "before": "<p><strong>Maneuver.</strong> One destroyed Barrow-Draugr within range is raised with 15 stamina. This ability can only be used once per encounter.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "GRSN000000000003",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Incorporeal",
+      "type": "feature",
+      "img": "icons/creatures/magical/spirit-undead-horned-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Grave-Singer takes half damage from non-magical physical attacks. Force and fire damage is full.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "grave-singer-incorporeal",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "GRSN000000000004",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Grave-Song",
+      "type": "feature",
+      "img": "icons/skills/trades/music-singing-voice-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the start of the Grave-Singer's turn, each living creature within 5 squares must succeed on an easy Presence test or become slowed (speed halved) until the end of their next turn. The song is mournful, droning, and fills the mind with the desire to lie down and sleep.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "grave-singer-grave-song",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "GRSN000000000005",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "MkEgssesSnOQPjv1"
+}

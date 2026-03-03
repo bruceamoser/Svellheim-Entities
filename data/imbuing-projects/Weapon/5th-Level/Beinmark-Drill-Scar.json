@@ -1,0 +1,48 @@
+{
+  "name": "Beinmark Drill-Scar",
+  "type": "treasure",
+  "img": "icons/weapons/swords/shortsword-broad-engraved.webp",
+  "system": {
+    "kind": "weapon",
+    "category": "leveled",
+    "echelon": 2,
+    "description": {
+      "value": "<p><em>March-drill cadence cut into the fuller — Beinmark drill-masters notch cadence-marks into training weapons to help soldiers keep rhythm; the marks are never removed when the blade is sharpened for war, and they keep a different rhythm now — the body's own.</em></p><p><strong>Effect:</strong> At the start of each encounter, you gain temporary Stamina equal to your Might score.</p><p><small><strong>Rules:</strong> Temporary Stamina; Encounter.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "A weapon of at least quality craft; a drill-cadence notch-set from a serving Beinmark drill-master",
+      "source": "March-drill cadence cut into the fuller (Beinmarksmål)",
+      "rollCharacteristic": [
+        "might",
+        "reason"
+      ],
+      "goal": 240,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-beinmark-drill-scar",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBW0000000008",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

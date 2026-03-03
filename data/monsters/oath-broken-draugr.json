@@ -1,0 +1,490 @@
+{
+  "folder": null,
+  "name": "Oath-Broken Draugr",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/monster-images/oath-broken-draugr.png",
+  "system": {
+    "stamina": {
+      "value": 40,
+      "max": 40,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 1
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Oath-Broken Draugr are the remnants of hirdmen — warriors who swore oaths to protect their lords and failed. Better-preserved than thralls, they wear the remains of a hirdman's armour and their eyes hold a dull, hateful intelligence. They fight with remembered skill — flanking, retreating from fire, and targeting isolated opponents. When they fall, they whisper one true thing: a fragment of memory from their former life.</p>",
+      "director": "<p>The Oath-Broken Draugr is a mid-level brute that fights smart. Use <strong>Tactical Dead</strong> to justify intelligent positioning — it flanks, retreats from fire, and targets isolated PCs. <strong>Oath-Blade</strong> deals solid flat damage (7) with cold ongoing on tier 3. Save <strong>Accusing Howl</strong> (5 Malice) for a key moment — the bane on the target's next power roll can turn a pivotal action. <strong>The Dead Remember</strong> adds narrative weight when it dies — have it whisper a name, a broken promise, or a memory of the world before. Use 2 of these alongside the Wight-Lord to create a dangerous vanguard.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 5,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 3,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": [
+        "frightened"
+      ]
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "undead"
+      ],
+      "level": 3,
+      "ev": 10,
+      "role": "brute",
+      "organization": "platoon"
+    }
+  },
+  "prototypeToken": {
+    "name": "Oath-Broken Draugr",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/monster-images/oath-broken-draugr.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Oath-Blade",
+      "type": "ability",
+      "img": "icons/weapons/swords/sword-runed-glowing.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "oath-broken-draugr-oath-blade",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Tier 3:</strong> The target takes ongoing 2 cold damage (save ends).</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "might"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "OBDR000000000001": {
+              "type": "damage",
+              "_id": "OBDR000000000001",
+              "damage": {
+                "tier1": {
+                  "value": "7",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "7",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  }
+                },
+                "tier3": {
+                  "value": "7",
+                  "types": [
+                    "cold"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "OBDR000000000002",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Accusing Howl",
+      "type": "ability",
+      "img": "icons/magic/death/undead-ghost-scream-teal.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "oath-broken-draugr-accusing-howl",
+        "keywords": [
+          "ranged",
+          "strike"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": {
+          "type": "malice",
+          "value": 5
+        },
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 5,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "ranged",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target has a bane on their next power roll. <em>The draugr screams a name — not yours, but someone you've failed.</em></p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "presence"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "OBDR000000000003": {
+              "type": "damage",
+              "_id": "OBDR000000000003",
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [
+                    "psychic"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "5",
+                  "types": [
+                    "psychic"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "presence"
+                  }
+                },
+                "tier3": {
+                  "value": "5",
+                  "types": [
+                    "psychic"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "presence"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "OBDR000000000004",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Tactical Dead",
+      "type": "feature",
+      "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Oath-Broken fights with remembered skill. It flanks, retreats from fire, and targets isolated PCs.</p>",
+          "director": "<p>Use this to justify intelligent positioning — the Oath-Broken is not a mindless shambler. It will disengage from unfavorable fights, flank with allies, and prioritize squishy targets.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "oath-broken-draugr-tactical-dead",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "OBDR000000000005",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unfeeling",
+      "type": "feature",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Oath-Broken Draugr is immune to fear, charm, and pain-based effects.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "oath-broken-draugr-unfeeling",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "OBDR000000000006",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "The Dead Remember",
+      "type": "feature",
+      "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>When the Oath-Broken drops to 0 Stamina, it whispers one true thing — a fragment of memory from its former life. This has no mechanical effect but can provide lore clues or emotional weight.</p>",
+          "director": "<p>Prepare 2-3 whispered memories beforehand. Examples: 'I swore to hold the gate… I swore…', 'Tell my daughter I didn't run', 'The wolf came through the roots… the wolf…'. These fragments can foreshadow Grafvitnir or humanize the undead — these were people.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "oath-broken-draugr-the-dead-remember",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "OBDR000000000007",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "XWXVl7jyyMKvvRXT"
+}

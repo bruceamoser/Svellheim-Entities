@@ -1,0 +1,155 @@
+{
+  "_id": "J1qSFfE5xYbB7iOd",
+  "name": "Dreyfus, the Shape-Walker (L5 Elite)",
+  "img": "systems/draw-steel/assets/roles/boss.svg",
+  "items": [],
+  "effects": [],
+  "flags": {
+    "era-of-embers": {
+      "beat": "24",
+      "note": "Final appearance — distinct from Act 1 L4 version. Exhausted, degraded, personal."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "Dreyfus",
+    "displayName": 40,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "systems/draw-steel/assets/roles/boss.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": 64,
+      "max": 64,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 4
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 2,
+      "turns": 2
+    },
+    "biography": {
+      "value": "<p><strong>Dreyfus, the Shape-Walker — Level 5 Elite</strong></p><p><em>Humanoid (Shape-Walker), Medium</em></p><p>Stamina 64 | Speed 7 | Size M | Stability 2</p><p>Dreyfus appears as a grey-pale man with gold unblinking eyes, skin the colour of old ivory. But something is <em>wrong</em> with him. The edges of him flicker, like a candle in a draft. His shifting is less clean than it was — less sure. He carries the specific marks of his fight with the party in Beat 9.</p><hr><h3>Main Attacks</h3><p><strong>Talon Strike</strong> (Melee, Agility): +4 vs Agility; 9 damage. Target is Slowed (save ends).</p><p><strong>Void Pulse</strong> (Ranged 8, Presence): +3 vs Intuition; 7 damage. Target has a bane on their next test or attack roll.</p><hr><h3>Triggered Actions (costs 1 Villain Power)</h3><p><strong>Shift Form</strong> (triggered at start of turn): Dreyfus transforms into a new form. Each form has a different secondary attack:</p><ul><li><strong>Dire Wolf Form:</strong> Pack Lunge — Melee, +4 vs Might; 11 damage, target Prone.</li><li><strong>Raven Form:</strong> Wyrd-Shriek — Close Burst 2, +3 vs Intuition; 5 damage, all targets Dazed until end of next turn. (Speed 10 while in Raven form; flying.)</li><li><strong>Shadow Form:</strong> Drain Warmth — Ranged touch, +3 vs Presence; 8 cold damage, target loses 1 Recovery.</li></ul><hr><h3>Features</h3><p><strong>Flickering Body:</strong> When Dreyfus takes 10+ damage from a single hit, he immediately teleports 3 squares as a free triggered action.</p><p><strong>Wyrd-Read:</strong> Dreyfus cannot be surprised. He knows what skills each hero has used so far in the campaign and uses this knowledge tactically.</p><p><strong>Shape Collapse:</strong> When reduced to 0 Stamina, Dreyfus does not die. He collapses into a pool of shadow and is incapacitated. He cannot reform. He is finished — not destroyed, but ended as an agent.</p>",
+      "director": "<p><strong>TACTICAL GUIDANCE:</strong></p><ul><li>This fight should take ~2 rounds if the party plays efficiently.</li><li>Dreyfus is dangerous (Elite) but exhausted in ways that show.</li><li><strong>Round 1:</strong> Fights with precision and cruelty. Uses Wyrd-Read knowledge to target each hero's confidence. Shifts forms to scatter positioning.</li><li><strong>Round 2:</strong> Villain Power depleted. Returns to human form. Faster, more direct — precision gone, replaced by pure violence. Most dangerous here.</li><li>At 20 Stamina: Stops shifting forms. He can't maintain the shapes. The party watches something <em>degrade</em>.</li><li>At 0 Stamina: Collapses. Flickering stops. For one moment, he looks completely human — not a shape-walker, but a person who has been doing something terrible for a very long time and has finally been stopped.</li></ul><p><strong>CALLBACK TO BEAT 9:</strong> Review what the party did to Dreyfus in Beat 9 — which PC wounded him, what weapon, where the blow landed. His degraded appearance here should carry the specific marks of that fight. If a PC drove a spear through his shoulder, his left arm doesn't shift cleanly. If they burned him, his raven form trails ash. The party should recognise their own handiwork.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 7,
+      "types": [
+        "walk",
+        "teleport"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "ev": 40,
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "humanoid",
+        "shape-walker"
+      ],
+      "level": 5,
+      "role": "hexer",
+      "organization": "elite"
+    }
+  }
+}

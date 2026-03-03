@@ -1,0 +1,43 @@
+{
+  "name": "Askmål Hearth-Lamp",
+  "type": "project",
+  "img": "icons/magic/light/light-lantern-lit-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The pine forests of the Askeskog do not frighten easily, but they respect a steady light. The firekeeper families of Askmål have long understood that oil runs out and fire is borrowed — so the best lamp is one that asks little and gives much. The hearth-lamp is sealed against wind, its glass ground to a slow amber diffusion, and its wick treated with a resinous compound that draws on the lantern's own warmth to sustain itself. It is not magic, strictly speaking. It is very good craft.</em></p><p>This project produces a sealed glass-and-iron lantern in the Askmål firekeeper tradition, treated internally with a pine-resin sustaining compound. The lantern burns at a steady low flame for up to 12 hours without consuming any oil, fed by the residual heat cycling of the resin compound. After 12 hours, one flask of oil may be added to reset the cycle. The lamp cannot be blown out by natural weather and the amber glass prevents night-vision disruption at range.</p><p><strong>Rules Note:</strong> Burns for 12 hours without oil. Immune to wind extinguishing. Creatures outside 5 meters do not suffer the blinded condition from looking toward the lamplight. After 12 hours, requires 1 oil flask to recharge.</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "A glass lens blank (hand-ground or bought), iron fitting stock, pine resin (1 season's collection), and jewelry or mechanics tools.",
+    "projectSource": "Askmål Firekeeper's Notes — an apprentice guide maintained by the firekeeper families of the Askeskog. Copies circulate among woodcutters and forest rangers.",
+    "rollCharacteristic": [
+      "reason",
+      "intuition"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Askmål hearth-lamp: burns 12 hours without oil, wind-proof, amber glass reduces glare. Recharged with 1 oil flask."
+    },
+    "_dsid": "svellheim-askmal-hearth-lamp",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000004",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_id": "D5hMaJz6ScUq1vPf",
+  "name": "Heitfolk Cold-Wraps (×4)",
+  "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+  "effects": [],
+  "flags": {
+    "draw-steel": {
+      "acquisition": "beat-20-automatic-from-hildvard",
+      "beat": "20"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "type": "treasure",
+  "system": {
+    "description": {
+      "value": "<p>Specially treated wrappings made from stone-wool — mineral fibers heated and pressed into dense, insulating mats that can be worn over armor or under cloaks. Grey-white woven fiber, warm to the touch, surprisingly light and flexible. Each set is sized for one wearer. Crafted by Heitfolk artisans for deep-route expeditions through the extremes of the White Waste.</p><p>While worn, these wrappings reduce all cold damage by 3 and preserve body heat with remarkable efficiency. Any character wearing them is visibly identified as allied with the Heitfolk.</p>",
+      "director": "<p><strong>ACQUISITION:</strong> Automatic from Hildvarð Bruneson at the Steam-Oasis (Beat 20). Four sets — one per hero. Hildvarð says: <em>\"You'll need them for what's ahead. The cold is getting worse, and you're carrying warmth the world is hungry for.\"</em></p><p><strong>MECHANICS (while worn):</strong></p><ul><li><strong>Cold Resistance 3</strong> — reduces all cold damage by 3 (environmental cold, frost attacks, and cold-based abilities).</li><li><strong>Heat Preservation:</strong> Cold-based Heat consumption is reduced by 1 for the wearer.</li><li><strong>Heitfolk-made:</strong> Crafted specifically for the extremes of the White Waste. Any character wearing these wrappings is identified as allied with the Heitfolk.</li></ul><p><strong>DURATION:</strong> Lasts for the remainder of Act 3. Heitfolk craftsmanship is built for deep-route expeditions. The mineral oil slowly depletes, but at this pace the wraps remain effective through the campaign's conclusion.</p><p><strong>NARRATIVE:</strong> The Cold-Wraps have no further relevance after Grafvitnir is sealed. The cold retreats. The wraps are warm relics of a colder time.</p>"
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "_dsid": "",
+    "kind": "",
+    "category": "equipment",
+    "echelon": 1,
+    "keywords": [
+      "cold",
+      "defense"
+    ],
+    "quantity": 4,
+    "project": {
+      "prerequisites": "",
+      "source": "",
+      "rollCharacteristic": [],
+      "goal": null,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    }
+  }
+}

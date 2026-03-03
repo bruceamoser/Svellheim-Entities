@@ -1,0 +1,43 @@
+{
+  "name": "Askeskogsmål Root-Shelter",
+  "type": "project",
+  "img": "icons/magic/nature/root-vine-beanstolk-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The wardens of the Askeskog do not build their shelters. They grow them — or more precisely, they ask politely and then help the process along with tools and knowledge of the wood's preferences. The root-shelter collapses into a wrapped bundle of living rods no longer than a walking staff. Planted correctly and spoken to properly, it rises in about an hour into something that looks, from inside, astonishingly like shelter.</em></p><p>This project produces a set of 12 living sapling-rods treated with a growth-essence preparation and bound with growth-coded cord. When planted in earth and the activation words spoken (learned during construction), the rods grow over one hour into an interlocked dome shelter roughly 4 meters in diameter, sealed against wind and rain. The interior remains at a consistent temperature several degrees warmer than outside. Sleeping inside the root-shelter counts as a proper haven rest regardless of external conditions — hostile weather, light rain, and ordinary cold do not impose penalties. The shelter can be collapsed and replanted up to three times before the rods exhaust their growth potential.</p><p><strong>Rules Note:</strong> Assembles in 1 hour when planted in soil. Interior seats 4 comfortably, 6 tightly. Sleeping within the Root-Shelter provides full long rest benefits irrespective of outdoor conditions (not combat). Collapsible and transportable. 3 deployment uses before the wood dies and must be replaced (requiring a new Crafting project).</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "12 living sapling-rods of Askeskog ash (harvested with the tree's consent according to grove-rite), 1 vial of prepared growth-essence (requires alchemy), growth-coded binding cord.",
+    "projectSource": "Askeskogsmål Warden's Grove-Rites — a complete working manual of the grove-warden tradition. Access requires endorsement by an active grove-warden or a significant gift to a forest elder.",
+    "rollCharacteristic": [
+      "intuition",
+      "reason"
+    ],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Askeskogsmål root-shelter: 12 living rods, assembles in 1 hour, seats 6, provides full rest benefits in any non-combat outdoor conditions. 3 uses."
+    },
+    "_dsid": "svellheim-askeskogdsmal-root-shelter",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000011",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

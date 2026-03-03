@@ -1,0 +1,48 @@
+{
+  "name": "House-songs of Iron",
+  "type": "treasure",
+  "img": "icons/equipment/chest/breastplate-gorget-steel.webp",
+  "system": {
+    "kind": "armor",
+    "category": "leveled",
+    "echelon": 1,
+    "description": {
+      "value": "<p><em>Hall-carols etched into rivets — an old Svellheim custom, where smiths would sing a house-song as they set each fastening, locking pride and stubbornness into the metal itself.</em></p><p><strong>Effect:</strong> Once per respite, when you would become prone, you can remain standing instead.</p><p><small><strong>Rules:</strong> Prone; Respite.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "A suit of armor of at least basic quality",
+      "source": "Hall-carols etched into rivets (Svellspraak)",
+      "rollCharacteristic": [
+        "might",
+        "reason"
+      ],
+      "goal": 120,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-house-songs-of-iron",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBA0000000001",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Dvergsmål Deep-Survey",
+  "type": "project",
+  "img": "icons/tools/navigation/sextant-complex-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Dverg do not wander underground. They survey. Every pace is measured, every turning noted, every junction assigned a glyph from the Dverg naming-standard that has been in use for longer than the surface settlements have existed. A good deep-survey is a gift to everyone who comes after — it is the argument that Dverg craftsmanship applies to spaces as well as objects.</em></p><p>This project involves systematic mapping and hazard-assessment of a known underground complex or mine-network: passage widths, ceiling heights, junction landmarks, load-bearing strata, water sources, gas-risk zones, structural failure points, and known inhabitants with territories marked. The work requires access to the target complex, ideally with Dverg architectural records as a starting framework, plus original observation to fill in gaps or update outdated records.</p><p><strong>Rules Note:</strong> On completion, the hero possesses a detailed survey map of a specific underground complex. Within that complex, they gain edge on navigation tests, never become disoriented, automatically recognize structurally dangerous areas (Director informs them before an event), and know the locations of all previously documented inhabitants' territories. Sharing the map is easy — making a copy counts as a short rest activity.</p>",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "Physical access to the target underground complex, Dverg architectural records or a Dverg contact familiar with the site, surveying tools (compass, measuring cord, charcoal and vellum).",
+    "projectSource": "Dverg mine-charter tradition — maintained by the Deep Survey Guild, a Dverg institution that holds the records of every surveyed underground complex in their territory. Access requires formal request or sponsorship.",
+    "rollCharacteristic": [
+      "reason",
+      "might"
+    ],
+    "goal": 240,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Detailed survey of one underground complex: edge on navigation; structural hazard warnings; territory map of documented inhabitants."
+    },
+    "_dsid": "svellheim-dvergsmal-deep-survey",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000006",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

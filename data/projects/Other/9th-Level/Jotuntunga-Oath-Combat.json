@@ -1,0 +1,43 @@
+{
+  "name": "Jötuntunga Oath-Combat",
+  "type": "project",
+  "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Among the Jötun, an oath-combat is not merely a fight. It is a legal proceeding. Both parties have named what they are contesting. Witnesses have sworn to report what they see. The outcome is binding in the way that only witnessed decisions can be binding — in the memory of everyone who was present, which is more durable than any document. Training in the form means learning not just the weapon-work, but the vocabulary of formal combat, which has specific words for every stage from challenge to resolution to the declaration of outcome.</em></p><p>This project is a deep apprenticeship in the Jötun tradition of sacred oath-combat: the formal challenge vocabulary, the acceptance protocol, the binding-oath recitation that both parties speak before weapons are raised, the specific restricted techniques (no strikes to the back, no use of ranged weapons, no third-party intervention), and the close-range grapple-and-yield pattern that ends engagements without killing when the outcome is clear. Training requires Jötun instructors and witnessed formal bouts.</p><p><strong>Rules Note:</strong> On completion, the hero is formally recognized by Jötun culture as eligible to issue or receive an oath-combat challenge — a recognition with significant cultural weight. The hero gains edge on Power Roll tests during formal oath-combat engagements (specifically witnessed single-combat under oath). When issuing a formal challenge to a Jötun, the difficulty of the opening Presence test to have the challenge accepted is reduced by one step. Additionally, the hero knows the binding-oath recitation in Jötuntunga and can serve as a legal witness to oath-combats.</p>",
+      "director": ""
+    },
+    "type": "other",
+    "prerequisites": "A Jötun warrior elder willing to instruct (requires established trust or a formal sponsorship oath), attendance as witness at a minimum of three real oath-combats before beginning personal training, and multiple formal practice bouts with Jötun partners.",
+    "projectSource": "Jötuntunga elder warrior tradition — the instruction is tied to specific lineages that hold the formal record of oath-combat procedures. There is no generalized school; each instructor's lineage has slightly different ceremonial forms, though the core combat rules are universal.",
+    "rollCharacteristic": [
+      "might",
+      "presence"
+    ],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Recognized as oath-combat eligible by Jötun culture; edge on Power Rolls in formal oath-combat; lower difficulty to issue Jötun challenges; legal witness standing."
+    },
+    "_dsid": "svellheim-jotuntunga-oath-combat",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJO0000000010",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

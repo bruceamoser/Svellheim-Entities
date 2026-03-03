@@ -1,0 +1,48 @@
+{
+  "name": "Beinmark Oath-Suture",
+  "type": "treasure",
+  "img": "icons/weapons/staves/staff-hooked-banded.webp",
+  "system": {
+    "kind": "implement",
+    "category": "leveled",
+    "echelon": 3,
+    "description": {
+      "value": "<p><em>Border-healer sutures and stubborn vows — Beinmark border-healers stitch wounds and vows in the same breath; their suturing thread carries the intent that the patient will not give up, and the implement carries that same refusal forward into magic.</em></p><p><strong>Effect:</strong> Once per encounter, when you spend a Recovery, you also gain temporary Stamina equal to your Might score.</p><p><small><strong>Rules:</strong> Recoveries; Temporary Stamina; Encounter.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "An implement of exceptional quality; a length of Beinmark healer's suture thread still knotted with an oath",
+      "source": "Border-healer sutures and stubborn vows (Beinmarksmål)",
+      "rollCharacteristic": [
+        "reason",
+        "intuition"
+      ],
+      "goal": 480,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-beinmark-oath-suture",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBI0000000011",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

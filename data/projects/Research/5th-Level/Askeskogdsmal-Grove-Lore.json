@@ -1,0 +1,43 @@
+{
+  "name": "Askeskogsmål Grove-Lore",
+  "type": "project",
+  "img": "icons/sundries/books/book-embossed-roots-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Every old forest has a history that trees remember differently than people do. The grove-lore of the Askeskog is the art of reading that history — where the old paths ran before the canopy closed, where the spirit-names are still spoken at hollow logs, which clearings were once meeting-places, and which were killing-grounds. The forest does not give this up easily. It requires patience, and a certain willingness to simply be present without agenda for a long time.</em></p><p>This project involves deep study of one specific ancient forest: its navigational paths and landmarks, the resident spirits (their locations, dispositions, and names), historical events that occurred within it, and the ecological patterns that can help a traveler move through without disturbing the wrong things. The study requires significant time within the forest itself, consultation with the grove-wardens, and making peace with some uncertainty that will not be resolved by rational inquiry alone.</p><p><strong>Rules Note:</strong> On completion, choose one specific forest the hero has studied. Within that forest, the hero gains edge on all tests involving navigation, tracking, hiding, and foraging. The Director provides the heroes with the known names and dispositions of the forest's resident spirits. The hero automatically knows when they are approaching the territory of an entity that would react badly to their presence, with enough time to change approach.</p>",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "Extended time within the specific target forest (weeks, not days), cooperation from at least one active Askeskogsmål grove-warden, and a willingness to follow the grove's protocols for deep study.",
+    "projectSource": "Askeskogsmål grove-warden knowledge — held by a guild of warden-families who have each tended specific groves for generations. Access requires either membership or trusted sponsorship.",
+    "rollCharacteristic": [
+      "intuition",
+      "reason"
+    ],
+    "goal": 240,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Complete grove-lore for one forest: edge on all forest tests; spirit names and dispositions known; approaching hostile territory triggers advance warning."
+    },
+    "_dsid": "svellheim-askeskogdsmal-grove-lore",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000005",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

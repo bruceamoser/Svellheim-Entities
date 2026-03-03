@@ -1,0 +1,156 @@
+{
+  "_id": "UjkSd0Maslocpfvt",
+  "name": "Pale Maw Veteran",
+  "img": "systems/draw-steel/assets/roles/defender.svg",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 30,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 2
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 1
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Experienced Pale Maw cultists who serve as the backbone of their combat formations. Heavier armor than soldiers, bearing shields with the entropy sigil. They focus on controlling terrain and protecting their more vulnerable zealot allies.</p>",
+      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Veteran’s Thrust</strong> (Main, Melee, Might): T1 2 dmg; T2 5 dmg; T3 7 dmg.</li><li><strong>Covering Fire</strong> (Main, Ranged 40ft, Agility): T1 2 dmg; T2 3 dmg + slowed EoNT; T3 4 dmg + slowed (save ends).</li><li><strong>Defensive Posture</strong> (Maneuver): Until start of next turn, one adjacent PM ally gains +1 to Presence tests vs. being moved or knocked prone.</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Shield Wall:</strong> enemies moving through spaces adjacent to Veteran must make an Agility test (moderate) or stop movement.</li><li><strong>Steadfast:</strong> +1 stability. On Might defense success: adjacent PM ally may shift 1 square as free action.</li></ul><p><strong>TACTICS:</strong> Hold choke points. Use Covering Fire on mobile targets. Protect allies with Defensive Posture.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "humanoid",
+        "zealot"
+      ],
+      "level": 3,
+      "role": "defender",
+      "organization": "horde"
+    }
+  }
+}

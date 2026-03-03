@@ -1,0 +1,970 @@
+{
+  "folder": null,
+  "name": "High King Harald",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/npc-images/high-king-harald.png",
+  "system": {
+    "stamina": {
+      "value": 160,
+      "max": 160,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 5
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": 4
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 2,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p><strong>High King Harald</strong> is the name tied to the old unification: the Danelaw that bound feuding clans into one realm. His word still echoes in writs, stamped notices, and the obligations of a <em>Konungs-ferÃ°</em>.</p><p>In battle, Harald is the hearth made ironâ€”an old fury disciplined into law. He breaks shields, then points the next blade where it must go.</p>",
+      "director": "Run Harald as a war-king: decisive, practical, and unsentimental. He believes unity is paid for in blood and debt, and he expects oaths to be kept even when the gods are silent.",
+      "languages": []
+    },
+    "movement": {
+      "value": 6,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim (Original)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 7,
+      "patience": 4,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 7,
+      "keywords": [
+        "humanoid",
+        "hearthborn",
+        "king"
+      ],
+      "level": 7,
+      "ev": 28,
+      "role": "brute",
+      "organization": "leader"
+    }
+  },
+  "prototypeToken": {
+    "name": "High King Harald",
+    "displayName": 50,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/npc-images/high-king-harald.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "End Effect",
+      "type": "feature",
+      "_id": "HARLENDFFECT0001",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the end of each of his turns, Harald can take [[/damage 5]] damage to end one effect on him that can be ended by a saving throw. This damage canâ€™t be reduced in any way.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "184",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "end-effect",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Supernatural Insight",
+      "type": "feature",
+      "_id": "HARLSUPERINS0001",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>Harald ignores concealment if itâ€™s granted by a supernatural effect.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "184",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "supernatural-insight",
+        "advancements": {}
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Melee Free Strike",
+      "type": "ability",
+      "_id": "HARLMELEEFSTRK01",
+      "img": "icons/skills/melee/hand-grip-sword-strike-orange.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "275",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "melee-free-strike",
+        "keywords": [
+          "charge",
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "freeStrike",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "might",
+              "agility"
+            ],
+            "formula": "@chr"
+          },
+          "effects": {
+            "uMnGIJk7i9wqGwXp": {
+              "type": "damage",
+              "_id": "uMnGIJk7i9wqGwXp",
+              "damage": {
+                "tier2": {
+                  "potency": {
+                    "characteristic": "none",
+                    "value": "@potency.average"
+                  },
+                  "value": "5 + @chr",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
+                  "potency": {
+                    "characteristic": "none",
+                    "value": "@potency.strong"
+                  },
+                  "value": "7 + @chr",
+                  "types": [],
+                  "properties": []
+                },
+                "tier1": {
+                  "value": "2 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                }
+              },
+              "name": "",
+              "img": null,
+              "sort": 0
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Charge",
+      "type": "ability",
+      "_id": "HARLCHARGEMAIN01",
+      "img": "icons/skills/movement/feet-bladed-boots-fire.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "274",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "charge",
+        "keywords": [
+          "charge",
+          "melee",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemy",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p>When a creature takes the Charge main action, they move up to their speed in a straight line without jumping, then make a @UUID[Compendium.draw-steel.abilities.Item.wU69Y06G9lYFrvp6]{melee free strike} against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a free strike.</p><p>A creature canâ€™t move through difficult terrain or shift when they charge. They can fly or burrow as part of the Charge main action if they have that movement available to them, but they canâ€™t climb or swim while charging unless they can automatically use that movement at full speed.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "story": "",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Hit and Run",
+      "type": "ability",
+      "_id": "HARLHITANDRUN001",
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "133",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "hit-and-run",
+        "story": "Staying in constant motion helps you slip out of reach after a brutal  assault.",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "kMEMHtTjiF7Nyu1O": {
+              "name": "Damage",
+              "img": null,
+              "type": "damage",
+              "_id": "kMEMHtTjiF7Nyu1O",
+              "damage": {
+                "tier1": {
+                  "value": "2 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "5 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "7 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              },
+              "sort": 0
+            },
+            "QjWvwRqV5ATsZRmr": {
+              "name": "Slowed",
+              "img": null,
+              "type": "applied",
+              "_id": "QjWvwRqV5ATsZRmr",
+              "applied": {
+                "tier1": {
+                  "display": "",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "display": "{{potency}}, slowed (save ends)",
+                  "effects": {
+                    "slowed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "agility"
+                  }
+                }
+              },
+              "sort": 0
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>You can shift 1 square.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Your Entrails Are Your Extrails!",
+      "type": "ability",
+      "_id": "HARLENTRAILS0001",
+      "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "133",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "your-entrails-are-your-extrails",
+        "story": "Hard for them to fight when theyâ€™re busy holding in their giblets.",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "E9uwgqnZ0NlecqfU": {
+              "name": "Damage",
+              "img": null,
+              "type": "damage",
+              "_id": "E9uwgqnZ0NlecqfU",
+              "damage": {
+                "tier1": {
+                  "value": "3 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "5 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "8 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              },
+              "sort": 0
+            },
+            "V9sk64EYwZ3wzXRA": {
+              "name": "Bleeding",
+              "img": null,
+              "type": "applied",
+              "_id": "V9sk64EYwZ3wzXRA",
+              "applied": {
+                "tier1": {
+                  "display": "{{potency}}, bleeding (save ends)",
+                  "potency": {
+                    "characteristic": "might",
+                    "value": "@potency.weak"
+                  },
+                  "effects": {
+                    "bleeding": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier2": {
+                  "effects": {
+                    "bleeding": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "effects": {
+                    "bleeding": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              },
+              "sort": 0
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>While bleeding this way, the target takes [[/damage @M]]{damage equal to your Might score} at the end of each of your turns.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "En Garde!",
+      "type": "ability",
+      "_id": "HARLENGARDE00001",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "208",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "en-garde",
+        "story": "Wait, itâ€™s â€¦ Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creature",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {
+            "eoRsEKYsxNq0wKMW": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "eoRsEKYsxNq0wKMW",
+              "damage": {
+                "tier1": {
+                  "value": "7 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "11 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "16 + @chr",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              },
+              "sort": 0
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target can make a melee free strike against you. If they do, you can make a melee free strike against the target.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Parry",
+      "type": "ability",
+      "_id": "HARLPARRYTRIG000",
+      "img": "icons/skills/melee/swords-parry-block-blue.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "176",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "parry",
+        "keywords": [
+          "melee",
+          "weapon"
+        ],
+        "type": "triggered",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 2,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "selfOrAlly",
+          "value": null,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>You can shift 1 square. If the target is you, or if you end this shift adjacent to the target, the target takes half the damage. If the damage has any potency effect associated with it, the potency is decreased by 1.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": 1,
+          "text": "This abilityâ€™s distance becomes Melee 1 + your  Reason score, and you can shift up to a number of squares equal to  your Reason score instead of 1 square."
+        },
+        "story": "Your quick reflexes cost an enemy the precision they seek."
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Catch Breath",
+      "type": "ability",
+      "_id": "HARLCATCHBRETH01",
+      "img": "icons/magic/life/heart-hand-gold-green-light.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "273",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "catch-breath",
+        "keywords": [],
+        "type": "maneuver",
+        "category": "",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": null,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p>A creature who uses the Catch Breath maneuver spends a Recovery and regains Stamina equal to their recovery value.</p><p>A creature who is dying canâ€™t use the Catch Breath maneuver, but other creatures can help them spend Recoveries in other ways.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "story": "",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Defend",
+      "type": "ability",
+      "_id": "HARLDEFENDMAIN01",
+      "img": "icons/skills/melee/shield-block-fire-orange.webp",
+      "system": {
+        "source": {
+          "book": "Heroes",
+          "page": "274",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "defend",
+        "keywords": [],
+        "type": "main",
+        "category": "",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": null,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p>When a creature takes the Defend main action, ability rolls made against them have a double bane until the start of their next turn. Additionally, you have a double edge on tests when called for to resist environmental effects or a creatureâ€™s traits or abilities. A creature gains no benefit from this action while another creature is taunted by them.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "story": "",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.2",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "sfdBa2m0lsAoIEmi"
+}

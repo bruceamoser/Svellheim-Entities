@@ -1,0 +1,43 @@
+{
+  "name": "Jötuntunga War-Banner",
+  "type": "project",
+  "img": "icons/sundries/flags/banner-symbol-axe-red.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Among the Jötun, a war-banner is not decoration. It carries a True-Name in its weave — the name of the battle-line it belongs to — and the first time it is raised in a genuine fight, something happens to the people who see it. Something old. The fear does not go away, but it stops mattering quite so much. As though the banner had reminded them that they were already part of something that had won before.</em></p><p>This project produces a towering war-banner constructed on a Jötun loom, threaded with the maker's chosen war-name in the Jötuntunga tradition. The banner stands three meters tall and requires a dedicated bearer. When raised in view of allies before or during combat, it acts as a rallying point. All allies who can see the banner raised gain an edge on Fear and Morale tests (Director's discretion on applicability) for the duration of the encounter. Additionally, the banner marks its position — enemies attempting to disengage toward it must succeed on a Presence test or be compelled to engage with the bearer instead.</p><p><strong>Rules Note:</strong> Requires a dedicated bearer (can't fight and carry simultaneously without a penalty). Allies in line of sight gain edge on fear-type tests. Enemies attempting to disengage away from flag-bearers must pass a Presence test (difficulty Hard) or be drawn back into engagement. A war-banner destroyed in battle reduces morale — Director decides the consequence.</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "A full Jötun loom (or access to one), giant-thread in at least two colors, iron pole rings, tanned bear-hide backing, and a known war-name to weave into the design.",
+    "projectSource": "Jötuntunga Oath-Weaver's Chronicle — a living document of woven pattern-languages, kept by oath-weavers of the giant clans. Access requires either Jötun trust or significant scholarship.",
+    "rollCharacteristic": [
+      "might",
+      "presence"
+    ],
+    "goal": 480,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Jötuntunga war-banner: visible allies gain edge on fear tests; enemies must pass Presence (Hard) to disengage from bearer."
+    },
+    "_dsid": "svellheim-jotuntunga-war-banner",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000009",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

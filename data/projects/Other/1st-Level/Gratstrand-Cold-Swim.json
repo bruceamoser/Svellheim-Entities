@@ -1,0 +1,43 @@
+{
+  "name": "Gråtstrand Cold-Swim",
+  "type": "project",
+  "img": "icons/skills/trades/profession-sailing-ship.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Gråtstrand children learn to swim in the sea because the alternative is considerably worse. What they also learn, which outside people often miss, is that cold water is not simply cold water — it is a negotiation. Your body panics first, then bargains, then accepts. The learning is not how to ignore the cold. The learning is how to proceed through the panic to the other side of it with your lungs still working.</em></p><p>This project is a systematic conditioning regimen in the Gråtstrand coastal tradition: repeated cold-water immersion, breath-control exercises specific to shock-response, the swimming stroke adaptations that conserve heat, how to read rip-currents, and the recovery protocols used when coming out of the water before hypothermia can establish itself. The training occurs in actual cold water — there is no dry-land version.</p><p><strong>Rules Note:</strong> On completion, the hero no longer suffers the Slowed penalty or Stamina-test disadvantage from swimming in cold or rough saltwater. They gain edge on Might tests to swim against strong currents, and they recognize dangerous current patterns automatically when entering ocean water. The conditioning also provides a degree of hypothermia resistance — they can function in cold-water conditions one stage longer than an unconditioned person before temperature begins imposing penalties.</p>",
+      "director": ""
+    },
+    "type": "other",
+    "prerequisites": "Regular access to cold open water (sea, fjord, or glacially-fed river). A Gråtstrand coast-swimmer or fishwife willing to guide the early stages. Warm dry clothes nearby at all times — the training is about conditioning, not suffering.",
+    "projectSource": "Gråtstrand coastal swimming tradition — an informal but rigorous practice maintained by families who live where falling in is an occupational hazard.",
+    "rollCharacteristic": [
+      "might",
+      "agility"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "No penalty swimming in cold/rough saltwater; edge on Might vs strong currents; automatic read of dangerous currents; one extra stage of cold tolerance."
+    },
+    "_dsid": "svellheim-gratstrand-cold-swim",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJO0000000002",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

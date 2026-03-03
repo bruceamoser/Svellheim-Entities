@@ -1,0 +1,43 @@
+{
+  "name": "Myrmål Reed-Raft",
+  "type": "project",
+  "img": "icons/skills/trades/profession-sailing-ship.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The Myrmål bog-wardens move through their territory without dry land underfoot for days at a time. The raft is not a vessel of pride — it is a tool, made from what the bog provides, bound tight enough to hold what you bring, flat enough to not tip when you are leaning over the edge to read the bottom. You make it, you use it, and when you are done, you let the bog have it back.</em></p><p>This project produces a flat-bottomed bog-raft following the Myrmål reed-binding tradition. The raft is constructed of thick marsh-reed bundles lashed with tarred cord over a frame of split green-wood, designed specifically for shallow, still, or slow-moving water. The raft can carry up to three adult passengers and their gear, draws only 15 centimeters of water, and can be poled or paddled with improvised equipment. With poles, it moves at a modest but reliable pace through bog terrain that would be impassable on foot.</p><p><strong>Rules Note:</strong> Carries up to 3 passengers and their gear. Draws 15 cm of water — passable over boggy ground a horse cannot cross. Movement speed: one hex per round when poled (or use Agility test to push harder). Lasts approximately 3 months of regular use before reeds need replacement.</p>",
+      "director": ""
+    },
+    "type": "crafting",
+    "prerequisites": "20 large bundles of dry marsh reed, binding cord (tarred), 6 lengths of split green-wood for the frame. Access to a bog edge or riverbank for construction.",
+    "projectSource": "Myrmål Bog-Warden's Notes — a working document, not a formal text. Copies are scratched into bark-boards or written in whatever hand was available. The Myrmål don't care about presentation.",
+    "rollCharacteristic": [
+      "might",
+      "agility"
+    ],
+    "goal": 240,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Myrmål reed-raft: carries 3 passengers, 15 cm draft, traverses shallow bog terrain impassable on foot. Lasts ~3 months."
+    },
+    "_dsid": "svellheim-myrmal-reed-raft",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJC0000000007",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

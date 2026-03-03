@@ -1,0 +1,455 @@
+{
+  "folder": null,
+  "name": "Rot-Warped Landvaettr",
+  "type": "npc",
+  "img": "icons/magic/nature/tree-spirit-glow-black-yellow.webp",
+  "system": {
+    "stamina": {
+      "value": 120,
+      "max": 120,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 4
+      },
+      "agility": {
+        "value": -1
+      },
+      "reason": {
+        "value": -2
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 2,
+        "letter": "L"
+      },
+      "stability": 4,
+      "turns": 3
+    },
+    "biography": {
+      "value": "<p>The Rot-Warped Landvaettr was once a nature spirit bound to the Ashen Woods—a guardian of a grove that no longer exists. Grafvitnir's corruption seeped into its root-body over decades, replacing living bark with blackened, festering wood and amber resin with dark ichor. It still follows the ancient instincts of a guardian, but now it guards corruption instead of life: sheltering those who spread the Pale Maw and destroying those who would heal the land. Its presence warps the grove around it, accelerating blight wherever it roots itself.</p>",
+      "director": "<p>The Rot-Warped Landvaettr is the centrepiece of the Beat 7 failure combat. Its large size (2) and high stability (4) mean it dominates the centre of the grove—use this to control space. Corrupted Root Slam slows targets, which keeps them in range of the Corrupting Aura. Stay central to maximise aura coverage over both PCs and Pale Maw Acolytes. Use Blight the Grove (villain action, 5 Malice) when PCs cluster together or when the Acolytes need breathing room — the stamina regen on allies is significant. Hold Ancient Rot Burst as a final threat: if the PCs press hard and look likely to bring this creature down, the imminent explosion should force difficult tactical decisions. Fire and holy damage bypass its resistances — target the Acolytes first if the PCs have fire-users.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 5,
+        "psychic": 3,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 5,
+        "holy": 5,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": [
+        "frightened",
+        "grabbed"
+      ]
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 20,
+    "monster": {
+      "freeStrike": 6,
+      "keywords": [
+        "nature"
+      ],
+      "level": 3,
+      "role": "support",
+      "organization": "solo"
+    }
+  },
+  "prototypeToken": {
+    "name": "Rot-Warped Landvaettr",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/magic/nature/tree-spirit-glow-black-yellow.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Corrupted Root Slam",
+      "type": "ability",
+      "img": "icons/magic/nature/tree-roots-glow-yellow.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rot-warped-landvaettr-corrupted-root-slam",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 2,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Tier 2+:</strong> The target is slowed until the start of its next turn.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "might"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "RWLV000000000001": {
+              "type": "damage",
+              "_id": "RWLV000000000001",
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [
+                    "corruption"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "9",
+                  "types": [
+                    "corruption"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  }
+                },
+                "tier3": {
+                  "value": "13",
+                  "types": [
+                    "corruption"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "RWLV000000000002",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Blight the Grove",
+      "type": "ability",
+      "img": "icons/magic/nature/tree-elm-roots-brown.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rot-warped-landvaettr-blight-the-grove",
+        "keywords": [
+          "magic",
+          "area"
+        ],
+        "type": "main",
+        "category": "villain",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": 0,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p><strong>Villain Action (5 Malice).</strong> The Landvaettr releases a burst of corrupted spores in a burst 3. All enemies in the burst take 5 ongoing corruption damage (save ends). All allies in the burst regain 10 stamina.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "RWLV000000000003",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Corrupting Aura",
+      "type": "feature",
+      "img": "icons/magic/unholy/orb-swirling-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the start of each of this creature's turns, each enemy within 3 squares takes 3 corruption damage.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rot-warped-landvaettr-corrupting-aura",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "RWLV000000000004",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Ancient Rot Burst",
+      "type": "ability",
+      "img": "icons/magic/control/debuff-energy-hold-levitate-green.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rot-warped-landvaettr-ancient-rot-burst",
+        "keywords": [
+          "magic",
+          "area"
+        ],
+        "type": "triggered",
+        "category": "",
+        "resource": null,
+        "trigger": "<p><strong>Trigger:</strong> This creature is reduced to 0 stamina.</p>",
+        "distance": {
+          "type": "self",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": 0,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p>When reduced to 0 stamina, the Landvaettr's body explodes in a burst of corrupted bark and black ichor. Each creature within 3 squares (except this creature) takes 10 corruption damage.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "RWLV000000000005",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "rID0GneWrg5hWImG"
+}

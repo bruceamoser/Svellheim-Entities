@@ -1,0 +1,48 @@
+{
+  "name": "Deep-Rune Stitching",
+  "type": "treasure",
+  "img": "icons/equipment/chest/breastplate-layered-leather-studded-black.webp",
+  "system": {
+    "kind": "armor",
+    "category": "leveled",
+    "echelon": 1,
+    "description": {
+      "value": "<p><em>Old forge-scripts for binding seams — Dverg masons once used these runic stitches to hold tunnel ceilings together; a smith clever enough to adapt them to plate-rings finds the magic transfers admirably.</em></p><p><strong>Effect:</strong> At the start of each encounter, you gain damage immunity 5 until the end of the encounter.</p><p><small><strong>Rules:</strong> Encounter; Damage Immunity.</small></p>",
+      "director": ""
+    },
+    "keywords": [
+      "magic"
+    ],
+    "project": {
+      "prerequisites": "A suit of armor of at least basic quality; access to Dverg forge-texts",
+      "source": "Old forge-scripts for binding seams (Dvergsmål)",
+      "rollCharacteristic": [
+        "might",
+        "reason"
+      ],
+      "goal": 120,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    },
+    "_dsid": "svellheim-deep-rune-stitching",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    },
+    "quantity": 1
+  },
+  "effects": [],
+  "_id": "SVIMBA0000000002",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

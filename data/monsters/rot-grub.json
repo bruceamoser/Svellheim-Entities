@@ -1,0 +1,157 @@
+{
+  "_id": "N5uWJjI9BCfF1mSh",
+  "name": "Rot Grub (L1 Minion)",
+  "img": "systems/draw-steel/assets/roles/hexer.svg",
+  "items": [],
+  "effects": [],
+  "flags": {
+    "era-of-embers": {
+      "beat": "25",
+      "note": "Colony swarm (8–12) eating the western wall's foundation from inside. Used narratively in west wall crisis. Foundation Damage is a special environmental mechanic tracked per-area."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "Rot Grub",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "systems/draw-steel/assets/roles/hexer.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": 1,
+      "max": 1,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": -1
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": -4
+      },
+      "intuition": {
+        "value": 0
+      },
+      "presence": {
+        "value": -4
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 0.5,
+        "letter": "T"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p><strong>Rot Grub — Level 1 Minion</strong></p><p><em>Beast (Rot-corrupted), Tiny</em></p><p>Stamina 1 | Speed 3 (burrow) | Size T | Stability 0</p><p>Pale, segmented worms the length of a forearm, bloated with Rot-corruption. They eat stone, earth, and organic matter with equal indifference. Individually pathetic — in a colony of eight to twelve, they can hollow out a wall's foundation in hours. They are drawn by Wyrd-corruption and tunnel toward sources of binding energy.</p><hr><h3>Attacks</h3><p><strong>Gnaw</strong> (Melee, Agility): +1 vs Agility; 1 damage. <em>Effect:</em> Target is Sickened until end of their next turn (Rot corruption).</p><hr><h3>Features</h3><p><strong>Swarm (8–12):</strong> Rot Grubs operate in colonies of 8–12. They do not fight individually in meaningful combat — they are encountered as a swarm in the western wall basement. Use minion rules: 1 Stamina each, die to any hit. The danger is their <em>Foundation Damage</em>, not their combat ability.</p><p><strong>Foundation Damage:</strong> Each round the colony remains active and uninterrupted, it inflicts 1 Foundation Damage to the area it occupies. Track this per-area:</p><ul><li><strong>3 Foundation Damage = Compromised.</strong> Visible cracking. The structure above begins to show stress fractures. Defenders must evacuate or risk collapse.</li><li><strong>5 Foundation Damage = Collapse.</strong> The section gives way entirely. The tunnels below are exposed. Anything above falls into the tunnels. The deep passages are now open.</li></ul><p><strong>Burrowing:</strong> Rot Grubs have burrow speed 3. They move through stone and earth, leaving tunnels behind them. These tunnels are what Grafvitnir follows upward in Beat 26.</p><p><strong>Rot Corruption:</strong> Rot Grubs radiate a Rot signature detectable by Wyrd-sense (Intuition). Tracing this signature backward reveals the colony's tunneling pattern and can identify which foundation sections will fail next.</p>",
+      "director": "<p><strong>TACTICAL GUIDANCE:</strong></p><ul><li>Rot Grubs are not a combat encounter — they are an <em>environmental hazard</em> that the party addresses through the West Wall crisis track of the Three-Crisis Montage.</li><li>Individually, a grub dies to any hit. The challenge is locating and clearing the colonies before they accumulate enough Foundation Damage to compromise the wall.</li><li>The Foundation Damage mechanic represents the escalating structural threat. Each round of inattention costs the party another point of Foundation Damage.</li><li>Even with 3+ successes on the West Wall crisis, the deep tunnels remain open. The party can seal surface sections but cannot reach the deep passages. This is intentional — Grafvitnir follows these tunnels upward regardless.</li><li>The question is not <em>whether</em> the tunnels exist but <em>how wide</em> they are when Grafvitnir uses them.</li></ul>",
+      "languages": []
+    },
+    "movement": {
+      "value": 3,
+      "types": [
+        "walk",
+        "burrow"
+      ],
+      "hover": false,
+      "disengage": 0
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 5,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 3,
+        "holy": 3,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": [
+        "frightened"
+      ]
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "ev": 2,
+    "monster": {
+      "freeStrike": 1,
+      "keywords": [
+        "beast",
+        "rot-corrupted"
+      ],
+      "level": 1,
+      "role": "hexer",
+      "organization": "minion"
+    }
+  }
+}

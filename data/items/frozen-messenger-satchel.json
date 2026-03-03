@@ -1,0 +1,51 @@
+{
+  "name": "Frozen Messenger's Satchel",
+  "img": "icons/containers/bags/pack-leather-brown-tanstrap.webp",
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "type": "treasure",
+  "system": {
+    "description": {
+      "value": "<p>A leather courier's satchel, frozen stiff with cold. Inside:</p><ul><li><strong>A sealed letter</strong> addressed to 'The Watch-Commander, Stairwatch' — the King's cipher, but not Harald's personal seal</li><li><strong>2 days' rations</strong> (frozen solid, edible once thawed)</li><li><strong>A Chainwarden map</strong> of Titan's Stair annotated with hazard marks (+1 edge on one navigation test in the next montage test)</li></ul>",
+      "director": "<p><strong>Found:</strong> Hanging from the hand of a frozen Chainwarden courier on the mountain road (Beat 4b, Part 2). The courier has been dead approximately four days — snow has drifted against one shoulder. A Chainwarden runner by the badge.</p><p><strong>Contents:</strong> The Sealed Letter from V.A. (addressed to Watch-Commander, Stairwatch), 2 days' frozen rations, and a small Chainwarden map of Titan's Stair with hazard annotations. Award each piece as a separate item or bundle as a single find.</p><p><strong>Significance:</strong> The letter confirms the leak in Hrafnborg — someone besides Harald knows the PCs left. Whether this is Dreyfus's Wyrd-channel reporting through a mortal official, or an independent traitor, cannot be determined from the letter alone. Let the PCs feel the web tightening.</p>"
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "Beat 04b",
+      "license": ""
+    },
+    "_dsid": "",
+    "kind": "",
+    "category": "trinket",
+    "echelon": 1,
+    "keywords": [],
+    "quantity": 1,
+    "project": {
+      "prerequisites": "",
+      "source": "",
+      "rollCharacteristic": [],
+      "goal": null,
+      "yield": {
+        "amount": "1",
+        "display": ""
+      }
+    }
+  },
+  "_id": "GJNx1s78ihvZ9aWE"
+}

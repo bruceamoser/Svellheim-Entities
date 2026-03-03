@@ -1,0 +1,156 @@
+{
+  "_id": "OdxMlD7osKrRaOOG",
+  "name": "Pale Maw Inquisitor (Thráinn Ashward)",
+  "img": "systems/draw-steel/assets/roles/controller.svg",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 48,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 2
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 3
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 4
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 3
+    },
+    "biography": {
+      "value": "<p>Tall, gaunt, with a scar across one eye. Robes of deep purple with silver entropy symbols. Manner is clinical, analytical, absolutely certain. Views Kaelen as a heretic whose death would be a mercy. Commander of the Pale Maw forces at Beinvaka (Beat 16) and Surt’s Forge (Beat 18). The Pale Maw believe the Fimbulwinter is correct and that anyone trying to stop it is a heretic.</p>",
+      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Zealot’s Judgment</strong> (Main, Melee, Presence): T1 3 dmg; T2 6 dmg + target marked (next attack vs them: edge); T3 9 dmg + marked.</li><li><strong>Voice of Entropy</strong> (Main, Area 30ft, Presence, 2M): T1 2 psychic; T2 4 psychic + frightened EoNT; T3 6 psychic + frightened (save ends).</li><li><strong>Despair Aura</strong> (Passive, 20ft): PM allies in aura: +1 Power Rolls. Enemies in aura: start of turn Presence test (moderate) or −1 to next action.</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Absolute Conviction:</strong> Immune to fear and charm. Edge on Presence tests vs. mental effects.</li><li><strong>Heresy-Sense:</strong> Senses Kaelen’s presence within 60 ft. Edge on attacks targeting her.</li></ul><p><strong>MALICE</strong></p><ul><li><strong>Final Requiem (3M, below 15 SP):</strong> All within 40 ft: 2d6 psychic + Presence test or stunned EoNT.</li></ul><p><strong>BEAT 16 ULTIMATUM:</strong> “Leave the Keeper with us. You may go. We will let you pass — or we will take her, and you will all die.”<br><strong>BEAT 18:</strong> Returns at 30 SP if wounded but survived Beat 16. Final words if defeated: “You delay the inevitable. The Fimbulwinter is right. The world should end.”</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 6,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 7,
+      "keywords": [
+        "humanoid",
+        "zealot"
+      ],
+      "level": 5,
+      "role": "controller",
+      "organization": "solo"
+    }
+  }
+}

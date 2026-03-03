@@ -1,0 +1,568 @@
+{
+  "folder": null,
+  "name": "Rootgnaw Queen",
+  "type": "npc",
+  "img": "modules/svellheim-character-options/assets/icons/monster-images/rootgnaw-queen.png",
+  "system": {
+    "stamina": {
+      "value": 70,
+      "max": 70,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": -2
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": -1
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 2,
+        "letter": "L"
+      },
+      "stability": 2,
+      "turns": 2
+    },
+    "biography": {
+      "value": "<p>The Rootgnaw Queen is a massive blighted insectoid that nests deep beneath the corrupted roots of the Ashen Woods. Her chitinous carapace drips with caustic acid and her mandibles can crush armour like kindling. Where she burrows, the ground cracks and heaves, and her brood of grubs follows in her wake.</p>",
+      "director": "<p>The Rootgnaw Queen is an elite — she acts twice per round (once on her initiative, once on initiative count 0). Use Mandible Crush to grab a frontliner, then Acid Spray to create difficult terrain that splits the party. Burrow Surge lets her reposition without provoking. Brood-Mother spawns 2 grubs each round to swarm isolated PCs. Use Seismic Tremor (boss action) to knock the party prone and create more difficult terrain. Root-Sense means she always knows where PCs are — no sneaking past her.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 6,
+      "keywords": [
+        "beast"
+      ],
+      "level": 3,
+      "ev": 15,
+      "role": "controller",
+      "organization": "elite"
+    }
+  },
+  "prototypeToken": {
+    "name": "Rootgnaw Queen",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/svellheim-character-options/assets/icons/monster-images/rootgnaw-queen.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Mandible Crush",
+      "type": "ability",
+      "img": "icons/creatures/abilities/mouth-teeth-human.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rootgnaw-queen-mandible-crush",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Tier 2+:</strong> The target is grabbed (target takes a bane on the Escape Grab maneuver).</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "might"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "RGQN000000000001": {
+              "type": "damage",
+              "_id": "RGQN000000000001",
+              "damage": {
+                "tier1": {
+                  "value": "6",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "9",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  }
+                },
+                "tier3": {
+                  "value": "13",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "RGQN000000000002",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Acid Spray",
+      "type": "ability",
+      "img": "icons/magic/acid/projectile-beams-salvo-green.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rootgnaw-queen-acid-spray",
+        "keywords": [
+          "area",
+          "magic"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "cone",
+          "primary": 3,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "all",
+          "value": null,
+          "custom": "all creatures in cone"
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>Squares hit become difficult terrain (acid slick) for the rest of the encounter.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "might"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "RGQN000000000003": {
+              "type": "damage",
+              "_id": "RGQN000000000003",
+              "damage": {
+                "tier1": {
+                  "value": "4",
+                  "types": [
+                    "acid"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "7",
+                  "types": [
+                    "acid"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  }
+                },
+                "tier3": {
+                  "value": "10",
+                  "types": [
+                    "acid"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "RGQN000000000004",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Burrow Surge",
+      "type": "ability",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rootgnaw-queen-burrow-surge",
+        "keywords": [],
+        "type": "main",
+        "category": "",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": null,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": null,
+          "custom": ""
+        },
+        "effect": {
+          "before": "<p><strong>Maneuver.</strong> The Queen burrows and moves up to her burrow speed (4). Does not provoke opportunity attacks. Emerges at the end of the movement.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "RGQN000000000005",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Seismic Tremor",
+      "type": "ability",
+      "img": "icons/creatures/magical/spirit-earth-stone-magma-yellow.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rootgnaw-queen-seismic-tremor",
+        "keywords": [
+          "area"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 2,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "all",
+          "value": null,
+          "custom": "all creatures in burst"
+        },
+        "effect": {
+          "before": "<p><strong>Boss Action (1/round, initiative count 0).</strong> All creatures in the burst must succeed on an easy Agility test or fall prone. The ground cracks open, creating difficult terrain in the area.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "RGQN000000000006",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Root-Sense",
+      "type": "feature",
+      "img": "icons/creatures/eyes/humanoid-single-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Rootgnaw Queen can detect any creature touching the ground within 10 squares, even while burrowed.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rootgnaw-queen-root-sense",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "RGQN000000000007",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Brood-Mother",
+      "type": "feature",
+      "img": "icons/creatures/invertebrates/spider-web-black.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the start of each round, the Rootgnaw Queen spawns 2 Rootgnaw Grubs in unoccupied squares within 2 squares of her.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "rootgnaw-queen-brood-mother",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "RGQN000000000008",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "xhVOwQfTXywuodEe"
+}

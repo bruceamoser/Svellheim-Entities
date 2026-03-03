@@ -1,0 +1,156 @@
+{
+  "_id": "kFyDuD6GwEvLIatA",
+  "name": "Pale Maw Strike Leader (Yrsa Frostbane)",
+  "img": "systems/draw-steel/assets/roles/brute.svg",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": null,
+      "max": 40,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 2
+    },
+    "biography": {
+      "value": "<p>A battle-worn, grief-hardened Pale Maw Strike Leader. She carries visible scars from old campaigns and commands with absolute certainty. She leads the Strike Team that attacks Surt’s Forge in Beat 18. Appears only if Þráinn Ashward was killed in Beat 16, taking his place as leader of the assault. Her grief has calcified into cold purpose.</p>",
+      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Executioner’s Stroke</strong> (Main, Melee, Might): T1 4 dmg; T2 7 dmg; T3 10 dmg.</li><li><strong>Zealot’s Mark</strong> (Main, Ranged 40ft, Presence): T1 3 dmg + marked; T2 4 dmg + marked + bane on next save; T3 5 dmg + marked + bane on next two saves.</li><li><strong>Rally the Faithful</strong> (Maneuver, 1M, Area 30ft): All PM allies in range gain +2 to next attack roll and edge on next saving throw.</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Command Presence:</strong> PM Soldiers/Veterans within 30ft gain +1 to attacks and edge on saves.</li><li><strong>Relentless:</strong> Below 20 SP: Executioner’s Stroke gains +1 to attack. Edge on Might tests vs. being moved or knocked prone.</li></ul><p><strong>MALICE</strong></p><ul><li><strong>Divine Judgment (2M):</strong> Single target, Presence test: failure = 2d6 psychic + pushed 10ft.</li></ul><p><strong>BEAT 18 CONTEXT:</strong> Appears only if Þráinn died in Beat 16. Opening words: “Þráinn died speaking the truth. I will finish what he started.” Attacks Kaelen specifically in rounds 1–2.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 6,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "ev": 4,
+    "monster": {
+      "freeStrike": 6,
+      "keywords": [
+        "humanoid",
+        "zealot"
+      ],
+      "level": 4,
+      "role": "brute",
+      "organization": "elite"
+    }
+  }
+}

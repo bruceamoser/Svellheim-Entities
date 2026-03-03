@@ -1,0 +1,43 @@
+{
+  "name": "Beinmark Foot-Drill",
+  "type": "project",
+  "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>In the Beinmark tradition, endurance is not a gift — it is a debt you pay in advance. The foot-drill begins at dawn, ends when the drill-master is satisfied (which is usually when you can't feel anything below the knee), and is repeated every day until the specific relationship between your breath, your pace, and your willpower has been negotiated into something sustainable. The payoff comes later, in the places where everyone else is sitting down.</em></p><p>This project involves a sustained training regimen in the Beinmark military march tradition: regulated pace-setting, breath control, proper load distribution, the specific cadence counts that allow a body to sustain movement for hours longer than it believes it can, and the psychological discipline of pushing past the first and second walls of fatigue. The training must be conducted with actual marching — there is no shortcut involving sitting still and thinking very hard about walking.</p><p><strong>Rules Note:</strong> On completion, the hero gains edge on Stamina tests made to resist exhaustion during overland forced marches. They can sustain a forced march pace for one additional hour per day without accumulating fatigue penalties. The edge also applies to tests against any ongoing environmental fatigue that functions similarly to a forced march (long swims, heavy labor under time pressure, etc.).</p>",
+      "director": ""
+    },
+    "type": "other",
+    "prerequisites": "Open terrain suitable for sustained marching (hills preferred; flat roads acceptable). Either a Beinmark drill-master as instructor or a complete copy of the Beinmark March-Master's Manual and the self-discipline to follow it honestly.",
+    "projectSource": "Beinmark March-Master's Manual — a spare, demanding document that assumes you already know it is going to be unpleasant and doesn't waste space reassuring you.",
+    "rollCharacteristic": [
+      "might",
+      "agility"
+    ],
+    "goal": 120,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Edge on Stamina tests against march exhaustion; 1 additional hour of forced march per day without penalty."
+    },
+    "_dsid": "svellheim-beinmark-foot-drill",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJO0000000001",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Beinmarksmål Border-History",
+  "type": "project",
+  "img": "icons/tools/navigation/map-chart-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The Beinmark borders have moved. Several times. Violently. The people who live on the frontier know this — you can tell because they bury things with the food, because the oldest houses have hidden rooms, because there is a third gate on the east wall that no one has used in forty years but no one has blocked up either. Understanding a contested border means understanding everything that caused it to contest.</em></p><p>This project involves compiling the military history of a specific contested border region: which engagements occurred and where, what fortifications exist and why, which families control which passes and by what historical right (or violence), what seasonal factors affect military movement, and which grievances remain unresolved. The research combines archival work with veteran interviews and direct ground observation.</p><p><strong>Rules Note:</strong> On completion, the hero has detailed tactical knowledge of one contested border region. Within that region, they gain edge on strategy and planning tests involving troop movement, ambush placement, supply line analysis, or negotiation over territorial claims. The Director provides advance context when an encounter has a tactical element the hero's knowledge would address. Additionally, the hero can assess a fortification's construction date and probable vulnerabilities with a Reason test (this succeeds automatically for documented sites).</p>",
+      "director": ""
+    },
+    "type": "research",
+    "prerequisites": "Access to military archives, border garrison records, or documentary accounts; interviews with veterans of engagements in the region; direct observation of the key terrain features.",
+    "projectSource": "Beinmark military archive and memorial records — maintained by the military historians' corps, who take their work as seriously as the soldiers take war.",
+    "rollCharacteristic": [
+      "reason",
+      "presence"
+    ],
+    "goal": 240,
+    "points": 0,
+    "events": "Compendium.draw-steel.tables.RollTable.ebiZk3Sfa6Jw1JKk",
+    "yield": {
+      "item": "",
+      "amount": "1",
+      "display": "Tactical history of a border region: edge on strategy tests; Director provides tactical framing; fortification assessment auto-succeeds for documented sites."
+    },
+    "_dsid": "svellheim-beinmarksmal-border-history",
+    "source": {
+      "book": "Svellheim Campaign (Homebrew)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "_id": "SVPRJR0000000007",
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.350",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "K2rTGgF6yZcC8jPe",
+  "name": "Dreyfus's Eye",
+  "type": "treasure",
+  "img": "icons/commodities/gems/gem-faceted-round-yellow.webp",
+  "system": {
+    "description": "<p>This is the physical manifestation of Dreyfus's power of sight — his ability to perceive and report. It is perfectly ordinary in appearance except for the fact that no light seems to escape from it. It is cold to the touch.</p><p>Where Dreyfus collapsed, the snow was stained with shadow that slowly took the shape of a single golden eye — a perfect disc, cold but catching light from impossible angles. It did not dissolve.</p><h3>Properties</h3><p><strong>Wyrd-sight (1/encounter):</strong> Once per encounter, the wielder can spend a Hero Token to activate this item. For 1 minute, the wielder sees through any active deception, disguise, or shape-change within Close Burst 5. Illusions shimmer and show their true forms. Lies are visible as distortions in the air around the speaker.</p><p>After the power is used, the eye goes dark and ordinary. It is no longer magical, but remains a memorial to the thing it once saw.</p><p><strong>Attunement:</strong> This item is not attuned. Any hero can carry it, though only a hero who has earned trust can use its power without suffering backlash.</p>",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "crafting": {
+      "essence": {},
+      "materials": ""
+    },
+    "category": "wondrous",
+    "echelon": 2,
+    "keywords": [
+      "wyrd"
+    ],
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "era-of-embers": {
+      "beat": "24",
+      "note": "Conditional loot — dropped by Dreyfus after his final defeat. Single-use Wyrd-sight, then goes dark permanently."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  }
+}
