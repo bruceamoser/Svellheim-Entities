@@ -1,6 +1,6 @@
 {
   "name": "Chainwarden Militia",
-  "img": "modules/svellheim-character-options/assets/icons/monster-images/chainwarden-militia.png",
+  "img": "modules/svellheim/assets/icons/monster-images/chainwarden-militia.png",
   "items": [
     {
       "name": "Billhook",

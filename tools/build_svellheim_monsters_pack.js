@@ -11,7 +11,7 @@
  * compendium UUIDs remain stable across rebuilds.
  *
  * Usage:
- *   node foundry-svellheim-character-options/tools/build_svellheim_monsters_pack.js
+ *   node tools/build_svellheim_monsters_pack.js
  *   npm run build:svellheim-monsters
  */
 
@@ -21,11 +21,11 @@ const crypto = require('node:crypto');
 
 // ── Paths ──────────────────────────────────────────────────────────────
 const REPO_ROOT = process.cwd();
-const MODULE_DIR = path.join(REPO_ROOT, 'foundry-svellheim-character-options', 'module');
-const SOURCE_DIR = path.join(REPO_ROOT, 'foundry-svellheim-character-options', 'data', 'monsters');
+const MODULE_DIR = path.join(REPO_ROOT, 'module');
+const SOURCE_DIR = path.join(REPO_ROOT, 'data', 'monsters');
 const PACK_NAME = 'svellheim-monsters';
 const PACK_DIR = path.join(MODULE_DIR, 'packs', PACK_NAME);
-const MODULE_ID = 'svellheim-character-options';
+const MODULE_ID = 'svellheim-entities';
 const MODULE_ASSET_BASE = `modules/${MODULE_ID}/assets/icons/monster-images`;
 
 // ── Deterministic ID helpers ───────────────────────────────────────────

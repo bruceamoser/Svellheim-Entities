@@ -8,7 +8,7 @@
  *   node tools/build_svellheim_rewards_pack.js
  *
  * Output:
- *   svellheim-character-options/module/packs/svellheim-rewards/  (LevelDB pack folder)
+ *   module/packs/svellheim-rewards/  (LevelDB pack folder)
  */
 
 const fs = require('node:fs');
@@ -17,9 +17,9 @@ const crypto = require('node:crypto');
 
 const REPO_ROOT = process.cwd();
 
-const MODULE_ID = 'svellheim-character-options';
+const MODULE_ID = 'svellheim-entities';
 const PACK_NAME = 'svellheim-rewards';
-const PACK_DIR = path.join(REPO_ROOT, 'foundry-svellheim-character-options', 'module', 'packs', PACK_NAME);
+const PACK_DIR = path.join(REPO_ROOT, 'module', 'packs', PACK_NAME);
 
 // ---------------------------------------------------------------------------
 // Shared helpers (same patterns as the character-options build)

@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Thyra Blackhand",
   "type": "npc",
-  "img": "modules/svellheim-character-options/assets/icons/npc-images/thyra-blackhand.png",
+  "img": "modules/svellheim/assets/icons/npc-images/thyra-blackhand.png",
   "system": {
     "stamina": {
       "value": 40,
@@ -118,7 +118,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim-character-options/assets/icons/npc-images/thyra-blackhand.png",
+      "src": "modules/svellheim/assets/icons/npc-images/thyra-blackhand.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

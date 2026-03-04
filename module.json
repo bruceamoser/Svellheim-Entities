@@ -1,0 +1,66 @@
+{
+  "id": "svellheim-entities",
+  "title": "Svellheim: Entities",
+  "description": "Shared NPCs, monsters, items, rewards, and projects for the Svellheim campaign setting (Draw Steel system).",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Bruce A. Moser"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "draw-steel"
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "svellheim-npcs",
+      "label": "Svellheim NPCs",
+      "path": "packs/svellheim-npcs",
+      "type": "Actor",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-monsters",
+      "label": "Svellheim Monsters",
+      "path": "packs/svellheim-monsters",
+      "type": "Actor",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-items",
+      "label": "Svellheim Items",
+      "path": "packs/svellheim-items",
+      "type": "Item",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-rewards",
+      "label": "Svellheim Rewards (Projects & Treasures)",
+      "path": "packs/svellheim-rewards",
+      "type": "Item",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-projects",
+      "label": "Svellheim Projects",
+      "path": "packs/svellheim-projects",
+      "type": "Item",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-imbuings",
+      "label": "Svellheim Imbuing Projects",
+      "path": "packs/svellheim-imbuings",
+      "type": "Item",
+      "system": "draw-steel"
+    }
+  ]
+}

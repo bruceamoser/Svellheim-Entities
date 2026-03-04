@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Goblin Monarch",
   "type": "npc",
-  "img": "modules/svellheim-character-options/assets/icons/monster-images/goblin-monarch.png",
+  "img": "modules/svellheim/assets/icons/monster-images/goblin-monarch.png",
   "system": {
     "stamina": {
       "value": 80,
@@ -120,7 +120,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim-character-options/assets/icons/monster-images/goblin-monarch.png",
+      "src": "modules/svellheim/assets/icons/monster-images/goblin-monarch.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

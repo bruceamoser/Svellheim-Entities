@@ -1,6 +1,6 @@
 {
   "name": "Chainwarden Artillerist",
-  "img": "modules/svellheim-character-options/assets/icons/monster-images/chainwarden-artillerist.png",
+  "img": "modules/svellheim/assets/icons/monster-images/chainwarden-artillerist.png",
   "items": [
     {
       "name": "Arbalest",

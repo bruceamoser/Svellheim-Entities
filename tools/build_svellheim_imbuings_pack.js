@@ -14,11 +14,11 @@
  *     Weapon/     1st-Level/  5th-Level/  9th-Level/
  *
  * Usage (from repo root):
- *   node foundry-svellheim-character-options/tools/build_svellheim_imbuings_pack.js
+ *   node tools/build_svellheim_imbuings_pack.js
  *   npm run build:svellheim-imbuings
  *
  * Output:
- *   foundry-svellheim-character-options/module/packs/svellheim-imbuings/  (LevelDB)
+ *   module/packs/svellheim-imbuings/  (LevelDB)
  */
 
 const fs = require('node:fs');
@@ -27,11 +27,11 @@ const crypto = require('node:crypto');
 
 // ── Paths ──────────────────────────────────────────────────────────────
 const REPO_ROOT = process.cwd();
-const MODULE_DIR = path.join(REPO_ROOT, 'foundry-svellheim-character-options', 'module');
-const SOURCE_DIR = path.join(REPO_ROOT, 'foundry-svellheim-character-options', 'data', 'imbuing-projects');
+const MODULE_DIR = path.join(REPO_ROOT, 'module');
+const SOURCE_DIR = path.join(REPO_ROOT, 'data', 'imbuing-projects');
 const PACK_NAME  = 'svellheim-imbuings';
 const PACK_DIR   = path.join(MODULE_DIR, 'packs', PACK_NAME);
-const MODULE_ID  = 'svellheim-character-options';
+const MODULE_ID  = 'svellheim-entities';
 
 // ── ID helpers ─────────────────────────────────────────────────────────
 const BASE62 = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';

@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Goblin Runner",
   "type": "npc",
-  "img": "modules/svellheim-character-options/assets/icons/monster-images/goblin-runner.png",
+  "img": "modules/svellheim/assets/icons/monster-images/goblin-runner.png",
   "system": {
     "stamina": {
       "value": 4,
@@ -112,7 +112,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim-character-options/assets/icons/monster-images/goblin-runner.png",
+      "src": "modules/svellheim/assets/icons/monster-images/goblin-runner.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

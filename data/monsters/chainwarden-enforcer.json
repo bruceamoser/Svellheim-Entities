@@ -1,6 +1,6 @@
 {
   "name": "Chainwarden Enforcer",
-  "img": "modules/svellheim-character-options/assets/icons/monster-images/chainwarden-enforcer.png",
+  "img": "modules/svellheim/assets/icons/monster-images/chainwarden-enforcer.png",
   "items": [
     {
       "name": "Chain-Mace",

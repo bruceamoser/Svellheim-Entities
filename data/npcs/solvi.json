@@ -1,6 +1,6 @@
 {
   "name": "Solvi (Ember-Keeper of Stairwatch)",
-  "img": "modules/svellheim-character-options/assets/icons/npc-images/solvi.png",
+  "img": "modules/svellheim/assets/icons/npc-images/solvi.png",
   "items": [
     {
       "_id": "SLVI000000000001",
@@ -120,7 +120,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim-character-options/assets/icons/npc-images/solvi.png",
+      "src": "modules/svellheim/assets/icons/npc-images/solvi.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

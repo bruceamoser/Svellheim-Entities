@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Warden-Sergeant Eirik Greyhand",
   "type": "npc",
-  "img": "modules/svellheim-character-options/assets/icons/npc-images/eirik-greyhand.png",
+  "img": "modules/svellheim/assets/icons/npc-images/eirik-greyhand.png",
   "system": {
     "stamina": {
       "value": 35,
@@ -118,7 +118,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim-character-options/assets/icons/npc-images/eirik-greyhand.png",
+      "src": "modules/svellheim/assets/icons/npc-images/eirik-greyhand.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -203,7 +203,7 @@
       "name": "Exhausted, Not Corrupt",
       "type": "feature",
       "_id": "ERGR000000000001",
-      "img": "modules/svellheim-character-options/assets/icons/npc-images/eirik-greyhand.png",
+      "img": "modules/svellheim/assets/icons/npc-images/eirik-greyhand.png",
       "system": {
         "description": {
           "value": "<p>Eirik is not corrupt&mdash;he's exhausted. The Greypass Toll is underfunded, understaffed, and overwhelmed. He wants the fiction that the system works, but he'll bend the rules for supplies, news, or proper paperwork.</p>",

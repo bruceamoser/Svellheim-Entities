@@ -12,7 +12,7 @@
  * compendium UUIDs remain stable across rebuilds.
  *
  * Usage:
- *   node foundry-svellheim-character-options/tools/build_svellheim_npcs_pack.js
+ *   node tools/build_svellheim_npcs_pack.js
  *   npm run build:svellheim-npcs
  */
 
@@ -22,11 +22,11 @@ const crypto = require('node:crypto');
 
 // ── Paths ──────────────────────────────────────────────────────────────
 const REPO_ROOT = process.cwd();
-const MODULE_DIR = path.join(REPO_ROOT, 'foundry-svellheim-character-options', 'module');
-const ACTORS_DIR = path.join(REPO_ROOT, 'foundry-svellheim-character-options', 'data', 'npcs');
+const MODULE_DIR = path.join(REPO_ROOT, 'module');
+const ACTORS_DIR = path.join(REPO_ROOT, 'data', 'npcs');
 const PACK_NAME = 'svellheim-npcs';
 const PACK_DIR = path.join(MODULE_DIR, 'packs', PACK_NAME);
-const MODULE_ID = 'svellheim-character-options';
+const MODULE_ID = 'svellheim-entities';
 const MODULE_ASSET_BASE = `modules/${MODULE_ID}/assets/icons/npc-images`;
 
 // ── Deterministic ID helpers (same as other build scripts) ─────────────

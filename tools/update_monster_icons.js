@@ -7,7 +7,7 @@
  * monster ability/feature items with thematically appropriate Foundry icons.
  *
  * Usage (from repo root):
- *   node foundry-svellheim-character-options/tools/update_monster_icons.js
+ *   node tools/update_monster_icons.js
  */
 
 const fs = require('node:fs');

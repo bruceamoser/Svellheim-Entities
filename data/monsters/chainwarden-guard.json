@@ -1,6 +1,6 @@
 {
   "name": "Chainwarden Guard",
-  "img": "modules/svellheim-character-options/assets/icons/monster-images/chainwarden-guard.png",
+  "img": "modules/svellheim/assets/icons/monster-images/chainwarden-guard.png",
   "items": [
     {
       "name": "Halberd",

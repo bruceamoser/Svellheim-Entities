@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Grave-Singer",
   "type": "npc",
-  "img": "modules/svellheim-character-options/assets/icons/monster-images/grave-singer.png",
+  "img": "modules/svellheim/assets/icons/monster-images/grave-singer.png",
   "system": {
     "stamina": {
       "value": 25,
@@ -111,7 +111,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim-character-options/assets/icons/monster-images/grave-singer.png",
+      "src": "modules/svellheim/assets/icons/monster-images/grave-singer.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

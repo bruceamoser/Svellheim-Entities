@@ -1,6 +1,6 @@
 {
   "name": "Warden-Captain Halvard",
-  "img": "modules/svellheim-character-options/assets/icons/monster-images/warden-captain-halvard.png",
+  "img": "modules/svellheim/assets/icons/monster-images/warden-captain-halvard.png",
   "items": [
     {
       "name": "Chain-Flail Sweep",

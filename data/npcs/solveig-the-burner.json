@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Solveig the Burner",
   "type": "npc",
-  "img": "modules/svellheim-character-options/assets/icons/npc-images/solveig-the-burner.png",
+  "img": "modules/svellheim/assets/icons/npc-images/solveig-the-burner.png",
   "system": {
     "stamina": {
       "value": 20,
@@ -110,7 +110,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim-character-options/assets/icons/npc-images/solveig-the-burner.png",
+      "src": "modules/svellheim/assets/icons/npc-images/solveig-the-burner.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -195,7 +195,7 @@
       "name": "Child of Ash",
       "type": "feature",
       "_id": "SLVG000000000001",
-      "img": "modules/svellheim-character-options/assets/icons/npc-images/solveig-the-burner.png",
+      "img": "modules/svellheim/assets/icons/npc-images/solveig-the-burner.png",
       "system": {
         "description": {
           "value": "<p>Solveig has lived alone in the Ashen Woods for three years. She navigates by root-patterns beneath the ash, burns charcoal for fuel, and avoids blighted beasts. She knows these woods better than anyone alive.</p><p>If harmed or robbed, she vanishes into the ash and cannot be found. She chooses who sees her.</p>",

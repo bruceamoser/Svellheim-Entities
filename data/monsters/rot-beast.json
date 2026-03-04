@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Rot-Beast",
   "type": "npc",
-  "img": "modules/svellheim-character-options/assets/icons/monster-images/rot-beast.png",
+  "img": "modules/svellheim/assets/icons/monster-images/rot-beast.png",
   "system": {
     "stamina": {
       "value": 40,
@@ -110,7 +110,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim-character-options/assets/icons/monster-images/rot-beast.png",
+      "src": "modules/svellheim/assets/icons/monster-images/rot-beast.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

@@ -1,6 +1,6 @@
 {
   "name": "High King Harald",
-  "img": "modules/svellheim-character-options/assets/icons/npc-images/high-king-harold.png",
+  "img": "modules/svellheim/assets/icons/npc-images/high-king-harold.png",
   "items": [
     {
       "name": "Harald Does Not Lie",

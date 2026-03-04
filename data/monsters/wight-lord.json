@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Wight-Lord",
   "type": "npc",
-  "img": "modules/svellheim-character-options/assets/icons/monster-images/wight-lord.png",
+  "img": "modules/svellheim/assets/icons/monster-images/wight-lord.png",
   "system": {
     "stamina": {
       "value": 80,
@@ -114,7 +114,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim-character-options/assets/icons/monster-images/wight-lord.png",
+      "src": "modules/svellheim/assets/icons/monster-images/wight-lord.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
