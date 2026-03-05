@@ -7,7 +7,7 @@
       "name": "Zealot Blade",
       "type": "ability",
       "_id": "d14b9ce6150ade65",
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/melee/strike-sword-blood-red.webp",
       "system": {
         "description": {
           "value": ""
@@ -71,7 +71,7 @@
       "name": "Heretic's Mark",
       "type": "ability",
       "_id": "26528b1b0d8647f3",
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/targeting/crosshair-mark-rough-pink.webp",
       "system": {
         "description": {
           "value": ""
@@ -134,7 +134,7 @@
       "name": "Unshakeable Faith",
       "type": "feature",
       "_id": "5bb6b3ec9026a388",
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "system": {
         "description": {
           "value": "<p>Immune to fear and charm. Edge on tests to resist mental effects.</p>"

@@ -35,7 +35,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/svellheim/assets/icons/npc-images/gragnir-the-druid.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

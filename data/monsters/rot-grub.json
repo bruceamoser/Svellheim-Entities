@@ -1,7 +1,7 @@
 {
   "_id": "N5uWJjI9BCfF1mSh",
   "name": "Rot Grub (L1 Minion)",
-  "img": "systems/draw-steel/assets/roles/hexer.svg",
+  "img": "icons/creatures/invertebrates/worm-crawling-white.webp",
   "items": [
     {
       "name": "Stone-Gnaw",
@@ -188,7 +188,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "systems/draw-steel/assets/roles/hexer.svg",
+      "src": "icons/creatures/invertebrates/worm-crawling-white.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

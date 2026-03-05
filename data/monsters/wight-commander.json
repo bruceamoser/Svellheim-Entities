@@ -1,7 +1,7 @@
 {
   "_id": "M4tVIiH8ABeE0lRg",
   "name": "Wight-Commander (L4 Standard)",
-  "img": "systems/draw-steel/assets/roles/support.svg",
+  "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
   "items": [
     {
       "name": "Command Strike",
@@ -289,7 +289,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "systems/draw-steel/assets/roles/support.svg",
+      "src": "icons/magic/death/undead-skeleton-worn-blue.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

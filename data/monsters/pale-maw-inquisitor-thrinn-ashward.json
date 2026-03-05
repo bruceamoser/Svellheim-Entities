@@ -7,7 +7,7 @@
       "name": "Zealot's Judgment",
       "type": "ability",
       "_id": "d104b8a6305d8962",
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
       "system": {
         "description": {
           "value": ""
@@ -71,7 +71,7 @@
       "name": "Voice of Entropy",
       "type": "ability",
       "_id": "ec23ab229e86a080",
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/magic/death/undead-ghost-scream-teal.webp",
       "system": {
         "description": {
           "value": "<p><strong>(2 Malice)</strong> The Inquisitor speaks a word of entropy. Reality frays around them as psychic energy tears at all nearby enemies.</p>"
@@ -135,7 +135,7 @@
       "name": "Final Requiem",
       "type": "ability",
       "_id": "04fce264b6549997",
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
       "system": {
         "description": {
           "value": "<p><strong>(3 Malice; only while below 15 Stamina)</strong> The Inquisitor channels their fading life into a devastating psychic requiem. All nearby enemies hear the final hymn of entropy.</p>"
@@ -199,7 +199,7 @@
       "name": "Despair Aura",
       "type": "feature",
       "_id": "5d17ebabef06cd09",
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/magic/control/silhouette-aura-energy.webp",
       "system": {
         "description": {
           "value": "<p>Aura 4 (20 ft.). Allied creatures within the aura gain a +1 bonus to power rolls. Enemy creatures within the aura take a −1 penalty to their next power roll each turn.</p>"

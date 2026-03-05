@@ -7,7 +7,7 @@
       "name": "Cultist's Blade",
       "type": "ability",
       "_id": "13ed0fa33a46ced4",
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/skills/melee/hand-grip-sword-strike-orange.webp",
       "system": {
         "description": {
           "value": ""
@@ -71,7 +71,7 @@
       "name": "Entropy Chant",
       "type": "ability",
       "_id": "229df69ab657a589",
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/magic/unholy/hands-praying-fire-green.webp",
       "system": {
         "description": {
           "value": "<p><strong>(1 Malice)</strong> The soldier chants in the entropy tongue. All Pale Maw allies in the burst gain +1 to their next attack roll. All enemies in the burst must make a Presence test or be frightened until the end of their next turn.</p>"
@@ -120,7 +120,7 @@
       "name": "Fanatical",
       "type": "feature",
       "_id": "5f30ccfa7e7d6228",
-      "img": "icons/svg/item-bag.svg",
+      "img": "icons/magic/control/fear-fright-white.webp",
       "system": {
         "description": {
           "value": "<p>Edge on Presence tests to resist fear and charm effects.</p>"

@@ -801,7 +801,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/svellheim/assets/icons/monster-images/warden-captain-halvard.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

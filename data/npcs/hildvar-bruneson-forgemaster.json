@@ -36,7 +36,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "icons/skills/trades/smithing-anvil-silver-red.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

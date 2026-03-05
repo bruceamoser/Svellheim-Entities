@@ -1,7 +1,7 @@
 {
   "_id": "TvX5e2wE5bTRNvHG",
   "name": "Rot-Touched",
-  "img": "systems/draw-steel/assets/roles/brute.svg",
+  "img": "icons/magic/death/undead-zombie-grave-green.webp",
   "items": [
     {
       "_id": "vTsC1pRtULue7PfQ",
@@ -402,7 +402,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "icons/magic/death/undead-zombie-grave-green.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
