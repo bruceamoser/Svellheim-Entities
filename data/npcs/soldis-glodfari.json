@@ -1,6 +1,6 @@
 {
   "name": "Söldís Glóðfari",
-  "img": "modules/svellheim/assets/icons/npc-images/soldis-glodfari.png",
+  "img": "icons/skills/trades/academics-merchant-scribe.webp",
   "items": [],
   "effects": [],
   "flags": {},
@@ -35,7 +35,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim/assets/icons/npc-images/soldis-glodfari.png",
+      "src": "icons/skills/trades/academics-merchant-scribe.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

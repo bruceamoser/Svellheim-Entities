@@ -6,7 +6,7 @@
     {
       "name": "Bite",
       "type": "ability",
-      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -206,7 +206,7 @@
     {
       "name": "Root Surge",
       "type": "ability",
-      "img": "icons/magic/nature/root-vine-entangled-green.webp",
+      "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
       "system": {
         "type": "main",
         "category": "heroic",
@@ -299,7 +299,7 @@
     {
       "name": "Snap",
       "type": "ability",
-      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
       "system": {
         "type": "free",
         "category": "",
@@ -391,7 +391,7 @@
     {
       "name": "Howl of Binding",
       "type": "ability",
-      "img": "icons/magic/sonic/scream-wail-pointed-orange.webp",
+      "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
       "system": {
         "type": "villain",
         "category": "",
@@ -455,7 +455,7 @@
     {
       "name": "Lunge",
       "type": "ability",
-      "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+      "img": "icons/creatures/mammals/wolf-howl-moon-black.webp",
       "system": {
         "type": "villain",
         "category": "",
@@ -547,7 +547,7 @@
     {
       "name": "Rot Breath",
       "type": "ability",
-      "img": "icons/magic/death/weapon-sword-skull-purple.webp",
+      "img": "icons/magic/death/weapon-scythe-rune-green.webp",
       "system": {
         "type": "villain",
         "category": "",

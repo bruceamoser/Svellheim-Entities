@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Grave-Wisp",
   "type": "npc",
-  "img": "modules/svellheim/assets/icons/monster-images/grave-wisp.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/grave-wisp.png",
   "system": {
     "stamina": {
       "value": 3,
@@ -112,7 +112,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/grave-wisp.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/grave-wisp.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

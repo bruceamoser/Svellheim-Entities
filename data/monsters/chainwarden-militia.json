@@ -1,6 +1,6 @@
 {
   "name": "Chainwarden Militia",
-  "img": "modules/svellheim/assets/icons/monster-images/chainwarden-militia.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-militia.png",
   "items": [
     {
       "_id": "SDlKfBo2OnERcL2C",
@@ -125,7 +125,7 @@
     {
       "_id": "QblSw6Ytxb6Ia8Nf",
       "name": "Hook and Drag",
-      "img": "icons/skills/movement/drag-move-chain-yellow.webp",
+      "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -244,7 +244,7 @@
     {
       "_id": "HSUUVqeiKzxN1sLc",
       "name": "Mob Press",
-      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -437,7 +437,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/chainwarden-militia.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-militia.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

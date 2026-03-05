@@ -1,7 +1,7 @@
 {
   "_id": "ccEfO0KEWlnzc2rp",
   "name": "Rickety Frets",
-  "img": "icons/magic/death/skull-horned-glowing-purple.webp",
+  "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
   "items": [],
   "effects": [],
   "flags": {},
@@ -36,7 +36,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/magic/death/skull-horned-glowing-purple.webp",
+      "src": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Barrow-Draugr",
   "type": "npc",
-  "img": "modules/svellheim/assets/icons/monster-images/barrow-draugr.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/barrow-draugr.png",
   "system": {
     "stamina": {
       "value": 35,
@@ -112,7 +112,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/barrow-draugr.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/barrow-draugr.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

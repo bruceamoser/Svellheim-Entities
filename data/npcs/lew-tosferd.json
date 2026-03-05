@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Llewyellen \"Lew\" Tosferd",
   "type": "npc",
-  "img": "modules/svellheim/assets/icons/npc-images/lew-tosferd.png",
+  "img": "modules/svellheim-entities/assets/icons/npc-images/lew-tosferd.png",
   "system": {
     "stamina": {
       "value": 60,
@@ -119,7 +119,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim/assets/icons/npc-images/lew-tosferd.png",
+      "src": "modules/svellheim-entities/assets/icons/npc-images/lew-tosferd.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -211,7 +211,7 @@
       "name": "Crafty",
       "type": "feature",
       "_id": "LEWCRAFTYF000001",
-      "img": "icons/creatures/magical/spirit-undead-winged-ghost.webp",
+      "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
       "system": {
         "description": {
           "value": "<p>Lew doesn't provoke opportunity attacks by moving.</p>",
@@ -263,7 +263,7 @@
       "name": "Smoke Bomb",
       "type": "feature",
       "_id": "LEWSMOKEBOMB0001",
-      "img": "icons/magic/air/fog-gas-smoke-dense-pink.webp",
+      "img": "icons/magic/air/fog-gas-smoke-dense-gray.webp",
       "system": {
         "description": {
           "value": "<p>Lew can use the Hide maneuver even while observed and without cover or concealment. When he does, he shifts a number of squares equal to his Agility (3), and if he ends the shift with cover or concealment, he is automatically hidden.</p>",
@@ -289,7 +289,7 @@
       "name": "Careful Observation",
       "type": "ability",
       "_id": "LEWCAREFULOBS001",
-      "img": "icons/skills/targeting/target-crosshair-green.webp",
+      "img": "icons/skills/targeting/crosshair-scope-sniper-green.webp",
       "system": {
         "source": {
           "book": "Heroes",
@@ -345,7 +345,7 @@
       "name": "I'm No Threat",
       "type": "ability",
       "_id": "LEWIMNOTHREAT001",
-      "img": "icons/magic/perception/mask-dual-shadow.webp",
+      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
       "system": {
         "source": {
           "book": "Heroes",

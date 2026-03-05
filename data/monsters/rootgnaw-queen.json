@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Rootgnaw Queen",
   "type": "npc",
-  "img": "modules/svellheim/assets/icons/monster-images/rootgnaw-queen.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/rootgnaw-queen.png",
   "system": {
     "stamina": {
       "value": 70,
@@ -111,7 +111,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/rootgnaw-queen.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/rootgnaw-queen.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

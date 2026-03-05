@@ -1,13 +1,13 @@
 {
   "_id": "nAz1lEadTbkTbkKC",
   "name": "Grave-Construct",
-  "img": "icons/creatures/unholy/skeleton-bone-skull.webp",
+  "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
   "items": [
     {
       "_id": "YEYpp0YkVgeuQmbR",
       "name": "Grave Smash",
       "type": "ability",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/magic/earth/strike-fist-stone-gray.webp",
       "system": {
         "_dsid": "grave-construct-grave-smash",
         "description": {
@@ -82,7 +82,7 @@
       "_id": "4ThH2kcY9FW2Izbb",
       "name": "Rot Pulse",
       "type": "ability",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/magic/death/undead-skeleton-energy-green.webp",
       "system": {
         "_dsid": "grave-construct-rot-pulse",
         "description": {
@@ -156,7 +156,7 @@
       "_id": "4ShYjXT3GHVkk53K",
       "name": "Keeper’s Bane",
       "type": "ability",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/magic/earth/strike-fist-stone-gray.webp",
       "system": {
         "_dsid": "grave-construct-keeper-s-bane",
         "description": {
@@ -231,7 +231,7 @@
       "_id": "yQUuFaSqhCT51YBY",
       "name": "Grafvitnir’s Decree",
       "type": "ability",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/magic/death/undead-skeleton-energy-green.webp",
       "system": {
         "_dsid": "grave-construct-grafvitnir-s-decree",
         "description": {
@@ -280,7 +280,7 @@
       "_id": "IadS5Oi29X1dilhz",
       "name": "Root-Bound",
       "type": "feature",
-      "img": "icons/svg/aura.svg",
+      "img": "icons/magic/nature/root-vine-entangle-foot-green.webp",
       "system": {
         "_dsid": "grave-construct-root-bound",
         "description": {
@@ -309,7 +309,7 @@
       "_id": "Wpr18eXRIEHdwnce",
       "name": "Undying Purpose",
       "type": "feature",
-      "img": "icons/svg/aura.svg",
+      "img": "icons/magic/death/undead-zombie-grave-green.webp",
       "system": {
         "_dsid": "grave-construct-undying-purpose",
         "description": {
@@ -338,7 +338,7 @@
       "_id": "nZuivqZ3k98rHaV5",
       "name": "Constructed Resilience",
       "type": "feature",
-      "img": "icons/svg/aura.svg",
+      "img": "icons/magic/defensive/armor-stone-skin.webp",
       "system": {
         "_dsid": "grave-construct-constructed-resilience",
         "description": {
@@ -397,7 +397,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/creatures/unholy/skeleton-bone-skull.webp"
+      "src": "icons/magic/death/undead-skeleton-worn-blue.webp"
     },
     "ring": {
       "enabled": true

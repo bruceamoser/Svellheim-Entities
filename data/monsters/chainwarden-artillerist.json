@@ -1,6 +1,6 @@
 {
   "name": "Chainwarden Artillerist",
-  "img": "modules/svellheim/assets/icons/monster-images/chainwarden-artillerist.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-artillerist.png",
   "items": [
     {
       "_id": "zAK2HRuelgV6ZWwj",
@@ -364,7 +364,7 @@
     {
       "_id": "RlzZtoWfek8Of7HN",
       "name": "Suppressing Shot",
-      "img": "icons/skills/ranged/arrow-flying-white-blue.webp",
+      "img": "icons/skills/ranged/arrow-flying-gray-brown.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -676,7 +676,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/chainwarden-artillerist.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-artillerist.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

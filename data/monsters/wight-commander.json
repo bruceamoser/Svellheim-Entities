@@ -101,7 +101,7 @@
     {
       "name": "Coordinating Howl",
       "type": "ability",
-      "img": "icons/skills/social/wave-influence-mesmerize.webp",
+      "img": "icons/skills/social/wave-halt-stop.webp",
       "system": {
         "source": {
           "book": "Svellheim Campaign (Era of Embers)",
@@ -160,7 +160,7 @@
     {
       "_id": "WCMD000000000004",
       "name": "Tactical Intelligence",
-      "img": "icons/svg/eye.svg",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -191,7 +191,7 @@
     {
       "_id": "WCMD000000000005",
       "name": "Ram Coordination",
-      "img": "icons/svg/combat.svg",
+      "img": "icons/skills/melee/weapons-crossed-swords-black-gray.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -222,7 +222,7 @@
     {
       "_id": "WCMD000000000006",
       "name": "Villain Action: Reposition",
-      "img": "icons/svg/cowled.svg",
+      "img": "icons/skills/movement/figure-running-gray.webp",
       "effects": [],
       "flags": {},
       "folder": null,

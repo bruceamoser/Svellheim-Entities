@@ -1,7 +1,7 @@
 {
   "_id": "Q7b3zszsaULv3DDT",
   "name": "Thráinn Ashward (Pale Maw Inquisitor)",
-  "img": "icons/magic/death/hand-country-fire-purple.webp",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
   "items": [],
   "effects": [],
   "flags": {},
@@ -36,7 +36,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/magic/death/hand-country-fire-purple.webp",
+      "src": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

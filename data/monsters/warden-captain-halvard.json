@@ -1,11 +1,11 @@
 {
   "name": "Warden-Captain Halvard",
-  "img": "modules/svellheim/assets/icons/monster-images/warden-captain-halvard.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/warden-captain-halvard.png",
   "items": [
     {
       "_id": "1fAsOUZdd725893F",
       "name": "Chain-Flail Sweep",
-      "img": "icons/skills/melee/strike-flail-destructive-orange.webp",
+      "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -363,7 +363,7 @@
     {
       "_id": "jYIAfVkqamFbTOrS",
       "name": "Breaker Lash",
-      "img": "icons/skills/movement/whip-chain-red.webp",
+      "img": "icons/weapons/misc/whip-red-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -483,7 +483,7 @@
     {
       "_id": "RRdc2QWFTaXejlf6",
       "name": "Commanding Strike",
-      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -644,7 +644,7 @@
     {
       "_id": "wckSWnKJvfF6Hvul",
       "name": "Villain Action 1: Form Up!",
-      "img": "icons/svg/cowled.svg",
+      "img": "icons/skills/social/intimidation-impressing.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -686,7 +686,7 @@
     {
       "_id": "xa9FtB6fSNna1xDt",
       "name": "Villain Action 2: Disperse!",
-      "img": "icons/svg/cowled.svg",
+      "img": "icons/skills/movement/arrows-up-trio-red.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -728,7 +728,7 @@
     {
       "_id": "yU52Y5okVVM4V30S",
       "name": "Villain Action 3: By Authority of the Chain!",
-      "img": "icons/svg/cowled.svg",
+      "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -801,7 +801,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/warden-captain-halvard.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/warden-captain-halvard.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

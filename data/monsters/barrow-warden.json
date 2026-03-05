@@ -1,11 +1,11 @@
 {
   "name": "Barrow-Warden",
-  "img": "modules/svellheim/assets/icons/monster-images/barrow-warden.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/barrow-warden.png",
   "items": [
     {
       "_id": "uW64aqMJwXN1nob6",
       "name": "Rune-Blade",
-      "img": "icons/weapons/swords/sword-broad-glowing.webp",
+      "img": "icons/weapons/swords/sword-runed-glowing.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -125,7 +125,7 @@
     {
       "_id": "69RWVIV8wu3fYpeA",
       "name": "Barrow-Call",
-      "img": "icons/creatures/magical/construct-golem-stone-gray.webp",
+      "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -198,7 +198,7 @@
     {
       "_id": "U3kuHMfwblzCCzsF",
       "name": "Law of the Grave",
-      "img": "icons/magic/holy/prayer-book-cross-gray.webp",
+      "img": "icons/magic/holy/angel-wings-gray.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -554,7 +554,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/barrow-warden.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/barrow-warden.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

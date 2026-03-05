@@ -1,13 +1,13 @@
 {
   "_id": "pCvMQr6nRUKsXK8F",
   "name": "Keeper Guardian Construct",
-  "img": "icons/creatures/magical/construct-stone-golem-grey.webp",
+  "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
   "items": [
     {
       "_id": "JRxT8p17DNqBmEJ0",
       "name": "Stone Fist",
       "type": "ability",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/magic/earth/strike-fist-stone-gray.webp",
       "system": {
         "_dsid": "keeper-guardian-stone-fist",
         "description": {
@@ -57,7 +57,7 @@
       "_id": "msknGv4mc4tZUczV",
       "name": "Keeper’s Judgment",
       "type": "ability",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/magic/earth/strike-fist-stone-gray.webp",
       "system": {
         "_dsid": "keeper-guardian-keeper-s-judgment",
         "description": {
@@ -106,7 +106,7 @@
       "_id": "c33uXnRl9qPDumtE",
       "name": "Stone Form",
       "type": "feature",
-      "img": "icons/svg/aura.svg",
+      "img": "icons/magic/earth/construct-stone.webp",
       "system": {
         "_dsid": "keeper-guardian-stone-form",
         "description": {
@@ -135,7 +135,7 @@
       "_id": "BK4VM82y685XMQ9Q",
       "name": "Decay",
       "type": "feature",
-      "img": "icons/svg/aura.svg",
+      "img": "icons/magic/death/weapon-scythe-rune-green.webp",
       "system": {
         "_dsid": "keeper-guardian-decay",
         "description": {
@@ -164,7 +164,7 @@
       "_id": "4bkNWTLKlnNaxGXN",
       "name": "Threshold Guardian",
       "type": "feature",
-      "img": "icons/svg/aura.svg",
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "system": {
         "_dsid": "keeper-guardian-threshold-guardian",
         "description": {
@@ -193,7 +193,7 @@
       "_id": "uOVnAn6RfFJKQLt9",
       "name": "Recognition",
       "type": "feature",
-      "img": "icons/svg/aura.svg",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
       "system": {
         "_dsid": "keeper-guardian-recognition",
         "description": {
@@ -252,7 +252,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/creatures/magical/construct-stone-golem-grey.webp"
+      "src": "icons/creatures/magical/construct-golem-stone-blue.webp"
     },
     "ring": {
       "enabled": true

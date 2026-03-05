@@ -1,13 +1,13 @@
 {
   "_id": "R7kWdXvP3mYn9qLs",
   "name": "Heitfolk Sentry",
-  "img": "icons/equipment/shield/heater-steel-worn.webp",
+  "img": "icons/equipment/shield/heater-steel-gold.webp",
   "items": [
     {
       "_id": "fY2cNpU0e9hgY5le",
       "name": "Axe Strike",
       "type": "ability",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/skills/melee/strike-axe-blood-red.webp",
       "system": {
         "_dsid": "heitfolk-sentry-axe-strike",
         "description": {
@@ -57,7 +57,7 @@
       "_id": "lSIEBquLanYKjD7w",
       "name": "Shield Shove",
       "type": "ability",
-      "img": "icons/svg/sword.svg",
+      "img": "icons/skills/melee/shield-block-bash-yellow.webp",
       "system": {
         "_dsid": "heitfolk-sentry-shield-shove",
         "description": {
@@ -107,7 +107,7 @@
       "_id": "2vE5hWrOgGSKOEsL",
       "name": "Tunnel-Kin",
       "type": "feature",
-      "img": "icons/svg/aura.svg",
+      "img": "icons/environment/wilderness/cave-entrance-dwarven-hill.webp",
       "system": {
         "_dsid": "heitfolk-sentry-tunnel-kin",
         "description": {
@@ -166,7 +166,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/equipment/shield/heater-steel-worn.webp"
+      "src": "icons/equipment/shield/heater-steel-gold.webp"
     },
     "ring": {
       "enabled": true

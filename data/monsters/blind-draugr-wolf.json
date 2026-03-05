@@ -6,7 +6,7 @@
     {
       "_id": "UH6bIjSDuwpzyIFX",
       "name": "Bite",
-      "img": "icons/skills/melee/strike-sword-steel.webp",
+      "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -126,7 +126,7 @@
     {
       "_id": "pF76tT6nzjCYxAHq",
       "name": "Frenzy Snap",
-      "img": "icons/skills/melee/strike-sword-steel.webp",
+      "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -330,7 +330,7 @@
     {
       "_id": "lDAH8KXriWTcXaOU",
       "name": "Pack Pounce",
-      "img": "icons/skills/melee/bite-rankled-rotten-red.webp",
+      "img": "icons/skills/melee/strike-blade-claw-red.webp",
       "effects": [],
       "flags": {},
       "folder": null,

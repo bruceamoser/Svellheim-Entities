@@ -6,7 +6,7 @@
     {
       "_id": "xTK8NOaiZUWjT03m",
       "name": "Corroded Blade",
-      "img": "icons/skills/melee/strike-sword-steel.webp",
+      "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -120,7 +120,7 @@
     {
       "_id": "qUi3FnmDkNnC3ZRN",
       "name": "Wyrd-Bolt",
-      "img": "icons/skills/melee/strike-sword-steel.webp",
+      "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -365,7 +365,7 @@
     {
       "_id": "WYDR000000000001",
       "name": "Coordinate the Dead",
-      "img": "icons/svg/cowled.svg",
+      "img": "icons/magic/death/undead-ghosts-trio-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,

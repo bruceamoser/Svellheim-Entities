@@ -1,7 +1,7 @@
 {
   "_id": "aow6GGeUHfWB2tJE",
   "name": "Lakewalker Draugr",
-  "img": "icons/creatures/unholy/undead-zombie-ice.webp",
+  "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
   "items": [
     {
       "name": "Frozen March",
@@ -55,7 +55,7 @@
         },
         "cost": ""
       },
-      "img": "icons/svg/sword.svg",
+      "img": "icons/magic/water/snowflake-ice-purple.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -112,7 +112,7 @@
         },
         "cost": "1 Malice"
       },
-      "img": "icons/svg/sword.svg",
+      "img": "icons/skills/movement/figure-running-gray.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -169,7 +169,7 @@
         },
         "cost": "2 Malice"
       },
-      "img": "icons/svg/sword.svg",
+      "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -390,7 +390,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/creatures/unholy/undead-zombie-ice.webp",
+      "src": "icons/magic/death/hand-dirt-undead-zombie.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

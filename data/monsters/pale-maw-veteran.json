@@ -7,7 +7,7 @@
       "_id": "61cbaca917a4c7f4",
       "name": "Veteran's Thrust",
       "type": "ability",
-      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "img": "icons/skills/melee/spear-tips-triple-orange.webp",
       "system": {
         "description": {
           "value": "<p>A practiced, efficient melee strike from a battle-hardened veteran.</p>"
@@ -75,7 +75,7 @@
       "_id": "f74d4155703f5e22",
       "name": "Covering Fire",
       "type": "ability",
-      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "img": "icons/skills/ranged/arrow-flying-gray-brown.webp",
       "system": {
         "description": {
           "value": "<p>The veteran fires a suppressive shot that hampers the target's movement.</p>"
@@ -144,7 +144,7 @@
       "_id": "afbb806b70170633",
       "name": "Experienced",
       "type": "feature",
-      "img": "systems/draw-steel/assets/icons/abilities/feature.svg",
+      "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
         "description": {
           "value": "<p>An edge on Intuition tests to anticipate enemy actions and react.</p>"
@@ -171,7 +171,7 @@
       "_id": "83cf89c87f076e7d",
       "name": "Defensive Posture",
       "type": "feature",
-      "img": "systems/draw-steel/assets/icons/abilities/feature.svg",
+      "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
       "system": {
         "description": {
           "value": "<p>When adjacent to another Pale Maw unit, gains +1 to Presence tests to resist being moved.</p>"

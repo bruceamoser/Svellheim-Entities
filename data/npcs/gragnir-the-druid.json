@@ -1,6 +1,6 @@
 {
   "name": "Gragnir, Ash-Walker",
-  "img": "modules/svellheim/assets/icons/npc-images/gragnir-the-druid.png",
+  "img": "modules/svellheim-entities/assets/icons/npc-images/gragnir-the-druid.png",
   "items": [],
   "effects": [],
   "flags": {},
@@ -35,7 +35,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim/assets/icons/npc-images/gragnir-the-druid.png",
+      "src": "modules/svellheim-entities/assets/icons/npc-images/gragnir-the-druid.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

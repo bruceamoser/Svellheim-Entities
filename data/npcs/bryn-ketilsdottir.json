@@ -1,6 +1,6 @@
 {
   "name": "Bryn Ketilsdottir",
-  "img": "modules/svellheim/assets/icons/npc-images/bryn-ketilsdottir.png",
+  "img": "modules/svellheim-entities/assets/icons/npc-images/bryn-ketilsdottir.png",
   "items": [],
   "effects": [],
   "flags": {},
@@ -35,7 +35,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim/assets/icons/npc-images/bryn-ketilsdottir.png",
+      "src": "modules/svellheim-entities/assets/icons/npc-images/bryn-ketilsdottir.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

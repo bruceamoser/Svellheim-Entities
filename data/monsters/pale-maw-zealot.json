@@ -7,7 +7,7 @@
       "_id": "2502b91665edf77a",
       "name": "Entropy Weapon",
       "type": "ability",
-      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "img": "icons/magic/unholy/orb-glowing-purple.webp",
       "system": {
         "description": {
           "value": "<p>The zealot strikes with a weapon infused with entropic energy.</p>"
@@ -75,7 +75,7 @@
       "_id": "1e508b011d3d1b84",
       "name": "Zealous Cry",
       "type": "ability",
-      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
       "system": {
         "description": {
           "value": "<p>The zealot screams a prayer to the Pale Maw, releasing a wave of psychic dread.</p>"
@@ -210,7 +210,7 @@
       "_id": "e7df9d3b4cac929e",
       "name": "Martyr's Rush",
       "type": "feature",
-      "img": "systems/draw-steel/assets/icons/abilities/feature.svg",
+      "img": "icons/skills/movement/figure-running-gray.webp",
       "system": {
         "description": {
           "value": "<p>If another Pale Maw creature is reduced to 0 SP within 30 feet, may immediately shift 3 squares toward the target as a free triggered action.</p>"

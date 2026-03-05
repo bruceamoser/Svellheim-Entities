@@ -1,12 +1,12 @@
 {
   "_id": "N4mtlXUBeAeXSJyj",
   "name": "Barrow-Wight",
-  "img": "icons/magic/death/undead-skeleton-deathly-green.webp",
+  "img": "icons/magic/death/undead-skeleton-energy-green.webp",
   "items": [
     {
       "_id": "ELVhS9oTylbloxdc",
       "name": "Wight's Blade",
-      "img": "icons/skills/melee/strike-sword-ice-blue.webp",
+      "img": "icons/skills/melee/weapons-crossed-swords-white-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -247,7 +247,7 @@
     {
       "_id": "5DRPYqdPzosMmTtl",
       "name": "Binding Rune",
-      "img": "icons/magic/symbols/rune-sigil-blue-ice.webp",
+      "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -367,7 +367,7 @@
     {
       "_id": "ZaHJIsFXtNS52Eiq",
       "name": "Barrow's Call",
-      "img": "icons/magic/death/undead-skeleton-deathly-green.webp",
+      "img": "icons/magic/death/undead-skeleton-energy-green.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -487,7 +487,7 @@
     {
       "_id": "tLAXbB4IBzjWebQx",
       "name": "Law of the Grave",
-      "img": "icons/magic/death/skull-horned-worn-brown.webp",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -529,7 +529,7 @@
     {
       "_id": "4IH2r3jSL7cZcavK",
       "name": "Unfeeling",
-      "img": "icons/skills/wounds/injury-stitches-brown.webp",
+      "img": "icons/skills/wounds/injury-stitched-flesh-red.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -602,7 +602,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/magic/death/undead-skeleton-deathly-green.webp",
+      "src": "icons/magic/death/undead-skeleton-energy-green.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

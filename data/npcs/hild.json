@@ -1,6 +1,6 @@
 {
   "name": "Hild (Innkeeper)",
-  "img": "modules/svellheim/assets/icons/npc-images/hild.png",
+  "img": "modules/svellheim-entities/assets/icons/npc-images/hild.png",
   "items": [],
   "effects": [],
   "flags": {},
@@ -35,7 +35,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim/assets/icons/npc-images/hild.png",
+      "src": "modules/svellheim-entities/assets/icons/npc-images/hild.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

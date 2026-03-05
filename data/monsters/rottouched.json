@@ -6,7 +6,7 @@
     {
       "_id": "vTsC1pRtULue7PfQ",
       "name": "Corrupted Claw",
-      "img": "icons/skills/melee/strike-sword-steel.webp",
+      "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -126,7 +126,7 @@
     {
       "_id": "BzZ3ekrVlZw2MuSK",
       "name": "Rot Spray",
-      "img": "icons/skills/melee/strike-sword-steel.webp",
+      "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,

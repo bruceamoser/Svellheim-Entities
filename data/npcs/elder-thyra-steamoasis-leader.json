@@ -1,7 +1,7 @@
 {
   "_id": "PjIcqf3pfBREHqV4",
   "name": "Elder Thyra (Steam-Oasis Leader)",
-  "img": "icons/skills/social/leadership-inspiring.webp",
+  "img": "icons/skills/social/intimidation-impressing.webp",
   "items": [],
   "effects": [],
   "flags": {},
@@ -36,7 +36,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/skills/social/leadership-inspiring.webp",
+      "src": "icons/skills/social/intimidation-impressing.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

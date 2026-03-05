@@ -1,11 +1,11 @@
 {
   "name": "Draugr Thrall",
-  "img": "modules/svellheim/assets/icons/monster-images/draugr-thrall.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/draugr-thrall.png",
   "items": [
     {
       "_id": "c9j5EuJXZIkn47y7",
       "name": "Rust-Cleaver Swipe",
-      "img": "icons/weapons/swords/scimitar-worn-blue.webp",
+      "img": "icons/weapons/swords/scimitar-guard-red.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -364,7 +364,7 @@
     {
       "_id": "OMb27adJO8e8hbeI",
       "name": "Unquiet Hunger",
-      "img": "icons/magic/death/undead-skeleton-rags-blue.webp",
+      "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -437,7 +437,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/draugr-thrall.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/draugr-thrall.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

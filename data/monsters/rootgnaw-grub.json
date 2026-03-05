@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Rootgnaw Grub",
   "type": "npc",
-  "img": "modules/svellheim/assets/icons/monster-images/rootgnaw-grub.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/rootgnaw-grub.png",
   "system": {
     "stamina": {
       "value": 1,
@@ -111,7 +111,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/rootgnaw-grub.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/rootgnaw-grub.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -193,7 +193,7 @@
     {
       "_id": "vW7J4SMQ25fuZr8m",
       "name": "Gnaw",
-      "img": "icons/creatures/claws/claw-barbed-light.webp",
+      "img": "icons/creatures/claws/claw-bear-paw-swipe-brown.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -307,7 +307,7 @@
     {
       "_id": "3BhOcG6537VvYiKI",
       "name": "Pack Burrowers",
-      "img": "icons/environment/creatures/insect-swarmlike.webp",
+      "img": "icons/creatures/invertebrates/ant-strength-green.webp",
       "effects": [],
       "flags": {},
       "folder": null,

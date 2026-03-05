@@ -1,12 +1,12 @@
 {
   "_id": "R9yZNlM3GHjJ5qTk",
   "name": "Grafvitnir, the Hunger Made Manifest — Stage 3 (L8 Solo)",
-  "img": "icons/creatures/unholy/demon-fire-large-red.webp",
+  "img": "icons/creatures/unholy/demon-fire-horned-mask.webp",
   "items": [
     {
       "name": "Void Grasp",
       "type": "ability",
-      "img": "icons/magic/unholy/hand-claw-fire-purple.webp",
+      "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -98,7 +98,7 @@
     {
       "name": "Hunger Pulse",
       "type": "ability",
-      "img": "icons/magic/death/skull-energy-light-purple.webp",
+      "img": "icons/magic/death/skull-flames-white-blue.webp",
       "system": {
         "type": "main",
         "category": "heroic",
@@ -185,7 +185,7 @@
     {
       "name": "Crushing Tendril",
       "type": "ability",
-      "img": "icons/magic/nature/root-vine-entangled-green.webp",
+      "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
       "system": {
         "type": "free",
         "category": "",
@@ -277,7 +277,7 @@
     {
       "name": "World-Ending Swipe",
       "type": "ability",
-      "img": "icons/magic/fire/explosion-embers-red.webp",
+      "img": "icons/magic/fire/blast-jet-stream-embers-red.webp",
       "system": {
         "type": "villain",
         "category": "",
@@ -365,7 +365,7 @@
     {
       "name": "Despair Made Flesh",
       "type": "ability",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+      "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
       "system": {
         "type": "villain",
         "category": "",
@@ -432,7 +432,7 @@
     {
       "name": "Root Storm",
       "type": "ability",
-      "img": "icons/magic/nature/root-vine-fire-entangled-orange.webp",
+      "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
       "system": {
         "type": "villain",
         "category": "",
@@ -680,7 +680,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/creatures/unholy/demon-fire-large-red.webp",
+      "src": "icons/creatures/unholy/demon-fire-horned-mask.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

@@ -2,7 +2,7 @@
   "_id": "K2rTGgF6yZcC8jPe",
   "name": "Dreyfus's Eye",
   "type": "treasure",
-  "img": "icons/commodities/gems/gem-faceted-round-yellow.webp",
+  "img": "icons/commodities/gems/gem-faceted-radiant-red.webp",
   "system": {
     "description": {
       "value": "<p>A perfectly ordinary golden disc, cold to the touch, that catches light from impossible angles. No light seems to escape from it. Where Dreyfus collapsed, the snow was stained with shadow that slowly took the shape of this single golden eye.</p><h3>Properties</h3><p><strong>Wyrd-sight (1/encounter):</strong> Once per encounter, the wielder can spend a Hero Token to activate this item. For 1 minute, the wielder sees through any active deception, disguise, or shape-change within Close Burst 5. Illusions shimmer and show their true forms. Lies are visible as distortions in the air around the speaker.</p><p>After the power is used, the eye goes dark and ordinary. It is no longer magical, but remains a memorial to the thing it once saw.</p>",

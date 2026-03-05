@@ -2,7 +2,7 @@
   "folder": null,
   "name": "Dreyfus (The King's Hound)",
   "type": "npc",
-  "img": "modules/svellheim/assets/icons/npc-images/dreyfus.png",
+  "img": "modules/svellheim-entities/assets/icons/npc-images/dreyfus.png",
   "system": {
     "stamina": {
       "value": 60,
@@ -114,7 +114,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim/assets/icons/npc-images/dreyfus.png",
+      "src": "modules/svellheim-entities/assets/icons/npc-images/dreyfus.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -199,7 +199,7 @@
       "name": "Shape-Walker",
       "type": "feature",
       "_id": "DRFY000000000001",
-      "img": "modules/svellheim/assets/icons/npc-images/dreyfus.png",
+      "img": "modules/svellheim-entities/assets/icons/npc-images/dreyfus.png",
       "system": {
         "description": {
           "value": "<p>Dreyfus is a <em>shape-walker</em>&mdash;a fragment of Grafvitnir's will given form. In dog form, he appears as a large grey hound with pale silver eyes. He is bound by guest-right and cannot directly harm those under the King's protection while within Hrafnborg.</p>",

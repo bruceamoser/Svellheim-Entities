@@ -2,7 +2,7 @@
   "folder": "iEPVvWezLlidfEbg",
   "name": "Goblin Warrior",
   "type": "npc",
-  "img": "modules/svellheim/assets/icons/monster-images/goblin-warrior.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/goblin-warrior.png",
   "system": {
     "stamina": {
       "value": 15,
@@ -109,7 +109,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/goblin-warrior.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/goblin-warrior.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

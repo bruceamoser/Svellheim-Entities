@@ -1,6 +1,6 @@
 {
   "name": "Chainwarden Enforcer",
-  "img": "modules/svellheim/assets/icons/monster-images/chainwarden-enforcer.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-enforcer.png",
   "items": [
     {
       "_id": "bodTqGhLZoh6AyGg",
@@ -675,7 +675,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/chainwarden-enforcer.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-enforcer.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

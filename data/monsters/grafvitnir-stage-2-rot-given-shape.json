@@ -1,12 +1,12 @@
 {
   "_id": "Q8xYMkL2FGiI4pSj",
   "name": "Grafvitnir, Rot-Given-Shape — Stage 2 (L7 Solo)",
-  "img": "icons/creatures/unholy/demon-horned-black-red.webp",
+  "img": "icons/creatures/unholy/demon-horned-winged-laughing.webp",
   "items": [
     {
       "name": "Tendril Strike",
       "type": "ability",
-      "img": "icons/magic/nature/root-vine-entangled-green.webp",
+      "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -185,7 +185,7 @@
     {
       "name": "Tendril Lash",
       "type": "ability",
-      "img": "icons/magic/nature/root-vine-entangled-green.webp",
+      "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
       "system": {
         "type": "free",
         "category": "",
@@ -277,7 +277,7 @@
     {
       "name": "Root Eruption",
       "type": "ability",
-      "img": "icons/magic/nature/root-vine-fire-entangled-orange.webp",
+      "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
       "system": {
         "type": "villain",
         "category": "",
@@ -365,7 +365,7 @@
     {
       "name": "Rot Spread",
       "type": "ability",
-      "img": "icons/magic/death/skull-poison-green.webp",
+      "img": "icons/magic/death/weapon-scythe-rune-green.webp",
       "system": {
         "type": "villain",
         "category": "",
@@ -429,7 +429,7 @@
     {
       "name": "Reach and Grasp",
       "type": "ability",
-      "img": "icons/magic/nature/root-vine-entangled-purple.webp",
+      "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
       "system": {
         "type": "villain",
         "category": "",
@@ -601,7 +601,7 @@
     {
       "name": "Undying Hunger",
       "type": "feature",
-      "img": "icons/magic/death/undead-skeleton-rags-green.webp",
+      "img": "icons/magic/death/undead-skeleton-energy-green.webp",
       "system": {
         "description": {
           "value": "<p>At the start of each of Grafvitnir’s turns, he regains 5 Stamina unless the Ever-Ember is burning within the same zone.</p>"
@@ -717,7 +717,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/creatures/unholy/demon-horned-black-red.webp",
+      "src": "icons/creatures/unholy/demon-horned-winged-laughing.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

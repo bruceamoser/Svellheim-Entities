@@ -1,7 +1,7 @@
 {
   "_id": "2d3nqTnvxREshnZ2",
   "name": "Hildvarð's Sealed Iron Canteen",
-  "img": "icons/consumables/potions/bottle-round-corked-brown.webp",
+  "img": "icons/consumables/potions/potion-bottle-corked-labeled-red.webp",
   "effects": [],
   "flags": {
     "draw-steel": {

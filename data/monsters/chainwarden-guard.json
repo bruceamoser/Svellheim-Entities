@@ -1,11 +1,11 @@
 {
   "name": "Chainwarden Guard",
-  "img": "modules/svellheim/assets/icons/monster-images/chainwarden-guard.png",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-guard.png",
   "items": [
     {
       "_id": "VHVmdjH7I3uVmyjl",
       "name": "Halberd Intercept",
-      "img": "icons/weapons/polearms/halberd-crescent-blue.webp",
+      "img": "icons/weapons/polearms/trident-silver-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -125,7 +125,7 @@
     {
       "_id": "6xQ63qVPOixM9HxN",
       "name": "Chain Hook Trip",
-      "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
+      "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -437,7 +437,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "modules/svellheim/assets/icons/monster-images/chainwarden-guard.png",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-guard.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

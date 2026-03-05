@@ -1,7 +1,7 @@
 {
   "_id": "2vKhJdmfEFXkIT6G",
   "name": "Yrsa Frostbane (Pale Maw Strike Leader)",
-  "img": "icons/weapons/axes/axe-battle-worn.webp",
+  "img": "icons/weapons/axes/axe-double-white-red.webp",
   "items": [],
   "effects": [],
   "flags": {},
@@ -36,7 +36,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/weapons/axes/axe-battle-worn.webp",
+      "src": "icons/weapons/axes/axe-double-white-red.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

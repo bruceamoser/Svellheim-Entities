@@ -7,7 +7,7 @@
       "_id": "e6768df1a2cbb6ea",
       "name": "Executioner's Stroke",
       "type": "ability",
-      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "img": "icons/skills/melee/strike-sword-blood-red.webp",
       "system": {
         "description": {
           "value": "<p>A devastating melee strike that channels zealous fury. Yrsa's blade falls with the certainty of divine judgment.</p>"
@@ -75,7 +75,7 @@
       "_id": "6c82dee3d4d19c14",
       "name": "Zealot's Mark",
       "type": "ability",
-      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "img": "icons/magic/symbols/runes-star-magenta.webp",
       "system": {
         "description": {
           "value": "<p>Yrsa designates a heretic for judgment. The target is marked by the Pale Maw's dark will.</p>"
@@ -133,7 +133,7 @@
       "_id": "9c58a9f727e99202",
       "name": "Rally the Faithful",
       "type": "ability",
-      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "img": "icons/magic/control/control-influence-rally-purple.webp",
       "system": {
         "description": {
           "value": "<p>Yrsa rallies nearby zealots with a commanding shout, bolstering their attacks and resolve.</p>"
@@ -181,7 +181,7 @@
       "_id": "b5dbdecc930f28a8",
       "name": "Divine Judgment",
       "type": "ability",
-      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "img": "icons/magic/holy/angel-wings-gray.webp",
       "system": {
         "description": {
           "value": "<p>Yrsa channels the Pale Maw's entropic power to shatter a heretic's mind and hurl them away.</p>"

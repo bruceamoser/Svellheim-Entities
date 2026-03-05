@@ -6,7 +6,7 @@
     {
       "_id": "dVAAb53m9WY8If0q",
       "name": "Wail of the Dead",
-      "img": "icons/magic/death/undead-skull-grinning-teal.webp",
+      "img": "icons/magic/death/undead-ghost-scream-teal.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -126,7 +126,7 @@
     {
       "_id": "INRUBpauj95qxJAA",
       "name": "Drain Life",
-      "img": "icons/magic/death/projectile-skull-flaming-green.webp",
+      "img": "icons/magic/death/projectile-skull-flaming-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,
