@@ -329,6 +329,8 @@ function buildInlineProjects(folderIndex) {
 }
 
 // ── LevelDB writer ──────────────────────────────────────────────────────
+// Foundry VTT stores embedded effects as separate LevelDB entries.
+
 async function writeLevelDb({ folders, items }, outDir) {
   const { ClassicLevel } = require('classic-level');
 
@@ -339,7 +341,15 @@ async function writeLevelDb({ folders, items }, outDir) {
   await db.open();
 
   for (const f of folders) await db.put(`!folders!${f._id}`, JSON.stringify(f));
-  for (const i of items)   await db.put(`!items!${i._id}`,   JSON.stringify(i));
+
+  for (const i of items) {
+    const effects = Array.isArray(i.effects) ? i.effects : [];
+    for (const e of effects) {
+      await db.put(`!items.effects!${i._id}.${e._id}`, JSON.stringify(e));
+    }
+    const itemDoc = { ...i, effects: effects.map(e => e._id) };
+    await db.put(`!items!${i._id}`, JSON.stringify(itemDoc));
+  }
 
   await db.compactRange('\x00', '\xff');
   await db.close();

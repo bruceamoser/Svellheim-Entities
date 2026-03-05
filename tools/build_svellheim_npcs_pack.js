@@ -144,6 +144,8 @@ function buildFolders() {
 }
 
 // ── LevelDB writer ────────────────────────────────────────────────────
+// Foundry VTT stores embedded documents (items, effects) as separate
+// LevelDB entries rather than inline in the actor document.
 
 async function writeLevelDb({ folders, actors }, outDir) {
   const { ClassicLevel } = require('classic-level');
@@ -155,7 +157,38 @@ async function writeLevelDb({ folders, actors }, outDir) {
   await db.open();
 
   for (const f of folders) await db.put(`!folders!${f._id}`, JSON.stringify(f));
-  for (const a of actors)  await db.put(`!actors!${a._id}`, JSON.stringify(a));
+
+  for (const a of actors) {
+    const actorId = a._id;
+
+    // Extract embedded items and write them as separate entries
+    const items = Array.isArray(a.items) ? a.items : [];
+    const effects = Array.isArray(a.effects) ? a.effects : [];
+
+    for (const item of items) {
+      const itemId = item._id;
+      // Extract item-level effects and write them separately
+      const itemEffects = Array.isArray(item.effects) ? item.effects : [];
+      for (const ie of itemEffects) {
+        await db.put(`!actors.items.effects!${actorId}.${itemId}.${ie._id}`, JSON.stringify(ie));
+      }
+      // Replace item.effects with array of ID strings
+      const itemDoc = { ...item, effects: itemEffects.map(e => e._id) };
+      await db.put(`!actors.items!${actorId}.${itemId}`, JSON.stringify(itemDoc));
+    }
+
+    for (const effect of effects) {
+      await db.put(`!actors.effects!${actorId}.${effect._id}`, JSON.stringify(effect));
+    }
+
+    // Write the actor with items/effects as arrays of ID strings
+    const actorDoc = {
+      ...a,
+      items: items.map(i => i._id),
+      effects: effects.map(e => e._id),
+    };
+    await db.put(`!actors!${actorId}`, JSON.stringify(actorDoc));
+  }
 
   await db.compactRange('\x00', '\xff');
   await db.close();
