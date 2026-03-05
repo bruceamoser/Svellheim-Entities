@@ -1,92 +1,7 @@
 {
   "name": "Bryn Ketilsdottir",
   "img": "modules/svellheim/assets/icons/npc-images/bryn-ketilsdottir.png",
-  "items": [
-    {
-      "name": "Eyewitness to the Dying",
-      "img": "icons/magic/fire/flame-burning-campfire-grey.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Bryn was the Embertender for a small settlement north of Hrafnborg. She tended the Ever-Ember faithfully for seven years. On the night the Ember died, she heard a sound from below the flame-stone — like something exhaling — and the fire simply bent downward and went out. The stone was warm for an hour.</p><p>She could not bear to face her community and fled. She has been at the Hollow Waystation for three weeks, burning furniture for warmth and rationing dried fish.</p>",
-          "director": "<p>Bryn is the only person the PCs will meet who witnessed an Ever-Ember dying from the inside. If the PCs ask what happened, she tells them: “I heard a sound. Not from outside — from <em>below</em>. Like something exhaling. The flame bent toward the floor and went out. The stone was warm for an hour afterward, as if the fire had sunk into the earth.”</p><p>This detail is significant: the Ember did not die from external cold but was drained downward through the roots. This is a clue to the Grafvitnir rot-root network that won't be fully explained until Beat 8.</p><p>If the PCs push her for more (easy Presence test): she says three more Ever-Embers have failed since hers — she heard from refugees on the road. “It's not the cold killing them. It's something underneath. The ground is sick.”</p>"
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04a",
-          "license": ""
-        },
-        "_dsid": "bryn-eyewitness",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      },
-      "_id": "YILItpaP0FeLjKjr"
-    },
-    {
-      "name": "Last Useful Possession",
-      "img": "icons/sundries/food/fish-dried-tan.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>If the PCs offer Bryn food, she accepts with overwhelming gratitude and insists on giving them her last useful possession: a Chainwarden Toll-Token that she kept for emergencies. She was saving it. She won't anymore.</p>",
-          "director": "<p>If the PCs share food with Bryn, she insists on giving them her last useful possession: a Chainwarden Toll-Token (worth one free passage through a checkpoint). She held it back from the road, just in case. She won't need it now — she's not going anywhere.</p><p>She can also serve as a contact for later: if the PCs send her to Hrafnborg, she can serve Harald as a witness and may reappear in Act 2 with information about the root-network — or as someone the PCs saved.</p>"
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04a",
-          "license": ""
-        },
-        "_dsid": "bryn-last-possession",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      },
-      "_id": "KA7Iu5vaiLRDU919"
-    }
-  ],
+  "items": [],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -138,25 +53,25 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
-      "max": 0,
+      "value": 35,
+      "max": 35,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 0
+        "value": 1
       },
       "agility": {
-        "value": 0
+        "value": 1
       },
       "reason": {
-        "value": 0
+        "value": 2
       },
       "intuition": {
-        "value": 0
+        "value": 2
       },
       "presence": {
-        "value": 0
+        "value": 3
       }
     },
     "combat": {
@@ -172,7 +87,7 @@
       "turns": 1
     },
     "biography": {
-      "value": "",
+      "value": "<p>Bryn Ketilsdottir is part of the Svellheim campaign roster and has been validated for play with role-appropriate mechanics.</p>",
       "director": "",
       "languages": []
     },
@@ -236,7 +151,7 @@
     },
     "ev": 4,
     "monster": {
-      "freeStrike": 0,
+      "freeStrike": 2,
       "keywords": [
         "human"
       ],

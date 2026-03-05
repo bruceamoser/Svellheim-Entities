@@ -54,22 +54,22 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
-      "max": 40,
+      "value": 60,
+      "max": 60,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 1
+        "value": 2
       },
       "agility": {
-        "value": 1
+        "value": 2
       },
       "reason": {
         "value": 4
       },
       "intuition": {
-        "value": 5
+        "value": 4
       },
       "presence": {
         "value": 3
@@ -151,7 +151,7 @@
     },
     "ev": 0,
     "monster": {
-      "freeStrike": 0,
+      "freeStrike": 5,
       "keywords": [
         "fey",
         "plant"

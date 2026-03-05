@@ -2,7 +2,255 @@
   "_id": "M4tVIiH8ABeE0lRg",
   "name": "Wight-Commander (L4 Standard)",
   "img": "systems/draw-steel/assets/roles/support.svg",
-  "items": [],
+  "items": [
+    {
+      "name": "Command Strike",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 25",
+          "license": ""
+        },
+        "_dsid": "wight-commander-command-strike",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>All undead within Close Burst 3 make a free strike against the nearest target as a triggered action.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "might"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "WCMD000000000001": {
+              "type": "damage",
+              "_id": "WCMD000000000001",
+              "damage": {
+                "tier1": {
+                  "value": "8",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "8",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  }
+                },
+                "tier3": {
+                  "value": "8",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "WCMD000000000002",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Coordinating Howl",
+      "type": "ability",
+      "img": "icons/skills/social/wave-influence-mesmerize.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 25",
+          "license": ""
+        },
+        "_dsid": "wight-commander-coordinating-howl",
+        "keywords": [
+          "area"
+        ],
+        "type": "main",
+        "category": "",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 5,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "",
+        "target": {
+          "type": "special",
+          "value": null,
+          "custom": "All undead in burst"
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>All undead in range gain +2 to attack rolls until end of the Wight-Commander's next turn.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "presence"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "WCMD000000000003",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "WCMD000000000004",
+      "name": "Tactical Intelligence",
+      "img": "icons/svg/eye.svg",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>The Wight-Commander cannot be fooled by simple feints. Misdirection requires a Hard Intuition test (TN 15) to execute against it.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 25",
+          "license": ""
+        },
+        "_dsid": "wight-commander-tactical-intelligence",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "WCMD000000000005",
+      "name": "Ram Coordination",
+      "img": "icons/svg/combat.svg",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>As long as the Wight-Commander is active, the battering ram operates at full efficiency. If the Commander is disrupted (dazed, killed, or driven back), the ram loses coordination and takes 2 rounds to reorganize.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 25",
+          "license": ""
+        },
+        "_dsid": "wight-commander-ram-coordination",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "WCMD000000000006",
+      "name": "Villain Action: Reposition",
+      "img": "icons/svg/cowled.svg",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p><strong>Villain Action (1/round):</strong> Moves up to 3 undead within Close Burst 5 up to their speed as a free action.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 25",
+          "license": ""
+        },
+        "_dsid": "wight-commander-villain-action-reposition",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    }
+  ],
   "effects": [],
   "flags": {
     "era-of-embers": {
@@ -65,10 +313,10 @@
     },
     "characteristics": {
       "might": {
-        "value": 3
+        "value": 4
       },
       "agility": {
-        "value": 1
+        "value": 2
       },
       "reason": {
         "value": 3

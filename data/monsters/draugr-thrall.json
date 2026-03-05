@@ -3,9 +3,9 @@
   "img": "modules/svellheim/assets/icons/monster-images/draugr-thrall.png",
   "items": [
     {
-      "_id": "5IEaFKgKwhypJmxJ",
-      "name": "Frozen Grasp",
-      "img": "icons/magic/water/snowflake-ice-purple.webp",
+      "_id": "c9j5EuJXZIkn47y7",
+      "name": "Rust-Cleaver Swipe",
+      "img": "icons/weapons/swords/scimitar-worn-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -28,10 +28,10 @@
       "system": {
         "source": {
           "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
+          "page": "Beat 06",
           "license": ""
         },
-        "_dsid": "draugr-thrall-frozen-grasp",
+        "_dsid": "draugr-thrall-rust-cleaver-swipe",
         "prerequisites": {
           "value": "",
           "dsid": [],
@@ -40,8 +40,8 @@
         "story": "",
         "keywords": [
           "melee",
-          "strike",
-          "weapon"
+          "weapon",
+          "strike"
         ],
         "type": "main",
         "category": "signature",
@@ -57,7 +57,7 @@
         "target": {
           "type": "creatureObject",
           "value": 1,
-          "custom": ""
+          "custom": "one creature or object"
         },
         "power": {
           "roll": {
@@ -68,17 +68,17 @@
             ]
           },
           "effects": {
-            "DTG0000000000001": {
+            "pIiBf5TagiRSjjHr": {
               "type": "damage",
-              "_id": "DTG0000000000001",
+              "_id": "pIiBf5TagiRSjjHr",
               "name": "",
               "img": null,
               "sort": 0,
               "damage": {
                 "tier1": {
-                  "value": "1",
+                  "value": "2",
                   "types": [
-                    "cold"
+                    "weapon"
                   ],
                   "properties": [],
                   "potency": {
@@ -87,9 +87,9 @@
                   }
                 },
                 "tier2": {
-                  "value": "2",
+                  "value": "3",
                   "types": [
-                    "cold"
+                    "weapon"
                   ],
                   "properties": [],
                   "potency": {
@@ -98,9 +98,9 @@
                   }
                 },
                 "tier3": {
-                  "value": "3",
+                  "value": "4",
                   "types": [
-                    "cold"
+                    "weapon"
                   ],
                   "properties": [],
                   "potency": {
@@ -114,7 +114,7 @@
         },
         "effect": {
           "before": "",
-          "after": "<p>The target is slowed until the end of their next turn.</p>"
+          "after": "<p>If the target is already engaged with another undead, it takes 1 additional damage.</p>"
         },
         "spend": {
           "value": null,
@@ -123,9 +123,248 @@
       }
     },
     {
-      "_id": "7C1WTqFGcRRotyQC",
-      "name": "Unfeeling",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "_id": "UZBzhuGFPn1Uxz17",
+      "name": "Grave Lunge",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 06",
+          "license": ""
+        },
+        "_dsid": "draugr-thrall-grave-lunge",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon"
+        ],
+        "type": "move",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "self",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature or object"
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "QGGoqYpmfchLX4KT": {
+              "type": "damage",
+              "_id": "QGGoqYpmfchLX4KT",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>Shift up to speed and then attack. On tier 3, the target is knocked prone.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "yS2gwfMMeWqvTQNy",
+      "name": "Death-Grip Flurry",
+      "img": "icons/skills/melee/strike-dagger-white-orange.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 06",
+          "license": ""
+        },
+        "_dsid": "draugr-thrall-death-grip-flurry",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "triggered"
+        ],
+        "type": "triggered",
+        "category": "signature",
+        "resource": null,
+        "trigger": "An adjacent enemy starts its turn bloodied.",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature or object"
+        },
+        "power": {
+          "roll": {
+            "reactive": true,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "0ueVTstt5Bo46LKv": {
+              "type": "damage",
+              "_id": "0ueVTstt5Bo46LKv",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The thrall makes a free strike against the triggering enemy.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "OMb27adJO8e8hbeI",
+      "name": "Unquiet Hunger",
+      "img": "icons/magic/death/undead-skeleton-rags-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -147,15 +386,15 @@
       "type": "feature",
       "system": {
         "description": {
-          "value": "<p>The Draugr Thrall is immune to fear, charm, and pain-based effects.</p>",
+          "value": "<p>The thrall gains edge on attacks against bloodied enemies.</p>",
           "director": ""
         },
         "source": {
           "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
+          "page": "Beat 06",
           "license": ""
         },
-        "_dsid": "draugr-thrall-unfeeling",
+        "_dsid": "draugr-thrall-unquiet-hunger",
         "advancements": {},
         "prerequisites": {
           "value": "",
@@ -198,7 +437,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/svellheim/assets/icons/monster-images/draugr-thrall.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -216,8 +455,8 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": 1,
-      "max": 1,
+      "value": 5,
+      "max": 5,
       "temporary": 0
     },
     "characteristics": {
@@ -228,13 +467,13 @@
         "value": 0
       },
       "reason": {
-        "value": -3
+        "value": -2
       },
       "intuition": {
-        "value": 0
+        "value": -1
       },
       "presence": {
-        "value": -2
+        "value": -1
       }
     },
     "combat": {
@@ -307,7 +546,7 @@
     },
     "ev": 4,
     "monster": {
-      "freeStrike": 1,
+      "freeStrike": 2,
       "keywords": [
         "undead",
         "soulless"

@@ -1,8 +1,288 @@
 {
   "_id": "oB43PXxhrMlGnq7G",
   "name": "Pale Maw Operative",
-  "img": "systems/draw-steel/assets/roles/ambusher.svg",
-  "items": [],
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "items": [
+    {
+      "name": "Zealot Blade",
+      "type": "ability",
+      "_id": "d14b9ce6150ade65",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "action",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "might"
+          ],
+          "tier1": {
+            "value": "4 damage"
+          },
+          "tier2": {
+            "value": "6 damage"
+          },
+          "tier3": {
+            "value": "8 damage"
+          }
+        },
+        "effect": {
+          "value": ""
+        },
+        "spend": {
+          "value": ""
+        },
+        "persistence": {
+          "value": ""
+        }
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!oB43PXxhrMlGnq7G.d14b9ce6150ade65"
+    },
+    {
+      "name": "Heretic's Mark",
+      "type": "ability",
+      "_id": "26528b1b0d8647f3",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "action",
+        "keywords": [
+          "ranged",
+          "weapon"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 8,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "presence"
+          ],
+          "tier1": {
+            "value": "3 damage; target is marked (next attack against them has an edge)"
+          },
+          "tier2": {
+            "value": "4 damage; target is marked (next attack against them has an edge)"
+          },
+          "tier3": {
+            "value": "6 damage; target is marked (next attack against them has an edge)"
+          }
+        },
+        "effect": {
+          "value": ""
+        },
+        "spend": {
+          "value": ""
+        },
+        "persistence": {
+          "value": ""
+        }
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!oB43PXxhrMlGnq7G.26528b1b0d8647f3"
+    },
+    {
+      "name": "Unshakeable Faith",
+      "type": "feature",
+      "_id": "5bb6b3ec9026a388",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>Immune to fear and charm. Edge on tests to resist mental effects.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        }
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!oB43PXxhrMlGnq7G.5bb6b3ec9026a388"
+    },
+    {
+      "_id": "B48Cr6d1lvN24oTN",
+      "name": "Coordinated Assault",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>+1 to attack rolls against enemies marked by another Pale Maw creature.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-operative-coordinated-assault",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "5ptM1jtSWtso2MrY",
+      "name": "Shadow Strike",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>If attacking from concealment, +1 to attack and +2 damage on a tier 2+ result.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-operative-shadow-strike",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "g9MERRqnrXjcriDm",
+      "name": "Infiltrator",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Can blend into non-combat crowds; Intuition test opposed by Reason to spot as Pale Maw before they reveal themselves.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-operative-infiltrator",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    }
+  ],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -36,7 +316,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -54,7 +334,7 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
+      "value": 32,
       "max": 32,
       "temporary": 0
     },

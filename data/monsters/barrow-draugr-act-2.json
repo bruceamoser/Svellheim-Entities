@@ -2,7 +2,332 @@
   "_id": "IFjZSudqoQMHsXB8",
   "name": "Barrow-Draugr (Act 2)",
   "img": "systems/draw-steel/assets/roles/brute.svg",
-  "items": [],
+  "items": [
+    {
+      "_id": "9Yw5FZ7JTzdlx1q2",
+      "name": "Bone-Shatter Strike",
+      "img": "icons/skills/melee/strike-sword-steel.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "barrow-draugr-act-2-bone-shatter-strike",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "21ZrLgPhBWpPY6eO": {
+              "type": "damage",
+              "_id": "21ZrLgPhBWpPY6eO",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "6",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "9",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>T1 3 dmg; T2 6 dmg; T3 9 dmg.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "w2QJycg5YAyp25Q4",
+      "name": "Calcified Grasp",
+      "img": "icons/magic/water/snowflake-ice-purple.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "barrow-draugr-act-2-calcified-grasp",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "triggered",
+        "category": "signature",
+        "resource": null,
+        "trigger": "See effect text.",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "ncks2r60J7TABUY3": {
+              "type": "damage",
+              "_id": "ncks2r60J7TABUY3",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "2",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "3",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>Target makes moderate Might test or is restrained + ongoing cold damage (save ends).</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "aTqUrv1MMCkA4Ywu",
+      "name": "Shambling Charge",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>1/combat. Move up to 30 ft then Bone-Shatter Strike.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "barrow-draugr-act-2-shambling-charge",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "ovXBKQerGBmW3yYQ",
+      "name": "Ancient and Resilient",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Resist cold 2. Vulnerable fire 2.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "barrow-draugr-act-2-ancient-and-resilient",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    }
+  ],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -54,7 +379,7 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
+      "value": 16,
       "max": 16,
       "temporary": 0
     },

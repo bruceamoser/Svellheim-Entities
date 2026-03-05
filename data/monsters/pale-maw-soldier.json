@@ -1,8 +1,232 @@
 {
   "_id": "589e7VGvhK2N6Yt6",
   "name": "Pale Maw Soldier",
-  "img": "systems/draw-steel/assets/roles/brute.svg",
-  "items": [],
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "items": [
+    {
+      "name": "Cultist's Blade",
+      "type": "ability",
+      "_id": "13ed0fa33a46ced4",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "action",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "might"
+          ],
+          "tier1": {
+            "value": "3 damage"
+          },
+          "tier2": {
+            "value": "4 damage"
+          },
+          "tier3": {
+            "value": "6 damage"
+          }
+        },
+        "effect": {
+          "value": ""
+        },
+        "spend": {
+          "value": ""
+        },
+        "persistence": {
+          "value": ""
+        }
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!589e7VGvhK2N6Yt6.13ed0fa33a46ced4"
+    },
+    {
+      "name": "Entropy Chant",
+      "type": "ability",
+      "_id": "229df69ab657a589",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>(1 Malice)</strong> The soldier chants in the entropy tongue. All Pale Maw allies in the burst gain +1 to their next attack roll. All enemies in the burst must make a Presence test or be frightened until the end of their next turn.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "villain",
+        "keywords": [
+          "area",
+          "magic"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 4,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "All creatures in the burst"
+        },
+        "effect": {
+          "value": ""
+        },
+        "spend": {
+          "value": ""
+        },
+        "persistence": {
+          "value": ""
+        }
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!589e7VGvhK2N6Yt6.229df69ab657a589"
+    },
+    {
+      "name": "Fanatical",
+      "type": "feature",
+      "_id": "5f30ccfa7e7d6228",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>Edge on Presence tests to resist fear and charm effects.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        }
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!589e7VGvhK2N6Yt6.5f30ccfa7e7d6228"
+    },
+    {
+      "_id": "lbQRT8Wy4ciNtwnh",
+      "name": "Pack Mentality",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>+1 to attack rolls when an adjacent PM ally is also engaged with the same target.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-soldier-pack-mentality",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "N2Ii8FfQaVAsZvI3",
+      "name": "Fanatic's Resolve",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>When reduced to 0 SP, may make one final free strike before falling.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-soldier-fanatic-s-resolve",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    }
+  ],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -36,7 +260,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -54,7 +278,7 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
+      "value": 28,
       "max": 28,
       "temporary": 0
     },

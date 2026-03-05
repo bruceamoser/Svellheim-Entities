@@ -3,7 +3,8 @@
   "img": "modules/svellheim/assets/icons/monster-images/chainwarden-guard.png",
   "items": [
     {
-      "name": "Halberd",
+      "_id": "VHVmdjH7I3uVmyjl",
+      "name": "Halberd Intercept",
       "img": "icons/weapons/polearms/halberd-crescent-blue.webp",
       "effects": [],
       "flags": {},
@@ -30,7 +31,7 @@
           "page": "Beat 04a",
           "license": ""
         },
-        "_dsid": "chainwarden-guard-halberd",
+        "_dsid": "chainwarden-guard-halberd-intercept",
         "prerequisites": {
           "value": "",
           "dsid": [],
@@ -67,15 +68,18 @@
             ]
           },
           "effects": {
-            "CWGHALBERD000001": {
+            "NWJYwSSJ6AXG2TcQ": {
               "type": "damage",
+              "_id": "NWJYwSSJ6AXG2TcQ",
               "name": "",
               "img": null,
               "sort": 0,
               "damage": {
                 "tier1": {
                   "value": "2",
-                  "types": [],
+                  "types": [
+                    "weapon"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.weak",
@@ -84,7 +88,9 @@
                 },
                 "tier2": {
                   "value": "4",
-                  "types": [],
+                  "types": [
+                    "weapon"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.average",
@@ -93,7 +99,9 @@
                 },
                 "tier3": {
                   "value": "5",
-                  "types": [],
+                  "types": [
+                    "weapon"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.strong",
@@ -106,18 +114,257 @@
         },
         "effect": {
           "before": "",
-          "after": "<p>If the guard is flanked, they can make a free strike against a different target adjacent to them.</p>"
+          "after": "<p>The target is marked by the guard until the end of the guard's next turn.</p>"
         },
         "spend": {
           "value": null,
           "text": ""
         }
-      },
-      "_id": "dBguW82GTbtKKfIz"
+      }
     },
     {
-      "name": "Supernatural Insight",
-      "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+      "_id": "6xQ63qVPOixM9HxN",
+      "name": "Chain Hook Trip",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04a",
+          "license": ""
+        },
+        "_dsid": "chainwarden-guard-chain-hook-trip",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon"
+        ],
+        "type": "maneuver",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 2,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature"
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "WW3WLA6NTbUD4PfT": {
+              "type": "damage",
+              "_id": "WW3WLA6NTbUD4PfT",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target is knocked prone or pushed 1 (guard's choice).</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "EcRlCJVGYpyA544i",
+      "name": "Punish the Gap",
+      "img": "icons/skills/melee/strike-dagger-white-orange.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04a",
+          "license": ""
+        },
+        "_dsid": "chainwarden-guard-punish-the-gap",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "triggered"
+        ],
+        "type": "triggered",
+        "category": "signature",
+        "resource": null,
+        "trigger": "A marked enemy shifts or attacks a target other than this guard while adjacent to the guard.",
+        "distance": {
+          "type": "melee",
+          "primary": 2,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "the triggering enemy"
+        },
+        "power": {
+          "roll": {
+            "reactive": true,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "FUrdSO7txu9ZrVEl": {
+              "type": "damage",
+              "_id": "FUrdSO7txu9ZrVEl",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The guard makes a free strike against the triggering enemy.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "FcVkBym4uSB6yHX2",
+      "name": "Chainwarden Drill",
+      "img": "icons/skills/melee/shield-block-gray-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -139,7 +386,7 @@
       "type": "feature",
       "system": {
         "description": {
-          "value": "<p>The guard ignores concealment granted by supernatural effects.</p>",
+          "value": "<p>While adjacent to another Chainwarden ally, the guard gains edge on saves against forced movement and cannot be knocked prone by enemies of lower level.</p>",
           "director": ""
         },
         "source": {
@@ -147,15 +394,14 @@
           "page": "Beat 04a",
           "license": ""
         },
-        "_dsid": "supernatural-insight",
+        "_dsid": "chainwarden-guard-chainwarden-drill",
         "advancements": {},
         "prerequisites": {
           "value": "",
           "dsid": [],
           "level": null
         }
-      },
-      "_id": "iefcw7yzE1ZFnyMm"
+      }
     }
   ],
   "effects": [],
@@ -191,7 +437,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/svellheim/assets/icons/monster-images/chainwarden-guard.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -209,13 +455,13 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
-      "max": 0,
+      "value": 5,
+      "max": 5,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 0
+        "value": 2
       },
       "agility": {
         "value": 0
@@ -243,7 +489,7 @@
       "turns": 1
     },
     "biography": {
-      "value": "",
+      "value": "<p>Chainwarden Guards are drilled rank-and-file polearm troops who hold corridors, choke points, and shield walls for the Heitfolk command. Their hooked halberds drag prey out of position while marked targets are punished for every reckless movement. Alone they are dangerous; in formation, they become a grinding wall that feeds enemies into the rest of the Chainwarden line.</p>",
       "director": "",
       "languages": []
     },
@@ -298,7 +544,7 @@
     },
     "ev": 4,
     "monster": {
-      "freeStrike": 0,
+      "freeStrike": 2,
       "keywords": [
         "human",
         "humanoid",

@@ -1,0 +1,362 @@
+[
+  {
+    "path": "data\\monsters\\barrow-draugr-act-2.json",
+    "name": "Barrow-Draugr (Act 2)",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\barrow-draugr.json",
+    "name": "Barrow-Draugr",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\barrow-warden.json",
+    "name": "Barrow-Warden",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\barrow-wight.json",
+    "name": "Barrow-Wight",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\blind-draugr-wolf.json",
+    "name": "Blind Draugr Wolf",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\bone-singer.json",
+    "name": "Bone-Singer",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\chainwarden-artillerist.json",
+    "name": "Chainwarden Artillerist",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\chainwarden-enforcer.json",
+    "name": "Chainwarden Enforcer",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\chainwarden-guard.json",
+    "name": "Chainwarden Guard",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\chainwarden-militia.json",
+    "name": "Chainwarden Militia",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\dire-draugr-wolf.json",
+    "name": "Dire Draugr Wolf",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\draugr-thrall-act-2.json",
+    "name": "Draugr-Thrall (Act 2)",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\draugr-thrall.json",
+    "name": "Draugr Thrall",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\dreyfus-shape-walker-agent.json",
+    "name": "Dreyfus, Shape-Walker Agent",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\dreyfus-the-shape-walker.json",
+    "name": "Dreyfus, the Shape-Walker (L5 Elite)",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\drowned-wolf.json",
+    "name": "Drowned Wolf",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\frost-draugr.json",
+    "name": "Frost-Draugr",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\frost-ghoul.json",
+    "name": "Frost-Ghoul",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\goblin-monarch.json",
+    "name": "Goblin Monarch",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\goblin-runner.json",
+    "name": "Goblin Runner",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\goblin-warrior.json",
+    "name": "Goblin Warrior",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\grafvitnir-stage-1-the-grave-wolf.json",
+    "name": "Grafvitnir, the Grave-Wolf — Stage 1 (L7 Solo)",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\grafvitnir-stage-2-rot-given-shape.json",
+    "name": "Grafvitnir, Rot-Given-Shape — Stage 2 (L7 Solo)",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\grafvitnir-stage-3-hunger-made-manifest.json",
+    "name": "Grafvitnir, the Hunger Made Manifest — Stage 3 (L8 Solo)",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\grave-singer.json",
+    "name": "Grave-Singer",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\grave-wisp.json",
+    "name": "Grave-Wisp",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\graveconstruct.json",
+    "name": "Grave-Construct",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\heitfolk-sentry.json",
+    "name": "Heitfolk Sentry",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\keeper-guardian-construct.json",
+    "name": "Keeper Guardian Construct",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\lakewalker-draugr.json",
+    "name": "Lakewalker Draugr",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\oath-broken-draugr.json",
+    "name": "Oath-Broken Draugr",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-acolyte.json",
+    "name": "Pale Maw Acolyte",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-inquisitor-thrinn-ashward.json",
+    "name": "Pale Maw Inquisitor (Thráinn Ashward)",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-operative.json",
+    "name": "Pale Maw Operative",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-soldier.json",
+    "name": "Pale Maw Soldier",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-strike-leader-yrsa-frostbane.json",
+    "name": "Pale Maw Strike Leader (Yrsa Frostbane)",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-veteran.json",
+    "name": "Pale Maw Veteran",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-zealot.json",
+    "name": "Pale Maw Zealot",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\rootgnaw-grub.json",
+    "name": "Rootgnaw Grub",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\rootgnaw-queen.json",
+    "name": "Rootgnaw Queen",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\rot-beast.json",
+    "name": "Rot-Beast",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\rot-echo.json",
+    "name": "Rot-Echo",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\rot-grub.json",
+    "name": "Rot Grub (L1 Minion)",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\rot-warped-landvaettr.json",
+    "name": "Rot-Warped Landvaettr",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\rottouched.json",
+    "name": "Rot-Touched",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\vine-strangler.json",
+    "name": "Vine Strangler",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\warden-captain-halvard.json",
+    "name": "Warden-Captain Halvard",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\wight-commander.json",
+    "name": "Wight-Commander (L4 Standard)",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\wight-lord.json",
+    "name": "Wight-Lord",
+    "type": "monster"
+  },
+  {
+    "path": "data\\monsters\\wyrd-draugr.json",
+    "name": "Wyrd-Draugr",
+    "type": "monster"
+  },
+  {
+    "path": "data\\npcs\\bolverkt-djpdvergr-scout.json",
+    "name": "Bolverkt (Djúpdvergr Scout)",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\bryn-ketilsdottir.json",
+    "name": "Bryn Ketilsdottir",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\brynja-steinsdottir-refugee-leader.json",
+    "name": "Brynja Steinsdóttir (Refugee Leader)",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\dreyfus.json",
+    "name": "Dreyfus (The King's Hound)",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\eirik-greyhand.json",
+    "name": "Warden-Sergeant Eirik Greyhand",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\elder-thyra-steamoasis-leader.json",
+    "name": "Elder Thyra (Steam-Oasis Leader)",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\gragnir-the-druid.json",
+    "name": "Gragnir, Ash-Walker",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\grenvordr-elder-of-the-green-heart.json",
+    "name": "Grénvörðr (Elder of the Green Heart)",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\high-king-harald.json",
+    "name": "High King Harald",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\high-king-harold.json",
+    "name": "High King Harald",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\hild.json",
+    "name": "Hild (Innkeeper)",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\hildvar-bruneson-forgemaster.json",
+    "name": "Hildvarð Bruneson (Forgemaster)",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\kaelen-the-seventh.json",
+    "name": "Kaelen (The Seventh)",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\lew-tosferd.json",
+    "name": "Llewyellen \"Lew\" Tosferd",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\rickety-frets.json",
+    "name": "Rickety Frets",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\soldis-glodfari.json",
+    "name": "Söldís Glóðfari",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\solveig-the-burner.json",
+    "name": "Solveig the Burner",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\solvi.json",
+    "name": "Solvi (Ember-Keeper of Stairwatch)",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\thrinn-ashward-pale-maw-inquisitor.json",
+    "name": "Thráinn Ashward (Pale Maw Inquisitor)",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\thyra-blackhand.json",
+    "name": "Thyra Blackhand",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\vigmund-haldorsson-jarl-of-rindgate.json",
+    "name": "Vigmund Haldorsson (Jarl of Rindgate)",
+    "type": "npc"
+  },
+  {
+    "path": "data\\npcs\\yrsa-frostbane-pale-maw-strike-leader.json",
+    "name": "Yrsa Frostbane (Pale Maw Strike Leader)",
+    "type": "npc"
+  }
+]

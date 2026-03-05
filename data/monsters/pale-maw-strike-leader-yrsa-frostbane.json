@@ -1,8 +1,343 @@
 {
   "_id": "kFyDuD6GwEvLIatA",
   "name": "Pale Maw Strike Leader (Yrsa Frostbane)",
-  "img": "systems/draw-steel/assets/roles/brute.svg",
-  "items": [],
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "items": [
+    {
+      "_id": "e6768df1a2cbb6ea",
+      "name": "Executioner's Stroke",
+      "type": "ability",
+      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "system": {
+        "description": {
+          "value": "<p>A devastating melee strike that channels zealous fury. Yrsa's blade falls with the certainty of divine judgment.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "action",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "might"
+          ],
+          "tier1": {
+            "damage": {
+              "value": 5,
+              "type": ""
+            }
+          },
+          "tier2": {
+            "damage": {
+              "value": 7,
+              "type": ""
+            }
+          },
+          "tier3": {
+            "damage": {
+              "value": 10,
+              "type": ""
+            }
+          }
+        },
+        "effect": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!kFyDuD6GwEvLIatA.e6768df1a2cbb6ea"
+    },
+    {
+      "_id": "6c82dee3d4d19c14",
+      "name": "Zealot's Mark",
+      "type": "ability",
+      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "system": {
+        "description": {
+          "value": "<p>Yrsa designates a heretic for judgment. The target is marked by the Pale Maw's dark will.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "action",
+        "keywords": [
+          "ranged",
+          "magic"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 8,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "presence"
+          ],
+          "tier1": {
+            "description": "Target is marked until end of next turn."
+          },
+          "tier2": {
+            "description": "Target is marked and has a bane on the next saving throw."
+          },
+          "tier3": {
+            "description": "Target is marked and has a bane on all saving throws until end of next turn."
+          }
+        },
+        "effect": {
+          "value": "<p>On a hit, the target is marked and has a bane on the next saving throw.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!kFyDuD6GwEvLIatA.6c82dee3d4d19c14"
+    },
+    {
+      "_id": "9c58a9f727e99202",
+      "name": "Rally the Faithful",
+      "type": "ability",
+      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "system": {
+        "description": {
+          "value": "<p>Yrsa rallies nearby zealots with a commanding shout, bolstering their attacks and resolve.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "villain",
+        "keywords": [
+          "area",
+          "magic"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 6,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "All Pale Maw allies in burst"
+        },
+        "effect": {
+          "value": "<p>All Pale Maw allies within the area gain +2 to attack rolls and an edge on saving throws until the end of their next turn.</p>"
+        },
+        "spend": {
+          "value": 1,
+          "text": "Malice"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!kFyDuD6GwEvLIatA.9c58a9f727e99202"
+    },
+    {
+      "_id": "b5dbdecc930f28a8",
+      "name": "Divine Judgment",
+      "type": "ability",
+      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "system": {
+        "description": {
+          "value": "<p>Yrsa channels the Pale Maw's entropic power to shatter a heretic's mind and hurl them away.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "villain",
+        "keywords": [
+          "ranged",
+          "magic",
+          "psychic"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 10,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "presence"
+          ],
+          "tier1": {
+            "damage": {
+              "value": 4,
+              "type": "psychic"
+            }
+          },
+          "tier2": {
+            "damage": {
+              "value": 7,
+              "type": "psychic"
+            },
+            "description": "Target is pushed 2 squares."
+          },
+          "tier3": {
+            "damage": {
+              "value": 10,
+              "type": "psychic"
+            },
+            "description": "Target is pushed 2 squares and falls prone."
+          }
+        },
+        "effect": {
+          "value": "<p>The target must make a Presence test. On failure, takes psychic damage and is pushed away.</p>"
+        },
+        "spend": {
+          "value": 2,
+          "text": "Malice"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!kFyDuD6GwEvLIatA.b5dbdecc930f28a8"
+    },
+    {
+      "_id": "c47629e2113b313f",
+      "name": "Command Presence",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>PM Soldiers/Veterans within 30ft gain +1 to attacks and edge on saves.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-strike-leader-yrsa-frostbane-command-presence",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "_key": "!actors.items!kFyDuD6GwEvLIatA.c47629e2113b313f"
+    },
+    {
+      "_id": "13fe1528d825a266",
+      "name": "Relentless",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Below 20 SP: Executioner’s Stroke gains +1 to attack. Edge on Might tests vs. being moved or knocked prone.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-strike-leader-yrsa-frostbane-relentless",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "_key": "!actors.items!kFyDuD6GwEvLIatA.13fe1528d825a266"
+    }
+  ],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -54,7 +389,7 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
+      "value": 40,
       "max": 40,
       "temporary": 0
     },

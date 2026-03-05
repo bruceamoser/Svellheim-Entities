@@ -3,8 +3,9 @@
   "img": "modules/svellheim/assets/icons/monster-images/chainwarden-enforcer.png",
   "items": [
     {
-      "name": "Chain-Mace",
-      "img": "icons/weapons/maces/mace-round-spiked-black.webp",
+      "_id": "bodTqGhLZoh6AyGg",
+      "name": "Chain-Mace Breaker",
+      "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -30,7 +31,7 @@
           "page": "Beat 04a",
           "license": ""
         },
-        "_dsid": "chainwarden-enforcer-chain-mace",
+        "_dsid": "chainwarden-enforcer-chain-mace-breaker",
         "prerequisites": {
           "value": "",
           "dsid": [],
@@ -56,7 +57,7 @@
         "target": {
           "type": "creatureObject",
           "value": 1,
-          "custom": ""
+          "custom": "one creature or object"
         },
         "power": {
           "roll": {
@@ -67,15 +68,18 @@
             ]
           },
           "effects": {
-            "6FKpUyDkKDLlygcv": {
+            "S4jbsTOJhpaRe7MA": {
               "type": "damage",
+              "_id": "S4jbsTOJhpaRe7MA",
               "name": "",
               "img": null,
               "sort": 0,
               "damage": {
                 "tier1": {
-                  "value": "5",
-                  "types": [],
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.weak",
@@ -83,8 +87,10 @@
                   }
                 },
                 "tier2": {
-                  "value": "8",
-                  "types": [],
+                  "value": "5",
+                  "types": [
+                    "weapon"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.average",
@@ -92,8 +98,10 @@
                   }
                 },
                 "tier3": {
-                  "value": "11",
-                  "types": [],
+                  "value": "7",
+                  "types": [
+                    "weapon"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.strong",
@@ -106,18 +114,18 @@
         },
         "effect": {
           "before": "",
-          "after": "<p>The target is taunted until the end of their next turn.</p>"
+          "after": "<p>The target is marked by the enforcer until the end of the enforcer's next turn.</p>"
         },
         "spend": {
           "value": null,
           "text": ""
         }
-      },
-      "_id": "m9h8BuWKV0J22bhi"
+      }
     },
     {
+      "_id": "lWZHSUofGjW4i4vQ",
       "name": "Stand Fast",
-      "img": "icons/skills/melee/shield-block-gray-orange.webp",
+      "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -136,30 +144,107 @@
         "modifiedTime": 0,
         "lastModifiedBy": null
       },
-      "type": "feature",
+      "type": "ability",
       "system": {
-        "description": {
-          "value": "<p>Whenever an adjacent creature the enforcer has taunted deals damage to a creature other than the enforcer, the enforcer can make a free strike against them.</p>",
-          "director": ""
-        },
         "source": {
           "book": "Svellheim Campaign (Era of Embers)",
           "page": "Beat 04a",
           "license": ""
         },
         "_dsid": "chainwarden-enforcer-stand-fast",
-        "advancements": {},
         "prerequisites": {
           "value": "",
           "dsid": [],
           "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon"
+        ],
+        "type": "maneuver",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature or object"
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "seoxFOYFk7vPvJTA": {
+              "type": "damage",
+              "_id": "seoxFOYFk7vPvJTA",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "4",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The enforcer gains stability +1 until start of next turn and pushes the target 1 on tier 2+.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
         }
-      },
-      "_id": "cUGIxm50UoshM9Gd"
+      }
     },
     {
-      "name": "Overwhelm",
-      "img": "icons/skills/melee/strike-fist-armored-blue.webp",
+      "_id": "C54CCBZRJmHXmxG9",
+      "name": "Overwhelm Formation",
+      "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -178,30 +263,346 @@
         "modifiedTime": 0,
         "lastModifiedBy": null
       },
-      "type": "feature",
+      "type": "ability",
       "system": {
-        "description": {
-          "value": "<p>An enemy who starts their turn adjacent to the enforcer cannot shift.</p>",
-          "director": ""
-        },
         "source": {
           "book": "Svellheim Campaign (Era of Embers)",
           "page": "Beat 04a",
           "license": ""
         },
-        "_dsid": "chainwarden-enforcer-overwhelm",
-        "advancements": {},
+        "_dsid": "chainwarden-enforcer-overwhelm-formation",
         "prerequisites": {
           "value": "",
           "dsid": [],
           "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature or object"
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "PwY7Zoi3VG2Mh9yd": {
+              "type": "damage",
+              "_id": "PwY7Zoi3VG2Mh9yd",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "4",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "6",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>If the target is already marked, it takes bane on its next attack roll.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
         }
-      },
-      "_id": "GT2O4IFrhOXPqCXX"
+      }
     },
     {
+      "_id": "30Ve9Pbs6eAbXsev",
+      "name": "Exploit Opening",
+      "img": "icons/skills/melee/strike-dagger-white-orange.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04a",
+          "license": ""
+        },
+        "_dsid": "chainwarden-enforcer-exploit-opening",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "triggered"
+        ],
+        "type": "triggered",
+        "category": "signature",
+        "resource": null,
+        "trigger": "A marked enemy in reach attacks an ally.",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature or object"
+        },
+        "power": {
+          "roll": {
+            "reactive": true,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "w00IFksU24HWOMIu": {
+              "type": "damage",
+              "_id": "w00IFksU24HWOMIu",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The enforcer makes a free strike against the triggering enemy.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "54O4osTLhvU1m9oj",
+      "name": "Lockdown Step",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04a",
+          "license": ""
+        },
+        "_dsid": "chainwarden-enforcer-lockdown-step",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon"
+        ],
+        "type": "move",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "self",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature or object"
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "s4sE1ylI6BAWdt1C": {
+              "type": "damage",
+              "_id": "s4sE1ylI6BAWdt1C",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>Shift up to speed; one adjacent enemy cannot shift until start of enforcer's next turn.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "wNliS5X7ZSVNCXtj",
       "name": "Supernatural Insight",
-      "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+      "img": "icons/magic/perception/eye-ringed-green.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -231,15 +632,14 @@
           "page": "Beat 04a",
           "license": ""
         },
-        "_dsid": "supernatural-insight",
+        "_dsid": "chainwarden-enforcer-supernatural-insight",
         "advancements": {},
         "prerequisites": {
           "value": "",
           "dsid": [],
           "level": null
         }
-      },
-      "_id": "OUqqSo1E0SDgV4xe"
+      }
     }
   ],
   "effects": [],
@@ -275,7 +675,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/svellheim/assets/icons/monster-images/chainwarden-enforcer.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -293,13 +693,13 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
-      "max": 0,
+      "value": 40,
+      "max": 40,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 0
+        "value": 3
       },
       "agility": {
         "value": 0
@@ -311,7 +711,7 @@
         "value": 0
       },
       "presence": {
-        "value": 0
+        "value": 1
       }
     },
     "combat": {
@@ -327,7 +727,7 @@
       "turns": 1
     },
     "biography": {
-      "value": "",
+      "value": "<p>Chainwarden Enforcers are front-line disciplinarians who lock enemies in place for the Heitfolk firing line. Clad in linked iron and carrying weighted chain-maces, they mark targets, punish movement, and force rivals to fight on the Chainwardens' terms. In skirmishes around Svellheim, they are the anvil that lets militia and artillerists strike with brutal coordination.</p>",
       "director": "",
       "languages": []
     },
@@ -382,7 +782,7 @@
     },
     "ev": 4,
     "monster": {
-      "freeStrike": 0,
+      "freeStrike": 3,
       "keywords": [
         "human",
         "humanoid",

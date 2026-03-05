@@ -2,7 +2,154 @@
   "_id": "N5uWJjI9BCfF1mSh",
   "name": "Rot Grub (L1 Minion)",
   "img": "systems/draw-steel/assets/roles/hexer.svg",
-  "items": [],
+  "items": [
+    {
+      "name": "Stone-Gnaw",
+      "type": "ability",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 25",
+          "license": ""
+        },
+        "_dsid": "rot-grub-stone-gnaw",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>Against a structure instead of a creature, this attack deals 1 point of Foundation Damage.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        },
+        "power": {
+          "roll": {
+            "characteristics": [
+              "agility"
+            ],
+            "formula": "@chr",
+            "reactive": false
+          },
+          "effects": {
+            "RTGB000000000001": {
+              "type": "damage",
+              "_id": "RTGB000000000001",
+              "damage": {
+                "tier1": {
+                  "value": "2",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "2",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "2",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "story": ""
+      },
+      "effects": [],
+      "_id": "RTGB000000000002",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Swarm",
+      "type": "feature",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>Rot Grubs act as a group of 8–12 on the same initiative. Splitting the swarm requires an area attack. Each member acts on the same initiative.</p>",
+          "director": "<p>Treat the swarm as a unit. Area attacks are effective against the group. If the party uses targeted strikes, the swarm divides and attacks multiple targets.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 25",
+          "license": ""
+        },
+        "_dsid": "rot-grub-swarm",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "RTGB000000000003",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Foundation Damage",
+      "type": "feature",
+      "img": "icons/environment/wilderness/cave-entrance-dungeon-dark.webp",
+      "system": {
+        "description": {
+          "value": "<p>Rot Grubs dissolve stone and mortar on contact. Stone-Gnaw deals 1 point of Foundation Damage to structures. 3 points = wall compromised. 5 points = wall collapses (triggers Grafvitnir access).</p>",
+          "director": "<p>Track Foundation Damage per wall section. This is the primary threat from Rot Grubs — they eat through the western wall's foundation while the party is distracted by the Wight-Commander's assault.</p>"
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 25",
+          "license": ""
+        },
+        "_dsid": "rot-grub-foundation-damage",
+        "advancements": {}
+      },
+      "effects": [],
+      "_id": "RTGB000000000004",
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
   "effects": [],
   "flags": {
     "era-of-embers": {

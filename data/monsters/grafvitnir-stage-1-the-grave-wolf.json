@@ -1,8 +1,757 @@
 {
   "_id": "P7wXLjK1EFhH3oRi",
   "name": "Grafvitnir, the Grave-Wolf — Stage 1 (L7 Solo)",
-  "img": "systems/draw-steel/assets/roles/boss.svg",
-  "items": [],
+  "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+  "items": [
+    {
+      "name": "Bite",
+      "type": "ability",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 3
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "iYKqoKQWyOr5hJDp": {
+              "_id": "JRGjTkOrnbWWsQLH",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "10",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "15",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
+                  "value": "15",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target is knocked <strong>Prone</strong>.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-1-bite",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "zFoN6SwbNpJhFqnW",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!P7wXLjK1EFhH3oRi.zFoN6SwbNpJhFqnW"
+    },
+    {
+      "name": "Paw Sweep",
+      "type": "ability",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
+      "system": {
+        "type": "main",
+        "category": "heroic",
+        "keywords": [
+          "area",
+          "strike"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 2
+        },
+        "target": {
+          "type": "enemy",
+          "value": null,
+          "custom": "Each enemy in the area"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "GvhUat9o7oseEZNl": {
+              "_id": "oOcsR0pZOaxk4Kua",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "7",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "10",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            },
+            "bVPyVpprW5AkvTIB": {
+              "_id": "DXQq4GqIqOpk6ihb",
+              "type": "forced",
+              "name": "",
+              "img": null,
+              "forced": {
+                "tier1": {
+                  "distance": "2",
+                  "properties": [
+                    "push"
+                  ]
+                },
+                "tier2": {
+                  "distance": "3",
+                  "properties": [
+                    "push"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-1-paw-sweep",
+        "story": "",
+        "resource": 3,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "2AmIA7Cj37pPZMiJ",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!P7wXLjK1EFhH3oRi.2AmIA7Cj37pPZMiJ"
+    },
+    {
+      "name": "Root Surge",
+      "type": "ability",
+      "img": "icons/magic/nature/root-vine-entangled-green.webp",
+      "system": {
+        "type": "main",
+        "category": "heroic",
+        "keywords": [
+          "ranged",
+          "strike"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 8
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "T5bTYxqpcA9k53rm": {
+              "_id": "xG4G4x59TMwDazBO",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "8",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
+                  "value": "8",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target is <strong>Restrained</strong> (save ends).</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-1-root-surge",
+        "story": "",
+        "resource": 3,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "Q5axqjG6S5LBYkaw",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!P7wXLjK1EFhH3oRi.Q5axqjG6S5LBYkaw"
+    },
+    {
+      "name": "Snap",
+      "type": "ability",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "system": {
+        "type": "free",
+        "category": "",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 3
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "60R6lhUUxMIg4npz": {
+              "_id": "RDxvXQsyH9DPdzHH",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "8",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
+                  "value": "8",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-1-snap",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "4hRNMad9ZOn9irHw",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!P7wXLjK1EFhH3oRi.4hRNMad9ZOn9irHw"
+    },
+    {
+      "name": "Howl of Binding",
+      "type": "ability",
+      "img": "icons/magic/sonic/scream-wail-pointed-orange.webp",
+      "system": {
+        "type": "villain",
+        "category": "",
+        "keywords": [
+          "area"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 10
+        },
+        "target": {
+          "type": "enemy",
+          "value": null,
+          "custom": "All undead within 10 squares"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": ""
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Villain Action 1</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>All undead within 10 squares act immediately — a free round of attacks against the nearest targets. This is the coordination pulse: if draugr are in the outer ward, they surge forward.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-1-howl-of-binding",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "C4qz6oyT35xNoDNV",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!P7wXLjK1EFhH3oRi.C4qz6oyT35xNoDNV"
+    },
+    {
+      "name": "Lunge",
+      "type": "ability",
+      "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+      "system": {
+        "type": "villain",
+        "category": "",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 3
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "tISRH0naqgXT1KxQ": {
+              "_id": "ePZu9wFRcPHeOlqo",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "10",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "15",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
+                  "value": "15",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "<p><strong>Villain Action 2</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>Grafvitnir moves up to his Speed and makes a Bite attack as part of this action. Does not provoke free strikes.</p>",
+          "after": "<p>The target is knocked <strong>Prone</strong>.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-1-lunge",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "IvwtkZXwTrBzsuhc",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!P7wXLjK1EFhH3oRi.IvwtkZXwTrBzsuhc"
+    },
+    {
+      "name": "Rot Breath",
+      "type": "ability",
+      "img": "icons/magic/death/weapon-sword-skull-purple.webp",
+      "system": {
+        "type": "villain",
+        "category": "",
+        "keywords": [
+          "area"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 3
+        },
+        "target": {
+          "type": "enemy",
+          "value": null,
+          "custom": "Each enemy in the area"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "F15X9phGVhXyXpHM": {
+              "_id": "wFc9QaTeNoYsSafW",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "8",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "12",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Villain Action 3</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>The target is <strong>Slowed</strong> (save ends).</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-1-rot-breath",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "RYA3v5imXWfCc9IP",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!P7wXLjK1EFhH3oRi.RYA3v5imXWfCc9IP"
+    },
+    {
+      "name": "End Effect",
+      "type": "feature",
+      "img": "icons/magic/control/debuff-chains-ropes-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>When Grafvitnir starts his turn, he can take 10 damage to end one effect on him that a save ends.</p>"
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-1-end-effect",
+        "story": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "zmt2ohYZ8yGH9xSh",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!P7wXLjK1EFhH3oRi.zmt2ohYZ8yGH9xSh"
+    },
+    {
+      "name": "Primordial Resilience",
+      "type": "feature",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Grafvitnir’s physical form absorbs punishment with terrible efficiency. All damage from a single source is capped at 20. A hit that would deal 30 damage deals 20; a hit dealing 15 deals 15. No combination of effects can bypass this cap while Grafvitnir remains in wolf form.</p>"
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-1-primordial-resilience",
+        "story": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "KkkKAoF4z09RDo1a",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!P7wXLjK1EFhH3oRi.KkkKAoF4z09RDo1a"
+    },
+    {
+      "name": "Stage Transition",
+      "type": "feature",
+      "img": "icons/magic/death/skull-humanoid-white-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>When reduced to 0 Stamina, Grafvitnir does not die. He collapses — falls <em>into</em> the stone floor, dissolving into the cracks, becoming roots. Stage 2 begins on his next turn.</p>"
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-1-stage-transition",
+        "story": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "hLCVZoeUXV76xt6F",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!P7wXLjK1EFhH3oRi.hLCVZoeUXV76xt6F"
+    }
+  ],
   "effects": [],
   "flags": {
     "era-of-embers": {
@@ -41,7 +790,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "systems/draw-steel/assets/roles/boss.svg",
+      "src": "icons/creatures/mammals/wolf-shadow-black.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -93,8 +842,8 @@
       "turns": 2
     },
     "biography": {
-      "value": "<p><strong>Grafvitnir, the Grave-Wolf — Level 7 Solo</strong></p><p><em>Supernatural, Huge</em></p><p>Stamina 200 | Speed 8 | Size Huge | Stability 5</p><p>Turns: 2 per round | Free Strike: 8 | EV: 108</p><p><em>Grafvitnir in his primary form — the shape he wore when first imprisoned. A wolf the size of a longhouse, fur black and matted with centuries of Rot, eyes the colour of the last thing that burns before it goes dark. He moves toward the Ever-Ember shrine with the specific purpose of something that has been waiting for a thousand years.</em></p><hr><h3>Main Attacks</h3><p><strong>Bite</strong> (Melee): +6 vs Might; 15 damage, target knocked Prone.</p><p><strong>Paw Sweep</strong> (Close Burst 2): +5 vs Agility; 10 damage, targets Pushed 3 squares.</p><p><strong>Root Surge</strong> (Ranged 8): +4 vs Agility; 8 damage, target Restrained (save ends).</p><hr><h3>Free Strike</h3><p><strong>Snap</strong> (Melee): +6 vs Might; 8 damage.</p><hr><h3>Villain Actions</h3><p><em>Each usable once per encounter, max 1 per round; triggers at end of any hero's turn:</em></p><p><strong>(VA1) Howl of Binding:</strong> All undead within 10 squares act immediately (free round of attacks against nearest targets). Coordinates external undead threats — if draugr are in the outer ward, they surge forward.</p><p><strong>(VA2) Lunge:</strong> Grafvitnir moves up to his Speed and makes a Bite attack as part of this action. Does not provoke free strikes.</p><p><strong>(VA3) Rot Breath:</strong> Close Burst 3, +5 vs Might; 12 damage, target Slowed (save ends).</p><hr><h3>Features</h3><p><strong>End Effect:</strong> When Grafvitnir starts his turn, he can take 10 damage to end one effect on him that a save ends.</p><p><strong>Primordial Resilience:</strong> All damage from a single source is capped at 20. A hit that would deal 30 damage deals 20; a hit dealing 15 deals 15. No combination of effects can bypass this cap while Grafvitnir remains in wolf form.</p><p><strong>Stage Transition at 0 Stamina:</strong> When reduced to 0 Stamina, Grafvitnir does not die. He collapses — falls INTO the stone floor, dissolving into the cracks, becoming roots. Stage 2 begins on his next turn.</p>",
-      "director": "<p><strong>TACTICAL GUIDANCE — STAGE 1:</strong></p><p>Stage 1 is about positioning and protection. Grafvitnir's objective is the shrine, not the party. If he reaches the shrine uncontested, he immediately moves to Stage 2 and begins the flame-extinguishing process.</p><ul><li><strong>Round 1:</strong> Grafvitnir charges the shrine with both turns — one to advance, one to strike. VA1 (Howl of Binding) fires, coordinating external undead threats. The party intercepts.</li><li><strong>Round 2:</strong> Still massive and powerful, but the party is learning his two-turn rhythm. Attacks land. VA2 (Lunge) breaks through the party's formation.</li><li><strong>Rounds 3–4:</strong> Low Stamina. VA3 (Rot Breath) punishes anyone still clustered. Main attacks still deadly but all Villain Actions are spent. The party pushes through.</li><li>At 0 Stamina — <strong>Stage Transition:</strong> Grafvitnir collapses into the floor, dissolves into roots. Stage 2 begins.</li></ul><p><strong>PSYCHOLOGICAL SHIFT:</strong> The party must be <em>defenders</em> here, not aggressors. Grafvitnir is not trying to kill them — he is trying to get past them. If the party doesn't intercept, he simply walks to the shrine.</p><p><strong>Expected Duration:</strong> 3–4 rounds.</p>",
+      "value": "<p><strong>Grafvitnir, the Grave-Wolf — Stage 1</strong></p><p><em>Supernatural, Huge • Level 7 Solo • Stamina 200 • Speed 8 • Stability 5 • Free Strike 8 • EV 108</em></p><p>The Grave-Wolf. Níðhöggr’s physical arm. An intelligence of ancient malice, imprisoned in the deepest root-chamber of Yggdrasil since the First Kindling. He is the campaign’s true antagonist — the one who gnaws, who placed agents in the mortal world, who manipulated the Ember-Keepers into voiding their own witnessing rites. He erupts through the floor of Hrafnborg’s great hall in wolf form — sixty, seventy feet long, black fur matted with centuries of Rot, eyes the color of the last thing that burns before it goes dark. He moves toward the Ever-Ember shrine with the specific purpose of something that has been waiting a thousand years.</p><p>Takes 2 turns per round. Has 3 Villain Actions (each once per encounter, max 1 per round).</p>",
+      "director": "<p><strong>TACTICAL GUIDANCE — STAGE 1:</strong></p><p>Stage 1 is about positioning and protection. Grafvitnir’s primary objective is the Ever-Ember shrine — he is not trying to kill the party, he is trying to get past them. If the party doesn’t get between him and the shrine, he simply walks past them. The combat is about <em>preventing him from reaching the flame</em>, not defeating him outright.</p><p><strong>Round 1:</strong> Grafvitnir charges the shrine with both turns. VA1 (Howl of Binding) fires at the end of a hero’s turn, coordinating external undead threats.</p><p><strong>Round 2:</strong> The party is learning his two-turn rhythm. VA2 (Lunge) breaks through their formation.</p><p><strong>Round 3–4:</strong> Low Stamina. VA3 (Rot Breath) punishes clustering. All VAs spent. The party pushes through.</p><p><strong>Primordial Resilience:</strong> ALL damage from a single source is capped at 20. This is critical — no single hit can deal more than 20. Tell your players after the first big hit lands.</p><p><strong>Stage Transition:</strong> At 0 Stamina, Grafvitnir collapses and dissolves into the floor. Stage 2 begins on his next turn.</p>",
       "languages": []
     },
     "movement": {
@@ -143,7 +892,8 @@
     "monster": {
       "freeStrike": 8,
       "keywords": [
-        "supernatural"
+        "supernatural",
+        "undead"
       ],
       "level": 7,
       "role": "brute",

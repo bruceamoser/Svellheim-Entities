@@ -278,6 +278,247 @@
           "level": null
         }
       }
+    },
+    {
+      "_id": "QIhB5vKBpXA9Y6Fj",
+      "name": "Grave-Toll Rebuke",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "barrow-warden-grave-toll-rebuke",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "cold",
+          "triggered"
+        ],
+        "type": "triggered",
+        "category": "signature",
+        "resource": null,
+        "trigger": "A creature within 2 squares ends its turn while suffering ongoing damage.",
+        "distance": {
+          "type": "melee",
+          "primary": 2,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "MQqOKm86R5B9gbdj": {
+              "type": "damage",
+              "_id": "MQqOKm86R5B9gbdj",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "2",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "4",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "5",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>If the target is already suffering ongoing damage, it is slowed until the end of its next turn.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "3OmdchKNxolBOf5u",
+      "name": "Crypt-Step Advance",
+      "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "barrow-warden-crypt-step-advance",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "cold"
+        ],
+        "type": "move",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "self",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "ha22qGBkEVKzOO53": {
+              "type": "damage",
+              "_id": "ha22qGBkEVKzOO53",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "2",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "3",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "4",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The Warden shifts up to its speed before striking. On tier 3, the target is knocked prone.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
     }
   ],
   "effects": [],
@@ -365,7 +606,7 @@
       "turns": 1
     },
     "biography": {
-      "value": "<p>A Barrow-Warden is the restless remnant of a burial guardian. An ancient oath-keeper whose duty to protect the dead has metastasized into mindless aggression. Taller than the thralls it commands, wearing rusted chain and a burial crown of tarnished iron. It carries a frost-etched blade covered in Old NorrÅ“nt runes. Unlike the thralls, it can speakâ€”though only in accusations.</p>",
+      "value": "<p>A Barrow-Warden is the restless remnant of a burial guardian, an oath-keeper whose duty to protect the dead has curdled into ruthless violence. Taller than the thralls it commands and draped in rusted chain, it bears a frost-etched blade marked with old Norront runes. Unlike lesser draugr, it can still speak, but only in bitter accusations against the living.</p>",
       "director": "<p>The Barrow-Warden commands the draugr thralls through the Barrow-Call malice ability. Focus DPS on the Warden firstâ€”removing it stops the thrall summons. The ongoing cold damage from Rune-Blade can stack across multiple targets, so prioritize targeted healing. Law of the Grave accusations are narrative seeds for later beats.</p>",
       "languages": []
     },

@@ -1,5 +1,5 @@
 {
-  "folder": null,
+  "folder": "iEPVvWezLlidfEbg",
   "name": "Goblin Monarch",
   "type": "npc",
   "img": "modules/svellheim/assets/icons/monster-images/goblin-monarch.png",
@@ -39,8 +39,8 @@
       "turns": 1
     },
     "biography": {
-      "value": "<p>The Goblin Monarch is a self-styled ruler wearing a crown of bent nails and copper wire. It leads its tribe not by strength but by sheer force of personality and pragmatism -- it would rather negotiate than lose soldiers, but it fights with real cunning when pushed.</p><p>These goblins have been driven from deep mountain caves by something pressing southwest. The Monarch doesn't know what it is. It's as frightened as it is dangerous.</p>",
-      "director": "<p>The Monarch fights from range on the boulder, throwing axes at two targets per turn while letting Runners and Warriors absorb damage. Get in Here! replenishes minion bodies. Meat Shield keeps the Monarch alive when targeted by name. When the Runners pile up, Kill! punishes clusters.</p><p>Negotiation is possible (hard Presence test or shared food). The Monarch is pragmatic -- it wants its people alive more than it wants a fight. If PCs attempt to parley before initiative, consider offering a skill test rather than combat.</p>",
+      "value": "<p>A self-styled ruler of a desperate tribe, this goblin wears a battered crown of bent nails and copper wire with vicious pride. Slightly larger than its warriors, the Monarch commands through cunning, cruelty, and a ruthless pragmatism born of survival. These goblins have been driven from their deep mountain caverns by the same power that raises the dead and pulls things southwest. They don't know what it is — they're as scared as they are dangerous. The Monarch is desperately trying to establish territory before winter kills them all.</p>",
+      "director": "<p><strong>ENCOUNTER CONTEXT</strong></p><p>Beat 4b (optional). The goblins ambush the party on a narrow mountain defile — loose scree above, a sheer drop below. The Monarch starts on a boulder at range.</p><p><strong>TACTICS</strong></p><ul><li>The Monarch hangs back on the boulder, using <strong>Handaxe</strong> on two targets at range and <strong>Get in Here!</strong> to summon more Runners.</li><li>Uses <strong>Meat Shield</strong> to redirect attacks to adjacent Runners.</li><li>When pressed, triggers <strong>Kill!</strong> (VA3) to punish clustering.</li></ul><p><strong>NEGOTIATION</strong></p><p>Negotiation is difficult but possible. A PC who speaks Caelian or can communicate through gestures can attempt to parley (hard Presence test). Success: the goblins let them pass in exchange for food (half remaining rations). The Monarch is pragmatic — it wants its people alive more than it wants a fight.</p>",
       "languages": []
     },
     "movement": {
@@ -78,27 +78,16 @@
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": []
-    },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
-      "page": "Beat 04b",
-      "license": ""
+      "book": "Monsters",
+      "page": "164",
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
-      "interest": 2,
-      "patience": 3,
-      "motivations": [
-        "keeping the tribe alive",
-        "establishing safe territory",
-        "pragmatic survival"
-      ],
-      "pitfalls": [
-        "threats to the tribe",
-        "demands to surrender their caves",
-        "being mocked"
-      ],
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
       "impression": 1
     },
     "monster": {
@@ -109,13 +98,13 @@
       ],
       "level": 1,
       "ev": 12,
-      "role": "brute",
+      "role": "",
       "organization": "leader"
     }
   },
   "prototypeToken": {
     "name": "Goblin Monarch",
-    "displayName": 40,
+    "displayName": 20,
     "actorLink": false,
     "width": 1,
     "height": 1,
@@ -123,85 +112,746 @@
       "src": "modules/svellheim/assets/icons/monster-images/goblin-monarch.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
-      "scaleY": 1
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
     "disposition": -1,
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "stamina"
     },
     "bar2": {
-      "attribute": null
+      "attribute": "hero.resources"
     },
-    "ring": {
-      "enabled": true
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": false
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
-    "light": {}
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
+      "name": "Crafty",
+      "type": "feature",
+      "_id": "yH2vnfVz5cSxMYqB",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The monarch doesn’t provoke opportunity attacks by moving.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "164",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "crafty",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Vxxc0EcLHPPnpSbK.yH2vnfVz5cSxMYqB"
+    },
+    {
+      "name": "End Effect",
+      "type": "feature",
+      "_id": "izt49nIF7QpYw8ob",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the end of each of their turns, the monarch can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can’t be reduced in any way.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "164",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "end-effect",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Vxxc0EcLHPPnpSbK.izt49nIF7QpYw8ob"
+    },
+    {
       "name": "Handaxe",
       "type": "ability",
-      "img": "icons/weapons/axes/axe-throwing-small.webp",
       "system": {
+        "type": "main",
         "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
+          "book": "Monsters",
+          "page": "164",
+          "license": "Draw Steel Creator License"
         },
-        "_dsid": "goblin-monarch-handaxe",
+        "_dsid": "handaxe",
+        "story": "",
         "keywords": [
           "melee",
           "ranged",
           "strike",
           "weapon"
         ],
-        "type": "main",
         "category": "signature",
         "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 5,
-          "tertiary": null
+          "secondary": 5
         },
         "damageDisplay": "melee",
         "target": {
           "type": "creatureObject",
-          "value": 2,
-          "custom": "two creatures or objects"
-        },
-        "effect": {
-          "before": "<p>Melee 1 or Ranged 5.</p>",
-          "after": "<p>One ally within 10 squares of the monarch can make a free strike.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
+          "value": 2
         },
         "power": {
           "roll": {
-            "characteristics": [
-              "agility",
-              "presence"
-            ],
             "formula": "@chr",
-            "reactive": false
+            "characteristics": [
+              "agility"
+            ]
           },
           "effects": {
-            "GBMON000000001": {
+            "ezQZliRdrGmIeS70": {
+              "name": "",
+              "img": null,
               "type": "damage",
-              "_id": "GBMON000000001",
+              "_id": "ezQZliRdrGmIeS70",
               "damage": {
                 "tier1": {
-                  "value": "7",
-                  "types": [],
+                  "value": "7"
+                },
+                "tier2": {
+                  "value": "10"
+                },
+                "tier3": {
+                  "value": "13"
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>One ally within 10 squares of the monarch can make a [[/damage @monster.freeStrike]]{Free Strike}.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "rT3XJOuBTtuUBCOq",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Vxxc0EcLHPPnpSbK.rT3XJOuBTtuUBCOq"
+    },
+    {
+      "name": "Get in Here!",
+      "type": "ability",
+      "system": {
+        "type": "maneuver",
+        "source": {
+          "book": "Monsters",
+          "page": "164",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "get-in-here",
+        "story": "",
+        "keywords": [
+          "ranged"
+        ],
+        "category": "heroic",
+        "resource": 1,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 20
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Two @UUID[Compendium.draw-steel.monsters.Actor.Xw0gZCS09gdMjaw8]{goblin runners} appear in unoccupied spaces within distance.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "cONie7TzNe99AJGE",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Vxxc0EcLHPPnpSbK.cONie7TzNe99AJGE"
+    },
+    {
+      "name": "Meat Shield",
+      "type": "ability",
+      "system": {
+        "type": "triggered",
+        "source": {
+          "book": "Monsters",
+          "page": "164",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "meat-shield",
+        "story": "",
+        "keywords": [
+          "melee"
+        ],
+        "category": "",
+        "resource": null,
+        "trigger": "A creature targets the monarch with a strike.",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "ally",
+          "value": 1
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The ally is the target of the triggering strike instead.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "IuXvui4A4x23TSvr",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Vxxc0EcLHPPnpSbK.IuXvui4A4x23TSvr"
+    },
+    {
+      "name": "What Are You Waiting For?",
+      "type": "ability",
+      "system": {
+        "type": "villain",
+        "source": {
+          "book": "Monsters",
+          "page": "164",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "what-are-you-waiting-for",
+        "story": "",
+        "keywords": [
+          "area"
+        ],
+        "category": "villain",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 10
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "ally",
+          "value": null,
+          "custom": "Each ally in the area"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each target can move up to their speed or make a free strike.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "hm9amTei708h8ZfG",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Vxxc0EcLHPPnpSbK.hm9amTei708h8ZfG"
+    },
+    {
+      "name": "Focus Fire",
+      "type": "ability",
+      "system": {
+        "type": "villain",
+        "source": {
+          "book": "Monsters",
+          "page": "164",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "focus-fire",
+        "story": "",
+        "keywords": [
+          "ranged"
+        ],
+        "category": "villain",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 10
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemyObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each ally within 10 squares of the target can move up to their speed toward the target.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "OCuhY0z8RXmyw6en",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Vxxc0EcLHPPnpSbK.OCuhY0z8RXmyw6en"
+    },
+    {
+      "name": "Kill!",
+      "type": "ability",
+      "system": {
+        "type": "villain",
+        "source": {
+          "book": "Monsters",
+          "page": "164",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "kill",
+        "story": "",
+        "keywords": [],
+        "category": "villain",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each enemy in the encounter takes [[/damage 2]]{2 damage} for each goblin adjacent to them.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "juZPwZbi9bSwGGy8",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Vxxc0EcLHPPnpSbK.juZPwZbi9bSwGGy8"
+    },
+    {
+      "name": "Goblin Mode",
+      "type": "ability",
+      "system": {
+        "type": "none",
+        "source": {
+          "book": "Monsters",
+          "page": "160",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "goblin-mode",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "A goblin starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each goblin in the encounter gains a +2 bonus to speed until the end of the round.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "4IYmvaux8p8vaWR6",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "effects": [],
+      "folder": "vxOVWECtypuYigNy",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Vxxc0EcLHPPnpSbK.4IYmvaux8p8vaWR6"
+    },
+    {
+      "name": "Tiny Stabs",
+      "type": "ability",
+      "system": {
+        "type": "none",
+        "source": {
+          "book": "Monsters",
+          "page": "160",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "tiny-stabs",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "A goblin starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each enemy in the encounter takes 1 damage for each goblin adjacent to them.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "Oa0MhwS1yeyeJ5qG",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "effects": [],
+      "folder": "vxOVWECtypuYigNy",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Vxxc0EcLHPPnpSbK.Oa0MhwS1yeyeJ5qG"
+    },
+    {
+      "name": "Swamp Stink",
+      "type": "ability",
+      "system": {
+        "type": "none",
+        "source": {
+          "book": "Monsters",
+          "page": "160",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "swamp-stink",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 7,
+        "trigger": "A goblin starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "custom": "",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": [
+              "might"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "EWNCOLfzWPAraIBv": {
+              "sort": 100000,
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "EWNCOLfzWPAraIBv",
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [
+                    "poison"
+                  ],
                   "ignoredImmunities": [],
                   "potency": {
                     "value": "@potency.weak",
@@ -209,474 +859,127 @@
                   }
                 },
                 "tier2": {
-                  "value": "10",
+                  "value": "",
                   "types": [],
                   "ignoredImmunities": [],
                   "potency": {
                     "value": "@potency.average",
-                    "characteristic": "none"
+                    "characteristic": ""
                   }
                 },
                 "tier3": {
-                  "value": "13",
+                  "value": "",
                   "types": [],
                   "ignoredImmunities": [],
                   "potency": {
                     "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "VdDO5uml16reG0t7": {
+              "sort": 200000,
+              "name": "",
+              "img": null,
+              "type": "applied",
+              "_id": "VdDO5uml16reG0t7",
+              "applied": {
+                "tier1": {
+                  "display": "the creature is weakened until the mist disappears.",
+                  "effects": {
+                    "weakened": {
+                      "condition": "always",
+                      "end": "",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.weak",
                     "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "The creature is weakened until the mist disappears.",
+                  "effects": {
+                    "weakened": {
+                      "condition": "always",
+                      "end": "",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "display": "No effect.",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
                   }
                 }
               }
             }
           }
         },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "GBMON00000000200",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Get in Here!",
-      "type": "ability",
-      "img": "icons/creatures/abilities/mouth-teeth-rows-white.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
-        },
-        "_dsid": "goblin-monarch-get-in-here",
-        "keywords": [],
-        "type": "maneuver",
-        "category": "heroic",
-        "resource": 1,
-        "trigger": "",
-        "distance": {
-          "type": "ranged",
-          "primary": 20,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": "special"
-        },
         "effect": {
-          "before": "<p>Two goblin runners appear in unoccupied spaces within distance.</p>",
+          "before": "<p>The encounter map is covered in a green mist that lasts until the end of the round, and which can’t be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a <strong>Might test.</strong></p>",
           "after": ""
         },
         "spend": {
-          "value": null,
-          "text": ""
+          "text": "",
+          "value": null
         },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "GBMON00000000300",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Meat Shield",
-      "type": "ability",
-      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-orange.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
-        },
-        "_dsid": "goblin-monarch-meat-shield",
-        "keywords": [],
-        "type": "triggered",
-        "category": "",
-        "resource": null,
-        "trigger": "A creature targets the monarch with a strike.",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "ally",
-          "value": 1,
-          "custom": "one ally"
-        },
-        "effect": {
-          "before": "<p>The ally is the target of the triggering strike instead.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "GBMON00000000400",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Crafty",
-      "type": "feature",
-      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
-      "system": {
-        "description": {
-          "value": "<p>The monarch doesn't provoke opportunity attacks by moving.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
-        },
-        "_dsid": "goblin-monarch-crafty",
-        "advancements": {}
-      },
-      "effects": [],
-      "_id": "GBMON00000000500",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "End Effect",
-      "type": "feature",
-      "img": "icons/magic/control/buff-flight-wings-white.webp",
-      "system": {
-        "description": {
-          "value": "<p>At the end of each of their turns, the monarch can take 5 irreducible damage to end one effect on them that can be ended by a saving throw.</p>",
-          "director": "<p>Use this when the Monarch is restrained, slowed, or otherwise debuffed. The 5 damage is irreducible -- it can't be prevented or reduced.</p>"
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
-        },
-        "_dsid": "goblin-monarch-end-effect",
-        "advancements": {}
-      },
-      "effects": [],
-      "_id": "GBMON00000000600",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Villain Action 1: What Are You Waiting For?",
-      "type": "feature",
-      "img": "icons/magic/control/buff-flight-wings-raven.webp",
-      "system": {
-        "description": {
-          "value": "<p><strong>What Are You Waiting For?</strong> Each ally within 10 squares can move up to their speed or make a free strike.</p>",
-          "director": "<p><strong>Villain Action 1</strong></p><p>Area: 10 burst | Each ally in the area can move up to their speed or make a free strike.</p>"
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
-        },
-        "_dsid": "goblin-monarch-va1",
-        "advancements": {},
         "prerequisites": {
           "value": "",
           "dsid": [],
           "level": null
         }
       },
+      "_id": "vZMdicLidQzWMkgm",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "effects": [],
-      "_id": "GBMON00000000700",
       "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Villain Action 2: Focus Fire",
-      "type": "feature",
-      "img": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-      "system": {
-        "description": {
-          "value": "<p><strong>Focus Fire!</strong> The monarch marks one enemy within 10 squares. Each ally within 10 squares moves up to their speed toward the marked target.</p>",
-          "director": "<p><strong>Villain Action 2</strong></p><p>Ranged 10: select one enemy target. Each ally within 10 squares moves up to their speed toward the target. Use to pile goblins onto a priority target before Kill! hits.</p>"
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
-        },
-        "_dsid": "goblin-monarch-va2",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.vZMdicLidQzWMkgm",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1761169978388,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
-      "effects": [],
-      "_id": "GBMON00000000800",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
       "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Villain Action 3: Kill!",
-      "type": "feature",
-      "img": "icons/magic/death/skull-energy-circle-orange.webp",
-      "system": {
-        "description": {
-          "value": "<p><strong>Kill!</strong> Each enemy in the encounter takes 2 damage for each goblin currently adjacent to them.</p>",
-          "director": "<p><strong>Villain Action 3</strong></p><p>Each enemy takes 2 damage per adjacent goblin. Devastating against clustered heroes who let Runners pile up. Use after Focus Fire for maximum effect.</p>"
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
-        },
-        "_dsid": "goblin-monarch-va3",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
       },
-      "effects": [],
-      "_id": "GBMON00000000900",
-      "flags": {},
       "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Goblin Mode",
-      "type": "ability",
-      "img": "icons/skills/movement/arrow-upward-yellow.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
-        },
-        "_dsid": "goblin-mode",
-        "keywords": [],
-        "type": "none",
-        "category": "heroic",
-        "resource": 3,
-        "trigger": "An goblin starts its turn",
-        "distance": {
-          "type": "special",
-          "primary": null,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": ""
-        },
-        "effect": {
-          "before": "<p>Each goblin shifts up to 3 squares. Until end of round, goblins have double edge on power rolls against creatures larger than them.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "GBMON00000001000",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Tiny Stabs",
-      "type": "ability",
-      "img": "icons/weapons/daggers/dagger-ivory-red.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
-        },
-        "_dsid": "tiny-stabs",
-        "keywords": [],
-        "type": "none",
-        "category": "heroic",
-        "resource": 5,
-        "trigger": "A goblin starts its turn",
-        "distance": {
-          "type": "burst",
-          "primary": 10,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": "each enemy in the area"
-        },
-        "effect": {
-          "before": "<p>Each enemy in the area takes 3 damage for each goblin adjacent to them.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "GBMON00000001100",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Swamp Stink",
-      "type": "ability",
-      "img": "icons/magic/nature/slime-splash-puddle-green.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
-        },
-        "_dsid": "swamp-stink",
-        "keywords": [],
-        "type": "none",
-        "category": "heroic",
-        "resource": 7,
-        "trigger": "A goblin starts its turn",
-        "distance": {
-          "type": "burst",
-          "primary": 10,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": "each enemy in the area"
-        },
-        "effect": {
-          "before": "<p>Each enemy must succeed on an easy Intuition test or become dazed (save ends). Each goblin then shifts up to 3 squares.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "GBMON00000001200",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
+      "sort": 300000,
+      "_key": "!actors.items!Vxxc0EcLHPPnpSbK.vZMdicLidQzWMkgm"
     }
   ],
   "effects": [],
+  "ownership": {
+    "default": 0
+  },
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "13.348",
     "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
+    "systemVersion": "0.8.0",
+    "createdTime": 1755922155466,
+    "modifiedTime": null,
     "lastModifiedBy": null
   },
-  "ownership": {
-    "default": 0
-  },
-  "_id": "uAHeC7Q43OFihsD0"
+  "_id": "Vxxc0EcLHPPnpSbK",
+  "sort": 0,
+  "_key": "!actors!Vxxc0EcLHPPnpSbK"
 }

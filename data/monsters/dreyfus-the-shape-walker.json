@@ -1,8 +1,443 @@
 {
   "_id": "J1qSFfE5xYbB7iOd",
   "name": "Dreyfus, the Shape-Walker (L5 Elite)",
-  "img": "systems/draw-steel/assets/roles/boss.svg",
-  "items": [],
+  "img": "icons/creatures/abilities/wolf-rune-glowing-teal.webp",
+  "items": [
+    {
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "_id": "DREY200000000001",
+      "name": "Talon Strike",
+      "type": "ability",
+      "img": "icons/skills/melee/hand-grip-staff-black.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-l5-talon-strike",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {
+            "DREY20000000E001": {
+              "type": "damage",
+              "_id": "DREY20000000E001",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "6",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "9",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "agility"
+                  }
+                },
+                "tier3": {
+                  "value": "12",
+                  "types": [
+                    "corruption"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "agility"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Tier 2+:</strong> The target is slowed (save ends). <strong>Tier 3:</strong> The corruption damage manifests as flickering shadow-wounds that unravel at the edges.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "_id": "DREY200000000002",
+      "name": "Void Pulse",
+      "type": "ability",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-small.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-l5-void-pulse",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "ranged",
+          "strike",
+          "magic"
+        ],
+        "type": "main",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 8,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "ranged",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "presence"
+            ]
+          },
+          "effects": {
+            "DREY20000000E002": {
+              "type": "damage",
+              "_id": "DREY20000000E002",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "7",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "presence"
+                  }
+                },
+                "tier3": {
+                  "value": "10",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "presence"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Tier 2+:</strong> The target has a bane on their next power roll. <strong>Tier 3:</strong> The target is also dazed until the end of their next turn as the void echo floods their senses.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "_id": "DREY200000000003",
+      "name": "Shift Form",
+      "type": "ability",
+      "img": "icons/magic/nature/wolf-paw-glow-large-teal.webp",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-l5-shift-form",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "magic"
+        ],
+        "type": "triggered",
+        "category": "villain",
+        "resource": 1,
+        "trigger": "The start of Dreyfus’s turn.",
+        "distance": {
+          "type": "self",
+          "primary": 0,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "value": 1,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Dreyfus transforms into a new form. Each form grants a secondary attack he can use as a maneuver this turn:</p><ul><li><strong>Dire Wolf Form:</strong> Pack Lunge — Melee, Agility vs Might; 11 damage, target is prone.</li><li><strong>Raven Form:</strong> Wyrd-Shriek — Close Burst 2, Intuition vs Intuition; 5 damage, all targets dazed until end of next turn. Speed becomes 10 (flying).</li><li><strong>Shadow Form:</strong> Drain Warmth — Ranged touch, Presence vs Presence; 8 cold damage, target loses 1 Recovery.</li></ul><p>At 20 Stamina or below, Dreyfus can no longer maintain animal shapes and reverts to humanoid form permanently.</p>",
+          "after": ""
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "_id": "DREY200000000004",
+      "name": "Flickering Body",
+      "type": "feature",
+      "img": "icons/magic/movement/trail-streak-zigzag-gray.webp",
+      "system": {
+        "description": {
+          "value": "<p>When Dreyfus takes 10 or more damage from a single hit, he immediately teleports up to 3 squares as a free triggered action.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-l5-flickering-body",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "_id": "DREY200000000005",
+      "name": "Wyrd-Read",
+      "type": "feature",
+      "img": "icons/magic/perception/orb-eye-scrying.webp",
+      "system": {
+        "description": {
+          "value": "<p>Dreyfus cannot be surprised. He knows what skills and abilities each hero has used so far in the campaign, including their fighting styles from Beat 9. He targets weaknesses and avoids strengths — specifically avoiding melee with the party’s strongest fighter unless cornered.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-l5-wyrd-read",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "_id": "DREY200000000006",
+      "name": "Shape Collapse",
+      "type": "feature",
+      "img": "icons/magic/unholy/orb-contained-explode-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>When reduced to 0 Stamina, Dreyfus does not die. He collapses into a pool of shadow and is incapacitated. He cannot reform. He is finished — not destroyed, but ended as an agent. For one moment, he looks completely human — not a shape-walker, but a person who has been doing something terrible for a very long time and has finally been stopped.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "dreyfus-l5-shape-collapse",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    }
+  ],
   "effects": [],
   "flags": {
     "era-of-embers": {
@@ -41,7 +476,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "systems/draw-steel/assets/roles/boss.svg",
+      "src": "icons/creatures/abilities/wolf-rune-glowing-teal.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -125,7 +560,7 @@
         "cold": 0,
         "corruption": 0,
         "fire": 0,
-        "holy": 0,
+        "holy": 5,
         "lightning": 0,
         "poison": 0,
         "psychic": 0,
@@ -133,14 +568,17 @@
       }
     },
     "statuses": {
-      "immunities": []
+      "immunities": [
+        "frightened",
+        "charmed"
+      ]
     },
     "source": {
       "book": "Svellheim Campaign (Era of Embers)",
       "page": "",
       "license": ""
     },
-    "ev": 40,
+    "ev": 5,
     "monster": {
       "freeStrike": 5,
       "keywords": [

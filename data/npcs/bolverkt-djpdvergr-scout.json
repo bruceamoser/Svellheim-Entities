@@ -54,8 +54,8 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
-      "max": 20,
+      "value": 30,
+      "max": 30,
       "temporary": 0
     },
     "characteristics": {
@@ -148,7 +148,7 @@
       "keywords": [
         "humanoid"
       ],
-      "level": 2,
+      "level": 3,
       "role": "ambusher",
       "organization": "platoon"
     }

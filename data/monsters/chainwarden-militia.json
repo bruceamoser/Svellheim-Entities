@@ -3,8 +3,9 @@
   "img": "modules/svellheim/assets/icons/monster-images/chainwarden-militia.png",
   "items": [
     {
-      "name": "Billhook",
-      "img": "icons/weapons/polearms/pitchfork-wood-horned.webp",
+      "_id": "SDlKfBo2OnERcL2C",
+      "name": "Billhook Jab",
+      "img": "icons/weapons/polearms/spear-simple-barbed.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -30,7 +31,7 @@
           "page": "Beat 04a",
           "license": ""
         },
-        "_dsid": "chainwarden-militia-billhook",
+        "_dsid": "chainwarden-militia-billhook-jab",
         "prerequisites": {
           "value": "",
           "dsid": [],
@@ -48,7 +49,7 @@
         "trigger": "",
         "distance": {
           "type": "melee",
-          "primary": 2,
+          "primary": 1,
           "secondary": null,
           "tertiary": null
         },
@@ -56,7 +57,7 @@
         "target": {
           "type": "creatureObject",
           "value": 1,
-          "custom": ""
+          "custom": "one creature or object"
         },
         "power": {
           "roll": {
@@ -67,15 +68,18 @@
             ]
           },
           "effects": {
-            "hKwNxKvqLrNDjJiA": {
+            "hKeflQSpOexV6Z2s": {
               "type": "damage",
+              "_id": "hKeflQSpOexV6Z2s",
               "name": "",
               "img": null,
               "sort": 0,
               "damage": {
                 "tier1": {
-                  "value": "3",
-                  "types": [],
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.weak",
@@ -83,22 +87,22 @@
                   }
                 },
                 "tier2": {
-                  "value": "5",
-                  "types": [],
-                  "properties": [
-                    "push 1"
+                  "value": "3",
+                  "types": [
+                    "weapon"
                   ],
+                  "properties": [],
                   "potency": {
                     "value": "@potency.average",
                     "characteristic": "none"
                   }
                 },
                 "tier3": {
-                  "value": "7",
-                  "types": [],
-                  "properties": [
-                    "prone"
+                  "value": "4",
+                  "types": [
+                    "weapon"
                   ],
+                  "properties": [],
                   "potency": {
                     "value": "@potency.strong",
                     "characteristic": "none"
@@ -110,18 +114,18 @@
         },
         "effect": {
           "before": "",
-          "after": ""
+          "after": "<p>If an ally is adjacent to the target, the target is pushed 1.</p>"
         },
         "spend": {
           "value": null,
           "text": ""
         }
-      },
-      "_id": "ly7SMwYexBIOm1dG"
+      }
     },
     {
-      "name": "Warden's Resolve",
-      "img": "icons/skills/social/intimidation-impressing.webp",
+      "_id": "QblSw6Ytxb6Ia8Nf",
+      "name": "Hook and Drag",
+      "img": "icons/skills/movement/drag-move-chain-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -147,52 +151,220 @@
           "page": "Beat 04a",
           "license": ""
         },
-        "_dsid": "chainwarden-militia-wardens-resolve",
+        "_dsid": "chainwarden-militia-hook-drag",
         "prerequisites": {
           "value": "",
           "dsid": [],
           "level": null
         },
         "story": "",
-        "keywords": [],
+        "keywords": [
+          "melee",
+          "weapon"
+        ],
         "type": "maneuver",
-        "category": "",
+        "category": "signature",
         "resource": null,
         "trigger": "",
         "distance": {
-          "type": "self",
-          "primary": 0,
+          "type": "melee",
+          "primary": 1,
           "secondary": null,
           "tertiary": null
         },
         "damageDisplay": "melee",
         "target": {
-          "type": "self",
-          "value": 0,
-          "custom": "self and adjacent allies"
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature or object"
         },
         "power": {
           "roll": {
             "reactive": false,
             "formula": "@chr",
-            "characteristics": []
+            "characteristics": [
+              "might"
+            ]
           },
-          "effects": {}
+          "effects": {
+            "bOvZUFGV73u3DjY0": {
+              "type": "damage",
+              "_id": "bOvZUFGV73u3DjY0",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
         },
         "effect": {
           "before": "",
-          "after": "<p>The militia and each ally adjacent to them gain +2 to stability until end of round.</p>"
+          "after": "<p>Pull the target 1 square. If the target enters an ally's reach, that ally gains edge on their next attack against it this round.</p>"
         },
         "spend": {
-          "value": 1,
-          "text": "1 Malice"
+          "value": null,
+          "text": ""
         }
-      },
-      "_id": "yMQbKlnR4rAj25Oj"
+      }
     },
     {
-      "name": "Supernatural Insight",
-      "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+      "_id": "HSUUVqeiKzxN1sLc",
+      "name": "Mob Press",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04a",
+          "license": ""
+        },
+        "_dsid": "chainwarden-militia-mob-press",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "triggered"
+        ],
+        "type": "triggered",
+        "category": "signature",
+        "resource": null,
+        "trigger": "A creature marked by this militia member shifts while adjacent to another Chainwarden.",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature or object"
+        },
+        "power": {
+          "roll": {
+            "reactive": true,
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "ZOTdZXUlNOW8qdTN": {
+              "type": "damage",
+              "_id": "ZOTdZXUlNOW8qdTN",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The militia member makes a free strike against the triggering creature.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "v7uGKYySkK7j3NUi",
+      "name": "Warden Mob Tactics",
+      "img": "icons/skills/melee/strike-dagger-white-orange.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -214,7 +386,7 @@
       "type": "feature",
       "system": {
         "description": {
-          "value": "<p>The militia ignores concealment granted by supernatural effects.</p>",
+          "value": "<p>This creature gains edge on attacks while adjacent to another Chainwarden.</p>",
           "director": ""
         },
         "source": {
@@ -222,15 +394,14 @@
           "page": "Beat 04a",
           "license": ""
         },
-        "_dsid": "supernatural-insight",
+        "_dsid": "chainwarden-militia-warden-mob-tactics",
         "advancements": {},
         "prerequisites": {
           "value": "",
           "dsid": [],
           "level": null
         }
-      },
-      "_id": "JD35lCBfCDhIzEZN"
+      }
     }
   ],
   "effects": [],
@@ -266,7 +437,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/svellheim/assets/icons/monster-images/chainwarden-militia.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -284,13 +455,13 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
-      "max": 0,
+      "value": 6,
+      "max": 6,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 0
+        "value": 2
       },
       "agility": {
         "value": 0
@@ -302,7 +473,7 @@
         "value": 0
       },
       "presence": {
-        "value": 0
+        "value": -1
       }
     },
     "combat": {
@@ -318,7 +489,7 @@
       "turns": 1
     },
     "biography": {
-      "value": "",
+      "value": "<p>Chainwarden Militia are conscripts and press-ganged townsfolk given billhooks, mismatched shields, and just enough drill to hold a line. They fight not out of loyalty but obligation — debts, tithes, or the threat of the stockade keep them marching where the Wardens point. In open ground they are unremarkable, but packed shoulder-to-shoulder with other Chainwardens they become a wall of hooked blades that drags enemies into kill zones.</p>",
       "director": "",
       "languages": []
     },
@@ -373,7 +544,7 @@
     },
     "ev": 4,
     "monster": {
-      "freeStrike": 0,
+      "freeStrike": 2,
       "keywords": [
         "human",
         "humanoid",

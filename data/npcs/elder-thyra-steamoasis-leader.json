@@ -54,25 +54,25 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
-      "max": 15,
+      "value": 26,
+      "max": 26,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 1
+        "value": 0
       },
       "agility": {
         "value": 1
       },
       "reason": {
-        "value": 2
+        "value": 3
       },
       "intuition": {
-        "value": 3
+        "value": 2
       },
       "presence": {
-        "value": 3
+        "value": 2
       }
     },
     "combat": {
@@ -143,7 +143,7 @@
     },
     "ev": 4,
     "monster": {
-      "freeStrike": 0,
+      "freeStrike": 2,
       "keywords": [
         "humanoid"
       ],

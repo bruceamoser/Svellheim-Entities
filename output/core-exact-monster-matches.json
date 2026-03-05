@@ -1,0 +1,20 @@
+[
+  {
+    "localPath": "data\\monsters\\goblin-monarch.json",
+    "localName": "Goblin Monarch",
+    "corePath": "reference\\draw-steel-foundry-system\\src\\packs\\monsters\\Goblins_iEPVvWezLlidfEbg\\npc_Goblin_Monarch_Vxxc0EcLHPPnpSbK.json",
+    "coreId": "Vxxc0EcLHPPnpSbK"
+  },
+  {
+    "localPath": "data\\monsters\\goblin-runner.json",
+    "localName": "Goblin Runner",
+    "corePath": "reference\\draw-steel-foundry-system\\src\\packs\\monsters\\Goblins_iEPVvWezLlidfEbg\\npc_Goblin_Runner_Xw0gZCS09gdMjaw8.json",
+    "coreId": "Xw0gZCS09gdMjaw8"
+  },
+  {
+    "localPath": "data\\monsters\\goblin-warrior.json",
+    "localName": "Goblin Warrior",
+    "corePath": "reference\\draw-steel-foundry-system\\src\\packs\\monsters\\Goblins_iEPVvWezLlidfEbg\\npc_Goblin_Warrior_6SR8siFeC5lWUzoO.json",
+    "coreId": "6SR8siFeC5lWUzoO"
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "folder": null,
+  "folder": "iEPVvWezLlidfEbg",
   "name": "Goblin Runner",
   "type": "npc",
   "img": "modules/svellheim/assets/icons/monster-images/goblin-runner.png",
@@ -39,8 +39,8 @@
       "turns": 1
     },
     "biography": {
-      "value": "<p>A Goblin Runner is a small, fast skirmisher driven from deep mountain caves by an unknown force pressing southwest. It moves with frantic energy, lives by speed, and dies cheap.</p>",
-      "director": "<p>Runners exist to swarm and exploit the Monarch's orders. Crafty means they never provoke opportunity attacks, so they charge freely through packed lines. Use them to tie up ranged attackers or pile onto isolated targets. Kill the Monarch first or the Runners become a death of a thousand paper cuts.</p>",
+      "value": "<p>A small, feral goblin with green-grey skin and wide yellow eyes that dart nervously in every direction. It clutches a crude club in bony fingers, its body coiled and twitchy, ready to scramble up walls or dive through legs at a moment’s notice. These runners are the expendable vanguard of the goblin tribe — fast, cowardly, and dangerous only in numbers. They charge from cliff walls and high perches, exploiting their natural climbing ability and darting past defenders who can’t pin them down.</p>",
+      "director": "<p><strong>ENCOUNTER CONTEXT</strong></p><p>Beat 4b (optional). The runners begin on the cliff walls above the narrow mountain path (3 squares up, Climb movement). They form a squad of 4 minions (EV 3 for the squad).</p><p><strong>TACTICS</strong></p><ul><li>Charge from the cliff walls on round 1, exploiting <strong>Crafty</strong> to avoid opportunity attacks.</li><li>Swarm isolated PCs — they gain an edge on strikes when their captain (the Monarch) is present.</li><li>The Monarch uses <strong>Get in Here!</strong> to summon replacement Runners, so don’t hold them back — they’re meant to be spent.</li><li>Use them to trigger <strong>Tiny Stabs</strong> (5 Malice) by clustering around enemies for area damage.</li></ul>",
       "languages": []
     },
     "movement": {
@@ -78,13 +78,10 @@
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": []
-    },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
-      "page": "Beat 04b",
-      "license": ""
+      "book": "Monsters",
+      "page": "161",
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
       "interest": 5,
@@ -107,7 +104,7 @@
   },
   "prototypeToken": {
     "name": "Goblin Runner",
-    "displayName": 40,
+    "displayName": 20,
     "actorLink": false,
     "width": 1,
     "height": 1,
@@ -115,85 +112,178 @@
       "src": "modules/svellheim/assets/icons/monster-images/goblin-runner.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
-      "scaleY": 1
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
     },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
     "disposition": -1,
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "stamina"
     },
     "bar2": {
-      "attribute": null
+      "attribute": "hero.resources"
     },
-    "ring": {
-      "enabled": true
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
     },
     "sight": {
-      "enabled": false
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
     },
-    "light": {}
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
+      "name": "Crafty",
+      "type": "feature",
+      "_id": "IpnEqs83JkgZpvZJ",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The runner doesn't provoke oppurtunity attacks by moving.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "161",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "crafty",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Xw0gZCS09gdMjaw8.IpnEqs83JkgZpvZJ"
+    },
+    {
       "name": "Club Charge",
       "type": "ability",
-      "img": "icons/weapons/clubs/club-simple-brown.webp",
       "system": {
+        "type": "main",
         "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
+          "book": "Monsters",
+          "page": "161",
+          "license": "Draw Steel Creator License"
         },
-        "_dsid": "goblin-runner-club-charge",
+        "_dsid": "club-charge",
+        "story": "",
         "keywords": [
           "charge",
           "melee",
           "strike",
           "weapon"
         ],
-        "type": "main",
         "category": "signature",
         "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
+          "primary": 1
         },
         "damageDisplay": "melee",
         "target": {
           "type": "creatureObject",
           "value": 1,
-          "custom": "one creature or object per minion"
-        },
-        "effect": {
-          "before": "",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
+          "custom": "One creature or object per minion"
         },
         "power": {
           "roll": {
+            "formula": "@chr",
             "characteristics": [
               "agility"
-            ],
-            "formula": "@chr",
-            "reactive": false
+            ]
           },
           "effects": {
-            "GBRUN000000001": {
+            "iTuBq1bwRgRcWckC": {
+              "name": "",
+              "img": null,
               "type": "damage",
-              "_id": "GBRUN000000001",
+              "_id": "iTuBq1bwRgRcWckC",
               "damage": {
                 "tier1": {
                   "value": "1",
                   "types": [],
-                  "ignoredImmunities": [],
+                  "properties": [],
                   "potency": {
                     "value": "@potency.weak",
                     "characteristic": "none"
@@ -202,104 +292,407 @@
                 "tier2": {
                   "value": "2",
                   "types": [],
-                  "ignoredImmunities": [],
+                  "properties": [],
                   "potency": {
                     "value": "@potency.average",
-                    "characteristic": "none"
+                    "characteristic": ""
                   }
                 },
                 "tier3": {
                   "value": "3",
                   "types": [],
-                  "ignoredImmunities": [],
+                  "properties": [],
                   "potency": {
                     "value": "@potency.strong",
-                    "characteristic": "none"
+                    "characteristic": ""
                   }
                 }
               }
             }
           }
         },
-        "story": ""
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
       },
+      "_id": "WeMq0DalWkEq62RQ",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
       "effects": [],
-      "_id": "GBRUN00000000200",
-      "flags": {},
       "folder": null,
       "sort": 0,
       "ownership": {
-        "default": 0
-      }
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Xw0gZCS09gdMjaw8.WeMq0DalWkEq62RQ"
     },
     {
-      "name": "Crafty",
-      "type": "feature",
-      "img": "icons/skills/movement/feet-winged-sandals-tan.webp",
+      "name": "Goblin Mode",
+      "type": "ability",
       "system": {
-        "description": {
-          "value": "<p>The runner doesn't provoke opportunity attacks by moving.</p>",
-          "director": ""
-        },
+        "type": "none",
         "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
+          "book": "Monsters",
+          "page": "160",
+          "license": "Draw Steel Creator License"
         },
-        "_dsid": "goblin-runner-crafty",
-        "advancements": {}
+        "_dsid": "goblin-mode",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "A goblin starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each goblin in the encounter gains a +2 bonus to speed until the end of the round.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
       },
+      "_id": "4IYmvaux8p8vaWR6",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "effects": [],
-      "_id": "GBRUN00000000300",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
+      "folder": "vxOVWECtypuYigNy",
+      "sort": 100000,
       "ownership": {
-        "default": 0
-      }
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Xw0gZCS09gdMjaw8.4IYmvaux8p8vaWR6"
     },
     {
-      "name": "With Captain",
-      "type": "feature",
-      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "name": "Tiny Stabs",
+      "type": "ability",
       "system": {
-        "description": {
-          "value": "<p>The runner gains an edge on strikes while adjacent to a captain.</p>",
-          "director": ""
-        },
+        "type": "none",
         "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04b",
-          "license": ""
+          "book": "Monsters",
+          "page": "160",
+          "license": "Draw Steel Creator License"
         },
-        "_dsid": "goblin-runner-with-captain",
-        "advancements": {}
+        "_dsid": "tiny-stabs",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "A goblin starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each enemy in the encounter takes 1 damage for each goblin adjacent to them.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
       },
+      "_id": "Oa0MhwS1yeyeJ5qG",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "effects": [],
-      "_id": "GBRUN00000000400",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
+      "folder": "vxOVWECtypuYigNy",
+      "sort": 200000,
       "ownership": {
-        "default": 0
-      }
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Xw0gZCS09gdMjaw8.Oa0MhwS1yeyeJ5qG"
+    },
+    {
+      "name": "Swamp Stink",
+      "type": "ability",
+      "system": {
+        "type": "none",
+        "source": {
+          "book": "Monsters",
+          "page": "160",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "swamp-stink",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 7,
+        "trigger": "A goblin starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "custom": "",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": [
+              "might"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "EWNCOLfzWPAraIBv": {
+              "sort": 100000,
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "EWNCOLfzWPAraIBv",
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [
+                    "poison"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "VdDO5uml16reG0t7": {
+              "sort": 200000,
+              "name": "",
+              "img": null,
+              "type": "applied",
+              "_id": "VdDO5uml16reG0t7",
+              "applied": {
+                "tier1": {
+                  "display": "the creature is weakened until the mist disappears.",
+                  "effects": {
+                    "weakened": {
+                      "condition": "always",
+                      "end": "",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "The creature is weakened until the mist disappears.",
+                  "effects": {
+                    "weakened": {
+                      "condition": "always",
+                      "end": "",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "display": "No effect.",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "<p>The encounter map is covered in a green mist that lasts until the end of the round, and which can’t be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a <strong>Might test.</strong></p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "_id": "vZMdicLidQzWMkgm",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.vZMdicLidQzWMkgm",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1761169988435,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "folder": null,
+      "sort": 300000,
+      "_key": "!actors.items!Xw0gZCS09gdMjaw8.vZMdicLidQzWMkgm"
     }
   ],
-  "effects": [],
+  "effects": [
+    {
+      "name": "With Captain",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "type": "abilityModifier",
+      "origin": "Compendium.draw-steel.monsters.Actor.Xw0gZCS09gdMjaw8",
+      "disabled": true,
+      "_id": "7d6tkUCfRnTYO9ZL",
+      "system": {
+        "end": {
+          "type": "",
+          "roll": "1d10 + @combat.save.bonus"
+        },
+        "filters": {
+          "keywords": [
+            "strike"
+          ]
+        }
+      },
+      "changes": [
+        {
+          "key": "power.roll.edges",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": 0,
+        "combat": null,
+        "startRound": 3,
+        "startTurn": 0,
+        "seconds": null,
+        "rounds": null,
+        "turns": null
+      },
+      "description": "<p>Gain an edge on strikes.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monsters.Actor.KwdPnQj8bc4JlTqB.ActiveEffect.7d6tkUCfRnTYO9ZL",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 1757292444079,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.effects!Xw0gZCS09gdMjaw8.7d6tkUCfRnTYO9ZL"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "13.348",
     "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
+    "systemVersion": "0.8.0",
+    "createdTime": 1755922156735,
+    "modifiedTime": null,
     "lastModifiedBy": null
   },
-  "ownership": {
-    "default": 0
-  },
-  "_id": "83bOHHAiSD2HKBlQ"
+  "_id": "Xw0gZCS09gdMjaw8",
+  "sort": 0,
+  "_key": "!actors!Xw0gZCS09gdMjaw8"
 }

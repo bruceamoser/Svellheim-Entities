@@ -1,7 +1,7 @@
 {
   "_id": "N4mtlXUBeAeXSJyj",
   "name": "Barrow-Wight",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "icons/magic/death/undead-skeleton-deathly-green.webp",
   "items": [
     {
       "_id": "ELVhS9oTylbloxdc",
@@ -42,21 +42,22 @@
         "keywords": [
           "melee",
           "strike",
-          "weapon"
+          "weapon",
+          "cold"
         ],
         "type": "main",
         "category": "signature",
         "resource": null,
         "trigger": "",
         "distance": {
-          "type": "self",
-          "primary": null,
+          "type": "melee",
+          "primary": 1,
           "secondary": null,
           "tertiary": null
         },
         "damageDisplay": "melee",
         "target": {
-          "type": "self",
+          "type": "creatureObject",
           "value": 1,
           "custom": ""
         },
@@ -64,13 +65,58 @@
           "roll": {
             "reactive": false,
             "formula": "@chr",
-            "characteristics": []
+            "characteristics": [
+              "might"
+            ]
           },
-          "effects": {}
+          "effects": {
+            "m3t3KrdDE51DTLNw": {
+              "type": "damage",
+              "_id": "m3t3KrdDE51DTLNw",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "6",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "8",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "11",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
         },
         "effect": {
           "before": "",
-          "after": ""
+          "after": "<p>Tier 2+: the target takes ongoing 3 cold damage (save ends).</p>"
         },
         "spend": {
           "value": null,
@@ -116,21 +162,22 @@
         "story": "",
         "keywords": [
           "melee",
-          "strike"
+          "magic",
+          "cold"
         ],
         "type": "maneuver",
-        "category": "",
+        "category": "signature",
         "resource": null,
         "trigger": "",
         "distance": {
-          "type": "self",
-          "primary": null,
+          "type": "melee",
+          "primary": 1,
           "secondary": null,
           "tertiary": null
         },
         "damageDisplay": "melee",
         "target": {
-          "type": "self",
+          "type": "creatureObject",
           "value": 1,
           "custom": ""
         },
@@ -138,13 +185,58 @@
           "roll": {
             "reactive": false,
             "formula": "@chr",
-            "characteristics": []
+            "characteristics": [
+              "might"
+            ]
           },
-          "effects": {}
+          "effects": {
+            "VIcVSy69LzfsQIU7": {
+              "type": "damage",
+              "_id": "VIcVSy69LzfsQIU7",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "3",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "5",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "7",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
         },
         "effect": {
           "before": "",
-          "after": ""
+          "after": "<p>The target is grabbed. While grabbed this way, it has bane on Might tests.</p>"
         },
         "spend": {
           "value": null,
@@ -190,21 +282,22 @@
         "story": "",
         "keywords": [
           "ranged",
-          "magic"
+          "magic",
+          "cold"
         ],
         "type": "main",
         "category": "villain",
         "resource": null,
         "trigger": "",
         "distance": {
-          "type": "self",
-          "primary": null,
+          "type": "ranged",
+          "primary": 6,
           "secondary": null,
           "tertiary": null
         },
-        "damageDisplay": "melee",
+        "damageDisplay": "ranged",
         "target": {
-          "type": "self",
+          "type": "creatureObject",
           "value": 1,
           "custom": ""
         },
@@ -212,13 +305,58 @@
           "roll": {
             "reactive": false,
             "formula": "@chr",
-            "characteristics": []
+            "characteristics": [
+              "reason"
+            ]
           },
-          "effects": {}
+          "effects": {
+            "SwDJa1M510D4EedW": {
+              "type": "damage",
+              "_id": "SwDJa1M510D4EedW",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "4",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "6",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "8",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
         },
         "effect": {
           "before": "",
-          "after": ""
+          "after": "<p>Tier 2+: the target is slowed (save ends). Tier 3: restrained (save ends).</p>"
         },
         "spend": {
           "value": null,
@@ -263,35 +401,82 @@
         },
         "story": "",
         "keywords": [
-          "magic"
+          "magic",
+          "cold",
+          "triggered"
         ],
-        "type": "main",
+        "type": "triggered",
         "category": "villain",
         "resource": null,
-        "trigger": "",
+        "trigger": "A Barrow-Draugr ally within 5 squares is reduced to 0 Stamina.",
         "distance": {
           "type": "self",
-          "primary": null,
+          "primary": 1,
           "secondary": null,
           "tertiary": null
         },
-        "damageDisplay": "melee",
+        "damageDisplay": "self",
         "target": {
-          "type": "self",
-          "value": 0,
+          "type": "creatureObject",
+          "value": 1,
           "custom": ""
         },
         "power": {
           "roll": {
             "reactive": false,
             "formula": "@chr",
-            "characteristics": []
+            "characteristics": [
+              "presence"
+            ]
           },
-          "effects": {}
+          "effects": {
+            "jod34faWGVmV6wsM": {
+              "type": "damage",
+              "_id": "jod34faWGVmV6wsM",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "2",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "4",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "6",
+                  "types": [
+                    "cold"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
         },
         "effect": {
           "before": "",
-          "after": ""
+          "after": "<p>Choose another undead ally within 5 squares; it gains 6 temporary Stamina and can shift 2.</p>"
         },
         "spend": {
           "value": null,
@@ -417,7 +602,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "icons/magic/death/undead-skeleton-deathly-green.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

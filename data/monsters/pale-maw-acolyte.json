@@ -194,157 +194,122 @@
     {
       "name": "Corruption Lash",
       "type": "ability",
-      "img": "icons/magic/unholy/hand-claw-fire-purple.webp",
+      "_id": "b4e9a6a4f93416d9",
+      "_key": "!actors.items!ALivLyKj2FjoDoaX.b4e9a6a4f93416d9",
       "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
+        "description": {
+          "value": "<p>A tendril of dark energy whips from the acolyte's hand, lashing the target with necrotic corruption.</p>"
         },
-        "_dsid": "pale-maw-acolyte-corruption-lash",
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": {
+          "value": "action"
+        },
         "keywords": [
           "melee",
-          "strike",
-          "magic"
+          "corruption"
         ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
+        "distance": [
+          {
+            "type": "reach",
+            "value": 1
+          }
+        ],
         "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
+          "value": "One creature"
         },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Tier 2+:</strong> The target takes 3 ongoing corruption damage (save ends).</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [
-              "agility"
-            ],
-            "formula": "@chr",
-            "reactive": false
+        "powerRoll": {
+          "characteristic": [
+            "agility"
+          ],
+          "tier1": {
+            "value": "4 corruption damage"
           },
-          "effects": {
-            "PMAC000000000001": {
-              "type": "damage",
-              "_id": "PMAC000000000001",
-              "damage": {
-                "tier1": {
-                  "value": "4",
-                  "types": [
-                    "corruption"
-                  ],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "7",
-                  "types": [
-                    "corruption"
-                  ],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "agility"
-                  }
-                },
-                "tier3": {
-                  "value": "10",
-                  "types": [
-                    "corruption"
-                  ],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "agility"
-                  }
-                }
-              }
-            }
+          "tier2": {
+            "value": "6 corruption damage"
+          },
+          "tier3": {
+            "value": "8 corruption damage; ongoing 2 corruption (save ends)"
           }
         },
-        "story": ""
+        "effect": {
+          "value": ""
+        },
+        "spend": [],
+        "trigger": {
+          "value": ""
+        },
+        "cost": ""
       },
+      "img": "icons/svg/sword.svg",
       "effects": [],
-      "_id": "PMAC000000000002",
-      "flags": {},
       "folder": null,
       "sort": 0,
       "ownership": {
         "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1772721958504,
+        "modifiedTime": 1772721958504,
+        "lastModifiedBy": "validation-fix",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
       "name": "Shadow Fade",
       "type": "ability",
-      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+      "_id": "869bae69b4f4e253",
+      "_key": "!actors.items!ALivLyKj2FjoDoaX.869bae69b4f4e253",
       "system": {
+        "description": {
+          "value": "<p>The acolyte dissolves into shadow, reappearing nearby. Shift up to 3 squares. The acolyte has concealment until the start of its next turn.</p>"
+        },
         "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
         },
-        "_dsid": "pale-maw-acolyte-shadow-fade",
+        "actionType": {
+          "value": "maneuver"
+        },
         "keywords": [],
-        "type": "maneuver",
-        "category": "",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "self",
-          "primary": null,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
+        "distance": [],
         "target": {
-          "type": "self",
-          "value": 1,
-          "custom": ""
+          "value": ""
         },
+        "powerRoll": null,
         "effect": {
-          "before": "<p><strong>Maneuver.</strong> The Pale Maw Acolyte teleports up to 4 squares. If it began this movement adjacent to an enemy, it becomes concealed until the start of its next turn.</p>",
-          "after": ""
+          "value": "Shift up to 3 squares. Gain concealment until the start of your next turn."
         },
-        "spend": {
-          "value": null,
-          "text": ""
+        "spend": [],
+        "trigger": {
+          "value": ""
         },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
+        "cost": ""
       },
+      "img": "icons/svg/sword.svg",
       "effects": [],
-      "_id": "PMAC000000000003",
-      "flags": {},
       "folder": null,
       "sort": 0,
       "ownership": {
         "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1772721958504,
+        "modifiedTime": 1772721958504,
+        "lastModifiedBy": "validation-fix",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {

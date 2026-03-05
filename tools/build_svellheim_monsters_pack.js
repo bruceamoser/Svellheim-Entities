@@ -7,6 +7,9 @@
  * Reads monster actor JSON files from data/monsters/ and writes them into a
  * LevelDB compendium pack at module/packs/svellheim-monsters/.
  *
+ * Monsters are organised into faction-based folders:
+ *   Undead, Beasts, Pale Maw, Chainwardens, Goblins, Bosses, Corrupted
+ *
  * Each actor gets a deterministic _id derived from its filename so that
  * compendium UUIDs remain stable across rebuilds.
  *
@@ -44,20 +47,9 @@ function base62FromBuffer(buf, length) {
   return out;
 }
 
-function foundryIdFromSeed(seed) {
+function foundryId(seed) {
   const digest = crypto.createHash('sha1').update(String(seed)).digest();
   return base62FromBuffer(digest.subarray(0, 12), 16);
-}
-
-function slugify(name) {
-  return String(name || '')
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/['']/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/(^-|-$)/g, '');
 }
 
 // ── Try to resolve a monster portrait image ────────────────────────────
@@ -73,9 +65,70 @@ function resolvePortrait(stem) {
   return null;
 }
 
+// ── Folder infrastructure ──────────────────────────────────────────────
+
+function mkFolder({ id, name, sort = 0 }) {
+  return {
+    _id: id,
+    name,
+    type: 'Actor',
+    folder: null,
+    color: null,
+    sorting: 'a',
+    sort,
+    description: '',
+    flags: {},
+    _stats: {
+      compendiumSource: null, duplicateSource: null, exportSource: null,
+      coreVersion: '13', systemId: 'draw-steel', systemVersion: null,
+      createdTime: Date.now(), modifiedTime: null, lastModifiedBy: null,
+    },
+  };
+}
+
+// Faction folder definitions (single level — no nesting)
+const FACTIONS = [
+  { key: 'undead',       name: 'Undead',       sort: 100000 },
+  { key: 'beasts',       name: 'Beasts',       sort: 200000 },
+  { key: 'pale-maw',     name: 'Pale Maw',     sort: 300000 },
+  { key: 'chainwardens', name: 'Chainwardens', sort: 400000 },
+  { key: 'goblins',      name: 'Goblins',      sort: 500000 },
+  { key: 'bosses',       name: 'Bosses',       sort: 600000 },
+  { key: 'corrupted',    name: 'Corrupted',    sort: 700000 },
+];
+
+// Map filename stems to faction keys
+const FACTION_RULES = [
+  { test: /^pale-maw-/,                                          faction: 'pale-maw' },
+  { test: /^(chainwarden-|warden-captain-|heitfolk-)/,            faction: 'chainwardens' },
+  { test: /^goblin-/,                                             faction: 'goblins' },
+  { test: /^(grafvitnir|dreyfus-)/,                               faction: 'bosses' },
+  { test: /^(blind-draugr-wolf|dire-draugr-wolf|drowned-wolf|rootgnaw-|rot-grub$|rot-beast|vine-strangler)/, faction: 'beasts' },
+  { test: /^(rot-warped-|rottouched|graveconstruct|keeper-guardian-)/, faction: 'corrupted' },
+  // Everything else → undead (default)
+];
+
+function resolveFaction(stem) {
+  for (const rule of FACTION_RULES) {
+    if (rule.test.test(stem)) return rule.faction;
+  }
+  return 'undead';
+}
+
+function buildFolders() {
+  const folders = [];
+  const index = {};
+  for (const f of FACTIONS) {
+    const id = foundryId(`svm-folder:${f.key}`);
+    folders.push(mkFolder({ id, name: f.name, sort: f.sort }));
+    index[f.key] = id;
+  }
+  return { folders, index };
+}
+
 // ── LevelDB writer ────────────────────────────────────────────────────
 
-async function writeLevelDb(items, outDir) {
+async function writeLevelDb({ folders, actors }, outDir) {
   const { ClassicLevel } = require('classic-level');
 
   fs.rmSync(outDir, { recursive: true, force: true });
@@ -84,9 +137,8 @@ async function writeLevelDb(items, outDir) {
   const db = new ClassicLevel(outDir, { keyEncoding: 'utf8', valueEncoding: 'utf8' });
   await db.open();
 
-  for (const item of items) {
-    await db.put(`!actors!${item._id}`, JSON.stringify(item));
-  }
+  for (const f of folders) await db.put(`!folders!${f._id}`, JSON.stringify(f));
+  for (const a of actors)  await db.put(`!actors!${a._id}`, JSON.stringify(a));
 
   await db.compactRange('\x00', '\xff');
   await db.close();
@@ -100,21 +152,23 @@ async function main() {
     process.exit(1);
   }
 
+  const { folders, index } = buildFolders();
   const jsonFiles = fs.readdirSync(SOURCE_DIR).filter(f => f.endsWith('.json')).sort();
   console.log(`Found ${jsonFiles.length} monster files in ${path.relative(REPO_ROOT, SOURCE_DIR)}/\n`);
 
   const actors = [];
+  const factionCounts = {};
 
   for (const file of jsonFiles) {
     const filePath = path.join(SOURCE_DIR, file);
     const raw = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-    // Generate a stable _id from the filename
     const stem = path.basename(file, '.json');
-    const _id = foundryIdFromSeed(`actor:${PACK_NAME}:${stem}`);
+    const _id = foundryId(`actor:${PACK_NAME}:${stem}`);
+    const faction = resolveFaction(stem);
 
     raw._id = _id;
-    raw.folder = null;
+    raw.folder = index[faction] || null;
 
     // Try to assign a module-provided portrait
     const portrait = resolvePortrait(stem);
@@ -132,14 +186,15 @@ async function main() {
     raw._stats.systemId = raw._stats.systemId || 'draw-steel';
 
     actors.push(raw);
-    console.log(`  ${raw.name} → ${_id}${portrait ? ' (portrait)' : ''}`);
+    factionCounts[faction] = (factionCounts[faction] || 0) + 1;
+    console.log(`  [${faction}] ${raw.name} → ${_id}${portrait ? ' (portrait)' : ''}`);
   }
 
-  await writeLevelDb(actors, PACK_DIR);
+  await writeLevelDb({ folders, actors }, PACK_DIR);
 
-  console.log(
-    `\nWrote pack: ${path.relative(REPO_ROOT, PACK_DIR)} (${actors.length} monsters)`
-  );
+  console.log(`\nWrote pack: ${path.relative(REPO_ROOT, PACK_DIR)} (${actors.length} monsters, ${folders.length} folders)`);
+  console.log('By faction:');
+  for (const [f, c] of Object.entries(factionCounts).sort()) console.log(`  ${f}: ${c}`);
 }
 
 main().catch((e) => {

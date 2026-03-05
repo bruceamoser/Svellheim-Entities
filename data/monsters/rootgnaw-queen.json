@@ -46,7 +46,8 @@
     "movement": {
       "value": 5,
       "types": [
-        "walk"
+        "walk",
+        "burrow"
       ],
       "hover": false,
       "disengage": 1
@@ -395,7 +396,7 @@
         },
         "_dsid": "rootgnaw-queen-burrow-surge",
         "keywords": [],
-        "type": "main",
+        "type": "maneuver",
         "category": "",
         "resource": null,
         "trigger": "",

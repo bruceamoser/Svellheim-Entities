@@ -3,8 +3,9 @@
   "img": "modules/svellheim/assets/icons/monster-images/chainwarden-artillerist.png",
   "items": [
     {
-      "name": "Arbalest",
-      "img": "icons/weapons/crossbows/crossbow-dark-blue.webp",
+      "_id": "zAK2HRuelgV6ZWwj",
+      "name": "Arbalest Volley",
+      "img": "icons/skills/ranged/arrows-flying-salvo-yellow.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -30,7 +31,7 @@
           "page": "Beat 04a",
           "license": ""
         },
-        "_dsid": "chainwarden-artillerist-arbalest",
+        "_dsid": "chainwarden-artillerist-arbalest-volley",
         "prerequisites": {
           "value": "",
           "dsid": [],
@@ -48,7 +49,7 @@
         "trigger": "",
         "distance": {
           "type": "ranged",
-          "primary": 15,
+          "primary": 8,
           "secondary": null,
           "tertiary": null
         },
@@ -56,7 +57,7 @@
         "target": {
           "type": "creatureObject",
           "value": 1,
-          "custom": ""
+          "custom": "one creature or object"
         },
         "power": {
           "roll": {
@@ -67,15 +68,18 @@
             ]
           },
           "effects": {
-            "UAcY8hvuLM4mhnfC": {
+            "059jlM1bhjieAeuU": {
               "type": "damage",
+              "_id": "059jlM1bhjieAeuU",
               "name": "",
               "img": null,
               "sort": 0,
               "damage": {
                 "tier1": {
-                  "value": "6",
-                  "types": [],
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.weak",
@@ -83,8 +87,10 @@
                   }
                 },
                 "tier2": {
-                  "value": "9",
-                  "types": [],
+                  "value": "4",
+                  "types": [
+                    "weapon"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.average",
@@ -92,8 +98,10 @@
                   }
                 },
                 "tier3": {
-                  "value": "12",
-                  "types": [],
+                  "value": "6",
+                  "types": [
+                    "weapon"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.strong",
@@ -106,18 +114,18 @@
         },
         "effect": {
           "before": "",
-          "after": "<p>This ability ignores cover and concealment. Spend 3 Malice: targets one additional creature or object.</p>"
+          "after": "<p>On tier 3, the target is knocked prone.</p>"
         },
         "spend": {
           "value": null,
           "text": ""
         }
-      },
-      "_id": "P2O4pz73nVIoAjHe"
+      }
     },
     {
+      "_id": "7Xwwp9vkJAg7rZ7L",
       "name": "Alchemical Bolt",
-      "img": "icons/skills/ranged/arrow-flying-poison-teal.webp",
+      "img": "icons/magic/acid/projectile-beams-salvo-green.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -151,69 +159,70 @@
         },
         "story": "",
         "keywords": [
-          "area",
-          "magic",
-          "ranged"
+          "ranged",
+          "weapon",
+          "acid"
         ],
         "type": "main",
-        "category": "",
+        "category": "signature",
         "resource": null,
         "trigger": "",
         "distance": {
-          "type": "cube",
-          "primary": 3,
-          "secondary": 10,
+          "type": "ranged",
+          "primary": 8,
+          "secondary": null,
           "tertiary": null
         },
         "damageDisplay": "ranged",
         "target": {
-          "type": "special",
-          "value": 0,
-          "custom": "each creature in the area"
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature or object"
         },
         "power": {
           "roll": {
             "reactive": false,
             "formula": "@chr",
             "characteristics": [
-              "agility"
+              "reason"
             ]
           },
           "effects": {
-            "byp8cPzjaPLOcCak": {
+            "G3B7x4dVlAQ8ndWL": {
               "type": "damage",
+              "_id": "G3B7x4dVlAQ8ndWL",
               "name": "",
               "img": null,
               "sort": 0,
               "damage": {
                 "tier1": {
-                  "value": "4",
-                  "types": [],
-                  "properties": [
-                    "slowed EoT"
+                  "value": "2",
+                  "types": [
+                    "acid"
                   ],
+                  "properties": [],
                   "potency": {
                     "value": "@potency.weak",
                     "characteristic": "none"
                   }
                 },
                 "tier2": {
-                  "value": "6",
-                  "types": [],
-                  "properties": [
-                    "slowed save ends"
+                  "value": "4",
+                  "types": [
+                    "acid"
                   ],
+                  "properties": [],
                   "potency": {
                     "value": "@potency.average",
                     "characteristic": "none"
                   }
                 },
                 "tier3": {
-                  "value": "8",
-                  "types": [],
-                  "properties": [
-                    "restrained save ends"
+                  "value": "5",
+                  "types": [
+                    "acid"
                   ],
+                  "properties": [],
                   "potency": {
                     "value": "@potency.strong",
                     "characteristic": "none"
@@ -225,18 +234,18 @@
         },
         "effect": {
           "before": "",
-          "after": "<p>The area becomes difficult terrain until the end of the encounter.</p>"
+          "after": "<p>Choose fire, acid, or poison. The target gains bane on next save against that damage type this encounter.</p>"
         },
         "spend": {
-          "value": 3,
-          "text": "3 Malice"
+          "value": null,
+          "text": ""
         }
-      },
-      "_id": "14k4m5atbiTAZs4e"
+      }
     },
     {
+      "_id": "g0HPsKXaUJYQ6YQQ",
       "name": "Covering Fire",
-      "img": "icons/skills/ranged/arrow-flying-red.webp",
+      "img": "icons/skills/ranged/target-bullseye-arrow-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -270,46 +279,331 @@
         },
         "story": "",
         "keywords": [
-          "ranged"
+          "ranged",
+          "weapon"
         ],
-        "type": "triggered",
-        "category": "",
+        "type": "maneuver",
+        "category": "signature",
         "resource": null,
-        "trigger": "An enemy within distance willingly moves.",
+        "trigger": "",
         "distance": {
           "type": "ranged",
-          "primary": 15,
+          "primary": 8,
           "secondary": null,
           "tertiary": null
         },
         "damageDisplay": "ranged",
         "target": {
-          "type": "enemy",
+          "type": "creatureObject",
           "value": 1,
-          "custom": "one enemy who willingly moves"
+          "custom": "one creature or object"
         },
         "power": {
           "roll": {
             "reactive": false,
-            "formula": "",
-            "characteristics": []
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
           },
-          "effects": {}
+          "effects": {
+            "iT4y4GE6P272FA4v": {
+              "type": "damage",
+              "_id": "iT4y4GE6P272FA4v",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
         },
         "effect": {
           "before": "",
-          "after": "<p>At any point during the movement, the artillerist makes a free strike against the target.</p>"
+          "after": "<p>One ally in line of sight gains edge on their next attack against the target.</p>"
         },
         "spend": {
           "value": null,
           "text": ""
         }
-      },
-      "_id": "XDzYJ1EIPRYKYIK0"
+      }
     },
     {
-      "name": "Supernatural Insight",
-      "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+      "_id": "RlzZtoWfek8Of7HN",
+      "name": "Suppressing Shot",
+      "img": "icons/skills/ranged/arrow-flying-white-blue.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04a",
+          "license": ""
+        },
+        "_dsid": "chainwarden-artillerist-suppressing-shot",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "ranged",
+          "weapon"
+        ],
+        "type": "main",
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 8,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "ranged",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature or object"
+        },
+        "power": {
+          "roll": {
+            "reactive": false,
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {
+            "oaP25iwYyMTpj0aj": {
+              "type": "damage",
+              "_id": "oaP25iwYyMTpj0aj",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "5",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>Target is slowed until end of its next turn on tier 2+.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "5bj5Z0zng2nq0Yz7",
+      "name": "Kill Zone Trigger",
+      "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "ability",
+      "system": {
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "Beat 04a",
+          "license": ""
+        },
+        "_dsid": "chainwarden-artillerist-kill-zone-trigger",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
+        "keywords": [
+          "ranged",
+          "weapon",
+          "triggered"
+        ],
+        "type": "triggered",
+        "category": "signature",
+        "resource": null,
+        "trigger": "An enemy marked by a Chainwarden ally moves in line of sight.",
+        "distance": {
+          "type": "ranged",
+          "primary": 8,
+          "secondary": null,
+          "tertiary": null
+        },
+        "damageDisplay": "ranged",
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "one creature or object"
+        },
+        "power": {
+          "roll": {
+            "reactive": true,
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {
+            "YLOnkuRX8NaQbAX1": {
+              "type": "damage",
+              "_id": "YLOnkuRX8NaQbAX1",
+              "name": "",
+              "img": null,
+              "sort": 0,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "2",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "none"
+                  }
+                },
+                "tier3": {
+                  "value": "3",
+                  "types": [
+                    "weapon"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>Make a free strike with Arbalest Volley against the triggering enemy.</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "GExtVx57F4iFaGKY",
+      "name": "Spotter Discipline",
+      "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
       "effects": [],
       "flags": {},
       "folder": null,
@@ -331,7 +625,7 @@
       "type": "feature",
       "system": {
         "description": {
-          "value": "<p>The artillerist ignores concealment granted by supernatural effects.</p>",
+          "value": "<p>The artillerist gains edge on ranged attacks against creatures adjacent to a Chainwarden ally.</p>",
           "director": ""
         },
         "source": {
@@ -339,15 +633,14 @@
           "page": "Beat 04a",
           "license": ""
         },
-        "_dsid": "supernatural-insight",
+        "_dsid": "chainwarden-artillerist-spotter-discipline",
         "advancements": {},
         "prerequisites": {
           "value": "",
           "dsid": [],
           "level": null
         }
-      },
-      "_id": "2Xo9BYHchrv4KDfD"
+      }
     }
   ],
   "effects": [],
@@ -383,7 +676,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/svellheim/assets/icons/monster-images/chainwarden-artillerist.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -401,8 +694,8 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
-      "max": 0,
+      "value": 30,
+      "max": 30,
       "temporary": 0
     },
     "characteristics": {
@@ -410,13 +703,13 @@
         "value": 0
       },
       "agility": {
-        "value": 0
+        "value": 2
       },
       "reason": {
-        "value": 0
+        "value": 1
       },
       "intuition": {
-        "value": 0
+        "value": 1
       },
       "presence": {
         "value": 0
@@ -435,7 +728,7 @@
       "turns": 1
     },
     "biography": {
-      "value": "",
+      "value": "<p>A disciplined crossbow specialist in chain-forged half plate, the Chainwarden Artillerist anchors kill lanes for the Heitfolk lines. These soldiers advance behind shielded enforcers, then unleash carefully timed volleys that pin enemies in place while their allies close for the finish. Their belts carry alchemical bolts for burning, corroding, or choking targets that refuse to break formation.</p>",
       "director": "",
       "languages": []
     },
@@ -490,14 +783,14 @@
     },
     "ev": 4,
     "monster": {
-      "freeStrike": 0,
+      "freeStrike": 3,
       "keywords": [
         "human",
         "humanoid",
         "chainwarden"
       ],
       "level": 1,
-      "role": "artillery",
+      "role": "support",
       "organization": "platoon"
     }
   },

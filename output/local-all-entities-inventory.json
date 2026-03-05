@@ -1,0 +1,1022 @@
+[
+  {
+    "path": "data\\imbuing-projects\\Armor\\1st-Level\\Deep-Rune-Stitching.json",
+    "name": "Deep-Rune Stitching",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Armor\\1st-Level\\Frost-Quiet-Buckles.json",
+    "name": "Frost-Quiet Buckles",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Armor\\1st-Level\\House-songs-of-Iron.json",
+    "name": "House-songs of Iron",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Armor\\1st-Level\\Saltward-Lining.json",
+    "name": "Saltward Lining",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Armor\\5th-Level\\Amber-Bark-Lamellae.json",
+    "name": "Amber-Bark Lamellae",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Armor\\5th-Level\\Bright-Sun-Filigree.json",
+    "name": "Bright-Sun Filigree",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Armor\\5th-Level\\Jotun-Pledge-Plates.json",
+    "name": "Jötun-Pledge Plates",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Armor\\5th-Level\\Marsh-Reed-Buffer.json",
+    "name": "Marsh-Reed Buffer",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Armor\\9th-Level\\Bone-March-Harness.json",
+    "name": "Bone-March Harness",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Armor\\9th-Level\\Skyshield-Sigils.json",
+    "name": "Skyshield Sigils",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Armor\\9th-Level\\Throat-Oath-Gorget.json",
+    "name": "Throat-Oath Gorget",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Armor\\9th-Level\\White-Expanse-Mantle.json",
+    "name": "White-Expanse Mantle",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\1st-Level\\Ash-Script-Focus.json",
+    "name": "Ash-Script Focus",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\1st-Level\\Resonant-Claim.json",
+    "name": "Resonant Claim",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\1st-Level\\Summerdell-Ink.json",
+    "name": "Summerdell Ink",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\1st-Level\\Wyrm-Whisper-Etching.json",
+    "name": "Wyrm-Whisper Etching",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\5th-Level\\Mirror-True-Formulae.json",
+    "name": "Mirror-True Formulae",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\5th-Level\\Shieldfell-Countermark.json",
+    "name": "Shieldfell Countermark",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\5th-Level\\Tonttu-Ward-Knot.json",
+    "name": "Tonttu Ward-Knot",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\5th-Level\\White-Quiet-Invocation.json",
+    "name": "White-Quiet Invocation",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\9th-Level\\Beinmark-Oath-Suture.json",
+    "name": "Beinmark Oath-Suture",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\9th-Level\\Gratstrand-Salt-Circle.json",
+    "name": "Gråtstrand Salt-Circle",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\9th-Level\\Light-Tongue-Benediction.json",
+    "name": "Light-Tongue Benediction",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Implement\\9th-Level\\Svellspraak-True-Name-Margin.json",
+    "name": "Svellspraak True-Name Margin",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\1st-Level\\Dverg-Hammer-Truth.json",
+    "name": "Dverg Hammer-Truth",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\1st-Level\\Fjord-Edge-Balance.json",
+    "name": "Fjord-Edge Balance",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\1st-Level\\Marsh-Swallow-Temper.json",
+    "name": "Marsh-Swallow Temper",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\1st-Level\\Tonttu-Tripwire-Notch.json",
+    "name": "Tonttu Tripwire Notch",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\5th-Level\\Beinmark-Drill-Scar.json",
+    "name": "Beinmark Drill-Scar",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\5th-Level\\Shieldfell-Gale-Runes.json",
+    "name": "Shieldfell Gale-Runes",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\5th-Level\\Sunbright-Edge.json",
+    "name": "Sunbright Edge",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\5th-Level\\Wyrm-Tongue-Challenge.json",
+    "name": "Wyrm-Tongue Challenge",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\9th-Level\\Ash-Word-Sundering.json",
+    "name": "Ash-Word Sundering",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\9th-Level\\Jotun-War-Name.json",
+    "name": "Jötun War-Name",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\9th-Level\\Summerdell-Mercy.json",
+    "name": "Summerdell Mercy",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\imbuing-projects\\Weapon\\9th-Level\\White-Expanse-Severance.json",
+    "name": "White-Expanse Severance",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\items\\bioluminescent-lantern.json",
+    "name": "Bioluminescent Lantern",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\bundingsteinn-the-binding-record.json",
+    "name": "Bundingsteinn (The Binding Record)",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\chainwarden-toll-token.json",
+    "name": "Chainwarden Toll-Token",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\chainwardens-confiscated-dagger.json",
+    "name": "Chainwarden's Confiscated Dagger",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\dreyfus-eye.json",
+    "name": "Dreyfus's Eye",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\dryads-thorn-graft-spear.json",
+    "name": "Dryad's Thorn-Graft Spear",
+    "type": "treasure",
+    "book": "Era of Embers"
+  },
+  {
+    "path": "data\\items\\ember-keepers-burial-coin.json",
+    "name": "Ember-Keeper's Burial Coin",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\forged-merchants-papers.json",
+    "name": "Forged Merchants' Papers",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\frost-etched-barrow-blade.json",
+    "name": "Frost-Etched Barrow-Blade",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\frostfen-marsh-root-poultice.json",
+    "name": "Frostfen Marsh-Root Poultice",
+    "type": "treasure",
+    "book": "Era of Embers"
+  },
+  {
+    "path": "data\\items\\frozen-messenger-satchel.json",
+    "name": "Frozen Messenger's Satchel",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\heitfolk-cold-wraps.json",
+    "name": "Heitfolk Cold-Wraps (×4)",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\heitfolk-tunnel-key.json",
+    "name": "Heitfolk Tunnel-Key",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\hildvars-sealed-iron-canteen.json",
+    "name": "Hildvarð's Sealed Iron Canteen",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\hollow-waystation-lantern.json",
+    "name": "Hollow Waystation Lantern",
+    "type": "treasure",
+    "book": "Era of Embers"
+  },
+  {
+    "path": "data\\items\\iron-lantern-of-the-keeper.json",
+    "name": "Iron Lantern of the Keeper",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\jardttrs-gift.json",
+    "name": "Jardúttr's Gift",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\jotunfolk-travellers-ring.json",
+    "name": "Jötunfolk Traveller's Ring",
+    "type": "treasure",
+    "book": "Era of Embers"
+  },
+  {
+    "path": "data\\items\\kings-cipher-packet.json",
+    "name": "King's Cipher Packet",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\root-shard-of-the-grove.json",
+    "name": "Root-Shard of the Grove",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\rootgnaw-chitin-buckler.json",
+    "name": "Rootgnaw Chitin Buckler",
+    "type": "treasure",
+    "book": "Era of Embers"
+  },
+  {
+    "path": "data\\items\\sealed-letter-from-va.json",
+    "name": "Sealed Letter from V.A.",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\shape-walkers-talon.json",
+    "name": "Shape-Walker's Talon",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\items\\solvis-ember-coal-box.json",
+    "name": "Solvi's Ember-Coal Box",
+    "type": "treasure",
+    "book": "Era of Embers"
+  },
+  {
+    "path": "data\\items\\yggdrasil-sap-amber-pendant.json",
+    "name": "Yggdrasil Sap-Amber Pendant",
+    "type": "treasure",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\barrow-draugr-act-2.json",
+    "name": "Barrow-Draugr (Act 2)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\barrow-draugr.json",
+    "name": "Barrow-Draugr",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\barrow-warden.json",
+    "name": "Barrow-Warden",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\barrow-wight.json",
+    "name": "Barrow-Wight",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\blind-draugr-wolf.json",
+    "name": "Blind Draugr Wolf",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\bone-singer.json",
+    "name": "Bone-Singer",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\chainwarden-artillerist.json",
+    "name": "Chainwarden Artillerist",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\chainwarden-enforcer.json",
+    "name": "Chainwarden Enforcer",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\chainwarden-guard.json",
+    "name": "Chainwarden Guard",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\chainwarden-militia.json",
+    "name": "Chainwarden Militia",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\dire-draugr-wolf.json",
+    "name": "Dire Draugr Wolf",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\draugr-thrall-act-2.json",
+    "name": "Draugr-Thrall (Act 2)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\draugr-thrall.json",
+    "name": "Draugr Thrall",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\dreyfus-shape-walker-agent.json",
+    "name": "Dreyfus, Shape-Walker Agent",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\dreyfus-the-shape-walker.json",
+    "name": "Dreyfus, the Shape-Walker (L5 Elite)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\drowned-wolf.json",
+    "name": "Drowned Wolf",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\frost-draugr.json",
+    "name": "Frost-Draugr",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\frost-ghoul.json",
+    "name": "Frost-Ghoul",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\goblin-monarch.json",
+    "name": "Goblin Monarch",
+    "type": "npc",
+    "book": "Monsters"
+  },
+  {
+    "path": "data\\monsters\\goblin-runner.json",
+    "name": "Goblin Runner",
+    "type": "npc",
+    "book": "Monsters"
+  },
+  {
+    "path": "data\\monsters\\goblin-warrior.json",
+    "name": "Goblin Warrior",
+    "type": "npc",
+    "book": "Monsters"
+  },
+  {
+    "path": "data\\monsters\\grafvitnir-stage-1-the-grave-wolf.json",
+    "name": "Grafvitnir, the Grave-Wolf — Stage 1 (L7 Solo)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\grafvitnir-stage-2-rot-given-shape.json",
+    "name": "Grafvitnir, Rot-Given-Shape — Stage 2 (L7 Solo)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\grafvitnir-stage-3-hunger-made-manifest.json",
+    "name": "Grafvitnir, the Hunger Made Manifest — Stage 3 (L8 Solo)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\grave-singer.json",
+    "name": "Grave-Singer",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\grave-wisp.json",
+    "name": "Grave-Wisp",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\graveconstruct.json",
+    "name": "Grave-Construct",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\heitfolk-sentry.json",
+    "name": "Heitfolk Sentry",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\keeper-guardian-construct.json",
+    "name": "Keeper Guardian Construct",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\lakewalker-draugr.json",
+    "name": "Lakewalker Draugr",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\oath-broken-draugr.json",
+    "name": "Oath-Broken Draugr",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-acolyte.json",
+    "name": "Pale Maw Acolyte",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-inquisitor-thrinn-ashward.json",
+    "name": "Pale Maw Inquisitor (Thráinn Ashward)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-operative.json",
+    "name": "Pale Maw Operative",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-soldier.json",
+    "name": "Pale Maw Soldier",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-strike-leader-yrsa-frostbane.json",
+    "name": "Pale Maw Strike Leader (Yrsa Frostbane)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-veteran.json",
+    "name": "Pale Maw Veteran",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\pale-maw-zealot.json",
+    "name": "Pale Maw Zealot",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\rootgnaw-grub.json",
+    "name": "Rootgnaw Grub",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\rootgnaw-queen.json",
+    "name": "Rootgnaw Queen",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\rot-beast.json",
+    "name": "Rot-Beast",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\rot-echo.json",
+    "name": "Rot-Echo",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\rot-grub.json",
+    "name": "Rot Grub (L1 Minion)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\rot-warped-landvaettr.json",
+    "name": "Rot-Warped Landvaettr",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\rottouched.json",
+    "name": "Rot-Touched",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\vine-strangler.json",
+    "name": "Vine Strangler",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\warden-captain-halvard.json",
+    "name": "Warden-Captain Halvard",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\wight-commander.json",
+    "name": "Wight-Commander (L4 Standard)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\wight-lord.json",
+    "name": "Wight-Lord",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\monsters\\wyrd-draugr.json",
+    "name": "Wyrd-Draugr",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\bolverkt-djpdvergr-scout.json",
+    "name": "Bolverkt (Djúpdvergr Scout)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\bryn-ketilsdottir.json",
+    "name": "Bryn Ketilsdottir",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\brynja-steinsdottir-refugee-leader.json",
+    "name": "Brynja Steinsdóttir (Refugee Leader)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\dreyfus.json",
+    "name": "Dreyfus (The King's Hound)",
+    "type": "npc",
+    "book": "Svellheim (Original)"
+  },
+  {
+    "path": "data\\npcs\\eirik-greyhand.json",
+    "name": "Warden-Sergeant Eirik Greyhand",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\elder-thyra-steamoasis-leader.json",
+    "name": "Elder Thyra (Steam-Oasis Leader)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\gragnir-the-druid.json",
+    "name": "Gragnir, Ash-Walker",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\grenvordr-elder-of-the-green-heart.json",
+    "name": "Grénvörðr (Elder of the Green Heart)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\high-king-harald.json",
+    "name": "High King Harald",
+    "type": "npc",
+    "book": "Svellheim (Original)"
+  },
+  {
+    "path": "data\\npcs\\high-king-harold.json",
+    "name": "High King Harald",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\hild.json",
+    "name": "Hild (Innkeeper)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\hildvar-bruneson-forgemaster.json",
+    "name": "Hildvarð Bruneson (Forgemaster)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\kaelen-the-seventh.json",
+    "name": "Kaelen (The Seventh)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\lew-tosferd.json",
+    "name": "Llewyellen \"Lew\" Tosferd",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\rickety-frets.json",
+    "name": "Rickety Frets",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\soldis-glodfari.json",
+    "name": "Söldís Glóðfari",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\solveig-the-burner.json",
+    "name": "Solveig the Burner",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\solvi.json",
+    "name": "Solvi (Ember-Keeper of Stairwatch)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\thrinn-ashward-pale-maw-inquisitor.json",
+    "name": "Thráinn Ashward (Pale Maw Inquisitor)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\thyra-blackhand.json",
+    "name": "Thyra Blackhand",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\vigmund-haldorsson-jarl-of-rindgate.json",
+    "name": "Vigmund Haldorsson (Jarl of Rindgate)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\npcs\\yrsa-frostbane-pale-maw-strike-leader.json",
+    "name": "Yrsa Frostbane (Pale Maw Strike Leader)",
+    "type": "npc",
+    "book": "Svellheim Campaign (Era of Embers)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\1st-Level\\Askmal-Hearth-Lamp.json",
+    "name": "Askmål Hearth-Lamp",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\1st-Level\\Dverg-Camp-Iron.json",
+    "name": "Dverg Camp-Iron",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\1st-Level\\Fjordmal-Trade-Rope.json",
+    "name": "Fjordmål Trade-Rope",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\1st-Level\\Headsmans-Blade.json",
+    "name": "Headsman's Blade",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\1st-Level\\Tonttu-Snare-Set.json",
+    "name": "Tonttu Snare-Set",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\5th-Level\\Beinmark-March-Drum.json",
+    "name": "Beinmark March-Drum",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\5th-Level\\Gratstrand-Salt-Cure-Kit.json",
+    "name": "Gråtstrand Salt-Cure Kit",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\5th-Level\\Myrmal-Reed-Raft.json",
+    "name": "Myrmål Reed-Raft",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\5th-Level\\Skjoldfjeldsmal-Storm-Lantern.json",
+    "name": "Skjoldfjellsmål Storm-Lantern",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\9th-Level\\Askeskogdsmal-Root-Shelter.json",
+    "name": "Askeskogsmål Root-Shelter",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\9th-Level\\Hvitvidde-Far-North-Sled.json",
+    "name": "Hvitvidde Far-North Sled",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\9th-Level\\Jotuntunga-War-Banner.json",
+    "name": "Jötuntunga War-Banner",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Crafting\\9th-Level\\Svellspraak-Binding-Codex.json",
+    "name": "Svellspraak Binding-Codex",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\1st-Level\\Beinmark-Foot-Drill.json",
+    "name": "Beinmark Foot-Drill",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\1st-Level\\Fjordmal-Rope-Work.json",
+    "name": "Fjordmål Rope-Work",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\1st-Level\\Gratstrand-Cold-Swim.json",
+    "name": "Gråtstrand Cold-Swim",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\1st-Level\\Tonttumal-Quiet-Step.json",
+    "name": "Tonttumál Quiet-Step",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\5th-Level\\Dvergsmal-Stone-Reading.json",
+    "name": "Dvergsmål Stone-Reading",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\5th-Level\\Myrmal-Bog-Scout-Fieldcraft.json",
+    "name": "Myrmål Bog-Scout Fieldcraft",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\5th-Level\\Ormstunga-Wyrm-Caller-Basics.json",
+    "name": "Ormstunga Wyrm-Caller Basics",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\5th-Level\\Skjoldfjellsmal-Dueling-Form.json",
+    "name": "Skjoldfjellsmål Dueling Form",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\9th-Level\\Askeskogdsmal-Grove-Walking.json",
+    "name": "Askeskogsmål Grove-Walking",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\9th-Level\\Jotuntunga-Oath-Combat.json",
+    "name": "Jötuntunga Oath-Combat",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\9th-Level\\Strupemal-War-Chant-Mastery.json",
+    "name": "Strupemål War-Chant Mastery",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Other\\9th-Level\\Svellspraak-Court-Tongue.json",
+    "name": "Svellspraak Court-Tongue",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\1st-Level\\Fjordmal-Tidal-Tables.json",
+    "name": "Fjordmål Tidal Tables",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\1st-Level\\Ormstunga-Drake-Signs.json",
+    "name": "Ormstunga Drake-Signs",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\1st-Level\\Sommerdalsmal-Peace-Customs.json",
+    "name": "Sommerdalsmål Peace-Customs",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\1st-Level\\Tonttumal-Ward-Sign-Primer.json",
+    "name": "Tonttumál Ward-Sign Primer",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\5th-Level\\Askeskogdsmal-Grove-Lore.json",
+    "name": "Askeskogsmål Grove-Lore",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\5th-Level\\Beinmarksmal-Border-History.json",
+    "name": "Beinmarksmål Border-History",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\5th-Level\\Dvergsmal-Deep-Survey.json",
+    "name": "Dvergsmål Deep-Survey",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\5th-Level\\Gratstrandsmal-Wreck-Records.json",
+    "name": "Gråtstrandsmål Wreck-Records",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\9th-Level\\Hvittviddemal-Far-North-Survey.json",
+    "name": "Hvittviddemål Far-North Survey",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\9th-Level\\Jotuntunga-True-Names-Registry.json",
+    "name": "Jötuntunga True-Names Registry",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\9th-Level\\Strupemal-War-Chant-Etymology.json",
+    "name": "Strupemål War-Chant Etymology",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  },
+  {
+    "path": "data\\projects\\Research\\9th-Level\\Svellspraak-Court-Chronicles.json",
+    "name": "Svellspraak Court-Chronicles",
+    "type": "project",
+    "book": "Svellheim Campaign (Homebrew)"
+  }
+]

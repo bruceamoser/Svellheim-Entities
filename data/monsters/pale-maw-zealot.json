@@ -1,8 +1,239 @@
 {
   "_id": "Jiu5smA5x98TRiLt",
   "name": "Pale Maw Zealot",
-  "img": "systems/draw-steel/assets/roles/ambusher.svg",
-  "items": [],
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "items": [
+    {
+      "_id": "2502b91665edf77a",
+      "name": "Entropy Weapon",
+      "type": "ability",
+      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "system": {
+        "description": {
+          "value": "<p>The zealot strikes with a weapon infused with entropic energy.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "action",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "might"
+          ],
+          "tier1": {
+            "damage": {
+              "value": 3,
+              "type": ""
+            }
+          },
+          "tier2": {
+            "damage": {
+              "value": 5,
+              "type": ""
+            }
+          },
+          "tier3": {
+            "damage": {
+              "value": 7,
+              "type": ""
+            }
+          }
+        },
+        "effect": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!Jiu5smA5x98TRiLt.2502b91665edf77a"
+    },
+    {
+      "_id": "1e508b011d3d1b84",
+      "name": "Zealous Cry",
+      "type": "ability",
+      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "system": {
+        "description": {
+          "value": "<p>The zealot screams a prayer to the Pale Maw, releasing a wave of psychic dread.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "villain",
+        "keywords": [
+          "area",
+          "magic",
+          "psychic"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 4,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "All creatures in burst"
+        },
+        "effect": {
+          "value": "<p>All creatures in the area take 2 psychic damage and must make a Presence test or be frightened until the end of their next turn.</p>"
+        },
+        "spend": {
+          "value": 1,
+          "text": "Malice"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!Jiu5smA5x98TRiLt.1e508b011d3d1b84"
+    },
+    {
+      "_id": "90c689f6ba531658",
+      "name": "True Believer",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Immune to fear and charm. Cannot be demoralized.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-zealot-true-believer",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "_key": "!actors.items!Jiu5smA5x98TRiLt.90c689f6ba531658"
+    },
+    {
+      "_id": "49909a6372f1b494",
+      "name": "Frenzied Devotion",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Below half SP, +1 to all attacks and saves.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-zealot-frenzied-devotion",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "_key": "!actors.items!Jiu5smA5x98TRiLt.49909a6372f1b494"
+    },
+    {
+      "_id": "e7df9d3b4cac929e",
+      "name": "Martyr's Rush",
+      "type": "feature",
+      "img": "systems/draw-steel/assets/icons/abilities/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>If another Pale Maw creature is reduced to 0 SP within 30 feet, may immediately shift 3 squares toward the target as a free triggered action.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!Jiu5smA5x98TRiLt.e7df9d3b4cac929e"
+    }
+  ],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -54,7 +285,7 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
+      "value": 28,
       "max": 28,
       "temporary": 0
     },

@@ -1,8 +1,224 @@
 {
   "_id": "pCvMQr6nRUKsXK8F",
   "name": "Keeper Guardian Construct",
-  "img": "systems/draw-steel/assets/roles/defender.svg",
-  "items": [],
+  "img": "icons/creatures/magical/construct-stone-golem-grey.webp",
+  "items": [
+    {
+      "_id": "JRxT8p17DNqBmEJ0",
+      "name": "Stone Fist",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "_dsid": "keeper-guardian-stone-fist",
+        "description": {
+          "value": "<p><strong>Main Action — Melee, Reach 1, +Might</strong></p><p>The stone guardian strikes with a massive carved fist.</p><p><strong>Effect:</strong> 5 damage.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        },
+        "ability": {
+          "keywords": [
+            "attack",
+            "melee",
+            "weapon"
+          ],
+          "type": "action",
+          "actionType": "action",
+          "distance": {
+            "type": "reach",
+            "primary": 1
+          },
+          "target": {
+            "type": "creature",
+            "value": 1
+          },
+          "powerRoll": null,
+          "effect": "",
+          "resource": null,
+          "trigger": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!pCvMQr6nRUKsXK8F.JRxT8p17DNqBmEJ0",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "msknGv4mc4tZUczV",
+      "name": "Keeper’s Judgment",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "_dsid": "keeper-guardian-keeper-s-judgment",
+        "description": {
+          "value": "<p><strong>Main Action — Burst 6 (30ft), +Presence</strong></p><p>The construct channels ancient Keeper authority. All creatures in range must make a Presence test or take 3 damage and be pushed 1 square away.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        },
+        "ability": {
+          "keywords": [
+            "area",
+            "magic"
+          ],
+          "type": "action",
+          "actionType": "action",
+          "distance": {
+            "type": "burst",
+            "primary": 6
+          },
+          "target": {
+            "type": "all",
+            "value": 0
+          },
+          "powerRoll": null,
+          "effect": "",
+          "resource": null,
+          "trigger": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!pCvMQr6nRUKsXK8F.msknGv4mc4tZUczV",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "c33uXnRl9qPDumtE",
+      "name": "Stone Form",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "_dsid": "keeper-guardian-stone-form",
+        "description": {
+          "value": "<p>The Keeper Guardian Construct is immune to poison and disease. It has resistance to non-magical damage.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!pCvMQr6nRUKsXK8F.c33uXnRl9qPDumtE",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BK4VM82y685XMQ9Q",
+      "name": "Decay",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "_dsid": "keeper-guardian-decay",
+        "description": {
+          "value": "<p>Corruption eats at the construct’s strength. Each time it takes damage, roll a d6. On a 6, it loses its next action.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!pCvMQr6nRUKsXK8F.BK4VM82y685XMQ9Q",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4bkNWTLKlnNaxGXN",
+      "name": "Threshold Guardian",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "_dsid": "keeper-guardian-threshold-guardian",
+        "description": {
+          "value": "<p>The construct does not pursue creatures that leave its guarded area. It returns to its post once intruders withdraw.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!pCvMQr6nRUKsXK8F.4bkNWTLKlnNaxGXN",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uOVnAn6RfFJKQLt9",
+      "name": "Recognition",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "_dsid": "keeper-guardian-recognition",
+        "description": {
+          "value": "<p>Recognizes Kaelen as a Keeper (ember-mark). If she introduces herself as Keeper, the construct may stand aside without combat (Presence TN 13).</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!pCvMQr6nRUKsXK8F.uOVnAn6RfFJKQLt9",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -36,12 +252,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
+      "src": "icons/creatures/magical/construct-stone-golem-grey.webp"
     },
     "ring": {
       "enabled": true
@@ -54,7 +265,7 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
+      "value": 28,
       "max": 28,
       "temporary": 0
     },

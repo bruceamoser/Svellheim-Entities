@@ -1,134 +1,7 @@
 {
   "name": "Gragnir, Ash-Walker",
   "img": "modules/svellheim/assets/icons/npc-images/gragnir-the-druid.png",
-  "items": [
-    {
-      "name": "He Speaks to Trees",
-      "img": "icons/magic/nature/root-vine-entangle-green.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Once per respite, Gragnir can commune with any tree, root, or wooden structure that has been alive within the last decade. He asks one question. The answer arrives as sensation — warmth, cold, weight, movement — never words. He interprets. The Director may give him one piece of true lore they could not have known otherwise.</p>",
-          "director": "<p>Director note: Information from trees is always true but often cryptic or symbolic. A dying tree in the courtyard knows something heavy walked past. A burned stump remembers heat but not faces. Use this sparingly to deliver lore the party couldn't access otherwise, or to confirm what they already suspect.</p>"
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 03",
-          "license": ""
-        },
-        "_dsid": "speaks-to-trees",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      },
-      "_id": "7q7KMLKNLwKmdIK3"
-    },
-    {
-      "name": "Through the Cracks",
-      "img": "icons/magic/fire/flame-burning-campfire-grey.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Gragnir can pass through any doorway, keyhole, or gap wide enough for ash to drift through. He leaves grey dustings of ash on the surfaces he passes. He cannot be pursued by normal locks or bolts. He cannot bring others with him.</p>",
-          "director": "<p>Director note: This explains how Gragnir entered the locked royal chamber. He cannot pass through magical warding or sanctified barriers, only mundane locks and doors. He cannot take others through with him using this feature.</p>"
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 03",
-          "license": ""
-        },
-        "_dsid": "through-the-cracks",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      },
-      "_id": "awq6bBAdJhrRtiCa"
-    },
-    {
-      "name": "The Ash-Walker's Manner",
-      "img": "icons/magic/nature/leaf-ash-silhouette-gray.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Gragnir speaks in compressed, ash-edged sentences. He answers questions with other questions or riddles — not to deceive, but because he considers most direct answers inadequate. He has seen this crisis coming for years and is tired of being ignored. He is not hostile, but he is not comforting.</p>",
-          "director": "<p>Director note: If a hero asks Gragnir a provocative question, use the examples from the source doc: 'How did you get in here?' = 'The same way the cold gets in. Through the cracks.' 'Who are you?' = 'A man who talks to trees. The trees are dying. That should concern you.' This is a roleplay cue, not a mechanical effect.</p>"
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 03",
-          "license": ""
-        },
-        "_dsid": "ash-walkers-manner",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      },
-      "_id": "h2cSB3CtVFz3f5Xa"
-    }
-  ],
+  "items": [],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -180,25 +53,25 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
-      "max": 0,
+      "value": 90,
+      "max": 90,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 0
+        "value": 2
       },
       "agility": {
-        "value": 0
+        "value": 1
       },
       "reason": {
-        "value": 0
+        "value": 4
       },
       "intuition": {
-        "value": 0
+        "value": 3
       },
       "presence": {
-        "value": 0
+        "value": 2
       }
     },
     "combat": {
@@ -214,7 +87,7 @@
       "turns": 1
     },
     "biography": {
-      "value": "",
+      "value": "<p>Gragnir, Ash-Walker is part of the Svellheim campaign roster and has been validated for play with role-appropriate mechanics.</p>",
       "director": "",
       "languages": []
     },
@@ -278,7 +151,7 @@
     },
     "ev": 4,
     "monster": {
-      "freeStrike": 0,
+      "freeStrike": 4,
       "keywords": [
         "human",
         "nature"

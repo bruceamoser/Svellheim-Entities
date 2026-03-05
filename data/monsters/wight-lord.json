@@ -36,7 +36,7 @@
         "letter": "M"
       },
       "stability": 2,
-      "turns": 1
+      "turns": 2
     },
     "biography": {
       "value": "<p>A Wight-Lord is a towering undead commander — a figure of corroded mail and black iron, crowned with a circlet of dark metal. It carries a banner of frozen bone (a human spine wrapped in frozen sinew) and commands the lesser dead with terrible authority. Its eye sockets burn with pale green fire, and when it speaks, its voice is the grinding of stone on stone. Where a Wight-Lord walks, the temperature drops, breath fogs, and weapons frost over. The dead around it straighten, their shuffling replaced by purposeful, coordinated movement.</p>",
@@ -81,7 +81,8 @@
     },
     "statuses": {
       "immunities": [
-        "frightened"
+        "frightened",
+        "charmed"
       ]
     },
     "source": {
@@ -104,7 +105,7 @@
       "level": 4,
       "ev": 24,
       "role": "hexer",
-      "organization": "leader"
+      "organization": "boss"
     }
   },
   "prototypeToken": {

@@ -1,8 +1,369 @@
 {
   "_id": "nAz1lEadTbkTbkKC",
   "name": "Grave-Construct",
-  "img": "systems/draw-steel/assets/roles/brute.svg",
-  "items": [],
+  "img": "icons/creatures/unholy/skeleton-bone-skull.webp",
+  "items": [
+    {
+      "_id": "YEYpp0YkVgeuQmbR",
+      "name": "Grave Smash",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "_dsid": "grave-construct-grave-smash",
+        "description": {
+          "value": "<p><strong>Signature Action — Melee, Reach 1</strong></p><p>The Grave-Construct slams a massive bone-fused fist into its target.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        },
+        "ability": {
+          "keywords": [
+            "attack",
+            "melee",
+            "weapon"
+          ],
+          "type": "action",
+          "actionType": "action",
+          "distance": {
+            "type": "reach",
+            "primary": 1
+          },
+          "target": {
+            "type": "creature",
+            "value": 1
+          },
+          "powerRoll": {
+            "characteristic": [
+              "might"
+            ],
+            "tier1": {
+              "damage": {
+                "value": 4,
+                "type": "untyped"
+              },
+              "effect": ""
+            },
+            "tier2": {
+              "damage": {
+                "value": 8,
+                "type": "untyped"
+              },
+              "effect": "Push 1"
+            },
+            "tier3": {
+              "damage": {
+                "value": 12,
+                "type": "untyped"
+              },
+              "effect": "Push 2; prone"
+            }
+          },
+          "effect": "",
+          "resource": null,
+          "trigger": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!nAz1lEadTbkTbkKC.YEYpp0YkVgeuQmbR",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4ThH2kcY9FW2Izbb",
+      "name": "Rot Pulse",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "_dsid": "grave-construct-rot-pulse",
+        "description": {
+          "value": "<p><strong>Main Action — Burst 6 (30ft), 2 Malice</strong></p><p>A wave of necrotic Rot energy pulses outward from the Construct.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        },
+        "ability": {
+          "keywords": [
+            "area",
+            "magic"
+          ],
+          "type": "action",
+          "actionType": "action",
+          "distance": {
+            "type": "burst",
+            "primary": 6
+          },
+          "target": {
+            "type": "all",
+            "value": 0
+          },
+          "powerRoll": {
+            "characteristic": [
+              "reason"
+            ],
+            "tier1": {
+              "damage": {
+                "value": 3,
+                "type": "corruption"
+              },
+              "effect": ""
+            },
+            "tier2": {
+              "damage": {
+                "value": 5,
+                "type": "corruption"
+              },
+              "effect": "Intuition test or weakened (EoNT)"
+            },
+            "tier3": {
+              "damage": {
+                "value": 7,
+                "type": "corruption"
+              },
+              "effect": "Weakened (EoNT) for all targets in range"
+            }
+          },
+          "effect": "",
+          "resource": 2,
+          "trigger": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!nAz1lEadTbkTbkKC.4ThH2kcY9FW2Izbb",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4ShYjXT3GHVkk53K",
+      "name": "Keeper’s Bane",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "_dsid": "grave-construct-keeper-s-bane",
+        "description": {
+          "value": "<p><strong>Main Action — Ranged 6 (30ft), Targets Kaelen Only</strong></p><p>The Construct channels Grafvitnir’s will to disrupt the Keeper’s ritual.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        },
+        "ability": {
+          "keywords": [
+            "attack",
+            "ranged",
+            "magic"
+          ],
+          "type": "action",
+          "actionType": "action",
+          "distance": {
+            "type": "ranged",
+            "primary": 6
+          },
+          "target": {
+            "type": "creature",
+            "value": 1
+          },
+          "powerRoll": {
+            "characteristic": [
+              "presence"
+            ],
+            "tier1": {
+              "damage": {
+                "value": 3,
+                "type": "untyped"
+              },
+              "effect": ""
+            },
+            "tier2": {
+              "damage": {
+                "value": 6,
+                "type": "untyped"
+              },
+              "effect": "Presence test or ritual interrupted (must spend next action to restart)"
+            },
+            "tier3": {
+              "damage": {
+                "value": 8,
+                "type": "untyped"
+              },
+              "effect": "Ritual interrupted + frightened (EoNT)"
+            }
+          },
+          "effect": "",
+          "resource": null,
+          "trigger": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!nAz1lEadTbkTbkKC.4ShYjXT3GHVkk53K",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "yQUuFaSqhCT51YBY",
+      "name": "Grafvitnir’s Decree",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "_dsid": "grave-construct-grafvitnir-s-decree",
+        "description": {
+          "value": "<p><strong>Malice (3) — Ranged 8 (40ft), Single Target</strong></p><p>The Construct roars with Grafvitnir’s voice, channeling pure necrotic dread.</p><p><strong>Effect:</strong> Target makes a Presence test. On failure: 3d6 necrotic damage and frightened (save ends).</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        },
+        "ability": {
+          "keywords": [
+            "area",
+            "magic"
+          ],
+          "type": "action",
+          "actionType": "villain",
+          "distance": {
+            "type": "ranged",
+            "primary": 8
+          },
+          "target": {
+            "type": "creature",
+            "value": 1
+          },
+          "powerRoll": null,
+          "effect": "",
+          "resource": null,
+          "trigger": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!nAz1lEadTbkTbkKC.yQUuFaSqhCT51YBY",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IadS5Oi29X1dilhz",
+      "name": "Root-Bound",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "_dsid": "grave-construct-root-bound",
+        "description": {
+          "value": "<p>The Grave-Construct cannot move more than 60 feet from the ember seed’s location. If forced beyond that range, it teleports back adjacent to the seed at the end of its turn.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!nAz1lEadTbkTbkKC.IadS5Oi29X1dilhz",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Wpr18eXRIEHdwnce",
+      "name": "Undying Purpose",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "_dsid": "grave-construct-undying-purpose",
+        "description": {
+          "value": "<p>When reduced below 20 Stamina, the Grave-Construct gains +1 to attack rolls and has an edge on Might defense tests against forced movement.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!nAz1lEadTbkTbkKC.Wpr18eXRIEHdwnce",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nZuivqZ3k98rHaV5",
+      "name": "Constructed Resilience",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "_dsid": "grave-construct-constructed-resilience",
+        "description": {
+          "value": "<p>The Grave-Construct is immune to poison and disease effects.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!nAz1lEadTbkTbkKC.nZuivqZ3k98rHaV5",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -36,12 +397,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
+      "src": "icons/creatures/unholy/skeleton-bone-skull.webp"
     },
     "ring": {
       "enabled": true
@@ -54,7 +410,7 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
+      "value": 50,
       "max": 50,
       "temporary": 0
     },
@@ -93,7 +449,7 @@
       "languages": []
     },
     "movement": {
-      "value": 4,
+      "value": 6,
       "types": [
         "walk"
       ],

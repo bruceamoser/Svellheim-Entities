@@ -1,8 +1,138 @@
 {
   "_id": "R7kWdXvP3mYn9qLs",
   "name": "Heitfolk Sentry",
-  "img": "systems/draw-steel/assets/roles/defender.svg",
-  "items": [],
+  "img": "icons/equipment/shield/heater-steel-worn.webp",
+  "items": [
+    {
+      "_id": "fY2cNpU0e9hgY5le",
+      "name": "Axe Strike",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "_dsid": "heitfolk-sentry-axe-strike",
+        "description": {
+          "value": "<p><strong>Main Action — Melee, Reach 1</strong></p><p>The sentry swings a heavy dwarven axe.</p><p><strong>Effect:</strong> 7 damage.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        },
+        "ability": {
+          "keywords": [
+            "attack",
+            "melee",
+            "weapon"
+          ],
+          "type": "action",
+          "actionType": "action",
+          "distance": {
+            "type": "reach",
+            "primary": 1
+          },
+          "target": {
+            "type": "creature",
+            "value": 1
+          },
+          "powerRoll": null,
+          "effect": "",
+          "resource": null,
+          "trigger": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!R7kWdXvP3mYn9qLs.fY2cNpU0e9hgY5le",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lSIEBquLanYKjD7w",
+      "name": "Shield Shove",
+      "type": "ability",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "_dsid": "heitfolk-sentry-shield-shove",
+        "description": {
+          "value": "<p><strong>Main Action — Melee, Reach 1</strong></p><p>The sentry rams with their heavy shield.</p><p><strong>Effect:</strong> 3 damage and target is pushed 2 squares.</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        },
+        "ability": {
+          "keywords": [
+            "attack",
+            "melee",
+            "weapon"
+          ],
+          "type": "action",
+          "actionType": "action",
+          "distance": {
+            "type": "reach",
+            "primary": 1
+          },
+          "target": {
+            "type": "creature",
+            "value": 1
+          },
+          "powerRoll": null,
+          "effect": "",
+          "resource": null,
+          "trigger": ""
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!R7kWdXvP3mYn9qLs.lSIEBquLanYKjD7w",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "2vE5hWrOgGSKOEsL",
+      "name": "Tunnel-Kin",
+      "type": "feature",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "_dsid": "heitfolk-sentry-tunnel-kin",
+        "description": {
+          "value": "<p>The Heitfolk Sentry cannot be flanked. They gain +2 to all tests in enclosed spaces (caves, tunnels, and ruins).</p>",
+          "gm": ""
+        },
+        "source": {
+          "value": "Svellheim Campaign (Era of Embers)"
+        }
+      },
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!R7kWdXvP3mYn9qLs.2vE5hWrOgGSKOEsL",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -36,12 +166,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
+      "src": "icons/equipment/shield/heater-steel-worn.webp"
     },
     "ring": {
       "enabled": true
@@ -54,7 +179,7 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
+      "value": 24,
       "max": 24,
       "temporary": 0
     },

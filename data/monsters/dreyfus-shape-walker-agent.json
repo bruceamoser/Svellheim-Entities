@@ -622,7 +622,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "icons/creatures/abilities/wolf-rune-glowing-teal.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",

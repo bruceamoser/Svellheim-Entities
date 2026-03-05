@@ -5,8 +5,8 @@
   "img": "modules/svellheim/assets/icons/npc-images/thyra-blackhand.png",
   "system": {
     "stamina": {
-      "value": 40,
-      "max": 40,
+      "value": 35,
+      "max": 35,
       "temporary": 0
     },
     "characteristics": {
@@ -105,7 +105,7 @@
       "keywords": [
         "humanoid"
       ],
-      "level": 3,
+      "level": 4,
       "ev": 10,
       "role": "support",
       "organization": "platoon"
@@ -198,86 +198,7 @@
     "appendNumber": false,
     "prependAdjective": false
   },
-  "items": [
-    {
-      "name": "Deserter's Resolve",
-      "type": "feature",
-      "_id": "THBK000000000001",
-      "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
-      "system": {
-        "description": {
-          "value": "<p>Thyra deserted the Chainwardens to protect civilians. She distrusts all institutional authority. Invoking rank, titles, or the King's name gains no leverage&mdash;only practical help and genuine hope move her.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "deserters-resolve",
-        "advancements": {}
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Holdfast Commander",
-      "type": "feature",
-      "_id": "THBK000000000002",
-      "img": "icons/sundries/flags/banner-symbol-axe-red.webp",
-      "system": {
-        "description": {
-          "value": "<p>Thyra commands ~30 armed civilians at the Greyfen Holdfast. She has fortified the ruined village with barricades and sharpened stakes. If negotiations fail or the PCs threaten her people, she has enough fighters to make a fight costly.</p>",
-          "director": "<p>Do not let the PCs simply push past Thyra. She has numbers, fortifications, and nothing to lose. Fighting her earns no Victories and costs 1 Victory if any civilians are harmed.</p>"
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "holdfast-commander",
-        "advancements": {}
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 100000,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "The Dead Are Converging",
-      "type": "feature",
-      "_id": "THBK000000000003",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
-      "system": {
-        "description": {
-          "value": "<p>If negotiations succeed, Thyra shares critical intelligence: 'The dead aren't random. They're converging.' She provides 3 days' trail rations, information about ice on Titan's Stair switchbacks and a rockslide narrowing the pass&mdash;and a warning that something is organizing the undead.</p>",
-          "director": "<p>This intelligence foreshadows the Wight-Lord and the siege of Hrafnborg. It should make the PCs feel the weight of what's coming.</p>"
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "the-dead-are-converging",
-        "advancements": {}
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 200000,
-      "ownership": {
-        "default": 0
-      }
-    }
-  ],
+  "items": [],
   "effects": [],
   "flags": {},
   "_stats": {

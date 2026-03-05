@@ -1,8 +1,286 @@
 {
   "_id": "UjkSd0Maslocpfvt",
   "name": "Pale Maw Veteran",
-  "img": "systems/draw-steel/assets/roles/defender.svg",
-  "items": [],
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "items": [
+    {
+      "_id": "61cbaca917a4c7f4",
+      "name": "Veteran's Thrust",
+      "type": "ability",
+      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "system": {
+        "description": {
+          "value": "<p>A practiced, efficient melee strike from a battle-hardened veteran.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "action",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "might"
+          ],
+          "tier1": {
+            "damage": {
+              "value": 3,
+              "type": ""
+            }
+          },
+          "tier2": {
+            "damage": {
+              "value": 5,
+              "type": ""
+            }
+          },
+          "tier3": {
+            "damage": {
+              "value": 7,
+              "type": ""
+            }
+          }
+        },
+        "effect": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!UjkSd0Maslocpfvt.61cbaca917a4c7f4"
+    },
+    {
+      "_id": "f74d4155703f5e22",
+      "name": "Covering Fire",
+      "type": "ability",
+      "img": "systems/draw-steel/assets/icons/abilities/ability.svg",
+      "system": {
+        "description": {
+          "value": "<p>The veteran fires a suppressive shot that hampers the target's movement.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "action",
+        "keywords": [
+          "ranged",
+          "weapon"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 8,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "agility"
+          ],
+          "tier1": {
+            "damage": {
+              "value": 2,
+              "type": ""
+            }
+          },
+          "tier2": {
+            "damage": {
+              "value": 3,
+              "type": ""
+            },
+            "description": "Target is slowed until end of next turn."
+          },
+          "tier3": {
+            "damage": {
+              "value": 5,
+              "type": ""
+            },
+            "description": "Target is slowed until end of next turn."
+          }
+        },
+        "effect": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!UjkSd0Maslocpfvt.f74d4155703f5e22"
+    },
+    {
+      "_id": "afbb806b70170633",
+      "name": "Experienced",
+      "type": "feature",
+      "img": "systems/draw-steel/assets/icons/abilities/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>An edge on Intuition tests to anticipate enemy actions and react.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!UjkSd0Maslocpfvt.afbb806b70170633"
+    },
+    {
+      "_id": "83cf89c87f076e7d",
+      "name": "Defensive Posture",
+      "type": "feature",
+      "img": "systems/draw-steel/assets/icons/abilities/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>When adjacent to another Pale Maw unit, gains +1 to Presence tests to resist being moved.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!UjkSd0Maslocpfvt.83cf89c87f076e7d"
+    },
+    {
+      "_id": "1d01f427cfc7bc60",
+      "name": "Shield Wall",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>enemies moving through spaces adjacent to Veteran must make an Agility test (moderate) or stop movement.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-veteran-shield-wall",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "_key": "!actors.items!UjkSd0Maslocpfvt.1d01f427cfc7bc60"
+    },
+    {
+      "_id": "30ddcde79beb04f0",
+      "name": "Steadfast",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>+1 stability. On Might defense success: adjacent PM ally may shift 1 square as free action.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-veteran-steadfast",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "_key": "!actors.items!UjkSd0Maslocpfvt.30ddcde79beb04f0"
+    }
+  ],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -54,7 +332,7 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
+      "value": 30,
       "max": 30,
       "temporary": 0
     },

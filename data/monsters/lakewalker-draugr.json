@@ -1,8 +1,362 @@
 {
   "_id": "aow6GGeUHfWB2tJE",
   "name": "Lakewalker Draugr",
-  "img": "systems/draw-steel/assets/roles/defender.svg",
-  "items": [],
+  "img": "icons/creatures/unholy/undead-zombie-ice.webp",
+  "items": [
+    {
+      "name": "Frozen March",
+      "type": "ability",
+      "_id": "787354434f9618ba",
+      "_key": "!actors.items!aow6GGeUHfWB2tJE.787354434f9618ba",
+      "system": {
+        "description": {
+          "value": "<p>A crushing blow of frost-rimed fist or weapon. +6 vs. Might; 7 cold damage. Critical: Target is slowed (save ends).</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "keywords": [
+          "melee",
+          "weapon"
+        ],
+        "distance": [
+          {
+            "type": "reach",
+            "value": 1
+          }
+        ],
+        "target": {
+          "value": "One creature"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "might"
+          ],
+          "tier1": {
+            "value": "5 cold damage"
+          },
+          "tier2": {
+            "value": "7 cold damage"
+          },
+          "tier3": {
+            "value": "9 cold damage; slowed (save ends)"
+          }
+        },
+        "effect": {
+          "value": ""
+        },
+        "spend": [],
+        "trigger": {
+          "value": ""
+        },
+        "cost": ""
+      },
+      "img": "icons/svg/sword.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1772721673236,
+        "modifiedTime": 1772721673236,
+        "lastModifiedBy": "validation-fix",
+        "compendiumSource": null,
+        "duplicateSource": null
+      }
+    },
+    {
+      "name": "Inexorable Advance",
+      "type": "ability",
+      "_id": "3e5c3f53da725756",
+      "_key": "!actors.items!aow6GGeUHfWB2tJE.3e5c3f53da725756",
+      "system": {
+        "description": {
+          "value": "<p>The Lakewalker moves its speed in a straight line. Each creature in its path must succeed on a Might test (difficulty 12) or be pushed 2 squares to the side and take 4 cold damage.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": {
+          "value": "villainAction"
+        },
+        "keywords": [
+          "melee"
+        ],
+        "distance": [
+          {
+            "type": "special",
+            "value": 0
+          }
+        ],
+        "target": {
+          "value": "Each creature in path"
+        },
+        "powerRoll": null,
+        "effect": {
+          "value": "Move speed in a straight line. Creatures in path: Might test TN 12 or pushed 2 and 4 cold damage."
+        },
+        "spend": [],
+        "trigger": {
+          "value": ""
+        },
+        "cost": "1 Malice"
+      },
+      "img": "icons/svg/sword.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1772721673236,
+        "modifiedTime": 1772721673236,
+        "lastModifiedBy": "validation-fix",
+        "compendiumSource": null,
+        "duplicateSource": null
+      }
+    },
+    {
+      "name": "Cold Snap",
+      "type": "ability",
+      "_id": "129ec99b5cc14e03",
+      "_key": "!actors.items!aow6GGeUHfWB2tJE.129ec99b5cc14e03",
+      "system": {
+        "description": {
+          "value": "<p>The Lakewalker slams one foot into the ground. Each creature within 4 squares must succeed on an Agility test (difficulty 12) or take 3 cold damage. The affected area becomes difficult terrain (ice) until the end of the encounter.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": {
+          "value": "villainAction"
+        },
+        "keywords": [
+          "area"
+        ],
+        "distance": [
+          {
+            "type": "burst",
+            "value": 4
+          }
+        ],
+        "target": {
+          "value": "Each creature in burst"
+        },
+        "powerRoll": null,
+        "effect": {
+          "value": "Agility test TN 12 or 3 cold damage. Area becomes difficult terrain (ice) until end of encounter."
+        },
+        "spend": [],
+        "trigger": {
+          "value": ""
+        },
+        "cost": "2 Malice"
+      },
+      "img": "icons/svg/sword.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1772721673236,
+        "modifiedTime": 1772721673236,
+        "lastModifiedBy": "validation-fix",
+        "compendiumSource": null,
+        "duplicateSource": null
+      }
+    },
+    {
+      "_id": "CS2PbdNAXgMhDQYt",
+      "name": "Relentless Patrol",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>If not in melee at start of turn, moves toward its patrol path (nearest point on Hornvatn’s ice). Attacks anything in the way but doesn’t pursue creatures that step aside.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "lakewalker-draugr-relentless-patrol",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "KIDY0Eq9PXrv0sLc",
+      "name": "Ice-Bound",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Resist cold. Vulnerable fire (doubled).</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "lakewalker-draugr-ice-bound",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "Y0U5iKpXjYWYV7K8",
+      "name": "Unresponsive",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Immune to fear, charm, communication-based effects. Cannot be negotiated with.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "lakewalker-draugr-unresponsive",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "FLID2vROGylmTupW",
+      "name": "Frozen Shell",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>At 0 SP: freezes in place mid-stride as an ice statue. Does not collapse.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "lakewalker-draugr-frozen-shell",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    }
+  ],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -36,7 +390,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "icons/creatures/unholy/undead-zombie-ice.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -54,7 +408,7 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
+      "value": 30,
       "max": 30,
       "temporary": 0
     },

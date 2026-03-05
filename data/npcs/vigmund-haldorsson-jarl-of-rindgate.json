@@ -54,8 +54,8 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
-      "max": 30,
+      "value": 35,
+      "max": 35,
       "temporary": 0
     },
     "characteristics": {

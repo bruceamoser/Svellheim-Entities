@@ -194,201 +194,143 @@
     {
       "name": "Oath-Blade",
       "type": "ability",
-      "img": "icons/weapons/swords/sword-runed-glowing.webp",
+      "_id": "30cd7dcfade29a29",
+      "_key": "!actors.items!XWXVl7jyyMKvvRXT.30cd7dcfade29a29",
       "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
+        "description": {
+          "value": "<p>A heavy, hate-filled strike from a corroded but lethal weapon. +5 vs. Might; 7 damage. On tier 3: target takes ongoing 2 cold damage (save ends).</p>"
         },
-        "_dsid": "oath-broken-draugr-oath-blade",
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": {
+          "value": "action"
+        },
         "keywords": [
           "melee",
-          "strike",
           "weapon"
         ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
+        "distance": [
+          {
+            "type": "reach",
+            "value": 1
+          }
+        ],
         "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
+          "value": "One creature"
         },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Tier 3:</strong> The target takes ongoing 2 cold damage (save ends).</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [
-              "might"
-            ],
-            "formula": "@chr",
-            "reactive": false
+        "powerRoll": {
+          "characteristic": [
+            "might"
+          ],
+          "tier1": {
+            "value": "5 damage"
           },
-          "effects": {
-            "OBDR000000000001": {
-              "type": "damage",
-              "_id": "OBDR000000000001",
-              "damage": {
-                "tier1": {
-                  "value": "7",
-                  "types": [],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "7",
-                  "types": [],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "might"
-                  }
-                },
-                "tier3": {
-                  "value": "7",
-                  "types": [
-                    "cold"
-                  ],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "might"
-                  }
-                }
-              }
-            }
+          "tier2": {
+            "value": "7 damage"
+          },
+          "tier3": {
+            "value": "9 damage; ongoing 2 cold damage (save ends)"
           }
         },
-        "story": ""
+        "effect": {
+          "value": ""
+        },
+        "spend": [],
+        "trigger": {
+          "value": ""
+        },
+        "cost": ""
       },
+      "img": "icons/svg/sword.svg",
       "effects": [],
-      "_id": "OBDR000000000002",
-      "flags": {},
       "folder": null,
       "sort": 0,
       "ownership": {
         "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1772721810812,
+        "modifiedTime": 1772721810812,
+        "lastModifiedBy": "validation-fix",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {
       "name": "Accusing Howl",
       "type": "ability",
-      "img": "icons/magic/death/undead-ghost-scream-teal.webp",
+      "_id": "18333530305a57ad",
+      "_key": "!actors.items!XWXVl7jyyMKvvRXT.18333530305a57ad",
       "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
+        "description": {
+          "value": "<p>The draugr screams a name — not yours, but someone you've failed. +4 vs. Presence; 5 psychic damage and target has a bane on their next power roll.</p>"
         },
-        "_dsid": "oath-broken-draugr-accusing-howl",
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": {
+          "value": "villainAction"
+        },
         "keywords": [
           "ranged",
-          "strike"
+          "psychic"
         ],
-        "type": "main",
-        "category": "heroic",
-        "resource": {
-          "type": "malice",
-          "value": 5
-        },
-        "trigger": "",
-        "distance": {
-          "type": "ranged",
-          "primary": 5,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "ranged",
+        "distance": [
+          {
+            "type": "ranged",
+            "value": 5
+          }
+        ],
         "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
+          "value": "One creature"
         },
-        "effect": {
-          "before": "",
-          "after": "<p>The target has a bane on their next power roll. <em>The draugr screams a name — not yours, but someone you've failed.</em></p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [
-              "presence"
-            ],
-            "formula": "@chr",
-            "reactive": false
+        "powerRoll": {
+          "characteristic": [
+            "presence"
+          ],
+          "tier1": {
+            "value": "3 psychic damage"
           },
-          "effects": {
-            "OBDR000000000003": {
-              "type": "damage",
-              "_id": "OBDR000000000003",
-              "damage": {
-                "tier1": {
-                  "value": "5",
-                  "types": [
-                    "psychic"
-                  ],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "5",
-                  "types": [
-                    "psychic"
-                  ],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "presence"
-                  }
-                },
-                "tier3": {
-                  "value": "5",
-                  "types": [
-                    "psychic"
-                  ],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "presence"
-                  }
-                }
-              }
-            }
+          "tier2": {
+            "value": "5 psychic damage; bane on next power roll"
+          },
+          "tier3": {
+            "value": "7 psychic damage; bane on next power roll"
           }
         },
-        "story": ""
+        "effect": {
+          "value": ""
+        },
+        "spend": [],
+        "trigger": {
+          "value": ""
+        },
+        "cost": "5 Malice"
       },
+      "img": "icons/svg/sword.svg",
       "effects": [],
-      "_id": "OBDR000000000004",
-      "flags": {},
       "folder": null,
       "sort": 0,
       "ownership": {
         "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1772721810812,
+        "modifiedTime": 1772721810812,
+        "lastModifiedBy": "validation-fix",
+        "compendiumSource": null,
+        "duplicateSource": null
       }
     },
     {

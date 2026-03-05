@@ -1,8 +1,684 @@
 {
   "_id": "Q8xYMkL2FGiI4pSj",
   "name": "Grafvitnir, Rot-Given-Shape — Stage 2 (L7 Solo)",
-  "img": "systems/draw-steel/assets/roles/boss.svg",
-  "items": [],
+  "img": "icons/creatures/unholy/demon-horned-black-red.webp",
+  "items": [
+    {
+      "name": "Tendril Strike",
+      "type": "ability",
+      "img": "icons/magic/nature/root-vine-entangled-green.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 4
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "SSlfey3BIbW29XEj": {
+              "_id": "5ZrPXMphafTriXFH",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "7",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "11",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
+                  "value": "11",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-2-tendril-strike",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "k30vlthW9qMaLwxA",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.k30vlthW9qMaLwxA"
+    },
+    {
+      "name": "Rot Pulse",
+      "type": "ability",
+      "img": "icons/magic/death/skull-humanoid-white-blue.webp",
+      "system": {
+        "type": "main",
+        "category": "heroic",
+        "keywords": [
+          "area"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 3
+        },
+        "target": {
+          "type": "enemy",
+          "value": null,
+          "custom": "Each enemy in the area"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "presence"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "tzY7q1omx2dfzWtF": {
+              "_id": "28Ci4FpA7SNgrj6z",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "8",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target is <strong>Frightened</strong> until end of their next turn.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-2-rot-pulse",
+        "story": "",
+        "resource": 3,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "flDughxHfCpIZ3nl",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.flDughxHfCpIZ3nl"
+    },
+    {
+      "name": "Tendril Lash",
+      "type": "ability",
+      "img": "icons/magic/nature/root-vine-entangled-green.webp",
+      "system": {
+        "type": "free",
+        "category": "",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 4
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "FiXRODYfoKoP2Qlk": {
+              "_id": "NQ4DIcaO481iEbM9",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "8",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
+                  "value": "8",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-2-tendril-lash",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "P5H9yopYJi11r82k",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.P5H9yopYJi11r82k"
+    },
+    {
+      "name": "Root Eruption",
+      "type": "ability",
+      "img": "icons/magic/nature/root-vine-fire-entangled-orange.webp",
+      "system": {
+        "type": "villain",
+        "category": "",
+        "keywords": [
+          "ranged",
+          "area"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 10
+        },
+        "target": {
+          "type": "creature",
+          "value": 3,
+          "custom": "Three separate targets"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "LTf7WduNhRmS9Ceo": {
+              "_id": "YKSSVhoBkjEojn77",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "7",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "10",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Villain Action 1</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>Three separate squares (each in range 10). The target is <strong>Restrained</strong> (save ends).</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-2-root-eruption",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "sxraFGY3FXNjJUR6",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.sxraFGY3FXNjJUR6"
+    },
+    {
+      "name": "Rot Spread",
+      "type": "ability",
+      "img": "icons/magic/death/skull-poison-green.webp",
+      "system": {
+        "type": "villain",
+        "category": "",
+        "keywords": [
+          "area"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 4
+        },
+        "target": {
+          "type": "enemy",
+          "value": null,
+          "custom": "Area effect"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": ""
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Villain Action 2</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>Close Burst 4 becomes <strong>difficult terrain</strong> (Rot-saturated ground, 2 movement per square) until end of encounter.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-2-rot-spread",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "YmKfsDv6uMWAADEp",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.YmKfsDv6uMWAADEp"
+    },
+    {
+      "name": "Reach and Grasp",
+      "type": "ability",
+      "img": "icons/magic/nature/root-vine-entangled-purple.webp",
+      "system": {
+        "type": "villain",
+        "category": "",
+        "keywords": [
+          "ranged",
+          "strike"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 10
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "NPvEwD2nLf5PnV7m": {
+              "_id": "8TkMN1uLdxcQ6NUo",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "8",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "12",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
+                  "value": "12",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Villain Action 3</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>The target is <strong>Grabbed</strong> and takes 5 ongoing damage (escape TN 13).</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-2-reach-and-grasp",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "2fv5oSRH2CKTdxaM",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.2fv5oSRH2CKTdxaM"
+    },
+    {
+      "name": "End Effect",
+      "type": "feature",
+      "img": "icons/magic/control/debuff-chains-ropes-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>When Grafvitnir starts his turn, he can take 10 damage to end one effect on him that a save ends.</p>"
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-2-end-effect",
+        "story": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "HlsYX52RXZPsY0x6",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.HlsYX52RXZPsY0x6"
+    },
+    {
+      "name": "Spectral Instability",
+      "type": "feature",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Grafvitnir’s shifting mass disperses the force of every attack. He reduces all incoming damage by 3 (minimum 1 damage dealt). This is constant and automatic — each blow lands on a form that is already moving, already changing, absorbing the force across dozens of half-real shapes.</p>"
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-2-spectral-instability",
+        "story": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "0cybb3Tyt34hgcZq",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.0cybb3Tyt34hgcZq"
+    },
+    {
+      "name": "Undying Hunger",
+      "type": "feature",
+      "img": "icons/magic/death/undead-skeleton-rags-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the start of each of Grafvitnir’s turns, he regains 5 Stamina unless the Ever-Ember is burning within the same zone.</p>"
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-2-undying-hunger",
+        "story": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "0W6OFwS10mF5tKYm",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.0W6OFwS10mF5tKYm"
+    },
+    {
+      "name": "Stage Transition",
+      "type": "feature",
+      "img": "icons/magic/death/skull-humanoid-white-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>When the flame is extinguished AND restored by Söldís, Grafvitnir’s howl triggers Stage 3. His current Stamina becomes irrelevant — Stage 3 uses a fresh Stamina pool.</p>"
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-2-stage-transition",
+        "story": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "FirUqUDdYwU8B2H2",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.FirUqUDdYwU8B2H2"
+    }
+  ],
   "effects": [],
   "flags": {
     "era-of-embers": {
@@ -41,7 +717,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "systems/draw-steel/assets/roles/boss.svg",
+      "src": "icons/creatures/unholy/demon-horned-black-red.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -65,10 +741,10 @@
     },
     "characteristics": {
       "might": {
-        "value": 6
+        "value": 5
       },
       "agility": {
-        "value": 4
+        "value": 3
       },
       "reason": {
         "value": 4
@@ -93,8 +769,8 @@
       "turns": 2
     },
     "biography": {
-      "value": "<p><strong>Grafvitnir, Rot-Given-Shape — Level 7 Solo</strong></p><p><em>Supernatural, Gargantuan</em></p><p>Stamina 200 (fresh pool) | Speed 6 | Size Gargantuan | Stability 6</p><p>Turns: 2 per round | Free Strike: 8 | EV: 108</p><p><em>What rises from the roots is not a wolf anymore and has not decided what it wants to be. Too many joints. Proportions that keep shifting. A face appears in one location and then another. Limbs emerge and dissolve. Grafvitnir wearing every shape he has worn in a thousand years of imprisonment, all at once, unable to choose.</em></p><hr><h3>Main Attacks</h3><p><strong>Tendril Strike</strong> (Melee, Reach 4): +5 vs Might; 11 damage.</p><p><strong>Rot Pulse</strong> (Close Burst 3): +4 vs Presence; 8 damage, target Frightened until end of next turn.</p><hr><h3>Free Strike</h3><p><strong>Tendril Lash</strong> (Melee, Reach 4): +5 vs Might; 8 damage.</p><hr><h3>Villain Actions</h3><p><em>Each usable once per encounter, max 1 per round; triggers at end of any hero's turn:</em></p><p><strong>(VA1) Root Eruption:</strong> Three separate squares (each in range 10), +5 vs Agility; 10 damage, target Restrained (save ends).</p><p><strong>(VA2) Rot Spread:</strong> Close Burst 4 becomes difficult terrain (Rot-saturated ground, 2 movement per square) until end of encounter.</p><p><strong>(VA3) Reach and Grasp:</strong> Ranged 10, +5 vs Might; 12 damage, target Grabbed and takes 5 ongoing damage (escape TN 13).</p><hr><h3>Features</h3><p><strong>End Effect:</strong> When Grafvitnir starts his turn, he can take 10 damage to end one effect on him that a save ends.</p><p><strong>Spectral Instability:</strong> Grafvitnir's shifting mass disperses every attack. He reduces all incoming damage by 3 (minimum 1 damage dealt). Each blow lands on a form that is already moving, already changing, absorbing the force across dozens of half-real shapes.</p><p><strong>Undying Hunger:</strong> At the start of each of Grafvitnir's turns, he regains 5 Stamina unless the Ever-Ember is burning within the same zone.</p><p><strong>Stage Transition (to Stage 3):</strong> When the flame is extinguished AND restored by Söldís, Grafvitnir's howl triggers Stage 3. He grows, roots pull more mass from the ground, the ceiling breaks apart.</p>",
-      "director": "<p><strong>TACTICAL GUIDANCE — STAGE 2:</strong></p><p>Stage 2 is about managing the clock. The Ever-Ember must stay burning to suppress Undying Hunger. The party is fighting against time and entropy.</p><ul><li>Grafvitnir fills the great hall. Roots spread across zones. Tendrils reach far.</li><li><strong>Undying Hunger</strong> means the party is playing a losing game if they only deal damage — the flame IS the weapon.</li><li>VA1 (Root Eruption) locks heroes down. VA2 (Rot Spread) reshapes the battlefield. VA3 (Reach and Grasp) isolates a single target.</li><li>The <strong>Spectral Instability</strong> soak (-3 damage) is predictable — the party always knows. Feels fair while representing something that won't hold a shape.</li></ul><p><strong>KEY MOMENT — GRAFVITNIR EXTINGUISHES THE FLAME:</strong> During Stage 2, one precise tendril crosses the hall and wraps around the Ever-Ember shrine. The flame goes out. The hall goes dark. The cold comes in immediately. For one moment, the party is terrified.</p><p><strong>KEY MOMENT — SÖLDÍS'S ACT:</strong> She opens the clay pot. Twenty-two years she has carried it. She tilts it over the shrine. The flame IGNITES — fills the shrine, rises up the walls, reaches for the ceiling. Warm, huge, unmistakably <em>alive</em> in the way only something kept alive by absolute refusal can be.</p><p><strong>KEY MOMENT — LEW ARRIVES:</strong> The north gate opens. Lew runs through it. Behind him: Heitfolk, Green Heart elves, survivors from the settlements. His amber eye blazing. He shouts about the Green Heart growing. He asks: \"What do you need me to do?\" Then he is <em>moving</em>, joining the fight.</p><p><strong>Expected Duration:</strong> 3–4 rounds before Söldís's act triggers the transition.</p>",
+      "value": "<p><strong>Grafvitnir, Rot-Given-Shape — Stage 2</strong></p><p><em>Supernatural, Gargantuan • Level 7 Solo • Stamina 200 • Speed 6 • Stability 6 • Free Strike 8 • EV 108</em></p><p>What rises from the roots is not a wolf anymore. Too many joints. Proportions that keep shifting. A face appears in one location and then another. Limbs emerge and dissolve. It is Grafvitnir wearing every shape he’s worn in a thousand years of imprisonment, all at once, unable to choose. It is enormously powerful and deeply wrong.</p><p>Takes 2 turns per round. Has 3 Villain Actions (each once per encounter, max 1 per round).</p>",
+      "director": "<p><strong>TACTICAL GUIDANCE — STAGE 2:</strong></p><p>Stage 2 is about managing the clock. Grafvitnir’s <strong>Undying Hunger</strong> regenerates 5 Stamina per turn unless the Ever-Ember is burning in the same zone. The party must keep the flame burning while dealing damage.</p><p><strong>Spectral Instability:</strong> All incoming damage is reduced by 3 (min 1). Tell players after first hit — this is fair, predictable, and represents his shifting mass.</p><p><strong>VA Escalation:</strong> VA1 (Root Eruption) locks heroes down. VA2 (Rot Spread) reshapes the battlefield with difficult terrain. VA3 (Reach and Grasp) isolates a single target with grab + ongoing damage.</p><p><strong>Key Moment:</strong> Söldís restores the flame after Grafvitnir extinguishes it. The Ever-Ember’s restoration triggers the Stage 3 transition.</p><p>Expected duration: 3–4 rounds before Söldís’s act triggers the transition.</p>",
       "languages": []
     },
     "movement": {
@@ -143,7 +819,8 @@
     "monster": {
       "freeStrike": 8,
       "keywords": [
-        "supernatural"
+        "supernatural",
+        "undead"
       ],
       "level": 7,
       "role": "brute",

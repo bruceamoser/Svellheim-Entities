@@ -1,8 +1,647 @@
 {
   "_id": "R9yZNlM3GHjJ5qTk",
   "name": "Grafvitnir, the Hunger Made Manifest — Stage 3 (L8 Solo)",
-  "img": "systems/draw-steel/assets/roles/boss.svg",
-  "items": [],
+  "img": "icons/creatures/unholy/demon-fire-large-red.webp",
+  "items": [
+    {
+      "name": "Void Grasp",
+      "type": "ability",
+      "img": "icons/magic/unholy/hand-claw-fire-purple.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 6
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "yEOJqhUtU6BPDvgi": {
+              "_id": "MlkxckpyztK7Dz6Q",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "9",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "14",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
+                  "value": "14",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target is <strong>Grabbed</strong>.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-3-void-grasp",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "sJyvjPtSyh721NKE",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!R9yZNlM3GHjJ5qTk.sJyvjPtSyh721NKE"
+    },
+    {
+      "name": "Hunger Pulse",
+      "type": "ability",
+      "img": "icons/magic/death/skull-energy-light-purple.webp",
+      "system": {
+        "type": "main",
+        "category": "heroic",
+        "keywords": [
+          "area"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 4
+        },
+        "target": {
+          "type": "enemy",
+          "value": null,
+          "custom": "Each enemy in the area"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "presence"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "yXkUgmOI3pHUD1cJ": {
+              "_id": "ugHIHymBTTye9ERq",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "7",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "10",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target loses 1 Recovery.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-3-hunger-pulse",
+        "story": "",
+        "resource": 3,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "f751AT70xUvhMEky",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!R9yZNlM3GHjJ5qTk.f751AT70xUvhMEky"
+    },
+    {
+      "name": "Crushing Tendril",
+      "type": "ability",
+      "img": "icons/magic/nature/root-vine-entangled-green.webp",
+      "system": {
+        "type": "free",
+        "category": "",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 6
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "mNjHUav6qVHs7fk0": {
+              "_id": "UNxAganxUdJNqzxK",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "6",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "9",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
+                  "value": "9",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-3-crushing-tendril",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "qKKjgHF9up6bwFvT",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!R9yZNlM3GHjJ5qTk.qKKjgHF9up6bwFvT"
+    },
+    {
+      "name": "World-Ending Swipe",
+      "type": "ability",
+      "img": "icons/magic/fire/explosion-embers-red.webp",
+      "system": {
+        "type": "villain",
+        "category": "",
+        "keywords": [
+          "area",
+          "strike"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 5
+        },
+        "target": {
+          "type": "enemy",
+          "value": null,
+          "custom": "All creatures in the area"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "wK1E4jdsWmpPdXVp": {
+              "_id": "ezHCfLGgWDvLsyiX",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "10",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "15",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Villain Action 1</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>All creatures in Close Burst 5. The target is knocked <strong>Prone</strong>.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-3-world-ending-swipe",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "o1ZdeIq2YCVjemSc",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!R9yZNlM3GHjJ5qTk.o1ZdeIq2YCVjemSc"
+    },
+    {
+      "name": "Despair Made Flesh",
+      "type": "ability",
+      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+      "system": {
+        "type": "villain",
+        "category": "",
+        "keywords": [
+          "ranged"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 10
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": ""
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "presence"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Villain Action 2</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>The target loses all Hero Tokens and is <strong>Frightened</strong> (save ends).</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-3-despair-made-flesh",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "Ofii4VqqW9qf4Xuv",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!R9yZNlM3GHjJ5qTk.Ofii4VqqW9qf4Xuv"
+    },
+    {
+      "name": "Root Storm",
+      "type": "ability",
+      "img": "icons/magic/nature/root-vine-fire-entangled-orange.webp",
+      "system": {
+        "type": "villain",
+        "category": "",
+        "keywords": [
+          "ranged",
+          "area"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 10
+        },
+        "target": {
+          "type": "creature",
+          "value": 3,
+          "custom": "Three separate targets"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "I2af8093fSaDT9nF": {
+              "_id": "hKiQWLC6HTtOB6EJ",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "8",
+                  "types": [],
+                  "properties": []
+                },
+                "tier2": {
+                  "value": "12",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
+                  "value": "12",
+                  "types": [],
+                  "properties": []
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p><strong>Villain Action 3</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>Three separate targets anywhere in the hall. The target is <strong>Slowed</strong> (save ends).</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-3-root-storm",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "g4wqHm5dHUOGnNtf",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!R9yZNlM3GHjJ5qTk.g4wqHm5dHUOGnNtf"
+    },
+    {
+      "name": "End Effect",
+      "type": "feature",
+      "img": "icons/magic/control/debuff-chains-ropes-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>When Grafvitnir starts his turn, he can take 10 damage to end one effect on him that a save ends.</p>"
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-3-end-effect",
+        "story": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "17jZAfhDhql3XRWK",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!R9yZNlM3GHjJ5qTk.17jZAfhDhql3XRWK"
+    },
+    {
+      "name": "Prison Madness",
+      "type": "feature",
+      "img": "icons/magic/death/skull-humanoid-white-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>A thousand years of confinement. Grafvitnir cannot be Taunted, Frightened, or reasoned with. Attempts to negotiate, intimidate, or psychologically pressure him simply fail. He is beyond psychology.</p>"
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-3-prison-madness",
+        "story": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "55t6jrw6RV70WS7e",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!R9yZNlM3GHjJ5qTk.55t6jrw6RV70WS7e"
+    },
+    {
+      "name": "The Seal Closing",
+      "type": "feature",
+      "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the start of Round 4, the Green Heart blazes white. Grafvitnir’s Stamina becomes irrelevant — he is dragged back into the earth regardless. The seal closes.</p>"
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "license": "Draw Steel Creator License",
+          "page": ""
+        },
+        "_dsid": "grafvitnir-stage-3-the-seal-closing",
+        "story": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "h2HF1DW2XHx1zAR1",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!R9yZNlM3GHjJ5qTk.h2HF1DW2XHx1zAR1"
+    }
+  ],
   "effects": [],
   "flags": {
     "era-of-embers": {
@@ -41,7 +680,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "systems/draw-steel/assets/roles/boss.svg",
+      "src": "icons/creatures/unholy/demon-fire-large-red.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -65,16 +704,16 @@
     },
     "characteristics": {
       "might": {
-        "value": 7
+        "value": 6
       },
       "agility": {
-        "value": 4
+        "value": 3
       },
       "reason": {
         "value": 4
       },
       "intuition": {
-        "value": 5
+        "value": 4
       },
       "presence": {
         "value": 7
@@ -93,12 +732,12 @@
       "turns": 2
     },
     "biography": {
-      "value": "<p><strong>Grafvitnir, the Hunger Made Manifest — Level 8 Solo</strong></p><p><em>Supernatural, Titanic</em></p><p>Stamina 150 (fresh pool) | Speed: fills space | Stability 8</p><p>Turns: 2 per round | Free Strike: 9 | EV: 120</p><p><em>All form abandoned. Pure hunger and will and rage. Grafvitnir fills the great hall and the sky above it. He is no longer any shape — he is the space where a shape should be. His attention has the specific quality of a thing that has been waiting for a thousand years and is finally certain it has run out of time.</em></p><hr><h3>THE ROUND COUNTER (CRITICAL)</h3><p>Grafvitnir must be <strong>held</strong> for 4 rounds. Each round, the Green Heart light grows brighter. The seal is <em>closing</em>. The party's job is not to kill him — it's to keep him contained until the seal completes.</p><p><strong>Round 1:</strong> Green Heart blazing gold. The barrier begins to thicken. Unnatural cold retreats from the flagstones.</p><p><strong>Round 2:</strong> Light brighter. Warm on the party's faces. Grafvitnir is <em>screaming</em>. The barrier densifying around him.</p><p><strong>Round 3:</strong> Light <em>intense</em>. Gold, blazing, rewriting the sky. The cold Grafvitnir carries is being burned away. The barrier nearly restored.</p><p><strong>Round 4:</strong> Light goes white. Clean, absolute, unstoppable. The barrier slams shut. <strong>READ THE FINAL READ-ALOUD. Grafvitnir is dragged back into the earth regardless of Stamina.</strong></p><hr><h3>Main Attacks</h3><p><strong>Void Grasp</strong> (Melee, Reach 6): +6 vs Might; 14 damage, target Grabbed.</p><p><strong>Hunger Pulse</strong> (Close Burst 4): +5 vs Presence; 10 damage, target loses 1 Recovery.</p><hr><h3>Free Strike</h3><p><strong>Crushing Tendril</strong> (Melee, Reach 6): +6 vs Might; 9 damage.</p><hr><h3>Villain Actions</h3><p><em>Each usable once per encounter, max 1 per round; triggers at end of any hero's turn:</em></p><p><strong>(VA1) World-Ending Swipe:</strong> All creatures in Close Burst 5, +6 vs Agility; 15 damage, Prone.</p><p><strong>(VA2) Despair Made Flesh:</strong> One target, +5 vs Presence; target loses all Hero Tokens and is Frightened (save ends).</p><p><strong>(VA3) Root Storm:</strong> Three separate targets anywhere in the hall, +5 vs Might; 12 damage each, targets Slowed (save ends).</p><hr><h3>Features</h3><p><strong>End Effect:</strong> When Grafvitnir starts his turn, he can take 10 damage to end one effect on him that a save ends.</p><p><strong>Prison Madness:</strong> A thousand years of confinement. Grafvitnir cannot be Taunted, Frightened, or reasoned with. Attempts to negotiate, intimidate, or psychologically pressure him simply fail. He is beyond psychology.</p><p><strong>The Seal Closing (Round 4):</strong> At the start of Round 4, the Green Heart blazes white. Grafvitnir's Stamina becomes irrelevant — he is dragged back into the earth regardless.</p>",
-      "director": "<p><strong>TACTICAL GUIDANCE — STAGE 3:</strong></p><p>Stage 3 is about the clock, not about winning through combat. The great hall is devastated — ceiling open to the sky. Grafvitnir fills the space. The party fights in wreckage against the oldest enemy in Svellheim.</p><ul><li><strong>This is not a winnable fight by normal combat rules.</strong> The party cannot kill Grafvitnir. They must <em>survive him</em> for 4 rounds until the seal closes.</li><li>Damage matters strategically (reducing his offensive capability via End Effect trade-offs) but not for the victory condition.</li><li>VA1 (World-Ending Swipe) is the opener — overwhelming force statement. VA2 (Despair Made Flesh) is psychological escalation — strips Hero Tokens. VA3 (Root Storm) is targeted destruction before the seal closes.</li><li>Each round, describe the Green Heart light growing: gold → blazing → intense → white. The warmth increasing. Grafvitnir's screaming growing more desperate.</li></ul><p><strong>THE SEAL CLOSES:</strong> At Round 4, the light goes white. The roots RECOIL. Grafvitnir is pulled downward. The cracks seal. The undead outside stop — like puppets when the hand opens. The unnatural cold retreats. The Ever-Ember burns in the shrine. Kaelen's work burns in the east. Hrafnborg is warm.</p><p><strong>Expected Duration:</strong> Exactly 4 rounds. The encounter should feel overwhelming, desperate, and ultimately triumphant.</p>",
+      "value": "<p><strong>Grafvitnir, The Hunger Made Manifest — Stage 3</strong></p><p><em>Supernatural, Titanic • Level 8 Solo • Stamina 150 • Stability 8 • Free Strike 9 • EV 120</em></p><p>All form abandoned. Pure hunger and will and rage. Grafvitnir fills the great hall and the sky above it. The ceiling has broken apart. His attention has the specific quality of a thing that has been waiting for a thousand years and is finally certain it has run out of time.</p><p>Takes 2 turns per round. Has 3 Villain Actions (each once per encounter, max 1 per round).</p><p><strong>THE ROUND COUNTER:</strong> Grafvitnir must be <em>held</em> for 4 rounds. Each round, the Green Heart light grows brighter. The seal is closing. At the start of Round 4, the light goes white and Grafvitnir is dragged back into the earth regardless of his current Stamina.</p>",
+      "director": "<p><strong>TACTICAL GUIDANCE — STAGE 3:</strong></p><p>Stage 3 is about the clock, not about winning through combat. The party cannot kill Grafvitnir. They must <em>survive him</em> until the seal closes on Round 4.</p><p><strong>Round 1:</strong> Green Heart blazing gold. VA1 (World-Ending Swipe) is the opener — overwhelming force against everyone.</p><p><strong>Round 2:</strong> Light brighter. Grafvitnir is screaming. VA2 (Despair Made Flesh) strips Hero Tokens from one target — psychological devastation.</p><p><strong>Round 3:</strong> Light intense. The cold is burning away. VA3 (Root Storm) — targeted destruction against three heroes.</p><p><strong>Round 4:</strong> The light goes white. Read the Sealing read-aloud. Grafvitnir is dragged back into the earth. <strong>The party wins regardless of his current Stamina.</strong></p><p><strong>Prison Madness:</strong> Cannot be Taunted, Frightened, or reasoned with. Negotiation attempts simply fail.</p><p>Damage to Grafvitnir matters strategically (End Effect trade-offs) but not for the victory condition. This is the emotional climax.</p>",
       "languages": []
     },
     "movement": {
-      "value": 0,
+      "value": 4,
       "types": [
         "walk"
       ],
@@ -146,7 +785,8 @@
     "monster": {
       "freeStrike": 9,
       "keywords": [
-        "supernatural"
+        "supernatural",
+        "undead"
       ],
       "level": 8,
       "role": "brute",

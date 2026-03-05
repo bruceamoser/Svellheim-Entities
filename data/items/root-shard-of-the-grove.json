@@ -17,8 +17,17 @@
     ],
     "source": {
       "book": "Svellheim Campaign (Era of Embers)",
-      "page": "",
+      "page": "Beat 22",
       "license": ""
+    },
+    "_dsid": "root-shard-of-the-grove",
+    "kind": "",
+    "project": {
+      "prerequisites": "",
+      "source": "",
+      "rollCharacteristic": "",
+      "goal": 0,
+      "yield": ""
     }
   },
   "effects": [],

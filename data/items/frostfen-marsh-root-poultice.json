@@ -8,8 +8,8 @@
       "director": "<p><strong>Found:</strong> Beat 4 — Montage Test 1. Can be discovered during a successful medium Intuition test to scout the Frostfen, or purchased from a refugee herbalist on the Herdweg for 1 day's rations (Heat currency). Also found in the medicine box at the Dead Waystation (Beat 8), though by then the family who owned it is beyond help.</p><p><strong>Yield Note:</strong> An herbalist PC can craft these with appropriate Reason/Intuition tests during respites if they have access to marsh-root (common in the Frostfen, rare elsewhere).</p>"
     },
     "source": {
-      "book": "Era of Embers",
-      "page": "",
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "Beat 04",
       "license": ""
     },
     "_dsid": "frostfen-marsh-root-poultice",

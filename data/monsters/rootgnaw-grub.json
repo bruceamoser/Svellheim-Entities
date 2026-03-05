@@ -5,8 +5,8 @@
   "img": "modules/svellheim/assets/icons/monster-images/rootgnaw-grub.png",
   "system": {
     "stamina": {
-      "value": 5,
-      "max": 5,
+      "value": 1,
+      "max": 1,
       "temporary": 0
     },
     "characteristics": {
@@ -46,7 +46,8 @@
     "movement": {
       "value": 5,
       "types": [
-        "walk"
+        "walk",
+        "burrow"
       ],
       "hover": false,
       "disengage": 1
@@ -93,13 +94,13 @@
       "impression": 1
     },
     "monster": {
-      "freeStrike": 2,
+      "freeStrike": 1,
       "keywords": [
         "beast"
       ],
       "level": 1,
       "ev": 3,
-      "role": "controller",
+      "role": "ambusher",
       "organization": "minion"
     }
   },
@@ -190,19 +191,45 @@
   },
   "items": [
     {
+      "_id": "vW7J4SMQ25fuZr8m",
       "name": "Gnaw",
+      "img": "icons/creatures/claws/claw-barbed-light.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
       "type": "ability",
-      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
       "system": {
         "source": {
           "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
+          "page": "Beat 15",
           "license": ""
         },
         "_dsid": "rootgnaw-grub-gnaw",
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        },
+        "story": "",
         "keywords": [
           "melee",
-          "strike"
+          "strike",
+          "weapon"
         ],
         "type": "main",
         "category": "signature",
@@ -218,33 +245,28 @@
         "target": {
           "type": "creatureObject",
           "value": 1,
-          "custom": ""
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>On any hit, the grub can latch onto the target. The target must use an action to remove the grub. While latched, the target takes 2 ongoing damage at the start of each of their turns.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
+          "custom": "one creature or object"
         },
         "power": {
           "roll": {
+            "reactive": false,
+            "formula": "@chr",
             "characteristics": [
               "might"
-            ],
-            "formula": "@chr",
-            "reactive": false
+            ]
           },
           "effects": {
-            "RGGR000000000001": {
+            "9JZqGdFlc0WfyF7X": {
               "type": "damage",
-              "_id": "RGGR000000000001",
+              "_id": "9JZqGdFlc0WfyF7X",
+              "name": "",
+              "img": null,
+              "sort": 0,
               "damage": {
                 "tier1": {
                   "value": "2",
                   "types": [],
-                  "ignoredImmunities": [],
+                  "properties": [],
                   "potency": {
                     "value": "@potency.weak",
                     "characteristic": "none"
@@ -253,60 +275,75 @@
                 "tier2": {
                   "value": "4",
                   "types": [],
-                  "ignoredImmunities": [],
+                  "properties": [],
                   "potency": {
                     "value": "@potency.average",
-                    "characteristic": "might"
+                    "characteristic": "none"
                   }
                 },
                 "tier3": {
                   "value": "6",
                   "types": [],
-                  "ignoredImmunities": [],
+                  "properties": [],
                   "potency": {
                     "value": "@potency.strong",
-                    "characteristic": "might"
+                    "characteristic": "none"
                   }
                 }
               }
             }
           }
         },
-        "story": ""
-      },
+        "effect": {
+          "before": "",
+          "after": "<p>On tier 2+, the grub latches onto the target. While latched, the target takes 2 damage at the start of each of its turns. A creature can use a maneuver to remove a latched grub (destroying it).</p>"
+        },
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      }
+    },
+    {
+      "_id": "3BhOcG6537VvYiKI",
+      "name": "Pack Burrowers",
+      "img": "icons/environment/creatures/insect-swarmlike.webp",
       "effects": [],
-      "_id": "RGGR000000000002",
       "flags": {},
       "folder": null,
       "sort": 0,
       "ownership": {
         "default": 0
-      }
-    },
-    {
-      "name": "Burrow",
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
       "type": "feature",
-      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "system": {
         "description": {
-          "value": "<p>The Rootgnaw Grub can burrow through loose soil and ash at speed 3.</p>",
+          "value": "<p>The grub gains edge while adjacent to another Rootgnaw creature.</p>",
           "director": ""
         },
         "source": {
           "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
+          "page": "Beat 15",
           "license": ""
         },
-        "_dsid": "rootgnaw-grub-burrow",
-        "advancements": {}
-      },
-      "effects": [],
-      "_id": "RGGR000000000003",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
+        "_dsid": "rootgnaw-grub-pack-burrowers",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
       }
     }
   ],

@@ -1,8 +1,311 @@
 {
   "_id": "OdxMlD7osKrRaOOG",
   "name": "Pale Maw Inquisitor (Thráinn Ashward)",
-  "img": "systems/draw-steel/assets/roles/controller.svg",
-  "items": [],
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "items": [
+    {
+      "name": "Zealot's Judgment",
+      "type": "ability",
+      "_id": "d104b8a6305d8962",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "action",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "One creature"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "presence"
+          ],
+          "tier1": {
+            "value": "6 corruption damage; marked (next attack against this target gains an edge)"
+          },
+          "tier2": {
+            "value": "10 corruption damage; marked (next attack against this target gains an edge)"
+          },
+          "tier3": {
+            "value": "14 corruption damage; marked (next attack against this target gains an edge)"
+          }
+        },
+        "effect": {
+          "value": ""
+        },
+        "spend": {
+          "value": ""
+        },
+        "persistence": {
+          "value": ""
+        }
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!OdxMlD7osKrRaOOG.d104b8a6305d8962"
+    },
+    {
+      "name": "Voice of Entropy",
+      "type": "ability",
+      "_id": "ec23ab229e86a080",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>(2 Malice)</strong> The Inquisitor speaks a word of entropy. Reality frays around them as psychic energy tears at all nearby enemies.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "villain",
+        "keywords": [
+          "area",
+          "magic",
+          "psychic"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 6,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "All enemies in the burst"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "presence"
+          ],
+          "tier1": {
+            "value": "4 psychic damage"
+          },
+          "tier2": {
+            "value": "7 psychic damage; frightened (EoT)"
+          },
+          "tier3": {
+            "value": "10 psychic damage; frightened (save ends)"
+          }
+        },
+        "effect": {
+          "value": ""
+        },
+        "spend": {
+          "value": ""
+        },
+        "persistence": {
+          "value": ""
+        }
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!OdxMlD7osKrRaOOG.ec23ab229e86a080"
+    },
+    {
+      "name": "Final Requiem",
+      "type": "ability",
+      "_id": "04fce264b6549997",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>(3 Malice; only while below 15 Stamina)</strong> The Inquisitor channels their fading life into a devastating psychic requiem. All nearby enemies hear the final hymn of entropy.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        },
+        "actionType": "villain",
+        "keywords": [
+          "area",
+          "magic",
+          "psychic"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 8,
+          "secondary": null,
+          "tertiary": null
+        },
+        "target": {
+          "value": "All enemies in the burst"
+        },
+        "powerRoll": {
+          "characteristic": [
+            "presence"
+          ],
+          "tier1": {
+            "value": "5 psychic damage"
+          },
+          "tier2": {
+            "value": "9 psychic damage; dazed (EoT)"
+          },
+          "tier3": {
+            "value": "14 psychic damage; stunned (save ends)"
+          }
+        },
+        "effect": {
+          "value": ""
+        },
+        "spend": {
+          "value": ""
+        },
+        "persistence": {
+          "value": ""
+        }
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!OdxMlD7osKrRaOOG.04fce264b6549997"
+    },
+    {
+      "name": "Despair Aura",
+      "type": "feature",
+      "_id": "5d17ebabef06cd09",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>Aura 4 (20 ft.). Allied creatures within the aura gain a +1 bonus to power rolls. Enemy creatures within the aura take a −1 penalty to their next power roll each turn.</p>"
+        },
+        "source": {
+          "name": "Svellheim Campaign (Era of Embers)",
+          "page": ""
+        }
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0"
+      },
+      "_key": "!actors.items!OdxMlD7osKrRaOOG.5d17ebabef06cd09"
+    },
+    {
+      "_id": "XYTnLRhoIrDvhNVv",
+      "name": "Absolute Conviction",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Immune to fear and charm. Edge on Presence tests vs. mental effects.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-inquisitor-thr-inn-ashward-absolute-conviction",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    },
+    {
+      "_id": "liAVQp5tAHmZy2b5",
+      "name": "Heresy-Sense",
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.10.0",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": null
+      },
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": "<p>Senses Kaelen’s presence within 60 ft. Edge on attacks targeting her.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Svellheim Campaign (Era of Embers)",
+          "page": "",
+          "license": ""
+        },
+        "_dsid": "pale-maw-inquisitor-thr-inn-ashward-heresy-sense",
+        "advancements": {},
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      }
+    }
+  ],
   "effects": [],
   "flags": {},
   "folder": null,
@@ -36,7 +339,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -54,7 +357,7 @@
   "type": "npc",
   "system": {
     "stamina": {
-      "value": null,
+      "value": 48,
       "max": 48,
       "temporary": 0
     },
