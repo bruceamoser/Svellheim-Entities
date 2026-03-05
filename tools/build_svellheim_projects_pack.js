@@ -175,7 +175,7 @@ function buildInlineProjects(folderIndex) {
     prerequisites: 'A masterwork or rare-material weapon; access to a forge',
     projectSource: 'A smith or rune-carver of higher level, or texts describing the technique',
     chars: ['reason', 'intuition'], goal: 150,
-    img: 'icons/weapons/swords/greatsword-crossguard-steel.webp',
+    img: 'icons/weapons/swords/greatsword-crossguard-barbed.webp',
   });
   pImbueWeapon.folder = craftId;
 
@@ -195,7 +195,7 @@ function buildInlineProjects(folderIndex) {
     prerequisites: 'A fragment of star-metal (meteorite iron); a Red-Rivet forge or equivalent',
     projectSource: 'Instruction from a Red-Rivet master, or recovered forging texts',
     chars: ['might', 'reason'], goal: 300,
-    img: 'icons/weapons/hammers/hammer-war-rounding.webp',
+    img: 'icons/weapons/hammers/hammer-double-engraved-ruby.webp',
   });
   pForgeStarMetal.folder = craftId;
 
@@ -205,7 +205,7 @@ function buildInlineProjects(folderIndex) {
     prerequisites: 'Seasoned ash-wood posts; runecraft tools; knowledge of protective galdr',
     projectSource: 'Instruction from a Quiet Warden or rune-reader, or recovered galdr texts',
     chars: ['reason', 'intuition'], goal: 120,
-    img: 'icons/environment/wilderness/carved-standing-stone.webp',
+    img: 'icons/environment/wilderness/arch-stone.webp',
   });
   pCarveWardStaves.folder = craftId;
 
@@ -225,7 +225,7 @@ function buildInlineProjects(folderIndex) {
     prerequisites: 'The fragments of the original hearthstone (or equivalent stone); runecraft tools',
     projectSource: 'Instruction from an elder rune-reader or recovered galdr texts',
     chars: ['reason', 'presence'], goal: 100,
-    img: 'icons/environment/settlement/fire-camp.webp',
+    img: 'icons/magic/fire/flame-burning-campfire-red.webp',
   });
   pRepairHearthStone.folder = craftId;
 
@@ -238,7 +238,7 @@ function buildInlineProjects(folderIndex) {
     prerequisites: 'Access to the rune-stave (or a detailed rubbing/sketch)',
     projectSource: 'The rune-stave itself, plus reference texts in the Old Tongue',
     chars: ['reason', 'intuition'], goal: 120,
-    img: 'icons/sundries/documents/document-sealed-signatures-red.webp',
+    img: 'icons/sundries/documents/document-sealed-red-tan.webp',
   });
   pDecipherRuneStave.folder = resId;
 
@@ -258,7 +258,7 @@ function buildInlineProjects(folderIndex) {
     prerequisites: 'Samples of blighted material (safely contained)',
     projectSource: 'Field study in the Ashen Woods, or texts from the Veil-Council',
     chars: ['reason', 'intuition'], goal: 120,
-    img: 'icons/magic/nature/root-vine-entangled-green.webp',
+    img: 'icons/magic/nature/root-vine-entangle-foot-green.webp',
   });
   pStudyTheBlight.folder = resId;
 
@@ -268,7 +268,7 @@ function buildInlineProjects(folderIndex) {
     prerequisites: 'Access to both Aesir and Vanir sacred texts or practitioners',
     projectSource: 'Scattered across temples, groves, and barrow-libraries throughout Svellheim',
     chars: ['reason', 'intuition', 'presence'], goal: null,
-    img: 'icons/magic/fire/flame-burning-campfire-orange.webp',
+    img: 'icons/magic/fire/flame-burning-campfire-red.webp',
   });
   pLearnNeedFireRite.folder = resId;
 
@@ -278,7 +278,7 @@ function buildInlineProjects(folderIndex) {
     prerequisites: 'A sample of Hollow Council correspondence (intercepted message, recovered letter)',
     projectSource: 'The correspondence itself, plus reference texts in archaic Svellspraak',
     chars: ['reason'], goal: 150,
-    img: 'icons/sundries/documents/letter-sealed-black.webp',
+    img: 'icons/sundries/documents/document-sealed-brown-red.webp',
   });
   pTranslateHollowCipher.folder = resId;
 
@@ -289,7 +289,7 @@ function buildInlineProjects(folderIndex) {
     name: 'Feed the Starving', type: 'other',
     desc: '<p>You organise food distribution in a settlement suffering from the Fimbulwinter famine. This involves sourcing provisions, negotiating with hoarding merchants, and physically distributing supplies to those in need.</p><p>When you complete this project, the settlement\'s morale improves and you earn the gratitude of the community. The Director determines the narrative reward — this might mean allies, information, safe harbour, or a favour owed.</p>',
     projectSource: 'None', chars: ['might', 'presence'], goal: 75,
-    img: 'icons/consumables/food/bread-loaf-round-white.webp',
+    img: 'icons/consumables/food/bowl-stew-brown.webp',
   });
   pFeedTheStarving.folder = othId;
 
@@ -297,7 +297,7 @@ function buildInlineProjects(folderIndex) {
     name: 'Honour the Dead', type: 'other',
     desc: '<p>You perform proper funeral rites for the unburied dead — burning the bodies, speaking the names, and carving the rune of passage. Without these rites, the dead rise as draugr or worse.</p><p>When you complete this project, the restless dead in the area are laid to rest. The Director determines the scope — a single barrow, a battlefield, or a plague-village.</p>',
     projectSource: 'None', chars: ['intuition', 'presence'], goal: 60,
-    img: 'icons/magic/fire/flame-burning-skull-orange.webp',
+    img: 'icons/magic/fire/flame-burning-earth-orange.webp',
   });
   pHonourTheDead.folder = othId;
 

@@ -218,7 +218,7 @@ function buildContent() {
     ].join(''),
     keywords: ['magic'],
     project: { prerequisites: 'Iron filings and birch ash; runecraft tools', source: 'Instruction from a Quiet Warden or rune-reader', rollCharacteristic: ['reason'], yield: { amount: '3', display: '' }, goal: 30 },
-    img: 'icons/commodities/materials/ite-ite-ite-ite-powder-ite-blue.webp',
+    img: 'icons/magic/light/projectile-smoke-blue-white.webp',
   }));
 
   items.push(mkTreasure({
@@ -229,7 +229,7 @@ function buildContent() {
     ].join(''),
     keywords: ['magic'],
     project: { prerequisites: 'Peat, alchemical accelerant (from the Ashwright Kins), a press', source: 'Ashwright Kins trade secrets or equivalent alchemical knowledge', rollCharacteristic: ['reason', 'intuition'], yield: { amount: '3', display: '' }, goal: 30 },
-    img: 'icons/commodities/stone/ore-chunk-red.webp',
+    img: 'icons/commodities/stone/stone-meterorite-glowing-yellow.webp',
   }));
 
   items.push(mkTreasure({
@@ -240,7 +240,7 @@ function buildContent() {
     ].join(''),
     keywords: ['magic'],
     project: { prerequisites: 'A thread harvested from a Norn-loom, or gifted by a seidr-walker', source: 'The Loom-Circle or a Vanir sacred grove', rollCharacteristic: ['intuition'], yield: { amount: '1', display: '' }, goal: 60 },
-    img: 'icons/commodities/cloth/thread-spool-gold.webp',
+    img: 'icons/commodities/cloth/ribbon-bow-teal.webp',
   }));
 
   items.push(mkTreasure({
@@ -251,7 +251,7 @@ function buildContent() {
     ].join(''),
     keywords: ['magic', 'potion'],
     project: { prerequisites: 'Rendered fat from a troll; alchemical fixative', source: 'Texts or lore from troll-hunters or the Quiet Wardens', rollCharacteristic: ['reason', 'intuition'], yield: { amount: '1', display: '' }, goal: 45 },
-    img: 'icons/consumables/potions/bottle-round-corked-yellow.webp',
+    img: 'icons/consumables/potions/potion-bottle-corked-stopper-yellow.webp',
   }));
 
   items.push(mkTreasure({
@@ -262,7 +262,7 @@ function buildContent() {
     ].join(''),
     keywords: ['potion'],
     project: { prerequisites: 'Willow-bark, juniper berries, rendered marrow', source: 'Knowledge of herbal medicine (any bone-mender or healer)', rollCharacteristic: ['reason', 'intuition'], yield: { amount: '2', display: '' }, goal: 25 },
-    img: 'icons/consumables/potions/bottle-round-corked-brown.webp',
+    img: 'icons/consumables/potions/potion-bottle-corked-labeled-red.webp',
   }));
 
   items.push(mkTreasure({
@@ -273,7 +273,7 @@ function buildContent() {
     ].join(''),
     keywords: ['potion'],
     project: { prerequisites: 'Upland honey; mead-brewing equipment', source: 'A practising skald or hall-singer', rollCharacteristic: ['intuition', 'presence'], yield: { amount: '2', display: '' }, goal: 20 },
-    img: 'icons/consumables/drinks/alcohol-mead-honey-gold.webp',
+    img: 'icons/consumables/drinks/alcohol-spirits-bottle-blue.webp',
   }));
 
   items.push(mkTreasure({
@@ -284,7 +284,7 @@ function buildContent() {
     ].join(''),
     keywords: ['magic'],
     project: { prerequisites: 'Enchanted peat, aromatic herbs, a combustion agent', source: 'Ashwright Kins recipe or equivalent folk remedy', rollCharacteristic: ['intuition'], yield: { amount: '3', display: '' }, goal: 30 },
-    img: 'icons/consumables/potions/vial-cork-black.webp',
+    img: 'icons/consumables/potions/vial-cork-blue.webp',
   }));
 
   console.log('  Consumables: 7');
@@ -301,7 +301,7 @@ function buildContent() {
     ].join(''),
     keywords: ['magic', 'neck'],
     project: { prerequisites: 'Silver worth at least 200 hacksilver; a law-mark stamp', source: 'A practising Lawspeaker or Chainwarden notary', rollCharacteristic: ['presence'], yield: { amount: '1', display: '' }, goal: 120 },
-    img: 'icons/equipment/neck/choker-chain-thick-gold.webp',
+    img: 'icons/equipment/neck/torc-ball-captive.webp',
   }));
 
   items.push(mkTreasure({
@@ -312,7 +312,7 @@ function buildContent() {
     ].join(''),
     keywords: ['magic', 'neck'],
     project: { prerequisites: "A tooth from a draugr that was properly laid to rest (head between buttocks, body burned)", source: 'Instruction from a Quiet Warden', rollCharacteristic: ['intuition'], yield: { amount: '1', display: '' }, goal: 100 },
-    img: 'icons/commodities/bones/tooth-fang.webp',
+    img: 'icons/commodities/bones/tooth-shark-brown-white.webp',
   }));
 
   items.push(mkTreasure({
@@ -323,7 +323,7 @@ function buildContent() {
     ].join(''),
     keywords: ['magic', 'arms'],
     project: { prerequisites: 'Ash-wood slats, runecraft tools, treated leather', source: 'A rune-reader or Veil-Council arcanist', rollCharacteristic: ['reason'], yield: { amount: '1', display: '' }, goal: 120 },
-    img: 'icons/equipment/hand/bracer-banded-leather-brown.webp',
+    img: 'icons/equipment/hand/gauntlet-tooled-leather-brown.webp',
   }));
 
   items.push(mkTreasure({
@@ -334,7 +334,7 @@ function buildContent() {
     ].join(''),
     keywords: ['magic'],
     project: { prerequisites: 'An iron lantern; a flame willingly given by a Lantern Road member', source: 'The Lantern Road guild', rollCharacteristic: ['intuition'], yield: { amount: '1', display: '' }, goal: 100 },
-    img: 'icons/sundries/lights/lantern-iron-yellow.webp',
+    img: 'icons/magic/light/light-lantern-lit-white.webp',
   }));
 
   items.push(mkTreasure({
@@ -345,7 +345,7 @@ function buildContent() {
     ].join(''),
     keywords: ['magic'],
     project: { prerequisites: "A string freely given by a fossegrim (cannot be taken by force)", source: "Bargaining with a fossegrim — they typically demand a white goat thrown into a waterfall", rollCharacteristic: ['presence'], yield: { amount: '1', display: '' }, goal: 80 },
-    img: 'icons/tools/instruments/harp-yellow.webp',
+    img: 'icons/tools/instruments/harp-gold-glowing.webp',
   }));
 
   console.log('  Trinkets: 5');
@@ -358,27 +358,27 @@ function buildContent() {
   const fEmberKeeperLore = mkFeature({
     name: 'Ember-Keeper Lore', folderId: grantFolder._id,
     desc: '<p>You gain the Ember-Keeper Lore skill. Once per respite, you can identify whether an object, location, or creature has a connection to the Primal Spark or primordial fire magic.</p>',
-    img: 'icons/magic/fire/flame-burning-hand-orange.webp',
+    img: 'icons/magic/fire/flame-burning-hand-white.webp',
   });
   const fEmberKeeperSalvage = mkFeature({
     name: 'Ember-Keeper Salvage', folderId: grantFolder._id,
     desc: '<p>When you complete a respite in a ruin or ancient site, you can make an easy Reason test to recover a minor alchemical component or runecraft material worth up to 10 hacksilver.</p>',
-    img: 'icons/tools/laboratory/vials-blue-green.webp',
+    img: 'icons/consumables/potions/vial-ornet-silver-black.webp',
   });
   const fLanternBearerLight = mkFeature({
     name: 'Lantern-Bearer\'s Light', folderId: grantFolder._id,
     desc: '<p>You can spend a maneuver to invoke the Lantern Road oath. Until the end of the encounter, your carried light source cannot be extinguished by any means, and allies within 5 squares of you gain an edge on resistance rolls against fear effects.</p>',
-    img: 'icons/sundries/lights/lantern-iron-yellow.webp',
+    img: 'icons/magic/light/light-lantern-lit-white.webp',
   });
   const fLanternBearerWay = mkFeature({
     name: 'Lantern-Bearer\'s Way', folderId: grantFolder._id,
     desc: '<p>You gain an edge on tests to navigate overland, and your group\'s overland travel speed increases by 1 mile per day.</p>',
-    img: 'icons/tools/navigation/compass-brass.webp',
+    img: 'icons/tools/navigation/map-marked-green.webp',
   });
   const fDraugrSlayerRites = mkFeature({
     name: 'Draugr-Slayer Rites', folderId: grantFolder._id,
     desc: '<p>You know the proper rites to lay undead to rest. When you reduce an undead creature to 0 Stamina, it cannot rise again through innate abilities or necromantic effects. Additionally, you gain an edge on tests to identify undead weaknesses.</p>',
-    img: 'icons/magic/fire/flame-burning-skull-orange.webp',
+    img: 'icons/magic/fire/flame-burning-earth-orange.webp',
   });
   const fDraugrSlayerNerve = mkFeature({
     name: 'Draugr-Slayer\'s Nerve', folderId: grantFolder._id,
@@ -393,29 +393,29 @@ function buildContent() {
   const fThingSpeakerLaw = mkFeature({
     name: 'Thing-Speaker\'s Law', folderId: grantFolder._id,
     desc: '<p>You gain the Law skill (or another lore skill if you already have it). You know the wergild value of every social rank and can accurately assess the legal standing of any person you converse with for at least one minute.</p>',
-    img: 'icons/sundries/books/book-open-tan.webp',
+    img: 'icons/sundries/books/book-open-brown.webp',
   });
   const fRuneMarkPower = mkFeature({
     name: 'Rune-Mark Power', folderId: grantFolder._id,
     desc: '<p>Once per encounter, as a free triggered action when you make a power roll, you can invoke the rune on your body. You gain a +2 bonus to that power roll. After the effect resolves, you take damage equal to your level as the rune burns.</p>',
-    img: 'icons/magic/symbols/runes-star-blue.webp',
+    img: 'icons/magic/symbols/runes-star-pentagon-blue.webp',
   });
   const fRuneMarkInsight = mkFeature({
     name: 'Rune-Mark Insight', folderId: grantFolder._id,
     desc: '<p>You can read and understand basic galdr inscriptions without a test. When you encounter a rune-stave or warded area, you automatically learn whether it is protective, offensive, or communicative in nature.</p>',
-    img: 'icons/magic/symbols/runes-etched-steel-purple.webp',
+    img: 'icons/magic/symbols/runes-etched-steel-blade.webp',
   });
 
   // -- Echelon 2 features --
   const fRedRivetSecrets = mkFeature({
     name: 'Red-Rivet Secrets', folderId: grantFolder._id,
     desc: '<p>You gain an edge on crafting tests involving metal. When you work at a Red-Rivet forge, you can complete crafting projects in half the normal time.</p>',
-    img: 'icons/tools/smithing/anvil-iron.webp',
+    img: 'icons/tools/smithing/anvil.webp',
   });
   const fRedRivetReputation = mkFeature({
     name: 'Red-Rivet Reputation', folderId: grantFolder._id,
     desc: '<p>Your association with the Red-Rivet Compact is known. You gain an edge on Presence tests when dealing with smiths, miners, or the Compact\'s allies. You can requisition basic metalwork supplies from any Red-Rivet forge without payment (up to 20 hacksilver per respite).</p>',
-    img: 'icons/commodities/metal/ingot-steel.webp',
+    img: 'icons/commodities/metal/fragments-sword-steel.webp',
   });
   const fQuietWardenRites = mkFeature({
     name: 'Quiet Warden Rites', folderId: grantFolder._id,
@@ -425,17 +425,17 @@ function buildContent() {
   const fQuietWardenVigilance = mkFeature({
     name: 'Quiet Warden Vigilance', folderId: grantFolder._id,
     desc: '<p>You cannot be surprised by undead creatures. When initiative is rolled and undead are present, you can shift up to 2 squares as a free triggered action.</p>',
-    img: 'icons/skills/melee/weapons-crossed-swords-yellow.webp',
+    img: 'icons/skills/melee/weapons-crossed-swords-purple.webp',
   });
   const fFateTouchedVisions = mkFeature({
     name: 'Fate-Touched Visions', folderId: grantFolder._id,
     desc: '<p>Once per session, you can ask the Director a single yes-or-no question about a course of action you are about to take. The Director answers truthfully based on what the Norns would know. After receiving the answer, you are dazed until the end of your next turn as the vision recedes.</p>',
-    img: 'icons/magic/perception/eye-ringed-glow-angry-small-purple.webp',
+    img: 'icons/magic/perception/eye-ringed-glow-angry-small-teal.webp',
   });
   const fFateTouchedResilience = mkFeature({
     name: 'Fate-Touched Resilience', folderId: grantFolder._id,
     desc: '<p>You have glimpsed your own death and it was not here. Once per encounter, when you would be reduced to 0 Stamina, you can instead be reduced to 1 Stamina. You can\'t use this feature again until you complete a respite.</p>',
-    img: 'icons/magic/time/hourglass-tilted-blue-purple.webp',
+    img: 'icons/magic/time/hourglass-tilted-gray.webp',
   });
 
   items.push(
@@ -460,7 +460,7 @@ function buildContent() {
     story: 'You recovered a fragment of the Primal Spark or joined the Ember-Keepers — the technologist-archaeologists who believe the answer to the Fimbulwinter lies buried in the Elder Age.',
     prerequisites: 'You discovered an artefact connected to the Primal Spark, or performed a significant service for the Ember-Keepers.',
     featureIds: [fEmberKeeperLore._id, fEmberKeeperSalvage._id],
-    img: 'icons/magic/fire/flame-burning-hand-orange.webp',
+    img: 'icons/magic/fire/flame-burning-hand-white.webp',
   }));
 
   items.push(mkTitle({
@@ -468,7 +468,7 @@ function buildContent() {
     story: 'You kept the Lantern Road open through a deadly passage — whether blizzard, raiders, or worse. The teamsters and wayfinders remember.',
     prerequisites: 'You kept a road, pass, or route open against significant opposition, saving lives in the process.',
     featureIds: [fLanternBearerLight._id, fLanternBearerWay._id],
-    img: 'icons/sundries/lights/lantern-iron-yellow.webp',
+    img: 'icons/magic/light/light-lantern-lit-white.webp',
   }));
 
   items.push(mkTitle({
@@ -476,7 +476,7 @@ function buildContent() {
     story: "You put down your first draugr with the proper rites — head between buttocks, body burned. The Quiet Wardens took notice.",
     prerequisites: 'You destroyed an undead creature and performed the proper funeral rites.',
     featureIds: [fDraugrSlayerRites._id, fDraugrSlayerNerve._id],
-    img: 'icons/magic/fire/flame-burning-skull-orange.webp',
+    img: 'icons/magic/fire/flame-burning-earth-orange.webp',
   }));
 
   items.push(mkTitle({
@@ -492,7 +492,7 @@ function buildContent() {
     story: 'A rune manifested on your body after channelling galdr — burned into your skin by forces you don\'t fully understand. It pulses when magic is near.',
     prerequisites: 'You channelled galdr or interacted with powerful rune-magic and survived a backlash that left a permanent mark.',
     featureIds: [fRuneMarkPower._id, fRuneMarkInsight._id],
-    img: 'icons/magic/symbols/runes-star-blue.webp',
+    img: 'icons/magic/symbols/runes-star-pentagon-blue.webp',
   }));
 
   // -- Echelon 2 --
@@ -501,7 +501,7 @@ function buildContent() {
     story: 'You earned the trust of the Red-Rivet Compact — the smiths\' guild that controls all worked iron in Svellheim. "Iron does not forgive," they say, and neither do they, but they respect strength and skill.',
     prerequisites: 'You performed a significant service for the Red-Rivet Compact or demonstrated exceptional skill in metallurgy.',
     featureIds: [fRedRivetSecrets._id, fRedRivetReputation._id],
-    img: 'icons/tools/smithing/anvil-iron.webp',
+    img: 'icons/tools/smithing/anvil.webp',
   }));
 
   items.push(mkTitle({
@@ -517,7 +517,7 @@ function buildContent() {
     story: 'A Norn showed you your death-thread. You saw how and when you will die. You act differently now — with either reckless courage or eerie calm.',
     prerequisites: 'You encountered a Norn, a seidr-walker, or a fate-spirit and glimpsed your own death. You survived the experience.',
     featureIds: [fFateTouchedVisions._id, fFateTouchedResilience._id],
-    img: 'icons/magic/time/hourglass-tilted-blue-purple.webp',
+    img: 'icons/magic/time/hourglass-tilted-gray.webp',
   }));
 
   console.log('  Titles: 8');

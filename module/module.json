@@ -4,8 +4,8 @@
   "description": "Shared NPCs, monsters, items, rewards, and projects for the Svellheim campaign setting (Draw Steel system).",
   "url": "https://github.com/bruceamoser/Svellheim-Entities",
   "manifest": "https://github.com/bruceamoser/Svellheim-Entities/releases/latest/download/module.json",
-  "download": "https://github.com/bruceamoser/Svellheim-Entities/releases/download/v0.1.7/svellheim-entities-v0.1.7.zip",
-  "version": "0.1.7",
+  "download": "https://github.com/bruceamoser/Svellheim-Entities/releases/download/v0.1.8/svellheim-entities-v0.1.8.zip",
+  "version": "0.1.8",
   "authors": [
     {
       "name": "Bruce A. Moser"
@@ -39,15 +39,8 @@
     },
     {
       "name": "svellheim-items",
-      "label": "Svellheim Items",
+      "label": "Svellheim Items & Treasures",
       "path": "packs/svellheim-items",
-      "type": "Item",
-      "system": "draw-steel"
-    },
-    {
-      "name": "svellheim-rewards",
-      "label": "Svellheim Rewards (Projects & Treasures)",
-      "path": "packs/svellheim-rewards",
       "type": "Item",
       "system": "draw-steel"
     },
@@ -55,13 +48,6 @@
       "name": "svellheim-projects",
       "label": "Svellheim Projects",
       "path": "packs/svellheim-projects",
-      "type": "Item",
-      "system": "draw-steel"
-    },
-    {
-      "name": "svellheim-imbuings",
-      "label": "Svellheim Imbuing Projects",
-      "path": "packs/svellheim-imbuings",
       "type": "Item",
       "system": "draw-steel"
     }
