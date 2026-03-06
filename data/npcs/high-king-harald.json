@@ -40,7 +40,7 @@
     },
     "biography": {
       "value": "<p><strong>High King Harald</strong> is the name tied to the old unification: the Danelaw that bound feuding clans into one realm. His word still echoes in writs, stamped notices, and the obligations of a <em>Konungs-ferÃ°</em>.</p><p>In battle, Harald is the hearth made ironâ€”an old fury disciplined into law. He breaks shields, then points the next blade where it must go.</p>",
-      "director": "Run Harald as a war-king: decisive, practical, and unsentimental. He believes unity is paid for in blood and debt, and he expects oaths to be kept even when the gods are silent.",
+      "director": "<section class=\"secret\">Run Harald as a war-king: decisive, practical, and unsentimental. He believes unity is paid for in blood and debt, and he expects oaths to be kept even when the gods are silent.</section>",
       "languages": []
     },
     "movement": {

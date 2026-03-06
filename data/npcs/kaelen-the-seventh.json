@@ -40,7 +40,7 @@
     },
     "biography": {
       "value": "<p><strong>Kaelen</strong>, called <em>The Seventh</em>, is a broken hero bound to Svellheimâ€™s crisis. He carries guilt that wonâ€™t thaw: guest-right broken, a rite mispaid, a name spoken at the wrong root-junction.</p><p>In combat, Kaelen is a retainerâ€”utility and protection, holding the line and drawing the worst of an enemyâ€™s attention.</p>",
-      "director": "Play Kaelen as gruff, cynical, and duty-bound. He helps because he must, not because he believes he deserves redemption.",
+      "director": "<section class=\"secret\">Play Kaelen as gruff, cynical, and duty-bound. He helps because he must, not because he believes he deserves redemption.</section>",
       "languages": []
     },
     "movement": {

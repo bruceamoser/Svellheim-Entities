@@ -40,7 +40,7 @@
     },
     "biography": {
       "value": "<p><strong>Llewyellen \"Lew\" Tosferd</strong>, called <em>The Finder</em>, is a man who trades in lost things. Old contracts, informant networks, and a knack for being where information flows—Lew finds what others cannot. He is friendly, transactional, and never offers anything for free.</p><p>In a fight, Lew is slippery and infuriating—misdirecting attacks, vanishing into smoke, and ensuring his enemies hurt each other more than they hurt him. He'd rather talk his way out, but he's survived this long in Fimbulwinter for a reason.</p>",
-      "director": "Run Lew as a merchant of secrets with a genuine smile that never quite reaches his eyes. He always names his price, and he always collects. He is not hostile—he is expensive. His Negotiation stats matter more than his combat stats; the PCs need to bargain with him, not fight him. If cornered, Lew uses I'm No Threat, Smoke Bomb, and Clever Trick to escape—he does not stand and fight.",
+      "director": "<section class=\"secret\">Run Lew as a merchant of secrets with a genuine smile that never quite reaches his eyes. He always names his price, and he always collects. He is not hostile—he is expensive. His Negotiation stats matter more than his combat stats; the PCs need to bargain with him, not fight him. If cornered, Lew uses I'm No Threat, Smoke Bomb, and Clever Trick to escape—he does not stand and fight.</section>",
       "languages": []
     },
     "movement": {

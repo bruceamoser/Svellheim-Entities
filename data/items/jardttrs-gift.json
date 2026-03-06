@@ -29,7 +29,7 @@
   "system": {
     "description": {
       "value": "<p>A spiritual imprint left by the Jardúttr — the ancient geothermal spirit guardian of the Echoing Caves. It is not an object but a mark of recognition, carried in the bearer’s awareness. Those who showed mercy to the Jardúttr find that old, deep places seem less hostile; passages reveal themselves; ancient wards hesitate before closing.</p>",
-      "director": "<p><strong>ACQUISITION:</strong> Granted only on the mercy path in Beat 10. If the party defeats but spares the Jardúttr instead of killing it, the Jardúttr acknowledges their restraint and leaves a spiritual imprint on the party.</p><p><strong>EFFECT (Passive, permanent for Act 2):</strong> The bearer gains an edge on Intuition and Reason tests related to: navigation in cave and underground environments, ancient sacred places and ruins, geothermal or volcanic terrain, and passages used by non-human beings (Vanir, creatures, spirits). This imprint fades when Act 2 concludes.</p><p><strong>FICTION:</strong> This is not a physical object. The Jardúttr leaves a mark of recognition — a deep-earth attunement that helps those who showed mercy to find their way through old places. Kaelen describes it as “walking with something large just ahead, clearing the path.”</p>"
+      "director": "<section class=\"secret\"><p><strong>ACQUISITION:</strong> Granted only on the mercy path in Beat 10. If the party defeats but spares the Jardúttr instead of killing it, the Jardúttr acknowledges their restraint and leaves a spiritual imprint on the party.</p><p><strong>EFFECT (Passive, permanent for Act 2):</strong> The bearer gains an edge on Intuition and Reason tests related to: navigation in cave and underground environments, ancient sacred places and ruins, geothermal or volcanic terrain, and passages used by non-human beings (Vanir, creatures, spirits). This imprint fades when Act 2 concludes.</p><p><strong>FICTION:</strong> This is not a physical object. The Jardúttr leaves a mark of recognition — a deep-earth attunement that helps those who showed mercy to find their way through old places. Kaelen describes it as “walking with something large just ahead, clearing the path.”</p></section>"
     },
     "source": {
       "book": "Svellheim Campaign (Era of Embers)",
@@ -38,7 +38,7 @@
     },
     "_dsid": "jardttrs-gift",
     "kind": "",
-    "category": "wondrous",
+    "category": "trinket",
     "echelon": 1,
     "keywords": [],
     "quantity": 1,
