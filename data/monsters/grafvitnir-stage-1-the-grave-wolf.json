@@ -140,6 +140,11 @@
                   "value": "10",
                   "types": [],
                   "properties": []
+                },
+                "tier3": {
+                  "value": "10",
+                  "types": [],
+                  "properties": []
                 }
               }
             },
@@ -585,6 +590,11 @@
                   "properties": []
                 },
                 "tier2": {
+                  "value": "12",
+                  "types": [],
+                  "properties": []
+                },
+                "tier3": {
                   "value": "12",
                   "types": [],
                   "properties": []

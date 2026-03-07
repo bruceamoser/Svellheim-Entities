@@ -1,0 +1,200 @@
+[
+  {
+    "sourceNpcFile": "data/npcs/kaelen-the-seventh.json",
+    "outputFile": "kaelen-the-seventh.json",
+    "ancestry": "Hearthborn",
+    "culture": "Bone-Field Firekeepers",
+    "career": "Rune-Reader",
+    "heroClass": "Conduit",
+    "level": 5,
+    "seed": 15,
+    "rationale": "Keeper tied to sacred flame, ritual communion, and protective support role. Converted as a level 5 Conduit with a Sun-aligned seed."
+  },
+  {
+    "sourceNpcFile": "data/npcs/high-king-harald.json",
+    "outputFile": "high-king-harald.json",
+    "ancestry": "Hearthborn",
+    "culture": "Bone-Field Firekeepers",
+    "career": "Huscarl",
+    "heroClass": "Tactician",
+    "level": 7,
+    "seed": 11,
+    "rationale": "Soldier-king, siege commander, and morale anchor. Converted as a level 7 Tactician using his current NPC level as the baseline."
+  },
+  {
+    "sourceNpcFile": "data/npcs/lew-tosferd.json",
+    "outputFile": "lew-tosferd.json",
+    "ancestry": "Hearthborn",
+    "culture": "Singing Island Vent-Garden Circle",
+    "career": "Watcher-and-Listener",
+    "heroClass": "Shadow",
+    "level": 4,
+    "seed": 13,
+    "rationale": "Informant, finder, and networked operator. Converted as a level 4 Shadow leaning on the existing shadow keyword in the actor file."
+  },
+  {
+    "sourceNpcFile": "data/npcs/thyra-blackhand.json",
+    "outputFile": "thyra-blackhand.json",
+    "ancestry": "Hearthborn",
+    "culture": "Ashen Front Charcoal Company",
+    "career": "Huscarl",
+    "heroClass": "Tactician",
+    "level": 4,
+    "seed": 17,
+    "rationale": "Former Chainwarden sergeant leading civilians under pressure. Converted as a level 4 Tactician with an insurgent-flavored tactical build."
+  },
+  {
+    "sourceNpcFile": "data/npcs/thrinn-ashward-pale-maw-inquisitor.json",
+    "outputFile": "thrinn-ashward-pale-maw-inquisitor.json",
+    "ancestry": "Hearthborn",
+    "culture": "Bone-Field Firekeepers",
+    "career": "Rune-Reader",
+    "heroClass": "Censor",
+    "level": 5,
+    "seed": 19,
+    "rationale": "Zealous inquisitor with strong religious and punitive framing. Converted as a level 5 Censor."
+  },
+  {
+    "sourceNpcFile": "data/npcs/bolverkt-djpdvergr-scout.json",
+    "outputFile": "bolverkt-djpdvergr-scout.json",
+    "ancestry": "Deepforged",
+    "culture": "Iron Bog Stilt-Camp",
+    "career": "Weald Stalker",
+    "heroClass": "Shadow",
+    "level": 3,
+    "seed": 21,
+    "rationale": "Djupdvergr (deep-dwarf) scout and wilderness guide. Compact, economical, and stealthy — a natural Shadow with Weald Stalker roots."
+  },
+  {
+    "sourceNpcFile": "data/npcs/bryn-ketilsdottir.json",
+    "outputFile": "bryn-ketilsdottir.json",
+    "ancestry": "Hearthborn",
+    "culture": "Bone-Field Firekeepers",
+    "career": "Lantern Runner",
+    "heroClass": "Conduit",
+    "level": 1,
+    "seed": 23,
+    "rationale": "Young Ember Keeper whose flame went dark. Earnest, protective, guilt-driven — a level 1 Conduit with sacred fire support identity."
+  },
+  {
+    "sourceNpcFile": "data/npcs/brynja-steinsdottir-refugee-leader.json",
+    "outputFile": "brynja-steinsdottir-refugee-leader.json",
+    "ancestry": "Hearthborn",
+    "culture": "Ashen Front Charcoal Company",
+    "career": "Ledger-Keeper",
+    "heroClass": "Tactician",
+    "level": 3,
+    "seed": 25,
+    "rationale": "Former trade-caravan warden who turned logistics instinct into refugee leadership. Level 3 Tactician — practical, decisive, battle-hardened."
+  },
+  {
+    "sourceNpcFile": "data/npcs/eirik-greyhand.json",
+    "outputFile": "eirik-greyhand.json",
+    "ancestry": "Hearthborn",
+    "culture": "Ashen Front Charcoal Company",
+    "career": "Huscarl",
+    "heroClass": "Tactician",
+    "level": 2,
+    "seed": 27,
+    "rationale": "Chainwarden Warden-Sergeant at a fortified checkpoint. Exhausted system cog, not a villain. Level 2 Tactician with military warden framing."
+  },
+  {
+    "sourceNpcFile": "data/npcs/elder-thyra-steamoasis-leader.json",
+    "outputFile": "elder-thyra-steamoasis-leader.json",
+    "ancestry": "Hearthborn",
+    "culture": "Singing Island Vent-Garden Circle",
+    "career": "Freeholder",
+    "heroClass": "Conduit",
+    "level": 2,
+    "seed": 29,
+    "rationale": "Elder leading 43 survivors in a secret steam oasis through strict protocols and the Oath of Silence. Level 2 Conduit — community protector, keeper of the hidden flame."
+  },
+  {
+    "sourceNpcFile": "data/npcs/gragnir-the-druid.json",
+    "outputFile": "gragnir-the-druid.json",
+    "ancestry": "Tonttu",
+    "culture": "Singing Island Vent-Garden Circle",
+    "career": "Weald Stalker",
+    "heroClass": "Elementalist",
+    "level": 4,
+    "seed": 31,
+    "rationale": "Ash-Walker druid who moves through old growth and watches root-lore against winter blight. Tonttu (wode elf) ancestry fits. Elementalist (Earth) for nature-druid expression."
+  },
+  {
+    "sourceNpcFile": "data/npcs/hild.json",
+    "outputFile": "hild.json",
+    "ancestry": "Deepforged",
+    "culture": "Iron Bog Stilt-Camp",
+    "career": "Freeholder",
+    "heroClass": "Troubadour",
+    "level": 1,
+    "seed": 33,
+    "rationale": "Dwarf innkeeper — the warm, practical heart of Stairwatch. No-nonsense, generous when earned. Level 1 Troubadour captures her social warmth and community anchor role."
+  },
+  {
+    "sourceNpcFile": "data/npcs/hildvar-bruneson-forgemaster.json",
+    "outputFile": "hildvar-bruneson-forgemaster.json",
+    "ancestry": "Deepforged",
+    "culture": "Iron Bog Stilt-Camp",
+    "career": "Maker",
+    "heroClass": "Elementalist",
+    "level": 5,
+    "seed": 35,
+    "rationale": "140-year-old Djupdvergr Forgemaster whose forge still burns through sheer stubbornness. Maker career is perfect. Level 5 Elementalist (Earth) for forge and deep-earth mastery."
+  },
+  {
+    "sourceNpcFile": "data/npcs/soldis-glodfari.json",
+    "outputFile": "soldis-glodfari.json",
+    "ancestry": "Hearthborn",
+    "culture": "Bone-Field Firekeepers",
+    "career": "Outrider",
+    "heroClass": "Troubadour",
+    "level": 2,
+    "seed": 37,
+    "rationale": "Caravan master who reads people like maps and carries a glowing sealed clay pot — ancient flame connection mixed with social acuity. Level 2 Troubadour with Outrider framing."
+  },
+  {
+    "sourceNpcFile": "data/npcs/solveig-the-burner.json",
+    "outputFile": "solveig-the-burner.json",
+    "ancestry": "Hearthborn",
+    "culture": "Ashen Front Charcoal Company",
+    "career": "Weald Stalker",
+    "heroClass": "Fury",
+    "level": 1,
+    "seed": 39,
+    "rationale": "Woodcutter-turned-charcoal-burner who refused to leave the Ashen Woods. Three years alone, stubborn and physical. Level 1 Fury with Weald Stalker roots — hardened loner who keeps burning."
+  },
+  {
+    "sourceNpcFile": "data/npcs/solvi.json",
+    "outputFile": "solvi.json",
+    "ancestry": "Hearthborn",
+    "culture": "Bone-Field Firekeepers",
+    "career": "Lantern Runner",
+    "heroClass": "Conduit",
+    "level": 1,
+    "seed": 41,
+    "rationale": "Frightened teenage Ember-Keeper of Stairwatch — in the role only six months but deeply dutiful. Level 1 Conduit. Lantern Runner career fits the flame-keeper role perfectly."
+  },
+  {
+    "sourceNpcFile": "data/npcs/vigmund-haldorsson-jarl-of-rindgate.json",
+    "outputFile": "vigmund-haldorsson-jarl-of-rindgate.json",
+    "ancestry": "Hearthborn",
+    "culture": "Bone-Field Firekeepers",
+    "career": "Freeholder",
+    "heroClass": "Tactician",
+    "level": 3,
+    "seed": 43,
+    "rationale": "Jarl of Rindgate — eight months protecting 300 people with nowhere else to go. Weathered, practical, tired. Level 3 Tactician with Freeholder roots — community-first leadership."
+  },
+  {
+    "sourceNpcFile": "data/npcs/yrsa-frostbane-pale-maw-strike-leader.json",
+    "outputFile": "yrsa-frostbane-pale-maw-strike-leader.json",
+    "ancestry": "Hearthborn",
+    "culture": "Bone-Field Firekeepers",
+    "career": "Huscarl",
+    "heroClass": "Censor",
+    "level": 4,
+    "seed": 45,
+    "rationale": "Pale Maw Strike Leader — battle-worn, grief-hardened, absolute religious conviction. Takes command without hesitation and prosecutes assaults with cold efficiency. Level 4 Censor — the zealot mirror to Thrinn Ashward."
+  }
+]

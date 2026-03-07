@@ -319,13 +319,16 @@
               "_id": "ezQZliRdrGmIeS70",
               "damage": {
                 "tier1": {
-                  "value": "7"
+                  "value": "7",
+                  "types": []
                 },
                 "tier2": {
-                  "value": "10"
+                  "value": "10",
+                  "types": []
                 },
                 "tier3": {
-                  "value": "13"
+                  "value": "13",
+                  "types": []
                 }
               }
             }

@@ -78,9 +78,7 @@
               "damage": {
                 "tier1": {
                   "value": "3",
-                  "types": [
-                    "weapon"
-                  ],
+                  "types": [],
                   "properties": [],
                   "potency": {
                     "value": "@potency.weak",
@@ -89,9 +87,7 @@
                 },
                 "tier2": {
                   "value": "6",
-                  "types": [
-                    "weapon"
-                  ],
+                  "types": [],
                   "properties": [],
                   "potency": {
                     "value": "@potency.average",
@@ -100,9 +96,7 @@
                 },
                 "tier3": {
                   "value": "9",
-                  "types": [
-                    "weapon"
-                  ],
+                  "types": [],
                   "properties": [],
                   "potency": {
                     "value": "@potency.strong",
@@ -198,9 +192,7 @@
               "damage": {
                 "tier1": {
                   "value": "2",
-                  "types": [
-                    "weapon"
-                  ],
+                  "types": [],
                   "properties": [],
                   "potency": {
                     "value": "@potency.weak",
@@ -209,9 +201,7 @@
                 },
                 "tier2": {
                   "value": "4",
-                  "types": [
-                    "weapon"
-                  ],
+                  "types": [],
                   "properties": [],
                   "potency": {
                     "value": "@potency.average",
@@ -220,9 +210,7 @@
                 },
                 "tier3": {
                   "value": "6",
-                  "types": [
-                    "weapon"
-                  ],
+                  "types": [],
                   "properties": [],
                   "potency": {
                     "value": "@potency.strong",
