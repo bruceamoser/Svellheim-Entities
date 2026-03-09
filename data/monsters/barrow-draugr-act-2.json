@@ -1,397 +1,28 @@
 {
-  "_id": "IFjZSudqoQMHsXB8",
-  "name": "Barrow-Draugr (Act 2)",
-  "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
-  "items": [
-    {
-      "_id": "9Yw5FZ7JTzdlx1q2",
-      "name": "Bone-Shatter Strike",
-      "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-draugr-act-2-bone-shatter-strike",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "melee",
-          "strike",
-          "weapon"
-        ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "21ZrLgPhBWpPY6eO": {
-              "type": "damage",
-              "_id": "21ZrLgPhBWpPY6eO",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "3",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "6",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "9",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>T1 3 dmg; T2 6 dmg; T3 9 dmg.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "w2QJycg5YAyp25Q4",
-      "name": "Calcified Grasp",
-      "img": "icons/magic/water/snowflake-ice-purple.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-draugr-act-2-calcified-grasp",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "melee",
-          "strike",
-          "weapon"
-        ],
-        "type": "triggered",
-        "category": "signature",
-        "resource": null,
-        "trigger": "See effect text.",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "ncks2r60J7TABUY3": {
-              "type": "damage",
-              "_id": "ncks2r60J7TABUY3",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "1",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "2",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "3",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>Target makes moderate Might test or is restrained + ongoing cold damage (save ends).</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "aTqUrv1MMCkA4Ywu",
-      "name": "Shambling Charge",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>1/combat. Move up to 30 ft then Bone-Shatter Strike.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-draugr-act-2-shambling-charge",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "_id": "ovXBKQerGBmW3yYQ",
-      "name": "Ancient and Resilient",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Resist cold 2. Vulnerable fire 2.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-draugr-act-2-ancient-and-resilient",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    }
-  ],
-  "effects": [],
-  "flags": {},
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
-    "lastModifiedBy": null
-  },
-  "prototypeToken": {
-    "name": "",
-    "displayName": 40,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "stamina"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "texture": {
-      "src": "icons/magic/death/hand-dirt-undead-zombie.webp",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
-    },
-    "ring": {
-      "enabled": true
-    },
-    "sight": {
-      "enabled": false
-    },
-    "light": {}
-  },
+  "name": "Barrow-Draugr Act 2",
   "type": "npc",
+  "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
   "system": {
     "stamina": {
-      "value": 16,
-      "max": 16,
+      "value": 132,
+      "max": 132,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 3
+        "value": 2
       },
       "agility": {
-        "value": 1
+        "value": -1
       },
       "reason": {
-        "value": -2
+        "value": 0
       },
       "intuition": {
         "value": 1
       },
       "presence": {
-        "value": -3
+        "value": 2
       }
     },
     "combat": {
@@ -400,21 +31,16 @@
         "bonus": ""
       },
       "size": {
-        "value": 1,
+        "value": 2,
         "letter": "M"
       },
-      "stability": 1,
+      "stability": 2,
       "turns": 1
     },
-    "biography": {
-      "value": "<p>Skeletal frame wrapped in tattered leather and rusted metal. Eye sockets glow with sickly pale light. Moves with jerking, unnatural gait. Emanates bitter cold. These ancient dead rise directly from the calcified earth of the Bone-Fields, pulled upward by forces predating even Grafvitnir’s current work.</p>",
-      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Bone-Shatter Strike</strong> (Main, Melee, Might): T1 3 dmg; T2 6 dmg; T3 9 dmg.</li><li><strong>Calcified Grasp</strong> (Triggered, after hit): Target makes moderate Might test or is restrained + ongoing cold damage (save ends).</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Shambling Charge:</strong> 1/combat. Move up to 30 ft then Bone-Shatter Strike.</li><li><strong>Ancient and Resilient:</strong> Resist cold 2. Vulnerable fire 2.</li></ul><p>Group of 6. Beat 14, Bone-Fields. Combined with Bone-Singer (ES 20). Total encounter ES ~68.</p>",
-      "languages": []
-    },
     "movement": {
-      "value": 4,
+      "value": 5,
       "types": [
-        "walk"
+        "burrow"
       ],
       "hover": false,
       "disengage": 1
@@ -437,7 +63,7 @@
         "acid": 0,
         "cold": 0,
         "corruption": 0,
-        "fire": 2,
+        "fire": 0,
         "holy": 0,
         "lightning": 0,
         "poison": 0,
@@ -445,13 +71,15 @@
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": []
+    "biography": {
+      "value": "<p>The Act 2 barrow-draugr are third-tier undead — calcified bone forms wrapped in tattered leather, risen from the ancient Bone-Fields rather than fresh cairns. They move with jerking, unnatural gaits and radiate bitter cold. Their Bone-Shatter Strike deals devastating blows, while their Calcified Grasp can restrain heroes in place with icy claws. These draugr are spawned by the Bone-Singer through its Arise ability, flooding the battlefield in expanding numbers.</p>",
+      "director": "",
+      "languages": []
     },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
+      "book": "",
       "page": "",
-      "license": ""
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
       "interest": 5,
@@ -460,16 +88,910 @@
       "pitfalls": [],
       "impression": 1
     },
-    "ev": 4,
     "monster": {
-      "freeStrike": 4,
+      "freeStrike": 6,
       "keywords": [
-        "undead",
-        "humanoid"
+        "undead"
       ],
       "level": 3,
+      "ev": 20,
       "role": "brute",
-      "organization": "horde"
+      "organization": "elite"
     }
-  }
+  },
+  "items": [
+    {
+      "name": "Fickle and Free",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The cold can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "fickle-and-free",
+        "advancements": {}
+      },
+      "_id": "OkvvF4JZBl5iqD6h",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.OkvvF4JZBl5iqD6h"
+    },
+    {
+      "name": "Primordial Strength",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The cold's strikes gain a +[[/damage 6]] damage bonus against objects.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "primordial-strength",
+        "advancements": {}
+      },
+      "_id": "fXSAWvKMRjQ7Dqyf",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.fXSAWvKMRjQ7Dqyf"
+    },
+    {
+      "name": "Stone Swim",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The cold can burrow through stone, but can't drag other creatures underground when they do so.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "stone-swim",
+        "advancements": {}
+      },
+      "_id": "bI0AQKpP8lABXfcV",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.bI0AQKpP8lABXfcV"
+    },
+    {
+      "name": "Claw Into Dirt",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 2
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 2
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "yP3FuaNoDkBz4rLR": {
+              "_id": "yP3FuaNoDkBz4rLR",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "8",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "12",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "15",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "brCMvvtuYRFvzSDu": {
+              "_id": "brCMvvtuYRFvzSDu",
+              "type": "applied",
+              "name": "Restrained",
+              "img": null,
+              "applied": {
+                "tier2": {
+                  "display": "{{potency}} restrained (save ends)",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "restrained": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier3": {
+                  "display": "{{potency}} restrained (save ends)",
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "restrained": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier1": {
+                  "display": "",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target's space is difficult terrain.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "slam-into-dirt",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "2dTlKnLNxsKYRYT4",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.2dTlKnLNxsKYRYT4"
+    },
+    {
+      "name": "Convocation of Quartz",
+      "type": "ability",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "system": {
+        "type": "maneuver",
+        "category": "signature",
+        "keywords": [
+          "magic",
+          "ranged"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 5
+        },
+        "target": {
+          "type": "selfOrAlly",
+          "value": 1,
+          "custom": "Self or one elemental"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the start of the cold's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane.</p><p>[[/apply E8LwdMt2tauxdbOc encounter]]</p><p>[[/heal 15 temp]]</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "Until the end of the encounter, the target grows a carapace  of stone. They have a +3 bonus to stability and gain 15 temporary Stamina.",
+          "value": 3
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "convocation-of-quartz",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [
+        {
+          "name": "Stone Carapace",
+          "img": "icons/magic/air/air-pressure-shield-blue.webp",
+          "type": "base",
+          "origin": "Actor.B31nPHgv2Ntimj4M.Item.bo6ly7AfPoApOvkl",
+          "disabled": true,
+          "_id": "E8LwdMt2tauxdbOc",
+          "system": {
+            "end": {
+              "type": "encounter",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [
+            {
+              "key": "system.combat.stability",
+              "mode": 2,
+              "value": "3",
+              "priority": null
+            }
+          ],
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.350",
+            "systemId": "draw-steel",
+            "systemVersion": "0.8.1",
+            "lastModifiedBy": null,
+            "modifiedTime": 1761096121060
+          },
+          "_key": "!actors.items.effects!B31nPHgv2Ntimj4M.bo6ly7AfPoApOvkl.E8LwdMt2tauxdbOc"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "bo6ly7AfPoApOvkl",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.bo6ly7AfPoApOvkl"
+    },
+    {
+      "name": "Break Armor",
+      "type": "ability",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "type": "triggered",
+        "category": "heroic",
+        "keywords": [
+          "-"
+        ],
+        "distance": {
+          "type": "self"
+        },
+        "target": {
+          "type": "self",
+          "value": null
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The cold halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. This damage weakness increases by 3 each time the cold uses this ability in the same encounter.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "break-armor",
+        "story": "",
+        "resource": 1,
+        "trigger": "The cold takes damage."
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "Fy6iuDYMfzssHL4J",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.Fy6iuDYMfzssHL4J"
+    },
+    {
+      "folder": "hE191ksRhzkku5Ov",
+      "name": "Elemental Swap",
+      "type": "ability",
+      "_id": "ivYpZCg1VqdHPv1k",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "113",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "elemental-swap",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Two elementals on the encounter map teleport to swap places, and each has damage immunity 2 until the end of the round.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [
+        {
+          "name": "Elemental Swap (Immunity)",
+          "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+          "type": "base",
+          "origin": "Compendium.draw-steel.monster-features.Item.ivYpZCg1VqdHPv1k",
+          "disabled": true,
+          "_id": "0q7DcAIYxiQ09fCG",
+          "system": {
+            "end": {
+              "type": "",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [
+            {
+              "key": "system.damage.immunities.all",
+              "mode": 4,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "duration": {
+            "startTime": 0,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>Two elementals on the encounter map teleport to swap places, and each has damage immunity 2 until the end of the round.</p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.348",
+            "systemId": "draw-steel",
+            "systemVersion": "0.8.1",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!B31nPHgv2Ntimj4M.ivYpZCg1VqdHPv1k.0q7DcAIYxiQ09fCG"
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.ivYpZCg1VqdHPv1k",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.ivYpZCg1VqdHPv1k"
+    },
+    {
+      "folder": "hE191ksRhzkku5Ov",
+      "name": "Split",
+      "type": "ability",
+      "_id": "nepObNKqvUUHrr8q",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "113",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "split",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original’s current Stamina and is one size smaller. Both elementals can then shift up to their speed.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.nepObNKqvUUHrr8q",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.nepObNKqvUUHrr8q"
+    },
+    {
+      "name": "Convocation of Chaos",
+      "type": "ability",
+      "_id": "vDtUjuLPjntj32co",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "113",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "convocation-of-chaos",
+        "story": "",
+        "keywords": [],
+        "type": "maneuver",
+        "category": "heroic",
+        "resource": 7,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 8
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "selfOrAlly",
+          "custom": "Self or one elemental",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [],
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the end of the encounter, the target has a +5 bonus to speed and a +5 damage bonus to strikes. Additionally, whenever an elemental within the target’s line of effect uses an ability with “Convocation” in the name, the target also gains the effects of that ability.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [
+        {
+          "name": "Convocation of Chaos (Speed)",
+          "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+          "type": "base",
+          "origin": "Compendium.draw-steel.monster-features.Item.vDtUjuLPjntj32co",
+          "_id": "Hba04T6CgjrjwaOu",
+          "system": {
+            "end": {
+              "type": "encounter",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [
+            {
+              "key": "system.movement.value",
+              "mode": 2,
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "draw-steel",
+            "systemVersion": "0.9.0",
+            "lastModifiedBy": null,
+            "modifiedTime": 1769969330732
+          },
+          "_key": "!actors.items.effects!B31nPHgv2Ntimj4M.vDtUjuLPjntj32co.Hba04T6CgjrjwaOu"
+        },
+        {
+          "name": "Convocation of Chaos (Strike)",
+          "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+          "type": "abilityModifier",
+          "origin": "Compendium.draw-steel.monster-features.Item.vDtUjuLPjntj32co",
+          "_id": "oOlOeEi6rpWKvkJ4",
+          "system": {
+            "end": {
+              "type": "encounter",
+              "roll": "1d10 + @combat.save.bonus"
+            },
+            "filters": {
+              "keywords": [
+                "strike"
+              ]
+            }
+          },
+          "changes": [
+            {
+              "key": "damage.bonuses.value",
+              "mode": 2,
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "draw-steel",
+            "systemVersion": "0.9.0",
+            "lastModifiedBy": null,
+            "modifiedTime": 1769969330732
+          },
+          "_key": "!actors.items.effects!B31nPHgv2Ntimj4M.vDtUjuLPjntj32co.oOlOeEi6rpWKvkJ4"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.vDtUjuLPjntj32co",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1761095563160,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.vDtUjuLPjntj32co"
+    }
+  ],
+  "folder": "hatSTUdV3EGvlnvE",
+  "_id": "BgZgIpphX326Llem",
+  "prototypeToken": {
+    "name": "Barrow-Draugr Act 2",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/magic/death/hand-dirt-undead-zombie.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0",
+    "createdTime": 1757110809738,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!B31nPHgv2Ntimj4M"
 }

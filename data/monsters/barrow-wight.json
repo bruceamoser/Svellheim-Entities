@@ -1,644 +1,28 @@
 {
-  "_id": "N4mtlXUBeAeXSJyj",
   "name": "Barrow-Wight",
-  "img": "icons/magic/death/undead-skeleton-energy-green.webp",
-  "items": [
-    {
-      "_id": "ELVhS9oTylbloxdc",
-      "name": "Wight's Blade",
-      "img": "icons/skills/melee/weapons-crossed-swords-white-blue.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-wight-wights-blade",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "melee",
-          "strike",
-          "weapon",
-          "cold"
-        ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "m3t3KrdDE51DTLNw": {
-              "type": "damage",
-              "_id": "m3t3KrdDE51DTLNw",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "6",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "8",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "11",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>Tier 2+: the target takes ongoing 3 cold damage (save ends).</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "I3pmBP1KcyhELyBb",
-      "name": "Soul Grip",
-      "img": "icons/skills/melee/unarmed-punch-fist-blue.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-wight-soul-grip",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "melee",
-          "magic",
-          "cold"
-        ],
-        "type": "maneuver",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "VIcVSy69LzfsQIU7": {
-              "type": "damage",
-              "_id": "VIcVSy69LzfsQIU7",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "3",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "5",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "7",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>The target is grabbed. While grabbed this way, it has bane on Might tests.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "5DRPYqdPzosMmTtl",
-      "name": "Binding Rune",
-      "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-wight-binding-rune",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "ranged",
-          "magic",
-          "cold"
-        ],
-        "type": "main",
-        "category": "villain",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "ranged",
-          "primary": 6,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "ranged",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "reason"
-            ]
-          },
-          "effects": {
-            "SwDJa1M510D4EedW": {
-              "type": "damage",
-              "_id": "SwDJa1M510D4EedW",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "4",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "6",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "8",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>Tier 2+: the target is slowed (save ends). Tier 3: restrained (save ends).</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "ZaHJIsFXtNS52Eiq",
-      "name": "Barrow's Call",
-      "img": "icons/magic/death/undead-skeleton-energy-green.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-wight-barrows-call",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "magic",
-          "cold",
-          "triggered"
-        ],
-        "type": "triggered",
-        "category": "villain",
-        "resource": null,
-        "trigger": "A Barrow-Draugr ally within 5 squares is reduced to 0 Stamina.",
-        "distance": {
-          "type": "self",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "self",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "presence"
-            ]
-          },
-          "effects": {
-            "jod34faWGVmV6wsM": {
-              "type": "damage",
-              "_id": "jod34faWGVmV6wsM",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "2",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "4",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "6",
-                  "types": [
-                    "cold"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>Choose another undead ally within 5 squares; it gains 6 temporary Stamina and can shift 2.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "tLAXbB4IBzjWebQx",
-      "name": "Law of the Grave",
-      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>The Barrow-Wight speaks in Old Norrœnt, its voice resonating through stone and bone. Each creature it addresses hears memories of oaths broken and rites left undone. This is narrative only -- the accusations are not mechanical effects.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-wight-law-of-the-grave",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "_id": "4IH2r3jSL7cZcavK",
-      "name": "Unfeeling",
-      "img": "icons/skills/wounds/injury-stitched-flesh-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>The Wight has no living nerves, no limbic system, no capacity for fear or pain. It cannot be frightened, charmed, or put to sleep.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-wight-unfeeling",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    }
-  ],
-  "effects": [],
-  "flags": {},
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
-    "lastModifiedBy": null
-  },
-  "prototypeToken": {
-    "name": "",
-    "displayName": 40,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "stamina"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "texture": {
-      "src": "icons/magic/death/undead-skeleton-energy-green.webp",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
-    },
-    "ring": {
-      "enabled": true
-    },
-    "sight": {
-      "enabled": false
-    },
-    "light": {}
-  },
   "type": "npc",
+  "img": "icons/magic/death/undead-skeleton-energy-green.webp",
   "system": {
     "stamina": {
-      "value": 84,
-      "max": 84,
+      "value": 109,
+      "max": 109,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 3
-      },
-      "agility": {
-        "value": 0
-      },
-      "reason": {
-        "value": -2
-      },
-      "intuition": {
         "value": 2
       },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 0
+      },
+      "intuition": {
+        "value": 0
+      },
       "presence": {
-        "value": -1
+        "value": 0
       }
     },
     "combat": {
@@ -648,18 +32,13 @@
       },
       "size": {
         "value": 1,
-        "letter": "M"
+        "letter": "L"
       },
-      "stability": 3,
-      "turns": 2
-    },
-    "biography": {
-      "value": "<p>The Barrow-Wight is what a Barrow-Warden becomes when left too long without purpose -- when the burial-oath calcifies into something older and crueler. Taller than any living man, wearing funerary iron corroded to black, it carries the frost-etched blade of its original charge.</p><p>Unlike the thralls it commands, the Barrow-Wight remembers what it was. That memory is the wound. It speaks in Old Norrœnt, accusing the living of transgressions against the dead, holding court in darkness with the authority of something that was once honoured and is now only ancient.</p><p>The runic inscriptions in the barrow-complex below Stairwatch reference \"the binding below\" and \"the wolf that waits\" -- Grafvitnir lore. The Wight is one of the oldest seals in this system: a guardian placed here before Svellheim existed, warding something deeper.</p>",
-      "director": "<p>The Barrow-Wight acts twice per round (turns: 2). Open with Wight's Blade on the most armoured target, then Soul Grip on a caster or support. Use Binding Rune (3 Malice) when a key PC is about to use a major ability. Hold Barrow's Call (5 Malice) for mid-fight -- summon thralls when the PCs think they're winning.</p><p>Environmental hazards (unstable ceiling, flooded passages, choking dust) complicate the encounter. The two living miners are behind a cave-in three rooms deep. The dead miner lies near the runic chamber entrance. The Wight guards the runic chamber.</p>",
-      "languages": []
+      "stability": 0,
+      "turns": 1
     },
     "movement": {
-      "value": 5,
+      "value": 6,
       "types": [
         "walk"
       ],
@@ -670,12 +49,12 @@
       "immunities": {
         "all": 0,
         "acid": 0,
-        "cold": 5,
+        "cold": 0,
         "corruption": 0,
         "fire": 0,
         "holy": 0,
         "lightning": 0,
-        "poison": 5,
+        "poison": 0,
         "psychic": 0,
         "sonic": 0
       },
@@ -684,24 +63,23 @@
         "acid": 0,
         "cold": 0,
         "corruption": 0,
-        "fire": 5,
-        "holy": 5,
+        "fire": 0,
+        "holy": 0,
         "lightning": 0,
         "poison": 0,
         "psychic": 0,
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": [
-        "frightened",
-        "charmed"
-      ]
+    "biography": {
+      "value": "<p>The barrow-wight is a barrow-warden who has undergone a second, terrible transformation — its connection to the Rot deepening until ancient barrow-magic fuses with corruption, creating something more powerful and far more willful than the common draugr. Barrow-wights retain the commanding presence of their former role but now exert it through fear and corruption rather than martial authority. Their very gaze can wither resolve, and they draw strength from the despair of their enemies.</p>",
+      "director": "",
+      "languages": []
     },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
+      "book": "",
       "page": "",
-      "license": ""
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
       "interest": 5,
@@ -710,16 +88,998 @@
       "pitfalls": [],
       "impression": 1
     },
-    "ev": 16,
     "monster": {
-      "freeStrike": 6,
+      "freeStrike": 5,
       "keywords": [
-        "undead",
-        "soulless"
+        "undead"
       ],
       "level": 2,
+      "ev": 16,
       "role": "brute",
       "organization": "elite"
     }
-  }
+  },
+  "items": [
+    {
+      "name": "Haymaker",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 2
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "8ccAKB83thHuyqty": {
+              "_id": "8ccAKB83thHuyqty",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "7",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "11",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "14",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "DNTLGrB8tVpKwG2o": {
+              "_id": "DNTLGrB8tVpKwG2o",
+              "type": "applied",
+              "name": "Grabbed",
+              "img": null,
+              "applied": {
+                "tier2": {
+                  "display": "one target is grabbed",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "grabbed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier3": {
+                  "display": "one target is grabbed",
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "grabbed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier1": {
+                  "display": "",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            },
+            "XHFtYA8aGJx1sjej": {
+              "name": "Push",
+              "img": null,
+              "type": "forced",
+              "_id": "XHFtYA8aGJx1sjej",
+              "forced": {
+                "tier1": {
+                  "display": "",
+                  "movement": [],
+                  "distance": "",
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "one target is pushed up to 2 squares",
+                  "movement": [
+                    "push"
+                  ],
+                  "distance": "2",
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "display": "one target is vertical pushed up to 3 squares",
+                  "movement": [
+                    "push"
+                  ],
+                  "distance": "3",
+                  "properties": [
+                    "vertical"
+                  ],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 1 burst, and it targets each enemy in the area.</p>"
+        },
+        "spend": {
+          "text": "The ability takes the Area keyword and loses the Strike  keyword, its distance becomes a 1 burst, and it targets each enemy in the area.",
+          "value": 5
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "54"
+        },
+        "_dsid": "haymaker",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "SUZ0PWGPwRWDwLuI",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kYb1A4yFNpXsTXff.SUZ0PWGPwRWDwLuI"
+    },
+    {
+      "name": "Leaping Fury",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "F49rXI7CIPzntWS6": {
+              "_id": "F49rXI7CIPzntWS6",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "8",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "13",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "16",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "Fv1JN2h7XFojm2ZP": {
+              "_id": "Fv1JN2h7XFojm2ZP",
+              "type": "applied",
+              "name": "Prone",
+              "img": null,
+              "applied": {
+                "tier1": {
+                  "display": "{{potency}} prone",
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "prone": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier2": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "prone": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier3": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "prone": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The roughneck can jump up to 5 squares to an unoccupied space within distance of the target before making this strike.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "54"
+        },
+        "_dsid": "leaping-fury",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "T7UfS2awa4j6d6XQ",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kYb1A4yFNpXsTXff.T7UfS2awa4j6d6XQ"
+    },
+    {
+      "name": "Drag Through Hell",
+      "type": "ability",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "system": {
+        "type": "maneuver",
+        "category": "heroic",
+        "keywords": [
+          "melee"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p><strong>Special:</strong> The target must be grabbed by the roughneck.</p>",
+          "after": "<p>The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer grabbed and falls prone. Each square the target was dragged through is difficult terrain for enemies.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "54"
+        },
+        "_dsid": "drag-through-hell",
+        "story": "",
+        "resource": 3,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "cgU2wcPDWLS83GsI",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kYb1A4yFNpXsTXff.cgU2wcPDWLS83GsI"
+    },
+    {
+      "name": "Throw",
+      "type": "ability",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "system": {
+        "type": "maneuver",
+        "category": "signature",
+        "keywords": [
+          "melee",
+          "strike"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Special: The target must be grabbed by the roughneck.</p>",
+          "after": "<p>The target is vertical pushed up to 5 squares. An ally doesn’t take damage from being cold moved this way.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "54"
+        },
+        "_dsid": "throw",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "BRTkdIGhWAqc4mMP",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kYb1A4yFNpXsTXff.BRTkdIGhWAqc4mMP"
+    },
+    {
+      "name": "Catcher",
+      "type": "ability",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
+      "system": {
+        "type": "freeTriggered",
+        "category": "signature",
+        "keywords": [
+          "melee"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "target": {
+          "type": "creature",
+          "value": 1
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target is grabbed by the roughneck.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "54"
+        },
+        "_dsid": "catcher",
+        "story": "",
+        "resource": null,
+        "trigger": "A size 1 creature or object is cold moved within distance, or a size 1 ally willingly moves within distance."
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "qS9ztqMGYanupTP7",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kYb1A4yFNpXsTXff.qS9ztqMGYanupTP7"
+    },
+    {
+      "name": "Flying Sawblade",
+      "type": "ability",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "type": "triggered",
+        "category": "signature",
+        "keywords": [
+          "melee"
+        ],
+        "distance": {
+          "type": "self"
+        },
+        "target": {
+          "type": "self",
+          "value": null
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The roughneck uses Haymaker against a creature or object at any point during the forced movement, or after falling as a result of it.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "54"
+        },
+        "_dsid": "flying-sawblade",
+        "story": "",
+        "resource": null,
+        "trigger": "The roughneck is vertical cold moved by another creature."
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "6LgZlB5l1QUT1KBM",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!kYb1A4yFNpXsTXff.6LgZlB5l1QUT1KBM"
+    },
+    {
+      "folder": "wOmSdK6NadZYxvlf",
+      "name": "Goblin Malice Features",
+      "type": "ability",
+      "_id": "06sDqIj5EE1bUxw1",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "52",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "goblin-malice-features",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The bugbear activates a Malice Feature available to goblins, spending the required malice to use those features.</p><p>@UUID[Compendium.draw-steel.monster-features.Item.4IYmvaux8p8vaWR6]{Goblin Mode}</p><p>@UUID[Compendium.draw-steel.monster-features.Item.vZMdicLidQzWMkgm]{Swamp Stink}</p><p>@UUID[Compendium.draw-steel.monster-features.Item.Oa0MhwS1yeyeJ5qG]{Tiny Stabs}</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.06sDqIj5EE1bUxw1",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "createdTime": 1757089859491,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!kYb1A4yFNpXsTXff.06sDqIj5EE1bUxw1"
+    },
+    {
+      "folder": "wOmSdK6NadZYxvlf",
+      "name": "Grab Iron Ball",
+      "type": "ability",
+      "_id": "OE8d20QnSaE7ZHfI",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "52",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "grab-iron-ball",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "custom": "",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [],
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>For every 3 Malice spent, one non-minion bugbear acting this turn grabs an iron ball and can use a maneuver to throw it at a creature within 5 squares of them. The creature takes damage equal to 8 – the number of squares the iron ball was thrown, and if they have [[potency M 1]] they are slowed (save ends).</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.OE8d20QnSaE7ZHfI",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "createdTime": 1757089861194,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!kYb1A4yFNpXsTXff.OE8d20QnSaE7ZHfI"
+    },
+    {
+      "folder": "wOmSdK6NadZYxvlf",
+      "name": "Show Them the Great Fear",
+      "type": "ability",
+      "_id": "XPiOlpj5iRNcFIvP",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "52",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "show-them-the-great-fear",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 10,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "custom": "",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [],
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>A bugbear infuses the encounter map with bu’gathic magic. Until the end of the encounter, all bugbears and allies have their speed doubled and can automatically climb at full speed while moving. Additionally, if the target of any bugbear or ally’s strike has [[potency I 1]] the target is also frightened (save ends) and must move their speed in a straight line away from the creature who made the strike.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.XPiOlpj5iRNcFIvP",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "createdTime": 1757089864076,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!kYb1A4yFNpXsTXff.XPiOlpj5iRNcFIvP"
+    },
+    {
+      "name": "Grab Javelin",
+      "type": "ability",
+      "_id": "Ie5fkOP90woMMUVx",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "52",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "grab-javelin",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "custom": "",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [],
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>For every 5 Malice spent, one non-minion bugbear acting this turn grabs a javelin and can use a maneuver to throw it at a creature within 5 squares of them. The creature takes damage equal to 12 – the number of squares the javelin was thrown, and if they have [[potency M 1]] they are [[/apply bleeding save]]. While a creature is bleeding this way, any ally of the bugbear within 2 squares of them can use a free maneuver to pull the bleeding creature up to 2 squares.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.5stni4cw4IVUjzqM",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1763816733785,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "CIQwmPP4Pjosq4Yp": 3
+      },
+      "folder": null,
+      "sort": 300000,
+      "_key": "!actors.items!kYb1A4yFNpXsTXff.Ie5fkOP90woMMUVx"
+    }
+  ],
+  "folder": "IOJX0Gbij4nZLkvh",
+  "prototypeToken": {
+    "name": "Barrow-Wight",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/magic/death/undead-skeleton-energy-green.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "draw-steel",
+    "systemVersion": "0.8.1",
+    "createdTime": 1757089809246,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_id": "yLF7wBrP2LvlsYdU",
+  "sort": 0,
+  "_key": "!actors!kYb1A4yFNpXsTXff"
 }

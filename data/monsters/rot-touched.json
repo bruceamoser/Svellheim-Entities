@@ -1,22 +1,22 @@
 {
-  "name": "Wight-Lord",
+  "name": "Rot-Touched",
   "type": "npc",
-  "img": "modules/svellheim-entities/assets/icons/monster-images/wight-lord.png",
+  "img": "systems/draw-steel/assets/roles/harrier.webp",
   "system": {
     "stamina": {
-      "value": 210,
-      "max": 210,
+      "value": 30,
+      "max": 30,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 3
+        "value": 2
       },
       "agility": {
-        "value": -1
+        "value": 3
       },
       "reason": {
-        "value": -2
+        "value": -1
       },
       "intuition": {
         "value": 1
@@ -31,15 +31,16 @@
         "bonus": ""
       },
       "size": {
-        "value": 3,
+        "value": 1,
         "letter": "M"
       },
-      "stability": 2,
+      "stability": 0,
       "turns": 1
     },
     "movement": {
-      "value": 6,
+      "value": 5,
       "types": [
+        "climb",
         "walk"
       ],
       "hover": false,
@@ -72,7 +73,7 @@
       }
     },
     "biography": {
-      "value": "<p>The Wight-Lord is the supreme commander of the undead armies besieging Svellheim's holds — an ancient warlord who died with conquest unfinished and rose with all of that ambition intact. Armored in blackened plate etched with necromantic runes, the Wight-Lord commands the battlefield with calculated precision. Its siege commander abilities coordinate undead forces across vast distances, and its multiple attack sequences make it a solo threat capable of holding multiple heroes at bay simultaneously.</p>",
+      "value": "<p>Rot-touched are humanoids who survived direct Rot exposure — not killed, but twisted beyond recognition into animalistic, hunger-driven undead. Their flesh is partially decomposed, reeking of decay and infection, their bodies bent into unnatural shapes by corruption. They hunt the bloodied and the weak, their Hunger growing sharper when prey falls below half Stamina. Their Corrupted Claw poisons targets, and their Rot Spray can slow an entire cluster of heroes at range.</p>",
       "director": "",
       "languages": []
     },
@@ -89,35 +90,35 @@
       "impression": 1
     },
     "monster": {
-      "freeStrike": 9,
+      "freeStrike": 2,
       "keywords": [
         "undead"
       ],
       "level": 4,
-      "ev": 24,
-      "role": "brute",
-      "organization": "elite"
+      "ev": 6,
+      "role": "harrier",
+      "organization": "horde"
     }
   },
   "items": [
     {
-      "name": "Endless Knight",
+      "name": "Unslakable Bloodthirst",
       "type": "feature",
       "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
       "system": {
         "description": {
-          "value": "<p>The first time the wight-lord is reduced to 0 Stamina by damage that isn't corruption damage or cold damage and their body isn't destroyed, they instead have [[/heal 50]] and fall prone.</p>",
+          "value": "<p>The rot-touched has speed 10 while any creature within 10 squares of them is bleeding. The rot-touched must use Exsanguinating Bite against a bleeding creature on their turn if they are able to.</p>",
           "director": ""
         },
         "source": {
           "book": "Monsters",
           "license": "Draw Steel Creator License",
-          "page": "266"
+          "page": "267"
         },
-        "_dsid": "endless-knight",
+        "_dsid": "unslakable-bloodthirst",
         "advancements": {}
       },
-      "_id": "T4DyUCXY5Iu7MdA7",
+      "_id": "peS3v5OahwgjCjPf",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -135,47 +136,10 @@
         "lastModifiedBy": null,
         "modifiedTime": null
       },
-      "_key": "!actors.items!7qbXEbRsrCM62s99.T4DyUCXY5Iu7MdA7"
+      "_key": "!actors.items!FkXRcf7Y6hDP4hTb.peS3v5OahwgjCjPf"
     },
     {
-      "name": "Negative Nerves",
-      "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
-      "system": {
-        "description": {
-          "value": "<p>When the wight-lord is targeted by an ability that deals rolled damage, they halve the damage from a tier 1 outcome</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Monsters",
-          "license": "Draw Steel Creator License",
-          "page": "266"
-        },
-        "_dsid": "negative-nerves",
-        "advancements": {}
-      },
-      "_id": "F1zZ4KBHEUYlFcrH",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_key": "!actors.items!7qbXEbRsrCM62s99.F1zZ4KBHEUYlFcrH"
-    },
-    {
-      "name": "Rotten Claw",
+      "name": "Exsanguinating Bite",
       "type": "ability",
       "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
       "system": {
@@ -188,30 +152,32 @@
         ],
         "distance": {
           "type": "melee",
-          "primary": 3
+          "primary": 1
         },
         "target": {
           "type": "creatureObject",
-          "value": 2
+          "value": 1
         },
         "damageDisplay": "melee",
         "power": {
           "roll": {
             "formula": "@chr",
             "characteristics": [
-              "might"
+              "agility"
             ]
           },
           "effects": {
-            "hO5DFlwyWunmaXp2": {
-              "_id": "hO5DFlwyWunmaXp2",
+            "vTZ67lm3B3nRjyCH": {
+              "_id": "vTZ67lm3B3nRjyCH",
               "type": "damage",
               "name": "",
               "img": null,
               "damage": {
                 "tier1": {
-                  "value": "9",
-                  "types": [],
+                  "value": "5",
+                  "types": [
+                    "corruption"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.weak",
@@ -219,8 +185,10 @@
                   }
                 },
                 "tier2": {
-                  "value": "14",
-                  "types": [],
+                  "value": "7",
+                  "types": [
+                    "corruption"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.average",
@@ -228,8 +196,10 @@
                   }
                 },
                 "tier3": {
-                  "value": "17",
-                  "types": [],
+                  "value": "9",
+                  "types": [
+                    "corruption"
+                  ],
                   "properties": [],
                   "potency": {
                     "value": "@potency.strong",
@@ -238,36 +208,36 @@
                 }
               }
             },
-            "FEJtPOC4GeBh1N03": {
-              "_id": "FEJtPOC4GeBh1N03",
+            "BtEiO3V2SzA4qfSL": {
+              "_id": "BtEiO3V2SzA4qfSL",
               "type": "applied",
-              "name": "Grabbed",
+              "name": "Bleeding",
               "img": null,
               "applied": {
                 "tier2": {
-                  "display": "{{potency}} grabbed",
+                  "display": "{{potency}} bleeding (save ends)",
                   "potency": {
                     "value": "@potency.average",
-                    "characteristic": "agility"
+                    "characteristic": "might"
                   },
                   "effects": {
-                    "grabbed": {
+                    "bleeding": {
                       "condition": "failure",
-                      "end": "",
+                      "end": "save",
                       "properties": []
                     }
                   }
                 },
                 "tier3": {
-                  "display": "{{potency}} grabbed",
+                  "display": "{{potency}} bleeding (save ends)",
                   "potency": {
                     "value": "@potency.strong",
-                    "characteristic": "agility"
+                    "characteristic": "might"
                   },
                   "effects": {
-                    "grabbed": {
+                    "bleeding": {
                       "condition": "failure",
-                      "end": "",
+                      "end": "save",
                       "properties": []
                     }
                   }
@@ -286,18 +256,18 @@
         },
         "effect": {
           "before": "",
-          "after": ""
+          "after": "<p>The rot-touched regains Stamina equal to any corruption damage dealt.</p><p>[[/heal 5]]</p><p>[[/heal 7]]</p><p>[[/heal 9]]</p><p>[[/damage 3 corruption]]{3 Corruption Damage}</p>"
         },
         "spend": {
-          "text": "",
-          "value": null
+          "text": "The target takes an additional 3 corruption damage.",
+          "value": 1
         },
         "source": {
           "book": "Monsters",
           "license": "Draw Steel Creator License",
-          "page": "266"
+          "page": "267"
         },
-        "_dsid": "rotten-smash",
+        "_dsid": "exsanguinating-bite",
         "story": "",
         "resource": null,
         "trigger": ""
@@ -316,40 +286,39 @@
         "lastModifiedBy": null,
         "modifiedTime": null
       },
-      "_id": "JFM16mgMO6eXqXFA",
+      "_id": "XciCxpDHMyKuJOGW",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!7qbXEbRsrCM62s99.JFM16mgMO6eXqXFA"
+      "_key": "!actors.items!FkXRcf7Y6hDP4hTb.XciCxpDHMyKuJOGW"
     },
     {
-      "name": "Knocking Heads",
+      "name": "Vampiric Celerity",
       "type": "ability",
-      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
       "system": {
-        "type": "triggered",
-        "category": "heroic",
+        "type": "maneuver",
+        "category": "",
         "keywords": [],
         "distance": {
           "type": "self"
         },
         "target": {
           "type": "self",
-          "value": null,
-          "custom": "Self; see below"
+          "value": null
         },
         "damageDisplay": "melee",
         "power": {
           "roll": {
             "formula": "@chr",
             "characteristics": [
-              "might"
+              "agility"
             ]
           },
           "effects": {}
         },
         "effect": {
-          "before": "<p>The creatures or objects are smashed together using Rotten Claw, which has a double edge.</p>",
+          "before": "<p>The rot-touched can shift 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge.</p>",
           "after": ""
         },
         "spend": {
@@ -359,12 +328,12 @@
         "source": {
           "book": "Monsters",
           "license": "Draw Steel Creator License",
-          "page": "266"
+          "page": "267"
         },
-        "_dsid": "knocking-heads",
+        "_dsid": "vampiric-celerity",
         "story": "",
-        "resource": 1,
-        "trigger": "The wight-lord grabs two creatures or objects, or starts their turn with two creatures or objects grabbed."
+        "resource": null,
+        "trigger": ""
       },
       "effects": [],
       "folder": null,
@@ -374,17 +343,17 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.348",
         "systemId": "draw-steel",
         "systemVersion": "0.9.0",
         "lastModifiedBy": null,
         "modifiedTime": null
       },
-      "_id": "bdn7AFwZf2AR4fv4",
+      "_id": "QVWHgwwTu8qOUKVF",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!7qbXEbRsrCM62s99.bdn7AFwZf2AR4fv4"
+      "_key": "!actors.items!FkXRcf7Y6hDP4hTb.QVWHgwwTu8qOUKVF"
     },
     {
       "folder": "YZb6JUipWCfcksYj",
@@ -445,7 +414,7 @@
         "lastModifiedBy": null,
         "modifiedTime": null
       },
-      "_key": "!actors.items!7qbXEbRsrCM62s99.g3I8pfaRJv4SU7k0"
+      "_key": "!actors.items!FkXRcf7Y6hDP4hTb.g3I8pfaRJv4SU7k0"
     },
     {
       "folder": "YZb6JUipWCfcksYj",
@@ -506,18 +475,18 @@
       },
       "_id": "lql6HakCaCi05z5P",
       "sort": -100000,
-      "_key": "!actors.items!7qbXEbRsrCM62s99.lql6HakCaCi05z5P"
+      "_key": "!actors.items!FkXRcf7Y6hDP4hTb.lql6HakCaCi05z5P"
     }
   ],
   "folder": "bQgGaMhvhgZFC0kO",
   "prototypeToken": {
-    "name": "Wight-Lord",
+    "name": "Rot-Touched",
     "displayName": 20,
     "actorLink": false,
-    "width": 3,
-    "height": 3,
+    "width": 1,
+    "height": 1,
     "texture": {
-      "src": "modules/svellheim-entities/assets/icons/monster-images/wight-lord.png",
+      "src": "systems/draw-steel/assets/roles/harrier.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -613,14 +582,14 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "13.348",
     "systemId": "draw-steel",
     "systemVersion": "0.9.0",
-    "createdTime": 1758166830703,
+    "createdTime": 1758166837339,
     "modifiedTime": null,
     "lastModifiedBy": null
   },
-  "_id": "1vdJcDkeRFewA0tQ",
+  "_id": "5EW8JOE9njruelKm",
   "sort": 0,
-  "_key": "!actors!7qbXEbRsrCM62s99"
+  "_key": "!actors!FkXRcf7Y6hDP4hTb"
 }

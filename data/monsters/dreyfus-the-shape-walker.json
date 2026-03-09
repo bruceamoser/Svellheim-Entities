@@ -1,515 +1,25 @@
 {
-  "_id": "J1qSFfE5xYbB7iOd",
-  "name": "Dreyfus, the Shape-Walker (L5 Elite)",
-  "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
-  "items": [
-    {
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "_id": "DREY200000000001",
-      "name": "Talon Strike",
-      "type": "ability",
-      "img": "icons/skills/melee/hand-grip-staff-blue.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-l5-talon-strike",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "melee",
-          "strike"
-        ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "agility"
-            ]
-          },
-          "effects": {
-            "DREY20000000E001": {
-              "type": "damage",
-              "_id": "DREY20000000E001",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "6",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "9",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "agility"
-                  }
-                },
-                "tier3": {
-                  "value": "12",
-                  "types": [
-                    "corruption"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "agility"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Tier 2+:</strong> The target is slowed (save ends). <strong>Tier 3:</strong> The corruption damage manifests as flickering shadow-wounds that unravel at the edges.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "_id": "DREY200000000002",
-      "name": "Void Pulse",
-      "type": "ability",
-      "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-l5-void-pulse",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "ranged",
-          "strike",
-          "magic"
-        ],
-        "type": "main",
-        "category": "heroic",
-        "resource": 3,
-        "trigger": "",
-        "distance": {
-          "type": "ranged",
-          "primary": 8,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "ranged",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "presence"
-            ]
-          },
-          "effects": {
-            "DREY20000000E002": {
-              "type": "damage",
-              "_id": "DREY20000000E002",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "5",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "7",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "presence"
-                  }
-                },
-                "tier3": {
-                  "value": "10",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "presence"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Tier 2+:</strong> The target has a bane on their next power roll. <strong>Tier 3:</strong> The target is also dazed until the end of their next turn as the void echo floods their senses.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "_id": "DREY200000000003",
-      "name": "Shift Form",
-      "type": "ability",
-      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-l5-shift-form",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "magic"
-        ],
-        "type": "triggered",
-        "category": "villain",
-        "resource": 1,
-        "trigger": "The start of Dreyfus’s turn.",
-        "distance": {
-          "type": "self",
-          "primary": 0,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "self",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "",
-            "characteristics": []
-          },
-          "effects": {}
-        },
-        "effect": {
-          "before": "<p>Dreyfus transforms into a new form. Each form grants a secondary attack he can use as a maneuver this turn:</p><ul><li><strong>Dire Wolf Form:</strong> Pack Lunge — Melee, Agility vs Might; 11 damage, target is prone.</li><li><strong>Raven Form:</strong> Wyrd-Shriek — Close Burst 2, Intuition vs Intuition; 5 damage, all targets dazed until end of next turn. Speed becomes 10 (flying).</li><li><strong>Shadow Form:</strong> Drain Warmth — Ranged touch, Presence vs Presence; 8 cold damage, target loses 1 Recovery.</li></ul><p>At 20 Stamina or below, Dreyfus can no longer maintain animal shapes and reverts to humanoid form permanently.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "_id": "DREY200000000004",
-      "name": "Flickering Body",
-      "type": "feature",
-      "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
-      "system": {
-        "description": {
-          "value": "<p>When Dreyfus takes 10 or more damage from a single hit, he immediately teleports up to 3 squares as a free triggered action.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-l5-flickering-body",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "_id": "DREY200000000005",
-      "name": "Wyrd-Read",
-      "type": "feature",
-      "img": "icons/magic/perception/orb-eye-scrying.webp",
-      "system": {
-        "description": {
-          "value": "<p>Dreyfus cannot be surprised. He knows what skills and abilities each hero has used so far in the campaign, including their fighting styles from Beat 9. He targets weaknesses and avoids strengths — specifically avoiding melee with the party’s strongest fighter unless cornered.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-l5-wyrd-read",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "_id": "DREY200000000006",
-      "name": "Shape Collapse",
-      "type": "feature",
-      "img": "icons/magic/unholy/orb-glowing-yellow-purple.webp",
-      "system": {
-        "description": {
-          "value": "<p>When reduced to 0 Stamina, Dreyfus does not die. He collapses into a pool of shadow and is incapacitated. He cannot reform. He is finished — not destroyed, but ended as an agent. For one moment, he looks completely human — not a shape-walker, but a person who has been doing something terrible for a very long time and has finally been stopped.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-l5-shape-collapse",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    }
-  ],
-  "effects": [],
-  "flags": {
-    "era-of-embers": {
-      "beat": "24",
-      "note": "Final appearance — distinct from Act 1 L4 version. Exhausted, degraded, personal."
-    }
-  },
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
-    "lastModifiedBy": null
-  },
-  "prototypeToken": {
-    "name": "Dreyfus",
-    "displayName": 40,
-    "actorLink": true,
-    "width": 1,
-    "height": 1,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "stamina"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "texture": {
-      "src": "icons/creatures/abilities/bull-head-horns-glowing.webp",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
-    },
-    "ring": {
-      "enabled": true
-    },
-    "sight": {
-      "enabled": false
-    },
-    "light": {}
-  },
+  "name": "Dreyfus the Shape-Walker",
   "type": "npc",
+  "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
   "system": {
     "stamina": {
-      "value": 64,
-      "max": 64,
+      "value": 175,
+      "max": 175,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 3
+        "value": 0
       },
       "agility": {
-        "value": 4
+        "value": 3
       },
       "reason": {
-        "value": 2
+        "value": 1
       },
       "intuition": {
-        "value": 3
+        "value": 0
       },
       "presence": {
         "value": 2
@@ -524,19 +34,13 @@
         "value": 1,
         "letter": "M"
       },
-      "stability": 2,
-      "turns": 2
-    },
-    "biography": {
-      "value": "<p><strong>Dreyfus, the Shape-Walker — Level 5 Elite</strong></p><p><em>Humanoid (Shape-Walker), Medium</em></p><p>Stamina 64 | Speed 7 | Size M | Stability 2</p><p>Dreyfus appears as a grey-pale man with gold unblinking eyes, skin the colour of old ivory. But something is <em>wrong</em> with him. The edges of him flicker, like a candle in a draft. His shifting is less clean than it was — less sure. He carries the specific marks of his fight with the party in Beat 9.</p><hr><h3>Main Attacks</h3><p><strong>Talon Strike</strong> (Melee, Agility): +4 vs Agility; 9 damage. Target is Slowed (save ends).</p><p><strong>Void Pulse</strong> (Ranged 8, Presence): +3 vs Intuition; 7 damage. Target has a bane on their next test or attack roll.</p><hr><h3>Triggered Actions (costs 1 Villain Power)</h3><p><strong>Shift Form</strong> (triggered at start of turn): Dreyfus transforms into a new form. Each form has a different secondary attack:</p><ul><li><strong>Dire Wolf Form:</strong> Pack Lunge — Melee, +4 vs Might; 11 damage, target Prone.</li><li><strong>Raven Form:</strong> Wyrd-Shriek — Close Burst 2, +3 vs Intuition; 5 damage, all targets Dazed until end of next turn. (Speed 10 while in Raven form; flying.)</li><li><strong>Shadow Form:</strong> Drain Warmth — Ranged touch, +3 vs Presence; 8 cold damage, target loses 1 Recovery.</li></ul><hr><h3>Features</h3><p><strong>Flickering Body:</strong> When Dreyfus takes 10+ damage from a single hit, he immediately teleports 3 squares as a free triggered action.</p><p><strong>Wyrd-Read:</strong> Dreyfus cannot be surprised. He knows what skills each hero has used so far in the campaign and uses this knowledge tactically.</p><p><strong>Shape Collapse:</strong> When reduced to 0 Stamina, Dreyfus does not die. He collapses into a pool of shadow and is incapacitated. He cannot reform. He is finished — not destroyed, but ended as an agent.</p>",
-      "director": "<p><strong>TACTICAL GUIDANCE:</strong></p><ul><li>This fight should take ~2 rounds if the party plays efficiently.</li><li>Dreyfus is dangerous (Elite) but exhausted in ways that show.</li><li><strong>Round 1:</strong> Fights with precision and cruelty. Uses Wyrd-Read knowledge to target each hero's confidence. Shifts forms to scatter positioning.</li><li><strong>Round 2:</strong> Villain Power depleted. Returns to human form. Faster, more direct — precision gone, replaced by pure violence. Most dangerous here.</li><li>At 20 Stamina: Stops shifting forms. He can't maintain the shapes. The party watches something <em>degrade</em>.</li><li>At 0 Stamina: Collapses. Flickering stops. For one moment, he looks completely human — not a shape-walker, but a person who has been doing something terrible for a very long time and has finally been stopped.</li></ul><p><strong>CALLBACK TO BEAT 9:</strong> Review what the party did to Dreyfus in Beat 9 — which PC wounded him, what weapon, where the blow landed. His degraded appearance here should carry the specific marks of that fight. If a PC drove a spear through his shoulder, his left arm doesn't shift cleanly. If they burned him, his raven form trails ash. The party should recognise their own handiwork.</p>",
-      "languages": []
+      "stability": 1,
+      "turns": 1
     },
     "movement": {
       "value": 7,
       "types": [
-        "walk",
-        "teleport"
+        "walk"
       ],
       "hover": false,
       "disengage": 1
@@ -560,34 +64,870 @@
         "cold": 0,
         "corruption": 0,
         "fire": 0,
-        "holy": 5,
+        "holy": 0,
         "lightning": 0,
         "poison": 0,
         "psychic": 0,
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": [
-        "frightened",
-        "charmed"
-      ]
+    "biography": {
+      "value": "<p>Dreyfus is the last and most dangerous shape-walker the heroes will face — a spy of extraordinary ability who has served a king's ambitions for decades and has no intention of losing now. He uses Wyrd-Claw strikes that embed psychic trauma, Hollowing Gaze to extract memories, and Shape-Shift to move through the encounter as a different person entirely. He does not escape this encounter. If the party earns it narratively, there is a crack in his certainty before the end — a flicker of what might have been a different choice.</p>",
+      "director": "",
+      "languages": []
     },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
+      "book": "",
       "page": "",
-      "license": ""
+      "license": "Draw Steel Creator License"
     },
-    "ev": 5,
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
     "monster": {
-      "freeStrike": 5,
+      "freeStrike": 9,
       "keywords": [
-        "humanoid",
-        "shape-walker"
+        "humanoid"
       ],
       "level": 5,
-      "role": "hexer",
+      "ev": 28,
+      "role": "ambusher",
       "organization": "elite"
     }
-  }
+  },
+  "items": [
+    {
+      "name": "Exploit Opening",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The shadow deals an extra [[/damage 7]] damage to any bleeding target.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "237"
+        },
+        "_dsid": "exploit-opening",
+        "advancements": {}
+      },
+      "_id": "sw5278eBrBR7kVzV",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!ZYA3u3MgtbR9FIzY.sw5278eBrBR7kVzV"
+    },
+    {
+      "name": "Rivalry",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a [[/r d3]] roll to power rolls they make against each other.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "237"
+        },
+        "_dsid": "rivalry",
+        "advancements": {}
+      },
+      "_id": "Rtr19T2gJLnSm5D8",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!ZYA3u3MgtbR9FIzY.Rtr19T2gJLnSm5D8"
+    },
+    {
+      "name": "Ambuscade",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 2
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {
+            "mOeb8MooyscHwWkH": {
+              "_id": "mOeb8MooyscHwWkH",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "10",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "15",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "18",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "2QX8LMsL0DkMT8Fq": {
+              "_id": "2QX8LMsL0DkMT8Fq",
+              "type": "applied",
+              "name": "Bleeding",
+              "img": null,
+              "applied": {
+                "tier2": {
+                  "display": "{{potency}} bleeding (save ends)",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "agility"
+                  },
+                  "effects": {
+                    "bleeding": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier3": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "agility"
+                  },
+                  "effects": {
+                    "bleeding": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier1": {
+                  "display": "",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "The shadow can teleport up to 6 squares, then can attempt to hide.",
+          "value": 1
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "237"
+        },
+        "_dsid": "ambuscade",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "zgB4nFpVxL00sMjx",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ZYA3u3MgtbR9FIzY.zgB4nFpVxL00sMjx"
+    },
+    {
+      "name": "psychic the Blade",
+      "type": "ability",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "system": {
+        "type": "maneuver",
+        "category": "",
+        "keywords": [],
+        "distance": {
+          "type": "self"
+        },
+        "target": {
+          "type": "self",
+          "value": null
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The shadow coats their weapon with psychic. They gain an edge on their next strike, and any potency for that strike increases by 1.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "237"
+        },
+        "_dsid": "psychic-the-blade",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "gxarWoYULimyZuC2",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!ZYA3u3MgtbR9FIzY.gxarWoYULimyZuC2"
+    },
+    {
+      "name": "Calling the Shots",
+      "type": "ability",
+      "system": {
+        "type": "none",
+        "source": {
+          "book": "Monsters",
+          "page": "232",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "calling-the-shots",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "A rival's turn starts",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each rival regains [[/heal 10]] Until the end of the round, when ever a rival uses an ability against an enemy, each other rival adjacent to that enemy can make a free strike against them.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "xB9Vd4t5keqs1JDR",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "effects": [],
+      "folder": "IUueWB8qKCPanWCy",
+      "sort": 250000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!ZYA3u3MgtbR9FIzY.xB9Vd4t5keqs1JDR"
+    },
+    {
+      "name": "Coordinated Takedown",
+      "type": "ability",
+      "system": {
+        "type": "none",
+        "source": {
+          "book": "Monsters",
+          "page": "232",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "coordinated-takedown",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 10,
+        "trigger": "A Rival's turn starts",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each rival moves up to their speed and uses a main action or maneuver that doesn’t cost Malice.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "NC26Xynp5N9nETPD",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "effects": [],
+      "folder": "IUueWB8qKCPanWCy",
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!ZYA3u3MgtbR9FIzY.NC26Xynp5N9nETPD"
+    },
+    {
+      "name": "We Just Do It Better",
+      "type": "ability",
+      "system": {
+        "type": "none",
+        "source": {
+          "book": "Monsters",
+          "page": "232",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "we-just-do-it-better",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "A rival's turn starts",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the end of the round, whenever any rival makes a power roll against the target of their Rivalry trait, they roll a [[/r d3]] and add it to the power roll.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "8e54PBDCLRgBpCkU",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "effects": [],
+      "folder": "IUueWB8qKCPanWCy",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!ZYA3u3MgtbR9FIzY.8e54PBDCLRgBpCkU"
+    },
+    {
+      "name": "Work as One",
+      "type": "ability",
+      "system": {
+        "type": "none",
+        "source": {
+          "book": "Monsters",
+          "page": "232",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "work-as-one",
+        "story": "Work as One",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "A rival's turn starts",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the end of the round, each rival can impose a bane on a strike made against an adjacent rival as a free triggered action.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "9wDgHxxo5PamhM3w",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "effects": [],
+      "folder": "IUueWB8qKCPanWCy",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!ZYA3u3MgtbR9FIzY.9wDgHxxo5PamhM3w"
+    },
+    {
+      "name": "Check Out Our Loot",
+      "type": "ability",
+      "system": {
+        "type": "none",
+        "source": {
+          "book": "Monsters",
+          "page": "232",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "check-out-our-loot",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "A rival's turn starts",
+        "distance": {
+          "type": "self"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self",
+          "custom": "",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "bUlN6QjruOjZDqTw": {
+              "sort": 100000,
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "bUlN6QjruOjZDqTw",
+              "damage": {
+                "tier1": {
+                  "value": "11",
+                  "types": [
+                    "corruption",
+                    "psychic",
+                    "sonic"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "8",
+                  "types": [
+                    "psychic",
+                    "sonic",
+                    "corruption"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "5",
+                  "types": [
+                    "corruption",
+                    "psychic",
+                    "sonic"
+                  ],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "LHOfxd7WixqGjT2x": {
+              "sort": 200000,
+              "name": "",
+              "img": null,
+              "type": "applied",
+              "_id": "LHOfxd7WixqGjT2x",
+              "applied": {
+                "tier1": {
+                  "display": "the condition affects the target (save ends)",
+                  "effects": {
+                    "dazed": {
+                      "condition": "always",
+                      "end": "save",
+                      "properties": []
+                    },
+                    "weakened": {
+                      "condition": "always",
+                      "end": "save",
+                      "properties": []
+                    },
+                    "frightened": {
+                      "condition": "always",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "the condition affects the target (EoT)",
+                  "effects": {
+                    "dazed": {
+                      "condition": "always",
+                      "end": "turn",
+                      "properties": []
+                    },
+                    "weakened": {
+                      "condition": "always",
+                      "end": "turn",
+                      "properties": []
+                    },
+                    "frightened": {
+                      "condition": "always",
+                      "end": "turn",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "display": "",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "<p>One rival pulls out a magic consumable and hurls it, targeting a 5 × 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an <strong>Agility test</strong>. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and dazed, psychic damage and weakened, or corruption damage and frightened.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "_id": "UarPvMGwBUArRMi9",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.UarPvMGwBUArRMi9",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1761243617305,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "folder": null,
+      "sort": 325000,
+      "_key": "!actors.items!ZYA3u3MgtbR9FIzY.UarPvMGwBUArRMi9"
+    }
+  ],
+  "folder": "lXKorAomovYFhg1y",
+  "prototypeToken": {
+    "name": "Dreyfus the Shape-Walker",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0",
+    "createdTime": 1758153688877,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_id": "HP2k1RmfKk7aMlt2",
+  "sort": 0,
+  "_key": "!actors!ZYA3u3MgtbR9FIzY"
 }

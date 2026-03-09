@@ -1,297 +1,16 @@
 {
-  "_id": "Jiu5smA5x98TRiLt",
   "name": "Pale Maw Zealot",
-  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-  "items": [
-    {
-      "_id": "2502b91665edf77a",
-      "name": "Entropy Weapon",
-      "type": "ability",
-      "img": "icons/magic/unholy/orb-glowing-purple.webp",
-      "system": {
-        "description": {
-          "value": "<p>The zealot strikes with a weapon infused with entropic energy.</p>"
-        },
-        "source": {
-          "name": "Svellheim Campaign (Era of Embers)",
-          "page": ""
-        },
-        "actionType": "action",
-        "keywords": [
-          "melee",
-          "strike",
-          "weapon"
-        ],
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "target": {
-          "value": "One creature"
-        },
-        "powerRoll": {
-          "characteristic": [
-            "might"
-          ],
-          "tier1": {
-            "damage": {
-              "value": 3,
-              "type": ""
-            }
-          },
-          "tier2": {
-            "damage": {
-              "value": 5,
-              "type": ""
-            }
-          },
-          "tier3": {
-            "damage": {
-              "value": 7,
-              "type": ""
-            }
-          }
-        },
-        "effect": {
-          "value": ""
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0"
-      },
-      "_key": "!actors.items!Jiu5smA5x98TRiLt.2502b91665edf77a"
-    },
-    {
-      "_id": "1e508b011d3d1b84",
-      "name": "Zealous Cry",
-      "type": "ability",
-      "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
-      "system": {
-        "description": {
-          "value": "<p>The zealot screams a prayer to the Pale Maw, releasing a wave of psychic dread.</p>"
-        },
-        "source": {
-          "name": "Svellheim Campaign (Era of Embers)",
-          "page": ""
-        },
-        "actionType": "villain",
-        "keywords": [
-          "area",
-          "magic",
-          "psychic"
-        ],
-        "distance": {
-          "type": "burst",
-          "primary": 4,
-          "secondary": null,
-          "tertiary": null
-        },
-        "target": {
-          "value": "All creatures in burst"
-        },
-        "effect": {
-          "value": "<p>All creatures in the area take 2 psychic damage and must make a Presence test or be frightened until the end of their next turn.</p>"
-        },
-        "spend": {
-          "value": 1,
-          "text": "Malice"
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0"
-      },
-      "_key": "!actors.items!Jiu5smA5x98TRiLt.1e508b011d3d1b84"
-    },
-    {
-      "_id": "90c689f6ba531658",
-      "name": "True Believer",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Immune to fear and charm. Cannot be demoralized.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "pale-maw-zealot-true-believer",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      },
-      "_key": "!actors.items!Jiu5smA5x98TRiLt.90c689f6ba531658"
-    },
-    {
-      "_id": "49909a6372f1b494",
-      "name": "Frenzied Devotion",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Below half SP, +1 to all attacks and saves.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "pale-maw-zealot-frenzied-devotion",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      },
-      "_key": "!actors.items!Jiu5smA5x98TRiLt.49909a6372f1b494"
-    },
-    {
-      "_id": "e7df9d3b4cac929e",
-      "name": "Martyr's Rush",
-      "type": "feature",
-      "img": "icons/skills/movement/figure-running-gray.webp",
-      "system": {
-        "description": {
-          "value": "<p>If another Pale Maw creature is reduced to 0 SP within 30 feet, may immediately shift 3 squares toward the target as a free triggered action.</p>"
-        },
-        "source": {
-          "name": "Svellheim Campaign (Era of Embers)",
-          "page": ""
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0"
-      },
-      "_key": "!actors.items!Jiu5smA5x98TRiLt.e7df9d3b4cac929e"
-    }
-  ],
-  "effects": [],
-  "flags": {},
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
-    "lastModifiedBy": null
-  },
-  "prototypeToken": {
-    "name": "",
-    "displayName": 40,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "stamina"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "texture": {
-      "src": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
-    },
-    "ring": {
-      "enabled": true
-    },
-    "sight": {
-      "enabled": false
-    },
-    "light": {}
-  },
   "type": "npc",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
   "system": {
     "stamina": {
-      "value": 28,
-      "max": 28,
+      "value": 100,
+      "max": 100,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 1
+        "value": 2
       },
       "agility": {
         "value": 2
@@ -303,7 +22,7 @@
         "value": 1
       },
       "presence": {
-        "value": 3
+        "value": -1
       }
     },
     "combat": {
@@ -312,19 +31,14 @@
         "bonus": ""
       },
       "size": {
-        "value": 1,
+        "value": 2,
         "letter": "M"
       },
-      "stability": 0,
+      "stability": 2,
       "turns": 1
     },
-    "biography": {
-      "value": "<p>Fanatical Pale Maw cultists driven by absolute faith in entropy doctrine. They dress in torn grey and silver robes, bearing self-inflicted ritual scars. Less disciplined than veterans but more dangerous when cornered. They fight without self-preservation instinct.</p>",
-      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Entropy Weapon</strong> (Main, Melee, Might): T1 2 dmg; T2 5 dmg; T3 7 dmg.</li><li><strong>Zealous Cry</strong> (Main, Area 20ft, Presence, 1M): T1 1 psychic; T2 2 psychic + Presence test or frightened EoNT; T3 3 psychic + frightened EoNT all in range.</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>True Believer:</strong> Immune to fear and charm. Cannot be demoralized.</li><li><strong>Martyr’s Rush:</strong> If another PM creature is reduced to 0 SP within 30ft, may immediately shift 3 squares toward the target as a free triggered action.</li><li><strong>Frenzied Devotion:</strong> Below half SP, +1 to all attacks and saves.</li></ul><p><strong>TACTICS:</strong> Rush melee targets. Use Zealous Cry against clustered enemies. Prioritize getting adjacent to Kaelen.</p>",
-      "languages": []
-    },
     "movement": {
-      "value": 6,
+      "value": 8,
       "types": [
         "walk"
       ],
@@ -357,13 +71,15 @@
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": []
+    "biography": {
+      "value": "<p>Pale Maw zealots are the passionate new converts of the Entropy cult — less disciplined than operatives but burning with certainty. They throw themselves into combat screaming entropy scripture, using their Zealous Cry to terrify and disorient clustered enemies. Their True Believer immunity to fear makes them bold to the point of recklessness. They channel their faith into psychic and corruption damage, and happily die for the cause if it serves the Pale Maw's ends.</p>",
+      "director": "",
+      "languages": []
     },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
+      "book": "",
       "page": "",
-      "license": ""
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
       "interest": 5,
@@ -372,16 +88,971 @@
       "pitfalls": [],
       "impression": 1
     },
-    "ev": 4,
     "monster": {
       "freeStrike": 5,
       "keywords": [
-        "humanoid",
-        "zealot"
+        "humanoid"
       ],
       "level": 3,
-      "role": "ambusher",
-      "organization": "horde"
+      "ev": 20,
+      "role": "harrier",
+      "organization": "elite"
     }
-  }
+  },
+  "items": [
+    {
+      "name": "Pale Maw Zealot Sense",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The pale maw zealot can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "207"
+        },
+        "_dsid": "pale maw zealot-sense",
+        "advancements": {}
+      },
+      "_id": "NDeWomcMb7Dl6UMf",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!1bpsxvntgDqnitLO.NDeWomcMb7Dl6UMf"
+    },
+    {
+      "name": "Flail and Blade",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "charge",
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 2
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 2
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "iLb5qKVKXRKZ30xa": {
+              "_id": "iLb5qKVKXRKZ30xa",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "7",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "11",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "14",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "OjOIVRJhK0MIkJnc": {
+              "_id": "OjOIVRJhK0MIkJnc",
+              "type": "forced",
+              "name": "push",
+              "img": null,
+              "forced": {
+                "tier1": {
+                  "movement": [
+                    "push"
+                  ],
+                  "distance": "1",
+                  "display": "{{forced}}",
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "might"
+                  }
+                },
+                "tier2": {
+                  "movement": [
+                    "push"
+                  ],
+                  "distance": "2",
+                  "display": "{{forced}}",
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  }
+                },
+                "tier3": {
+                  "movement": [
+                    "push"
+                  ],
+                  "distance": "3",
+                  "display": "{{forced}}",
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The pale maw zealot shifts up to 3 squares</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "207"
+        },
+        "_dsid": "flail-and-blade",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "lONyAJ9ZziShku6f",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1bpsxvntgDqnitLO.lONyAJ9ZziShku6f"
+    },
+    {
+      "name": "Primal Bay",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "type": "main",
+        "category": "heroic",
+        "keywords": [],
+        "distance": {
+          "type": "self"
+        },
+        "target": {
+          "type": "self",
+          "value": null
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the end of their next turn, the pale maw zealot has damage immunity 2 and deals an extra [[/damage 5]] damage with strikes. On their next turn, the pale maw zealot can use one additional maneuver.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "207"
+        },
+        "_dsid": "primal-bay",
+        "story": "",
+        "resource": 3,
+        "trigger": ""
+      },
+      "effects": [
+        {
+          "name": "Primal Bay Effect",
+          "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+          "origin": "Actor.1bpsxvntgDqnitLO.Item.zVDpCl6lRAqX8Siv",
+          "transfer": false,
+          "_id": "iCsrGLMDoHdttZ5A",
+          "type": "base",
+          "system": {
+            "end": {
+              "type": "",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [
+            {
+              "key": "",
+              "value": "",
+              "mode": 2
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.348",
+            "systemId": "draw-steel",
+            "systemVersion": "0.8.1",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!1bpsxvntgDqnitLO.zVDpCl6lRAqX8Siv.iCsrGLMDoHdttZ5A"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "zVDpCl6lRAqX8Siv",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1bpsxvntgDqnitLO.zVDpCl6lRAqX8Siv"
+    },
+    {
+      "name": "Goring Horns",
+      "type": "ability",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "system": {
+        "type": "maneuver",
+        "category": "heroic",
+        "keywords": [
+          "charge",
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "uSl2IKcuMU577io0": {
+              "_id": "uSl2IKcuMU577io0",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "8",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "9",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "xYwxm83E3xnwrAAH": {
+              "_id": "xYwxm83E3xnwrAAH",
+              "type": "applied",
+              "name": "Dazed",
+              "img": null,
+              "applied": {
+                "tier1": {
+                  "display": "{{potency}} dazed (save ends)",
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "intuition"
+                  },
+                  "effects": {
+                    "dazed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier2": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "intuition"
+                  },
+                  "effects": {
+                    "dazed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier3": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "intuition"
+                  },
+                  "effects": {
+                    "dazed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>If this ability is used as part of the Charge main action, its potency increases by 1.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "207"
+        },
+        "_dsid": "goring-horns",
+        "story": "",
+        "resource": 5,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "MeoCTRtoMhgI56uE",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1bpsxvntgDqnitLO.MeoCTRtoMhgI56uE"
+    },
+    {
+      "name": "Retaliatory Strike",
+      "type": "ability",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "type": "triggered",
+        "category": "",
+        "keywords": [
+          "ranged"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 8
+        },
+        "target": {
+          "type": "creature",
+          "value": 1
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The pale maw zealot uses the Charge main action and either Flail and Blade or Goring Horns against the target.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "207"
+        },
+        "_dsid": "retaliatory-strike",
+        "story": "",
+        "resource": null,
+        "trigger": "A creature within distance deals damage to the pale maw zealot."
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "H7C8Ewxuj9ZmS4sj",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1bpsxvntgDqnitLO.H7C8Ewxuj9ZmS4sj"
+    },
+    {
+      "name": "Bull Rush",
+      "type": "ability",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "type": "none",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "A pale maw zealot starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "target": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>For each 3 Malice spent, one pale maw zealot acting this turn gains a +4 bonus to speed and ignores difficult terrain until the start of their next turn.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "206",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "bull-rush",
+        "story": "",
+        "keywords": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.1bpsxvntgDqnitLO.Item.uiviQoEjTPCQBmen",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "uiviQoEjTPCQBmen",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1bpsxvntgDqnitLO.uiviQoEjTPCQBmen"
+    },
+    {
+      "name": "Cut the … Nonsense!",
+      "type": "ability",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "type": "none",
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "A pale maw zealot starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "target": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>One pale maw zealot acting this turn halves any damage they take, and can use the Knockback maneuver as a free triggered action whenever an enemy comes adjacent to them, all until the start of their next turn.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "206",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "cut-the--nonsense",
+        "story": "",
+        "keywords": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.1bpsxvntgDqnitLO.Item.cfKAQM9n6qchfi3B",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "cfKAQM9n6qchfi3B",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!1bpsxvntgDqnitLO.cfKAQM9n6qchfi3B"
+    },
+    {
+      "name": "Bullseye",
+      "type": "ability",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "type": "none",
+        "category": "heroic",
+        "resource": 7,
+        "trigger": "A pale maw zealot starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "target": {
+          "type": "special",
+          "custom": "",
+          "value": null
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": [
+              "intuition"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "ecDoH620kT4aPLAd": {
+              "sort": 100000,
+              "name": "",
+              "img": null,
+              "type": "applied",
+              "_id": "ecDoH620kT4aPLAd",
+              "applied": {
+                "tier1": {
+                  "display": "The target has line of effect only within 3 squares and is frightened of all pale maw zealots (save ends).",
+                  "effects": {
+                    "F2fGz4WjWIom6q2J": {
+                      "condition": "always",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "The target has line of effect only within 3 squares (EoT).",
+                  "effects": {
+                    "j05qfRBPuK0wvtpo": {
+                      "condition": "always",
+                      "end": "turn",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "display": "No effect.",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "<p>All pale maw zealots in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a pale maw zealot is teleported up to 5 squares and makes an <strong>Intuition test</strong>.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "206",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "bullseye",
+        "story": "",
+        "keywords": [],
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "effects": [
+        {
+          "name": "Bullseye, Tier 2",
+          "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+          "type": "base",
+          "origin": "Compendium.draw-steel.monster-features.Item.bAt7raSpMfENZiG5",
+          "transfer": false,
+          "_id": "j05qfRBPuK0wvtpo",
+          "system": {
+            "end": {
+              "type": "turn",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>The target has line of effect only within 3 squares.</p>",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "draw-steel",
+            "systemVersion": "0.9.1",
+            "lastModifiedBy": null,
+            "modifiedTime": 1770784993008
+          },
+          "_key": "!actors.items.effects!1bpsxvntgDqnitLO.bAt7raSpMfENZiG5.j05qfRBPuK0wvtpo"
+        },
+        {
+          "name": "Bullseye, Tier 1",
+          "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+          "type": "base",
+          "origin": "Compendium.draw-steel.monster-features.Item.bAt7raSpMfENZiG5",
+          "transfer": false,
+          "_id": "F2fGz4WjWIom6q2J",
+          "system": {
+            "end": {
+              "type": "save",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>You have line of effect only within 3 squares and are frightened of all pale maw zealots</p>",
+          "tint": "#ffffff",
+          "statuses": [
+            "frightened"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "draw-steel",
+            "systemVersion": "0.9.1",
+            "lastModifiedBy": null,
+            "modifiedTime": 1770784993008
+          },
+          "_key": "!actors.items.effects!1bpsxvntgDqnitLO.bAt7raSpMfENZiG5.F2fGz4WjWIom6q2J"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.bAt7raSpMfENZiG5",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.1",
+        "createdTime": 1765844727419,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "bAt7raSpMfENZiG5",
+      "ownership": {
+        "default": 0,
+        "rjhydLU11Zq4Diaw": 3
+      },
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!1bpsxvntgDqnitLO.bAt7raSpMfENZiG5"
+    }
+  ],
+  "folder": "4k38bNEZVVE6p4vF",
+  "_id": "xzxQLE3JSkBACDK2",
+  "prototypeToken": {
+    "name": "Pale Maw Zealot",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.8.1",
+    "createdTime": 1757728401104,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!1bpsxvntgDqnitLO"
 }

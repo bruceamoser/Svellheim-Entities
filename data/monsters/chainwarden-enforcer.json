@@ -1,666 +1,7 @@
 {
   "name": "Chainwarden Enforcer",
-  "img": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-enforcer.png",
-  "items": [
-    {
-      "_id": "bodTqGhLZoh6AyGg",
-      "name": "Chain-Mace Breaker",
-      "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04a",
-          "license": ""
-        },
-        "_dsid": "chainwarden-enforcer-chain-mace-breaker",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "melee",
-          "strike",
-          "weapon"
-        ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": "one creature or object"
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "S4jbsTOJhpaRe7MA": {
-              "type": "damage",
-              "_id": "S4jbsTOJhpaRe7MA",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "3",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "5",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "7",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>The target is marked by the enforcer until the end of the enforcer's next turn.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "lWZHSUofGjW4i4vQ",
-      "name": "Stand Fast",
-      "img": "icons/skills/melee/shield-block-bash-blue.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04a",
-          "license": ""
-        },
-        "_dsid": "chainwarden-enforcer-stand-fast",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "melee",
-          "weapon"
-        ],
-        "type": "maneuver",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": "one creature or object"
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "seoxFOYFk7vPvJTA": {
-              "type": "damage",
-              "_id": "seoxFOYFk7vPvJTA",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "2",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "3",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "4",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>The enforcer gains stability +1 until start of next turn and pushes the target 1 on tier 2+.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "C54CCBZRJmHXmxG9",
-      "name": "Overwhelm Formation",
-      "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04a",
-          "license": ""
-        },
-        "_dsid": "chainwarden-enforcer-overwhelm-formation",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "melee",
-          "weapon"
-        ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": "one creature or object"
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "PwY7Zoi3VG2Mh9yd": {
-              "type": "damage",
-              "_id": "PwY7Zoi3VG2Mh9yd",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "2",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "4",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "6",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>If the target is already marked, it takes bane on its next attack roll.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "30Ve9Pbs6eAbXsev",
-      "name": "Exploit Opening",
-      "img": "icons/skills/melee/strike-dagger-white-orange.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04a",
-          "license": ""
-        },
-        "_dsid": "chainwarden-enforcer-exploit-opening",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "melee",
-          "weapon",
-          "triggered"
-        ],
-        "type": "triggered",
-        "category": "signature",
-        "resource": null,
-        "trigger": "A marked enemy in reach attacks an ally.",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": "one creature or object"
-        },
-        "power": {
-          "roll": {
-            "reactive": true,
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "w00IFksU24HWOMIu": {
-              "type": "damage",
-              "_id": "w00IFksU24HWOMIu",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "1",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "2",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "3",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>The enforcer makes a free strike against the triggering enemy.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "54O4osTLhvU1m9oj",
-      "name": "Lockdown Step",
-      "img": "icons/skills/movement/arrow-upward-yellow.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04a",
-          "license": ""
-        },
-        "_dsid": "chainwarden-enforcer-lockdown-step",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "melee",
-          "weapon"
-        ],
-        "type": "move",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "self",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "self",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": "one creature or object"
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "s4sE1ylI6BAWdt1C": {
-              "type": "damage",
-              "_id": "s4sE1ylI6BAWdt1C",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "1",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "1",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "1",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>Shift up to speed; one adjacent enemy cannot shift until start of enforcer's next turn.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "wNliS5X7ZSVNCXtj",
-      "name": "Supernatural Insight",
-      "img": "icons/magic/perception/eye-ringed-green.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>The enforcer ignores concealment granted by supernatural effects.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "Beat 04a",
-          "license": ""
-        },
-        "_dsid": "chainwarden-enforcer-supernatural-insight",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    }
-  ],
-  "effects": [],
-  "flags": {},
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
-    "lastModifiedBy": null
-  },
-  "prototypeToken": {
-    "name": "",
-    "displayName": 40,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "stamina"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "texture": {
-      "src": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-enforcer.png",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
-    },
-    "ring": {
-      "enabled": true
-    },
-    "sight": {
-      "enabled": false
-    },
-    "light": {}
-  },
   "type": "npc",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-enforcer.png",
   "system": {
     "stamina": {
       "value": 40,
@@ -669,10 +10,10 @@
     },
     "characteristics": {
       "might": {
-        "value": 3
+        "value": 0
       },
       "agility": {
-        "value": 0
+        "value": 2
       },
       "reason": {
         "value": 0
@@ -696,13 +37,8 @@
       "stability": 0,
       "turns": 1
     },
-    "biography": {
-      "value": "<p>Chainwarden Enforcers are front-line disciplinarians who lock enemies in place for the Heitfolk firing line. Clad in linked iron and carrying weighted chain-maces, they mark targets, punish movement, and force rivals to fight on the Chainwardens' terms. In skirmishes around Svellheim, they are the anvil that lets militia and artillerists strike with brutal coordination.</p>",
-      "director": "",
-      "languages": []
-    },
     "movement": {
-      "value": 5,
+      "value": 7,
       "types": [
         "walk"
       ],
@@ -735,13 +71,15 @@
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": []
+    "biography": {
+      "value": "<p>Chainwarden enforcers are the elite heavy infantry of the Warden companies — armored veterans who hold the line while lighter troops press the attack. They carry chain-maces capable of controlling the battlefield and respond to pressure with Stand Fast, digging in rather than retreating. Their Overwhelm maneuver lets them pin down multiple opponents at once. An enforcer platoon is nearly impossible to dislodge from a fortified position.</p>",
+      "director": "",
+      "languages": []
     },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
-      "page": "Beat 04a",
-      "license": ""
+      "book": "",
+      "page": "",
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
       "interest": 5,
@@ -750,18 +88,666 @@
       "pitfalls": [],
       "impression": 1
     },
-    "ev": 4,
     "monster": {
       "freeStrike": 3,
       "keywords": [
-        "human",
-        "humanoid",
-        "chainwarden"
+        "humanoid"
       ],
       "level": 1,
+      "ev": 6,
       "role": "defender",
       "organization": "platoon"
     }
   },
-  "_id": "EPXpfQKadHfFrd6y"
+  "items": [
+    {
+      "name": "Masking Glamor",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>Abilities targeting the greenskeeper that would take a bane from cover or concealment have a double bane instead.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "138"
+        },
+        "_dsid": "masking-glamor",
+        "advancements": {}
+      },
+      "_id": "9KpKurrM6KimJclY",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!IwMfsA1NBhr01cC8.9KpKurrM6KimJclY"
+    },
+    {
+      "name": "Growing Longsword",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {
+            "QMgsyahHwO92PklQ": {
+              "_id": "QMgsyahHwO92PklQ",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "7",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "9",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "yGCoL2JPk3RUTdlQ": {
+              "name": "Taunted",
+              "img": null,
+              "type": "applied",
+              "_id": "yGCoL2JPk3RUTdlQ",
+              "applied": {
+                "tier1": {
+                  "display": "",
+                  "effects": {
+                    "taunted": {
+                      "condition": "always",
+                      "end": "turn",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "",
+                  "effects": {
+                    "taunted": {
+                      "condition": "always",
+                      "end": "turn",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "display": "",
+                  "effects": {
+                    "taunted": {
+                      "condition": "always",
+                      "end": "turn",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target is taunted until the end of their next turn, and the greenskeeper shifts up to 3 squares</p>"
+        },
+        "spend": {
+          "text": "The distance increases to Melee 5.",
+          "value": 2
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "138"
+        },
+        "_dsid": "growing-longsword",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "Z52eKB9omMrkn5Bq",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!IwMfsA1NBhr01cC8.Z52eKB9omMrkn5Bq"
+    },
+    {
+      "name": "Overgrowth",
+      "type": "ability",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "system": {
+        "type": "maneuver",
+        "category": "heroic",
+        "keywords": [
+          "area",
+          "ranged"
+        ],
+        "distance": {
+          "type": "cube",
+          "primary": 3,
+          "secondary": 10
+        },
+        "target": {
+          "type": "special",
+          "value": null
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The area is overgrown with heavy brush and brambles until the end of the encounter, providing cover and concealment for the greenskeeper and their allies. The area is difficult terrain for enemies and any enemy who starts their turn in the area takes [[/damage 3]] damage.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "138"
+        },
+        "_dsid": "overgrowth",
+        "story": "",
+        "resource": 3,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "XsS4eQ2mnnXaSDKx",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!IwMfsA1NBhr01cC8.XsS4eQ2mnnXaSDKx"
+    },
+    {
+      "folder": "g8UHG2eyUpTG7CVk",
+      "name": "Forest Network",
+      "type": "ability",
+      "_id": "DNQTI31GwxJLJaKh",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "135",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "forest-network",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each wode elf who ends this turn hidden can shift up to their speed while remaining hidden.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.DNQTI31GwxJLJaKh",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!IwMfsA1NBhr01cC8.DNQTI31GwxJLJaKh"
+    },
+    {
+      "folder": "g8UHG2eyUpTG7CVk",
+      "name": "Punishing Regrowth",
+      "type": "ability",
+      "_id": "4M0YYV4gUX0n98tl",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "135",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "punishing-regrowth",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the end of the round, each wode elf gains an edge on abili ties, and their strikes can slide a target up to 2 squares in addition to their usual effects. If a strike already imposes forced movement, this slide happens after that forced movement. A creature force moved by a wode elf’s strike who ends this forced movement in difficult terrain is restrained until the end of their next turn.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.4M0YYV4gUX0n98tl",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!IwMfsA1NBhr01cC8.4M0YYV4gUX0n98tl"
+    },
+    {
+      "name": "Vines Everywhere",
+      "type": "ability",
+      "_id": "Xo0apOKkrnZ7lnKM",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "135",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "vines-everywhere",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 7,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "custom": "",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "XD5ovX9dWg9qrsgQ": {
+              "sort": 100000,
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "XD5ovX9dWg9qrsgQ",
+              "damage": {
+                "tier1": {
+                  "value": "8",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "6w31jyF1SoXLuGBl": {
+              "sort": 200000,
+              "name": "",
+              "img": null,
+              "type": "applied",
+              "_id": "6w31jyF1SoXLuGBl",
+              "applied": {
+                "tier1": {
+                  "display": "restrained (save ends)",
+                  "effects": {
+                    "restrained": {
+                      "condition": "always",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "Restrained (EoT)",
+                  "effects": {
+                    "restrained": {
+                      "condition": "always",
+                      "end": "turn",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "display": "No effect.",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "<p>Vines rapidly grow across the entire encounter map. Each enemy in the encounter makes an <strong>Agility test.</strong></p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.Xo0apOKkrnZ7lnKM",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1761099489640,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!IwMfsA1NBhr01cC8.Xo0apOKkrnZ7lnKM"
+    }
+  ],
+  "folder": "Ji95GDWQ7qRIum3n",
+  "_id": "niPMPAW7Tg6eIBFn",
+  "prototypeToken": {
+    "name": "Chainwarden Enforcer",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-entities/assets/icons/monster-images/chainwarden-enforcer.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "draw-steel",
+    "systemVersion": "0.8.1",
+    "createdTime": 1757131092988,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!IwMfsA1NBhr01cC8"
 }

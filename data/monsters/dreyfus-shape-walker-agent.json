@@ -1,664 +1,28 @@
 {
-  "_id": "tSCPc85KJKrlcSUv",
-  "name": "Dreyfus, Shape-Walker Agent",
-  "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
-  "items": [
-    {
-      "_id": "DREY000000000002",
-      "name": "Wyrd-Claw",
-      "img": "icons/skills/melee/hand-grip-staff-blue.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-wyrd-claw",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "melee",
-          "strike"
-        ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "agility"
-            ]
-          },
-          "effects": {
-            "DREY000000000001": {
-              "type": "damage",
-              "_id": "DREY000000000001",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "5",
-                  "types": [
-                    "corruption"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "8",
-                  "types": [
-                    "corruption"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "agility"
-                  }
-                },
-                "tier3": {
-                  "value": "11",
-                  "types": [
-                    "corruption"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "agility"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Tier 2+:</strong> The target has a bane on their next power roll (the wound carries the shape-walker's Wyrd-taint). <strong>Tier 3:</strong> The target is also weakened until the end of their next turn.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "DREY000000000004",
-      "name": "Hollowing Gaze",
-      "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-hollowing-gaze",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "ranged",
-          "strike",
-          "magic"
-        ],
-        "type": "main",
-        "category": "heroic",
-        "resource": 3,
-        "trigger": "",
-        "distance": {
-          "type": "ranged",
-          "primary": 5,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "ranged",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "intuition"
-            ]
-          },
-          "effects": {
-            "DREY000000000003": {
-              "type": "damage",
-              "_id": "DREY000000000003",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "6",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "6",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "intuition"
-                  }
-                },
-                "tier3": {
-                  "value": "6",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "intuition"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Tier 2+:</strong> The target is dazed (save ends). <strong>Tier 3:</strong> The target is also stunned until the end of their next turn and loses their next action, flooded with a disorienting false mundane memory.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "DREY000000000005",
-      "name": "Shape-Shift",
-      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-shape-shift",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "magic"
-        ],
-        "type": "triggered",
-        "category": "",
-        "resource": null,
-        "trigger": "When Dreyfus takes 10 or more damage from a single attack.",
-        "distance": {
-          "type": "self",
-          "primary": 0,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "self",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": true,
-            "formula": "",
-            "characteristics": []
-          },
-          "effects": {}
-        },
-        "effect": {
-          "before": "<p><em>1/round.</em> Dreyfus immediately shifts his form, becoming a Medium beast (dog, raven, or large rat). He moves up to 3 squares without provoking free strikes. He reverts to humanoid form at the start of his next turn or when he chooses. In beast form he cannot attack but cannot be targeted by effects that require a humanoid target.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "DREY000000000006",
-      "name": "Grafvitnir's Shadow",
-      "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-grafvitirs-shadow",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "magic",
-          "area"
-        ],
-        "type": "main",
-        "category": "villain",
-        "resource": 3,
-        "trigger": "",
-        "distance": {
-          "type": "aura",
-          "primary": 3,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "enemy",
-          "value": 0,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "",
-            "characteristics": []
-          },
-          "effects": {}
-        },
-        "effect": {
-          "before": "<p>All creatures within 3 squares must make a medium Intuition test (TN 12) or lose track of Dreyfus for 1 round — he seems to be somewhere he isn't. Dreyfus gains concealment against all affected creatures for 1 round.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "DREY000000000007",
-      "name": "Root-Whisper",
-      "img": "icons/magic/nature/plant-glowing-white-purple.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-root-whisper",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "magic"
-        ],
-        "type": "triggered",
-        "category": "villain",
-        "resource": 1,
-        "trigger": "When Dreyfus hits with Wyrd-Claw.",
-        "distance": {
-          "type": "self",
-          "primary": 0,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "self",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": true,
-            "formula": "",
-            "characteristics": []
-          },
-          "effects": {}
-        },
-        "effect": {
-          "before": "<p>Dreyfus relays knowledge of the wounded target through Yggdrasil's dying root network. No immediate mechanical effect — note which PC was wounded and their current condition. Grafvitnir now knows their identity.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "DREY000000000008",
-      "name": "Wyrd-Guest",
-      "img": "icons/magic/symbols/runes-star-magenta.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Dreyfus cannot make the first attack on anyone he is bound to by guest-right within a space he has been invited into. Harald invited him inside as his hound; after Harald made a hostile move (hunting knife), guest-right is void. If the PCs ever invite Dreyfus into a space, note it — the guest-right binding applies there too.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-wyrd-guest",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "_id": "DREY000000000009",
-      "name": "Intelligence Asset",
-      "img": "icons/magic/perception/orb-eye-scrying.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>At the start of combat, Dreyfus identifies the hero with the highest Presence (targets first — most dangerous in conversation) and the hero with the highest Might (avoids melee with them unless cornered). He has listened to the party for the entirety of their mission and knows their fighting styles.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-intelligence-asset",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "_id": "DREY000000000010",
-      "name": "Escape Protocol",
-      "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>When Dreyfus reaches half Stamina (30 or below), he immediately uses Shape-Shift to take raven form and attempts to flee through the nearest window, chimney, or gap. He uses his full movement to exit the building. He cannot be stopped by free strikes in raven form. He escapes — this is intentional, he reappears in Beat 24. Note exactly what the party did to him; those specific injuries will manifest in his degraded form fifteen beats later.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dreyfus-escape-protocol",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    }
-  ],
-  "effects": [],
-  "flags": {},
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
-    "lastModifiedBy": null
-  },
-  "prototypeToken": {
-    "name": "Dreyfus, Shape-Walker Agent",
-    "displayName": 40,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "stamina"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "texture": {
-      "src": "icons/creatures/abilities/bull-head-horns-glowing.webp",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
-    },
-    "ring": {
-      "enabled": true
-    },
-    "sight": {
-      "enabled": false
-    },
-    "light": {}
-  },
+  "name": "Dreyfus Shape-Walker Agent",
   "type": "npc",
+  "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
   "system": {
     "stamina": {
-      "value": 60,
-      "max": 60,
+      "value": 120,
+      "max": 120,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 1
+        "value": 2
       },
       "agility": {
-        "value": 4
+        "value": 3
       },
       "reason": {
-        "value": 3
+        "value": -1
       },
       "intuition": {
-        "value": 4
+        "value": 1
       },
       "presence": {
-        "value": 3
+        "value": 0
       }
     },
     "combat": {
@@ -667,24 +31,16 @@
         "bonus": ""
       },
       "size": {
-        "value": 1,
+        "value": 2,
         "letter": "M"
       },
-      "stability": 1,
-      "turns": 2
-    },
-    "biography": {
-      "value": "<p>Dreyfus is a shape-walker — Níðhöggr's eyes and ears given mortal form, serving through Grafvitnir's network. His revealed form: tall, grey-pale, features that are almost-right, gold unblinking eyes, Harald's hound-keeper livery that fits too well. His voice is pleasant, educated — a court advisor who has listened from the floor for months.</p><p>He spent the party's entire mission at Harald's side in hound form, relaying everything through Wyrd-channels. He did not hear what passed inside the Ember Chamber's Wyrd-ward.</p>",
-      "director": "<p>Dreyfus fights to survive and escape, not to win. Open with <strong>Hollowing Gaze</strong> (3 Malice) against the most dangerous PC to buy space. Use <strong>Wyrd-Claw</strong> as his signature follow-up — the bane on the next power roll stacks well with the daze. Save <strong>Grafvitnir's Shadow</strong> (3 Malice) for when he's cornered and needs confusion to flee. <strong>Shape-Shift</strong> triggers reactively at 10+ damage from one attack — immediately move 3 squares. When he drops to half Stamina (≤30), trigger <strong>Escape Protocol</strong>: raven form, full speed toward nearest window or chimney, cannot be stopped by free strikes. He escapes by design. Note every injury dealt to him for Beat 24.</p>",
-      "languages": [
-        "caelian",
-        "vaslorian"
-      ]
+      "stability": 2,
+      "turns": 1
     },
     "movement": {
-      "value": 7,
+      "value": 9,
       "types": [
-        "walk"
+        "fly"
       ],
       "hover": false,
       "disengage": 1
@@ -692,7 +48,7 @@
     "damage": {
       "immunities": {
         "all": 0,
-        "acid": 0,
+        "acid": 5,
         "cold": 0,
         "corruption": 0,
         "fire": 0,
@@ -708,41 +64,957 @@
         "cold": 0,
         "corruption": 0,
         "fire": 0,
-        "holy": 5,
+        "holy": 0,
         "lightning": 0,
         "poison": 0,
         "psychic": 0,
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": [
-        "frightened",
-        "charmed"
-      ]
+    "biography": {
+      "value": "<p>A shape-walker agent of the Pale Maw — a spy trained in the art of wyrd-bound transformation to assume the forms of others. This agent is less powerful than Dreyfus himself, deployed on reconnaissance and infiltration missions where plausible deniability matters. Their wyrd-claw strikes leave psychic echoes that cloud memory, and their Hollowing Gaze can read surface thoughts. When cornered, they shift form and flee — the Escape Protocol is their signature.</p>",
+      "director": "",
+      "languages": []
     },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
+      "book": "",
       "page": "",
-      "license": ""
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
-      "interest": 3,
-      "patience": 4,
+      "interest": 5,
+      "patience": 5,
       "motivations": [],
       "pitfalls": [],
       "impression": 1
     },
-    "ev": 4,
     "monster": {
       "freeStrike": 6,
       "keywords": [
-        "humanoid",
-        "wyrd-bound"
+        "humanoid"
       ],
       "level": 4,
+      "ev": 24,
       "role": "ambusher",
       "organization": "elite"
     }
-  }
+  },
+  "items": [
+    {
+      "name": "Ruthless Rage",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>While within 10 squares of another wyvern, the lurker deals an extra [[/damage 3]] damage with strikes.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "324"
+        },
+        "_dsid": "ruthless-rage",
+        "advancements": {}
+      },
+      "_id": "ri9LlQd6AA3heY7I",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!GoqG711wxHjEkeKh.ri9LlQd6AA3heY7I"
+    },
+    {
+      "name": "Tenacious Hunter",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>Any creature affected by a condition imposed by a wyvern can't be hidden from the lurker.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "324"
+        },
+        "_dsid": "tenacious-hunter",
+        "advancements": {}
+      },
+      "_id": "OQbJbW3eBicntbTO",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!GoqG711wxHjEkeKh.OQbJbW3eBicntbTO"
+    },
+    {
+      "name": "Agonizing Stinger",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "magic",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 2
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 2
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {
+            "RPzXjZv5CcnZLyom": {
+              "_id": "RPzXjZv5CcnZLyom",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "9",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "14",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "17",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "iWv9A8prXJnev2XI": {
+              "_id": "iWv9A8prXJnev2XI",
+              "type": "applied",
+              "name": "Bleeding",
+              "img": null,
+              "applied": {
+                "tier2": {
+                  "display": "{{potency}} bleeding (save ends)",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "bleeding": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier3": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "bleeding": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier1": {
+                  "display": "",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "One target hidden from the lurker takes an extra 6 psychic damage.",
+          "value": 1
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "324"
+        },
+        "_dsid": "agonizing-stinger",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "TfQB1MLXjujLoE34",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!GoqG711wxHjEkeKh.TfQB1MLXjujLoE34"
+    },
+    {
+      "name": "Acidic Anguish",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "type": "main",
+        "category": "heroic",
+        "keywords": [
+          "magic",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 2
+        },
+        "target": {
+          "type": "creature",
+          "value": 1
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {
+            "5HzJNsm3QHZsyLv0": {
+              "_id": "5HzJNsm3QHZsyLv0",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "10",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "16",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "20",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "7BjMLflJ9tAmIHSI": {
+              "_id": "7BjMLflJ9tAmIHSI",
+              "type": "applied",
+              "name": "Weakened",
+              "img": null,
+              "applied": {
+                "tier1": {
+                  "display": "{{potency}} weakened (save ends)",
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "weakened": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier2": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "weakened": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier3": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "weakened": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>A target weakened this way takes [[/damage 1d4 psychic]] damage at the start of each of their turns.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "324"
+        },
+        "_dsid": "acidic-anguish",
+        "story": "",
+        "resource": 3,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "1InlDmpf10LvdN01",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!GoqG711wxHjEkeKh.1InlDmpf10LvdN01"
+    },
+    {
+      "name": "Swooping Torment",
+      "type": "ability",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "system": {
+        "type": "maneuver",
+        "category": "",
+        "keywords": [],
+        "distance": {
+          "type": "self"
+        },
+        "target": {
+          "type": "self",
+          "value": null
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The lurker flies up to their speed, then can attempt to hide. Each enemy the lurker moves adjacent to during this movement can choose to take [[/damage 3 corruption]] damage or fall [[/apply prone]].</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "324"
+        },
+        "_dsid": "swooping-torment",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "L9rfBpUsso8ETkEY",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!GoqG711wxHjEkeKh.L9rfBpUsso8ETkEY"
+    },
+    {
+      "name": "Retaliatory Dive",
+      "type": "ability",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "type": "triggered",
+        "category": "",
+        "keywords": [
+          "ranged"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 5
+        },
+        "target": {
+          "type": "creature",
+          "value": 1,
+          "custom": "The triggering creature"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The lurker flies adjacent to the target and can make a free strike against them.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "324"
+        },
+        "_dsid": "retaliatory-dive",
+        "story": "",
+        "resource": null,
+        "trigger": "A creature within distance deals damage to the lurker with a ranged ability."
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "FHejqLtrKHNLMqoD",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!GoqG711wxHjEkeKh.FHejqLtrKHNLMqoD"
+    },
+    {
+      "name": "Simmering Anger",
+      "type": "ability",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "type": "none",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "A wyvern starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "target": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>One wyvern in the encounter can make a free strike against each enemy adjacent to them.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "324",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "simmering-anger",
+        "story": "",
+        "keywords": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.GoqG711wxHjEkeKh.Item.SQlLKoIhpPxUyEin",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "SQlLKoIhpPxUyEin",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!GoqG711wxHjEkeKh.SQlLKoIhpPxUyEin"
+    },
+    {
+      "name": "Boiling Fury",
+      "type": "ability",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "type": "none",
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "A wyvern starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "target": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the end of the round, each wyvern in the encounter has a double edge on strikes and can use their signature ability instead of a free strike when making opportunity attacks.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "324",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "boiling-fury",
+        "story": "",
+        "keywords": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.GoqG711wxHjEkeKh.Item.HJcVELRZpBY7UqDE",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "HJcVELRZpBY7UqDE",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!GoqG711wxHjEkeKh.HJcVELRZpBY7UqDE"
+    },
+    {
+      "name": "Overflowing Rage",
+      "type": "ability",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "type": "none",
+        "category": "heroic",
+        "resource": 7,
+        "trigger": "A wyvern starts its turn.",
+        "distance": {
+          "type": "special"
+        },
+        "target": {
+          "type": "special",
+          "custom": "",
+          "value": null
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": [
+              "intuition"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "LJRpJlHxvpuia8WQ": {
+              "sort": 100000,
+              "name": "",
+              "img": null,
+              "type": "applied",
+              "_id": "LJRpJlHxvpuia8WQ",
+              "applied": {
+                "tier1": {
+                  "display": "The target is taunted by the nearest creature or object (save ends). While the target is taunted this way, power rolls against them have a double edge.",
+                  "effects": {
+                    "l7c999f6gYJkZkbo": {
+                      "condition": "always",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "The target is taunted by the nearest creature or object (save ends).",
+                  "effects": {
+                    "taunted": {
+                      "condition": "always",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "display": "No effect.",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "<p>Every wyvern’s anger fills the encounter map with a thick miasma of hatred. Each enemy in the encounter makes an <strong>Intuition test</strong>.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "324",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "overflowing-rage",
+        "story": "",
+        "keywords": [],
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "effects": [
+        {
+          "name": "Taunted with Double Edge",
+          "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+          "origin": "Compendium.draw-steel.monster-features.Item.afwiIRP5l4EV8GoE",
+          "transfer": false,
+          "type": "base",
+          "system": {
+            "end": {
+              "type": "",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [
+            {
+              "key": "system.combat.targetModifiers.edges",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [
+            "taunted"
+          ],
+          "flags": {},
+          "_stats": {
+            "compendiumSource": "Compendium.draw-steel.monster-features.Item.afwiIRP5l4EV8GoE.ActiveEffect.l7c999f6gYJkZkbo",
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "draw-steel",
+            "systemVersion": "0.10.0",
+            "createdTime": 1770786458797,
+            "modifiedTime": 1770786458797,
+            "lastModifiedBy": null
+          },
+          "_id": "gL68te3RPKTEI26i",
+          "sort": 0,
+          "_key": "!actors.items.effects!GoqG711wxHjEkeKh.afwiIRP5l4EV8GoE.gL68te3RPKTEI26i"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.afwiIRP5l4EV8GoE",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1761436189585,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "afwiIRP5l4EV8GoE",
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!GoqG711wxHjEkeKh.afwiIRP5l4EV8GoE"
+    }
+  ],
+  "folder": "ZzGUpnHJpMCEXTe2",
+  "_id": "SoaF8auEd59PcVrV",
+  "prototypeToken": {
+    "name": "Dreyfus Shape-Walker Agent",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.8.1",
+    "createdTime": 1757729344920,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!GoqG711wxHjEkeKh"
 }

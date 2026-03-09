@@ -4,8 +4,8 @@
   "description": "Shared NPCs, monsters, items, and projects for the Svellheim campaign setting (Draw Steel system).",
   "url": "https://github.com/bruceamoser/Svellheim-Entities",
   "manifest": "https://github.com/bruceamoser/Svellheim-Entities/releases/latest/download/module.json",
-  "download": "https://github.com/bruceamoser/Svellheim-Entities/releases/download/v0.1.12/svellheim-entities-v0.1.12.zip",
-  "version": "0.1.12",
+  "download": "https://github.com/bruceamoser/Svellheim-Entities/releases/download/v0.1.13/svellheim-entities-v0.1.13.zip",
+  "version": "0.1.13",
   "authors": [
     {
       "name": "Bruce A. Moser"

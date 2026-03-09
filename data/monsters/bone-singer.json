@@ -1,605 +1,28 @@
 {
-  "_id": "XDA6ps2iU79kqc1J",
   "name": "Bone-Singer",
-  "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-  "items": [
-    {
-      "_id": "dVAAb53m9WY8If0q",
-      "name": "Wail of the Dead",
-      "img": "icons/magic/death/undead-ghost-scream-teal.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "bone-singer-wail-of-the-dead",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "magic",
-          "ranged",
-          "psionic"
-        ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "ranged",
-          "primary": 6,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 2,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "presence"
-            ]
-          },
-          "effects": {
-            "MfmXVNU7765pnYUF": {
-              "type": "damage",
-              "_id": "MfmXVNU7765pnYUF",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "3",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "6",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "9",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>T1 3 psychic; T2 6 psychic + frightened EoNT; T3 9 psychic + frightened (save ends).</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "INRUBpauj95qxJAA",
-      "name": "Drain Life",
-      "img": "icons/magic/death/projectile-skull-flaming-yellow.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "ability",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "bone-singer-drain-life",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "magic",
-          "ranged"
-        ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "ranged",
-          "primary": 5,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "ranged",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "presence"
-            ]
-          },
-          "effects": {
-            "qejCUvpBgsY5i7iA": {
-              "type": "damage",
-              "_id": "qejCUvpBgsY5i7iA",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "4",
-                  "types": [
-                    "corruption"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "8",
-                  "types": [
-                    "corruption"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "12",
-                  "types": [
-                    "corruption"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>T1 4 corruption (Bone-Singer heals 4); T2 8 corruption + heals 8; T3 12 corruption + heals 12.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    },
-    {
-      "_id": "PFW2z2NCaYuC5ktc",
-      "name": "Arise, Arise",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Triggered 1/round (Rounds 1-3): raise 1-2 Barrow-Draugr anywhere within 60 ft.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "bone-singer-arise-arise",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "_id": "5jNzVSZxAQSas7kB",
-      "name": "Choir of Death",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>1/combat when below 15 SP: all within 60 ft take 12 psychic + Presence test or stunned EoNT.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "bone-singer-choir-of-death",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "_id": "BIe1i5qIuMu8bbcn",
-      "name": "Dread Aura",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Living creatures within 10 ft: bane on Presence tests.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "bone-singer-dread-aura",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "_id": "WYeMIb4rGEPwZkVy",
-      "name": "Undead Nature",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Immune to cold, poison, fear. Resist fire +3 (takes +3 from fire/radiant).</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "bone-singer-undead-nature",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "_id": "bV2aHj6sM2kQe9nR",
-      "name": "Requiem of the Dead",
-      "type": "ability",
-      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "bone-singer-requiem-of-the-dead",
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        },
-        "story": "",
-        "keywords": [
-          "magic",
-          "area"
-        ],
-        "type": "maneuver",
-        "category": "heroic",
-        "resource": 3,
-        "trigger": "Bone-Singer is winded",
-        "distance": {
-          "type": "burst",
-          "primary": 8,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "area",
-        "target": {
-          "type": "creatureObject",
-          "value": 5,
-          "custom": ""
-        },
-        "power": {
-          "roll": {
-            "reactive": false,
-            "formula": "@chr",
-            "characteristics": [
-              "presence"
-            ]
-          },
-          "effects": {
-            "Qx7fH2kL4mNp8tRv": {
-              "type": "damage",
-              "_id": "Qx7fH2kL4mNp8tRv",
-              "name": "",
-              "img": null,
-              "sort": 0,
-              "damage": {
-                "tier1": {
-                  "value": "8",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "10",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "12",
-                  "types": [
-                    "psychic"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>T1 8 psychic; T2 10 psychic + stunned EoNT; T3 12 psychic + stunned EoNT.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        }
-      }
-    }
-  ],
-  "effects": [],
-  "flags": {},
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
-    "lastModifiedBy": null
-  },
-  "prototypeToken": {
-    "name": "",
-    "displayName": 40,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "stamina"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "texture": {
-      "src": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
-    },
-    "ring": {
-      "enabled": true
-    },
-    "sight": {
-      "enabled": false
-    },
-    "light": {}
-  },
   "type": "npc",
+  "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
   "system": {
     "stamina": {
-      "value": 56,
-      "max": 56,
+      "value": 25,
+      "max": 25,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 2
-      },
-      "agility": {
-        "value": 1
-      },
-      "reason": {
-        "value": -1
-      },
-      "intuition": {
         "value": 3
       },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 2
+      },
       "presence": {
-        "value": 4
+        "value": -1
       }
     },
     "combat": {
@@ -611,16 +34,11 @@
         "value": 2,
         "letter": "L"
       },
-      "stability": 2,
-      "turns": 2
-    },
-    "biography": {
-      "value": "<p>A towering skeletal form, humanoid but distorted. Tattered robes of ancient cloth. Wrapped in chains of bone. Eyes are hollow voids glowing pale blue. Voice sounds like wind through a tomb — beautiful and terrifying. The Bone-Singer has absorbed so many corpses and so much undeath that it has become something more than a draugr, capable of raising the ancient dead at will.</p>",
-      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Wail of the Dead</strong> (Main, Area 30ft, Presence): T1 3 psychic; T2 6 psychic + frightened EoNT; T3 9 psychic + frightened (save ends).</li><li><strong>Drain Life</strong> (Main, Ranged 20ft, Presence): T1 4 necrotic (Bone-Singer heals 4); T2 8 necrotic + heals 8; T3 12 necrotic + heals 12.</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Arise, Arise:</strong> Triggered 1/round (Rounds 1-3): raise 1-2 Barrow-Draugr anywhere within 60 ft.</li><li><strong>Choir of Death:</strong> 1/combat when below 15 SP: all within 60 ft take 12 psychic + Presence test or stunned EoNT.</li><li><strong>Dread Aura:</strong> Living creatures within 10 ft: bane on Presence tests.</li><li><strong>Undead Nature:</strong> Immune to cold, poison, fear. Resist fire +3 (takes +3 from fire/radiant).</li></ul><p><strong>MALICE</strong></p><ul><li><strong>Requiem of the Dead (3M, below 28 SP):</strong> 12 psychic, 40 ft radius. Presence test or stunned EoNT.</li></ul><p>Beat 14, Bone-Fields. Raises Barrow-Draugr each round. Defeating it ends the encounter. ES 20.</p>",
-      "languages": []
+      "stability": 0,
+      "turns": 1
     },
     "movement": {
-      "value": 5,
+      "value": 6,
       "types": [
         "walk"
       ],
@@ -631,12 +49,12 @@
       "immunities": {
         "all": 0,
         "acid": 0,
-        "cold": 9999,
+        "cold": 0,
         "corruption": 0,
         "fire": 0,
         "holy": 0,
         "lightning": 0,
-        "poison": 9999,
+        "poison": 0,
         "psychic": 0,
         "sonic": 0
       },
@@ -645,21 +63,23 @@
         "acid": 0,
         "cold": 0,
         "corruption": 0,
-        "fire": 3,
-        "holy": 0,
+        "fire": 0,
+        "holy": 5,
         "lightning": 0,
         "poison": 0,
         "psychic": 0,
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": []
+    "biography": {
+      "value": "<p>The Bone-Singer is a towering skeletal form wrapped in chains of bone and ancient cloth — a large undead conjurer whose voice resonates like wind through a tomb, beautiful and deeply wrong. It commands the barrow-draugr through song, raising new minions from the earth with its Arise ability and draining life from the living with Drain Life. When its Stamina drops dangerously low, its Choir of Death unleashes a devastating psychic scream. Its Dread Aura suppresses the will of all living creatures nearby.</p>",
+      "director": "",
+      "languages": []
     },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
+      "book": "",
       "page": "",
-      "license": ""
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
       "interest": 5,
@@ -668,15 +88,550 @@
       "pitfalls": [],
       "impression": 1
     },
-    "ev": 4,
     "monster": {
-      "freeStrike": 6,
+      "freeStrike": 2,
       "keywords": [
         "undead"
       ],
       "level": 4,
-      "role": "support",
-      "organization": "elite"
+      "ev": 6,
+      "role": "controller",
+      "organization": "horde"
     }
-  }
+  },
+  "items": [
+    {
+      "name": "Lethe",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>While the bone-singer is winded, they gain an edge on strikes, and any strike made against them gains an edge.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "67"
+        },
+        "_dsid": "lethe",
+        "advancements": {}
+      },
+      "_id": "KgmfGD3hEjYtahRP",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!cHfXpw0gAtswgtvd.KgmfGD3hEjYtahRP"
+    },
+    {
+      "name": "Soulsight",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>Any creature within 2 squares of the bone-singer can't be hidden from them.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "67"
+        },
+        "_dsid": "soulsight",
+        "advancements": {}
+      },
+      "_id": "foiRCNYHiWbM3Xwk",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!cHfXpw0gAtswgtvd.foiRCNYHiWbM3Xwk"
+    },
+    {
+      "name": "Bilious Expulsion",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "area",
+          "ranged",
+          "weapon"
+        ],
+        "distance": {
+          "type": "burst",
+          "primary": 1
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "y7tCIJXng2JN4CDJ": {
+              "_id": "y7tCIJXng2JN4CDJ",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "7",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "9",
+                  "types": [
+                    "psychic"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "A1X8uU1TD911CR0P": {
+              "_id": "A1X8uU1TD911CR0P",
+              "type": "applied",
+              "name": "Slowed and Restrained",
+              "img": null,
+              "applied": {
+                "tier1": {
+                  "display": "{{potency}} slowed (save ends)",
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "slowed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier2": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "slowed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier3": {
+                  "display": "{{potency}} restrained (save ends)",
+                  "effects": {
+                    "restrained": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "<p>Note: range is <strong>1 burst, or 3 cube within 5</strong></p>",
+          "after": "<p>The ground and any surfaces in the area pool with slime. The slime is difficult terrain for enemies, and any enemy is bleeding while in the area.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "67"
+        },
+        "_dsid": "bilious-expulsion",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "ZP4P7YcJNsLHFo6q",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!cHfXpw0gAtswgtvd.ZP4P7YcJNsLHFo6q"
+    },
+    {
+      "name": "Spew Slide",
+      "type": "ability",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
+      "system": {
+        "type": "freeTriggered",
+        "category": "heroic",
+        "keywords": [],
+        "distance": {
+          "type": "self"
+        },
+        "target": {
+          "type": "self",
+          "value": null
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The bone-singer vomits with great corruption, letting them shift up to their speed and ignore any additional effects from the strike. The space the bone-singer occupied before the shift is covered in slime that is difficult terrain for enemies. Additionally, any enemy is bleeding while in the slime.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "67"
+        },
+        "_dsid": "spew-slide",
+        "story": "",
+        "resource": 1,
+        "trigger": "The bone-singer takes damage from a melee strike."
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "lv3p5XbuUA8jp9lG",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!cHfXpw0gAtswgtvd.lv3p5XbuUA8jp9lG"
+    },
+    {
+      "folder": "27ZVGFIPsDJErf4E",
+      "name": "Prior Malice Features",
+      "type": "ability",
+      "_id": "2PmYNyLNcEt2Ufaa",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "65",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "prior-malice-features",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The demon activates a Malice feature available to demons of level 3 or lower.</p><p>@UUID[Compendium.draw-steel.monster-features.Item.G1VEc1g9pr75VU0O]{Abyssal Rift}</p><p>@UUID[Compendium.draw-steel.monster-features.Item.RXLSjlORw6A3YBHN]{Soulburn}</p><p>@UUID[Compendium.draw-steel.monster-features.Item.koF8i0TPdYrfcm4F]{Abyssal Evolution}</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!cHfXpw0gAtswgtvd.2PmYNyLNcEt2Ufaa"
+    },
+    {
+      "folder": "27ZVGFIPsDJErf4E",
+      "name": "Abyssal Jaunt",
+      "type": "ability",
+      "_id": "d298nvIWsIOh0Kl7",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "65",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "abyssal-jaunt",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>One demon acting this turn folds space around them, temporarily slipping in and out of the Abyssal Wasteland. Until the start of the demon’s next turn, they ignore difficult terrain, can move through solid matter, and don’t provoke opportunity attacks by moving. If the demon ends their turn inside solid matter, they are shunted out into the space from which they entered it.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!cHfXpw0gAtswgtvd.d298nvIWsIOh0Kl7"
+    }
+  ],
+  "folder": "fgQNWiICJVzfSdZ8",
+  "prototypeToken": {
+    "name": "Bone-Singer",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0",
+    "createdTime": 1758136964278,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_id": "XWaHyo3vhM55hQP9",
+  "sort": 0,
+  "_key": "!actors!cHfXpw0gAtswgtvd"
 }

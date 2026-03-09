@@ -1,769 +1,28 @@
 {
-  "_id": "Q8xYMkL2FGiI4pSj",
-  "name": "Grafvitnir, Rot-Given-Shape — Stage 2 (L7 Solo)",
-  "img": "icons/creatures/unholy/demon-horned-winged-laughing.webp",
-  "items": [
-    {
-      "name": "Tendril Strike",
-      "type": "ability",
-      "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
-      "system": {
-        "type": "main",
-        "category": "signature",
-        "keywords": [
-          "melee",
-          "strike"
-        ],
-        "distance": {
-          "type": "melee",
-          "primary": 4
-        },
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "SSlfey3BIbW29XEj": {
-              "_id": "5ZrPXMphafTriXFH",
-              "type": "damage",
-              "name": "",
-              "img": null,
-              "damage": {
-                "tier1": {
-                  "value": "7",
-                  "types": [],
-                  "properties": []
-                },
-                "tier2": {
-                  "value": "11",
-                  "types": [],
-                  "properties": []
-                },
-                "tier3": {
-                  "value": "11",
-                  "types": [],
-                  "properties": []
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": ""
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "license": "Draw Steel Creator License",
-          "page": ""
-        },
-        "_dsid": "grafvitnir-stage-2-tendril-strike",
-        "story": "",
-        "resource": null,
-        "trigger": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "k30vlthW9qMaLwxA",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.k30vlthW9qMaLwxA"
-    },
-    {
-      "name": "Rot Pulse",
-      "type": "ability",
-      "img": "icons/magic/death/skull-humanoid-white-blue.webp",
-      "system": {
-        "type": "main",
-        "category": "heroic",
-        "keywords": [
-          "area"
-        ],
-        "distance": {
-          "type": "burst",
-          "primary": 3
-        },
-        "target": {
-          "type": "enemy",
-          "value": null,
-          "custom": "Each enemy in the area"
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": [
-              "presence"
-            ],
-            "reactive": true
-          },
-          "effects": {
-            "tzY7q1omx2dfzWtF": {
-              "_id": "28Ci4FpA7SNgrj6z",
-              "type": "damage",
-              "name": "",
-              "img": null,
-              "damage": {
-                "tier1": {
-                  "value": "5",
-                  "types": [],
-                  "properties": []
-                },
-                "tier2": {
-                  "value": "8",
-                  "types": [],
-                  "properties": []
-                },
-                "tier3": {
-                  "value": "8",
-                  "types": [],
-                  "properties": []
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>The target is <strong>Frightened</strong> until end of their next turn.</p>"
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "license": "Draw Steel Creator License",
-          "page": ""
-        },
-        "_dsid": "grafvitnir-stage-2-rot-pulse",
-        "story": "",
-        "resource": 3,
-        "trigger": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "flDughxHfCpIZ3nl",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.flDughxHfCpIZ3nl"
-    },
-    {
-      "name": "Tendril Lash",
-      "type": "ability",
-      "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
-      "system": {
-        "type": "free",
-        "category": "",
-        "keywords": [
-          "melee",
-          "strike"
-        ],
-        "distance": {
-          "type": "melee",
-          "primary": 4
-        },
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "FiXRODYfoKoP2Qlk": {
-              "_id": "NQ4DIcaO481iEbM9",
-              "type": "damage",
-              "name": "",
-              "img": null,
-              "damage": {
-                "tier1": {
-                  "value": "5",
-                  "types": [],
-                  "properties": []
-                },
-                "tier2": {
-                  "value": "8",
-                  "types": [],
-                  "properties": []
-                },
-                "tier3": {
-                  "value": "8",
-                  "types": [],
-                  "properties": []
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": ""
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "license": "Draw Steel Creator License",
-          "page": ""
-        },
-        "_dsid": "grafvitnir-stage-2-tendril-lash",
-        "story": "",
-        "resource": null,
-        "trigger": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "P5H9yopYJi11r82k",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.P5H9yopYJi11r82k"
-    },
-    {
-      "name": "Root Eruption",
-      "type": "ability",
-      "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
-      "system": {
-        "type": "villain",
-        "category": "",
-        "keywords": [
-          "ranged",
-          "area"
-        ],
-        "distance": {
-          "type": "ranged",
-          "primary": 10
-        },
-        "target": {
-          "type": "creature",
-          "value": 3,
-          "custom": "Three separate targets"
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": [
-              "agility"
-            ],
-            "reactive": true
-          },
-          "effects": {
-            "LTf7WduNhRmS9Ceo": {
-              "_id": "YKSSVhoBkjEojn77",
-              "type": "damage",
-              "name": "",
-              "img": null,
-              "damage": {
-                "tier1": {
-                  "value": "7",
-                  "types": [],
-                  "properties": []
-                },
-                "tier2": {
-                  "value": "10",
-                  "types": [],
-                  "properties": []
-                },
-                "tier3": {
-                  "value": "10",
-                  "types": [],
-                  "properties": []
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Villain Action 1</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>Three separate squares (each in range 10). The target is <strong>Restrained</strong> (save ends).</p>"
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "license": "Draw Steel Creator License",
-          "page": ""
-        },
-        "_dsid": "grafvitnir-stage-2-root-eruption",
-        "story": "",
-        "resource": null,
-        "trigger": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "sxraFGY3FXNjJUR6",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.sxraFGY3FXNjJUR6"
-    },
-    {
-      "name": "Rot Spread",
-      "type": "ability",
-      "img": "icons/magic/death/weapon-scythe-rune-green.webp",
-      "system": {
-        "type": "villain",
-        "category": "",
-        "keywords": [
-          "area"
-        ],
-        "distance": {
-          "type": "burst",
-          "primary": 4
-        },
-        "target": {
-          "type": "enemy",
-          "value": null,
-          "custom": "Area effect"
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": ""
-          },
-          "effects": {}
-        },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Villain Action 2</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>Close Burst 4 becomes <strong>difficult terrain</strong> (Rot-saturated ground, 2 movement per square) until end of encounter.</p>"
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "license": "Draw Steel Creator License",
-          "page": ""
-        },
-        "_dsid": "grafvitnir-stage-2-rot-spread",
-        "story": "",
-        "resource": null,
-        "trigger": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "YmKfsDv6uMWAADEp",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.YmKfsDv6uMWAADEp"
-    },
-    {
-      "name": "Reach and Grasp",
-      "type": "ability",
-      "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
-      "system": {
-        "type": "villain",
-        "category": "",
-        "keywords": [
-          "ranged",
-          "strike"
-        ],
-        "distance": {
-          "type": "ranged",
-          "primary": 10
-        },
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "NPvEwD2nLf5PnV7m": {
-              "_id": "8TkMN1uLdxcQ6NUo",
-              "type": "damage",
-              "name": "",
-              "img": null,
-              "damage": {
-                "tier1": {
-                  "value": "8",
-                  "types": [],
-                  "properties": []
-                },
-                "tier2": {
-                  "value": "12",
-                  "types": [],
-                  "properties": []
-                },
-                "tier3": {
-                  "value": "12",
-                  "types": [],
-                  "properties": []
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Villain Action 3</strong> (usable once per encounter, triggers at end of any hero’s turn)</p><p>The target is <strong>Grabbed</strong> and takes 5 ongoing damage (escape TN 13).</p>"
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "license": "Draw Steel Creator License",
-          "page": ""
-        },
-        "_dsid": "grafvitnir-stage-2-reach-and-grasp",
-        "story": "",
-        "resource": null,
-        "trigger": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "2fv5oSRH2CKTdxaM",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.2fv5oSRH2CKTdxaM"
-    },
-    {
-      "name": "End Effect",
-      "type": "feature",
-      "img": "icons/magic/control/debuff-chains-ropes-blue.webp",
-      "system": {
-        "description": {
-          "value": "<p>When Grafvitnir starts his turn, he can take 10 damage to end one effect on him that a save ends.</p>"
-        },
-        "effect": {
-          "before": "",
-          "after": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "license": "Draw Steel Creator License",
-          "page": ""
-        },
-        "_dsid": "grafvitnir-stage-2-end-effect",
-        "story": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "HlsYX52RXZPsY0x6",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.HlsYX52RXZPsY0x6"
-    },
-    {
-      "name": "Spectral Instability",
-      "type": "feature",
-      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
-      "system": {
-        "description": {
-          "value": "<p>Grafvitnir’s shifting mass disperses the force of every attack. He reduces all incoming damage by 3 (minimum 1 damage dealt). This is constant and automatic — each blow lands on a form that is already moving, already changing, absorbing the force across dozens of half-real shapes.</p>"
-        },
-        "effect": {
-          "before": "",
-          "after": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "license": "Draw Steel Creator License",
-          "page": ""
-        },
-        "_dsid": "grafvitnir-stage-2-spectral-instability",
-        "story": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "0cybb3Tyt34hgcZq",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.0cybb3Tyt34hgcZq"
-    },
-    {
-      "name": "Undying Hunger",
-      "type": "feature",
-      "img": "icons/magic/death/undead-skeleton-energy-green.webp",
-      "system": {
-        "description": {
-          "value": "<p>At the start of each of Grafvitnir’s turns, he regains 5 Stamina unless the Ever-Ember is burning within the same zone.</p>"
-        },
-        "effect": {
-          "before": "",
-          "after": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "license": "Draw Steel Creator License",
-          "page": ""
-        },
-        "_dsid": "grafvitnir-stage-2-undying-hunger",
-        "story": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "0W6OFwS10mF5tKYm",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.0W6OFwS10mF5tKYm"
-    },
-    {
-      "name": "Stage Transition",
-      "type": "feature",
-      "img": "icons/magic/death/skull-humanoid-white-blue.webp",
-      "system": {
-        "description": {
-          "value": "<p>When the flame is extinguished AND restored by Söldís, Grafvitnir’s howl triggers Stage 3. His current Stamina becomes irrelevant — Stage 3 uses a fresh Stamina pool.</p>"
-        },
-        "effect": {
-          "before": "",
-          "after": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "license": "Draw Steel Creator License",
-          "page": ""
-        },
-        "_dsid": "grafvitnir-stage-2-stage-transition",
-        "story": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "FirUqUDdYwU8B2H2",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!Q8xYMkL2FGiI4pSj.FirUqUDdYwU8B2H2"
-    }
-  ],
-  "effects": [],
-  "flags": {
-    "era-of-embers": {
-      "beat": "26",
-      "note": "Stage 2 of 3 — every shape worn in a thousand years, all at once. Söldís's ember moment triggers Stage 3."
-    }
-  },
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
-    "lastModifiedBy": null
-  },
-  "prototypeToken": {
-    "name": "Grafvitnir",
-    "displayName": 40,
-    "actorLink": true,
-    "width": 4,
-    "height": 4,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "stamina"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "texture": {
-      "src": "icons/creatures/unholy/demon-horned-winged-laughing.webp",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
-    },
-    "ring": {
-      "enabled": true
-    },
-    "sight": {
-      "enabled": false
-    },
-    "light": {}
-  },
+  "name": "Grafvitnir Stage 2 Rot-Given Shape",
   "type": "npc",
+  "img": "icons/creatures/unholy/demon-horned-winged-laughing.webp",
   "system": {
     "stamina": {
-      "value": 200,
-      "max": 200,
+      "value": 60,
+      "max": 60,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 5
+        "value": 0
       },
       "agility": {
-        "value": 3
+        "value": 0
       },
       "reason": {
         "value": 4
       },
       "intuition": {
-        "value": 4
+        "value": 2
       },
       "presence": {
-        "value": 6
+        "value": 4
       }
     },
     "combat": {
@@ -775,13 +34,8 @@
         "value": 4,
         "letter": "G"
       },
-      "stability": 6,
-      "turns": 2
-    },
-    "biography": {
-      "value": "<p><strong>Grafvitnir, Rot-Given-Shape — Stage 2</strong></p><p><em>Supernatural, Gargantuan • Level 7 Solo • Stamina 200 • Speed 6 • Stability 6 • Free Strike 8 • EV 108</em></p><p>What rises from the roots is not a wolf anymore. Too many joints. Proportions that keep shifting. A face appears in one location and then another. Limbs emerge and dissolve. It is Grafvitnir wearing every shape he’s worn in a thousand years of imprisonment, all at once, unable to choose. It is enormously powerful and deeply wrong.</p><p>Takes 2 turns per round. Has 3 Villain Actions (each once per encounter, max 1 per round).</p>",
-      "director": "<p><strong>TACTICAL GUIDANCE — STAGE 2:</strong></p><p>Stage 2 is about managing the clock. Grafvitnir’s <strong>Undying Hunger</strong> regenerates 5 Stamina per turn unless the Ever-Ember is burning in the same zone. The party must keep the flame burning while dealing damage.</p><p><strong>Spectral Instability:</strong> All incoming damage is reduced by 3 (min 1). Tell players after first hit — this is fair, predictable, and represents his shifting mass.</p><p><strong>VA Escalation:</strong> VA1 (Root Eruption) locks heroes down. VA2 (Rot Spread) reshapes the battlefield with difficult terrain. VA3 (Reach and Grasp) isolates a single target with grab + ongoing damage.</p><p><strong>Key Moment:</strong> Söldís restores the flame after Grafvitnir extinguishes it. The Ever-Ember’s restoration triggers the Stage 3 transition.</p><p>Expected duration: 3–4 rounds before Söldís’s act triggers the transition.</p>",
-      "languages": []
+      "stability": 0,
+      "turns": 1
     },
     "movement": {
       "value": 6,
@@ -789,7 +43,7 @@
         "walk"
       ],
       "hover": false,
-      "disengage": 0
+      "disengage": 1
     },
     "damage": {
       "immunities": {
@@ -810,31 +64,529 @@
         "cold": 0,
         "corruption": 0,
         "fire": 0,
-        "holy": 0,
+        "holy": 5,
         "lightning": 0,
         "poison": 0,
         "psychic": 0,
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": []
+    "biography": {
+      "value": "<p>Stage 2 of Grafvitnir's manifestation — the wolf's form breaks apart and reforms as a gargantuan, shifting mass of root-tendrils and rotting flesh. There is no longer a clear head or body, only a mobile hunger. In this stage, Sölðs Glóðfari arrives and empties her twenty-two-year ember into the shrine, weakening the Rot. Root Eruption tears the ground, Rot Spread extends the corruption zone, and Reach and Grasp allows Grafvitnir to control terrain across vast distances. 200 Stamina, Gargantuan. Two turns per round.</p>",
+      "director": "",
+      "languages": []
     },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
+      "book": "",
       "page": "",
-      "license": ""
+      "license": "Draw Steel Creator License"
     },
-    "ev": 108,
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
     "monster": {
-      "freeStrike": 8,
+      "freeStrike": 5,
       "keywords": [
-        "supernatural",
-        "undead"
+        "plant"
       ],
       "level": 7,
-      "role": "brute",
-      "organization": "solo"
+      "ev": 9,
+      "role": "controller",
+      "organization": "horde"
     }
-  }
+  },
+  "items": [
+    {
+      "name": "Lethe",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>While the grafvitnir stage 2 rot-given shape is winded, they gain an edge on strikes, and any strike made against them gains an edge.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "70"
+        },
+        "_dsid": "lethe",
+        "advancements": {}
+      },
+      "_id": "lW87RoZL5QzYfWtt",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Qp5KnRoiAhrKqVgW.lW87RoZL5QzYfWtt"
+    },
+    {
+      "name": "Soulsight",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>Any creature within 2 squares of the grafvitnir stage 2 rot-given shape can't be hidden from them.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "70"
+        },
+        "_dsid": "soulsight",
+        "advancements": {}
+      },
+      "_id": "giSP6vAJrcdJzwjb",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Qp5KnRoiAhrKqVgW.giSP6vAJrcdJzwjb"
+    },
+    {
+      "name": "Blight Pus",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "magic",
+          "ranged",
+          "strike"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 10
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "reason"
+            ]
+          },
+          "effects": {
+            "m97GdYMmL4ncSXYt": {
+              "_id": "m97GdYMmL4ncSXYt",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "7",
+                  "types": [
+                    "corruption"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "10",
+                  "types": [
+                    "corruption"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "11",
+                  "types": [
+                    "corruption"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>A puddle of blight-digested soul juice-covers the ground in the target's square, which is affected as if by Seeping Blight (see the Level 7+ Demon Malice feature).</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "70"
+        },
+        "_dsid": "blight-pus",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "md5bsFAzjiJ5SdLg",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Qp5KnRoiAhrKqVgW.md5bsFAzjiJ5SdLg"
+    },
+    {
+      "name": "Blight Rain",
+      "type": "ability",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "system": {
+        "type": "maneuver",
+        "category": "heroic",
+        "keywords": [
+          "area",
+          "magic"
+        ],
+        "distance": {
+          "type": "cube",
+          "primary": 5,
+          "secondary": 1
+        },
+        "target": {
+          "type": "enemy",
+          "value": null
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "reason"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p><strong>Special:</strong> The grafvitnir stage 2 rot-given shape must create the cube beneath themself.</p>",
+          "after": "<p>The grafvitnir stage 2 rot-given shape spins and sheds corruptive blight to fill the area, which is treated as if affected by Seeping Blight.</p>"
+        },
+        "spend": {
+          "text": "The grafvitnir stage 2 rot-given shape chooses three 2 cube areas within 10  squares of the phage. Each area is covered with blight and treated as if affected by Seeping Blight.",
+          "value": 2
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "70"
+        },
+        "_dsid": "blight-rain",
+        "story": "",
+        "resource": 3,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "ZKDzWSVkbU2yv5sl",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Qp5KnRoiAhrKqVgW.ZKDzWSVkbU2yv5sl"
+    },
+    {
+      "folder": "e60cYU2JbHzpOXni",
+      "name": "Prior Malice Features",
+      "type": "ability",
+      "_id": "z8mciv1uVsm7b9ws",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "69",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "prior-malice-features",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The demon activates a Malice feature available to demons of level 6 or lower.</p><p>@UUID[Compendium.draw-steel.monster-features.Item.G1VEc1g9pr75VU0O]{Abyssal Rift}</p><p>@UUID[Compendium.draw-steel.monster-features.Item.RXLSjlORw6A3YBHN]{Soulburn}</p><p>@UUID[Compendium.draw-steel.monster-features.Item.koF8i0TPdYrfcm4F]{Abyssal Evolution}</p><p>@UUID[Compendium.draw-steel.monster-features.Item.d298nvIWsIOh0Kl7]{Abyssal Jaunt}</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Qp5KnRoiAhrKqVgW.z8mciv1uVsm7b9ws"
+    },
+    {
+      "folder": "e60cYU2JbHzpOXni",
+      "name": "Seeping Blight",
+      "type": "ability",
+      "_id": "9jFigb63a6bVSeDX",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "69",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "seeping-blight",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>One demon acting this turn expels blight—digested soul juice— onto the ground around them in a 3 burst that lingers until the start of their next turn. Any enemy who enters the area or starts their turn there takes [[/damage 6 corruption]] damage, and has a double bane on power rolls until the start of their next turn.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!Qp5KnRoiAhrKqVgW.9jFigb63a6bVSeDX"
+    }
+  ],
+  "folder": "5gRevvAzCanqkRiw",
+  "prototypeToken": {
+    "name": "Grafvitnir Stage 2 Rot-Given Shape",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "icons/creatures/unholy/demon-horned-winged-laughing.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0",
+    "createdTime": 1758140380295,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_id": "jJZiBXWuzEKrfrSK",
+  "sort": 0,
+  "_key": "!actors!Qp5KnRoiAhrKqVgW"
 }

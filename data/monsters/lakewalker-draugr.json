@@ -1,432 +1,28 @@
 {
-  "_id": "aow6GGeUHfWB2tJE",
   "name": "Lakewalker Draugr",
-  "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
-  "items": [
-    {
-      "name": "Frozen March",
-      "type": "ability",
-      "_id": "787354434f9618ba",
-      "_key": "!actors.items!aow6GGeUHfWB2tJE.787354434f9618ba",
-      "system": {
-        "description": {
-          "value": "<p>A crushing blow of frost-rimed fist or weapon. +6 vs. Might; 7 cold damage. Critical: Target is slowed (save ends).</p>"
-        },
-        "source": {
-          "name": "Svellheim Campaign (Era of Embers)",
-          "page": ""
-        },
-        "actionType": {
-          "value": "action"
-        },
-        "keywords": [
-          "melee",
-          "weapon"
-        ],
-        "distance": [
-          {
-            "type": "reach",
-            "value": 1
-          }
-        ],
-        "target": {
-          "value": "One creature"
-        },
-        "powerRoll": {
-          "characteristic": [
-            "might"
-          ],
-          "tier1": {
-            "value": "5 cold damage"
-          },
-          "tier2": {
-            "value": "7 cold damage"
-          },
-          "tier3": {
-            "value": "9 cold damage; slowed (save ends)"
-          }
-        },
-        "effect": {
-          "value": ""
-        },
-        "spend": [],
-        "trigger": {
-          "value": ""
-        },
-        "cost": ""
-      },
-      "img": "icons/magic/water/snowflake-ice-purple.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "createdTime": 1772721673236,
-        "modifiedTime": 1772721673236,
-        "lastModifiedBy": "validation-fix",
-        "compendiumSource": null,
-        "duplicateSource": null
-      }
-    },
-    {
-      "name": "Inexorable Advance",
-      "type": "ability",
-      "_id": "3e5c3f53da725756",
-      "_key": "!actors.items!aow6GGeUHfWB2tJE.3e5c3f53da725756",
-      "system": {
-        "description": {
-          "value": "<p>The Lakewalker moves its speed in a straight line. Each creature in its path must succeed on a Might test (difficulty 12) or be pushed 2 squares to the side and take 4 cold damage.</p>"
-        },
-        "source": {
-          "name": "Svellheim Campaign (Era of Embers)",
-          "page": ""
-        },
-        "actionType": {
-          "value": "villainAction"
-        },
-        "keywords": [
-          "melee"
-        ],
-        "distance": [
-          {
-            "type": "special",
-            "value": 0
-          }
-        ],
-        "target": {
-          "value": "Each creature in path"
-        },
-        "powerRoll": null,
-        "effect": {
-          "value": "Move speed in a straight line. Creatures in path: Might test TN 12 or pushed 2 and 4 cold damage."
-        },
-        "spend": [],
-        "trigger": {
-          "value": ""
-        },
-        "cost": "1 Malice"
-      },
-      "img": "icons/skills/movement/figure-running-gray.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "createdTime": 1772721673236,
-        "modifiedTime": 1772721673236,
-        "lastModifiedBy": "validation-fix",
-        "compendiumSource": null,
-        "duplicateSource": null
-      }
-    },
-    {
-      "name": "Cold Snap",
-      "type": "ability",
-      "_id": "129ec99b5cc14e03",
-      "_key": "!actors.items!aow6GGeUHfWB2tJE.129ec99b5cc14e03",
-      "system": {
-        "description": {
-          "value": "<p>The Lakewalker slams one foot into the ground. Each creature within 4 squares must succeed on an Agility test (difficulty 12) or take 3 cold damage. The affected area becomes difficult terrain (ice) until the end of the encounter.</p>"
-        },
-        "source": {
-          "name": "Svellheim Campaign (Era of Embers)",
-          "page": ""
-        },
-        "actionType": {
-          "value": "villainAction"
-        },
-        "keywords": [
-          "area"
-        ],
-        "distance": [
-          {
-            "type": "burst",
-            "value": 4
-          }
-        ],
-        "target": {
-          "value": "Each creature in burst"
-        },
-        "powerRoll": null,
-        "effect": {
-          "value": "Agility test TN 12 or 3 cold damage. Area becomes difficult terrain (ice) until end of encounter."
-        },
-        "spend": [],
-        "trigger": {
-          "value": ""
-        },
-        "cost": "2 Malice"
-      },
-      "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "createdTime": 1772721673236,
-        "modifiedTime": 1772721673236,
-        "lastModifiedBy": "validation-fix",
-        "compendiumSource": null,
-        "duplicateSource": null
-      }
-    },
-    {
-      "_id": "CS2PbdNAXgMhDQYt",
-      "name": "Relentless Patrol",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>If not in melee at start of turn, moves toward its patrol path (nearest point on Hornvatn’s ice). Attacks anything in the way but doesn’t pursue creatures that step aside.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "lakewalker-draugr-relentless-patrol",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "_id": "KIDY0Eq9PXrv0sLc",
-      "name": "Ice-Bound",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Resist cold. Vulnerable fire (doubled).</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "lakewalker-draugr-ice-bound",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "_id": "Y0U5iKpXjYWYV7K8",
-      "name": "Unresponsive",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>Immune to fear, charm, communication-based effects. Cannot be negotiated with.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "lakewalker-draugr-unresponsive",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    },
-    {
-      "_id": "FLID2vROGylmTupW",
-      "name": "Frozen Shell",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 0,
-        "modifiedTime": 0,
-        "lastModifiedBy": null
-      },
-      "type": "feature",
-      "system": {
-        "description": {
-          "value": "<p>At 0 SP: freezes in place mid-stride as an ice statue. Does not collapse.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "lakewalker-draugr-frozen-shell",
-        "advancements": {},
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      }
-    }
-  ],
-  "effects": [],
-  "flags": {},
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
-    "lastModifiedBy": null
-  },
-  "prototypeToken": {
-    "name": "",
-    "displayName": 40,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "stamina"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "texture": {
-      "src": "icons/magic/death/hand-dirt-undead-zombie.webp",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
-    },
-    "ring": {
-      "enabled": true
-    },
-    "sight": {
-      "enabled": false
-    },
-    "light": {}
-  },
   "type": "npc",
+  "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
   "system": {
     "stamina": {
-      "value": 30,
-      "max": 30,
+      "value": 132,
+      "max": 132,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 3
+        "value": 2
       },
       "agility": {
-        "value": 1
+        "value": -1
       },
       "reason": {
-        "value": -2
+        "value": 0
       },
       "intuition": {
         "value": 1
       },
       "presence": {
-        "value": 0
+        "value": 2
       }
     },
     "combat": {
@@ -435,21 +31,16 @@
         "bonus": ""
       },
       "size": {
-        "value": 1,
+        "value": 2,
         "letter": "M"
       },
       "stability": 2,
       "turns": 1
     },
-    "biography": {
-      "value": "<p>Humanoid figures sheathed in blue-white ice, armor fused to bodies. No breath, no sound except the crack of ice with each step. Eyes are pale blue pinpoints. They march in lockstep, perfectly spaced, executing an ancient patrol loop across Hornvatn’s ice. They predate Grafvitnir’s work — tied to the thin boundary between Helheim and Midgard at these lakes.</p>",
-      "director": "<p><strong>ABILITIES</strong></p><ul><li><strong>Frozen March</strong> (Main, Melee, Might): T1 4 cold dmg; T2 7 cold dmg; T3 9 cold dmg + slowed (save ends). On crit: slowed (save ends).</li></ul><p><strong>MALICE</strong></p><ul><li><strong>Inexorable Advance (1M):</strong> The Lakewalker moves its speed in a straight line. Any creature in its path makes a Might test (moderate) or takes 4 dmg + pushed 2 squares sideways.</li><li><strong>Cold Snap (2M):</strong> All within 20 ft take 3 cold dmg and area becomes difficult terrain until EoNT.</li></ul><p><strong>FEATURES</strong></p><ul><li><strong>Relentless Patrol:</strong> If not in melee at start of turn, moves toward its patrol path (nearest point on Hornvatn’s ice). Attacks anything in the way but doesn’t pursue creatures that step aside.</li><li><strong>Ice-Bound:</strong> Resist cold. Vulnerable fire (doubled).</li><li><strong>Unresponsive:</strong> Immune to fear, charm, communication-based effects. Cannot be negotiated with.</li><li><strong>Frozen Shell:</strong> At 0 SP: freezes in place mid-stride as an ice statue. Does not collapse.</li></ul><p>Patrol group of 3. Beat 13, Hornvatn lake approach. ES ~8 each.</p>",
-      "languages": []
-    },
     "movement": {
       "value": 5,
       "types": [
-        "walk"
+        "burrow"
       ],
       "hover": false,
       "disengage": 1
@@ -472,7 +63,7 @@
         "acid": 0,
         "cold": 0,
         "corruption": 0,
-        "fire": 2,
+        "fire": 0,
         "holy": 0,
         "lightning": 0,
         "poison": 0,
@@ -480,13 +71,15 @@
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": []
+    "biography": {
+      "value": "<p>Lakewalker draugr are frost-rimed undead that patrol the frozen surfaces of Svellheim's lakes in fixed loops — emerging from the ice without breaking it, flesh grey-blue and glistening, eyes white and unblinking. They walk their patrol paths endlessly, turning toward disturbances with slow mechanical precision. Their Frozen March slows those it strikes, and their Inexorable Advance can scatter heroes who cluster too close. Fire is their weakness; cold merely bounces off their ice-fused flesh.</p>",
+      "director": "",
+      "languages": []
     },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
+      "book": "",
       "page": "",
-      "license": ""
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
       "interest": 5,
@@ -495,16 +88,910 @@
       "pitfalls": [],
       "impression": 1
     },
-    "ev": 4,
     "monster": {
-      "freeStrike": 5,
+      "freeStrike": 6,
       "keywords": [
-        "undead",
-        "humanoid"
+        "undead"
       ],
       "level": 3,
-      "role": "defender",
-      "organization": "horde"
+      "ev": 20,
+      "role": "brute",
+      "organization": "elite"
     }
-  }
+  },
+  "items": [
+    {
+      "name": "Fickle and Free",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The cold can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "fickle-and-free",
+        "advancements": {}
+      },
+      "_id": "OkvvF4JZBl5iqD6h",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.OkvvF4JZBl5iqD6h"
+    },
+    {
+      "name": "Primordial Strength",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The cold's strikes gain a +[[/damage 6]] damage bonus against objects.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "primordial-strength",
+        "advancements": {}
+      },
+      "_id": "fXSAWvKMRjQ7Dqyf",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.fXSAWvKMRjQ7Dqyf"
+    },
+    {
+      "name": "Stone Swim",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>The cold can burrow through stone, but can't drag other creatures underground when they do so.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "stone-swim",
+        "advancements": {}
+      },
+      "_id": "bI0AQKpP8lABXfcV",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.bI0AQKpP8lABXfcV"
+    },
+    {
+      "name": "Claw Into Dirt",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 2
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 2
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "yP3FuaNoDkBz4rLR": {
+              "_id": "yP3FuaNoDkBz4rLR",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "8",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "12",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "15",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "brCMvvtuYRFvzSDu": {
+              "_id": "brCMvvtuYRFvzSDu",
+              "type": "applied",
+              "name": "Restrained",
+              "img": null,
+              "applied": {
+                "tier2": {
+                  "display": "{{potency}} restrained (save ends)",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "restrained": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier3": {
+                  "display": "{{potency}} restrained (save ends)",
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "restrained": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier1": {
+                  "display": "",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The target's space is difficult terrain.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "slam-into-dirt",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "2dTlKnLNxsKYRYT4",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.2dTlKnLNxsKYRYT4"
+    },
+    {
+      "name": "Convocation of Quartz",
+      "type": "ability",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "system": {
+        "type": "maneuver",
+        "category": "signature",
+        "keywords": [
+          "magic",
+          "ranged"
+        ],
+        "distance": {
+          "type": "ranged",
+          "primary": 5
+        },
+        "target": {
+          "type": "selfOrAlly",
+          "value": 1,
+          "custom": "Self or one elemental"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the start of the cold's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane.</p><p>[[/apply E8LwdMt2tauxdbOc encounter]]</p><p>[[/heal 15 temp]]</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "Until the end of the encounter, the target grows a carapace  of stone. They have a +3 bonus to stability and gain 15 temporary Stamina.",
+          "value": 3
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "convocation-of-quartz",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [
+        {
+          "name": "Stone Carapace",
+          "img": "icons/magic/air/air-pressure-shield-blue.webp",
+          "type": "base",
+          "origin": "Actor.B31nPHgv2Ntimj4M.Item.bo6ly7AfPoApOvkl",
+          "disabled": true,
+          "_id": "E8LwdMt2tauxdbOc",
+          "system": {
+            "end": {
+              "type": "encounter",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [
+            {
+              "key": "system.combat.stability",
+              "mode": 2,
+              "value": "3",
+              "priority": null
+            }
+          ],
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.350",
+            "systemId": "draw-steel",
+            "systemVersion": "0.8.1",
+            "lastModifiedBy": null,
+            "modifiedTime": 1761096121060
+          },
+          "_key": "!actors.items.effects!B31nPHgv2Ntimj4M.bo6ly7AfPoApOvkl.E8LwdMt2tauxdbOc"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "bo6ly7AfPoApOvkl",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.bo6ly7AfPoApOvkl"
+    },
+    {
+      "name": "Break Armor",
+      "type": "ability",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "type": "triggered",
+        "category": "heroic",
+        "keywords": [
+          "-"
+        ],
+        "distance": {
+          "type": "self"
+        },
+        "target": {
+          "type": "self",
+          "value": null
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>The cold halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. This damage weakness increases by 3 each time the cold uses this ability in the same encounter.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "116"
+        },
+        "_dsid": "break-armor",
+        "story": "",
+        "resource": 1,
+        "trigger": "The cold takes damage."
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "Fy6iuDYMfzssHL4J",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.Fy6iuDYMfzssHL4J"
+    },
+    {
+      "folder": "hE191ksRhzkku5Ov",
+      "name": "Elemental Swap",
+      "type": "ability",
+      "_id": "ivYpZCg1VqdHPv1k",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "113",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "elemental-swap",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Two elementals on the encounter map teleport to swap places, and each has damage immunity 2 until the end of the round.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [
+        {
+          "name": "Elemental Swap (Immunity)",
+          "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+          "type": "base",
+          "origin": "Compendium.draw-steel.monster-features.Item.ivYpZCg1VqdHPv1k",
+          "disabled": true,
+          "_id": "0q7DcAIYxiQ09fCG",
+          "system": {
+            "end": {
+              "type": "",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [
+            {
+              "key": "system.damage.immunities.all",
+              "mode": 4,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "duration": {
+            "startTime": 0,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>Two elementals on the encounter map teleport to swap places, and each has damage immunity 2 until the end of the round.</p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.348",
+            "systemId": "draw-steel",
+            "systemVersion": "0.8.1",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!B31nPHgv2Ntimj4M.ivYpZCg1VqdHPv1k.0q7DcAIYxiQ09fCG"
+        }
+      ],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.ivYpZCg1VqdHPv1k",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.ivYpZCg1VqdHPv1k"
+    },
+    {
+      "folder": "hE191ksRhzkku5Ov",
+      "name": "Split",
+      "type": "ability",
+      "_id": "nepObNKqvUUHrr8q",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "113",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "split",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original’s current Stamina and is one size smaller. Both elementals can then shift up to their speed.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.nepObNKqvUUHrr8q",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.nepObNKqvUUHrr8q"
+    },
+    {
+      "name": "Convocation of Chaos",
+      "type": "ability",
+      "_id": "vDtUjuLPjntj32co",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "113",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "convocation-of-chaos",
+        "story": "",
+        "keywords": [],
+        "type": "maneuver",
+        "category": "heroic",
+        "resource": 7,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 8
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "selfOrAlly",
+          "custom": "Self or one elemental",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [],
+            "reactive": false
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the end of the encounter, the target has a +5 bonus to speed and a +5 damage bonus to strikes. Additionally, whenever an elemental within the target’s line of effect uses an ability with “Convocation” in the name, the target also gains the effects of that ability.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [
+        {
+          "name": "Convocation of Chaos (Speed)",
+          "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+          "type": "base",
+          "origin": "Compendium.draw-steel.monster-features.Item.vDtUjuLPjntj32co",
+          "_id": "Hba04T6CgjrjwaOu",
+          "system": {
+            "end": {
+              "type": "encounter",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [
+            {
+              "key": "system.movement.value",
+              "mode": 2,
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "draw-steel",
+            "systemVersion": "0.9.0",
+            "lastModifiedBy": null,
+            "modifiedTime": 1769969330732
+          },
+          "_key": "!actors.items.effects!B31nPHgv2Ntimj4M.vDtUjuLPjntj32co.Hba04T6CgjrjwaOu"
+        },
+        {
+          "name": "Convocation of Chaos (Strike)",
+          "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+          "type": "abilityModifier",
+          "origin": "Compendium.draw-steel.monster-features.Item.vDtUjuLPjntj32co",
+          "_id": "oOlOeEi6rpWKvkJ4",
+          "system": {
+            "end": {
+              "type": "encounter",
+              "roll": "1d10 + @combat.save.bonus"
+            },
+            "filters": {
+              "keywords": [
+                "strike"
+              ]
+            }
+          },
+          "changes": [
+            {
+              "key": "damage.bonuses.value",
+              "mode": 2,
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "draw-steel",
+            "systemVersion": "0.9.0",
+            "lastModifiedBy": null,
+            "modifiedTime": 1769969330732
+          },
+          "_key": "!actors.items.effects!B31nPHgv2Ntimj4M.vDtUjuLPjntj32co.oOlOeEi6rpWKvkJ4"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.vDtUjuLPjntj32co",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1761095563160,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!B31nPHgv2Ntimj4M.vDtUjuLPjntj32co"
+    }
+  ],
+  "folder": "hatSTUdV3EGvlnvE",
+  "_id": "a0TWAw8EFdEJ8YND",
+  "prototypeToken": {
+    "name": "Lakewalker Draugr",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/magic/death/hand-dirt-undead-zombie.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.9.0",
+    "createdTime": 1757110809738,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!B31nPHgv2Ntimj4M"
 }

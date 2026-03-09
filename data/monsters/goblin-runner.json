@@ -1,7 +1,8 @@
 {
-  "folder": "iEPVvWezLlidfEbg",
+  "folder": "VG4LRhUl5RB1EpzH",
   "name": "Goblin Runner",
   "type": "npc",
+  "_id": "uXF8Tz7da3eAUyvi",
   "img": "modules/svellheim-entities/assets/icons/monster-images/goblin-runner.png",
   "system": {
     "stamina": {
@@ -11,19 +12,19 @@
     },
     "characteristics": {
       "might": {
-        "value": -2
+        "value": 0
       },
       "agility": {
         "value": 2
       },
       "reason": {
-        "value": 0
+        "value": -2
       },
       "intuition": {
-        "value": 0
+        "value": -2
       },
       "presence": {
-        "value": -1
+        "value": 0
       }
     },
     "combat": {
@@ -39,14 +40,15 @@
       "turns": 1
     },
     "biography": {
-      "value": "<p>A small, feral goblin with green-grey skin and wide yellow eyes that dart nervously in every direction. It clutches a crude club in bony fingers, its body coiled and twitchy, ready to scramble up walls or dive through legs at a moment’s notice. These runners are the expendable vanguard of the goblin tribe — fast, cowardly, and dangerous only in numbers. They charge from cliff walls and high perches, exploiting their natural climbing ability and darting past defenders who can’t pin them down.</p>",
-      "director": "<p><strong>ENCOUNTER CONTEXT</strong></p><p>Beat 4b (optional). The runners begin on the cliff walls above the narrow mountain path (3 squares up, Climb movement). They form a squad of 4 minions (EV 3 for the squad).</p><p><strong>TACTICS</strong></p><ul><li>Charge from the cliff walls on round 1, exploiting <strong>Crafty</strong> to avoid opportunity attacks.</li><li>Swarm isolated PCs — they gain an edge on strikes when their captain (the Monarch) is present.</li><li>The Monarch uses <strong>Get in Here!</strong> to summon replacement Runners, so don’t hold them back — they’re meant to be spent.</li><li>Use them to trigger <strong>Tiny Stabs</strong> (5 Malice) by clustering around enemies for area damage.</li></ul>",
+      "value": "<p>Goblin runners are the skirmishing vanguard of the Svellheim goblin clans — fast, nimble, and cowardly in exactly the right measure. They dart in to club a distracted hero and dart right back out before the return swing comes. Their Crafty feature lets them exploit every sightline and alley, and they excel at leading enemies into traps or out of formations. In numbers they become genuinely dangerous.</p>",
+      "director": "",
       "languages": []
     },
     "movement": {
       "value": 6,
       "types": [
         "walk",
+        "swim",
         "climb"
       ],
       "hover": false,
@@ -61,7 +63,7 @@
         "fire": 0,
         "holy": 0,
         "lightning": 0,
-        "poison": 0,
+        "poison": 2,
         "psychic": 0,
         "sonic": 0
       },
@@ -79,8 +81,8 @@
       }
     },
     "source": {
-      "book": "Monsters",
-      "page": "161",
+      "book": "",
+      "page": "",
       "license": "Draw Steel Creator License"
     },
     "negotiation": {
@@ -93,7 +95,6 @@
     "monster": {
       "freeStrike": 1,
       "keywords": [
-        "goblin",
         "humanoid"
       ],
       "level": 1,
@@ -178,7 +179,7 @@
         "ring": null,
         "background": null
       },
-      "effects": 0,
+      "effects": 1,
       "subject": {
         "scale": 1,
         "texture": null
@@ -198,21 +199,21 @@
   },
   "items": [
     {
-      "name": "Crafty",
+      "name": "Quick Snack",
       "type": "feature",
-      "_id": "IpnEqs83JkgZpvZJ",
+      "_id": "Vvlfi4dxbiEvRKrN",
       "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
       "system": {
         "description": {
-          "value": "<p>The runner doesn't provoke oppurtunity attacks by moving.</p>",
+          "value": "<p>Any angulotl who can target the pollywog with a melee free strike can eat them as a maneuver. The angulotl regains [[/heal 4]] and is wet until the end of their next turn.</p>",
           "director": ""
         },
         "source": {
           "book": "Monsters",
-          "page": "161",
+          "page": "35",
           "license": "Draw Steel Creator License"
         },
-        "_dsid": "crafty",
+        "_dsid": "quick-snack",
         "advancements": {}
       },
       "effects": [],
@@ -227,28 +228,90 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.348",
         "systemId": "draw-steel",
-        "systemVersion": "0.8.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
+        "systemVersion": "0.8.1",
+        "createdTime": 1757014499948,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
-      "_key": "!actors.items!Xw0gZCS09gdMjaw8.IpnEqs83JkgZpvZJ"
+      "_key": "!actors.items!UIerVsSyMb36Bm4D.Vvlfi4dxbiEvRKrN"
     },
     {
-      "name": "Club Charge",
+      "folder": "QCHesWzKjphCQmCU",
+      "name": "Leapfrog",
+      "type": "ability",
+      "_id": "UZtOR8SSJC71RuS3",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "34",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "leapfrog",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the end of the round, when an angulotl moves through an inactive angulotl’s space, the inactive angulotl can use a free triggered action to jump 3 squares.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.UZtOR8SSJC71RuS3",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "createdTime": 1757014540910,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!UIerVsSyMb36Bm4D.UZtOR8SSJC71RuS3"
+    },
+    {
+      "name": "Nip",
       "type": "ability",
       "system": {
         "type": "main",
         "source": {
           "book": "Monsters",
-          "page": "161",
+          "page": "35",
           "license": "Draw Steel Creator License"
         },
-        "_dsid": "club-charge",
+        "_dsid": "nip",
         "story": "",
         "keywords": [
-          "charge",
           "melee",
           "strike",
           "weapon"
@@ -262,9 +325,9 @@
         },
         "damageDisplay": "melee",
         "target": {
-          "type": "creatureObject",
+          "type": "creature",
           "value": 1,
-          "custom": "One creature or object per minion"
+          "custom": "One creature per minion"
         },
         "power": {
           "roll": {
@@ -274,38 +337,43 @@
             ]
           },
           "effects": {
-            "iTuBq1bwRgRcWckC": {
+            "hTnPV4q2g47SGeOP": {
               "name": "",
               "img": null,
               "type": "damage",
-              "_id": "iTuBq1bwRgRcWckC",
+              "_id": "hTnPV4q2g47SGeOP",
               "damage": {
                 "tier1": {
                   "value": "1",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
+                  "types": [
+                    "force"
+                  ]
                 },
                 "tier2": {
                   "value": "2",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": ""
-                  }
+                  "types": [
+                    "force"
+                  ]
                 },
                 "tier3": {
                   "value": "3",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": ""
-                  }
+                  "types": [
+                    "force"
+                  ]
+                }
+              }
+            },
+            "eY6UfxdqmHVa1kPs": {
+              "name": "Shift",
+              "img": null,
+              "type": "other",
+              "_id": "eY6UfxdqmHVa1kPs",
+              "other": {
+                "tier2": {
+                  "display": "the pollywog can shift 1 square"
+                },
+                "tier3": {
+                  "display": "the pollywog shifts up to 3 squares"
                 }
               }
             }
@@ -320,7 +388,7 @@
           "value": null
         }
       },
-      "_id": "WeMq0DalWkEq62RQ",
+      "_id": "oZj88yJp3cJPxc9S",
       "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
       "effects": [],
       "folder": null,
@@ -334,152 +402,113 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.348",
+        "coreVersion": "13.350",
         "systemId": "draw-steel",
         "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
+        "createdTime": 1757014547764,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
-      "_key": "!actors.items!Xw0gZCS09gdMjaw8.WeMq0DalWkEq62RQ"
+      "_key": "!actors.items!UIerVsSyMb36Bm4D.oZj88yJp3cJPxc9S"
     },
     {
-      "name": "Goblin Mode",
-      "type": "ability",
+      "name": "Wet",
+      "type": "feature",
+      "_id": "LCVUFvkic3ekh34p",
+      "img": "icons/magic/water/water-drop-swirl-blue.webp",
       "system": {
-        "type": "none",
+        "description": {
+          "value": "<p>Angulotls make use of a unique effect called “wet.” While wet, an angulotl doesn’t provoke opportunity attacks by moving. At the same time, any non-angulotl who is wet and ends their turn with none of their movement remaining slips and falls prone. Several angulotl abilities can impose this effect, but a creature in an encounter featuring angulotls can also become wet by entering water, as the Director determines.</p>",
+          "director": ""
+        },
         "source": {
           "book": "Monsters",
-          "page": "160",
+          "page": "35",
           "license": "Draw Steel Creator License"
         },
-        "_dsid": "goblin-mode",
-        "story": "",
-        "keywords": [],
-        "category": "heroic",
-        "resource": 3,
-        "trigger": "A goblin starts its turn.",
-        "distance": {
-          "type": "special"
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special"
-        },
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": []
-          },
-          "effects": {}
-        },
-        "effect": {
-          "before": "<p>Each goblin in the encounter gains a +2 bonus to speed until the end of the round.</p>",
-          "after": ""
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        }
+        "_dsid": "wet",
+        "advancements": {}
       },
-      "_id": "4IYmvaux8p8vaWR6",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-      "effects": [],
-      "folder": "vxOVWECtypuYigNy",
-      "sort": 100000,
+      "effects": [
+        {
+          "name": "Wet",
+          "img": "icons/magic/water/water-drop-swirl-blue.webp",
+          "type": "base",
+          "origin": "Compendium.draw-steel.monsters.Actor.R1CEitcfoGyEwRZY.Item.LCVUFvkic3ekh34p",
+          "disabled": true,
+          "_id": "X66mp8MbRILfgKS6",
+          "system": {
+            "end": {
+              "type": "",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [],
+          "duration": {
+            "startTime": 0,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>While wet, an angulotl doesn’t provoke opportunity attacks by moving.</p><p>While wet, any non-angulotl who is wet and ends their turn with none of their movement remaining slips and falls prone.</p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.348",
+            "systemId": "draw-steel",
+            "systemVersion": "0.8.1",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!UIerVsSyMb36Bm4D.LCVUFvkic3ekh34p.X66mp8MbRILfgKS6"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
       "ownership": {
         "default": 0,
         "R75FAhxK5fADaoJF": 3
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.draw-steel.monsters.Actor.R1CEitcfoGyEwRZY.Item.LCVUFvkic3ekh34p",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.347",
+        "coreVersion": "13.348",
         "systemId": "draw-steel",
-        "systemVersion": "0.8.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
+        "systemVersion": "0.8.1",
+        "createdTime": 1757015178127,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
-      "_key": "!actors.items!Xw0gZCS09gdMjaw8.4IYmvaux8p8vaWR6"
+      "_key": "!actors.items!UIerVsSyMb36Bm4D.LCVUFvkic3ekh34p"
     },
     {
-      "name": "Tiny Stabs",
+      "name": "Rainfall",
       "type": "ability",
-      "system": {
-        "type": "none",
-        "source": {
-          "book": "Monsters",
-          "page": "160",
-          "license": "Draw Steel Creator License"
-        },
-        "_dsid": "tiny-stabs",
-        "story": "",
-        "keywords": [],
-        "category": "heroic",
-        "resource": 5,
-        "trigger": "A goblin starts its turn.",
-        "distance": {
-          "type": "special"
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special"
-        },
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": []
-          },
-          "effects": {}
-        },
-        "effect": {
-          "before": "<p>Each enemy in the encounter takes 1 damage for each goblin adjacent to them.</p>",
-          "after": ""
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        }
-      },
-      "_id": "Oa0MhwS1yeyeJ5qG",
+      "_id": "chuInXNQ28dtiMPI",
       "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-      "effects": [],
-      "folder": "vxOVWECtypuYigNy",
-      "sort": 200000,
-      "ownership": {
-        "default": 0,
-        "R75FAhxK5fADaoJF": 3
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.347",
-        "systemId": "draw-steel",
-        "systemVersion": "0.8.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_key": "!actors.items!Xw0gZCS09gdMjaw8.Oa0MhwS1yeyeJ5qG"
-    },
-    {
-      "name": "Swamp Stink",
-      "type": "ability",
       "system": {
-        "type": "none",
         "source": {
           "book": "Monsters",
-          "page": "160",
+          "page": "34",
           "license": "Draw Steel Creator License"
         },
-        "_dsid": "swamp-stink",
+        "_dsid": "rainfall",
         "story": "",
         "keywords": [],
+        "type": "none",
         "category": "heroic",
         "resource": 7,
-        "trigger": "A goblin starts its turn.",
+        "trigger": "",
         "distance": {
           "type": "special"
         },
@@ -491,24 +520,129 @@
         },
         "power": {
           "roll": {
-            "formula": "",
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>An angulotl calls clouds to cover the encounter map and unleash rain until the end of the round. Any creature or object that is exposed to the sky is [[/apply Du8EMyrd7nZQ66Yk encounter]] until the end of the encounter.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [
+        {
+          "name": "Wet",
+          "img": "icons/magic/water/water-drop-swirl-blue.webp",
+          "origin": "Compendium.draw-steel.monster-features.Item.chuInXNQ28dtiMPI",
+          "transfer": false,
+          "_id": "Du8EMyrd7nZQ66Yk",
+          "type": "base",
+          "system": {
+            "end": {
+              "type": "encounter",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>While wet, an angulotl doesn’t provoke opportunity attacks by moving.</p><p>While wet, any non-angulotl who is wet and ends their turn with none of their movement remaining slips and falls prone.</p>",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.350",
+            "systemId": "draw-steel",
+            "systemVersion": "0.9.0",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!UIerVsSyMb36Bm4D.chuInXNQ28dtiMPI.Du8EMyrd7nZQ66Yk"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.chuInXNQ28dtiMPI",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1760845621815,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!UIerVsSyMb36Bm4D.chuInXNQ28dtiMPI"
+    },
+    {
+      "name": "Resonating Croak",
+      "type": "ability",
+      "_id": "kCADTziPpgpPe7gR",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "34",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "resonating-croak",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "custom": "",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
             "characteristics": [
-              "might"
+              "intuition"
             ],
             "reactive": true
           },
           "effects": {
-            "EWNCOLfzWPAraIBv": {
+            "4NXwyJpbYZYHpOZt": {
               "sort": 100000,
               "name": "",
               "img": null,
               "type": "damage",
-              "_id": "EWNCOLfzWPAraIBv",
+              "_id": "4NXwyJpbYZYHpOZt",
               "damage": {
                 "tier1": {
                   "value": "5",
                   "types": [
-                    "poison"
+                    "sonic"
                   ],
                   "ignoredImmunities": [],
                   "potency": {
@@ -517,8 +651,10 @@
                   }
                 },
                 "tier2": {
-                  "value": "",
-                  "types": [],
+                  "value": "4",
+                  "types": [
+                    "sonic"
+                  ],
                   "ignoredImmunities": [],
                   "potency": {
                     "value": "@potency.average",
@@ -536,36 +672,24 @@
                 }
               }
             },
-            "VdDO5uml16reG0t7": {
+            "J1p9xenKzFyHaNKe": {
               "sort": 200000,
               "name": "",
               "img": null,
               "type": "applied",
-              "_id": "VdDO5uml16reG0t7",
+              "_id": "J1p9xenKzFyHaNKe",
               "applied": {
                 "tier1": {
-                  "display": "the creature is weakened until the mist disappears.",
-                  "effects": {
-                    "weakened": {
-                      "condition": "always",
-                      "end": "",
-                      "properties": []
-                    }
-                  },
+                  "display": "slowed (EoT)",
+                  "effects": {},
                   "potency": {
                     "value": "@potency.weak",
                     "characteristic": "none"
                   }
                 },
                 "tier2": {
-                  "display": "The creature is weakened until the mist disappears.",
-                  "effects": {
-                    "weakened": {
-                      "condition": "always",
-                      "end": "",
-                      "properties": []
-                    }
-                  },
+                  "display": "",
+                  "effects": {},
                   "potency": {
                     "value": "@potency.average",
                     "characteristic": ""
@@ -584,7 +708,7 @@
           }
         },
         "effect": {
-          "before": "<p>The encounter map is covered in a green mist that lasts until the end of the round, and which can’t be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a <strong>Might test.</strong></p>",
+          "before": "<p>Each angulotl in the encounter puffs out their throat and starts loudly droning Any non-angulotl adjacent to an angulotl makes an <strong>Intuition test.</strong></p>",
           "after": ""
         },
         "spend": {
@@ -597,54 +721,47 @@
           "level": null
         }
       },
-      "_id": "vZMdicLidQzWMkgm",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "effects": [],
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.draw-steel.monster-features.Item.vZMdicLidQzWMkgm",
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.SMNH5LxY8st7IyDf",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
         "systemId": "draw-steel",
         "systemVersion": "0.9.0",
-        "createdTime": 1761169988435,
+        "createdTime": 1763816555532,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
       "ownership": {
         "default": 0,
-        "R75FAhxK5fADaoJF": 3
+        "CIQwmPP4Pjosq4Yp": 3
       },
       "folder": null,
-      "sort": 300000,
-      "_key": "!actors.items!Xw0gZCS09gdMjaw8.vZMdicLidQzWMkgm"
+      "sort": 0,
+      "_key": "!actors.items!UIerVsSyMb36Bm4D.kCADTziPpgpPe7gR"
     }
   ],
   "effects": [
     {
       "name": "With Captain",
       "img": "icons/skills/social/intimidation-impressing.webp",
-      "type": "abilityModifier",
-      "origin": "Compendium.draw-steel.monsters.Actor.Xw0gZCS09gdMjaw8",
+      "type": "base",
+      "origin": "Compendium.draw-steel.monsters.Actor.UIerVsSyMb36Bm4D",
       "disabled": true,
-      "_id": "7d6tkUCfRnTYO9ZL",
+      "_id": "2Toweer0WvuwEauu",
       "system": {
         "end": {
           "type": "",
           "roll": "1d10 + @combat.save.bonus"
-        },
-        "filters": {
-          "keywords": [
-            "strike"
-          ]
         }
       },
       "changes": [
         {
-          "key": "power.roll.edges",
+          "key": "system.movement.value",
           "mode": 2,
-          "value": "1",
+          "value": "2",
           "priority": null
         }
       ],
@@ -657,26 +774,27 @@
         "rounds": null,
         "turns": null
       },
-      "description": "<p>Gain an edge on strikes.</p>",
+      "description": "<p>+2 bonus to speed.</p>",
       "tint": "#ffffff",
       "transfer": false,
       "statuses": [],
       "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.draw-steel.monsters.Actor.KwdPnQj8bc4JlTqB.ActiveEffect.7d6tkUCfRnTYO9ZL",
+        "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "13.348",
         "systemId": "draw-steel",
-        "systemVersion": "0.10.0",
-        "createdTime": 1757292444079,
+        "systemVersion": "0.8.1",
+        "createdTime": 1757277085882,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!actors.effects!Xw0gZCS09gdMjaw8.7d6tkUCfRnTYO9ZL"
+      "_key": "!actors.effects!UIerVsSyMb36Bm4D.2Toweer0WvuwEauu"
     }
   ],
+  "sort": 0,
   "ownership": {
     "default": 0
   },
@@ -685,14 +803,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "draw-steel",
-    "systemVersion": "0.8.0",
-    "createdTime": 1755922156735,
+    "systemVersion": "0.9.0",
+    "createdTime": 1757014398206,
     "modifiedTime": null,
     "lastModifiedBy": null
   },
-  "_id": "Xw0gZCS09gdMjaw8",
-  "sort": 0,
-  "_key": "!actors!Xw0gZCS09gdMjaw8"
+  "_key": "!actors!UIerVsSyMb36Bm4D"
 }

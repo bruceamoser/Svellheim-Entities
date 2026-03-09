@@ -1,12 +1,13 @@
 {
-  "folder": null,
+  "folder": "aym4mi5JvyLiP0uV",
   "name": "Frost-Draugr",
   "type": "npc",
+  "_id": "1xAMhfQaEbKptK1a",
   "img": "modules/svellheim-entities/assets/icons/monster-images/frost-draugr.png",
   "system": {
     "stamina": {
-      "value": 50,
-      "max": 50,
+      "value": 59,
+      "max": 59,
       "temporary": 0
     },
     "characteristics": {
@@ -17,13 +18,13 @@
         "value": 0
       },
       "reason": {
-        "value": -3
+        "value": 0
       },
       "intuition": {
         "value": 1
       },
       "presence": {
-        "value": -2
+        "value": 0
       }
     },
     "combat": {
@@ -35,13 +36,13 @@
         "value": 1,
         "letter": "M"
       },
-      "stability": 2,
+      "stability": 3,
       "turns": 1
     },
     "biography": {
-      "value": "<p>A Frost-Draugr is a centuries-old undead warrior, pulled from forgotten barrows by a southwest-pulling power. Encased in ancient corroded armour and rimmed with perpetual frost, it walks with terrible patience toward the nearest source of warmth.</p>",
-      "director": "<p>Frost-Draugr are slow, powerful, and inevitable. They walk toward the nearest warm body and hit it until it stops being warm. Their Cold Aura punishes melee engagement—the smart play is ranged attacks and kiting. But the Grave-Wisps are designed to make kiting difficult.</p>",
-      "languages": []
+      "value": "<p>Frost-draugr are the heavy infantry of the undead host — bloated, rimed corpses that radiate numbing cold in an aura around their bodies. They were buried warriors encased in permafrost, and the cold has become part of their undead flesh. Clustered together in marching platoons, their chill aura can freeze the ground underfoot and bite through armor. They are slow but nearly impossible to stop.</p>",
+      "languages": [],
+      "director": ""
     },
     "movement": {
       "value": 5,
@@ -55,12 +56,12 @@
       "immunities": {
         "all": 0,
         "acid": 0,
-        "cold": 2,
+        "cold": 0,
         "corruption": 0,
         "fire": 0,
         "holy": 0,
         "lightning": 0,
-        "poison": 5,
+        "poison": 0,
         "psychic": 0,
         "sonic": 0
       },
@@ -69,7 +70,7 @@
         "acid": 0,
         "cold": 0,
         "corruption": 0,
-        "fire": 5,
+        "fire": 0,
         "holy": 0,
         "lightning": 0,
         "poison": 0,
@@ -77,15 +78,10 @@
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": [
-        "frightened"
-      ]
-    },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
+      "book": "",
       "page": "",
-      "license": ""
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
       "interest": 5,
@@ -97,8 +93,7 @@
     "monster": {
       "freeStrike": 5,
       "keywords": [
-        "undead",
-        "humanoid"
+        "undead"
       ],
       "level": 2,
       "ev": 8,
@@ -108,7 +103,7 @@
   },
   "prototypeToken": {
     "name": "Frost-Draugr",
-    "displayName": 40,
+    "displayName": 20,
     "actorLink": false,
     "width": 1,
     "height": 1,
@@ -125,16 +120,16 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "lockRotation": false,
+    "lockRotation": true,
     "rotation": 0,
     "alpha": 1,
     "disposition": -1,
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "stamina"
     },
     "bar2": {
-      "attribute": null
+      "attribute": "hero.resources"
     },
     "light": {
       "negative": false,
@@ -177,79 +172,593 @@
       "radius": 0
     },
     "ring": {
-      "enabled": true,
+      "enabled": false,
       "colors": {
         "ring": null,
         "background": null
       },
-      "effects": 1,
+      "effects": 0,
       "subject": {
         "scale": 1,
         "texture": null
       }
     },
-    "flags": {},
-    "randomImg": false
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "token-aura-ring": {
+        "aura-rings": []
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
   },
   "items": [
     {
-      "name": "Frozen Grip",
+      "name": "Concussive Maul",
       "type": "ability",
-      "img": "icons/magic/water/snowflake-ice-purple.webp",
       "system": {
+        "type": "main",
         "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
+          "book": "Monsters",
+          "page": "109",
+          "license": "Draw Steel Creator License"
         },
-        "_dsid": "frozen-grip",
+        "_dsid": "concussive-maul",
+        "story": "",
         "keywords": [
           "melee",
           "strike",
           "weapon"
         ],
-        "type": "main",
         "category": "signature",
         "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
+          "primary": 1
         },
         "damageDisplay": "melee",
         "target": {
           "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Tier 2:</strong> If the target's Might is less than 2, the target is slowed (EoT).</p><p><strong>Tier 3:</strong> If the target's Might is less than 2, the target is slowed (save ends).</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
+          "value": 1
         },
         "power": {
           "roll": {
+            "formula": "@chr",
             "characteristics": [
               "might"
-            ],
-            "formula": "@chr",
-            "reactive": false
+            ]
           },
           "effects": {
-            "FDRG000000000001": {
+            "iibhyLhPqmrYtPIc": {
               "type": "damage",
-              "_id": "FDRG000000000001",
+              "_id": "iibhyLhPqmrYtPIc",
               "damage": {
                 "tier1": {
-                  "value": "6",
-                  "types": [
-                    "cold"
+                  "value": "7",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "10",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "13",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              },
+              "name": "",
+              "img": null
+            },
+            "FDfDBVu1Vn6vQv5i": {
+              "type": "forced",
+              "_id": "FDfDBVu1Vn6vQv5i",
+              "name": "Push",
+              "forced": {
+                "tier2": {
+                  "distance": "3",
+                  "display": "{{forced}}",
+                  "movement": [
+                    "push"
                   ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "distance": "5",
+                  "display": "{{forced}}",
+                  "movement": [
+                    "push"
+                  ],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                },
+                "tier1": {
+                  "display": "{{forced}}",
+                  "movement": [
+                    "push"
+                  ],
+                  "distance": "1",
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                }
+              },
+              "img": null
+            },
+            "ApeAm2ISrAZCGlRt": {
+              "type": "applied",
+              "_id": "ApeAm2ISrAZCGlRt",
+              "name": "Restrained",
+              "applied": {
+                "tier3": {
+                  "display": "{{potency}} restrained (save ends)",
+                  "potency": {
+                    "characteristic": "might",
+                    "value": "@potency.strong"
+                  },
+                  "effects": {
+                    "restrained": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier1": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  },
+                  "effects": {}
+                },
+                "tier2": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  },
+                  "effects": {}
+                }
+              },
+              "img": null
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>A target restrained by a dwarf can be cold moved by this ability. This forced movement doesn’t end the restrained condition unless the Director determines otherwise.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "716NUxYUXR5TFOqA",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!oOrOtSddf3x85DG3.716NUxYUXR5TFOqA"
+    },
+    {
+      "name": "Concussive Shockwave",
+      "type": "ability",
+      "system": {
+        "type": "main",
+        "source": {
+          "book": "Monsters",
+          "page": "109",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "concussive-shockwave",
+        "story": "",
+        "keywords": [
+          "area",
+          "weapon"
+        ],
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "",
+        "distance": {
+          "type": "cube",
+          "primary": 3,
+          "secondary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemy",
+          "value": null,
+          "custom": "Each enemy in the area"
+        },
+        "power": {
+          "roll": {
+            "formula": "2",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "8L3pFRYgDxUxOX9D": {
+              "type": "damage",
+              "_id": "8L3pFRYgDxUxOX9D",
+              "damage": {
+                "tier1": {
+                  "value": "5",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "8",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "11",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              },
+              "name": "",
+              "img": null
+            },
+            "kNicEjWjIRI37Hvh": {
+              "type": "applied",
+              "_id": "kNicEjWjIRI37Hvh",
+              "name": "Slowed",
+              "applied": {
+                "tier1": {
+                  "display": "{{potency}} Slowed (Save Ends)",
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "agility"
+                  },
+                  "effects": {
+                    "slowed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier2": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  },
+                  "effects": {
+                    "slowed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier3": {
+                  "display": "",
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "agility"
+                  },
+                  "effects": {
+                    "slowed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                }
+              },
+              "img": null
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>A target restrained by a dwarf can be cold moved by this ability. This forced movement doesn’t end the restrained condition unless the Director determines otherwise</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "HaYZhnFEkC9wxpfv",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!oOrOtSddf3x85DG3.HaYZhnFEkC9wxpfv"
+    },
+    {
+      "name": "Escort the Prisoners",
+      "type": "feature",
+      "_id": "wMzzDgKWEQhNHmvJ",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>Whenever the warden moves, they can carry an adjacent restrained enemy as if the enemy were grabbed by them.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "109",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "escort-the-prisoners",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "ZJ4Z3nifR8NNIWxP": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!oOrOtSddf3x85DG3.wMzzDgKWEQhNHmvJ"
+    },
+    {
+      "name": "Rappelling Barrage",
+      "type": "ability",
+      "system": {
+        "type": "none",
+        "source": {
+          "book": "Monsters",
+          "page": "105",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "rappelling-barrage",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "A dwarf starts their turn",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a free strike.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "jeKfV8aI1rqyfkj4",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "effects": [],
+      "folder": "zR2leIjgt7VcKr8l",
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.0wvOWjLAh0BeOvCp.Item.AEnNkuhdPqY0mGNo",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "createdTime": 1755714198341,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!oOrOtSddf3x85DG3.jeKfV8aI1rqyfkj4"
+    },
+    {
+      "name": "Breaching Charge",
+      "type": "ability",
+      "system": {
+        "type": "none",
+        "source": {
+          "book": "Monsters",
+          "page": "105",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "breaching-charge",
+        "story": "",
+        "keywords": [],
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "A dwarf starts their turn",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>A dwarf can destroy one adjacent object or square of wall for each 3 Malice spent. Each enemy adjacent to the destroyed object or square takes the object’s Stamina in damage ([[/damage 3]] for wood, [[/damage 6]] for stone, or [[/damage 9]] for metal).</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "UsBSwuFSEE8zpLvM",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "effects": [],
+      "folder": "zR2leIjgt7VcKr8l",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.0wvOWjLAh0BeOvCp.Item.BTY5NhyrQYgUF5Aw",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "createdTime": 1755715174867,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!oOrOtSddf3x85DG3.UsBSwuFSEE8zpLvM"
+    },
+    {
+      "name": "Snaring Line",
+      "type": "ability",
+      "system": {
+        "type": "main",
+        "source": {
+          "book": "Monsters",
+          "page": "105",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "snaring-line",
+        "story": "",
+        "keywords": [
+          "area",
+          "magic",
+          "ranged"
+        ],
+        "category": "heroic",
+        "resource": 7,
+        "trigger": "",
+        "distance": {
+          "type": "line",
+          "primary": 10,
+          "secondary": 1,
+          "tertiary": 10
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemy",
+          "value": null,
+          "custom": ""
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": [
+              "agility"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "EO8ZBhNJxsnCzLhD": {
+              "sort": 100000,
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "EO8ZBhNJxsnCzLhD",
+              "damage": {
+                "tier1": {
+                  "value": "8",
+                  "types": [],
                   "ignoredImmunities": [],
                   "potency": {
                     "value": "@potency.weak",
@@ -257,385 +766,126 @@
                   }
                 },
                 "tier2": {
-                  "value": "9",
-                  "types": [
-                    "cold"
-                  ],
+                  "value": "6",
+                  "types": [],
                   "ignoredImmunities": [],
                   "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "might"
+                    "value": "@potency.average",
+                    "characteristic": ""
                   }
                 },
                 "tier3": {
-                  "value": "12",
-                  "types": [
-                    "cold"
-                  ],
+                  "value": "",
+                  "types": [],
                   "ignoredImmunities": [],
                   "potency": {
                     "value": "@potency.strong",
-                    "characteristic": "might"
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "LUTwXYl53BtoCpBM": {
+              "sort": 200000,
+              "name": "",
+              "img": null,
+              "type": "applied",
+              "_id": "LUTwXYl53BtoCpBM",
+              "applied": {
+                "tier1": {
+                  "display": "restrained (EoT)",
+                  "effects": {
+                    "restrained": {
+                      "condition": "always",
+                      "end": "turn",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "slowed (EoT)",
+                  "effects": {
+                    "slowed": {
+                      "condition": "always",
+                      "end": "turn",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "display": "No effect.",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
                   }
                 }
               }
             }
           }
         },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "FDRG000000000002",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Relentless Advance",
-      "type": "ability",
-      "img": "icons/skills/movement/arrows-up-trio-red.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "relentless-advance",
-        "keywords": [],
-        "type": "triggered",
-        "category": "",
-        "resource": null,
-        "trigger": "The Frost-Draugr is force moved.",
-        "distance": {
-          "type": "self",
-          "primary": null,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "self",
-          "value": null,
-          "custom": ""
-        },
         "effect": {
-          "before": "<p>After the forced movement resolves, the Frost-Draugr shifts 2 squares toward the nearest enemy.</p>",
-          "after": ""
+          "before": "<p>Each target makes an Agility Test.</p>",
+          "after": "<p>The snaring line remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test.</p><p><strong>Special:</strong> This ability canʼt be used by a minion.</p>"
         },
         "spend": {
-          "value": null,
-          "text": ""
+          "text": "",
+          "value": null
         },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
       },
+      "_id": "UrwLwfDVlxJTNQTd",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "effects": [],
-      "_id": "FDRG000000000003",
       "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.iV1xZa3LFqKK1Xgu",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1763817205389,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "CIQwmPP4Pjosq4Yp": 3
+      },
       "folder": null,
       "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Cold Aura",
-      "type": "feature",
-      "img": "icons/magic/air/wind-weather-snow-gusts.webp",
-      "system": {
-        "description": {
-          "value": "<p>At the start of the Frost-Draugr's turn, each enemy adjacent to the Frost-Draugr takes 2 cold damage.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "cold-aura",
-        "advancements": {}
-      },
-      "effects": [],
-      "_id": "FDRG000000000004",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Undead Resilience",
-      "type": "feature",
-      "img": "icons/magic/death/undead-skeleton-energy-green.webp",
-      "system": {
-        "description": {
-          "value": "<p>The Frost-Draugr is immune to the frightened and sleeping conditions.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "undead-resilience",
-        "advancements": {}
-      },
-      "effects": [],
-      "_id": "FDRG000000000005",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Ravenous Horde",
-      "type": "ability",
-      "img": "icons/magic/death/undead-ghosts-trio-blue.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "ravenous-horde",
-        "keywords": [],
-        "type": "none",
-        "category": "heroic",
-        "resource": 2,
-        "trigger": "An undead starts its turn",
-        "distance": {
-          "type": "special",
-          "primary": null,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": ""
-        },
-        "effect": {
-          "before": "<p>At the end of this round, each hero not already adjacent to one or more undead is beset by two Grave-Wisps who burst up from the frozen ground to appear in adjacent unoccupied spaces. Each summoned undead is winded. This feature can't be used two rounds in a row.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "FDRG000000000006",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Paranormal Fling",
-      "type": "ability",
-      "img": "icons/magic/control/debuff-chains-ropes-blue.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "paranormal-fling",
-        "keywords": [],
-        "type": "none",
-        "category": "heroic",
-        "resource": 3,
-        "trigger": "An undead starts its turn",
-        "distance": {
-          "type": "special",
-          "primary": null,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": ""
-        },
-        "effect": {
-          "before": "<p>Up to three unattended objects on the encounter map rise to float 1 square off the ground. Each object is then pulled 5 squares toward the nearest enemy within 3 squares of the object.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "FDRG000000000007",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "The Grasping, the Hungry",
-      "type": "ability",
-      "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "the-grasping-the-hungry",
-        "keywords": [],
-        "type": "none",
-        "category": "heroic",
-        "resource": 5,
-        "trigger": "An undead starts its turn",
-        "distance": {
-          "type": "special",
-          "primary": null,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": ""
-        },
-        "effect": {
-          "before": "<p>Ravenous undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn adjacent to an affected square makes an <strong>Agility test.</strong></p><dl class=\"power-roll-display\"><dt class=\"tier1\"><p><=11</p></dt><dd><p>5 damage; restrained (save ends)</p></dd><dt class=\"tier2\"><p>12–16</p></dt><dd><p>5 damage; restrained (EoT)</p></dd><dt class=\"tier3\"><p>17+</p></dt><dd><p>5 damage</p></dd></dl>",
-          "after": "<p>While restrained this way, a creature takes 1d6 damage at the start of each of their turns.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "FDRG000000000008",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Dread March",
-      "type": "ability",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dread-march",
-        "keywords": [],
-        "type": "none",
-        "category": "heroic",
-        "resource": 7,
-        "trigger": "An undead starts its turn",
-        "distance": {
-          "type": "special",
-          "primary": null,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": ""
-        },
-        "effect": {
-          "before": "<p>Up to four undead in the encounter move up to their speed and can make a free strike. The number of undead affected increases by 1 for each additional Malice spent on this feature. If an undead is reduced to 0 Stamina during this dread march, they don't die until the march is resolved.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "FDRG000000000009",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
+      "_key": "!actors.items!oOrOtSddf3x85DG3.UrwLwfDVlxJTNQTd"
     }
   ],
   "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "13.348",
     "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
+    "systemVersion": "0.8.0",
+    "createdTime": 1755639582980,
+    "modifiedTime": null,
     "lastModifiedBy": null
   },
-  "ownership": {
-    "default": 0
-  },
-  "_id": "C3cP57BLylVG7uPl"
+  "_key": "!actors!oOrOtSddf3x85DG3"
 }

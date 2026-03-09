@@ -1,26 +1,25 @@
 {
-  "folder": null,
   "name": "Barrow-Draugr",
   "type": "npc",
   "img": "modules/svellheim-entities/assets/icons/monster-images/barrow-draugr.png",
   "system": {
     "stamina": {
-      "value": 35,
-      "max": 35,
+      "value": 7,
+      "max": 7,
       "temporary": 0
     },
     "characteristics": {
       "might": {
-        "value": 3
+        "value": 2
       },
       "agility": {
-        "value": 0
+        "value": 1
       },
       "reason": {
         "value": -3
       },
       "intuition": {
-        "value": 1
+        "value": 0
       },
       "presence": {
         "value": -2
@@ -35,16 +34,11 @@
         "value": 1,
         "letter": "M"
       },
-      "stability": 2,
+      "stability": 1,
       "turns": 1
     },
-    "biography": {
-      "value": "<p>Barrow-Draugr are undead warriors that rise from the burial mounds of the Ashen Woods. Clad in corroded iron and bearing rusted blades, they fight with the brutal determination of their living days. Their wounds fester with poison, and their cold grip drains the warmth from the living.</p>",
-      "director": "<p>Barrow-Draugr are straightforward melee brutes. Lead with Rusted Blade for poison damage, then use Death Grip to lock down a target. Keep them near open barrows when possible — Grave-Bound gives them 5 regen per turn. Focus fire on the PC who deals fire damage, as they take double from fire. Pair with Grave-Singers who can raise them if they fall.</p>",
-      "languages": []
-    },
     "movement": {
-      "value": 5,
+      "value": 8,
       "types": [
         "walk"
       ],
@@ -60,7 +54,7 @@
         "fire": 0,
         "holy": 0,
         "lightning": 0,
-        "poison": 5,
+        "poison": 0,
         "psychic": 0,
         "sonic": 0
       },
@@ -69,7 +63,7 @@
         "acid": 0,
         "cold": 0,
         "corruption": 0,
-        "fire": 5,
+        "fire": 0,
         "holy": 0,
         "lightning": 0,
         "poison": 0,
@@ -77,15 +71,15 @@
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": [
-        "frightened"
-      ]
+    "biography": {
+      "value": "<p>Barrow-draugr are ancient undead disinterred from Svellheim's cairns — skeletal forms of rusted metal and tattered leather, their eye sockets burning with pale cold light. They move with jerking, unnatural gaits and emanate bitter cold. Their rune-blade strikes carry cursed frost that lingers in wounds, and their calcified grasps can restrain even powerful warriors. They are the backbone of the undead host's assault formations.</p>",
+      "director": "",
+      "languages": []
     },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
+      "book": "",
       "page": "",
-      "license": ""
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
       "interest": 5,
@@ -95,19 +89,524 @@
       "impression": 1
     },
     "monster": {
-      "freeStrike": 5,
+      "freeStrike": 3,
       "keywords": [
         "undead"
       ],
       "level": 2,
-      "ev": 10,
+      "ev": 4,
       "role": "brute",
-      "organization": "platoon"
+      "organization": "minion"
     }
   },
+  "items": [
+    {
+      "name": "With Captain",
+      "type": "feature",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>With Captain:</strong> +2 bonus to speed</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "156"
+        },
+        "_dsid": "with-captain",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -100000,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "4HDc6xU4Dgrr0NRw",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!5oS4rixqbIcsziNm.4HDc6xU4Dgrr0NRw"
+    },
+    {
+      "name": "Death Snap",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>When the barrow-draugr is reduced to 0 Stamina, they can make a melee [[/damage @monster.freeStrike]] before dying.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "156"
+        },
+        "_dsid": "death-snap",
+        "advancements": {}
+      },
+      "_id": "0E1r66UJvGCxO8L5",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!5oS4rixqbIcsziNm.0E1r66UJvGCxO8L5"
+    },
+    {
+      "name": "Snapjaw",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "One creature or object per minion"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "Di7A4ZpzZrNHj43f": {
+              "_id": "Di7A4ZpzZrNHj43f",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "3",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "4",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "6",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "7Am0UndvoT8Vbsm5": {
+              "_id": "7Am0UndvoT8Vbsm5",
+              "type": "applied",
+              "name": "Grabbed",
+              "img": null,
+              "applied": {
+                "tier3": {
+                  "display": "grabbed",
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "might"
+                  },
+                  "effects": {
+                    "grabbed": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  }
+                },
+                "tier1": {
+                  "display": "",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "156"
+        },
+        "_dsid": "snapjaw",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "LJ1N62cpFnuJlkd4",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!5oS4rixqbIcsziNm.LJ1N62cpFnuJlkd4"
+    },
+    {
+      "folder": "aDi1dYz0yHDdrvpt",
+      "name": "Bloodpool",
+      "type": "ability",
+      "_id": "38qnomOvMFz9ES4D",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "153",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "bloodpool",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 5,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "custom": "",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>One gnoll minion suddenly explodes into a pool of blood, splattering the area within 3 squares of them. Any gnoll who starts their turn in this area deals an extra [[/damage 5]] damage on their next strike before the end of their turn. Once per round, an barrow-draugr who starts their turn in the area turns into a @UUID[Compendium.draw-steel.monsters.Actor.NWOCoxzsguUP85Bk]{gnoll marauder} with 7 stamina.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.38qnomOvMFz9ES4D",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!5oS4rixqbIcsziNm.38qnomOvMFz9ES4D"
+    },
+    {
+      "folder": "aDi1dYz0yHDdrvpt",
+      "name": "Echoes of Laughter",
+      "type": "ability",
+      "_id": "wvrInGnyn0e0mj0n",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "156",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "echoes-of-laughter",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 7,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the end of the encounter, the encounter map is encased in a soundscape of laughter and howling. Each enemy takes a bane on the first power roll they make each round. Whenever a gnoll is killed, this effect is suppressed until the start of the next round.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.wvrInGnyn0e0mj0n",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!5oS4rixqbIcsziNm.wvrInGnyn0e0mj0n"
+    },
+    {
+      "name": "Iron Jaws",
+      "type": "ability",
+      "_id": "9bdZ4N6vu3nGUvPk",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "153",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "iron-jaws",
+        "story": "",
+        "keywords": [
+          "area",
+          "ranged",
+          "weapon"
+        ],
+        "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "cube",
+          "primary": 1,
+          "secondary": 3
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special",
+          "custom": "",
+          "value": null
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ],
+            "reactive": true
+          },
+          "effects": {
+            "pW5hG7xcwtZ245x9": {
+              "sort": 100000,
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "pW5hG7xcwtZ245x9",
+              "damage": {
+                "tier1": {
+                  "value": "6",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "4",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "",
+                  "types": [],
+                  "ignoredImmunities": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "KXeRTFhVDvvKKrxj": {
+              "sort": 200000,
+              "name": "",
+              "img": null,
+              "type": "applied",
+              "_id": "KXeRTFhVDvvKKrxj",
+              "applied": {
+                "tier1": {
+                  "display": "bleeding (save ends)",
+                  "effects": {
+                    "bleeding": {
+                      "condition": "always",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "bleeding (EoT)",
+                  "effects": {
+                    "bleeding": {
+                      "condition": "always",
+                      "end": "turn",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "display": "No effect.",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "<p>A gnoll acting this turn drops an iron-jawed snare into the area. The first time any enemy moves into the area, they make an <strong>Agility test</strong>. If they were unaware of the snare, the test takes a bane.</p>",
+          "after": "<p>While an enemy is bleeding this way, each gnoll in the encounter gains an edge on strikes made against them.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "prerequisites": {
+          "value": "",
+          "dsid": [],
+          "level": null
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.9bdZ4N6vu3nGUvPk",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1761168935919,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "folder": null,
+      "sort": 0,
+      "_key": "!actors.items!5oS4rixqbIcsziNm.9bdZ4N6vu3nGUvPk"
+    }
+  ],
+  "folder": "6ZOnXQw3kIUDhVuS",
+  "_id": "eDEoVMjcRcl38uyu",
   "prototypeToken": {
     "name": "Barrow-Draugr",
-    "displayName": 40,
+    "displayName": 20,
     "actorLink": false,
     "width": 1,
     "height": 1,
@@ -124,16 +623,16 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "lockRotation": false,
+    "lockRotation": true,
     "rotation": 0,
     "alpha": 1,
     "disposition": -1,
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "stamina"
     },
     "bar2": {
-      "attribute": null
+      "attribute": "hero.resources"
     },
     "light": {
       "negative": false,
@@ -176,7 +675,7 @@
       "radius": 0
     },
     "ring": {
-      "enabled": true,
+      "enabled": false,
       "colors": {
         "ring": null,
         "background": null
@@ -187,571 +686,34 @@
         "texture": null
       }
     },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
   },
-  "items": [
-    {
-      "name": "Rusted Blade",
-      "type": "ability",
-      "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-draugr-rusted-blade",
-        "keywords": [
-          "melee",
-          "strike",
-          "weapon"
-        ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Tier 2+:</strong> The target takes 3 ongoing poison damage (infected wound).</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [
-              "might"
-            ],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {
-            "BRDR000000000001": {
-              "type": "damage",
-              "_id": "BRDR000000000001",
-              "damage": {
-                "tier1": {
-                  "value": "4",
-                  "types": [],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "7",
-                  "types": [],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "might"
-                  }
-                },
-                "tier3": {
-                  "value": "10",
-                  "types": [],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "might"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "BRDR000000000002",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Death Grip",
-      "type": "ability",
-      "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-draugr-death-grip",
-        "keywords": [
-          "melee"
-        ],
-        "type": "main",
-        "category": "",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": ""
-        },
-        "effect": {
-          "before": "<p><strong>Maneuver.</strong> The target is grabbed. A grabbed creature feels the cold of the grave — it takes 2 cold damage at the start of each of their turns while grabbed.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "BRDR000000000003",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Undead Resilience",
-      "type": "feature",
-      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
-      "system": {
-        "description": {
-          "value": "<p>The Barrow-Draugr is immune to poison, fear, and sleep. It takes double damage from fire.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-draugr-undead-resilience",
-        "advancements": {}
-      },
-      "effects": [],
-      "_id": "BRDR000000000004",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Grave-Bound",
-      "type": "feature",
-      "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
-      "system": {
-        "description": {
-          "value": "<p>While within 5 squares of an open barrow, the Barrow-Draugr regains 5 stamina at the start of each of its turns.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "barrow-draugr-grave-bound",
-        "advancements": {}
-      },
-      "effects": [],
-      "_id": "BRDR000000000005",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Concussive Maul",
-      "type": "ability",
-      "system": {
-        "type": "main",
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "109",
-          "license": "Draw Steel Creator License"
-        },
-        "_dsid": "concussive-maul-svh",
-        "story": "",
-        "keywords": [
-          "melee",
-          "strike",
-          "weapon"
-        ],
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1
-        },
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "iibhyLhPqmrYtPIc": {
-              "type": "damage",
-              "_id": "iibhyLhPqmrYtPIc",
-              "damage": {
-                "tier1": {
-                  "value": "7",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "10",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": ""
-                  }
-                },
-                "tier3": {
-                  "value": "13",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": ""
-                  }
-                }
-              },
-              "name": "",
-              "img": null
-            },
-            "FDfDBVu1Vn6vQv5i": {
-              "type": "forced",
-              "_id": "FDfDBVu1Vn6vQv5i",
-              "name": "Push",
-              "forced": {
-                "tier2": {
-                  "distance": "3",
-                  "display": "{{forced}}",
-                  "movement": [
-                    "push"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": ""
-                  }
-                },
-                "tier3": {
-                  "distance": "5",
-                  "display": "{{forced}}",
-                  "movement": [
-                    "push"
-                  ],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": ""
-                  }
-                },
-                "tier1": {
-                  "display": "{{forced}}",
-                  "movement": [
-                    "push"
-                  ],
-                  "distance": "1",
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                }
-              },
-              "img": null
-            },
-            "ApeAm2ISrAZCGlRt": {
-              "type": "applied",
-              "_id": "ApeAm2ISrAZCGlRt",
-              "name": "Restrained",
-              "applied": {
-                "tier3": {
-                  "display": "{{potency}} restrained (save ends)",
-                  "potency": {
-                    "characteristic": "might",
-                    "value": "@potency.strong"
-                  },
-                  "effects": {
-                    "restrained": {
-                      "condition": "failure",
-                      "end": "save",
-                      "properties": []
-                    }
-                  }
-                },
-                "tier1": {
-                  "display": "",
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  },
-                  "effects": {}
-                },
-                "tier2": {
-                  "display": "",
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": ""
-                  },
-                  "effects": {}
-                }
-              },
-              "img": null
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>A target restrained by a dwarf can be force moved by this ability. This forced movement doesn’t end the restrained condition unless the Director determines otherwise.</p>"
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        }
-      },
-      "_id": "07EE4AGwsimLTH9q",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.347",
-        "systemId": "draw-steel",
-        "systemVersion": "0.8.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!oOrOtSddf3x85DG3.716NUxYUXR5TFOqA"
-    },
-    {
-      "name": "Concussive Shockwave",
-      "type": "ability",
-      "system": {
-        "type": "main",
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "109",
-          "license": "Draw Steel Creator License"
-        },
-        "_dsid": "concussive-shockwave-svh",
-        "story": "",
-        "keywords": [
-          "area",
-          "weapon"
-        ],
-        "category": "heroic",
-        "resource": 5,
-        "trigger": "",
-        "distance": {
-          "type": "cube",
-          "primary": 3,
-          "secondary": 1
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "enemy",
-          "value": null,
-          "custom": "Each enemy in the area"
-        },
-        "power": {
-          "roll": {
-            "formula": "2",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "8L3pFRYgDxUxOX9D": {
-              "type": "damage",
-              "_id": "8L3pFRYgDxUxOX9D",
-              "damage": {
-                "tier1": {
-                  "value": "5",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "8",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": ""
-                  }
-                },
-                "tier3": {
-                  "value": "11",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": ""
-                  }
-                }
-              },
-              "name": "",
-              "img": null
-            },
-            "kNicEjWjIRI37Hvh": {
-              "type": "applied",
-              "_id": "kNicEjWjIRI37Hvh",
-              "name": "Slowed",
-              "applied": {
-                "tier1": {
-                  "display": "{{potency}} Slowed (Save Ends)",
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "agility"
-                  },
-                  "effects": {
-                    "slowed": {
-                      "condition": "failure",
-                      "end": "save",
-                      "properties": []
-                    }
-                  }
-                },
-                "tier2": {
-                  "display": "",
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": ""
-                  },
-                  "effects": {
-                    "slowed": {
-                      "condition": "failure",
-                      "end": "save",
-                      "properties": []
-                    }
-                  }
-                },
-                "tier3": {
-                  "display": "",
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "agility"
-                  },
-                  "effects": {
-                    "slowed": {
-                      "condition": "failure",
-                      "end": "save",
-                      "properties": []
-                    }
-                  }
-                }
-              },
-              "img": null
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>A target restrained by a dwarf can be force moved by this ability. This forced movement doesn’t end the restrained condition unless the Director determines otherwise</p>"
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        }
-      },
-      "_id": "R2v81uAgJTexEZhi",
-      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!oOrOtSddf3x85DG3.HaYZhnFEkC9wxpfv"
-    }
-  ],
   "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "13.350",
     "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
+    "systemVersion": "0.9.0",
+    "createdTime": 1757047900718,
+    "modifiedTime": null,
     "lastModifiedBy": null
   },
-  "ownership": {
-    "default": 0
-  },
-  "_id": "uFRmgCuUgiR5jJUJ"
+  "_key": "!actors!5oS4rixqbIcsziNm"
 }

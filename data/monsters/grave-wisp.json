@@ -1,5 +1,4 @@
 {
-  "folder": null,
   "name": "Grave-Wisp",
   "type": "npc",
   "img": "modules/svellheim-entities/assets/icons/monster-images/grave-wisp.png",
@@ -11,19 +10,19 @@
     },
     "characteristics": {
       "might": {
-        "value": -2
+        "value": 0
       },
       "agility": {
-        "value": 2
+        "value": 0
       },
       "reason": {
-        "value": -3
+        "value": 0
       },
       "intuition": {
-        "value": 2
+        "value": 0
       },
       "presence": {
-        "value": 0
+        "value": 2
       }
     },
     "combat": {
@@ -33,21 +32,16 @@
       },
       "size": {
         "value": 1,
-        "letter": "S"
+        "letter": "T"
       },
       "stability": 0,
       "turns": 1
     },
-    "biography": {
-      "value": "<p>A Grave-Wisp is a small, flickering spirit of cold light that drifts through darkness. It appears as a distant campfire, a familiar face, or a beckoning lantern—luring the living into the frozen embrace of the Frost-Draugr it serves.</p>",
-      "director": "<p>Wisps exist to pin targets in place for the Draugr. Lure pulls PCs into Cold Aura range; Cold Touch locks them there. Kill the wisps first or suffer the Draugr's patient, crushing advance.</p>",
-      "languages": []
-    },
     "movement": {
-      "value": 6,
+      "value": 5,
       "types": [
-        "walk",
-        "fly"
+        "fly",
+        "walk"
       ],
       "hover": false,
       "disengage": 1
@@ -56,12 +50,12 @@
       "immunities": {
         "all": 0,
         "acid": 0,
-        "cold": 1,
+        "cold": 0,
         "corruption": 0,
         "fire": 0,
         "holy": 0,
         "lightning": 0,
-        "poison": 5,
+        "poison": 0,
         "psychic": 0,
         "sonic": 0
       },
@@ -70,7 +64,7 @@
         "acid": 0,
         "cold": 0,
         "corruption": 0,
-        "fire": 3,
+        "fire": 0,
         "holy": 0,
         "lightning": 0,
         "poison": 0,
@@ -78,13 +72,15 @@
         "sonic": 0
       }
     },
-    "statuses": {
-      "immunities": []
+    "biography": {
+      "value": "<p>Grave-wisps are the remnant spirits of those who died in Svellheim's bitter winters — their souls too thin and cold to pass on, instead lingering as drifting motes of pale light. They are drawn to the living by an empty hunger, using their ghostly Lure to pull victims toward them before draining warmth with a Cold Touch. Incorporeal and nearly silent, they drift through walls and barriers, making them particularly terrifying in confined spaces.</p>",
+      "director": "",
+      "languages": []
     },
     "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
+      "book": "",
       "page": "",
-      "license": ""
+      "license": "Draw Steel Creator License"
     },
     "negotiation": {
       "interest": 5,
@@ -96,8 +92,7 @@
     "monster": {
       "freeStrike": 1,
       "keywords": [
-        "undead",
-        "spirit"
+        "undead"
       ],
       "level": 1,
       "ev": 3,
@@ -105,9 +100,369 @@
       "organization": "minion"
     }
   },
+  "items": [
+    {
+      "name": "Spark of Life",
+      "type": "feature",
+      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p>On their turn, the mote can leave the encounter in a flash of light to revive one adjacent dead soot crow, brambleguard, or ceramic horse. The revived creature returns with [[/heal 3]].</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "120"
+        },
+        "_dsid": "spark-of-life",
+        "advancements": {}
+      },
+      "_id": "xRtctAUp8rpxqz2x",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!yYTmi4JwOnyA0w1s.xRtctAUp8rpxqz2x"
+    },
+    {
+      "name": "Dweomer Plume",
+      "type": "ability",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "category": "signature",
+        "keywords": [
+          "magic",
+          "melee",
+          "strike"
+        ],
+        "distance": {
+          "type": "melee",
+          "primary": 2
+        },
+        "target": {
+          "type": "creatureObject",
+          "value": 1,
+          "custom": "One creature or object per minion"
+        },
+        "damageDisplay": "melee",
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "presence"
+            ]
+          },
+          "effects": {
+            "pz06i6X7X9ZOK4dr": {
+              "_id": "pz06i6X7X9ZOK4dr",
+              "type": "damage",
+              "name": "",
+              "img": null,
+              "damage": {
+                "tier1": {
+                  "value": "1",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "value": "1",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
+                },
+                "tier3": {
+                  "value": "2",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
+                }
+              }
+            },
+            "feFoFQa7agT7SGGp": {
+              "name": "Weakness",
+              "img": null,
+              "type": "applied",
+              "_id": "feFoFQa7agT7SGGp",
+              "applied": {
+                "tier1": {
+                  "display": "",
+                  "effects": {},
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
+                },
+                "tier2": {
+                  "display": "{{potency}} damage weakness 3 (save ends)",
+                  "effects": {
+                    "b9YcbklePj3J8UG0": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": "reason"
+                  }
+                },
+                "tier3": {
+                  "display": "",
+                  "effects": {
+                    "b9YcbklePj3J8UG0": {
+                      "condition": "failure",
+                      "end": "save",
+                      "properties": []
+                    }
+                  },
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": "reason"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "book": "Monsters",
+          "license": "Draw Steel Creator License",
+          "page": "120"
+        },
+        "_dsid": "dweomer-plume",
+        "story": "",
+        "resource": null,
+        "trigger": ""
+      },
+      "effects": [
+        {
+          "name": "Damage Weakness",
+          "img": "icons/skills/wounds/injury-pain-body-orange.webp",
+          "origin": "Actor.yYTmi4JwOnyA0w1s.Item.ySHepXXsNS4kqOye",
+          "transfer": false,
+          "_id": "b9YcbklePj3J8UG0",
+          "type": "base",
+          "system": {
+            "end": {
+              "type": "",
+              "roll": "1d10 + @combat.save.bonus"
+            }
+          },
+          "changes": [
+            {
+              "key": "system.damage.weaknesses.all",
+              "mode": 4,
+              "value": "3",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.348",
+            "systemId": "draw-steel",
+            "systemVersion": "0.8.1",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!yYTmi4JwOnyA0w1s.ySHepXXsNS4kqOye.b9YcbklePj3J8UG0"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_id": "ySHepXXsNS4kqOye",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!yYTmi4JwOnyA0w1s.ySHepXXsNS4kqOye"
+    },
+    {
+      "folder": "OxTqWEvFfbywX7Mb",
+      "name": "Chaincast",
+      "type": "ability",
+      "_id": "QOHebOCHFr6tglBw",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "119",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "chaincast",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the end of the round, whenever a high elf uses a magic ability, they can use it as if they were occupying the square of another high elf on the encounter map to whom they have line of effect.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.QOHebOCHFr6tglBw",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!yYTmi4JwOnyA0w1s.QOHebOCHFr6tglBw"
+    },
+    {
+      "folder": "OxTqWEvFfbywX7Mb",
+      "name": "In Defiance of Time",
+      "type": "ability",
+      "_id": "oILvREyZahTmzq10",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "source": {
+          "book": "Monsters",
+          "page": "119",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "in-defiance-of-time",
+        "story": "",
+        "keywords": [],
+        "type": "none",
+        "category": "heroic",
+        "resource": 7,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Until the end of the round, each high elf in the encounter gains a +4 bonus to speed, and whenever a high elf uses an ability against an enemy, each high elf adjacent to that enemy can make a free strike against them.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.draw-steel.monster-features.Item.oILvREyZahTmzq10",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.1",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!yYTmi4JwOnyA0w1s.oILvREyZahTmzq10"
+    }
+  ],
+  "folder": "Dj36vXEyn9vry4NO",
+  "_id": "gxGSMkjo4CkjOXRI",
   "prototypeToken": {
     "name": "Grave-Wisp",
-    "displayName": 40,
+    "displayName": 20,
     "actorLink": false,
     "width": 1,
     "height": 1,
@@ -124,16 +479,16 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "lockRotation": false,
+    "lockRotation": true,
     "rotation": 0,
     "alpha": 1,
     "disposition": -1,
-    "displayBars": 40,
+    "displayBars": 20,
     "bar1": {
       "attribute": "stamina"
     },
     "bar2": {
-      "attribute": null
+      "attribute": "hero.resources"
     },
     "light": {
       "negative": false,
@@ -176,7 +531,7 @@
       "radius": 0
     },
     "ring": {
-      "enabled": true,
+      "enabled": false,
       "colors": {
         "ring": null,
         "background": null
@@ -187,455 +542,84 @@
         "texture": null
       }
     },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
     "flags": {},
-    "randomImg": false
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
   },
-  "items": [
-    {
-      "name": "Cold Touch",
-      "type": "ability",
-      "img": "icons/magic/water/heart-ice-freeze.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "cold-touch",
-        "keywords": [
-          "magic",
-          "melee",
-          "strike"
-        ],
-        "type": "main",
-        "category": "signature",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "melee",
-          "primary": 1,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "creatureObject",
-          "value": 1,
-          "custom": "One creature per minion"
-        },
-        "effect": {
-          "before": "",
-          "after": "<p><strong>Tier 2–3:</strong> The target can't shift (EoT).</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [
-              "agility",
-              "intuition"
-            ],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {
-            "GWSP000000000001": {
-              "type": "damage",
-              "_id": "GWSP000000000001",
-              "damage": {
-                "tier1": {
-                  "value": "1",
-                  "types": [
-                    "cold"
-                  ],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "2",
-                  "types": [
-                    "cold"
-                  ],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier3": {
-                  "value": "3",
-                  "types": [
-                    "cold"
-                  ],
-                  "ignoredImmunities": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "GWSP000000000002",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Lure",
-      "type": "ability",
-      "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "lure",
-        "keywords": [],
-        "type": "maneuver",
-        "category": "",
-        "resource": null,
-        "trigger": "",
-        "distance": {
-          "type": "ranged",
-          "primary": 5,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "enemy",
-          "value": 1,
-          "custom": ""
-        },
-        "effect": {
-          "before": "<p>If the target's Presence is less than 0, the target is pulled 2 squares toward the wisp. The target sees the wisp as a distant campfire, a familiar face, or a beckoning lantern.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "GWSP000000000003",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Incorporeal",
-      "type": "feature",
-      "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
-      "system": {
-        "description": {
-          "value": "<p>The wisp takes half damage from weapon attacks that don't have the magic keyword.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "incorporeal",
-        "advancements": {}
-      },
-      "effects": [],
-      "_id": "GWSP000000000004",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
+  "effects": [
     {
       "name": "With Captain",
-      "type": "feature",
-      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "type": "base",
+      "origin": "Compendium.draw-steel.monsters.Actor.yYTmi4JwOnyA0w1s",
+      "disabled": true,
+      "_id": "YyOGuxK3dMp0b1F1",
       "system": {
-        "description": {
-          "value": "<p>The wisp doesn't provoke opportunity attacks.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "with-captain",
-        "advancements": {}
+        "end": {
+          "type": "",
+          "roll": "1d10 + @combat.save.bonus"
+        }
       },
-      "effects": [],
-      "_id": "GWSP000000000005",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Ravenous Horde",
-      "type": "ability",
-      "img": "icons/magic/death/undead-ghosts-trio-blue.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "ravenous-horde",
-        "keywords": [],
-        "type": "none",
-        "category": "heroic",
-        "resource": 2,
-        "trigger": "An undead starts its turn",
-        "distance": {
-          "type": "special",
-          "primary": null,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": ""
-        },
-        "effect": {
-          "before": "<p>At the end of this round, each hero not already adjacent to one or more undead is beset by two Grave-Wisps who burst up from the frozen ground to appear in adjacent unoccupied spaces. Each summoned undead is winded. This feature can't be used two rounds in a row.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
+      "changes": [
+        {
+          "key": "system.movement.value",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": 0,
+        "combat": null,
+        "startRound": 1,
+        "startTurn": 0,
+        "seconds": null,
+        "rounds": null,
+        "turns": null
       },
-      "effects": [],
-      "_id": "GWSP000000000006",
-      "flags": {},
-      "folder": null,
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
       "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Paranormal Fling",
-      "type": "ability",
-      "img": "icons/magic/control/debuff-chains-ropes-blue.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "paranormal-fling",
-        "keywords": [],
-        "type": "none",
-        "category": "heroic",
-        "resource": 3,
-        "trigger": "An undead starts its turn",
-        "distance": {
-          "type": "special",
-          "primary": null,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": ""
-        },
-        "effect": {
-          "before": "<p>Up to three unattended objects on the encounter map rise to float 1 square off the ground. Each object is then pulled 5 squares toward the nearest enemy within 3 squares of the object.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "draw-steel",
+        "systemVersion": "0.9.0",
+        "createdTime": 1761096969620,
+        "modifiedTime": null,
+        "lastModifiedBy": null
       },
-      "effects": [],
-      "_id": "GWSP000000000007",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "The Grasping, the Hungry",
-      "type": "ability",
-      "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "the-grasping-the-hungry",
-        "keywords": [],
-        "type": "none",
-        "category": "heroic",
-        "resource": 5,
-        "trigger": "An undead starts its turn",
-        "distance": {
-          "type": "special",
-          "primary": null,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": ""
-        },
-        "effect": {
-          "before": "<p>Ravenous undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn adjacent to an affected square makes an <strong>Agility test.</strong></p><dl class=\"power-roll-display\"><dt class=\"tier1\"><p><=11</p></dt><dd><p>5 damage; restrained (save ends)</p></dd><dt class=\"tier2\"><p>12–16</p></dt><dd><p>5 damage; restrained (EoT)</p></dd><dt class=\"tier3\"><p>17+</p></dt><dd><p>5 damage</p></dd></dl>",
-          "after": "<p>While restrained this way, a creature takes 1d6 damage at the start of each of their turns.</p>"
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "GWSP000000000008",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Dread March",
-      "type": "ability",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
-      "system": {
-        "source": {
-          "book": "Svellheim Campaign (Era of Embers)",
-          "page": "",
-          "license": ""
-        },
-        "_dsid": "dread-march",
-        "keywords": [],
-        "type": "none",
-        "category": "heroic",
-        "resource": 7,
-        "trigger": "An undead starts its turn",
-        "distance": {
-          "type": "special",
-          "primary": null,
-          "secondary": null,
-          "tertiary": null
-        },
-        "damageDisplay": "melee",
-        "target": {
-          "type": "special",
-          "value": null,
-          "custom": ""
-        },
-        "effect": {
-          "before": "<p>Up to four undead in the encounter move up to their speed and can make a free strike. The number of undead affected increases by 1 for each additional Malice spent on this feature. If an undead is reduced to 0 Stamina during this dread march, they don't die until the march is resolved.</p>",
-          "after": ""
-        },
-        "spend": {
-          "value": null,
-          "text": ""
-        },
-        "power": {
-          "roll": {
-            "characteristics": [],
-            "formula": "@chr",
-            "reactive": false
-          },
-          "effects": {}
-        },
-        "story": ""
-      },
-      "effects": [],
-      "_id": "GWSP000000000009",
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
+      "_key": "!actors.effects!yYTmi4JwOnyA0w1s.YyOGuxK3dMp0b1F1"
     }
   ],
-  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "13.348",
     "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
+    "systemVersion": "0.8.1",
+    "createdTime": 1757118122491,
+    "modifiedTime": null,
     "lastModifiedBy": null
   },
-  "ownership": {
-    "default": 0
-  },
-  "_id": "E0NIJuTxpmPdyIrb"
+  "_key": "!actors!yYTmi4JwOnyA0w1s"
 }
