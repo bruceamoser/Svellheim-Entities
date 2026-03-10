@@ -22,8 +22,8 @@
   "type": "treasure",
   "system": {
     "description": {
-      "value": "<p><em>A longsword sheathed in perpetual frost, its blade etched with burial runes that glow faint blue in darkness. The hilt is wrapped in frozen leather that never thaws. Taken from a Barrow-Warden â€” it remembered the old laws, even in death.</em></p><p><strong>Effect:</strong> Any weapon ability that deals rolled damage using this weapon deals an extra 1 cold damage. Once per turn, when you hit a creature with a strike using this weapon, you can choose to impose slowed (save ends) on the target as frost crawls up from the wound. While you wield this blade in dim light or darkness, it sheds pale blue light in a 1-square radius.</p>",
-      "director": "<section class=\"secret\"><p><strong>Found:</strong> Beat 2 â€” The Graveyard. Taken from the Barrow-Warden after the ambush outside Hrafnborg. The runes are Old NorrÅ“nt and reference 'the law of the grave.' Gragnir may comment on this weapon in Beat 6 or 8.</p></section>"
+      "value": "<p><em>A longsword sheathed in perpetual frost, its blade etched with burial runes that glow faint blue in darkness. The hilt is wrapped in frozen leather that never thaws. Taken from a Barrow-Warden — it remembered the old laws, even in death.</em></p><p><strong>Effect:</strong> Any weapon ability that deals rolled damage using this weapon deals an extra 1 cold damage. Once per turn, when you hit a creature with a strike using this weapon, you can choose to impose slowed (save ends) on the target as frost crawls up from the wound. While you wield this blade in dim light or darkness, it sheds pale blue light in a 1-square radius.</p>",
+      "director": "<section class=\"secret\"><p><strong>Found:</strong> Beat 2 — The Graveyard. Taken from the Barrow-Warden after the ambush outside Hrafnborg. The runes are Old NorrÅ“nt and reference 'the law of the grave.' Gragnir may comment on this weapon in Beat 6 or 8.</p></section>"
     },
     "source": {
       "book": "Svellheim Campaign (Era of Embers)",
