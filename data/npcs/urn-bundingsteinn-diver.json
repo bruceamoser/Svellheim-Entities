@@ -1,0 +1,152 @@
+{
+  "_id": "uB4tLp8mZwC3aJky",
+  "name": "Úrn (Bundingsteinn Diver Guide)",
+  "img": "icons/environment/people/commoner.webp",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/environment/people/commoner.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": 45,
+      "max": 45,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 1
+      },
+      "agility": {
+        "value": 3
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 0
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Úrn is a Bundingsteinn diver &mdash; one of the coastal kinship specialists who navigate the flooded reef-caves and drowned passages beneath the Singing Islands shelf. He is compact and strong-necked, with calluses on both palms from years of pulling through current. He smells of brine regardless of how long he has been ashore.</p><p>He hires out as a guide to the drowned sections. He knows the tides better than the moons do, he says. This is almost true.</p>",
+      "director": "<section class=\"secret\"><p><strong>SQ1 &mdash; THE DROWNED MESSENGER</strong></p><p>He/him. Bundingsteinn diver and guide. Casual manner, very precise when the situation requires it. He approaches the party near Beat 11 (Act 2) or at a coastal waystation if the party lingers near the Singing Islands shelf.</p><p><strong>THE QUEST:</strong> A Bundingsteinn relay-swimmer drowned three days ago in a flooded reef-cave near the Singing Islands. She was carrying a sealed intelligence satchel &mdash; reports on Dreyfus's coastal movements, intercepted by Bundingsteinn observers. The current swept the body into the cave system. Úrn needs the party's help recovering the satchel (the swimmer's body he will handle himself, he says quietly). The cave is passable for thirty minutes at low tide; longer requires underwater navigation that non-Bundingsteinn will find difficult.</p><p><strong>REWARD:</strong> The satchel's contents &mdash; intelligence on Dreyfus's coastal supply chain and the location of his northern staging point. Also: Ú rn's goodwill, which is worth something at the Singing Islands and along the Bundingsteinn coastal waypoints through the rest of Act 2.</p><p><strong>UNDERWATER ENCOUNTER:</strong> Something moved into the reef-cave after the swimmer's death. See the SQ1 encounter specification for details.</p><p><strong>IN COMBAT:</strong> Úrn is competent but not eager. He fights with a short-handled harpoon tool (treat as a dagger, Agility +3). In water, he has advantage on all Agility rolls and can use the environment to channel or block enemies. Out of water he relies on the party.</p></section>",
+      "languages": [
+        "askeskogsmal",
+        "bundingsteinsmal"
+      ]
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk",
+        "swim"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "ev": 0,
+    "monster": {
+      "freeStrike": 4,
+      "keywords": [
+        "human"
+      ],
+      "level": 3,
+      "role": "support",
+      "organization": "individual"
+    }
+  }
+}

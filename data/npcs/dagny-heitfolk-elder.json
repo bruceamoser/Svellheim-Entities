@@ -1,0 +1,165 @@
+{
+  "_id": "dK7qRnV2pXbM9sHw",
+  "name": "Dagný (Heitfolk Record Keeper)",
+  "img": "icons/environment/people/commoner.webp",
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.10.0",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "prototypeToken": {
+    "name": "",
+    "displayName": 40,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/environment/people/commoner.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "type": "npc",
+  "system": {
+    "stamina": {
+      "value": 15,
+      "max": 15,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": -2
+      },
+      "agility": {
+        "value": -2
+      },
+      "reason": {
+        "value": 3
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Dagný is an 87-year-old Heitfolk tunnel record keeper — third-generation, stationed at the Steam-Oasis branch of the Heitfolk deep network. She was born into the station and has never left it for longer than a seasonal survey. The Steam-Oasis records stretch back six generations in her handwriting and her mother's handwriting and her grandmother's handwriting before that.</p><p>She moves slowly and deliberately, not from infirmity but from habit. Tunnel keepers learn to move without disturbing the air. She is not afraid of silence. She lets conversations breathe.</p>",
+      "director": "<section class=\"secret\"><p><strong>BEAT 20a — THE KEEPER'S CONFESSION</strong></p><p>She/her. Third-generation tunnel record keeper at the Steam-Oasis. Age 87 (Heitfolk lifespan 120&ndash;140 years &mdash; she is middle-aged in her own reckoning). Deliberate, quiet, unhurried. She came to find the party &mdash; which means she has already decided this is the right thing to do. The task is not to convince her to speak; it is to not give her a reason to stop.</p><p><strong>WHAT SHE KNOWS:</strong> Twenty-three years ago, a man matching Eirik Hallvardsson's description came through the Steam-Oasis on the southern trunk-route, heading west toward the Rot-line. He was changed. He was accompanied by someone who spoke in Root-language fragments &mdash; one of Grafvitnir's early instruments. Dagný helped him disappear from the records. She wrote the entry as a supply shipment. She has never told anyone. She kept the secret because his companion asked. She has kept it because Eirik looked at her with his own face, just once, at the end &mdash; and she has been thinking about that look for twenty-three years.</p><p><strong>THE CONNECTION THE GM HOLDS:</strong> Eirik Hallvardsson is Eirik Greyhand &mdash; the toll warden the party met at the Chainwarden Toll in Beat 4. He has been living among them the whole time. His corruption is incomplete. He retained enough of himself to walk away from Grafvitnir's influence but not enough to return to who he was. He has spent twenty-three years as someone else.</p><p><strong>NEGOTIATION (I3/P3 &mdash; Moderate):</strong> See negotiation test <em>Beat 20a &mdash; Dagný / The Keeper's Confession</em>. Bypass: if Kaelen speaks during the negotiation (even a word), Interest goes immediately to 5. Full success unlocks the story of the look at the end.</p><p><strong>DEMEANOR:</strong></p><ul><li><em>Interest rises:</em> She nods once, slightly. Her breathing deepens. She does not rush.</li><li><em>Interest flat:</em> Waiting. Hands folded. She is not going anywhere, but she is not yet ready.</li><li><em>Interest drops:</em> She becomes very still. \"I have said what I came to say. Perhaps another time.\"</li></ul><p><strong>KEY LINE:</strong> \"He asked me not to tell anyone he had been here. His companion did the asking. But Eirik looked at me with his own face, just once, at the end &mdash; and I think he was saying something different.\"</p></section>",
+      "languages": [
+        "askeskogsmal"
+      ]
+    },
+    "movement": {
+      "value": 3,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "source": {
+      "book": "Svellheim Campaign (Era of Embers)",
+      "page": "",
+      "license": ""
+    },
+    "negotiation": {
+      "interest": 3,
+      "patience": 3,
+      "motivations": [
+        "Healing the Wound, Not Reopening It — approach as receivers of truth, not investigators; she wants Kaelen to have peace, not the party to have intelligence",
+        "The Burden of Keeping — she has carried this secret for 23 years; acknowledge what it means to carry something you were told to keep",
+        "The Human Truth of Eirik — she does not believe he was evil; something bad happened to him; engage with him as a complicated person, not a monster"
+      ],
+      "pitfalls": [
+        "Urgency and pressure — she came to them; rushing her is the fastest way to lose her; she has waited twenty-three years for this",
+        "Vengeance framing — if the party treats Eirik's story as intelligence or a weapon against him, she stops",
+        "Dismissing Kaelen's state — she came specifically because of Kaelen; treating Kaelen as secondary or as an inconvenience closes Dagný down entirely"
+      ],
+      "impression": 1
+    },
+    "ev": 0,
+    "monster": {
+      "freeStrike": 0,
+      "keywords": [
+        "human"
+      ],
+      "level": 1,
+      "role": "support",
+      "organization": "individual"
+    }
+  }
+}
