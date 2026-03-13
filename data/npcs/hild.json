@@ -4132,8 +4132,11 @@
       "victories": 0,
       "renown": 0,
       "wealth": 1,
-      "skills": [],
       "preferredKit": "eQsxbl59pEjHEyB7"
+    },
+    "skills": {
+      "value": [],
+      "modifiers": {}
     }
   }
 }
