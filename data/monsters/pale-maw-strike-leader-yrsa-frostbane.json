@@ -535,7 +535,7 @@
           "effects": {}
         },
         "effect": {
-          "before": "<p>Each goblin in the encounter gains a +3 bonus to speed until the end of the round.</p>",
+          "before": "<p>each Pale Maw cultist in the encounter gains a +3 bonus to speed until the end of the round.</p>",
           "after": ""
         },
         "spend": {

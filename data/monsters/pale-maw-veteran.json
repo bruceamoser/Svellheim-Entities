@@ -249,7 +249,7 @@
         },
         "effect": {
           "before": "",
-          "after": "<p>The shieldwall can shift 1 square to remain adjacent to the target. A target restrained by a dwarf can be psychic moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.</p>"
+          "after": "<p>The shieldwall can shift 1 square to remain adjacent to the target. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.</p>"
         },
         "spend": {
           "text": "This ability targets one additional target.",
