@@ -4,7 +4,7 @@
   "img": "modules/svellheim-entities/assets/icons/monster-images/goblin-monarch.png",
   "system": {
     "stamina": {
-      "value": 6,
+      "value": 80,
       "max": 6,
       "temporary": 0
     },
@@ -94,9 +94,9 @@
         "humanoid"
       ],
       "level": 1,
-      "ev": 3,
-      "role": "support",
-      "organization": "minion"
+      "ev": 12,
+      "role": "",
+      "organization": "leader"
     }
   },
   "items": [

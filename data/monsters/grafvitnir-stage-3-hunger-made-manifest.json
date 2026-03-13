@@ -4,7 +4,7 @@
   "img": "icons/creatures/unholy/demon-fire-horned-mask.webp",
   "system": {
     "stamina": {
-      "value": 311,
+      "value": 150,
       "max": 311,
       "temporary": 0
     },
@@ -35,7 +35,7 @@
         "letter": "G"
       },
       "stability": 10,
-      "turns": 1
+      "turns": 2
     },
     "movement": {
       "value": 7,

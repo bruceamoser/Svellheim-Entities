@@ -4,7 +4,7 @@
   "img": "icons/creatures/mammals/wolf-shadow-black.webp",
   "system": {
     "stamina": {
-      "value": 300,
+      "value": 200,
       "max": 300,
       "temporary": 0
     },
@@ -35,7 +35,7 @@
         "letter": "H"
       },
       "stability": 5,
-      "turns": 1
+      "turns": 2
     },
     "movement": {
       "value": 6,
