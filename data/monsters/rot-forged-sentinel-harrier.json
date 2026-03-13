@@ -674,7 +674,7 @@
           "after": ""
         },
         "spend": {
-          "text": "For each 2 additional Malice spent on this feature, one additional sentinel can teleport."
+          "text": "For each 2 additional Malice spent on this feature, one additional sentinel can teleport.",
           "value": null
         }
       },
