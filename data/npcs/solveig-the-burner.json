@@ -1,4 +1,4 @@
-﻿{
+{
   "_id": "8LIc1dYQDHfDYpDf",
   "name": "Solveig the Burner",
   "img": "modules/svellheim-entities/assets/icons/npc-images/solveig-the-burner.png",
@@ -3790,8 +3790,11 @@
       "victories": 0,
       "renown": 0,
       "wealth": 1,
-      "skills": [],
       "preferredKit": "jHJnlHyRRNf9V5hm"
+    },
+    "skills": {
+      "value": [],
+      "modifiers": {}
     }
   }
 }
