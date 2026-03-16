@@ -1,1146 +1,595 @@
 {
-  "name": "Pale Maw Soldier",
-  "type": "npc",
-  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-  "system": {
-    "stamina": {
-      "value": 120,
-      "max": 120,
-      "temporary": 0
-    },
-    "characteristics": {
-      "might": {
-        "value": 2
-      },
-      "agility": {
-        "value": 1
-      },
-      "reason": {
-        "value": 0
-      },
-      "intuition": {
-        "value": 2
-      },
-      "presence": {
-        "value": -1
-      }
-    },
-    "combat": {
-      "save": {
-        "threshold": 6,
-        "bonus": ""
-      },
-      "size": {
-        "value": 2,
-        "letter": "M"
-      },
-      "stability": 2,
-      "turns": 1
-    },
-    "movement": {
-      "value": 6,
-      "types": [
-        "walk"
-      ],
-      "hover": false,
-      "disengage": 1
-    },
-    "damage": {
-      "immunities": {
-        "all": 0,
-        "acid": 0,
-        "cold": 0,
-        "corruption": 0,
-        "fire": 0,
-        "holy": 0,
-        "lightning": 0,
-        "poison": 0,
-        "psychic": 0,
-        "sonic": 0
-      },
-      "weaknesses": {
-        "all": 0,
-        "acid": 0,
-        "cold": 0,
-        "corruption": 0,
-        "fire": 0,
-        "holy": 0,
-        "lightning": 0,
-        "poison": 0,
-        "psychic": 0,
-        "sonic": 0
-      }
-    },
-    "biography": {
-      "value": "<p>Pale Maw soldiers are the rank-and-file of the Entropy cult's military wing — warriors given purpose by absolute faith in destruction's inevitability. They carry rune-carved weapons and chant entropy scripture even in combat, bolstering their allies with the Entropy Chant while cutting down the faithless. Their Fanatical resolve makes them difficult to frighten, and their Pack Mentality makes them significantly more dangerous when they fight alongside their brothers and sisters in entropy.</p>",
-      "director": "",
-      "languages": []
-    },
-    "source": {
-      "book": "",
-      "page": "",
-      "license": "Draw Steel Creator License"
-    },
-    "negotiation": {
-      "interest": 5,
-      "patience": 5,
-      "motivations": [],
-      "pitfalls": [],
-      "impression": 1
-    },
-    "monster": {
-      "freeStrike": 6,
-      "keywords": [
-        "humanoid"
-      ],
-      "level": 3,
-      "ev": 20,
-      "role": "brute",
-      "organization": "elite"
-    }
-  },
-  "items": [
-    {
-      "name": "Minotaur Sense",
-      "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
-      "system": {
-        "description": {
-          "value": "<p>The sunderer can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.</p>",
-          "director": ""
-        },
-        "source": {
-          "book": "Monsters",
-          "license": "Draw Steel Creator License",
-          "page": "207"
-        },
-        "_dsid": "minotaur-sense",
-        "advancements": {}
-      },
-      "_id": "f7BSX7OW7MzGcqf7",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "draw-steel",
-        "systemVersion": "0.8.1",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_key": "!actors.items!slz721CAB9N1vJyz.f7BSX7OW7MzGcqf7"
-    },
-    {
-      "name": "Spiked Maul",
-      "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
-      "system": {
-        "type": "main",
-        "category": "signature",
-        "keywords": [
-          "charge",
-          "melee",
-          "strike",
-          "weapon"
-        ],
-        "distance": {
-          "type": "melee",
-          "primary": 2
-        },
-        "target": {
-          "type": "creatureObject",
-          "value": 2
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "1eEcI9HnfGrjUD4p": {
-              "_id": "1eEcI9HnfGrjUD4p",
-              "type": "damage",
-              "name": "",
-              "img": null,
-              "damage": {
-                "tier1": {
-                  "value": "8",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "12",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": ""
-                  }
-                },
-                "tier3": {
-                  "value": "15",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": ""
-                  }
-                }
-              }
-            },
-            "VyBme4CFnn6Zz1gd": {
-              "_id": "VyBme4CFnn6Zz1gd",
-              "type": "forced",
-              "name": "pull",
-              "img": null,
-              "forced": {
-                "tier1": {
-                  "movement": [
-                    "pull"
-                  ],
-                  "distance": "1",
-                  "display": "{{forced}}",
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "might"
-                  }
-                },
-                "tier2": {
-                  "movement": [
-                    "pull"
-                  ],
-                  "distance": "2",
-                  "display": "{{forced}}",
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "might"
-                  }
-                },
-                "tier3": {
-                  "movement": [
-                    "pull"
-                  ],
-                  "distance": "3",
-                  "display": "{{forced}}",
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "might"
-                  }
-                }
-              }
-            },
-            "FRMAjTBNnxGmYjHh": {
-              "name": "grabbed",
-              "img": null,
-              "type": "applied",
-              "_id": "FRMAjTBNnxGmYjHh",
-              "applied": {
-                "tier1": {
-                  "effects": {
-                    "grabbed": {
-                      "condition": "always",
-                      "end": ""
-                    }
-                  }
-                },
-                "tier2": {
-                  "effects": {
-                    "grabbed": {
-                      "condition": "always",
-                      "end": ""
-                    }
-                  }
-                },
-                "tier3": {
-                  "effects": {
-                    "grabbed": {
-                      "condition": "always",
-                      "end": ""
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>A target pulled adjacent to the sunderer is automatically grabbed.</p>"
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Monsters",
-          "license": "Draw Steel Creator License",
-          "page": "207"
-        },
-        "_dsid": "spiked-maul",
-        "story": "",
-        "resource": null,
-        "trigger": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "hEy2iA9dBiSUSg74",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!slz721CAB9N1vJyz.hEy2iA9dBiSUSg74"
-    },
-    {
-      "name": "Fearsome Bay",
-      "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
-      "system": {
-        "type": "main",
-        "category": "heroic",
-        "keywords": [
-          "area"
-        ],
-        "distance": {
-          "type": "burst",
-          "primary": 3
-        },
-        "target": {
-          "type": "enemy",
-          "value": null,
-          "custom": "Each enemy in the area"
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "VgC4WOPymBjjtR1n": {
-              "_id": "VgC4WOPymBjjtR1n",
-              "type": "applied",
-              "name": "Frightened",
-              "img": null,
-              "applied": {
-                "tier1": {
-                  "display": "{{potency}} frightened (save ends)",
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "intuition"
+    "folder":  "4k38bNEZVVE6p4vF",
+    "name":  "Pale Maw Soldier",
+    "type":  "npc",
+    "_id":  "D7GUJZqygRtvsiUP",
+    "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
+    "system":  {
+                   "stamina":  {
+                                   "value":  60,
+                                   "max":  60,
+                                   "temporary":  0
+                               },
+                   "characteristics":  {
+                                           "might":  {
+                                                         "value":  2
+                                                     },
+                                           "agility":  {
+                                                           "value":  1
+                                                       },
+                                           "reason":  {
+                                                          "value":  0
+                                                      },
+                                           "intuition":  {
+                                                             "value":  1
+                                                         },
+                                           "presence":  {
+                                                            "value":  2
+                                                        }
+                                       },
+                   "combat":  {
+                                  "save":  {
+                                               "threshold":  6,
+                                               "bonus":  ""
+                                           },
+                                  "size":  {
+                                               "value":  1,
+                                               "letter":  "L"
+                                           },
+                                  "stability":  0,
+                                  "turns":  1
+                              },
+                   "biography":  {
+                                     "value":  "\u003cp\u003ePale Maw soldiers are the rank-and-file of the Entropy cult\u0027s military wing â€” warriors given purpose by absolute faith in destruction\u0027s inevitability. They carry rune-carved weapons and chant entropy scripture even in combat, bolstering their allies with the Entropy Chant while cutting down the faithless. Their Fanatical resolve makes them difficult to frighten, and their Pack Mentality makes them significantly more dangerous when they fight alongside their brothers and sisters in entropy.\u003c/p\u003e",
+                                     "director":  "",
+                                     "languages":  [
+
+                                                   ]
+                                 },
+                   "movement":  {
+                                    "value":  6,
+                                    "types":  [
+                                                  "walk"
+                                              ],
+                                    "hover":  false,
+                                    "disengage":  1
+                                },
+                   "damage":  {
+                                  "immunities":  {
+                                                     "all":  0,
+                                                     "acid":  0,
+                                                     "cold":  0,
+                                                     "corruption":  0,
+                                                     "fire":  0,
+                                                     "holy":  0,
+                                                     "lightning":  0,
+                                                     "poison":  0,
+                                                     "psychic":  0,
+                                                     "sonic":  0
+                                                 },
+                                  "weaknesses":  {
+                                                     "all":  0,
+                                                     "acid":  0,
+                                                     "cold":  0,
+                                                     "corruption":  0,
+                                                     "fire":  0,
+                                                     "holy":  0,
+                                                     "lightning":  0,
+                                                     "poison":  0,
+                                                     "psychic":  0,
+                                                     "sonic":  0
+                                                 }
+                              },
+                   "source":  {
+                                  "book":  "Monsters",
+                                  "page":  "219",
+                                  "license":  "Draw Steel Creator License"
+                              },
+                   "negotiation":  {
+                                       "interest":  5,
+                                       "patience":  5,
+                                       "motivations":  [
+
+                                                       ],
+                                       "pitfalls":  [
+
+                                                    ],
+                                       "impression":  1
+                                   },
+                   "monster":  {
+                                   "freeStrike":  5,
+                                   "keywords":  [
+                                                    "humanoid",
+                                                    "pale-maw"
+                                                ],
+                                   "level":  3,
+                                   "ev":  10,
+                                   "role":  "brute",
+                                   "organization":  "platoon"
+                               }
+               },
+    "prototypeToken":  {
+                           "name":  "Orc Juggernaut",
+                           "displayName":  20,
+                           "actorLink":  false,
+                           "width":  1,
+                           "height":  1,
+                           "texture":  {
+                                           "src":  "systems/draw-steel/assets/roles/brute.webp",
+                                           "anchorX":  0.5,
+                                           "anchorY":  0.5,
+                                           "offsetX":  0,
+                                           "offsetY":  0,
+                                           "fit":  "contain",
+                                           "scaleX":  1,
+                                           "scaleY":  1,
+                                           "rotation":  0,
+                                           "tint":  "#ffffff",
+                                           "alphaThreshold":  0.75
+                                       },
+                           "lockRotation":  true,
+                           "rotation":  0,
+                           "alpha":  1,
+                           "disposition":  -1,
+                           "displayBars":  20,
+                           "bar1":  {
+                                        "attribute":  "stamina"
+                                    },
+                           "bar2":  {
+                                        "attribute":  "hero.resources"
+                                    },
+                           "light":  {
+                                         "negative":  false,
+                                         "priority":  0,
+                                         "alpha":  0.5,
+                                         "angle":  360,
+                                         "bright":  0,
+                                         "color":  null,
+                                         "coloration":  1,
+                                         "dim":  0,
+                                         "attenuation":  0.5,
+                                         "luminosity":  0.5,
+                                         "saturation":  0,
+                                         "contrast":  0,
+                                         "shadows":  0,
+                                         "animation":  {
+                                                           "type":  null,
+                                                           "speed":  5,
+                                                           "intensity":  5,
+                                                           "reverse":  false
+                                                       },
+                                         "darkness":  {
+                                                          "min":  0,
+                                                          "max":  1
+                                                      }
+                                     },
+                           "sight":  {
+                                         "enabled":  false,
+                                         "range":  0,
+                                         "angle":  360,
+                                         "visionMode":  "basic",
+                                         "color":  null,
+                                         "attenuation":  0.1,
+                                         "brightness":  0,
+                                         "saturation":  0,
+                                         "contrast":  0
+                                     },
+                           "detectionModes":  [
+
+                                              ],
+                           "occludable":  {
+                                              "radius":  0
+                                          },
+                           "ring":  {
+                                        "enabled":  false,
+                                        "colors":  {
+                                                       "ring":  null,
+                                                       "background":  null
+                                                   },
+                                        "effects":  1,
+                                        "subject":  {
+                                                        "scale":  1,
+                                                        "texture":  null
+                                                    }
+                                    },
+                           "turnMarker":  {
+                                              "mode":  1,
+                                              "animation":  null,
+                                              "src":  null,
+                                              "disposition":  false
+                                          },
+                           "movementAction":  null,
+                           "flags":  {
+
+                                     },
+                           "randomImg":  false,
+                           "appendNumber":  false,
+                           "prependAdjective":  false
+                       },
+    "items":  [
+                  {
+                      "name":  "Cultist Blade",
+                      "type":  "ability",
+                      "_id":  "sEhhZz3jZj1GulLe",
+                      "img":  "icons/weapons/daggers/dagger-curved-teal.webp",
+                      "system":  {
+                                     "type":  "free",
+                                     "_dsid":  "pale-maw-soldier-free-strike",
+                                     "story":  "",
+                                     "keywords":  [
+                                                      "melee",
+                                                      "weapon",
+                                                      "strike"
+                                                  ],
+                                     "category":  "free",
+                                     "resource":  null,
+                                     "trigger":  "",
+                                     "distance":  {
+                                                      "type":  "melee",
+                                                      "primary":  1
+                                                  },
+                                     "damageDisplay":  "melee",
+                                     "target":  {
+                                                    "type":  "creatureObject",
+                                                    "value":  1
+                                                },
+                                     "power":  {
+                                                   "roll":  {
+                                                                "formula":  "",
+                                                                "characteristics":  [
+
+                                                                                    ]
+                                                            },
+                                                   "effects":  {
+                                                                   "5Ju8VYuM0oCmSr1m":  {
+                                                                                            "name":  "",
+                                                                                            "img":  null,
+                                                                                            "type":  "damage",
+                                                                                            "_id":  "5Ju8VYuM0oCmSr1m",
+                                                                                            "damage":  {
+                                                                                                           "tier1":  {
+                                                                                                                         "value":  "5"
+                                                                                                                     },
+                                                                                                           "tier2":  {
+                                                                                                                         "value":  "5"
+                                                                                                                     },
+                                                                                                           "tier3":  {
+                                                                                                                         "value":  "5"
+                                                                                                                     },
+                                                                                                           "types":  [
+
+                                                                                                                     ],
+                                                                                                           "properties":  [
+
+                                                                                                                          ],
+                                                                                                           "potency":  {
+
+                                                                                                                       }
+                                                                                                       }
+                                                                                        }
+                                                               }
+                                               },
+                                     "effect":  {
+                                                    "before":  "",
+                                                    "after":  ""
+                                                },
+                                     "spend":  {
+                                                   "text":  "",
+                                                   "value":  null
+                                               },
+                                     "source":  {
+                                                    "license":  "Svellheim Campaign",
+                                                    "book":  "Svellheim Campaign",
+                                                    "page":  ""
+                                                }
+                                 },
+                      "effects":  [
+
+                                  ],
+                      "folder":  null,
+                      "sort":  -200000,
+                      "ownership":  {
+                                        "default":  0,
+                                        "R75FAhxK5fADaoJF":  3
+                                    },
+                      "flags":  {
+
+                                },
+                      "_stats":  {
+                                     "compendiumSource":  null,
+                                     "systemId":  "draw-steel",
+                                     "lastModifiedBy":  null,
+                                     "exportSource":  null,
+                                     "createdTime":  1773675257104,
+                                     "systemVersion":  "0.9.0",
+                                     "duplicateSource":  null,
+                                     "coreVersion":  "13.350",
+                                     "modifiedTime":  null
+                                 }
                   },
-                  "effects": {
-                    "frightened": {
-                      "condition": "failure",
-                      "end": "save",
-                      "properties": []
-                    }
-                  }
-                },
-                "tier2": {
-                  "display": "",
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "intuition"
+                  {
+                      "name":  "Cultist\u0027s Blade",
+                      "type":  "ability",
+                      "_id":  "uUJ9n8gOICy2DpRL",
+                      "img":  "icons/weapons/swords/sword-broad-black.webp",
+                      "system":  {
+                                     "type":  "main",
+                                     "_dsid":  "pale-maw-soldier-cultists-blade",
+                                     "story":  "",
+                                     "keywords":  [
+                                                      "melee",
+                                                      "weapon",
+                                                      "strike"
+                                                  ],
+                                     "category":  "signature",
+                                     "resource":  null,
+                                     "trigger":  "",
+                                     "distance":  {
+                                                      "type":  "melee",
+                                                      "primary":  1
+                                                  },
+                                     "damageDisplay":  "melee",
+                                     "target":  {
+                                                    "type":  "creatureObject",
+                                                    "value":  1
+                                                },
+                                     "power":  {
+                                                   "roll":  {
+                                                                "formula":  "@chr",
+                                                                "characteristics":  [
+                                                                                        "might"
+                                                                                    ]
+                                                            },
+                                                   "effects":  {
+                                                                   "o6XO7wTlVVQ2HWBh":  {
+                                                                                            "name":  "",
+                                                                                            "img":  null,
+                                                                                            "type":  "damage",
+                                                                                            "_id":  "o6XO7wTlVVQ2HWBh",
+                                                                                            "damage":  {
+                                                                                                           "tier1":  {
+                                                                                                                         "value":  "4"
+                                                                                                                     },
+                                                                                                           "tier2":  {
+                                                                                                                         "value":  "7"
+                                                                                                                     },
+                                                                                                           "tier3":  {
+                                                                                                                         "value":  "10"
+                                                                                                                     },
+                                                                                                           "types":  [
+
+                                                                                                                     ],
+                                                                                                           "properties":  [
+
+                                                                                                                          ],
+                                                                                                           "potency":  {
+
+                                                                                                                       }
+                                                                                                       }
+                                                                                        }
+                                                               }
+                                               },
+                                     "effect":  {
+                                                    "before":  "",
+                                                    "after":  ""
+                                                },
+                                     "spend":  {
+                                                   "text":  "",
+                                                   "value":  null
+                                               },
+                                     "source":  {
+                                                    "license":  "Svellheim Campaign",
+                                                    "book":  "Svellheim Campaign",
+                                                    "page":  ""
+                                                }
+                                 },
+                      "effects":  [
+
+                                  ],
+                      "folder":  null,
+                      "sort":  0,
+                      "ownership":  {
+                                        "default":  0,
+                                        "R75FAhxK5fADaoJF":  3
+                                    },
+                      "flags":  {
+
+                                },
+                      "_stats":  {
+                                     "compendiumSource":  null,
+                                     "systemId":  "draw-steel",
+                                     "lastModifiedBy":  null,
+                                     "exportSource":  null,
+                                     "createdTime":  1773675257104,
+                                     "systemVersion":  "0.9.0",
+                                     "duplicateSource":  null,
+                                     "coreVersion":  "13.350",
+                                     "modifiedTime":  null
+                                 }
                   },
-                  "effects": {
-                    "frightened": {
-                      "condition": "failure",
-                      "end": "save",
-                      "properties": []
-                    }
-                  }
-                },
-                "tier3": {
-                  "display": "",
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "intuition"
+                  {
+                      "name":  "Entropy Chant",
+                      "type":  "ability",
+                      "_id":  "s55v66An0wmVOuOZ",
+                      "img":  "icons/magic/unholy/orb-swirling-teal.webp",
+                      "system":  {
+                                     "type":  "main",
+                                     "_dsid":  "pale-maw-soldier-entropy-chant",
+                                     "story":  "",
+                                     "keywords":  [
+                                                      "area",
+                                                      "magic"
+                                                  ],
+                                     "category":  "heroic",
+                                     "resource":  1,
+                                     "trigger":  "",
+                                     "distance":  {
+                                                      "type":  "burst",
+                                                      "primary":  2
+                                                  },
+                                     "damageDisplay":  "melee",
+                                     "target":  {
+                                                    "type":  "each",
+                                                    "each":  true
+                                                },
+                                     "power":  {
+                                                   "roll":  {
+                                                                "formula":  "",
+                                                                "characteristics":  [
+
+                                                                                    ]
+                                                            },
+                                                   "effects":  {
+
+                                                               }
+                                               },
+                                     "effect":  {
+                                                    "before":  "\u003cp\u003eThe soldier leads a dark chant. Each Pale Maw ally within burst 2 gains an edge on their next power roll before the start of the soldier\u0027s next turn. Each enemy within the burst that fails a Presence power roll against the soldier is frightened until the end of their next turn.\u003c/p\u003e",
+                                                    "after":  ""
+                                                },
+                                     "spend":  {
+                                                   "text":  "",
+                                                   "value":  null
+                                               },
+                                     "source":  {
+                                                    "license":  "Svellheim Campaign",
+                                                    "book":  "Svellheim Campaign",
+                                                    "page":  ""
+                                                }
+                                 },
+                      "effects":  [
+
+                                  ],
+                      "folder":  null,
+                      "sort":  0,
+                      "ownership":  {
+                                        "default":  0,
+                                        "R75FAhxK5fADaoJF":  3
+                                    },
+                      "flags":  {
+
+                                },
+                      "_stats":  {
+                                     "compendiumSource":  null,
+                                     "systemId":  "draw-steel",
+                                     "lastModifiedBy":  null,
+                                     "exportSource":  null,
+                                     "createdTime":  1773675257104,
+                                     "systemVersion":  "0.9.0",
+                                     "duplicateSource":  null,
+                                     "coreVersion":  "13.350",
+                                     "modifiedTime":  null
+                                 }
                   },
-                  "effects": {
-                    "frightened": {
-                      "condition": "failure",
-                      "end": "save",
-                      "properties": []
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "<p>Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra [[/damage 5]] damage with strikes.</p>",
-          "after": ""
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Monsters",
-          "license": "Draw Steel Creator License",
-          "page": "207"
-        },
-        "_dsid": "fearsome-bay",
-        "story": "",
-        "resource": 5,
-        "trigger": ""
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "I38COO4cY86SolCG",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!slz721CAB9N1vJyz.I38COO4cY86SolCG"
-    },
-    {
-      "name": "Disemboweling Horns",
-      "type": "ability",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
-      "system": {
-        "type": "maneuver",
-        "category": "heroic",
-        "keywords": [
-          "charge",
-          "melee",
-          "weapon"
-        ],
-        "distance": {
-          "type": "melee",
-          "primary": 2
-        },
-        "target": {
-          "type": "creature",
-          "value": 1
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {
-            "TuHxQxVSwDDj62NP": {
-              "_id": "TuHxQxVSwDDj62NP",
-              "type": "damage",
-              "name": "",
-              "img": null,
-              "damage": {
-                "tier1": {
-                  "value": "5",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "value": "8",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": ""
-                  }
-                },
-                "tier3": {
-                  "value": "9",
-                  "types": [],
-                  "properties": [],
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": ""
-                  }
-                }
-              }
-            },
-            "MwtWp5ZNQEQ8dubw": {
-              "_id": "MwtWp5ZNQEQ8dubw",
-              "type": "applied",
-              "name": "Bleeding",
-              "img": null,
-              "applied": {
-                "tier1": {
-                  "display": "{{potency}} bleeding (save ends)",
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "might"
+                  {
+                      "name":  "Fanatical",
+                      "type":  "feature",
+                      "_id":  "RkbYrb97CkbtVx6d",
+                      "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
+                      "system":  {
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eThe soldier has an edge on power rolls to resist being frightened or charmed.\u003c/p\u003e",
+                                                         "director":  ""
+                                                     },
+                                     "source":  {
+                                                    "license":  "Svellheim Campaign",
+                                                    "book":  "Svellheim Campaign",
+                                                    "page":  ""
+                                                },
+                                     "_dsid":  "pale-maw-soldier-fanatical",
+                                     "advancements":  {
+
+                                                      }
+                                 },
+                      "effects":  [
+
+                                  ],
+                      "folder":  null,
+                      "sort":  0,
+                      "ownership":  {
+                                        "default":  0,
+                                        "R75FAhxK5fADaoJF":  3
+                                    },
+                      "flags":  {
+
+                                },
+                      "_stats":  {
+                                     "compendiumSource":  null,
+                                     "systemId":  "draw-steel",
+                                     "lastModifiedBy":  null,
+                                     "exportSource":  null,
+                                     "createdTime":  1773675257104,
+                                     "systemVersion":  "0.9.0",
+                                     "duplicateSource":  null,
+                                     "coreVersion":  "13.350",
+                                     "modifiedTime":  null
+                                 }
                   },
-                  "effects": {
-                    "E2gCg4YMnH2by3Gi": {
-                      "condition": "failure",
-                      "end": "save"
-                    }
+                  {
+                      "name":  "Pack Mentality",
+                      "type":  "feature",
+                      "_id":  "rn7w4wGo4haD7k4A",
+                      "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
+                      "system":  {
+                                     "description":  {
+                                                         "value":  "\u003cp\u003eWhile the soldier is adjacent to at least one other Pale Maw Soldier, the soldier has an edge on power rolls to attack.\u003c/p\u003e",
+                                                         "director":  ""
+                                                     },
+                                     "source":  {
+                                                    "license":  "Svellheim Campaign",
+                                                    "book":  "Svellheim Campaign",
+                                                    "page":  ""
+                                                },
+                                     "_dsid":  "pale-maw-soldier-pack-mentality",
+                                     "advancements":  {
+
+                                                      }
+                                 },
+                      "effects":  [
+
+                                  ],
+                      "folder":  null,
+                      "sort":  0,
+                      "ownership":  {
+                                        "default":  0,
+                                        "R75FAhxK5fADaoJF":  3
+                                    },
+                      "flags":  {
+
+                                },
+                      "_stats":  {
+                                     "compendiumSource":  null,
+                                     "systemId":  "draw-steel",
+                                     "lastModifiedBy":  null,
+                                     "exportSource":  null,
+                                     "createdTime":  1773675257104,
+                                     "systemVersion":  "0.9.0",
+                                     "duplicateSource":  null,
+                                     "coreVersion":  "13.350",
+                                     "modifiedTime":  null
+                                 }
                   }
-                },
-                "tier2": {
-                  "display": "",
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": "might"
+              ],
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0
                   },
-                  "effects": {
-                    "E2gCg4YMnH2by3Gi": {
-                      "condition": "failure",
-                      "end": "save"
-                    }
-                  }
-                },
-                "tier3": {
-                  "display": "",
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": "might"
-                  },
-                  "effects": {
-                    "E2gCg4YMnH2by3Gi": {
-                      "condition": "failure",
-                      "end": "save"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>While bleeding this way, the target takes [[/damage 1d6]] damage at the start of each of their turns.</p>"
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Monsters",
-          "license": "Draw Steel Creator License",
-          "page": "207"
-        },
-        "_dsid": "disemboweling-horns",
-        "story": "",
-        "resource": 3,
-        "trigger": ""
-      },
-      "effects": [
-        {
-          "name": "Disembowled",
-          "img": "icons/magic/air/air-pressure-shield-blue.webp",
-          "type": "base",
-          "origin": "Compendium.draw-steel.monsters.Actor.slz721CAB9N1vJyz.Item.ghNphMMfDieu8O8p",
-          "transfer": false,
-          "_id": "E2gCg4YMnH2by3Gi",
-          "system": {
-            "end": {
-              "type": "",
-              "roll": "1d10 + @combat.save.bonus"
-            }
-          },
-          "changes": [],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "combat": null,
-            "seconds": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "description": "<p>@Embed[Compendium.draw-steel.journals.JournalEntry.hDhdILCi65wpBgPZ.JournalEntryPage.YzgERGFhFphgpjKQ inline]</p><hr /><p>While bleeding this way, the target takes [[/damage 1d6]] damage at the start of each of their turns.</p>",
-          "tint": "#ffffff",
-          "statuses": [
-            "bleeding"
-          ],
-          "sort": 0,
-          "flags": {},
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.348",
-            "systemId": "draw-steel",
-            "systemVersion": "0.8.1",
-            "createdTime": 1757999730133,
-            "modifiedTime": 1757999845239,
-            "lastModifiedBy": null
-          },
-          "_key": "!actors.items.effects!slz721CAB9N1vJyz.ghNphMMfDieu8O8p.E2gCg4YMnH2by3Gi"
-        }
-      ],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "draw-steel",
-        "systemVersion": "0.8.1",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "ghNphMMfDieu8O8p",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!slz721CAB9N1vJyz.ghNphMMfDieu8O8p"
-    },
-    {
-      "name": "Retaliatory Strike",
-      "type": "ability",
-      "img": "icons/skills/movement/arrow-upward-yellow.webp",
-      "system": {
-        "type": "triggered",
-        "category": "",
-        "keywords": [
-          "ranged"
-        ],
-        "distance": {
-          "type": "ranged",
-          "primary": 6
-        },
-        "target": {
-          "type": "creature",
-          "value": null,
-          "custom": "The triggering creature"
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "@chr",
-            "characteristics": [
-              "might"
-            ]
-          },
-          "effects": {}
-        },
-        "effect": {
-          "before": "",
-          "after": "<p>The sunderer uses the Charge main action and Spiked Maul against the target.</p>"
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Monsters",
-          "license": "Draw Steel Creator License",
-          "page": "207"
-        },
-        "_dsid": "retaliatory-strike",
-        "story": "",
-        "resource": null,
-        "trigger": "A creature within distance deals damage to the sunderer."
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "lastModifiedBy": null,
-        "modifiedTime": null
-      },
-      "_id": "FtCyN2Ij1kpLBJKM",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!slz721CAB9N1vJyz.FtCyN2Ij1kpLBJKM"
-    },
-    {
-      "name": "Bull Rush",
-      "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-      "system": {
-        "type": "none",
-        "category": "heroic",
-        "resource": 3,
-        "trigger": "A minotaur starts its turn.",
-        "distance": {
-          "type": "special"
-        },
-        "target": {
-          "type": "special",
-          "custom": "",
-          "value": null
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "",
-            "characteristics": []
-          },
-          "effects": {}
-        },
-        "effect": {
-          "before": "<p>For each 3 Malice spent, one minotaur acting this turn gains a +4 bonus to speed and ignores difficult terrain until the start of their next turn.</p>",
-          "after": ""
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Monsters",
-          "page": "206",
-          "license": "Draw Steel Creator License"
-        },
-        "_dsid": "bull-rush",
-        "story": "",
-        "keywords": []
-      },
-      "effects": [],
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.draw-steel.monster-features.Item.eNlTRp36SIVxLFt4",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "createdTime": 1761234173425,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "eNlTRp36SIVxLFt4",
-      "ownership": {
-        "default": 0,
-        "R75FAhxK5fADaoJF": 3
-      },
-      "folder": null,
-      "sort": 0,
-      "_key": "!actors.items!slz721CAB9N1vJyz.eNlTRp36SIVxLFt4"
-    },
-    {
-      "name": "Cut the … Nonsense!",
-      "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-      "system": {
-        "type": "none",
-        "category": "heroic",
-        "resource": 5,
-        "trigger": "A minotaur starts its turn.",
-        "distance": {
-          "type": "special"
-        },
-        "target": {
-          "type": "special",
-          "custom": "",
-          "value": null
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "",
-            "characteristics": []
-          },
-          "effects": {}
-        },
-        "effect": {
-          "before": "<p>One minotaur acting this turn halves any damage they take, and can use the Knockback maneuver as a free triggered action whenever an enemy comes adjacent to them, all until the start of their next turn.</p>",
-          "after": ""
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Monsters",
-          "page": "206",
-          "license": "Draw Steel Creator License"
-        },
-        "_dsid": "cut-the--nonsense",
-        "story": "",
-        "keywords": []
-      },
-      "effects": [],
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.draw-steel.monster-features.Item.NnMyD6br3ACf0Ea3",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.0",
-        "createdTime": 1761234175777,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "NnMyD6br3ACf0Ea3",
-      "ownership": {
-        "default": 0,
-        "R75FAhxK5fADaoJF": 3
-      },
-      "_key": "!actors.items!slz721CAB9N1vJyz.NnMyD6br3ACf0Ea3"
-    },
-    {
-      "name": "Bullseye",
-      "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-      "system": {
-        "type": "none",
-        "category": "heroic",
-        "resource": 7,
-        "trigger": "A minotaur starts its turn.",
-        "distance": {
-          "type": "special"
-        },
-        "target": {
-          "type": "special",
-          "custom": "",
-          "value": null
-        },
-        "damageDisplay": "melee",
-        "power": {
-          "roll": {
-            "formula": "",
-            "characteristics": [
-              "intuition"
-            ],
-            "reactive": true
-          },
-          "effects": {
-            "ecDoH620kT4aPLAd": {
-              "sort": 100000,
-              "name": "",
-              "img": null,
-              "type": "applied",
-              "_id": "ecDoH620kT4aPLAd",
-              "applied": {
-                "tier1": {
-                  "display": "The target has line of effect only within 3 squares and is frightened of all minotaurs (save ends).",
-                  "effects": {
-                    "F2fGz4WjWIom6q2J": {
-                      "condition": "always",
-                      "end": "save",
-                      "properties": []
-                    }
-                  },
-                  "potency": {
-                    "value": "@potency.weak",
-                    "characteristic": "none"
-                  }
-                },
-                "tier2": {
-                  "display": "The target has line of effect only within 3 squares (EoT).",
-                  "effects": {
-                    "j05qfRBPuK0wvtpo": {
-                      "condition": "always",
-                      "end": "turn",
-                      "properties": []
-                    }
-                  },
-                  "potency": {
-                    "value": "@potency.average",
-                    "characteristic": ""
-                  }
-                },
-                "tier3": {
-                  "display": "No effect.",
-                  "effects": {},
-                  "potency": {
-                    "value": "@potency.strong",
-                    "characteristic": ""
-                  }
-                }
-              }
-            }
-          }
-        },
-        "effect": {
-          "before": "<p>All minotaurs in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a minotaur is teleported up to 5 squares and makes an <strong>Intuition test</strong>.</p>",
-          "after": ""
-        },
-        "spend": {
-          "text": "",
-          "value": null
-        },
-        "source": {
-          "book": "Monsters",
-          "page": "206",
-          "license": "Draw Steel Creator License"
-        },
-        "_dsid": "bullseye",
-        "story": "",
-        "keywords": [],
-        "prerequisites": {
-          "value": "",
-          "dsid": [],
-          "level": null
-        }
-      },
-      "effects": [
-        {
-          "name": "Bullseye, Tier 2",
-          "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
-          "type": "base",
-          "origin": "Compendium.draw-steel.monster-features.Item.bAt7raSpMfENZiG5",
-          "transfer": false,
-          "_id": "j05qfRBPuK0wvtpo",
-          "system": {
-            "end": {
-              "type": "turn",
-              "roll": "1d10 + @combat.save.bonus"
-            }
-          },
-          "changes": [],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "combat": null,
-            "seconds": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "description": "<p>The target has line of effect only within 3 squares.</p>",
-          "tint": "#ffffff",
-          "statuses": [],
-          "sort": 0,
-          "flags": {},
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "draw-steel",
-            "systemVersion": "0.9.1",
-            "lastModifiedBy": null,
-            "modifiedTime": 1770785019779
-          },
-          "_key": "!actors.items.effects!slz721CAB9N1vJyz.bAt7raSpMfENZiG5.j05qfRBPuK0wvtpo"
-        },
-        {
-          "name": "Bullseye, Tier 1",
-          "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
-          "type": "base",
-          "origin": "Compendium.draw-steel.monster-features.Item.bAt7raSpMfENZiG5",
-          "transfer": false,
-          "_id": "F2fGz4WjWIom6q2J",
-          "system": {
-            "end": {
-              "type": "save",
-              "roll": "1d10 + @combat.save.bonus"
-            }
-          },
-          "changes": [],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "combat": null,
-            "seconds": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null
-          },
-          "description": "<p>You have line of effect only within 3 squares and are frightened of all minotaurs</p>",
-          "tint": "#ffffff",
-          "statuses": [
-            "frightened"
-          ],
-          "sort": 0,
-          "flags": {},
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "draw-steel",
-            "systemVersion": "0.9.1",
-            "lastModifiedBy": null,
-            "modifiedTime": 1770785019779
-          },
-          "_key": "!actors.items.effects!slz721CAB9N1vJyz.bAt7raSpMfENZiG5.F2fGz4WjWIom6q2J"
-        }
-      ],
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Compendium.draw-steel.monster-features.Item.bAt7raSpMfENZiG5",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "draw-steel",
-        "systemVersion": "0.9.1",
-        "createdTime": 1765844817041,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_id": "bAt7raSpMfENZiG5",
-      "ownership": {
-        "default": 0,
-        "rjhydLU11Zq4Diaw": 3
-      },
-      "folder": null,
-      "sort": 0,
-      "_key": "!actors.items!slz721CAB9N1vJyz.bAt7raSpMfENZiG5"
-    }
-  ],
-  "folder": "4k38bNEZVVE6p4vF",
-  "_id": "D7GUJZqygRtvsiUP",
-  "prototypeToken": {
-    "name": "Pale Maw Soldier",
-    "displayName": 20,
-    "actorLink": false,
-    "width": 2,
-    "height": 2,
-    "texture": {
-      "src": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0,
-      "tint": "#ffffff",
-      "alphaThreshold": 0.75
-    },
-    "lockRotation": true,
-    "rotation": 0,
-    "alpha": 1,
-    "disposition": -1,
-    "displayBars": 20,
-    "bar1": {
-      "attribute": "stamina"
-    },
-    "bar2": {
-      "attribute": "hero.resources"
-    },
-    "light": {
-      "negative": false,
-      "priority": 0,
-      "alpha": 0.5,
-      "angle": 360,
-      "bright": 0,
-      "color": null,
-      "coloration": 1,
-      "dim": 0,
-      "attenuation": 0.5,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "type": null,
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
-      },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "sight": {
-      "enabled": false,
-      "range": 0,
-      "angle": 360,
-      "visionMode": "basic",
-      "color": null,
-      "attenuation": 0.1,
-      "brightness": 0,
-      "saturation": 0,
-      "contrast": 0
-    },
-    "detectionModes": [],
-    "occludable": {
-      "radius": 0
-    },
-    "ring": {
-      "enabled": false,
-      "colors": {
-        "ring": null,
-        "background": null
-      },
-      "effects": 1,
-      "subject": {
-        "scale": 1,
-        "texture": null
-      }
-    },
-    "turnMarker": {
-      "mode": 1,
-      "animation": null,
-      "src": null,
-      "disposition": false
-    },
-    "movementAction": null,
-    "flags": {},
-    "randomImg": false,
-    "appendNumber": false,
-    "prependAdjective": false
-  },
-  "effects": [],
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "draw-steel",
-    "systemVersion": "0.9.0",
-    "createdTime": 1757728401104,
-    "modifiedTime": null,
-    "lastModifiedBy": null
-  },
-  "_key": "!actors!slz721CAB9N1vJyz"
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.348",
+                   "systemId":  "draw-steel",
+                   "systemVersion":  "0.8.1",
+                   "createdTime":  1757002960589,
+                   "modifiedTime":  null,
+                   "lastModifiedBy":  null
+               },
+    "_key":  "!actors!D7GUJZqygRtvsiUP"
 }

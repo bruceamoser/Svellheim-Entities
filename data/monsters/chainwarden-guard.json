@@ -366,13 +366,31 @@
               "_id": "01JUXE6Fd411laBJ",
               "damage": {
                 "tier1": {
-                  "value": "2"
+                  "value": "2",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.weak",
+                    "characteristic": "none"
+                  }
                 },
                 "tier2": {
-                  "value": "4"
+                  "value": "4",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.average",
+                    "characteristic": ""
+                  }
                 },
                 "tier3": {
-                  "value": "5"
+                  "value": "5",
+                  "types": [],
+                  "properties": [],
+                  "potency": {
+                    "value": "@potency.strong",
+                    "characteristic": ""
+                  }
                 }
               }
             },

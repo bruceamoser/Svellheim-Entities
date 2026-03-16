@@ -4,8 +4,8 @@
   "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
   "system": {
     "stamina": {
-      "value": 175,
-      "max": 175,
+      "value": 158,
+      "max": 158,
       "temporary": 0
     },
     "characteristics": {
@@ -72,8 +72,8 @@
       }
     },
     "biography": {
-      "value": "<p>Dreyfus is the last and most dangerous shape-walker the heroes will face — a spy of extraordinary ability who has served a king's ambitions for decades and has no intention of losing now. He uses Wyrd-Claw strikes that embed psychic trauma, Hollowing Gaze to extract memories, and Shape-Shift to move through the encounter as a different person entirely. He does not escape this encounter. If the party earns it narratively, there is a crack in his certainty before the end — a flicker of what might have been a different choice.</p>",
-      "director": "",
+      "value": "<p>Dreyfus is the last and most dangerous shape-walker the heroes will face — a spy of extraordinary ability who has served a king's ambitions for decades and has no intention of losing now. He uses Wyrd-Claw strikes that embed psychic trauma, Hollowing Gaze to extract memories, and Shape-Shift to move through the encounter as a different person entirely.</p>",
+      "director": "He does not escape this encounter. If the party earns it narratively, there is a crack in his certainty before the end — a flicker of what might have been a different choice.",
       "languages": []
     },
     "source": {
@@ -323,7 +323,7 @@
       "_key": "!actors.items!ZYA3u3MgtbR9FIzY.zgB4nFpVxL00sMjx"
     },
     {
-      "name": "psychic the Blade",
+      "name": "Poison the Blade",
       "type": "ability",
       "img": "icons/magic/air/air-pressure-shield-blue.webp",
       "system": {
@@ -348,7 +348,7 @@
           "effects": {}
         },
         "effect": {
-          "before": "<p>The shadow coats their weapon with psychic. They gain an edge on their next strike, and any potency for that strike increases by 1.</p>",
+          "before": "<p>The shadow coats their weapon with poison. They gain an edge on their next strike, and any potency for that strike increases by 1.</p>",
           "after": ""
         },
         "spend": {
@@ -360,7 +360,7 @@
           "license": "Draw Steel Creator License",
           "page": "237"
         },
-        "_dsid": "psychic-the-blade",
+        "_dsid": "poison-the-blade",
         "story": "",
         "resource": null,
         "trigger": ""

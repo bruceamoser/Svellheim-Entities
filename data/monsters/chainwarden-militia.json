@@ -342,7 +342,7 @@
                                                },
                                      "effect":  {
                                                     "before":  "",
-                                                    "after":  "\u003cp\u003eA target who starts their turn grabbed by the chainwarden militia takes [[/damage 2 force]]{2 force damage}. A creature who takes 5 or more force damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in to end this effect.\u003c/p\u003e"
+                                                    "after":  ""
                                                 },
                                      "spend":  {
                                                    "text":  "",
