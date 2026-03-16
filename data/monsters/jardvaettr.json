@@ -1,1011 +1,917 @@
 {
-    "name":  "Jar\\u00f0v\\u00e6ttr",
-    "type":  "npc",
-    "img":  "systems/draw-steel/assets/roles/solo.webp",
-    "system":  {
-                   "stamina":  {
-                                   "value":  350,
-                                   "max":  350,
-                                   "temporary":  0
-                               },
-                   "characteristics":  {
-                                           "might":  {
-                                                         "value":  4
-                                                     },
-                                           "agility":  {
-                                                           "value":  -1
-                                                       },
-                                           "reason":  {
-                                                          "value":  -2
-                                                      },
-                                           "intuition":  {
-                                                             "value":  2
-                                                         },
-                                           "presence":  {
-                                                            "value":  0
-                                                        }
-                                       },
-                   "combat":  {
-                                  "save":  {
-                                               "threshold":  6,
-                                               "bonus":  ""
-                                           },
-                                  "size":  {
-                                               "value":  3,
-                                               "letter":  "M"
-                                           },
-                                  "stability":  3,
-                                  "turns":  2
-                              },
-                   "movement":  {
-                                    "value":  8,
-                                    "types":  [
-                                                  "walk",
-                                                  "burrow"
-                                              ],
-                                    "hover":  false,
-                                    "disengage":  1
-                                },
-                   "damage":  {
-                                  "immunities":  {
-                                                     "all":  0,
-                                                     "acid":  0,
-                                                     "cold":  0,
-                                                     "corruption":  0,
-                                                     "fire":  0,
-                                                     "holy":  0,
-                                                     "lightning":  0,
-                                                     "poison":  0,
-                                                     "psychic":  0,
-                                                     "sonic":  0
-                                                 },
-                                  "weaknesses":  {
-                                                     "all":  0,
-                                                     "acid":  0,
-                                                     "cold":  0,
-                                                     "corruption":  0,
-                                                     "fire":  0,
-                                                     "holy":  5,
-                                                     "lightning":  0,
-                                                     "poison":  0,
-                                                     "psychic":  0,
-                                                     "sonic":  0
-                                                 }
-                              },
-                   "biography":  {
-                                     "value":  "\u003cp\u003eThe earth-wight of the Singing Islands, an ancient geothermal spirit corrupted by the Rot. Once a guardian that tended the volcanic vents warming the island gardens, now a territorial destroyer that cannot distinguish pilgrim from threat. Its stone-and-root body leaves craters with every step. Deep within, the original spirit screams -- trapped, unable to stop or die cleanly until freed or defeated.\u003c/p\u003e",
-                                     "director":  "",
-                                     "languages":  [
-
-                                                   ]
-                                 },
-                   "source":  {
-                                  "book":  "Monsters",
-                                  "page":  "46",
-                                  "license":  "Draw Steel Creator License"
-                              },
-                   "negotiation":  {
-                                       "interest":  5,
-                                       "patience":  5,
-                                       "motivations":  [
-
-                                                       ],
-                                       "pitfalls":  [
-
-                                                    ],
-                                       "impression":  1
-                                   },
-                   "monster":  {
-                                   "freeStrike":  6,
-                                   "keywords":  [
-                                                    "elemental",
-                                                    "plant"
-                                                ],
-                                   "level":  4,
-                                   "ev":  72,
-                                   "role":  "",
-                                   "organization":  "solo"
-                               }
-               },
-    "items":  [
-                  {
-                      "name":  "Earth Slam",
-                      "type":  "ability",
-                      "_id":  "Iixb9G1gqWuNz62r",
-                      "img":  "icons/weapons/daggers/dagger-curved-teal.webp",
-                      "system":  {
-                                     "type":  "free",
-                                     "_dsid":  "jardvaettr-free-strike",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "melee",
-                                                      "weapon",
-                                                      "strike"
-                                                  ],
-                                     "category":  "free",
-                                     "resource":  null,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "melee",
-                                                      "primary":  1
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "creatureObject",
-                                                    "value":  1
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "rUQy0EaYW71Ys5Ib":  {
-                                                                                            "name":  "",
-                                                                                            "img":  null,
-                                                                                            "type":  "damage",
-                                                                                            "_id":  "rUQy0EaYW71Ys5Ib",
-                                                                                            "damage":  {
-                                                                                                           "tier1":  {
-                                                                                                                         "value":  "6"
-                                                                                                                     },
-                                                                                                           "tier2":  {
-                                                                                                                         "value":  "6"
-                                                                                                                     },
-                                                                                                           "tier3":  {
-                                                                                                                         "value":  "6"
-                                                                                                                     },
-                                                                                                           "types":  [
-
-                                                                                                                     ],
-                                                                                                           "properties":  [
-
-                                                                                                                          ],
-                                                                                                           "potency":  {
-
-                                                                                                                       }
-                                                                                                       }
-                                                                                        }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  -200000,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Solo Monster",
-                      "type":  "feature",
-                      "_id":  "IFE2CihTBbSeg6qO",
-                      "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
-                      "system":  {
-                                     "description":  {
-                                                         "value":  "\u003cp\u003eAt the end of each of their turns, the Jar\u0026eth;v\u0026aelig;ttr can take [[/damage 10]] damage to end one effect on them that can be ended by a saving throw. This damage can\u0027t be reduced in any way.\u003c/p\u003e\u003cp\u003eThe Jar\u0026eth;v\u0026aelig;ttr can take two turns each round. They can\u0027t take turns consecutively.\u003c/p\u003e",
-                                                         "director":  ""
-                                                     },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                },
-                                     "_dsid":  "jardvaettr-solo-monster",
-                                     "advancements":  {
-
-                                                      }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Rot-Bound Earth",
-                      "type":  "feature",
-                      "_id":  "iTSBKsgpgZ8fHgBG",
-                      "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
-                      "system":  {
-                                     "description":  {
-                                                         "value":  "\u003cp\u003eThe Jar\u0026eth;v\u0026aelig;ttr cannot be forcibly moved more than 2 squares by any single effect. It ignores difficult terrain from stone or earth. When below 175 Stamina (Phase 2), its speed increases by 1 and all damage it deals increases by 3.\u003c/p\u003e",
-                                                         "director":  ""
-                                                     },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                },
-                                     "_dsid":  "jardvaettr-rot-bound-earth",
-                                     "advancements":  {
-
-                                                      }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Vent-Step",
-                      "type":  "feature",
-                      "_id":  "KyowoDPdEAsCRQ2v",
-                      "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
-                      "system":  {
-                                     "description":  {
-                                                         "value":  "\u003cp\u003eOnce per round as a free maneuver, the Jar\u0026eth;v\u0026aelig;ttr can sink into any adjacent geothermal vent and emerge from any other visible vent within 12 squares without provoking opportunity attacks.\u003c/p\u003e",
-                                                         "director":  ""
-                                                     },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                },
-                                     "_dsid":  "jardvaettr-vent-step",
-                                     "advancements":  {
-
-                                                      }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Earthshaker Slam",
-                      "type":  "ability",
-                      "_id":  "5YEayl7vzVVzP8oJ",
-                      "img":  "icons/skills/melee/strike-polearm-glowing-white.webp",
-                      "system":  {
-                                     "type":  "main",
-                                     "_dsid":  "jardvaettr-earthshaker-slam",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "melee",
-                                                      "strike",
-                                                      "weapon"
-                                                  ],
-                                     "category":  "signature",
-                                     "resource":  null,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "melee",
-                                                      "primary":  3
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "creatureObject",
-                                                    "value":  1
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "@chr",
-                                                                "characteristics":  [
-                                                                                        "might"
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "cSXOFicFhMtI5DU0":  {
-                                                                                            "name":  "",
-                                                                                            "img":  null,
-                                                                                            "type":  "damage",
-                                                                                            "_id":  "cSXOFicFhMtI5DU0",
-                                                                                            "damage":  {
-                                                                                                           "tier1":  {
-                                                                                                                         "value":  "6"
-                                                                                                                     },
-                                                                                                           "tier2":  {
-                                                                                                                         "value":  "11"
-                                                                                                                     },
-                                                                                                           "tier3":  {
-                                                                                                                         "value":  "14"
-                                                                                                                     },
-                                                                                                           "types":  [
-
-                                                                                                                     ],
-                                                                                                           "properties":  [
-
-                                                                                                                          ],
-                                                                                                           "potency":  {
-
-                                                                                                                       }
-                                                                                                       }
-                                                                                        },
-                                                                   "5E4LrHVmo7ycsn24":  {
-                                                                                            "name":  "Prone",
-                                                                                            "img":  null,
-                                                                                            "type":  "applied",
-                                                                                            "_id":  "5E4LrHVmo7ycsn24",
-                                                                                            "applied":  {
-                                                                                                            "tier2":  {
-                                                                                                                          "effects":  {
-                                                                                                                                          "prone":  {
-                                                                                                                                                        "condition":  "always",
-                                                                                                                                                        "end":  ""
-                                                                                                                                                    }
-                                                                                                                                      }
-                                                                                                                      },
-                                                                                                            "tier3":  {
-                                                                                                                          "effects":  {
-                                                                                                                                          "prone":  {
-                                                                                                                                                        "condition":  "always",
-                                                                                                                                                        "end":  ""
-                                                                                                                                                    }
-                                                                                                                                      }
-                                                                                                                      }
-                                                                                                        }
-                                                                                        }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  "\u003cp\u003eOn a tier 2 or 3 result, the ground in a burst 1 around the target becomes difficult terrain until the end of the encounter.\u003c/p\u003e"
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Vent Eruption",
-                      "type":  "ability",
-                      "_id":  "QRSlmYrMAcMAYsnu",
-                      "img":  "icons/magic/fire/flame-burning-evocation-circle.webp",
-                      "system":  {
-                                     "type":  "main",
-                                     "_dsid":  "jardvaettr-vent-eruption",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "area",
-                                                      "magic",
-                                                      "fire"
-                                                  ],
-                                     "category":  "heroic",
-                                     "resource":  1,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "burst",
-                                                      "primary":  2
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "each",
-                                                    "each":  true
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "\u003cp\u003eA geothermal vent erupts at a point within 10 squares. Each creature within burst 2 of that point takes [[/damage 6]] fire damage and is pushed 2 squares. The eruption zone becomes difficult terrain until the end of the encounter.\u003c/p\u003e",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Reactive Tremor",
-                      "type":  "ability",
-                      "_id":  "ILNk8XJgpO9hSvBR",
-                      "img":  "icons/magic/earth/stone-fist-strike-yellow.webp",
-                      "system":  {
-                                     "type":  "triggered",
-                                     "_dsid":  "jardvaettr-reactive-tremor",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "area",
-                                                      "earth"
-                                                  ],
-                                     "category":  "triggered",
-                                     "resource":  null,
-                                     "trigger":  "A creature within 2 squares of the Jar\\u00f0v\\u00e6ttr moves.",
-                                     "distance":  {
-                                                      "type":  "burst",
-                                                      "primary":  2
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "each",
-                                                    "each":  true
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "@chr",
-                                                                "characteristics":  [
-                                                                                        "might"
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "SUrNdgD7PsKEoyMT":  {
-                                                                                            "name":  "",
-                                                                                            "img":  null,
-                                                                                            "type":  "damage",
-                                                                                            "_id":  "SUrNdgD7PsKEoyMT",
-                                                                                            "damage":  {
-                                                                                                           "tier1":  {
-                                                                                                                         "value":  "4"
-                                                                                                                     },
-                                                                                                           "tier2":  {
-                                                                                                                         "value":  "6"
-                                                                                                                     },
-                                                                                                           "tier3":  {
-                                                                                                                         "value":  "9"
-                                                                                                                     },
-                                                                                                           "types":  [
-
-                                                                                                                     ],
-                                                                                                           "properties":  [
-
-                                                                                                                          ],
-                                                                                                           "potency":  {
-
-                                                                                                                       }
-                                                                                                       }
-                                                                                        }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  "\u003cp\u003eCreatures that fail are knocked prone.\u003c/p\u003e"
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Crumbling Advance",
-                      "type":  "ability",
-                      "_id":  "tKFRSDZS2T6Jjw1N",
-                      "img":  "icons/magic/earth/projectile-stone-boulder.webp",
-                      "system":  {
-                                     "type":  "villain",
-                                     "_dsid":  "jardvaettr-va1-crumbling-advance",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "area",
-                                                      "earth"
-                                                  ],
-                                     "category":  "villain",
-                                     "resource":  1,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "self"
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "self"
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "\u003cp\u003eThe Jar\\u00f0v\\u00e6ttr moves up to its speed. This movement does not provoke opportunity attacks. Each square it moves through becomes difficult terrain. Each creature in a square it passes adjacent to takes [[/damage 4]] damage.\u003c/p\u003e",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  200000,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Magma Surge",
-                      "type":  "ability",
-                      "_id":  "DUYB3VM8FChJ5squ",
-                      "img":  "icons/magic/fire/projectile-fireball-smoke-large.webp",
-                      "system":  {
-                                     "type":  "villain",
-                                     "_dsid":  "jardvaettr-va2-magma-surge",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "area",
-                                                      "fire",
-                                                      "magic"
-                                                  ],
-                                     "category":  "villain",
-                                     "resource":  2,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "burst",
-                                                      "primary":  3
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "each",
-                                                    "each":  true
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "@chr",
-                                                                "characteristics":  [
-                                                                                        "might"
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "5XGW4pUROJfNi3QP":  {
-                                                                                            "name":  "",
-                                                                                            "img":  null,
-                                                                                            "type":  "damage",
-                                                                                            "_id":  "5XGW4pUROJfNi3QP",
-                                                                                            "damage":  {
-                                                                                                           "tier1":  {
-                                                                                                                         "value":  "8"
-                                                                                                                     },
-                                                                                                           "tier2":  {
-                                                                                                                         "value":  "12"
-                                                                                                                     },
-                                                                                                           "tier3":  {
-                                                                                                                         "value":  "16"
-                                                                                                                     },
-                                                                                                           "types":  [
-                                                                                                                         "fire"
-                                                                                                                     ],
-                                                                                                           "properties":  [
-
-                                                                                                                          ],
-                                                                                                           "potency":  {
-
-                                                                                                                       }
-                                                                                                       }
-                                                                                        }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  "\u003cp\u003eOn a tier 3 result, targets are also on fire (save ends). Ground in the affected area counts as difficult terrain until the encounter ends.\u003c/p\u003e"
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  400000,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Cataclysmic Upheaval",
-                      "type":  "ability",
-                      "_id":  "peooGQ1qs2ZFRgq1",
-                      "img":  "icons/magic/earth/spike-protrusion-mountain-orange.webp",
-                      "system":  {
-                                     "type":  "villain",
-                                     "_dsid":  "jardvaettr-va3-cataclysmic-upheaval",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "area",
-                                                      "earth",
-                                                      "magic"
-                                                  ],
-                                     "category":  "villain",
-                                     "resource":  3,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "burst",
-                                                      "primary":  5
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "each",
-                                                    "each":  true
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "@chr",
-                                                                "characteristics":  [
-                                                                                        "might"
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "\u003cp\u003eThe Jar\\u00f0v\\u00e6ttr slams both fists into the earth, triggering a cataclysmic upheaval. Each creature in burst 5 takes [[/damage 14]] damage and is knocked prone. Stone pillars erupt from the ground in up to 6 unoccupied squares within the burst, creating blocking terrain. The entire affected area becomes difficult terrain until the end of the encounter. Creatures that fail a Might power roll are also slowed (save ends).\u003c/p\u003e",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  600000,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
+  "name": "Jarðvættr",
+  "type": "npc",
+  "img": "systems/draw-steel/assets/roles/solo.webp",
+  "system": {
+    "stamina": {
+      "value": 350,
+      "max": 350,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 4
+      },
+      "agility": {
+        "value": -1
+      },
+      "reason": {
+        "value": -2
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 0
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 3,
+        "letter": "M"
+      },
+      "stability": 3,
+      "turns": 2
+    },
+    "movement": {
+      "value": 8,
+      "types": [
+        "walk",
+        "burrow"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 5,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "biography": {
+      "value": "<p>The earth-wight of the Singing Islands, an ancient geothermal spirit corrupted by the Rot. Once a guardian that tended the volcanic vents warming the island gardens, now a territorial destroyer that cannot distinguish pilgrim from threat. Its stone-and-root body leaves craters with every step. Deep within, the original spirit screams -- trapped, unable to stop or die cleanly until freed or defeated.</p>",
+      "director": "",
+      "languages": []
+    },
+    "source": {
+      "book": "Monsters",
+      "page": "46",
+      "license": "Draw Steel Creator License"
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 6,
+      "keywords": [
+        "elemental",
+        "plant"
+      ],
+      "level": 4,
+      "ev": 72,
+      "role": "",
+      "organization": "solo"
+    }
+  },
+  "items": [
+    {
+      "name": "Earth Slam",
+      "type": "ability",
+      "_id": "Iixb9G1gqWuNz62r",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
+      "system": {
+        "type": "free",
+        "_dsid": "jardvaettr-free-strike",
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "strike"
+        ],
+        "category": "free",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {
+            "rUQy0EaYW71Ys5Ib": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "rUQy0EaYW71Ys5Ib",
+              "damage": {
+                "tier1": {
+                  "value": "6"
+                },
+                "tier2": {
+                  "value": "6"
+                },
+                "tier3": {
+                  "value": "6"
+                },
+                "types": [],
+                "properties": [],
+                "potency": {}
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -200000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Solo Monster",
+      "type": "feature",
+      "_id": "IFE2CihTBbSeg6qO",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the end of each of their turns, the Jar&eth;v&aelig;ttr can take [[/damage 10]] damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.</p><p>The Jar&eth;v&aelig;ttr can take two turns each round. They can't take turns consecutively.</p>",
+          "director": ""
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        },
+        "_dsid": "jardvaettr-solo-monster",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Rot-Bound Earth",
+      "type": "feature",
+      "_id": "iTSBKsgpgZ8fHgBG",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Jar&eth;v&aelig;ttr cannot be forcibly moved more than 2 squares by any single effect. It ignores difficult terrain from stone or earth. When below 175 Stamina (Phase 2), its speed increases by 1 and all damage it deals increases by 3.</p>",
+          "director": ""
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        },
+        "_dsid": "jardvaettr-rot-bound-earth",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Vent-Step",
+      "type": "feature",
+      "_id": "KyowoDPdEAsCRQ2v",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Once per round as a free maneuver, the Jar&eth;v&aelig;ttr can sink into any adjacent geothermal vent and emerge from any other visible vent within 12 squares without provoking opportunity attacks.</p>",
+          "director": ""
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        },
+        "_dsid": "jardvaettr-vent-step",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Earthshaker Slam",
+      "type": "ability",
+      "_id": "5YEayl7vzVVzP8oJ",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "type": "main",
+        "_dsid": "jardvaettr-earthshaker-slam",
+        "story": "",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 3
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "cSXOFicFhMtI5DU0": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "cSXOFicFhMtI5DU0",
+              "damage": {
+                "tier1": {
+                  "value": "6"
+                },
+                "tier2": {
+                  "value": "11"
+                },
+                "tier3": {
+                  "value": "14"
+                },
+                "types": [],
+                "properties": [],
+                "potency": {}
+              }
+            },
+            "5E4LrHVmo7ycsn24": {
+              "name": "Prone",
+              "img": null,
+              "type": "applied",
+              "_id": "5E4LrHVmo7ycsn24",
+              "applied": {
+                "tier2": {
+                  "effects": {
+                    "prone": {
+                      "condition": "always",
+                      "end": ""
+                    }
                   }
-              ],
-    "folder":  "GXX2DnZcth3KWFfL",
-    "prototypeToken":  {
-                           "name":  "Ashen Hoarder",
-                           "displayName":  20,
-                           "actorLink":  false,
-                           "width":  3,
-                           "height":  3,
-                           "texture":  {
-                                           "src":  "systems/draw-steel/assets/roles/solo.webp",
-                                           "anchorX":  0.5,
-                                           "anchorY":  0.5,
-                                           "offsetX":  0,
-                                           "offsetY":  0,
-                                           "fit":  "contain",
-                                           "scaleX":  1,
-                                           "scaleY":  1,
-                                           "rotation":  0,
-                                           "tint":  "#ffffff",
-                                           "alphaThreshold":  0.75
-                                       },
-                           "lockRotation":  true,
-                           "rotation":  0,
-                           "alpha":  1,
-                           "disposition":  -1,
-                           "displayBars":  20,
-                           "bar1":  {
-                                        "attribute":  "stamina"
-                                    },
-                           "bar2":  {
-                                        "attribute":  "hero.resources"
-                                    },
-                           "light":  {
-                                         "negative":  false,
-                                         "priority":  0,
-                                         "alpha":  0.5,
-                                         "angle":  360,
-                                         "bright":  0,
-                                         "color":  null,
-                                         "coloration":  1,
-                                         "dim":  0,
-                                         "attenuation":  0.5,
-                                         "luminosity":  0.5,
-                                         "saturation":  0,
-                                         "contrast":  0,
-                                         "shadows":  0,
-                                         "animation":  {
-                                                           "type":  null,
-                                                           "speed":  5,
-                                                           "intensity":  5,
-                                                           "reverse":  false
-                                                       },
-                                         "darkness":  {
-                                                          "min":  0,
-                                                          "max":  1
-                                                      }
-                                     },
-                           "sight":  {
-                                         "enabled":  false,
-                                         "range":  0,
-                                         "angle":  360,
-                                         "visionMode":  "basic",
-                                         "color":  null,
-                                         "attenuation":  0.1,
-                                         "brightness":  0,
-                                         "saturation":  0,
-                                         "contrast":  0
-                                     },
-                           "detectionModes":  [
-
-                                              ],
-                           "occludable":  {
-                                              "radius":  0
-                                          },
-                           "ring":  {
-                                        "enabled":  false,
-                                        "colors":  {
-                                                       "ring":  null,
-                                                       "background":  null
-                                                   },
-                                        "effects":  1,
-                                        "subject":  {
-                                                        "scale":  1,
-                                                        "texture":  null
-                                                    }
-                                    },
-                           "turnMarker":  {
-                                              "mode":  1,
-                                              "animation":  null,
-                                              "src":  null,
-                                              "disposition":  false
-                                          },
-                           "movementAction":  null,
-                           "flags":  {
-
-                                     },
-                           "randomImg":  false,
-                           "appendNumber":  false,
-                           "prependAdjective":  false
-                       },
-    "effects":  [
-
+                },
+                "tier3": {
+                  "effects": {
+                    "prone": {
+                      "condition": "always",
+                      "end": ""
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>On a tier 2 or 3 result, the ground in a burst 1 around the target becomes difficult terrain until the end of the encounter.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Vent Eruption",
+      "type": "ability",
+      "_id": "QRSlmYrMAcMAYsnu",
+      "img": "icons/magic/fire/flame-burning-evocation-circle.webp",
+      "system": {
+        "type": "main",
+        "_dsid": "jardvaettr-vent-eruption",
+        "story": "",
+        "keywords": [
+          "area",
+          "magic",
+          "fire"
+        ],
+        "category": "heroic",
+        "resource": 1,
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 2
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "each",
+          "each": true
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>A geothermal vent erupts at a point within 10 squares. Each creature within burst 2 of that point takes [[/damage 6]] fire damage and is pushed 2 squares. The eruption zone becomes difficult terrain until the end of the encounter.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Reactive Tremor",
+      "type": "ability",
+      "_id": "ILNk8XJgpO9hSvBR",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
+      "system": {
+        "type": "triggered",
+        "_dsid": "jardvaettr-reactive-tremor",
+        "story": "",
+        "keywords": [
+          "area",
+          "earth"
+        ],
+        "category": "triggered",
+        "resource": null,
+        "trigger": "A creature within 2 squares of the Jar\\u00f0v\\u00e6ttr moves.",
+        "distance": {
+          "type": "burst",
+          "primary": 2
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "each",
+          "each": true
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "SUrNdgD7PsKEoyMT": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "SUrNdgD7PsKEoyMT",
+              "damage": {
+                "tier1": {
+                  "value": "4"
+                },
+                "tier2": {
+                  "value": "6"
+                },
+                "tier3": {
+                  "value": "9"
+                },
+                "types": [],
+                "properties": [],
+                "potency": {}
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>Creatures that fail are knocked prone.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Crumbling Advance",
+      "type": "ability",
+      "_id": "tKFRSDZS2T6Jjw1N",
+      "img": "icons/magic/earth/projectile-stone-boulder.webp",
+      "system": {
+        "type": "villain",
+        "_dsid": "jardvaettr-va1-crumbling-advance",
+        "story": "",
+        "keywords": [
+          "area",
+          "earth"
+        ],
+        "category": "villain",
+        "resource": 1,
+        "trigger": "",
+        "distance": {
+          "type": "self"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self"
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The Jar\\u00f0v\\u00e6ttr moves up to its speed. This movement does not provoke opportunity attacks. Each square it moves through becomes difficult terrain. Each creature in a square it passes adjacent to takes [[/damage 4]] damage.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Magma Surge",
+      "type": "ability",
+      "_id": "DUYB3VM8FChJ5squ",
+      "img": "icons/magic/fire/projectile-fireball-smoke-large.webp",
+      "system": {
+        "type": "villain",
+        "_dsid": "jardvaettr-va2-magma-surge",
+        "story": "",
+        "keywords": [
+          "area",
+          "fire",
+          "magic"
+        ],
+        "category": "villain",
+        "resource": 2,
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 3
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "each",
+          "each": true
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "5XGW4pUROJfNi3QP": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "5XGW4pUROJfNi3QP",
+              "damage": {
+                "tier1": {
+                  "value": "8"
+                },
+                "tier2": {
+                  "value": "12"
+                },
+                "tier3": {
+                  "value": "16"
+                },
+                "types": [
+                  "fire"
                 ],
-    "ownership":  {
-                      "default":  0
-                  },
-    "flags":  {
-
-              },
-    "_stats":  {
-                   "compendiumSource":  null,
-                   "duplicateSource":  null,
-                   "exportSource":  null,
-                   "coreVersion":  "13.351",
-                   "systemId":  "draw-steel",
-                   "systemVersion":  "0.8.1",
-                   "createdTime":  1757726088504,
-                   "modifiedTime":  null,
-                   "lastModifiedBy":  null
-               },
-    "sort":  0,
-    "_id":  "Urv2zAYsFFjEu1nV",
-    "_key":  "!actors!Urv2zAYsFFjEu1nV"
+                "properties": [],
+                "potency": {}
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>On a tier 3 result, targets are also on fire (save ends). Ground in the affected area counts as difficult terrain until the encounter ends.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Cataclysmic Upheaval",
+      "type": "ability",
+      "_id": "peooGQ1qs2ZFRgq1",
+      "img": "icons/magic/earth/spike-protrusion-mountain-orange.webp",
+      "system": {
+        "type": "villain",
+        "_dsid": "jardvaettr-va3-cataclysmic-upheaval",
+        "story": "",
+        "keywords": [
+          "area",
+          "earth",
+          "magic"
+        ],
+        "category": "villain",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 5
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "each",
+          "each": true
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The Jar\\u00f0v\\u00e6ttr slams both fists into the earth, triggering a cataclysmic upheaval. Each creature in burst 5 takes [[/damage 14]] damage and is knocked prone. Stone pillars erupt from the ground in up to 6 unoccupied squares within the burst, creating blocking terrain. The entire affected area becomes difficult terrain until the end of the encounter. Creatures that fail a Might power roll are also slowed (save ends).</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    }
+  ],
+  "folder": "GXX2DnZcth3KWFfL",
+  "prototypeToken": {
+    "name": "Ashen Hoarder",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "systems/draw-steel/assets/roles/solo.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.8.1",
+    "createdTime": 1757726088504,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "_id": "Urv2zAYsFFjEu1nV",
+  "_key": "!actors!Urv2zAYsFFjEu1nV"
 }
