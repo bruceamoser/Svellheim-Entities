@@ -551,7 +551,7 @@
       "name": "Drag to the Nest",
       "type": "feature",
       "_id": "wMzzDgKWEQhNHmvJ",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>Whenever the fire beetle moves, it can carry an adjacent restrained creature in its mandibles as if the creature were grabbed by it.</p>",

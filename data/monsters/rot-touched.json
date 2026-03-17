@@ -104,7 +104,7 @@
     {
       "name": "Unslakable Bloodthirst",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>The rot-touched has speed 10 while any creature within 10 squares of them is bleeding. The rot-touched must use Exsanguinating Bite against a bleeding creature on their turn if they are able to.</p>",

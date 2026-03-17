@@ -103,7 +103,7 @@
     {
       "name": "Ruthless Rage",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>While within 10 squares of another wyvern, the lurker deals an extra [[/damage 3]] damage with strikes.</p>",
@@ -140,7 +140,7 @@
     {
       "name": "Tenacious Hunter",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>Any creature affected by a condition imposed by a wyvern can't be hidden from the lurker.</p>",

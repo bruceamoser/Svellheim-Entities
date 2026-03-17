@@ -140,7 +140,7 @@
     {
       "name": "Death Snap",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>When the barrow-draugr is reduced to 0 Stamina, they can make a melee [[/damage @monster.freeStrike]] before dying.</p>",

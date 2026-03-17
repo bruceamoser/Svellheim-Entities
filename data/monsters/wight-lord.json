@@ -103,7 +103,7 @@
     {
       "name": "Endless Knight",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
           "value": "<p>The first time the wight-lord is reduced to 0 Stamina by damage that isn't corruption damage or cold damage and their body isn't destroyed, they instead have [[/heal 50]] and fall prone.</p>",
@@ -140,7 +140,7 @@
     {
       "name": "Negative Nerves",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
           "value": "<p>When the wight-lord is targeted by an ability that deals rolled damage, they halve the damage from a tier 1 outcome</p>",

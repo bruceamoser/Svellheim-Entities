@@ -194,7 +194,7 @@
       "name": "Solo Monster",
       "type": "feature",
       "_id": "IFE2CihTBbSeg6qO",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "systems/draw-steel/assets/roles/solo.webp",
       "system": {
         "description": {
           "value": "<p>At the end of each of their turns, the Jar&eth;v&aelig;ttr can take [[/damage 10]] damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.</p><p>The Jar&eth;v&aelig;ttr can take two turns each round. They can't take turns consecutively.</p>",
@@ -232,7 +232,7 @@
       "name": "Rot-Bound Earth",
       "type": "feature",
       "_id": "iTSBKsgpgZ8fHgBG",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p>The Jar&eth;v&aelig;ttr cannot be forcibly moved more than 2 squares by any single effect. It ignores difficult terrain from stone or earth. When below 175 Stamina (Phase 2), its speed increases by 1 and all damage it deals increases by 3.</p>",
@@ -270,7 +270,7 @@
       "name": "Vent-Step",
       "type": "feature",
       "_id": "KyowoDPdEAsCRQ2v",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "system": {
         "description": {
           "value": "<p>Once per round as a free maneuver, the Jar&eth;v&aelig;ttr can sink into any adjacent geothermal vent and emerge from any other visible vent within 12 squares without provoking opportunity attacks.</p>",

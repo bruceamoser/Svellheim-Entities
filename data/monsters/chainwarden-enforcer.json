@@ -103,7 +103,7 @@
     {
       "name": "Masking Glamor",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p>Abilities targeting the greenskeeper that would take a bane from cover or concealment have a double bane instead.</p>",

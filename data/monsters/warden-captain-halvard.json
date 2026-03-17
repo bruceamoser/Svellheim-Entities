@@ -1,720 +1,638 @@
 {
-    "folder":  "aym4mi5JvyLiP0uV",
-    "name":  "Warden-Captain Halvard",
-    "type":  "npc",
-    "img":  "modules/svellheim-entities/assets/icons/monster-images/warden-captain-halvard.png",
-    "system":  {
-                   "stamina":  {
-                                   "value":  80,
-                                   "max":  80,
-                                   "temporary":  0
-                               },
-                   "characteristics":  {
-                                           "might":  {
-                                                         "value":  3
-                                                     },
-                                           "agility":  {
-                                                           "value":  2
-                                                       },
-                                           "reason":  {
-                                                          "value":  2
-                                                      },
-                                           "intuition":  {
-                                                             "value":  0
-                                                         },
-                                           "presence":  {
-                                                            "value":  2
-                                                        }
-                                       },
-                   "combat":  {
-                                  "save":  {
-                                               "threshold":  6,
-                                               "bonus":  ""
-                                           },
-                                  "size":  {
-                                               "value":  1,
-                                               "letter":  "M"
-                                           },
-                                  "stability":  2,
-                                  "turns":  1
-                              },
-                   "biography":  {
-                                     "value":  "\u003cp\u003eWarden-Captain Halvard is the commanding officer of Svellheim\u0027s Chainwarden toll-post on the Coastal Road. A veteran soldier whose authority comes from presence, not cruelty, he carries a chain-flail and heavy shield. He received a raven from Ashwright\u0027s network with a description of the party Ã¢â‚¬â€ he\u0027s been told to detain them alive, if possible, but has latitude. Halvard is a pragmatist who has been bribed, not a zealot. If the fight goes badly, he\u0027ll try to retreat.\u003c/p\u003e",
-                                     "director":  "\u003cp\u003eDirector note: Halvard carries a sealed letter from \u0027V.A.\u0027 (Voss Ashwright) describing the party and offering 50 gold for their detention Ã¢â‚¬â€ a key intelligence find and evidence that the Chainwardens have been compromised. He can be recruited as an ally if treated with respect.\u003c/p\u003e",
-                                     "languages":  [
-
-                                                   ]
-                                 },
-                   "movement":  {
-                                    "value":  5,
-                                    "types":  [
-                                                  "walk"
-                                              ],
-                                    "hover":  false,
-                                    "disengage":  1
-                                },
-                   "damage":  {
-                                  "immunities":  {
-                                                     "all":  0,
-                                                     "acid":  0,
-                                                     "cold":  0,
-                                                     "corruption":  2,
-                                                     "fire":  0,
-                                                     "holy":  0,
-                                                     "lightning":  0,
-                                                     "poison":  0,
-                                                     "psychic":  2,
-                                                     "sonic":  0
-                                                 },
-                                  "weaknesses":  {
-                                                     "all":  0,
-                                                     "acid":  0,
-                                                     "cold":  0,
-                                                     "corruption":  0,
-                                                     "fire":  0,
-                                                     "holy":  0,
-                                                     "lightning":  0,
-                                                     "poison":  0,
-                                                     "psychic":  0,
-                                                     "sonic":  0
-                                                 }
-                              },
-                   "source":  {
-                                  "book":  "",
-                                  "page":  "",
-                                  "license":  "Draw Steel Creator License"
-                              },
-                   "negotiation":  {
-                                       "interest":  5,
-                                       "patience":  5,
-                                       "motivations":  [
-
-                                                       ],
-                                       "pitfalls":  [
-
-                                                    ],
-                                       "impression":  1
-                                   },
-                   "monster":  {
-                                   "freeStrike":  4,
-                                   "keywords":  [
-                                                    "humanoid",
-                                                    "chainwarden"
-                                                ],
-                                   "level":  1,
-                                   "ev":  12,
-                                   "role":  "",
-                                   "organization":  "leader"
-                               }
-               },
-    "prototypeToken":  {
-                           "name":  "Warden-Captain Halvard",
-                           "displayName":  20,
-                           "actorLink":  false,
-                           "width":  1,
-                           "height":  1,
-                           "texture":  {
-                                           "src":  "modules/svellheim-entities/assets/icons/monster-images/warden-captain-halvard.png",
-                                           "anchorX":  0.5,
-                                           "anchorY":  0.5,
-                                           "offsetX":  0,
-                                           "offsetY":  0,
-                                           "fit":  "contain",
-                                           "scaleX":  1,
-                                           "scaleY":  1,
-                                           "rotation":  0,
-                                           "tint":  "#ffffff",
-                                           "alphaThreshold":  0.75
-                                       },
-                           "lockRotation":  true,
-                           "rotation":  0,
-                           "alpha":  1,
-                           "disposition":  -1,
-                           "displayBars":  20,
-                           "bar1":  {
-                                        "attribute":  "stamina"
-                                    },
-                           "bar2":  {
-                                        "attribute":  "hero.resources"
-                                    },
-                           "light":  {
-                                         "negative":  false,
-                                         "priority":  0,
-                                         "alpha":  0.5,
-                                         "angle":  360,
-                                         "bright":  0,
-                                         "color":  null,
-                                         "coloration":  1,
-                                         "dim":  0,
-                                         "attenuation":  0.5,
-                                         "luminosity":  0.5,
-                                         "saturation":  0,
-                                         "contrast":  0,
-                                         "shadows":  0,
-                                         "animation":  {
-                                                           "type":  null,
-                                                           "speed":  5,
-                                                           "intensity":  5,
-                                                           "reverse":  false
-                                                       },
-                                         "darkness":  {
-                                                          "min":  0,
-                                                          "max":  1
-                                                      }
-                                     },
-                           "sight":  {
-                                         "enabled":  false,
-                                         "range":  0,
-                                         "angle":  360,
-                                         "visionMode":  "basic",
-                                         "color":  null,
-                                         "attenuation":  0.1,
-                                         "brightness":  0,
-                                         "saturation":  0,
-                                         "contrast":  0
-                                     },
-                           "detectionModes":  [
-
-                                              ],
-                           "occludable":  {
-                                              "radius":  0
-                                          },
-                           "ring":  {
-                                        "enabled":  false,
-                                        "colors":  {
-                                                       "ring":  null,
-                                                       "background":  null
-                                                   },
-                                        "effects":  0,
-                                        "subject":  {
-                                                        "scale":  1,
-                                                        "texture":  null
-                                                    }
-                                    },
-                           "turnMarker":  {
-                                              "mode":  1,
-                                              "animation":  null,
-                                              "src":  null,
-                                              "disposition":  false
-                                          },
-                           "movementAction":  null,
-                           "flags":  {
-
-                                     },
-                           "randomImg":  false,
-                           "appendNumber":  false,
-                           "prependAdjective":  false
-                       },
-    "items":  [
-                  {
-                      "name":  "Chain-Flail",
-                      "type":  "ability",
-                      "system":  {
-                                     "type":  "free",
-                                     "_dsid":  "chain-flail-free-strike",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "melee",
-                                                      "weapon",
-                                                      "strike"
-                                                  ],
-                                     "category":  "free",
-                                     "resource":  null,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "melee",
-                                                      "primary":  1
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "creatureObject",
-                                                    "value":  1
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "halv_fs_dmg":  {
-                                                                                       "name":  "",
-                                                                                       "img":  null,
-                                                                                       "type":  "damage",
-                                                                                       "_id":  "halv_fs_dmg",
-                                                                                       "damage":  {
-                                                                                                      "tier1":  {
-                                                                                                                    "value":  "4"
-                                                                                                                },
-                                                                                                      "tier2":  {
-                                                                                                                    "value":  "4"
-                                                                                                                },
-                                                                                                      "tier3":  {
-                                                                                                                    "value":  "4"
-                                                                                                                },
-                                                                                                      "types":  [
-
-                                                                                                                ],
-                                                                                                      "properties":  [
-
-                                                                                                                     ],
-                                                                                                      "potency":  {
-
-                                                                                                                  }
-                                                                                                  }
-                                                                                   }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               }
-                                 },
-                      "_id":  "LR8o0RdewALdtdFg",
-                      "img":  "icons/weapons/melee/flail-studded-grey.webp",
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  -200000
-                  },
-                  {
-                      "name":  "End Effect",
-                      "type":  "feature",
-                      "_id":  "O52S6ySgUTmV9LyY",
-                      "img":  "icons/creatures/unholy/demon-hairy-winged-pink.webp",
-                      "system":  {
-                                     "description":  {
-                                                         "value":  "\u003cp\u003eAt the end of each of their turns, the blackguard can take [[/damage 5]] damage to end one effect on them that can be ended by a saving throw. This damage canÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t be reduced in any way.\u003c/p\u003e",
-                                                         "director":  ""
-                                                     },
-                                     "source":  {
-                                                    "book":  "Monsters",
-                                                    "page":  "184",
-                                                    "license":  "Draw Steel Creator License"
-                                                },
-                                     "_dsid":  "end-effect",
-                                     "advancements":  {
-
-                                                      }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  -100000,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "duplicateSource":  null,
-                                     "exportSource":  null,
-                                     "coreVersion":  "13.347",
-                                     "systemId":  "draw-steel",
-                                     "systemVersion":  "0.8.0",
-                                     "lastModifiedBy":  null,
-                                     "modifiedTime":  null
-                                 },
-                      "_key":  "!actors.items!h0iw7LTM1djcBzn9.O52S6ySgUTmV9LyY"
-                  },
-                  {
-                      "name":  "Supernatural Insight",
-                      "type":  "feature",
-                      "_id":  "fw1RNfMAcPUklAxZ",
-                      "img":  "icons/creatures/unholy/demon-hairy-winged-pink.webp",
-                      "system":  {
-                                     "description":  {
-                                                         "value":  "\u003cp\u003eThe Blackguard ignores concealment if itÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s granted by a supernatural effect.\u003c/p\u003e",
-                                                         "director":  ""
-                                                     },
-                                     "source":  {
-                                                    "book":  "Monsters",
-                                                    "page":  "184",
-                                                    "license":  "Draw Steel Creator License"
-                                                },
-                                     "_dsid":  "supernatural-insight",
-                                     "advancements":  {
-
-                                                      }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "duplicateSource":  null,
-                                     "exportSource":  null,
-                                     "coreVersion":  "13.347",
-                                     "systemId":  "draw-steel",
-                                     "systemVersion":  "0.8.0",
-                                     "lastModifiedBy":  null,
-                                     "modifiedTime":  null
-                                 },
-                      "_key":  "!actors.items!h0iw7LTM1djcBzn9.fw1RNfMAcPUklAxZ"
-                  },
-                  {
-                      "name":  "Chain-Flail Sweep",
-                      "type":  "ability",
-                      "system":  {
-                                     "type":  "main",
-                                     "_dsid":  "chain-flail-sweep",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "area",
-                                                      "weapon"
-                                                  ],
-                                     "category":  "signature",
-                                     "resource":  null,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "burst",
-                                                      "primary":  1
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "each",
-                                                    "each":  true
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "@chr",
-                                                                "characteristics":  [
-                                                                                        "might"
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "halv_cfs_dmg":  {
-                                                                                        "name":  "",
-                                                                                        "img":  null,
-                                                                                        "type":  "damage",
-                                                                                        "_id":  "halv_cfs_dmg",
-                                                                                        "damage":  {
-                                                                                                       "tier1":  {
-                                                                                                                     "value":  "3"
-                                                                                                                 },
-                                                                                                       "tier2":  {
-                                                                                                                     "value":  "6"
-                                                                                                                 },
-                                                                                                       "tier3":  {
-                                                                                                                     "value":  "8"
-                                                                                                                 },
-                                                                                                       "types":  [
-
-                                                                                                                 ],
-                                                                                                       "properties":  [
-
-                                                                                                                      ],
-                                                                                                       "potency":  {
-
-                                                                                                                   }
-                                                                                                   }
-                                                                                    }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  "\u003cp\u003e11 or lower: The target is also slowed (Might test vs. 1, save ends).\u003cbr\u003e12-16: The target is also slowed (Might test vs. 2, save ends).\u003cbr\u003e17+: The target is also slowed (Might test vs. 3, save ends).\u003cbr\u003eOne ally within 10 squares can make a free strike.\u003cbr\u003e\u003cstrong\u003e1 Malice:\u003c/strong\u003e One ally within 10 squares can use their signature ability instead.\u003c/p\u003e"
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               }
-                                 },
-                      "_id":  "ffEwfpbVy2zgaNWR",
-                      "img":  "icons/weapons/melee/flail-studded-grey.webp",
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0
-                  },
-                  {
-                      "name":  "Warden\u0027s Warrant",
-                      "type":  "ability",
-                      "system":  {
-                                     "type":  "maneuver",
-                                     "_dsid":  "wardens-warrant",
-                                     "story":  "",
-                                     "keywords":  [
-
-                                                  ],
-                                     "category":  "none",
-                                     "resource":  null,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "ranged",
-                                                      "primary":  10
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "creatureObject",
-                                                    "value":  1
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "\u003cp\u003eThe target is marked until the start of the captain\u0027s next turn. The captain and each of their allies gain an edge on abilities used against targets marked by the captain.\u003c/p\u003e",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               }
-                                 },
-                      "_id":  "jhCcXtLdFCCsgz0j",
-                      "img":  "icons/svg/eye.svg",
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  100000
-                  },
-                  {
-                      "name":  "Shield Wall",
-                      "type":  "ability",
-                      "system":  {
-                                     "type":  "triggered",
-                                     "_dsid":  "shield-wall",
-                                     "story":  "",
-                                     "keywords":  [
-
-                                                  ],
-                                     "category":  "none",
-                                     "resource":  null,
-                                     "trigger":  "A creature makes a strike against the captain or an ally adjacent to them.",
-                                     "distance":  {
-                                                      "type":  "melee",
-                                                      "primary":  1
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "self"
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "\u003cp\u003eThe damage is halved.\u003c/p\u003e",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               }
-                                 },
-                      "_id":  "Ip5cKMXMXcfiTuvU",
-                      "img":  "icons/equipment/shield/tower-wooden-worn-brown.webp",
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  200000
-                  },
-                  {
-                      "name":  "Form Up!",
-                      "type":  "ability",
-                      "system":  {
-                                     "type":  "villain",
-                                     "_dsid":  "form-up",
-                                     "story":  "",
-                                     "keywords":  [
-
-                                                  ],
-                                     "category":  "villain",
-                                     "resource":  1,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "self"
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "self"
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "\u003cp\u003eThe captain shifts up to their speed. During or after this movement, they can use Chain-Flail Sweep twice.\u003c/p\u003e",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               }
-                                 },
-                      "_id":  "1API7SCgHBhSMYhN",
-                      "img":  "icons/skills/movement/feet-winged-boots-brown.webp",
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  300000
-                  },
-                  {
-                      "name":  "Disperse!",
-                      "type":  "ability",
-                      "system":  {
-                                     "type":  "villain",
-                                     "_dsid":  "disperse",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "area",
-                                                      "magic"
-                                                  ],
-                                     "category":  "villain",
-                                     "resource":  2,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "burst",
-                                                      "primary":  5
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "each",
-                                                    "each":  true
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "\u003cp\u003eThe captain slides each target up to 5 squares.\u003c/p\u003e",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               }
-                                 },
-                      "_id":  "hL3JsqZqqySVDUtW",
-                      "img":  "icons/magic/air/wind-swirl-pink.webp",
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  400000
-                  },
-                  {
-                      "name":  "By Authority of the Chain!",
-                      "type":  "ability",
-                      "system":  {
-                                     "type":  "villain",
-                                     "_dsid":  "by-authority-of-the-chain",
-                                     "story":  "",
-                                     "keywords":  [
-
-                                                  ],
-                                     "category":  "villain",
-                                     "resource":  3,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "special"
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "special"
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "\u003cp\u003eEach ally within 10 squares can move up to their speed and make a free strike.\u003c/p\u003e",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               }
-                                 },
-                      "_id":  "OBGkcAiIJvwR3Bwv",
-                      "img":  "icons/skills/social/diplomacy-handshake.webp",
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  500000
-                  }
-              ],
-    "effects":  [
-
-                ],
-    "ownership":  {
-                      "default":  0
-                  },
-    "flags":  {
-
-              },
-    "_stats":  {
-                   "compendiumSource":  null,
-                   "duplicateSource":  null,
-                   "exportSource":  null,
-                   "coreVersion":  "13.348",
-                   "systemId":  "draw-steel",
-                   "systemVersion":  "0.8.0",
-                   "createdTime":  1755922194229,
-                   "modifiedTime":  null,
-                   "lastModifiedBy":  null
-               },
-    "_id":  "IhZGOSunXID8fWT7",
-    "sort":  0,
-    "_key":  "!actors!IhZGOSunXID8fWT7"
+  "folder": "aym4mi5JvyLiP0uV",
+  "name": "Warden-Captain Halvard",
+  "type": "npc",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/warden-captain-halvard.png",
+  "system": {
+    "stamina": {
+      "value": 80,
+      "max": 80,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 0
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 2,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Warden-Captain Halvard is the commanding officer of Svellheim's Chainwarden toll-post on the Coastal Road. A veteran soldier whose authority comes from presence, not cruelty, he carries a chain-flail and heavy shield. He received a raven from Ashwright's network with a description of the party Ã¢â‚¬â€ he's been told to detain them alive, if possible, but has latitude. Halvard is a pragmatist who has been bribed, not a zealot. If the fight goes badly, he'll try to retreat.</p>",
+      "director": "<p>Director note: Halvard carries a sealed letter from 'V.A.' (Voss Ashwright) describing the party and offering 50 gold for their detention Ã¢â‚¬â€ a key intelligence find and evidence that the Chainwardens have been compromised. He can be recruited as an ally if treated with respect.</p>",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 2,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 2,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "Draw Steel Creator License"
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 4,
+      "keywords": [
+        "humanoid",
+        "chainwarden"
+      ],
+      "level": 1,
+      "ev": 12,
+      "role": "",
+      "organization": "leader"
+    }
+  },
+  "prototypeToken": {
+    "name": "Warden-Captain Halvard",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/svellheim-entities/assets/icons/monster-images/warden-captain-halvard.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Chain-Flail",
+      "type": "ability",
+      "system": {
+        "type": "free",
+        "_dsid": "chain-flail-free-strike",
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "strike"
+        ],
+        "category": "free",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {
+            "halv_fs_dmg": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "halv_fs_dmg",
+              "damage": {
+                "tier1": {
+                  "value": "4"
+                },
+                "tier2": {
+                  "value": "4"
+                },
+                "tier3": {
+                  "value": "4"
+                },
+                "types": [],
+                "properties": [],
+                "potency": {}
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "LR8o0RdewALdtdFg",
+      "img": "icons/weapons/melee/flail-studded-grey.webp",
+      "effects": [],
+      "folder": null,
+      "sort": -200000
+    },
+    {
+      "name": "End Effect",
+      "type": "feature",
+      "_id": "O52S6ySgUTmV9LyY",
+      "img": "systems/draw-steel/assets/roles/solo.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the end of each of their turns, the blackguard can take [[/damage 5]] damage to end one effect on them that can be ended by a saving throw. This damage canÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t be reduced in any way.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "184",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "end-effect",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!h0iw7LTM1djcBzn9.O52S6ySgUTmV9LyY"
+    },
+    {
+      "name": "Supernatural Insight",
+      "type": "feature",
+      "_id": "fw1RNfMAcPUklAxZ",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Blackguard ignores concealment if itÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s granted by a supernatural effect.</p>",
+          "director": ""
+        },
+        "source": {
+          "book": "Monsters",
+          "page": "184",
+          "license": "Draw Steel Creator License"
+        },
+        "_dsid": "supernatural-insight",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "draw-steel",
+        "systemVersion": "0.8.0",
+        "lastModifiedBy": null,
+        "modifiedTime": null
+      },
+      "_key": "!actors.items!h0iw7LTM1djcBzn9.fw1RNfMAcPUklAxZ"
+    },
+    {
+      "name": "Chain-Flail Sweep",
+      "type": "ability",
+      "system": {
+        "type": "main",
+        "_dsid": "chain-flail-sweep",
+        "story": "",
+        "keywords": [
+          "area",
+          "weapon"
+        ],
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "each",
+          "each": true
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "halv_cfs_dmg": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "halv_cfs_dmg",
+              "damage": {
+                "tier1": {
+                  "value": "3"
+                },
+                "tier2": {
+                  "value": "6"
+                },
+                "tier3": {
+                  "value": "8"
+                },
+                "types": [],
+                "properties": [],
+                "potency": {}
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": "<p>11 or lower: The target is also slowed (Might test vs. 1, save ends).<br>12-16: The target is also slowed (Might test vs. 2, save ends).<br>17+: The target is also slowed (Might test vs. 3, save ends).<br>One ally within 10 squares can make a free strike.<br><strong>1 Malice:</strong> One ally within 10 squares can use their signature ability instead.</p>"
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "ffEwfpbVy2zgaNWR",
+      "img": "icons/weapons/melee/flail-studded-grey.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "name": "Warden's Warrant",
+      "type": "ability",
+      "system": {
+        "type": "maneuver",
+        "_dsid": "wardens-warrant",
+        "story": "",
+        "keywords": [],
+        "category": "none",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 10
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The target is marked until the start of the captain's next turn. The captain and each of their allies gain an edge on abilities used against targets marked by the captain.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "jhCcXtLdFCCsgz0j",
+      "img": "icons/svg/eye.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 100000
+    },
+    {
+      "name": "Shield Wall",
+      "type": "ability",
+      "system": {
+        "type": "triggered",
+        "_dsid": "shield-wall",
+        "story": "",
+        "keywords": [],
+        "category": "none",
+        "resource": null,
+        "trigger": "A creature makes a strike against the captain or an ally adjacent to them.",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self"
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The damage is halved.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "Ip5cKMXMXcfiTuvU",
+      "img": "icons/equipment/shield/tower-wooden-worn-brown.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000
+    },
+    {
+      "name": "Form Up!",
+      "type": "ability",
+      "system": {
+        "type": "villain",
+        "_dsid": "form-up",
+        "story": "",
+        "keywords": [],
+        "category": "villain",
+        "resource": 1,
+        "trigger": "",
+        "distance": {
+          "type": "self"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "self"
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The captain shifts up to their speed. During or after this movement, they can use Chain-Flail Sweep twice.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "1API7SCgHBhSMYhN",
+      "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000
+    },
+    {
+      "name": "Disperse!",
+      "type": "ability",
+      "system": {
+        "type": "villain",
+        "_dsid": "disperse",
+        "story": "",
+        "keywords": [
+          "area",
+          "magic"
+        ],
+        "category": "villain",
+        "resource": 2,
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 5
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "each",
+          "each": true
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The captain slides each target up to 5 squares.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "hL3JsqZqqySVDUtW",
+      "img": "icons/magic/air/wind-swirl-pink.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000
+    },
+    {
+      "name": "By Authority of the Chain!",
+      "type": "ability",
+      "system": {
+        "type": "villain",
+        "_dsid": "by-authority-of-the-chain",
+        "story": "",
+        "keywords": [],
+        "category": "villain",
+        "resource": 3,
+        "trigger": "",
+        "distance": {
+          "type": "special"
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "special"
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each ally within 10 squares can move up to their speed and make a free strike.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        }
+      },
+      "_id": "OBGkcAiIJvwR3Bwv",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 500000
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "draw-steel",
+    "systemVersion": "0.8.0",
+    "createdTime": 1755922194229,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_id": "IhZGOSunXID8fWT7",
+  "sort": 0,
+  "_key": "!actors!IhZGOSunXID8fWT7"
 }

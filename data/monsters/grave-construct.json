@@ -103,7 +103,7 @@
     {
       "name": "Swarm",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
           "value": "<p>The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a free strike against each creature whose space they share.</p>",

@@ -103,7 +103,7 @@
     {
       "name": "Split Shot",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>Whenever the gunner deals rolled damage to a target, one creature or object adjacent to the target takes [[/damage 3]] damage.</p>",

@@ -104,7 +104,7 @@
     {
       "name": "Stonebreaker Flesh",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
           "value": "<p>Whenever an enemy obtains a tier 1 outcome on a melee ability used against the grafvitnir stage 3 hunger made manifest, they take a bane on that ability until the end of the encounter.</p>",
@@ -141,7 +141,7 @@
     {
       "name": "Stone Steps",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "system": {
         "description": {
           "value": "<p>The grafvitnir stage 3 hunger made manifest ignores difficult terrain</p>",
@@ -178,7 +178,7 @@
     {
       "name": "Stone Swim",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "system": {
         "description": {
           "value": "<p>The grafvitnir stage 3 hunger made manifest can burrow through stone, but can't drag other creatures underground when they do so.</p>",

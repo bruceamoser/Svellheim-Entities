@@ -1,551 +1,501 @@
 {
-    "folder":  "IOJX0Gbij4nZLkvh",
-    "name":  "Pale Maw Acolyte",
-    "type":  "npc",
-    "_id":  "xYzu17tl4nJK7X2D",
-    "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
-    "system":  {
-                   "stamina":  {
-                                   "value":  40,
-                                   "max":  40,
-                                   "temporary":  0
-                               },
-                   "characteristics":  {
-                                           "might":  {
-                                                         "value":  0
-                                                     },
-                                           "agility":  {
-                                                           "value":  1
-                                                       },
-                                           "reason":  {
-                                                          "value":  0
-                                                      },
-                                           "intuition":  {
-                                                             "value":  0
-                                                         },
-                                           "presence":  {
-                                                            "value":  2
-                                                        }
-                                       },
-                   "combat":  {
-                                  "save":  {
-                                               "threshold":  6,
-                                               "bonus":  ""
-                                           },
-                                  "size":  {
-                                               "value":  1,
-                                               "letter":  "M"
-                                           },
-                                  "stability":  0,
-                                  "turns":  1
-                              },
-                   "biography":  {
-                                     "value":  "\u003cp\u003ePale Maw acolytes are the initiates and shadow operatives of the Pale Maw cult â€” dedicated to the Entropy God and trained in the dual arts of corruption magic and covert combat. They move through shadows with practiced ease, striking from difficult terrain and unleashing corruption-touched spells that drain vitality and cloud the mind. They are true believers, fearless in the cult\u0027s service, and their presence on a battlefield signals that the Pale Maw\u0027s influence has reached deeply into the region.\u003c/p\u003e",
-                                     "director":  "",
-                                     "languages":  [
-
-                                                   ]
-                                 },
-                   "movement":  {
-                                    "value":  5,
-                                    "types":  [
-                                                  "walk"
-                                              ],
-                                    "hover":  false,
-                                    "disengage":  1
-                                },
-                   "damage":  {
-                                  "immunities":  {
-                                                     "all":  0,
-                                                     "acid":  0,
-                                                     "cold":  0,
-                                                     "corruption":  2,
-                                                     "fire":  0,
-                                                     "holy":  0,
-                                                     "lightning":  0,
-                                                     "poison":  0,
-                                                     "psychic":  2,
-                                                     "sonic":  0
-                                                 },
-                                  "weaknesses":  {
-                                                     "all":  0,
-                                                     "acid":  0,
-                                                     "cold":  0,
-                                                     "corruption":  0,
-                                                     "fire":  0,
-                                                     "holy":  0,
-                                                     "lightning":  0,
-                                                     "poison":  0,
-                                                     "psychic":  0,
-                                                     "sonic":  0
-                                                 }
-                              },
-                   "source":  {
-                                  "book":  "Monsters",
-                                  "page":  "182",
-                                  "license":  "Draw Steel Creator License"
-                              },
-                   "negotiation":  {
-                                       "interest":  5,
-                                       "patience":  5,
-                                       "motivations":  [
-
-                                                       ],
-                                       "pitfalls":  [
-
-                                                    ],
-                                       "impression":  1
-                                   },
-                   "monster":  {
-                                   "freeStrike":  4,
-                                   "keywords":  [
-                                                    "humanoid",
-                                                    "pale-maw"
-                                                ],
-                                   "level":  2,
-                                   "ev":  8,
-                                   "role":  "support",
-                                   "organization":  "platoon"
-                               }
-               },
-    "prototypeToken":  {
-                           "name":  "Human Death Cultist",
-                           "displayName":  20,
-                           "actorLink":  false,
-                           "width":  1,
-                           "height":  1,
-                           "texture":  {
-                                           "src":  "systems/draw-steel/assets/roles/support.webp",
-                                           "anchorX":  0.5,
-                                           "anchorY":  0.5,
-                                           "offsetX":  0,
-                                           "offsetY":  0,
-                                           "fit":  "contain",
-                                           "scaleX":  1,
-                                           "scaleY":  1,
-                                           "rotation":  0,
-                                           "tint":  "#ffffff",
-                                           "alphaThreshold":  0.75
-                                       },
-                           "lockRotation":  true,
-                           "rotation":  0,
-                           "alpha":  1,
-                           "disposition":  -1,
-                           "displayBars":  20,
-                           "bar1":  {
-                                        "attribute":  "stamina"
-                                    },
-                           "bar2":  {
-                                        "attribute":  "hero.resources"
-                                    },
-                           "light":  {
-                                         "negative":  false,
-                                         "priority":  0,
-                                         "alpha":  0.5,
-                                         "angle":  360,
-                                         "bright":  0,
-                                         "color":  null,
-                                         "coloration":  1,
-                                         "dim":  0,
-                                         "attenuation":  0.5,
-                                         "luminosity":  0.5,
-                                         "saturation":  0,
-                                         "contrast":  0,
-                                         "shadows":  0,
-                                         "animation":  {
-                                                           "type":  null,
-                                                           "speed":  5,
-                                                           "intensity":  5,
-                                                           "reverse":  false
-                                                       },
-                                         "darkness":  {
-                                                          "min":  0,
-                                                          "max":  1
-                                                      }
-                                     },
-                           "sight":  {
-                                         "enabled":  false,
-                                         "range":  0,
-                                         "angle":  360,
-                                         "visionMode":  "basic",
-                                         "color":  null,
-                                         "attenuation":  0.1,
-                                         "brightness":  0,
-                                         "saturation":  0,
-                                         "contrast":  0
-                                     },
-                           "detectionModes":  [
-
-                                              ],
-                           "occludable":  {
-                                              "radius":  0
-                                          },
-                           "ring":  {
-                                        "enabled":  false,
-                                        "colors":  {
-                                                       "ring":  null,
-                                                       "background":  null
-                                                   },
-                                        "effects":  1,
-                                        "subject":  {
-                                                        "scale":  1,
-                                                        "texture":  null
-                                                    }
-                                    },
-                           "turnMarker":  {
-                                              "mode":  1,
-                                              "animation":  null,
-                                              "src":  null,
-                                              "disposition":  false
-                                          },
-                           "movementAction":  null,
-                           "flags":  {
-
-                                     },
-                           "randomImg":  false,
-                           "appendNumber":  false,
-                           "prependAdjective":  false
-                       },
-    "items":  [
-                  {
-                      "name":  "Ritual Dagger",
-                      "type":  "ability",
-                      "_id":  "6wZk54bOIXIhCqnk",
-                      "img":  "icons/weapons/daggers/dagger-curved-teal.webp",
-                      "system":  {
-                                     "type":  "free",
-                                     "_dsid":  "pale-maw-acolyte-free-strike",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "melee",
-                                                      "weapon",
-                                                      "strike"
-                                                  ],
-                                     "category":  "free",
-                                     "resource":  null,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "melee",
-                                                      "primary":  1
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "creatureObject",
-                                                    "value":  1
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "RokL1lElEI6fi5pY":  {
-                                                                                            "name":  "",
-                                                                                            "img":  null,
-                                                                                            "type":  "damage",
-                                                                                            "_id":  "RokL1lElEI6fi5pY",
-                                                                                            "damage":  {
-                                                                                                           "tier1":  {
-                                                                                                                         "value":  "4"
-                                                                                                                     },
-                                                                                                           "tier2":  {
-                                                                                                                         "value":  "4"
-                                                                                                                     },
-                                                                                                           "tier3":  {
-                                                                                                                         "value":  "4"
-                                                                                                                     },
-                                                                                                           "types":  [
-
-                                                                                                                     ],
-                                                                                                           "properties":  [
-
-                                                                                                                          ],
-                                                                                                           "potency":  {
-
-                                                                                                                       }
-                                                                                                       }
-                                                                                        }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  -200000,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Ritual Dagger",
-                      "type":  "ability",
-                      "_id":  "NPeDc7A6BXBLhH5l",
-                      "img":  "icons/weapons/daggers/dagger-curved-teal.webp",
-                      "system":  {
-                                     "type":  "main",
-                                     "_dsid":  "pale-maw-acolyte-ritual-dagger",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "melee",
-                                                      "weapon",
-                                                      "strike"
-                                                  ],
-                                     "category":  "signature",
-                                     "resource":  null,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "melee",
-                                                      "primary":  1
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "creatureObject",
-                                                    "value":  1
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "@chr",
-                                                                "characteristics":  [
-                                                                                        "agility"
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "Gu5jbiKTho4VQVJL":  {
-                                                                                            "name":  "",
-                                                                                            "img":  null,
-                                                                                            "type":  "damage",
-                                                                                            "_id":  "Gu5jbiKTho4VQVJL",
-                                                                                            "damage":  {
-                                                                                                           "tier1":  {
-                                                                                                                         "value":  "3"
-                                                                                                                     },
-                                                                                                           "tier2":  {
-                                                                                                                         "value":  "5"
-                                                                                                                     },
-                                                                                                           "tier3":  {
-                                                                                                                         "value":  "7"
-                                                                                                                     },
-                                                                                                           "types":  [
-
-                                                                                                                     ],
-                                                                                                           "properties":  [
-
-                                                                                                                          ],
-                                                                                                           "potency":  {
-
-                                                                                                                       }
-                                                                                                       }
-                                                                                        }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Shadow Fade",
-                      "type":  "ability",
-                      "_id":  "ERIz4fQdrLzgsKU7",
-                      "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
-                      "system":  {
-                                     "type":  "main",
-                                     "_dsid":  "pale-maw-acolyte-shadow-fade",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "area",
-                                                      "magic"
-                                                  ],
-                                     "category":  "heroic",
-                                     "resource":  2,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "burst",
-                                                      "primary":  2
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "each",
-                                                    "each":  true
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "\u003cp\u003eThe acolyte dissolves into shadow. Until the start of the acolyte\u0027s next turn or until the acolyte makes an attack (whichever comes first), the acolyte is concealed and ignores difficult terrain.\u003c/p\u003e",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Fanatical",
-                      "type":  "feature",
-                      "_id":  "TesGfXPogUDyGvXR",
-                      "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
-                      "system":  {
-                                     "description":  {
-                                                         "value":  "\u003cp\u003eThe acolyte has an edge on power rolls to resist being frightened or charmed.\u003c/p\u003e",
-                                                         "director":  ""
-                                                     },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                },
-                                     "_dsid":  "pale-maw-acolyte-fanatical",
-                                     "advancements":  {
-
-                                                      }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  }
-              ],
-    "effects":  [
-
-                ],
-    "sort":  0,
-    "ownership":  {
-                      "default":  0
-                  },
-    "flags":  {
-
-              },
-    "_stats":  {
-                   "compendiumSource":  null,
-                   "duplicateSource":  null,
-                   "exportSource":  null,
-                   "coreVersion":  "13.348",
-                   "systemId":  "draw-steel",
-                   "systemVersion":  "0.8.1",
-                   "createdTime":  1757011034029,
-                   "modifiedTime":  null,
-                   "lastModifiedBy":  null
-               },
-    "_key":  "!actors!xYzu17tl4nJK7X2D"
+  "folder": "IOJX0Gbij4nZLkvh",
+  "name": "Pale Maw Acolyte",
+  "type": "npc",
+  "_id": "xYzu17tl4nJK7X2D",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "system": {
+    "stamina": {
+      "value": 40,
+      "max": 40,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 0
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 0
+      },
+      "intuition": {
+        "value": 0
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Pale Maw acolytes are the initiates and shadow operatives of the Pale Maw cult â€” dedicated to the Entropy God and trained in the dual arts of corruption magic and covert combat. They move through shadows with practiced ease, striking from difficult terrain and unleashing corruption-touched spells that drain vitality and cloud the mind. They are true believers, fearless in the cult's service, and their presence on a battlefield signals that the Pale Maw's influence has reached deeply into the region.</p>",
+      "director": "",
+      "languages": []
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 2,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 2,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "source": {
+      "book": "Monsters",
+      "page": "182",
+      "license": "Draw Steel Creator License"
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 4,
+      "keywords": [
+        "humanoid",
+        "pale-maw"
+      ],
+      "level": 2,
+      "ev": 8,
+      "role": "support",
+      "organization": "platoon"
+    }
+  },
+  "prototypeToken": {
+    "name": "Human Death Cultist",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/draw-steel/assets/roles/support.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Ritual Dagger",
+      "type": "ability",
+      "_id": "6wZk54bOIXIhCqnk",
+      "img": "icons/weapons/daggers/dagger-curved-teal.webp",
+      "system": {
+        "type": "free",
+        "_dsid": "pale-maw-acolyte-free-strike",
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "strike"
+        ],
+        "category": "free",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {
+            "RokL1lElEI6fi5pY": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "RokL1lElEI6fi5pY",
+              "damage": {
+                "tier1": {
+                  "value": "4"
+                },
+                "tier2": {
+                  "value": "4"
+                },
+                "tier3": {
+                  "value": "4"
+                },
+                "types": [],
+                "properties": [],
+                "potency": {}
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -200000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Ritual Dagger",
+      "type": "ability",
+      "_id": "NPeDc7A6BXBLhH5l",
+      "img": "icons/weapons/daggers/dagger-curved-teal.webp",
+      "system": {
+        "type": "main",
+        "_dsid": "pale-maw-acolyte-ritual-dagger",
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "strike"
+        ],
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "agility"
+            ]
+          },
+          "effects": {
+            "Gu5jbiKTho4VQVJL": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "Gu5jbiKTho4VQVJL",
+              "damage": {
+                "tier1": {
+                  "value": "3"
+                },
+                "tier2": {
+                  "value": "5"
+                },
+                "tier3": {
+                  "value": "7"
+                },
+                "types": [],
+                "properties": [],
+                "potency": {}
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Shadow Fade",
+      "type": "ability",
+      "_id": "ERIz4fQdrLzgsKU7",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "type": "main",
+        "_dsid": "pale-maw-acolyte-shadow-fade",
+        "story": "",
+        "keywords": [
+          "area",
+          "magic"
+        ],
+        "category": "heroic",
+        "resource": 2,
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 2
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "each",
+          "each": true
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The acolyte dissolves into shadow. Until the start of the acolyte's next turn or until the acolyte makes an attack (whichever comes first), the acolyte is concealed and ignores difficult terrain.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Fanatical",
+      "type": "feature",
+      "_id": "TesGfXPogUDyGvXR",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>The acolyte has an edge on power rolls to resist being frightened or charmed.</p>",
+          "director": ""
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        },
+        "_dsid": "pale-maw-acolyte-fanatical",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "draw-steel",
+    "systemVersion": "0.8.1",
+    "createdTime": 1757011034029,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!xYzu17tl4nJK7X2D"
 }

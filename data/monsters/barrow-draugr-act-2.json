@@ -103,7 +103,7 @@
     {
       "name": "Fickle and Free",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "system": {
         "description": {
           "value": "<p>The cold can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.</p>",
@@ -140,7 +140,7 @@
     {
       "name": "Primordial Strength",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>The cold's strikes gain a +[[/damage 6]] damage bonus against objects.</p>",
@@ -177,7 +177,7 @@
     {
       "name": "Stone Swim",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "system": {
         "description": {
           "value": "<p>The cold can burrow through stone, but can't drag other creatures underground when they do so.</p>",

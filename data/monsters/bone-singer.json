@@ -103,7 +103,7 @@
     {
       "name": "Lethe",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p>While the bone-singer is winded, they gain an edge on strikes, and any strike made against them gains an edge.</p>",
@@ -140,7 +140,7 @@
     {
       "name": "Soulsight",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p>Any creature within 2 squares of the bone-singer can't be hidden from them.</p>",

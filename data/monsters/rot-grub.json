@@ -202,7 +202,7 @@
       "name": "Shocking",
       "type": "feature",
       "_id": "W7XaSohNbEJJGxTS",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p>At the start of each of their turns, the rot grub deals [[/damage 2 corruption]] damage to each wet enemy within 2 squares.</p>",
@@ -446,7 +446,7 @@
       "name": "Wet",
       "type": "feature",
       "_id": "LCVUFvkic3ekh34p",
-      "img": "icons/magic/water/water-drop-swirl-blue.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p>Angulotls make use of a unique effect called “wet.” While wet, an angulotl doesn’t provoke opportunity attacks by moving. At the same time, any non-angulotl who is wet and ends their turn with none of their movement remaining slips and falls prone. Several angulotl abilities can impose this effect, but a creature in an encounter featuring angulotls can also become wet by entering water, as the Director determines.</p>",

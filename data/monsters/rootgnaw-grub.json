@@ -202,7 +202,7 @@
       "name": "Quick Snack",
       "type": "feature",
       "_id": "Vvlfi4dxbiEvRKrN",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>Any angulotl who can target the pollywog with a melee free strike can eat them as a maneuver. The angulotl regains [[/heal 4]] and is wet until the end of their next turn.</p>",
@@ -415,7 +415,7 @@
       "name": "Wet",
       "type": "feature",
       "_id": "LCVUFvkic3ekh34p",
-      "img": "icons/magic/water/water-drop-swirl-blue.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p>Angulotls make use of a unique effect called “wet.” While wet, an angulotl doesn’t provoke opportunity attacks by moving. At the same time, any non-angulotl who is wet and ends their turn with none of their movement remaining slips and falls prone. Several angulotl abilities can impose this effect, but a creature in an encounter featuring angulotls can also become wet by entering water, as the Director determines.</p>",

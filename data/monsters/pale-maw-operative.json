@@ -103,7 +103,7 @@
     {
       "name": "Infernal Ichor",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p>When the trooper is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the trooper takes [[/damage 3 psychic]] damage.</p>",

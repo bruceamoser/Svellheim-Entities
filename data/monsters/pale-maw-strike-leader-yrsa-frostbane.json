@@ -103,7 +103,7 @@
     {
       "name": "Battle Ready",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
           "value": "<p>Any hidden creature who makes a strike against the death captain or any ally within 2 squares of the death captain takes a bane on the strike.</p>",
@@ -140,7 +140,7 @@
     {
       "name": "Infernal Ichor",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p>When the death captain is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the death captain takes [[/damage 3 fire]] damage.</p>",
