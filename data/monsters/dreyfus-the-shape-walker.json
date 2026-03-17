@@ -325,7 +325,7 @@
     {
       "name": "Poison the Blade",
       "type": "ability",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/weapons/swords/sword-guard-blue.webp",
       "system": {
         "type": "maneuver",
         "category": "",
@@ -425,7 +425,7 @@
         }
       },
       "_id": "xB9Vd4t5keqs1JDR",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
       "effects": [],
       "folder": "IUueWB8qKCPanWCy",
       "sort": 250000,
@@ -547,7 +547,7 @@
         }
       },
       "_id": "8e54PBDCLRgBpCkU",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
       "effects": [],
       "folder": "IUueWB8qKCPanWCy",
       "sort": 200000,
@@ -608,7 +608,7 @@
         }
       },
       "_id": "9wDgHxxo5PamhM3w",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
       "effects": [],
       "folder": "IUueWB8qKCPanWCy",
       "sort": 100000,
@@ -793,7 +793,7 @@
         }
       },
       "_id": "UarPvMGwBUArRMi9",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
       "effects": [],
       "flags": {},
       "_stats": {

@@ -398,7 +398,7 @@
         }
       },
       "_id": "W42xNXONogrgZ0Fi",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -552,7 +552,7 @@
         }
       },
       "_id": "T5p9mzimLuGPRQiv",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -982,7 +982,7 @@
       "name": "Show Them the Great Fear",
       "type": "ability",
       "_id": "XPiOlpj5iRNcFIvP",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -1044,7 +1044,7 @@
       "name": "Goblin Malice Features",
       "type": "ability",
       "_id": "06sDqIj5EE1bUxw1",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -1106,7 +1106,7 @@
       "name": "Grab Iron Ball",
       "type": "ability",
       "_id": "OE8d20QnSaE7ZHfI",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -1167,7 +1167,7 @@
       "name": "Grab Javelin",
       "type": "ability",
       "_id": "Ie5fkOP90woMMUVx",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
       "system": {
         "source": {
           "book": "Monsters",

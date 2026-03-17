@@ -364,7 +364,7 @@
       "name": "Forest Network",
       "type": "ability",
       "_id": "DNQTI31GwxJLJaKh",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -485,7 +485,7 @@
       "name": "Vines Everywhere",
       "type": "ability",
       "_id": "Xo0apOKkrnZ7lnKM",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
       "system": {
         "source": {
           "book": "Monsters",

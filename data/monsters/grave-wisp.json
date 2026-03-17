@@ -141,7 +141,7 @@
     {
       "name": "Dweomer Plume",
       "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -340,7 +340,7 @@
       "name": "Chaincast",
       "type": "ability",
       "_id": "QOHebOCHFr6tglBw",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -401,7 +401,7 @@
       "name": "In Defiance of Time",
       "type": "ability",
       "_id": "oILvREyZahTmzq10",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "system": {
         "source": {
           "book": "Monsters",

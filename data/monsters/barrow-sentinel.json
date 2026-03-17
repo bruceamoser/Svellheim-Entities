@@ -359,7 +359,7 @@
       "name": "Barrow Maul",
       "type": "ability",
       "_id": "BSent3BarrowMaul",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/weapons/clubs/greatclub-simple.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -506,7 +506,7 @@
       "name": "Crypt Surge",
       "type": "ability",
       "_id": "BSent4CryptSurge",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "system": {
         "type": "main",
         "category": "heroic",
@@ -653,7 +653,7 @@
       "name": "Barrow's Embrace",
       "type": "ability",
       "_id": "BSent5BarrowEmb5",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "system": {
         "type": "main",
         "category": "heroic",

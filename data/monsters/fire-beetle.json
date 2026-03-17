@@ -625,7 +625,7 @@
         }
       },
       "_id": "jeKfV8aI1rqyfkj4",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "effects": [],
       "folder": "zR2leIjgt7VcKr8l",
       "sort": 300000,
@@ -848,7 +848,7 @@
         }
       },
       "_id": "UrwLwfDVlxJTNQTd",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "effects": [],
       "flags": {},
       "_stats": {

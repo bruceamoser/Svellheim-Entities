@@ -273,7 +273,7 @@
         }
       },
       "_id": "UsBSwuFSEE8zpLvM",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "effects": [],
       "folder": "zR2leIjgt7VcKr8l",
       "sort": 200000,
@@ -335,7 +335,7 @@
         }
       },
       "_id": "jeKfV8aI1rqyfkj4",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/ranged/projectile-spiral-gray.webp",
       "effects": [],
       "folder": "zR2leIjgt7VcKr8l",
       "sort": 300000,
@@ -464,7 +464,7 @@
         }
       },
       "_id": "PcQlFB5Dg3CXZrDm",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/weapons/clubs/greatclub-simple.webp",
       "effects": [],
       "folder": null,
       "sort": 0,

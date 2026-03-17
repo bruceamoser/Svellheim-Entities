@@ -341,7 +341,7 @@
         }
       },
       "_id": "NEakfBuaAxqTaUBC",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -539,7 +539,7 @@
         }
       },
       "_id": "xdpHBlsUeL4e9RlN",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -636,7 +636,7 @@
         }
       },
       "_id": "jeKfV8aI1rqyfkj4",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/ranged/projectile-spiral-gray.webp",
       "effects": [],
       "folder": "zR2leIjgt7VcKr8l",
       "sort": 300000,
@@ -698,7 +698,7 @@
         }
       },
       "_id": "UsBSwuFSEE8zpLvM",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "effects": [],
       "folder": "zR2leIjgt7VcKr8l",
       "sort": 200000,

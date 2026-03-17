@@ -308,7 +308,7 @@
       "name": "Earthshaker Slam",
       "type": "ability",
       "_id": "5YEayl7vzVVzP8oJ",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
       "system": {
         "type": "main",
         "_dsid": "jardvaettr-earthshaker-slam",

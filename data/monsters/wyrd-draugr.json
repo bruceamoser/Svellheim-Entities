@@ -178,7 +178,7 @@
     {
       "name": "Water Wing",
       "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -424,7 +424,7 @@
     {
       "name": "Convocation of Waves",
       "type": "ability",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
       "system": {
         "type": "maneuver",
         "category": "signature",
@@ -608,7 +608,7 @@
       "name": "Elemental Swap",
       "type": "ability",
       "_id": "ivYpZCg1VqdHPv1k",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -717,7 +717,7 @@
       "name": "Split",
       "type": "ability",
       "_id": "nepObNKqvUUHrr8q",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -777,7 +777,7 @@
       "name": "Convocation of Chaos",
       "type": "ability",
       "_id": "vDtUjuLPjntj32co",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
       "system": {
         "source": {
           "book": "Monsters",

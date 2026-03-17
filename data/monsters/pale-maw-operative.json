@@ -140,7 +140,7 @@
     {
       "name": "psychic Flail",
       "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/weapons/melee/flail-studded-grey.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -251,7 +251,7 @@
     {
       "name": "Fight Me, Coward!",
       "type": "ability",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
       "system": {
         "type": "maneuver",
         "category": "",
@@ -320,7 +320,7 @@
       "folder": "T4SAnS1vRpGBktJS",
       "name": "Goblin Malice Features",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -381,7 +381,7 @@
     {
       "name": "Operation Earth Sear",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
       "system": {
         "type": "none",
         "category": "heroic",
@@ -443,7 +443,7 @@
     {
       "name": "Operation Goblin Mode",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
       "system": {
         "type": "none",
         "category": "heroic",
@@ -505,7 +505,7 @@
     {
       "name": "Operation Tactical Swarm",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
       "system": {
         "type": "none",
         "category": "heroic",

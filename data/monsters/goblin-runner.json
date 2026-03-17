@@ -594,7 +594,7 @@
       "name": "Resonating Croak",
       "type": "ability",
       "_id": "kCADTziPpgpPe7gR",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
       "system": {
         "source": {
           "book": "Monsters",

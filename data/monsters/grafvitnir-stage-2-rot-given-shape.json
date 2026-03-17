@@ -177,7 +177,7 @@
     {
       "name": "Blight Pus",
       "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -287,7 +287,7 @@
     {
       "name": "Blight Rain",
       "type": "ability",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "system": {
         "type": "maneuver",
         "category": "heroic",
@@ -357,7 +357,7 @@
       "name": "Prior Malice Features",
       "type": "ability",
       "_id": "z8mciv1uVsm7b9ws",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -418,7 +418,7 @@
       "name": "Seeping Blight",
       "type": "ability",
       "_id": "9jFigb63a6bVSeDX",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "system": {
         "source": {
           "book": "Monsters",

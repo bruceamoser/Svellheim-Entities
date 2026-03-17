@@ -140,7 +140,7 @@
     {
       "name": "Portable Ballista",
       "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/skills/ranged/projectile-spiral-gray.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -338,7 +338,7 @@
     {
       "name": "Ensnaring Chains",
       "type": "ability",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "system": {
         "type": "maneuver",
         "category": "heroic",
@@ -443,7 +443,7 @@
         }
       },
       "_id": "UsBSwuFSEE8zpLvM",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "effects": [],
       "folder": "zR2leIjgt7VcKr8l",
       "sort": 200000,
@@ -505,7 +505,7 @@
         }
       },
       "_id": "jeKfV8aI1rqyfkj4",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/ranged/projectile-spiral-gray.webp",
       "effects": [],
       "folder": "zR2leIjgt7VcKr8l",
       "sort": 300000,
