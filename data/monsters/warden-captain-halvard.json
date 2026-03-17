@@ -270,7 +270,7 @@
       "img": "systems/draw-steel/assets/roles/solo.webp",
       "system": {
         "description": {
-          "value": "<p>At the end of each of their turns, the blackguard can take [[/damage 5]] damage to end one effect on them that can be ended by a saving throw. This damage canÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t be reduced in any way.</p>",
+          "value": "<p>At the end of each of their turns, the Warden-Captain can take [[/damage 5]] damage to end one effect on them that can be ended by a saving throw. This damage can’t be reduced in any way.</p>",
           "director": ""
         },
         "source": {
@@ -308,7 +308,7 @@
       "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
-          "value": "<p>The Blackguard ignores concealment if itÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s granted by a supernatural effect.</p>",
+          "value": "<p>The Warden-Captain ignores concealment if it’s granted by a supernatural effect.</p>",
           "director": ""
         },
         "source": {
