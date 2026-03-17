@@ -104,7 +104,7 @@
     {
       "name": "Agonizing Phasing",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "system": {
         "description": {
           "value": "<p>The tunnel blight swarm can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the tunnel blight swarm moves through a creature, that creature takes [[/damage 5 poison]] damage and takes a bane on their next strike. The tunnel blight swarm doesn't take damage from being pushed into objects</p>",

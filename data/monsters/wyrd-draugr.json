@@ -104,7 +104,7 @@
     {
       "name": "Fickle and Free",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "system": {
         "description": {
           "value": "<p>The essence can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.</p>",
@@ -141,7 +141,7 @@
     {
       "name": "Water Glide",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "system": {
         "description": {
           "value": "<p>Whenever the essence starts their turn in a space containing water, they can fly until the end of their turn. While flying, the essence doesn't provoke opportunity attacks.</p>",

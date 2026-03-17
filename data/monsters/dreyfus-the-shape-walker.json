@@ -103,7 +103,7 @@
     {
       "name": "Exploit Opening",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>The shadow deals an extra [[/damage 7]] damage to any bleeding target.</p>",
@@ -140,7 +140,7 @@
     {
       "name": "Rivalry",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a [[/r d3]] roll to power rolls they make against each other.</p>",

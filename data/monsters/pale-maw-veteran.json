@@ -103,7 +103,7 @@
     {
       "name": "Call to the Wall",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
           "value": "<p>Whenever a creature deals damage to or takes damage from the shieldwall, the shieldwall can make that creature taunted until the end of the creature's next turn.</p>",

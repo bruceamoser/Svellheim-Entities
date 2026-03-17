@@ -103,7 +103,7 @@
     {
       "name": "Death Frenzy",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>Whenever a non-minion ally within 7 squares of the marauder is reduced to 0 Stamina, the marauder moves up to their speed and can make a melee free strike.</p>",

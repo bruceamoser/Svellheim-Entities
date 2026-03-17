@@ -103,7 +103,7 @@
     {
       "name": "Leading",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
         "description": {
           "value": "<p>Whenever the sentinel moves away from an enemy who is adjacent to one of the sentinel's allies, they can shift instead.</p>",
@@ -140,7 +140,7 @@
     {
       "name": "Corruption Core",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p>If a creature within 10 squares damages the sentinel's corruption core directly (any ability that explicitly targets it), the sentinel loses their damage immunities, any nondamaging effects of their signature ability, and their Iron Resolve ability until the end of the encounter.</p>",

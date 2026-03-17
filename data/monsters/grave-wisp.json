@@ -104,7 +104,7 @@
     {
       "name": "Spark of Life",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
           "value": "<p>On their turn, the mote can leave the encounter in a flash of light to revive one adjacent dead soot crow, brambleguard, or ceramic horse. The revived creature returns with [[/heal 3]].</p>",

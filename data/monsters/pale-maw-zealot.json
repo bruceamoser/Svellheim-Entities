@@ -1,551 +1,501 @@
 {
-    "folder":  "4k38bNEZVVE6p4vF",
-    "name":  "Pale Maw Zealot",
-    "type":  "npc",
-    "_id":  "xzxQLE3JSkBACDK2",
-    "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
-    "system":  {
-                   "stamina":  {
-                                   "value":  50,
-                                   "max":  50,
-                                   "temporary":  0
-                               },
-                   "characteristics":  {
-                                           "might":  {
-                                                         "value":  1
-                                                     },
-                                           "agility":  {
-                                                           "value":  2
-                                                       },
-                                           "reason":  {
-                                                          "value":  0
-                                                      },
-                                           "intuition":  {
-                                                             "value":  1
-                                                         },
-                                           "presence":  {
-                                                            "value":  3
-                                                        }
-                                       },
-                   "combat":  {
-                                  "save":  {
-                                               "threshold":  6,
-                                               "bonus":  ""
-                                           },
-                                  "size":  {
-                                               "value":  1,
-                                               "letter":  "M"
-                                           },
-                                  "stability":  0,
-                                  "turns":  1
-                              },
-                   "biography":  {
-                                     "value":  "\u003cp\u003ePale Maw zealots are the passionate new converts of the Entropy cult â€” less disciplined than operatives but burning with certainty. They throw themselves into combat screaming entropy scripture, using their Zealous Cry to terrify and disorient clustered enemies. Their True Believer immunity to fear makes them bold to the point of recklessness. They channel their faith into psychic and corruption damage, and happily die for the cause if it serves the Pale Maw\u0027s ends.\u003c/p\u003e",
-                                     "director":  "",
-                                     "languages":  [
-
-                                                   ]
-                                 },
-                   "movement":  {
-                                    "value":  8,
-                                    "types":  [
-                                                  "walk"
-                                              ],
-                                    "hover":  false,
-                                    "disengage":  1
-                                },
-                   "damage":  {
-                                  "immunities":  {
-                                                     "all":  0,
-                                                     "acid":  0,
-                                                     "cold":  0,
-                                                     "corruption":  0,
-                                                     "fire":  0,
-                                                     "holy":  0,
-                                                     "lightning":  0,
-                                                     "poison":  0,
-                                                     "psychic":  0,
-                                                     "sonic":  0
-                                                 },
-                                  "weaknesses":  {
-                                                     "all":  0,
-                                                     "acid":  0,
-                                                     "cold":  0,
-                                                     "corruption":  0,
-                                                     "fire":  0,
-                                                     "holy":  0,
-                                                     "lightning":  0,
-                                                     "poison":  0,
-                                                     "psychic":  0,
-                                                     "sonic":  0
-                                                 }
-                              },
-                   "source":  {
-                                  "book":  "Monsters",
-                                  "page":  "217",
-                                  "license":  "Draw Steel Creator License"
-                              },
-                   "negotiation":  {
-                                       "interest":  5,
-                                       "patience":  5,
-                                       "motivations":  [
-
-                                                       ],
-                                       "pitfalls":  [
-
-                                                    ],
-                                       "impression":  1
-                                   },
-                   "monster":  {
-                                   "freeStrike":  5,
-                                   "keywords":  [
-                                                    "humanoid",
-                                                    "pale-maw"
-                                                ],
-                                   "level":  3,
-                                   "ev":  10,
-                                   "role":  "harrier",
-                                   "organization":  "platoon"
-                               }
-               },
-    "prototypeToken":  {
-                           "name":  "Orc Bloodrunner",
-                           "displayName":  20,
-                           "actorLink":  false,
-                           "width":  1,
-                           "height":  1,
-                           "texture":  {
-                                           "src":  "systems/draw-steel/assets/roles/harrier.webp",
-                                           "anchorX":  0.5,
-                                           "anchorY":  0.5,
-                                           "offsetX":  0,
-                                           "offsetY":  0,
-                                           "fit":  "contain",
-                                           "scaleX":  1,
-                                           "scaleY":  1,
-                                           "rotation":  0,
-                                           "tint":  "#ffffff",
-                                           "alphaThreshold":  0.75
-                                       },
-                           "lockRotation":  true,
-                           "rotation":  0,
-                           "alpha":  1,
-                           "disposition":  -1,
-                           "displayBars":  20,
-                           "bar1":  {
-                                        "attribute":  "stamina"
-                                    },
-                           "bar2":  {
-                                        "attribute":  "hero.resources"
-                                    },
-                           "light":  {
-                                         "negative":  false,
-                                         "priority":  0,
-                                         "alpha":  0.5,
-                                         "angle":  360,
-                                         "bright":  0,
-                                         "color":  null,
-                                         "coloration":  1,
-                                         "dim":  0,
-                                         "attenuation":  0.5,
-                                         "luminosity":  0.5,
-                                         "saturation":  0,
-                                         "contrast":  0,
-                                         "shadows":  0,
-                                         "animation":  {
-                                                           "type":  null,
-                                                           "speed":  5,
-                                                           "intensity":  5,
-                                                           "reverse":  false
-                                                       },
-                                         "darkness":  {
-                                                          "min":  0,
-                                                          "max":  1
-                                                      }
-                                     },
-                           "sight":  {
-                                         "enabled":  false,
-                                         "range":  0,
-                                         "angle":  360,
-                                         "visionMode":  "basic",
-                                         "color":  null,
-                                         "attenuation":  0.1,
-                                         "brightness":  0,
-                                         "saturation":  0,
-                                         "contrast":  0
-                                     },
-                           "detectionModes":  [
-
-                                              ],
-                           "occludable":  {
-                                              "radius":  0
-                                          },
-                           "ring":  {
-                                        "enabled":  false,
-                                        "colors":  {
-                                                       "ring":  null,
-                                                       "background":  null
-                                                   },
-                                        "effects":  1,
-                                        "subject":  {
-                                                        "scale":  1,
-                                                        "texture":  null
-                                                    }
-                                    },
-                           "turnMarker":  {
-                                              "mode":  1,
-                                              "animation":  null,
-                                              "src":  null,
-                                              "disposition":  false
-                                          },
-                           "movementAction":  null,
-                           "flags":  {
-
-                                     },
-                           "randomImg":  false,
-                           "appendNumber":  false,
-                           "prependAdjective":  false
-                       },
-    "items":  [
-                  {
-                      "name":  "Blade",
-                      "type":  "ability",
-                      "_id":  "mMBsBEAc8KN956mN",
-                      "img":  "icons/weapons/daggers/dagger-curved-teal.webp",
-                      "system":  {
-                                     "type":  "free",
-                                     "_dsid":  "pale-maw-zealot-free-strike",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "melee",
-                                                      "weapon",
-                                                      "strike"
-                                                  ],
-                                     "category":  "free",
-                                     "resource":  null,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "melee",
-                                                      "primary":  1
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "creatureObject",
-                                                    "value":  1
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "4APBxCMTyIbi3ktq":  {
-                                                                                            "name":  "",
-                                                                                            "img":  null,
-                                                                                            "type":  "damage",
-                                                                                            "_id":  "4APBxCMTyIbi3ktq",
-                                                                                            "damage":  {
-                                                                                                           "tier1":  {
-                                                                                                                         "value":  "5"
-                                                                                                                     },
-                                                                                                           "tier2":  {
-                                                                                                                         "value":  "5"
-                                                                                                                     },
-                                                                                                           "tier3":  {
-                                                                                                                         "value":  "5"
-                                                                                                                     },
-                                                                                                           "types":  [
-
-                                                                                                                     ],
-                                                                                                           "properties":  [
-
-                                                                                                                          ],
-                                                                                                           "potency":  {
-
-                                                                                                                       }
-                                                                                                       }
-                                                                                        }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  -200000,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Blade",
-                      "type":  "ability",
-                      "_id":  "8EWRX6csmiK9Igtt",
-                      "img":  "icons/weapons/swords/sword-guard-blue.webp",
-                      "system":  {
-                                     "type":  "main",
-                                     "_dsid":  "pale-maw-zealot-blade",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "melee",
-                                                      "weapon",
-                                                      "strike"
-                                                  ],
-                                     "category":  "signature",
-                                     "resource":  null,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "melee",
-                                                      "primary":  1
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "creatureObject",
-                                                    "value":  1
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "@chr",
-                                                                "characteristics":  [
-                                                                                        "might"
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "tDy2pTbN4pYjeasT":  {
-                                                                                            "name":  "",
-                                                                                            "img":  null,
-                                                                                            "type":  "damage",
-                                                                                            "_id":  "tDy2pTbN4pYjeasT",
-                                                                                            "damage":  {
-                                                                                                           "tier1":  {
-                                                                                                                         "value":  "5"
-                                                                                                                     },
-                                                                                                           "tier2":  {
-                                                                                                                         "value":  "8"
-                                                                                                                     },
-                                                                                                           "tier3":  {
-                                                                                                                         "value":  "11"
-                                                                                                                     },
-                                                                                                           "types":  [
-
-                                                                                                                     ],
-                                                                                                           "properties":  [
-
-                                                                                                                          ],
-                                                                                                           "potency":  {
-
-                                                                                                                       }
-                                                                                                       }
-                                                                                        }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Zealous Cry",
-                      "type":  "ability",
-                      "_id":  "ZmgvMr5u3Po2ojEJ",
-                      "img":  "icons/magic/unholy/orb-swirling-teal.webp",
-                      "system":  {
-                                     "type":  "main",
-                                     "_dsid":  "pale-maw-zealot-zealous-cry",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "area",
-                                                      "magic"
-                                                  ],
-                                     "category":  "heroic",
-                                     "resource":  1,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "burst",
-                                                      "primary":  2
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "each",
-                                                    "each":  true
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "\u003cp\u003eEach enemy within burst 2 takes 2 psychic damage. Each enemy that fails a Presence power roll against the zealot is frightened (save ends). Pale Maw allies within the burst may immediately make a free strike.\u003c/p\u003e",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "True Believer",
-                      "type":  "feature",
-                      "_id":  "1SSs2OOHsdOvrO90",
-                      "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
-                      "system":  {
-                                     "description":  {
-                                                         "value":  "\u003cp\u003eThe zealot is immune to the frightened and charmed conditions.\u003c/p\u003e",
-                                                         "director":  ""
-                                                     },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                },
-                                     "_dsid":  "pale-maw-zealot-true-believer",
-                                     "advancements":  {
-
-                                                      }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  }
-              ],
-    "effects":  [
-
-                ],
-    "sort":  0,
-    "ownership":  {
-                      "default":  0
-                  },
-    "flags":  {
-
-              },
-    "_stats":  {
-                   "compendiumSource":  null,
-                   "duplicateSource":  null,
-                   "exportSource":  null,
-                   "coreVersion":  "13.348",
-                   "systemId":  "draw-steel",
-                   "systemVersion":  "0.8.1",
-                   "createdTime":  1756957162793,
-                   "modifiedTime":  null,
-                   "lastModifiedBy":  null
-               },
-    "_key":  "!actors!xzxQLE3JSkBACDK2"
+  "folder": "4k38bNEZVVE6p4vF",
+  "name": "Pale Maw Zealot",
+  "type": "npc",
+  "_id": "xzxQLE3JSkBACDK2",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "system": {
+    "stamina": {
+      "value": 50,
+      "max": 50,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 1
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 0
+      },
+      "intuition": {
+        "value": 1
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Pale Maw zealots are the passionate new converts of the Entropy cult â€” less disciplined than operatives but burning with certainty. They throw themselves into combat screaming entropy scripture, using their Zealous Cry to terrify and disorient clustered enemies. Their True Believer immunity to fear makes them bold to the point of recklessness. They channel their faith into psychic and corruption damage, and happily die for the cause if it serves the Pale Maw's ends.</p>",
+      "director": "",
+      "languages": []
+    },
+    "movement": {
+      "value": 8,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "source": {
+      "book": "Monsters",
+      "page": "217",
+      "license": "Draw Steel Creator License"
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "humanoid",
+        "pale-maw"
+      ],
+      "level": 3,
+      "ev": 10,
+      "role": "harrier",
+      "organization": "platoon"
+    }
+  },
+  "prototypeToken": {
+    "name": "Orc Bloodrunner",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/draw-steel/assets/roles/harrier.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Blade",
+      "type": "ability",
+      "_id": "mMBsBEAc8KN956mN",
+      "img": "icons/weapons/daggers/dagger-curved-teal.webp",
+      "system": {
+        "type": "free",
+        "_dsid": "pale-maw-zealot-free-strike",
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "strike"
+        ],
+        "category": "free",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {
+            "4APBxCMTyIbi3ktq": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "4APBxCMTyIbi3ktq",
+              "damage": {
+                "tier1": {
+                  "value": "5"
+                },
+                "tier2": {
+                  "value": "5"
+                },
+                "tier3": {
+                  "value": "5"
+                },
+                "types": [],
+                "properties": [],
+                "potency": {}
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -200000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Blade",
+      "type": "ability",
+      "_id": "8EWRX6csmiK9Igtt",
+      "img": "icons/weapons/swords/sword-guard-blue.webp",
+      "system": {
+        "type": "main",
+        "_dsid": "pale-maw-zealot-blade",
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "strike"
+        ],
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "tDy2pTbN4pYjeasT": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "tDy2pTbN4pYjeasT",
+              "damage": {
+                "tier1": {
+                  "value": "5"
+                },
+                "tier2": {
+                  "value": "8"
+                },
+                "tier3": {
+                  "value": "11"
+                },
+                "types": [],
+                "properties": [],
+                "potency": {}
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Zealous Cry",
+      "type": "ability",
+      "_id": "ZmgvMr5u3Po2ojEJ",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
+      "system": {
+        "type": "main",
+        "_dsid": "pale-maw-zealot-zealous-cry",
+        "story": "",
+        "keywords": [
+          "area",
+          "magic"
+        ],
+        "category": "heroic",
+        "resource": 1,
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 2
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "each",
+          "each": true
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>Each enemy within burst 2 takes 2 psychic damage. Each enemy that fails a Presence power roll against the zealot is frightened (save ends). Pale Maw allies within the burst may immediately make a free strike.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "True Believer",
+      "type": "feature",
+      "_id": "1SSs2OOHsdOvrO90",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>The zealot is immune to the frightened and charmed conditions.</p>",
+          "director": ""
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        },
+        "_dsid": "pale-maw-zealot-true-believer",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "draw-steel",
+    "systemVersion": "0.8.1",
+    "createdTime": 1756957162793,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!xzxQLE3JSkBACDK2"
 }

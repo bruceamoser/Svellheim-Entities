@@ -550,7 +550,7 @@
       "name": "Escort the Prisoners",
       "type": "feature",
       "_id": "wMzzDgKWEQhNHmvJ",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
         "description": {
           "value": "<p>Whenever the warden moves, they can carry an adjacent restrained enemy as if the enemy were grabbed by them.</p>",

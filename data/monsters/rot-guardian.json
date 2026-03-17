@@ -103,7 +103,7 @@
     {
       "name": "Ward's Bulwark",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
           "value": "<p>The rot-guardian has damage immunity 3 while within 10 squares of the warded chamber's focus-stone or within 10 squares of a non-minion construct of a higher level.</p>",
@@ -140,7 +140,7 @@
     {
       "name": "Keeper's Seal",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
           "value": "<p>If a creature within 10 squares speaks the Keeper's warding phrase inscribed on the guardian's chest, the guardian loses their damage immunities, any nondamaging effects of their signature ability, and their Stone Resolve ability until the end of the encounter.</p>",

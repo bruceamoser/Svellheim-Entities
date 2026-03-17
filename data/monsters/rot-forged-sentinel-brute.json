@@ -103,7 +103,7 @@
     {
       "name": "Biceps to Spare",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
           "value": "<p>The rot-forged sentinel (brute) can carry up to four size 1 creatures they have grabbed, and takes no penalty to their speed while doing so.</p>",
@@ -140,7 +140,7 @@
     {
       "name": "Psionic Conductor",
       "type": "feature",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
           "value": "<p>Whenever a non-minion voiceless talker within 5 squares of the rot-forged sentinel (brute) uses a psionic ability, they can do so as if they were in the rot-forged sentinel (brute)'s space.</p>",

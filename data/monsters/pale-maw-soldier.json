@@ -1,595 +1,539 @@
 {
-    "folder":  "4k38bNEZVVE6p4vF",
-    "name":  "Pale Maw Soldier",
-    "type":  "npc",
-    "_id":  "D7GUJZqygRtvsiUP",
-    "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
-    "system":  {
-                   "stamina":  {
-                                   "value":  60,
-                                   "max":  60,
-                                   "temporary":  0
-                               },
-                   "characteristics":  {
-                                           "might":  {
-                                                         "value":  2
-                                                     },
-                                           "agility":  {
-                                                           "value":  1
-                                                       },
-                                           "reason":  {
-                                                          "value":  0
-                                                      },
-                                           "intuition":  {
-                                                             "value":  1
-                                                         },
-                                           "presence":  {
-                                                            "value":  2
-                                                        }
-                                       },
-                   "combat":  {
-                                  "save":  {
-                                               "threshold":  6,
-                                               "bonus":  ""
-                                           },
-                                  "size":  {
-                                               "value":  1,
-                                               "letter":  "L"
-                                           },
-                                  "stability":  0,
-                                  "turns":  1
-                              },
-                   "biography":  {
-                                     "value":  "\u003cp\u003ePale Maw soldiers are the rank-and-file of the Entropy cult\u0027s military wing â€” warriors given purpose by absolute faith in destruction\u0027s inevitability. They carry rune-carved weapons and chant entropy scripture even in combat, bolstering their allies with the Entropy Chant while cutting down the faithless. Their Fanatical resolve makes them difficult to frighten, and their Pack Mentality makes them significantly more dangerous when they fight alongside their brothers and sisters in entropy.\u003c/p\u003e",
-                                     "director":  "",
-                                     "languages":  [
-
-                                                   ]
-                                 },
-                   "movement":  {
-                                    "value":  6,
-                                    "types":  [
-                                                  "walk"
-                                              ],
-                                    "hover":  false,
-                                    "disengage":  1
-                                },
-                   "damage":  {
-                                  "immunities":  {
-                                                     "all":  0,
-                                                     "acid":  0,
-                                                     "cold":  0,
-                                                     "corruption":  0,
-                                                     "fire":  0,
-                                                     "holy":  0,
-                                                     "lightning":  0,
-                                                     "poison":  0,
-                                                     "psychic":  0,
-                                                     "sonic":  0
-                                                 },
-                                  "weaknesses":  {
-                                                     "all":  0,
-                                                     "acid":  0,
-                                                     "cold":  0,
-                                                     "corruption":  0,
-                                                     "fire":  0,
-                                                     "holy":  0,
-                                                     "lightning":  0,
-                                                     "poison":  0,
-                                                     "psychic":  0,
-                                                     "sonic":  0
-                                                 }
-                              },
-                   "source":  {
-                                  "book":  "Monsters",
-                                  "page":  "219",
-                                  "license":  "Draw Steel Creator License"
-                              },
-                   "negotiation":  {
-                                       "interest":  5,
-                                       "patience":  5,
-                                       "motivations":  [
-
-                                                       ],
-                                       "pitfalls":  [
-
-                                                    ],
-                                       "impression":  1
-                                   },
-                   "monster":  {
-                                   "freeStrike":  5,
-                                   "keywords":  [
-                                                    "humanoid",
-                                                    "pale-maw"
-                                                ],
-                                   "level":  3,
-                                   "ev":  10,
-                                   "role":  "brute",
-                                   "organization":  "platoon"
-                               }
-               },
-    "prototypeToken":  {
-                           "name":  "Orc Juggernaut",
-                           "displayName":  20,
-                           "actorLink":  false,
-                           "width":  1,
-                           "height":  1,
-                           "texture":  {
-                                           "src":  "systems/draw-steel/assets/roles/brute.webp",
-                                           "anchorX":  0.5,
-                                           "anchorY":  0.5,
-                                           "offsetX":  0,
-                                           "offsetY":  0,
-                                           "fit":  "contain",
-                                           "scaleX":  1,
-                                           "scaleY":  1,
-                                           "rotation":  0,
-                                           "tint":  "#ffffff",
-                                           "alphaThreshold":  0.75
-                                       },
-                           "lockRotation":  true,
-                           "rotation":  0,
-                           "alpha":  1,
-                           "disposition":  -1,
-                           "displayBars":  20,
-                           "bar1":  {
-                                        "attribute":  "stamina"
-                                    },
-                           "bar2":  {
-                                        "attribute":  "hero.resources"
-                                    },
-                           "light":  {
-                                         "negative":  false,
-                                         "priority":  0,
-                                         "alpha":  0.5,
-                                         "angle":  360,
-                                         "bright":  0,
-                                         "color":  null,
-                                         "coloration":  1,
-                                         "dim":  0,
-                                         "attenuation":  0.5,
-                                         "luminosity":  0.5,
-                                         "saturation":  0,
-                                         "contrast":  0,
-                                         "shadows":  0,
-                                         "animation":  {
-                                                           "type":  null,
-                                                           "speed":  5,
-                                                           "intensity":  5,
-                                                           "reverse":  false
-                                                       },
-                                         "darkness":  {
-                                                          "min":  0,
-                                                          "max":  1
-                                                      }
-                                     },
-                           "sight":  {
-                                         "enabled":  false,
-                                         "range":  0,
-                                         "angle":  360,
-                                         "visionMode":  "basic",
-                                         "color":  null,
-                                         "attenuation":  0.1,
-                                         "brightness":  0,
-                                         "saturation":  0,
-                                         "contrast":  0
-                                     },
-                           "detectionModes":  [
-
-                                              ],
-                           "occludable":  {
-                                              "radius":  0
-                                          },
-                           "ring":  {
-                                        "enabled":  false,
-                                        "colors":  {
-                                                       "ring":  null,
-                                                       "background":  null
-                                                   },
-                                        "effects":  1,
-                                        "subject":  {
-                                                        "scale":  1,
-                                                        "texture":  null
-                                                    }
-                                    },
-                           "turnMarker":  {
-                                              "mode":  1,
-                                              "animation":  null,
-                                              "src":  null,
-                                              "disposition":  false
-                                          },
-                           "movementAction":  null,
-                           "flags":  {
-
-                                     },
-                           "randomImg":  false,
-                           "appendNumber":  false,
-                           "prependAdjective":  false
-                       },
-    "items":  [
-                  {
-                      "name":  "Cultist Blade",
-                      "type":  "ability",
-                      "_id":  "sEhhZz3jZj1GulLe",
-                      "img":  "icons/weapons/daggers/dagger-curved-teal.webp",
-                      "system":  {
-                                     "type":  "free",
-                                     "_dsid":  "pale-maw-soldier-free-strike",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "melee",
-                                                      "weapon",
-                                                      "strike"
-                                                  ],
-                                     "category":  "free",
-                                     "resource":  null,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "melee",
-                                                      "primary":  1
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "creatureObject",
-                                                    "value":  1
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "5Ju8VYuM0oCmSr1m":  {
-                                                                                            "name":  "",
-                                                                                            "img":  null,
-                                                                                            "type":  "damage",
-                                                                                            "_id":  "5Ju8VYuM0oCmSr1m",
-                                                                                            "damage":  {
-                                                                                                           "tier1":  {
-                                                                                                                         "value":  "5"
-                                                                                                                     },
-                                                                                                           "tier2":  {
-                                                                                                                         "value":  "5"
-                                                                                                                     },
-                                                                                                           "tier3":  {
-                                                                                                                         "value":  "5"
-                                                                                                                     },
-                                                                                                           "types":  [
-
-                                                                                                                     ],
-                                                                                                           "properties":  [
-
-                                                                                                                          ],
-                                                                                                           "potency":  {
-
-                                                                                                                       }
-                                                                                                       }
-                                                                                        }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  -200000,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Cultist\u0027s Blade",
-                      "type":  "ability",
-                      "_id":  "uUJ9n8gOICy2DpRL",
-                      "img":  "icons/weapons/swords/sword-broad-black.webp",
-                      "system":  {
-                                     "type":  "main",
-                                     "_dsid":  "pale-maw-soldier-cultists-blade",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "melee",
-                                                      "weapon",
-                                                      "strike"
-                                                  ],
-                                     "category":  "signature",
-                                     "resource":  null,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "melee",
-                                                      "primary":  1
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "creatureObject",
-                                                    "value":  1
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "@chr",
-                                                                "characteristics":  [
-                                                                                        "might"
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-                                                                   "o6XO7wTlVVQ2HWBh":  {
-                                                                                            "name":  "",
-                                                                                            "img":  null,
-                                                                                            "type":  "damage",
-                                                                                            "_id":  "o6XO7wTlVVQ2HWBh",
-                                                                                            "damage":  {
-                                                                                                           "tier1":  {
-                                                                                                                         "value":  "4"
-                                                                                                                     },
-                                                                                                           "tier2":  {
-                                                                                                                         "value":  "7"
-                                                                                                                     },
-                                                                                                           "tier3":  {
-                                                                                                                         "value":  "10"
-                                                                                                                     },
-                                                                                                           "types":  [
-
-                                                                                                                     ],
-                                                                                                           "properties":  [
-
-                                                                                                                          ],
-                                                                                                           "potency":  {
-
-                                                                                                                       }
-                                                                                                       }
-                                                                                        }
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Entropy Chant",
-                      "type":  "ability",
-                      "_id":  "s55v66An0wmVOuOZ",
-                      "img":  "icons/magic/unholy/orb-swirling-teal.webp",
-                      "system":  {
-                                     "type":  "main",
-                                     "_dsid":  "pale-maw-soldier-entropy-chant",
-                                     "story":  "",
-                                     "keywords":  [
-                                                      "area",
-                                                      "magic"
-                                                  ],
-                                     "category":  "heroic",
-                                     "resource":  1,
-                                     "trigger":  "",
-                                     "distance":  {
-                                                      "type":  "burst",
-                                                      "primary":  2
-                                                  },
-                                     "damageDisplay":  "melee",
-                                     "target":  {
-                                                    "type":  "each",
-                                                    "each":  true
-                                                },
-                                     "power":  {
-                                                   "roll":  {
-                                                                "formula":  "",
-                                                                "characteristics":  [
-
-                                                                                    ]
-                                                            },
-                                                   "effects":  {
-
-                                                               }
-                                               },
-                                     "effect":  {
-                                                    "before":  "\u003cp\u003eThe soldier leads a dark chant. Each Pale Maw ally within burst 2 gains an edge on their next power roll before the start of the soldier\u0027s next turn. Each enemy within the burst that fails a Presence power roll against the soldier is frightened until the end of their next turn.\u003c/p\u003e",
-                                                    "after":  ""
-                                                },
-                                     "spend":  {
-                                                   "text":  "",
-                                                   "value":  null
-                                               },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Fanatical",
-                      "type":  "feature",
-                      "_id":  "RkbYrb97CkbtVx6d",
-                      "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
-                      "system":  {
-                                     "description":  {
-                                                         "value":  "\u003cp\u003eThe soldier has an edge on power rolls to resist being frightened or charmed.\u003c/p\u003e",
-                                                         "director":  ""
-                                                     },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                },
-                                     "_dsid":  "pale-maw-soldier-fanatical",
-                                     "advancements":  {
-
-                                                      }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  },
-                  {
-                      "name":  "Pack Mentality",
-                      "type":  "feature",
-                      "_id":  "rn7w4wGo4haD7k4A",
-                      "img":  "icons/magic/unholy/silhouette-robe-evil-power.webp",
-                      "system":  {
-                                     "description":  {
-                                                         "value":  "\u003cp\u003eWhile the soldier is adjacent to at least one other Pale Maw Soldier, the soldier has an edge on power rolls to attack.\u003c/p\u003e",
-                                                         "director":  ""
-                                                     },
-                                     "source":  {
-                                                    "license":  "Svellheim Campaign",
-                                                    "book":  "Svellheim Campaign",
-                                                    "page":  ""
-                                                },
-                                     "_dsid":  "pale-maw-soldier-pack-mentality",
-                                     "advancements":  {
-
-                                                      }
-                                 },
-                      "effects":  [
-
-                                  ],
-                      "folder":  null,
-                      "sort":  0,
-                      "ownership":  {
-                                        "default":  0,
-                                        "R75FAhxK5fADaoJF":  3
-                                    },
-                      "flags":  {
-
-                                },
-                      "_stats":  {
-                                     "compendiumSource":  null,
-                                     "systemId":  "draw-steel",
-                                     "lastModifiedBy":  null,
-                                     "exportSource":  null,
-                                     "createdTime":  1773675257104,
-                                     "systemVersion":  "0.9.0",
-                                     "duplicateSource":  null,
-                                     "coreVersion":  "13.350",
-                                     "modifiedTime":  null
-                                 }
-                  }
-              ],
-    "effects":  [
-
-                ],
-    "sort":  0,
-    "ownership":  {
-                      "default":  0
-                  },
-    "flags":  {
-
-              },
-    "_stats":  {
-                   "compendiumSource":  null,
-                   "duplicateSource":  null,
-                   "exportSource":  null,
-                   "coreVersion":  "13.348",
-                   "systemId":  "draw-steel",
-                   "systemVersion":  "0.8.1",
-                   "createdTime":  1757002960589,
-                   "modifiedTime":  null,
-                   "lastModifiedBy":  null
-               },
-    "_key":  "!actors!D7GUJZqygRtvsiUP"
+  "folder": "4k38bNEZVVE6p4vF",
+  "name": "Pale Maw Soldier",
+  "type": "npc",
+  "_id": "D7GUJZqygRtvsiUP",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "system": {
+    "stamina": {
+      "value": 60,
+      "max": 60,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 2
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 0
+      },
+      "intuition": {
+        "value": 1
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "L"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p>Pale Maw soldiers are the rank-and-file of the Entropy cult's military wing â€” warriors given purpose by absolute faith in destruction's inevitability. They carry rune-carved weapons and chant entropy scripture even in combat, bolstering their allies with the Entropy Chant while cutting down the faithless. Their Fanatical resolve makes them difficult to frighten, and their Pack Mentality makes them significantly more dangerous when they fight alongside their brothers and sisters in entropy.</p>",
+      "director": "",
+      "languages": []
+    },
+    "movement": {
+      "value": 6,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "source": {
+      "book": "Monsters",
+      "page": "219",
+      "license": "Draw Steel Creator License"
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [],
+      "pitfalls": [],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "humanoid",
+        "pale-maw"
+      ],
+      "level": 3,
+      "ev": 10,
+      "role": "brute",
+      "organization": "platoon"
+    }
+  },
+  "prototypeToken": {
+    "name": "Orc Juggernaut",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/draw-steel/assets/roles/brute.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Cultist Blade",
+      "type": "ability",
+      "_id": "sEhhZz3jZj1GulLe",
+      "img": "icons/weapons/daggers/dagger-curved-teal.webp",
+      "system": {
+        "type": "free",
+        "_dsid": "pale-maw-soldier-free-strike",
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "strike"
+        ],
+        "category": "free",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {
+            "5Ju8VYuM0oCmSr1m": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "5Ju8VYuM0oCmSr1m",
+              "damage": {
+                "tier1": {
+                  "value": "5"
+                },
+                "tier2": {
+                  "value": "5"
+                },
+                "tier3": {
+                  "value": "5"
+                },
+                "types": [],
+                "properties": [],
+                "potency": {}
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -200000,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Cultist's Blade",
+      "type": "ability",
+      "_id": "uUJ9n8gOICy2DpRL",
+      "img": "icons/weapons/swords/sword-broad-black.webp",
+      "system": {
+        "type": "main",
+        "_dsid": "pale-maw-soldier-cultists-blade",
+        "story": "",
+        "keywords": [
+          "melee",
+          "weapon",
+          "strike"
+        ],
+        "category": "signature",
+        "resource": null,
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatureObject",
+          "value": 1
+        },
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
+              "might"
+            ]
+          },
+          "effects": {
+            "o6XO7wTlVVQ2HWBh": {
+              "name": "",
+              "img": null,
+              "type": "damage",
+              "_id": "o6XO7wTlVVQ2HWBh",
+              "damage": {
+                "tier1": {
+                  "value": "4"
+                },
+                "tier2": {
+                  "value": "7"
+                },
+                "tier3": {
+                  "value": "10"
+                },
+                "types": [],
+                "properties": [],
+                "potency": {}
+              }
+            }
+          }
+        },
+        "effect": {
+          "before": "",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Entropy Chant",
+      "type": "ability",
+      "_id": "s55v66An0wmVOuOZ",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
+      "system": {
+        "type": "main",
+        "_dsid": "pale-maw-soldier-entropy-chant",
+        "story": "",
+        "keywords": [
+          "area",
+          "magic"
+        ],
+        "category": "heroic",
+        "resource": 1,
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 2
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "each",
+          "each": true
+        },
+        "power": {
+          "roll": {
+            "formula": "",
+            "characteristics": []
+          },
+          "effects": {}
+        },
+        "effect": {
+          "before": "<p>The soldier leads a dark chant. Each Pale Maw ally within burst 2 gains an edge on their next power roll before the start of the soldier's next turn. Each enemy within the burst that fails a Presence power roll against the soldier is frightened until the end of their next turn.</p>",
+          "after": ""
+        },
+        "spend": {
+          "text": "",
+          "value": null
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Fanatical",
+      "type": "feature",
+      "_id": "RkbYrb97CkbtVx6d",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>The soldier has an edge on power rolls to resist being frightened or charmed.</p>",
+          "director": ""
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        },
+        "_dsid": "pale-maw-soldier-fanatical",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    },
+    {
+      "name": "Pack Mentality",
+      "type": "feature",
+      "_id": "rn7w4wGo4haD7k4A",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>While the soldier is adjacent to at least one other Pale Maw Soldier, the soldier has an edge on power rolls to attack.</p>",
+          "director": ""
+        },
+        "source": {
+          "license": "Svellheim Campaign",
+          "book": "Svellheim Campaign",
+          "page": ""
+        },
+        "_dsid": "pale-maw-soldier-pack-mentality",
+        "advancements": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "R75FAhxK5fADaoJF": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "systemId": "draw-steel",
+        "lastModifiedBy": null,
+        "exportSource": null,
+        "createdTime": 1773675257104,
+        "systemVersion": "0.9.0",
+        "duplicateSource": null,
+        "coreVersion": "13.350",
+        "modifiedTime": null
+      }
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "draw-steel",
+    "systemVersion": "0.8.1",
+    "createdTime": 1757002960589,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!D7GUJZqygRtvsiUP"
 }

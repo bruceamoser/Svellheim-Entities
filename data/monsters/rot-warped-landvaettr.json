@@ -563,7 +563,7 @@
       "name": "Stone Walker",
       "type": "feature",
       "_id": "e3rFxz1AWauMaFZi",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "system": {
         "description": {
           "value": "<p>Whenever the stone whisperer willingly moves, they can phase through up to 2 squares of stone as part of that movement. If they end their movement inside stone, they are shunted out into the space from which they entered it.</p>",

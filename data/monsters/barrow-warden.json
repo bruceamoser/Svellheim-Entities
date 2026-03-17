@@ -199,7 +199,7 @@
       "name": "The Commander’s Watching",
       "type": "feature",
       "_id": "CUOHVyYyoH6QDlo7",
-      "img": "icons/creatures/unholy/demon-hairy-winged-pink.webp",
+      "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
         "description": {
           "value": "<p>Any ally who has line of effect to the commander can end one condition on themself at the start of each of their turns.</p>",
