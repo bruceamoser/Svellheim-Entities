@@ -379,7 +379,7 @@
       "name": "Shadow Fade",
       "type": "ability",
       "_id": "ERIz4fQdrLzgsKU7",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "system": {
         "type": "main",
         "_dsid": "pale-maw-acolyte-shadow-fade",

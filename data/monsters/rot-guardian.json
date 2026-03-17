@@ -177,7 +177,7 @@
     {
       "name": "Corruption Slam",
       "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -326,7 +326,7 @@
     {
       "name": "Rot-Surge Charge",
       "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "system": {
         "type": "main",
         "category": "",
@@ -533,7 +533,7 @@
     {
       "name": "Hold Your Ground",
       "type": "ability",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/equipment/shield/tower-wooden-worn-brown.webp",
       "system": {
         "type": "maneuver",
         "category": "",
@@ -756,7 +756,7 @@
     {
       "name": "Guardian's Surge",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "system": {
         "type": "none",
         "category": "heroic",
@@ -855,7 +855,7 @@
           "value": null
         }
       },
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "effects": [],
       "folder": "2tWRLk096tKY77Bv",
       "ownership": {
@@ -880,7 +880,7 @@
     {
       "name": "The Ward Holds",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/equipment/shield/tower-wooden-worn-brown.webp",
       "system": {
         "type": "none",
         "category": "heroic",

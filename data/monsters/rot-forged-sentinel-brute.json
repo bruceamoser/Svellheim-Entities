@@ -177,7 +177,7 @@
     {
       "name": "Four-Way Grasp",
       "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -326,7 +326,7 @@
     {
       "name": "Lumber",
       "type": "ability",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "system": {
         "type": "maneuver",
         "category": "",
@@ -571,7 +571,7 @@
         }
       },
       "_id": "6AN2jiQW2yLCnnvB",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -595,7 +595,7 @@
     {
       "name": "Evolutionary Circuit",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "system": {
         "type": "none",
         "category": "heroic",
@@ -657,7 +657,7 @@
     {
       "name": "Guise",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "system": {
         "type": "none",
         "category": "heroic",
@@ -719,7 +719,7 @@
     {
       "name": "Memory Thief",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "system": {
         "type": "maneuver",
         "category": "heroic",

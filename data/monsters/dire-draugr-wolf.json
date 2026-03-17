@@ -177,7 +177,7 @@
     {
       "name": "Rotten Claw",
       "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -391,7 +391,7 @@
       "name": "Blood Hunger",
       "type": "ability",
       "_id": "g3I8pfaRJv4SU7k0",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -451,7 +451,7 @@
       "folder": "YZb6JUipWCfcksYj",
       "name": "Prior Malice Features",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "source": {
           "book": "Monsters",

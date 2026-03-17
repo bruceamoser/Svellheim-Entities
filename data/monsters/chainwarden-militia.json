@@ -324,7 +324,7 @@
         }
       },
       "_id": "zmo5m5IkZkiIoSHM",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/weapons/clubs/greatclub-simple.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -569,7 +569,7 @@
         }
       },
       "_id": "EzWvhVW1uXUmKhV5",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "effects": [],
       "folder": "dDubEbmnbWGRYlvn",
       "sort": 300000,
@@ -631,7 +631,7 @@
         }
       },
       "_id": "da4wUZrJsfQ3EMZ3",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/movement/arrow-upward-blue.webp",
       "effects": [],
       "folder": "dDubEbmnbWGRYlvn",
       "sort": 200000,
@@ -695,7 +695,7 @@
         }
       },
       "_id": "gSoRE2jY58pVAtXf",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "effects": [],
       "flags": {},
       "_stats": {
@@ -849,7 +849,7 @@
         }
       },
       "_id": "5lQ9od53YUhk2eDw",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "effects": [],
       "flags": {},
       "_stats": {

@@ -178,7 +178,7 @@
     {
       "name": "Clobberin' Club",
       "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/weapons/clubs/greatclub-simple.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -568,7 +568,7 @@
     {
       "name": "Hill Quake",
       "type": "ability",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
       "system": {
         "type": "maneuver",
         "category": "",
@@ -883,7 +883,7 @@
     {
       "name": "Hurl Landscape",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/movement/arrow-upward-blue.webp",
       "system": {
         "type": "main",
         "category": "heroic",

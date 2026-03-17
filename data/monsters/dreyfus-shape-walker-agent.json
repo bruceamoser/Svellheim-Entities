@@ -177,7 +177,7 @@
     {
       "name": "Agonizing Stinger",
       "type": "ability",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/weapons/daggers/dagger-curved-teal.webp",
       "system": {
         "type": "main",
         "category": "signature",
@@ -485,7 +485,7 @@
     {
       "name": "Swooping Torment",
       "type": "ability",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
       "system": {
         "type": "maneuver",
         "category": "",
@@ -615,7 +615,7 @@
     {
       "name": "Simmering Anger",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/fire/flame-burning-evocation-circle.webp",
       "system": {
         "type": "none",
         "category": "heroic",
@@ -675,7 +675,7 @@
     {
       "name": "Boiling Fury",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/fire/flame-burning-evocation-circle.webp",
       "system": {
         "type": "none",
         "category": "heroic",
@@ -735,7 +735,7 @@
     {
       "name": "Overflowing Rage",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/fire/flame-burning-evocation-circle.webp",
       "system": {
         "type": "none",
         "category": "heroic",

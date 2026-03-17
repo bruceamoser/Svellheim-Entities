@@ -302,7 +302,7 @@
     {
       "name": "Hidden Movement",
       "type": "ability",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
       "system": {
         "type": "maneuver",
         "category": "",
@@ -434,7 +434,7 @@
       "name": "Blood Hunger",
       "type": "ability",
       "_id": "g3I8pfaRJv4SU7k0",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -497,7 +497,7 @@
     {
       "name": "Prior Malice Features",
       "type": "ability",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "source": {
           "book": "Monsters",

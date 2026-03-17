@@ -507,7 +507,7 @@
         }
       },
       "_id": "cONie7TzNe99AJGE",
-      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -826,7 +826,7 @@
         }
       },
       "_id": "4IYmvaux8p8vaWR6",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
       "effects": [],
       "folder": "vxOVWECtypuYigNy",
       "sort": 100000,
@@ -1042,7 +1042,7 @@
         }
       },
       "_id": "vZMdicLidQzWMkgm",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
       "effects": [],
       "flags": {},
       "_stats": {

@@ -385,7 +385,7 @@
       "name": "Echoes of Laughter",
       "type": "ability",
       "_id": "wvrInGnyn0e0mj0n",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -445,7 +445,7 @@
       "name": "Iron Jaws",
       "type": "ability",
       "_id": "9bdZ4N6vu3nGUvPk",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
       "system": {
         "source": {
           "book": "Monsters",

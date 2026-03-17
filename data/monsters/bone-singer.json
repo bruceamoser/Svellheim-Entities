@@ -402,7 +402,7 @@
       "name": "Prior Malice Features",
       "type": "ability",
       "_id": "2PmYNyLNcEt2Ufaa",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "source": {
           "book": "Monsters",
@@ -463,7 +463,7 @@
       "name": "Abyssal Jaunt",
       "type": "ability",
       "_id": "d298nvIWsIOh0Kl7",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "system": {
         "source": {
           "book": "Monsters",
