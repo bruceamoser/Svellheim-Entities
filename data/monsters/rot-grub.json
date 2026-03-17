@@ -382,17 +382,17 @@
     },
     {
       "folder": "QCHesWzKjphCQmCU",
-      "name": "Leapfrog",
+      "name": "Shambling Rush",
       "type": "ability",
       "_id": "UZtOR8SSJC71RuS3",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "system": {
         "source": {
           "book": "Monsters",
           "page": "34",
           "license": "Draw Steel Creator License"
         },
-        "_dsid": "leapfrog",
+        "_dsid": "shambling-rush",
         "story": "",
         "keywords": [],
         "type": "none",
@@ -414,7 +414,7 @@
           "effects": {}
         },
         "effect": {
-          "before": "<p>Until the end of the round, when an angulotl moves through an inactive angulotl’s space, the inactive angulotl can use a free triggered action to jump 3 squares.</p>",
+          "before": "<p>Until the end of the round, when a rot grub moves through an inactive rot grub's space, the inactive grub can use a free triggered action to lurch 3 squares.</p>",
           "after": ""
         },
         "spend": {
@@ -523,17 +523,17 @@
       "_key": "!actors.items!rmkUHKgXlVPjsH25.LCVUFvkic3ekh34p"
     },
     {
-      "name": "Rainfall",
+      "name": "Bile Spray",
       "type": "ability",
       "_id": "chuInXNQ28dtiMPI",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "system": {
         "source": {
           "book": "Monsters",
           "page": "34",
           "license": "Draw Steel Creator License"
         },
-        "_dsid": "rainfall",
+        "_dsid": "bile-spray",
         "story": "",
         "keywords": [],
         "type": "none",
@@ -557,7 +557,7 @@
           "effects": {}
         },
         "effect": {
-          "before": "<p>An angulotl calls clouds to cover the encounter map and unleash rain until the end of the round. Any creature or object that is exposed to the sky is [[/apply Du8EMyrd7nZQ66Yk encounter]] until the end of the encounter.</p>",
+          "before": "<p>A rot grub sprays toxic bile across the encounter. Any creature or object that is exposed is [[/apply Du8EMyrd7nZQ66Yk encounter]] until the end of the round.</p>",
           "after": ""
         },
         "spend": {
@@ -628,17 +628,17 @@
       "_key": "!actors.items!rmkUHKgXlVPjsH25.chuInXNQ28dtiMPI"
     },
     {
-      "name": "Resonating Croak",
+      "name": "Rot Screech",
       "type": "ability",
       "_id": "kCADTziPpgpPe7gR",
-      "img": "icons/magic/air/air-wave-gust-blue.webp",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "system": {
         "source": {
           "book": "Monsters",
           "page": "34",
           "license": "Draw Steel Creator License"
         },
-        "_dsid": "resonating-croak",
+        "_dsid": "rot-screech",
         "story": "",
         "keywords": [],
         "type": "none",
@@ -739,7 +739,7 @@
           }
         },
         "effect": {
-          "before": "<p>Each angulotl in the encounter puffs out their throat and starts loudly droning Any non-angulotl adjacent to an angulotl makes an <strong>Intuition test.</strong></p>",
+          "before": "<p>Each rot grub in the encounter lets out a piercing screech. Any non-undead creature adjacent to a rot grub makes an <strong>Intuition test.</strong></p>",
           "after": ""
         },
         "spend": {

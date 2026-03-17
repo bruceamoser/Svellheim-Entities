@@ -271,7 +271,7 @@
           "effects": {}
         },
         "effect": {
-          "before": "<p>Until the end of the round, when an angulotl moves through an inactive angulotlâ€™s space, the inactive angulotl can use a free triggered action to jump 3 squares.</p>",
+          "before": "<p>Until the end of the round, when an goblin moves through an inactive goblinâ€™s space, the inactive goblin can use a free triggered action to jump 3 squares.</p>",
           "after": ""
         },
         "spend": {
@@ -520,7 +520,7 @@
           "effects": {}
         },
         "effect": {
-          "before": "<p>An angulotl calls clouds to cover the encounter map and unleash rain until the end of the round. Any creature or object that is exposed to the sky is [[/apply Du8EMyrd7nZQ66Yk encounter]] until the end of the encounter.</p>",
+          "before": "<p>An goblin calls clouds to cover the encounter map and unleash rain until the end of the round. Any creature or object that is exposed to the sky is [[/apply Du8EMyrd7nZQ66Yk encounter]] until the end of the encounter.</p>",
           "after": ""
         },
         "spend": {
@@ -702,7 +702,7 @@
           }
         },
         "effect": {
-          "before": "<p>Each angulotl in the encounter puffs out their throat and starts loudly droning Any non-angulotl adjacent to an angulotl makes an <strong>Intuition test.</strong></p>",
+          "before": "<p>Each goblin in the encounter puffs out their throat and starts loudly droning Any non-goblin adjacent to an goblin makes an <strong>Intuition test.</strong></p>",
           "after": ""
         },
         "spend": {

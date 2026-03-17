@@ -239,17 +239,17 @@
     },
     {
       "folder": "QCHesWzKjphCQmCU",
-      "name": "Leapfrog",
+      "name": "Burrow Dash",
       "type": "ability",
       "_id": "UZtOR8SSJC71RuS3",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "system": {
         "source": {
           "book": "Monsters",
           "page": "34",
           "license": "Draw Steel Creator License"
         },
-        "_dsid": "leapfrog",
+        "_dsid": "burrow-dash",
         "story": "",
         "keywords": [],
         "type": "none",
@@ -271,7 +271,7 @@
           "effects": {}
         },
         "effect": {
-          "before": "<p>Until the end of the round, when an angulotl moves through an inactive angulotl’s space, the inactive angulotl can use a free triggered action to jump 3 squares.</p>",
+          "before": "<p>Until the end of the round, when a rootgnaw grub moves through an inactive grub's space, the inactive grub can use a free triggered action to burrow 3 squares.</p>",
           "after": ""
         },
         "spend": {
@@ -300,7 +300,7 @@
       "_key": "!actors.items!UIerVsSyMb36Bm4D.UZtOR8SSJC71RuS3"
     },
     {
-      "name": "Nip",
+      "name": "Mandible Nip",
       "type": "ability",
       "system": {
         "type": "main",
@@ -309,7 +309,7 @@
           "page": "35",
           "license": "Draw Steel Creator License"
         },
-        "_dsid": "nip",
+        "_dsid": "mandible-nip",
         "story": "",
         "keywords": [
           "melee",
@@ -389,7 +389,7 @@
         }
       },
       "_id": "oZj88yJp3cJPxc9S",
-      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -492,17 +492,17 @@
       "_key": "!actors.items!UIerVsSyMb36Bm4D.LCVUFvkic3ekh34p"
     },
     {
-      "name": "Rainfall",
+      "name": "Acid Spit",
       "type": "ability",
       "_id": "chuInXNQ28dtiMPI",
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "system": {
         "source": {
           "book": "Monsters",
           "page": "34",
           "license": "Draw Steel Creator License"
         },
-        "_dsid": "rainfall",
+        "_dsid": "acid-spit",
         "story": "",
         "keywords": [],
         "type": "none",
@@ -526,7 +526,7 @@
           "effects": {}
         },
         "effect": {
-          "before": "<p>An angulotl calls clouds to cover the encounter map and unleash rain until the end of the round. Any creature or object that is exposed to the sky is [[/apply Du8EMyrd7nZQ66Yk encounter]] until the end of the encounter.</p>",
+          "before": "<p>A rootgnaw grub spews caustic bile across the encounter. Any creature or object that is exposed is [[/apply Du8EMyrd7nZQ66Yk encounter]] until the end of the round.</p>",
           "after": ""
         },
         "spend": {
@@ -597,17 +597,17 @@
       "_key": "!actors.items!UIerVsSyMb36Bm4D.chuInXNQ28dtiMPI"
     },
     {
-      "name": "Resonating Croak",
+      "name": "Chittering Swarm",
       "type": "ability",
       "_id": "kCADTziPpgpPe7gR",
-      "img": "icons/magic/air/air-wave-gust-blue.webp",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "source": {
           "book": "Monsters",
           "page": "34",
           "license": "Draw Steel Creator License"
         },
-        "_dsid": "resonating-croak",
+        "_dsid": "chittering-swarm",
         "story": "",
         "keywords": [],
         "type": "none",
@@ -708,7 +708,7 @@
           }
         },
         "effect": {
-          "before": "<p>Each angulotl in the encounter puffs out their throat and starts loudly droning Any non-angulotl adjacent to an angulotl makes an <strong>Intuition test.</strong></p>",
+          "before": "<p>Each rootgnaw grub in the encounter clicks its mandibles in a disorienting chorus. Any non-beast creature adjacent to a grub makes an <strong>Intuition test.</strong></p>",
           "after": ""
         },
         "spend": {
