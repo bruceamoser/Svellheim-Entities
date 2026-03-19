@@ -1,7 +1,7 @@
 {
   "name": "Barrow-Wight",
   "type": "npc",
-  "img": "icons/magic/death/undead-skeleton-energy-green.webp",
+  "img": "modules/svellheim-entities/assets/icons/monster-images/barrow-wight.png",
   "system": {
     "stamina": {
       "value": 109,
@@ -660,7 +660,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/magic/death/undead-skeleton-energy-green.webp",
+      "src": "modules/svellheim-entities/assets/icons/monster-images/barrow-wight.png",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
