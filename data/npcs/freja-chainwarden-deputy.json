@@ -1,0 +1,170 @@
+{
+  "_id": "FrejaChainwrd002",
+  "name": "Deputy Freja (Chainwarden)",
+  "type": "hero",
+  "img": "modules/svellheim-entities/assets/icons/npc-images/freja.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "svellheim": {
+      "beat": "Beat 5 — Finding Lew",
+      "location": "Stairwatch, Chainwarden Post"
+    }
+  },
+  "prototypeToken": {
+    "name": "Deputy Freja",
+    "displayName": 40,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "disposition": 1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "modules/svellheim-entities/assets/icons/npc-images/freja.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "items": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.11.1",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "system": {
+    "stamina": {
+      "value": 18,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 0
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 0
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p><strong>Deputy Freja</strong> is the junior Chainwarden at Stairwatch’s post near the Ever-Ember. Young, sharp-eyed, and relentlessly suspicious. She does not drink — not on duty, not off it — and considers this a professional virtue rather than a personal preference.</p><p>Freja is by-the-book in the way people become when they have decided that rules are the only reliable thing in an unreliable world. She fills out forms meticulously, cross-references names against wanted notices, and notices when papers look a little too clean or a little too worn.</p><p>On Lew Tosferd: <em>\"He knows too many people. Nobody knows that many people honestly.\"</em></p>",
+      "director": "<section class=\"secret\"><p>Freja appears in <strong>Beat 5</strong> at the Chainwarden Post alongside Tormund. She is the difficult one in the duo: Tormund will wave people through; Freja will not.</p><p><strong>Key interactions:</strong></p><ul><li>Will carefully inspect any papers the PCs produce. A Reason roll (Moderate, TN 12) to fabricate or present convincingly. She cross-checks against her ledger of recent transit notices.</li><li>Cannot be charmed over a drink or via social ease — Presence rolls have a +2 TN penalty with her specifically. She interprets friendliness as a manipulation tactic.</li><li>Can be won over with <em>evidence</em>: if the PCs cite something verifiable (a letter with a real seal, a name she can check), her Reason score works in their favour rather than against them.</li><li>Suspicious of Lew: she will warn the PCs that “someone who knows too many people” is not always reliable. This is concern, not malice — she genuinely thinks something is off about him.</li><li><strong>Option A (Mine):</strong> Freja knows exactly which miners went in and when. She filed the missing-persons report herself. She will cooperate fully if the PCs commit to investigating — this is <em>official</em> and therefore something she understands.</li></ul><p><strong>Tone:</strong> Tightly wound, not unkind. She’s not obstructing the PCs out of spite — she’s doing her job in a town where the rules are the only thing still standing.</p></section>",
+      "languages": [
+        "myrmal"
+      ],
+      "height": {
+        "value": null,
+        "units": "in"
+      },
+      "weight": {
+        "value": null,
+        "units": "lb"
+      },
+      "age": ""
+    },
+    "movement": {
+      "value": 7,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "recoveries": {
+      "value": 8,
+      "max": 0
+    },
+    "hero": {
+      "primary": {
+        "value": 0
+      },
+      "epic": {
+        "value": 0
+      },
+      "surges": 0,
+      "xp": 0,
+      "victories": 0,
+      "renown": 0,
+      "wealth": 1,
+      "preferredKit": ""
+    },
+    "skills": {
+      "value": [],
+      "modifiers": {}
+    }
+  }
+}
