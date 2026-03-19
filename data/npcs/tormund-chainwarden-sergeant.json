@@ -1,0 +1,171 @@
+{
+  "_id": "TmndChainwrd0001",
+  "name": "Sergeant Tormund (Chainwarden)",
+  "type": "hero",
+  "img": "modules/svellheim-entities/assets/icons/npc-images/tormund.png",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "svellheim": {
+      "beat": "Beat 5 — Finding Lew",
+      "location": "Stairwatch, Chainwarden Post"
+    }
+  },
+  "prototypeToken": {
+    "name": "Sergeant Tormund",
+    "displayName": 40,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "disposition": 1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "modules/svellheim-entities/assets/icons/npc-images/tormund.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "ring": {
+      "enabled": true
+    },
+    "sight": {
+      "enabled": false
+    },
+    "light": {}
+  },
+  "items": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "draw-steel",
+    "systemVersion": "0.11.1",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": null
+  },
+  "system": {
+    "stamina": {
+      "value": 24,
+      "temporary": 0
+    },
+    "characteristics": {
+      "might": {
+        "value": 1
+      },
+      "agility": {
+        "value": 0
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 1
+      },
+      "presence": {
+        "value": 1
+      }
+    },
+    "combat": {
+      "save": {
+        "threshold": 6,
+        "bonus": ""
+      },
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 1,
+      "turns": 1
+    },
+    "biography": {
+      "value": "<p><strong>Sergeant Tormund</strong> is the senior Chainwarden at Stairwatch's small stone post near the Ever-Ember. Broad-shouldered, grey-bearded, and unmistakably bored. He has been stationed in Stairwatch long enough that he knows every face, every regular lie, and exactly how watered the ale at the Broken Stair really is.</p><p>Tormund is competent in the way that men become competent when given nothing dangerous to do for years: thorough, unhurried, and faintly disappointed that nothing ever needs a firm hand. He drinks steadily — not drunkenly — and is far more useful after the first cup than before it.</p><p>He knows Lew Tosferd. <em>\"He’s useful. Keeps to himself. Doesn’t cause trouble I have to write up.\"</em></p>",
+      "director": "<section class=\"secret\"><p>Tormund appears in <strong>Beat 5</strong> at the Chainwarden Post when the PCs enter Stairwatch. He and Deputy Freja will ask to see papers, though Tormund isn’t passionate about it.</p><p><strong>Key interactions:</strong></p><ul><li>Directs PCs to Lew if asked: <em>\"Tosferd? He’s useful. Keeps to himself. Doesn’t cause trouble I have to write up.\"</em></li><li>Will overlook missing or dubious papers if the PCs are personable — a Presence roll (Easy, TN 9) or offering to buy him a drink gets a wave-through.</li><li>Knows most of the town’s gossip. After the papers formality, happy to talk about the mine troubles, Lew’s reputation, or local oddities — if someone actually asks him.</li><li><strong>Option B (Debt Collector):</strong> Tormund knows Rath is in town and is already mildly suspicious of him. Won’t share this freely, but the PCs can get it out of him.</li></ul><p><strong>Tone:</strong> Weary competence. Not hostile, not eager. He just wants the paperwork done so he can sit back down.</p></section>",
+      "languages": [
+        "myrmal",
+        "theFirstLanguage"
+      ],
+      "height": {
+        "value": null,
+        "units": "in"
+      },
+      "weight": {
+        "value": null,
+        "units": "lb"
+      },
+      "age": ""
+    },
+    "movement": {
+      "value": 5,
+      "types": [
+        "walk"
+      ],
+      "hover": false,
+      "disengage": 1
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "statuses": {
+      "immunities": []
+    },
+    "recoveries": {
+      "value": 8,
+      "max": 0
+    },
+    "hero": {
+      "primary": {
+        "value": 0
+      },
+      "epic": {
+        "value": 0
+      },
+      "surges": 0,
+      "xp": 0,
+      "victories": 0,
+      "renown": 0,
+      "wealth": 1,
+      "preferredKit": ""
+    },
+    "skills": {
+      "value": [],
+      "modifiers": {}
+    }
+  }
+}
