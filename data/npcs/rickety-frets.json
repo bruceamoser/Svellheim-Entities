@@ -1,156 +1,172 @@
 {
-  "_id": "ccEfO0KEWlnzc2rp",
-  "name": "Rickety Frets",
-  "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
-  "items": [],
-  "effects": [],
-  "flags": {},
-  "folder": null,
-  "sort": 0,
-  "ownership": {
-    "default": 0
-  },
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.351",
-    "systemId": "draw-steel",
-    "systemVersion": "0.10.0",
-    "createdTime": 0,
-    "modifiedTime": 0,
-    "lastModifiedBy": null
-  },
-  "prototypeToken": {
-    "name": "",
-    "displayName": 40,
-    "actorLink": false,
-    "width": 1,
-    "height": 1,
-    "disposition": -1,
-    "displayBars": 40,
-    "bar1": {
-      "attribute": "stamina"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "texture": {
-      "src": "icons/magic/death/skull-horned-worn-fire-blue.webp",
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "scaleX": 1,
-      "scaleY": 1
-    },
-    "ring": {
-      "enabled": true
-    },
-    "sight": {
-      "enabled": false
-    },
-    "light": {}
-  },
-  "type": "npc",
-  "system": {
-    "stamina": {
-      "value": 36,
-      "max": 36,
-      "temporary": 0
-    },
-    "characteristics": {
-      "might": {
-        "value": 0
-      },
-      "agility": {
-        "value": 2
-      },
-      "reason": {
-        "value": 2
-      },
-      "intuition": {
-        "value": 2
-      },
-      "presence": {
-        "value": 3
-      }
-    },
-    "combat": {
-      "save": {
-        "threshold": 6,
-        "bonus": ""
-      },
-      "size": {
-        "value": 1,
-        "letter": "M"
-      },
-      "stability": 0,
-      "turns": 0
-    },
-    "biography": {
-      "value": "<p>Rickety Frets is a spirit-shade — the anchored ghost of an ancient skald and historian who refused to leave their post in the Bioluminescent Library. They have remained here for centuries, cataloguing Svellheim’s history even as everything they documented died. They are very tall, very thin, and cadaverous. Their robes are faded paper-white. Their hands are perpetually ink-stained. They introduce themselves: “I am Svellheim’s historian when there was a Svellheim worth chronicling. Now I chronicle its ending.”</p>",
-      "director": "<section class=\"secret\"><p><strong>BEAT 12 — The Bioluminescent Library</strong></p><p>Rickety Frets is the spirit/shade of an ancient skald and historian who has remained anchored to the Bioluminescent Library for centuries. They/them pronouns. Cadaverous, paper-colored robes, ink-stained hands. Not fully solid — edges slightly blurred. Voice like old vellum.</p><p><strong>OPENING QUESTIONS (in order, then opens up):</strong></p><ol><li>“What year is it?” (Receives the date with visible grief.)</li><li>“How is the world dying? Is it the cold? The dead? Both?”</li><li>“Is there still a sky? I cannot leave here to look.”</li></ol><p><strong>THE THREE DEMANDS OATH (will not help without this):</strong></p><ol><li>Remember him. Not just his name — remember that someone stayed.</li><li>Send word back. After. Whatever “after” means. A messenger, a letter, anything.</li><li>Protect the Bundingsteinn if found. If it cannot be protected, destroy it so Grafvitnir cannot use it.</li></ol><p><strong>KEY INFORMATION (shares after oath or successful negotiation):</strong></p><ul><li>The Bundingsteinn was stolen 3 weeks ago by a Wyrd-Draugr — a reaching arm through the doorway. Did not cross the threshold.</li><li>“The flame does not burn without fuel. The Keeper serves the flame. You may be asked to give yourself.”</li><li>Reads the Keeper section to Kaelen: “The Keepers didn’t keep the flame. They became the flame.” (Kaelen’s Layer 2 trigger.)</li><li>Route briefing: “The route goes through the Bone-Fields. The boundary is thin there. Do not stop walking.”</li></ul><p><strong>TONE:</strong> Melancholy but not broken. Exactly the right weight of grief. Deeply proud of having held on this long. Quietly terrified that his records will be lost forever. Makes dark jokes about his own condition.</p></section>",
-      "languages": []
-    },
-    "movement": {
-      "value": 5,
-      "types": [
-        "walk"
-      ],
-      "hover": false,
-      "disengage": 1
-    },
-    "damage": {
-      "immunities": {
-        "all": 0,
-        "acid": 0,
-        "cold": 0,
-        "corruption": 0,
-        "fire": 0,
-        "holy": 0,
-        "lightning": 0,
-        "poison": 0,
-        "psychic": 0,
-        "sonic": 0
-      },
-      "weaknesses": {
-        "all": 0,
-        "acid": 0,
-        "cold": 0,
-        "corruption": 0,
-        "fire": 0,
-        "holy": 0,
-        "lightning": 0,
-        "poison": 0,
-        "psychic": 0,
-        "sonic": 0
-      }
-    },
-    "statuses": {
-      "immunities": []
-    },
-    "source": {
-      "book": "Svellheim Campaign (Era of Embers)",
-      "page": "",
-      "license": ""
-    },
-    "negotiation": {
-      "interest": 5,
-      "patience": 5,
-      "motivations": [],
-      "pitfalls": [],
-      "impression": 1
-    },
-    "ev": 4,
-    "monster": {
-      "freeStrike": 3,
-      "keywords": [
-        "spirit",
-        "undead"
-      ],
-      "level": 3,
-      "role": "support",
-      "organization": "platoon"
-    }
-  }
+    "_id":  "ccEfO0KEWlnzc2rp",
+    "name":  "Rickety Frets",
+    "img":  "modules/svellheim-entities/assets/icons/npc-images/rickety.png",
+    "items":  [
+
+              ],
+    "effects":  [
+
+                ],
+    "flags":  {
+
+              },
+    "folder":  null,
+    "sort":  0,
+    "ownership":  {
+                      "default":  0
+                  },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.351",
+                   "systemId":  "draw-steel",
+                   "systemVersion":  "0.10.0",
+                   "createdTime":  0,
+                   "modifiedTime":  0,
+                   "lastModifiedBy":  null
+               },
+    "prototypeToken":  {
+                           "name":  "",
+                           "displayName":  40,
+                           "actorLink":  false,
+                           "width":  1,
+                           "height":  1,
+                           "disposition":  -1,
+                           "displayBars":  40,
+                           "bar1":  {
+                                        "attribute":  "stamina"
+                                    },
+                           "bar2":  {
+                                        "attribute":  null
+                                    },
+                           "texture":  {
+                                           "src":  "modules/svellheim-entities/assets/icons/npc-images/rickety.png",
+                                           "anchorX":  0.5,
+                                           "anchorY":  0.5,
+                                           "fit":  "contain",
+                                           "scaleX":  1,
+                                           "scaleY":  1
+                                       },
+                           "ring":  {
+                                        "enabled":  true
+                                    },
+                           "sight":  {
+                                         "enabled":  false
+                                     },
+                           "light":  {
+
+                                     }
+                       },
+    "type":  "npc",
+    "system":  {
+                   "stamina":  {
+                                   "value":  36,
+                                   "max":  36,
+                                   "temporary":  0
+                               },
+                   "characteristics":  {
+                                           "might":  {
+                                                         "value":  0
+                                                     },
+                                           "agility":  {
+                                                           "value":  2
+                                                       },
+                                           "reason":  {
+                                                          "value":  2
+                                                      },
+                                           "intuition":  {
+                                                             "value":  2
+                                                         },
+                                           "presence":  {
+                                                            "value":  3
+                                                        }
+                                       },
+                   "combat":  {
+                                  "save":  {
+                                               "threshold":  6,
+                                               "bonus":  ""
+                                           },
+                                  "size":  {
+                                               "value":  1,
+                                               "letter":  "M"
+                                           },
+                                  "stability":  0,
+                                  "turns":  0
+                              },
+                   "biography":  {
+                                     "value":  "\u003cp\u003eRickety Frets is a spirit-shade â€” the anchored ghost of an ancient skald and historian who refused to leave their post in the Bioluminescent Library. They have remained here for centuries, cataloguing Svellheimâ€™s history even as everything they documented died. They are very tall, very thin, and cadaverous. Their robes are faded paper-white. Their hands are perpetually ink-stained. They introduce themselves: â€œI am Svellheimâ€™s historian when there was a Svellheim worth chronicling. Now I chronicle its ending.â€\u003c/p\u003e",
+                                     "director":  "\u003csection class=\"secret\"\u003e\u003cp\u003e\u003cstrong\u003eBEAT 12 â€” The Bioluminescent Library\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eRickety Frets is the spirit/shade of an ancient skald and historian who has remained anchored to the Bioluminescent Library for centuries. They/them pronouns. Cadaverous, paper-colored robes, ink-stained hands. Not fully solid â€” edges slightly blurred. Voice like old vellum.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eOPENING QUESTIONS (in order, then opens up):\u003c/strong\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eâ€œWhat year is it?â€ (Receives the date with visible grief.)\u003c/li\u003e\u003cli\u003eâ€œHow is the world dying? Is it the cold? The dead? Both?â€\u003c/li\u003e\u003cli\u003eâ€œIs there still a sky? I cannot leave here to look.â€\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003cstrong\u003eTHE THREE DEMANDS OATH (will not help without this):\u003c/strong\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eRemember him. Not just his name â€” remember that someone stayed.\u003c/li\u003e\u003cli\u003eSend word back. After. Whatever â€œafterâ€ means. A messenger, a letter, anything.\u003c/li\u003e\u003cli\u003eProtect the Bundingsteinn if found. If it cannot be protected, destroy it so Grafvitnir cannot use it.\u003c/li\u003e\u003c/ol\u003e\u003cp\u003e\u003cstrong\u003eKEY INFORMATION (shares after oath or successful negotiation):\u003c/strong\u003e\u003c/p\u003e\u003cul\u003e\u003cli\u003eThe Bundingsteinn was stolen 3 weeks ago by a Wyrd-Draugr â€” a reaching arm through the doorway. Did not cross the threshold.\u003c/li\u003e\u003cli\u003eâ€œThe flame does not burn without fuel. The Keeper serves the flame. You may be asked to give yourself.â€\u003c/li\u003e\u003cli\u003eReads the Keeper section to Kaelen: â€œThe Keepers didnâ€™t keep the flame. They became the flame.â€ (Kaelenâ€™s Layer 2 trigger.)\u003c/li\u003e\u003cli\u003eRoute briefing: â€œThe route goes through the Bone-Fields. The boundary is thin there. Do not stop walking.â€\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003cstrong\u003eTONE:\u003c/strong\u003e Melancholy but not broken. Exactly the right weight of grief. Deeply proud of having held on this long. Quietly terrified that his records will be lost forever. Makes dark jokes about his own condition.\u003c/p\u003e\u003c/section\u003e",
+                                     "languages":  [
+
+                                                   ]
+                                 },
+                   "movement":  {
+                                    "value":  5,
+                                    "types":  [
+                                                  "walk"
+                                              ],
+                                    "hover":  false,
+                                    "disengage":  1
+                                },
+                   "damage":  {
+                                  "immunities":  {
+                                                     "all":  0,
+                                                     "acid":  0,
+                                                     "cold":  0,
+                                                     "corruption":  0,
+                                                     "fire":  0,
+                                                     "holy":  0,
+                                                     "lightning":  0,
+                                                     "poison":  0,
+                                                     "psychic":  0,
+                                                     "sonic":  0
+                                                 },
+                                  "weaknesses":  {
+                                                     "all":  0,
+                                                     "acid":  0,
+                                                     "cold":  0,
+                                                     "corruption":  0,
+                                                     "fire":  0,
+                                                     "holy":  0,
+                                                     "lightning":  0,
+                                                     "poison":  0,
+                                                     "psychic":  0,
+                                                     "sonic":  0
+                                                 }
+                              },
+                   "statuses":  {
+                                    "immunities":  [
+
+                                                   ]
+                                },
+                   "source":  {
+                                  "book":  "Svellheim Campaign (Era of Embers)",
+                                  "page":  "",
+                                  "license":  ""
+                              },
+                   "negotiation":  {
+                                       "interest":  5,
+                                       "patience":  5,
+                                       "motivations":  [
+
+                                                       ],
+                                       "pitfalls":  [
+
+                                                    ],
+                                       "impression":  1
+                                   },
+                   "ev":  4,
+                   "monster":  {
+                                   "freeStrike":  3,
+                                   "keywords":  [
+                                                    "spirit",
+                                                    "undead"
+                                                ],
+                                   "level":  3,
+                                   "role":  "support",
+                                   "organization":  "platoon"
+                               }
+               }
 }
